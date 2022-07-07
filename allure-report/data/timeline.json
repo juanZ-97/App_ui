@@ -1,0 +1,25 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "guozhierdeMacBook-Air.local",
+    "children" : [ {
+      "name" : "69662-MainThread",
+      "children" : [ {
+        "name" : "test_login",
+        "uid" : "1333990754e56074",
+        "parentUid" : "f76bc16f99e1da17a0398d1458f978d5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657177516890,
+          "stop" : 1657177536660,
+          "duration" : 19770
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f76bc16f99e1da17a0398d1458f978d5"
+    } ],
+    "uid" : "4df1809960c6fe0443cdc2db6032134e"
+  } ]
+}

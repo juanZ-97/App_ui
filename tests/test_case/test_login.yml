@@ -1,0 +1,45 @@
+test_login:
+  -
+    method: launchApp # 重启 APP
+  -
+    method: click_shoot_windows
+  -
+    method: sleep
+    element: 3
+  -
+    method: click
+    element: cn.missevan:id/nav_icon_mine
+    name: 点击我的图标
+    is_displayed: True
+  -
+    method: click
+    element: cn.missevan:id/textView5
+    name: 进入登录页
+  -
+    method: click
+    element: cn.missevan:id/passwordLogin
+    name: 点击密码登录
+  -
+    method: set_text
+    element: cn.missevan:id/etPhoneNum
+    text: 17802155756
+    name: 输入账号
+  -
+    method: set_text
+    element: cn.missevan:id/etPassword
+    text: 123456
+    name: 输入密码
+  -
+    method: click
+    element: cn.missevan:id/privacy_checked
+    name: 勾选同意隐私协议
+  -
+    method: click
+    element: cn.missevan:id/login
+    name: 点击登录按钮
+  -
+    method: get_text
+    element: cn.missevan:id/new_personal_yugan
+    name: 判断页面是否有小鱼干字样，确保登录成功进入我的页
+    assert_text: 小鱼干
+

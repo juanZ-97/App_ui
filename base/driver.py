@@ -19,15 +19,15 @@ class Singleton(object):
         if not hasattr(cls, '_instance'):
             udid = Device.get_android_devices()[0]
             host = "http://localhost:4723/wd/hub"
-            desired_caps = {'appActivity': '.SplashActivity',
-                            'appPackage': 'com.sina.weibo',
+            desired_caps = {'appActivity': '.activity.MainActivity',
+                            'appPackage': 'cn.missevan',
                             'autoGrantPermissions': True,
                             'autoLaunch': False,
                             'automationName': 'UiAutomator2',
                             'deviceName': udid,
                             'noReset': True,
                             'platformName': 'Android',
-                            'platformVersion': '9.0',
+                            'platformVersion': '10.0',
                             'udid': udid}
 
             driver = webdriver.Remote(host, desired_caps)

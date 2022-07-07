@@ -8,8 +8,8 @@ import os
 import sys
 import allure
 import pytest
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from base.driver import DriverClient
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 
 @pytest.hookimpl(tryfirst=True, hookwrapper=True)
@@ -24,6 +24,8 @@ def pytest_runtest_makereport(item, call):
         logcat = Action.driver.get_log('logcat')
         c = '\n'.join([i['message'] for i in logcat])
         allure.attach(c, 'APPlog', allure.attachment_type.TEXT)
+        print(Action.get_app_pid())
+        print(Action.apppid)
         if Action.get_app_pid() != Action.apppid:
             raise Exception('设备进程 ID 变化，可能发生崩溃')
 
@@ -39,7 +41,8 @@ def pytest_runtest_call(item):
 def pytest_collect_file(parent, path):
     # 获取文件.yml 文件
     if path.ext == ".yml" and path.basename.startswith("test"):
-        return YamlFile(path, parent)
+        # return YamlFile(path, parent)
+        return YamlFile.from_parent(parent=parent, fspath=path)
 
 
 class YamlFile(pytest.File):
@@ -48,7 +51,8 @@ class YamlFile(pytest.File):
         import yaml
         raw = yaml.safe_load(self.fspath.open(encoding='utf-8'))
         for name, values in raw.items():
-            yield YamlTest(name, self, values)
+            # yield YamlTest(name, self, values)
+            yield YamlTest.from_parent(name=name, values=values, parent=self)
 
 
 @pytest.fixture
