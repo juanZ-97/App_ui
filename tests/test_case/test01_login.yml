@@ -42,4 +42,8 @@ test_login:
     element: cn.missevan:id/new_personal_yugan
     name: 判断页面是否有小鱼干字样，确保登录成功进入我的页
     assert_text: 小鱼干
+  -
+    method: click
+    element: cn.missevan:id/rb_tab_home
+    name: 回到首页
 

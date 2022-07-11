@@ -1,5 +1,25 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TypeError: swipe() missing 3 required positional arguments: 'y1', 'x2', and 'y2'",
+      "children" : [ {
+        "name" : "test_live_consumption",
+        "uid" : "e89dfb4cd88fe2a0",
+        "parentUid" : "0a76080a05ae3cb0770dbcd1dd7f40b2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657276676749,
+          "stop" : 1657276691228,
+          "duration" : 14479
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0a76080a05ae3cb0770dbcd1dd7f40b2"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
 }

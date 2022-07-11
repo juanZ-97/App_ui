@@ -1,2 +1,3 @@
 "Status","Name","Duration in ms","Description"
-"passed","tests.test_case.test_login#test_login","19770","用例开始时间:2022-07-07 15:05:16.890231"
+"broken","tests.test_case.test02_live_consumption#test_live_consumption","14479","用例开始时间:2022-07-08 18:37:56.749235"
+"passed","tests.test_case.test01_login#test_login","24603","用例开始时间:2022-07-08 18:26:00.150745"

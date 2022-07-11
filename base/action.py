@@ -197,6 +197,11 @@ class ElementActions:
         scrolldict = {'direction': 'left', 'element': element.id}
         self.driver.execute_script('mobile: swipe', scrolldict)
 
+    def swipe(self, x1, y1, x2, y2, speed=1000):
+        self.driver.swipe(x1, y1, x2, y2, speed)
+        self.sleep(1)
+        L.i("[滑动给定的距离] ")
+
     def swip_down(self, count=1, method=None, speed=1000):
         """ 向下滑动,常用于下拉刷新
         :param count: 滑动次数

@@ -1,5 +1,5 @@
 {
-  "8f94146face9226314bb3e0a5b79f384" : {
+  "abf00df7609b8fd10cbc5307195d4cb9" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -9,12 +9,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1333990754e56074",
+      "uid" : "413296eb1ab9506a",
       "status" : "passed",
       "time" : {
-        "start" : 1657177516890,
-        "stop" : 1657177536660,
-        "duration" : 19770
+        "start" : 1657275960151,
+        "stop" : 1657275984754,
+        "duration" : 24603
+      }
+    } ]
+  },
+  "a32c4defdc2744328df3cceca82d0537" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e89dfb4cd88fe2a0",
+      "status" : "broken",
+      "statusDetails" : "TypeError: swipe() missing 3 required positional arguments: 'y1', 'x2', and 'y2'",
+      "time" : {
+        "start" : 1657276676749,
+        "stop" : 1657276691228,
+        "duration" : 14479
       }
     } ]
   }

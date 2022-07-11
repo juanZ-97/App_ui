@@ -3,13 +3,25 @@
   "name" : "behaviors",
   "children" : [ {
     "name" : "test_login",
-    "uid" : "1333990754e56074",
+    "uid" : "413296eb1ab9506a",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1657177516890,
-      "stop" : 1657177536660,
-      "duration" : 19770
+      "start" : 1657275960151,
+      "stop" : 1657275984754,
+      "duration" : 24603
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_live_consumption",
+    "uid" : "e89dfb4cd88fe2a0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1657276676749,
+      "stop" : 1657276691228,
+      "duration" : 14479
     },
     "flaky" : true,
     "parameters" : [ ]
