@@ -418,3 +418,19 @@ class ElementActions:
             return False
         except:
             return False
+         
+    def swipe(self, sx, ex, sy, ey):
+        """
+        sx: 滑动起始点的横向位置, 范围(0-1)
+        ex: 滑动终止点的横向位置, 范围(0-1)
+        sy: 滑动起始点的纵向位置, 范围(0-1)
+        ey: 滑动终止点的纵向位置, 范围(0-1)
+
+        """
+        x = self.driver.get_window_size()['width']
+        print(x)
+        y = self.driver.get_window_size()['height']
+        print(y)
+        self.driver.swipe(sx*x, sy*y, ex*x, ey*y, 500)
+        time.sleep(15)
+        
