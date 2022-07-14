@@ -98,7 +98,10 @@ class YamlTest(pytest.Item):
                     response = self.Action.__getattribute__(self.locator.get('method'))(yamldict(self.locator))
                 else:
                     response = self.Action.__getattribute__(self.locator.get('method'))()
-                self.assert_response(response, self.locator)
+                if not self.locator.get('is_not_exist'):
+                    self.assert_response(response, self.locator)
+                else:
+                    self.assert_no_response(response, self.locator)
             except Exception as E:
                 if is_displayed:
                     raise E
@@ -114,6 +117,13 @@ class YamlTest(pytest.Item):
     def assert_response(self, response, locator):
         if locator.get('assert_text'):
             assert locator['assert_text'] in response
+        elif locator.get('assert_element'):
+            assert response
+        
+        def assert_no_response(self, response, locator):
+            """支持校验 text 不存在时的场景，用例中需要添加参数 is_not_exist：True"""
+        if locator.get('assert_text'):
+            assert locator['assert_text'] not in response
         elif locator.get('assert_element'):
             assert response
 
