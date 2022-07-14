@@ -419,18 +419,22 @@ class ElementActions:
         except:
             return False
         
-    def free_swipe(self, element, count=1, speed=1000):
+    def free_swipe(self, element, speed=500):
         """
         sx: 滑动起始点的横向位置, 范围(0-1)
         ex: 滑动终止点的横向位置, 范围(0-1)
         sy: 滑动起始点的纵向位置, 范围(0-1)
         ey: 滑动终止点的纵向位置, 范围(0-1)
-
         """
         sx = element['element'][0]
         ex = element['element'][1]
         sy = element['element'][2]
         ey = element['element'][3]
-        for z in range(count):
+        if len(element['element']) == 5:
+            for z in range(element['element'][4]):
+                L.i(f"开始第{z}次自定义滑动")
+                time.sleep(2)
+                self.driver.swipe(sx * self.width, sy * self.height, ex * self.width, ey * self.height, speed)
+        else:
             L.i("开始自定义滑动")
-            return self.driver.swipe(sx * self.width, sy * self.height, ex * self.width, ey * self.height, speed)
+            self.driver.swipe(sx * self.width, sy * self.height, ex * self.width, ey * self.height, speed)
