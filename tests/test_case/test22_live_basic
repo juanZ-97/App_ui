@@ -50,6 +50,15 @@ test22_live_basic:
   method: back_press
 -
   method: click
+  element: cn.missevan:id/avatar
+  name: 打开主播名片
+-
+  method: _find_element
+  element: cn.missevan:id/user_avatar
+-
+  method: back_press
+-
+  method: click
   element: cn.missevan:id/room_intro
   name: 打开直播间简介
 -
