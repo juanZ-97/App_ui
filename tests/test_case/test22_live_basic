@@ -179,3 +179,33 @@ test22_live_basic:
 -
   method: click
   element: cn.missevan:id/confirm
+-
+  method: click
+  element: cn.missevan:id/card_status
+-
+  method: click
+  element: cn.missevan:id/card_live_center
+-
+  method: click
+  element: cn.missevan:id/fans_badge
+-
+  method: click
+  element: cn.missevan:id/tv_operate
+-
+  method: click
+  element: cn.missevan:id/tv_confirm
+-
+  method: get_text
+  element: cn.missevan:id/tv_operate
+  text: 佩戴
+-
+  method: click
+  element: cn.missevan:id/tv_operate
+-
+  method: get_text
+  element: cn.missevan:id/tv_operate
+  text: 卸下
+-
+  method: back_press
+-
+  method: back_press
