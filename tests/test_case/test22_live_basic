@@ -1,4 +1,8 @@
 test22_live_basic:
+'''
+测试直播间相关功能需要登录账号：18651086262 / 123456
+同时保证 uat 直播间 425787371 在开播状态
+'''
 -
   method: launchApp
   name: 重启 App
@@ -22,6 +26,9 @@ test22_live_basic:
   method: click
   element: cn.missevan:id/live_cover
   name: 进入直播间
+-
+  method: sleep
+  element: 3
 -
   method: click
   element: cn.missevan:id/show_edit
@@ -137,6 +144,38 @@ test22_live_basic:
 -
   method: _find_element
   element: cn.missevan:id/txt_gift_intro
+-
+  method: click
+  element: cn.missevan:id/gift_send
+-
+  method: get_text
+  element: cn.missevan:id/tv_gift_name
+  assert_text: 送出
+-
+  method: click
+  element: cn.missevan:id/avatar
+-
+  method: click
+  element: cn.missevan:id/action_more
+-
+  method: click
+  element: cn.missevan:id/tvAction
+  index: 2
+-
+  method: click
+  element: cn.missevan:id/ask
+-
+  method: set_text
+  element: cn.missevan:id/question_content
+  text: 这是一个测试提问/这是一个测试提问/这是一个测试提问/这是一个测试提问/这是一个测试提问
+-
+  method: back_press
+-
+  method: click
+  element: cn.missevan:id/ask_immediate
+-
+  method: _find_element
+  element: cn.missevan:id/tvNumsAndCost
 -
   method: back_press
 -
