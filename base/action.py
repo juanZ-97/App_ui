@@ -432,7 +432,7 @@ class ElementActions:
         ey = element['element'][3]
         if len(element['element']) == 5:
             for z in range(element['element'][4]):
-                L.i(f"开始第{z}次自定义滑动")
+                L.i(f"开始第{z+1}次自定义滑动")
                 time.sleep(2)
                 self.driver.swipe(sx * self.width, sy * self.height, ex * self.width, ey * self.height, speed)
         else:
