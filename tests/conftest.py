@@ -120,8 +120,8 @@ class YamlTest(pytest.Item):
         elif locator.get('assert_element'):
             assert response
         
-        def assert_no_response(self, response, locator):
-            """支持校验 text 不存在时的场景，用例中需要添加参数 is_not_exist：True"""
+    def assert_no_response(self, response, locator):
+        """支持校验 text 不存在时的场景，用例中需要添加参数 is_not_exist：True"""
         if locator.get('assert_text'):
             assert locator['assert_text'] not in response
         elif locator.get('assert_element'):
