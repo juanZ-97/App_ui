@@ -5,11 +5,11 @@
     "name" : "tests.test_case",
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 6,
       "unknown" : 0,
-      "total" : 2
+      "total" : 8
     }
   } ]
 }

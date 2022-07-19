@@ -1,0 +1,79 @@
+{
+  "uid" : "6d909ed5aa78bc08",
+  "name" : "play_01",
+  "fullName" : "tests.test_case.test#play_01",
+  "historyId" : "1d088665d1726cf633a44224e56a9385",
+  "time" : {
+    "start" : 1657539114211,
+    "stop" : 1657539114318,
+    "duration" : 107
+  },
+  "description" : "用例开始时间:2022-07-11 19:31:54.211026",
+  "descriptionHtml" : "<p>用例开始时间:2022-07-11 19:31:54.211026</p>\n",
+  "status" : "broken",
+  "statusMessage" : "ValueError: could not convert string to float: 'method'",
+  "statusTrace" : "测试类名称：play_01 \n输入参数：{'method': 'set_number_by_soft_keyboard', 'element': 1, 'name': '点击回车键进行搜索', 'time': 5, 'type': 'accessibility id'} \n错误信息：(\"could not convert string to float: 'method'\",)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "用例开始时间:2022-07-11 19:31:54.211026",
+    "status" : "broken",
+    "statusMessage" : "ValueError: could not convert string to float: 'method'",
+    "statusTrace" : "测试类名称：play_01 \n输入参数：{'method': 'set_number_by_soft_keyboard', 'element': 1, 'name': '点击回车键进行搜索', 'time': 5, 'type': 'accessibility id'} \n错误信息：(\"could not convert string to float: 'method'\",)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a16e75a6fa5c71ab",
+      "name" : "失败截图",
+      "source" : "a16e75a6fa5c71ab.png",
+      "type" : "image/png",
+      "size" : 166116
+    }, {
+      "uid" : "c83346f0d756559d",
+      "name" : "APPlog",
+      "source" : "c83346f0d756559d.txt",
+      "type" : "text/plain",
+      "size" : 1283133
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test"
+  }, {
+    "name" : "host",
+    "value" : "guozhierdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "43735-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_case.test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6d909ed5aa78bc08.json",
+  "parameterValues" : [ ]
+}

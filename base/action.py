@@ -10,6 +10,7 @@ from appium import webdriver
 from appium.webdriver.common.touch_action import TouchAction
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
+import os
 
 from utils import L
 
@@ -91,11 +92,13 @@ class ElementActions:
     def set_keycode_search(self):
         """ 搜索键
         """
+        self._set_key()  # 此方法原为使 set_keycode_enter 生效新增的方法，若使用到此无法生效，可删除
         self._send_key_event('KEYCODE_SEARCH')
 
     def set_keycode_enter(self):
         """ 回车键
         """
+        self._set_key()
         self._send_key_event('KEYCODE_ENTER')
 
     def clear(self):
@@ -281,9 +284,9 @@ class ElementActions:
             false: 不显示
         """
         try:
-            return WebDriverWait(self.driver, 2).until(
+            return WebDriverWait(self.driver, 1).until(
                 lambda driver: self._get_element_by_type(driver, locator),
-                '查找元素{0}失败'.format(locator.get('name'))) if element else WebDriverWait(self.driver, 2).until(
+                '查找元素{0}失败'.format(locator.get('name'))) if element else WebDriverWait(self.driver, 1).until(
                 lambda driver: self._get_element_by_type(driver, locator, element_type=False),
                 '查找元素{0}失败'.format(locator.get('name')))
 
@@ -357,6 +360,7 @@ class ElementActions:
         if arg == 'KEYCODE_NUM':
             self.driver.press_keycode(8 + int(num))
         elif arg in event_list:
+            print(arg)
             self.driver.press_keycode(int(event_list[arg]))
 
     def _set_network(self, arg):
@@ -366,6 +370,16 @@ class ElementActions:
         """
         event_list = {'Nonetwork': 0, 'Airplane': 1, 'wifi': 2, 'network': 4, 'Allnetwork': 6}
         self.driver.set_network_connection(event_list[arg])
+
+    def _set_key(self):
+        # 调起搜狗输入法
+        os.system('adb shell ime set com.sohu.inputmethod.sogou/.SogouIME')
+        # time.sleep(1)
+        # 输入回车键
+        self.driver.press_keycode(66)
+        # time.sleep(1)
+        # 最后调起appium的输入法
+        os.system('adb shell ime set io.appium.settings/.UnicodeIME')
 
     def photograph(self):
         """不同系统手机拍照+确认"""

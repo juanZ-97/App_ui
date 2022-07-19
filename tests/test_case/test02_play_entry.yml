@@ -1,0 +1,100 @@
+play_01:
+  # 首页 - 广播剧 tab 进入剧集页
+  -
+    method: swip_left
+    name: 右滑至首页 - 广播剧 tab
+  -
+    method: click
+    element: cn.missevan:id/title
+    index: 0
+    name: 点击热门推荐下第一个广播剧
+  -
+    method: is_element_displayed
+    element: cn.missevan:id/card
+    name: 验证当前页面是否为剧集页
+  # 搜索 - 广播剧进入剧集页
+  -
+    method: back_press
+    name: 返回到首页
+  -
+    method: click
+    element: cn.missevan:id/fl_search
+    name: 点击搜索栏
+  -
+    method: set_text
+    element: cn.missevan:id/et_search
+    text: 偷偷藏不住
+    name: 输入搜索文案
+  -
+    method: set_keycode_enter
+    name: 点击回车键进行搜索
+  -
+    method: click
+    element: cn.missevan:id/cover
+    index: 0
+    name: 点击综合搜索下第一个广播剧封面
+  -
+    method: is_element_displayed
+    element: cn.missevan:id/card
+    name: 验证当前页面是否为剧集页
+
+  # 点击热搜词进入剧集页
+  -
+    method: back_press
+    name: 返回到上一页
+  -
+    method: back_press
+    name: 返回到首页
+  -
+    method: click
+    element: cn.missevan:id/fl_search
+    name: 点击搜索栏
+  -
+    method: click
+    element: cn.missevan:id/tv_tag
+    index: 0
+    name: 点击第一个热搜词
+  -
+    method: click
+    element: cn.missevan:id/cover
+    index: 0
+    name: 点击综合搜索下第一个广播剧封面
+  -
+    method: is_element_displayed
+    element: cn.missevan:id/card
+    name: 验证当前页面是否为剧集页
+
+  # 进入音频播放页
+  -
+    method: click
+    element: cn.missevan:id/title
+    index: 1
+    name: 剧集页点击一音频进入其音频播放页
+  -
+    method: is_element_displayed
+    element: cn.missevan:id/playViewsContainer
+    name: 验证页面是否存在播放视图容器
+  -
+    method: back_press
+    name: 返回到剧集详情页
+  -
+    method: back_press
+    name: 返回到搜索页
+  -
+    method: back_press
+    name: 返回到首页
+
+  # 进入音频播放页
+  -
+    method: is_element_displayed
+    element: cn.missevan:id/play_cat
+    name: 验证首页是否有播放喵
+  -
+    method: click
+    element: cn.missevan:id/play_cat
+    name: 点击播放喵回到播放页
+  -
+    method: is_element_displayed
+    element: cn.missevan:id/playViewsContainer
+    name: 验证页面是否存在播放视图容器
+

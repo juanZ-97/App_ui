@@ -1,4 +1,4 @@
-test_login:
+login:
   -
     method: launchApp # 重启 APP
   -
@@ -42,6 +42,26 @@ test_login:
     element: cn.missevan:id/new_personal_yugan
     name: 判断页面是否有小鱼干字样，确保登录成功进入我的页
     assert_text: 小鱼干
+  -
+    method: click
+    element: cn.missevan:id/iv_settings
+    name: 点击我的页 - 设置按钮
+  -
+    method: swip_up
+    name: 向上滑动
+  -
+    method: click
+    element: cn.missevan:id/logout
+    name: 点击退出登录
+  -
+    method: click
+    element: cn.missevan:id/tv_sure
+    name: 确认退出
+  -
+    method: get_text
+    element: cn.missevan:id/textView5
+    name: 获取「点击登录」文字
+    assert_text: 点击登录
   -
     method: click
     element: cn.missevan:id/rb_tab_home

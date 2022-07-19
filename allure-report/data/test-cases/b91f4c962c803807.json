@@ -1,0 +1,180 @@
+{
+  "uid" : "b91f4c962c803807",
+  "name" : "test_live_consumption",
+  "fullName" : "tests.test_case.test02_live_consumption#test_live_consumption",
+  "historyId" : "a32c4defdc2744328df3cceca82d0537",
+  "time" : {
+    "start" : 1657524930185,
+    "stop" : 1657524944853,
+    "duration" : 14668
+  },
+  "description" : "用例开始时间:2022-07-11 15:35:30.184693",
+  "descriptionHtml" : "<p>用例开始时间:2022-07-11 15:35:30.184693</p>\n",
+  "status" : "broken",
+  "statusMessage" : "TypeError: swipe() missing 3 required positional arguments: 'y1', 'x2', and 'y2'",
+  "statusTrace" : "测试类名称：test_live_consumption \n输入参数：{'method': 'swipe', 'element': '575,2050,575,1520', 'time': 5, 'type': 'accessibility id'} \n错误信息：(\"swipe() missing 3 required positional arguments: 'y1', 'x2', and 'y2'\",)",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "用例开始时间:2022-07-11 15:35:30.184693",
+    "status" : "broken",
+    "statusMessage" : "TypeError: swipe() missing 3 required positional arguments: 'y1', 'x2', and 'y2'",
+    "statusTrace" : "测试类名称：test_live_consumption \n输入参数：{'method': 'swipe', 'element': '575,2050,575,1520', 'time': 5, 'type': 'accessibility id'} \n错误信息：(\"swipe() missing 3 required positional arguments: 'y1', 'x2', and 'y2'\",)",
+    "steps" : [ {
+      "name" : "重启应用程序",
+      "time" : {
+        "start" : 1657524930290,
+        "stop" : 1657524931785,
+        "duration" : 1495
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "检查：'首页直播 tab'",
+      "time" : {
+        "start" : 1657524931785,
+        "stop" : 1657524936185,
+        "duration" : 4400
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "检查：'点击第一个直播间'",
+      "time" : {
+        "start" : 1657524937751,
+        "stop" : 1657524938646,
+        "duration" : 895
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "检查：'礼物按钮'",
+      "time" : {
+        "start" : 1657524940242,
+        "stop" : 1657524944794,
+        "duration" : 4552
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "a3d7b79a7e274221",
+      "name" : "失败截图",
+      "source" : "a3d7b79a7e274221.png",
+      "type" : "image/png",
+      "size" : 1989375
+    }, {
+      "uid" : "2bb2150be341872c",
+      "name" : "APPlog",
+      "source" : "2bb2150be341872c.txt",
+      "type" : "text/plain",
+      "size" : 1299518
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test02_live_consumption"
+  }, {
+    "name" : "host",
+    "value" : "guozhierdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "39056-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_case.test02_live_consumption"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3d4399f4701ca3fc",
+      "status" : "broken",
+      "statusDetails" : "TypeError: swipe() missing 3 required positional arguments: 'y1', 'x2', and 'y2'",
+      "time" : {
+        "start" : 1657276676749,
+        "stop" : 1657276691228,
+        "duration" : 14479
+      }
+    }, {
+      "uid" : "63e6097386c23ed0",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ElementActions' object has no attribute 'swipe(575, 2050, 575, 1520)'",
+      "time" : {
+        "start" : 1657276529221,
+        "stop" : 1657276541840,
+        "duration" : 12619
+      }
+    }, {
+      "uid" : "516d389df2b1c823",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657276134481,
+        "stop" : 1657276162647,
+        "duration" : 28166
+      }
+    }, {
+      "uid" : "fbd54a5144b87770",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ElementActions' object has no attribute 'swip_down(self)'",
+      "time" : {
+        "start" : 1657275863045,
+        "stop" : 1657275870032,
+        "duration" : 6987
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b91f4c962c803807.json",
+  "parameterValues" : [ ]
+}

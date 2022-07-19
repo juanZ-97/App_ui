@@ -1,0 +1,118 @@
+{
+  "uid" : "3d8cb526b85537d9",
+  "name" : "module_name",
+  "fullName" : "tests.test_case.test#module_name",
+  "historyId" : "5955122f2089f780149d761934104aa0",
+  "time" : {
+    "start" : 1657596690569,
+    "stop" : 1657596727665,
+    "duration" : 37096
+  },
+  "description" : "用例开始时间:2022-07-12 11:31:30.569380",
+  "descriptionHtml" : "<p>用例开始时间:2022-07-12 11:31:30.569380</p>\n",
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "用例开始时间:2022-07-12 11:31:30.569380",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "检查：'剧集页点击一音频进入其音频播放页'",
+      "time" : {
+        "start" : 1657596690678,
+        "stop" : 1657596690858,
+        "duration" : 180
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "检查：'点击播放喵回到播放页'",
+      "time" : {
+        "start" : 1657596706008,
+        "stop" : 1657596707285,
+        "duration" : 1277
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "1e89865e4756497",
+      "name" : "stdout",
+      "source" : "1e89865e4756497.txt",
+      "type" : "text/plain",
+      "size" : 204
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test"
+  }, {
+    "name" : "host",
+    "value" : "guozhierdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "57348-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_case.test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "48cfd023457a8a40",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
+      "time" : {
+        "start" : 1657596672343,
+        "stop" : 1657596677927,
+        "duration" : 5584
+      }
+    }, {
+      "uid" : "d98ce2eff1eba6fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657596583508,
+        "stop" : 1657596610684,
+        "duration" : 27176
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3d8cb526b85537d9.json",
+  "parameterValues" : [ ]
+}

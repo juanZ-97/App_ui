@@ -1,5 +1,5 @@
 {
-  "abf00df7609b8fd10cbc5307195d4cb9" : {
+  "61ae2d34426efd8580b7c3f777b740b2" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -9,12 +9,69 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "413296eb1ab9506a",
+      "uid" : "57abd6c603e1344f",
       "status" : "passed",
       "time" : {
-        "start" : 1657275960151,
-        "stop" : 1657275984754,
-        "duration" : 24603
+        "start" : 1657595246490,
+        "stop" : 1657595270427,
+        "duration" : 23937
+      }
+    } ]
+  },
+  "5955122f2089f780149d761934104aa0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3d8cb526b85537d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657596690569,
+        "stop" : 1657596727665,
+        "duration" : 37096
+      }
+    } ]
+  },
+  "1d088665d1726cf633a44224e56a9385" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "743f71d6bf3f4bec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657593965993,
+        "stop" : 1657593966844,
+        "duration" : 851
+      }
+    } ]
+  },
+  "9fde5d04cda6165f0d329e2471dc88bd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e87e05392fbe19de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657534315333,
+        "stop" : 1657534345343,
+        "duration" : 30010
       }
     } ]
   },
@@ -28,13 +85,71 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e89dfb4cd88fe2a0",
+      "uid" : "b91f4c962c803807",
       "status" : "broken",
       "statusDetails" : "TypeError: swipe() missing 3 required positional arguments: 'y1', 'x2', and 'y2'",
       "time" : {
-        "start" : 1657276676749,
-        "stop" : 1657276691228,
-        "duration" : 14479
+        "start" : 1657524930185,
+        "stop" : 1657524944853,
+        "duration" : 14668
+      }
+    } ]
+  },
+  "abf00df7609b8fd10cbc5307195d4cb9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b71b0a6aeb239321",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657275960151,
+        "stop" : 1657275984754,
+        "duration" : 24603
+      }
+    } ]
+  },
+  "eb826bd962e94ba3f369c31f96a14a71" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ae90943120980793",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657595460286,
+        "stop" : 1657595481378,
+        "duration" : 21092
+      }
+    } ]
+  },
+  "accd3a8e2e9a01edc0526115f4ba41e1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9cd4c9c52f824c2f",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ElementActions' object has no attribute 'free_swipe'",
+      "time" : {
+        "start" : 1657796182078,
+        "stop" : 1657796194128,
+        "duration" : 12050
       }
     } ]
   }

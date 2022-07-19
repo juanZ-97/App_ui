@@ -1,0 +1,177 @@
+{
+  "uid" : "366e9d4ff5dbfc14",
+  "name" : "play_01",
+  "fullName" : "tests.test_case.test02_play_01#play_01",
+  "historyId" : "61ae2d34426efd8580b7c3f777b740b2",
+  "time" : {
+    "start" : 1657537625328,
+    "stop" : 1657537642413,
+    "duration" : 17085
+  },
+  "description" : "用例开始时间:2022-07-11 19:07:05.328208",
+  "descriptionHtml" : "<p>用例开始时间:2022-07-11 19:07:05.328208</p>\n",
+  "status" : "broken",
+  "statusMessage" : "Exception: 页面中未能找到 [点击综合搜索下第一个广播剧封面]",
+  "statusTrace" : "测试类名称：play_01 \n输入参数：{'method': 'click', 'element': 'cn.missevan:id/cover', 'index': 0, 'name': '点击综合搜索下第一个广播剧封面', 'time': 5, 'type': 'id'} \n错误信息：('页面中未能找到 [点击综合搜索下第一个广播剧封面]',)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "用例开始时间:2022-07-11 19:07:05.328208",
+    "status" : "broken",
+    "statusMessage" : "Exception: 页面中未能找到 [点击综合搜索下第一个广播剧封面]",
+    "statusTrace" : "测试类名称：play_01 \n输入参数：{'method': 'click', 'element': 'cn.missevan:id/cover', 'index': 0, 'name': '点击综合搜索下第一个广播剧封面', 'time': 5, 'type': 'id'} \n错误信息：('页面中未能找到 [点击综合搜索下第一个广播剧封面]',)",
+    "steps" : [ {
+      "name" : "检查：'点击热门推荐下第一个广播剧'",
+      "time" : {
+        "start" : 1657537630063,
+        "stop" : 1657537630290,
+        "duration" : 227
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "检查：'点击搜索栏'",
+      "time" : {
+        "start" : 1657537632534,
+        "stop" : 1657537632722,
+        "duration" : 188
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "检查：'输入搜索文案'",
+      "time" : {
+        "start" : 1657537633393,
+        "stop" : 1657537633491,
+        "duration" : 98
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "输入元素：偷偷藏不住",
+      "time" : {
+        "start" : 1657537635070,
+        "stop" : 1657537635816,
+        "duration" : 746
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "检查：'输入搜索文案'",
+        "time" : {
+          "start" : 1657537635071,
+          "stop" : 1657537635131,
+          "duration" : 60
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "检查：'点击综合搜索下第一个广播剧封面'",
+      "time" : {
+        "start" : 1657537637130,
+        "stop" : 1657537642407,
+        "duration" : 5277
+      },
+      "status" : "broken",
+      "statusMessage" : "Exception: 页面中未能找到 [点击综合搜索下第一个广播剧封面]\n",
+      "statusTrace" : "  File \"/Users/guozhi/PycharmProjects/YamlAppium/base/action.py\", line 316, in _find_element\n    raise Exception(\"页面中未能找到 [%s]\" % locator.get('name'))\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "341d9115090a5ba8",
+      "name" : "失败截图",
+      "source" : "341d9115090a5ba8.png",
+      "type" : "image/png",
+      "size" : 131578
+    }, {
+      "uid" : "493ea20bf9dd7b68",
+      "name" : "APPlog",
+      "source" : "493ea20bf9dd7b68.txt",
+      "type" : "text/plain",
+      "size" : 1318954
+    }, {
+      "uid" : "8bbec337d7d8f979",
+      "name" : "stdout",
+      "source" : "8bbec337d7d8f979.txt",
+      "type" : "text/plain",
+      "size" : 1202
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test02_play_01"
+  }, {
+    "name" : "host",
+    "value" : "guozhierdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "42607-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_case.test02_play_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "366e9d4ff5dbfc14.json",
+  "parameterValues" : [ ]
+}

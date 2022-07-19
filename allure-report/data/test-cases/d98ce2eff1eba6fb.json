@@ -1,0 +1,99 @@
+{
+  "uid" : "d98ce2eff1eba6fb",
+  "name" : "module_name",
+  "fullName" : "tests.test_case.test#module_name",
+  "historyId" : "5955122f2089f780149d761934104aa0",
+  "time" : {
+    "start" : 1657596583508,
+    "stop" : 1657596610684,
+    "duration" : 27176
+  },
+  "description" : "用例开始时间:2022-07-12 11:29:43.507893",
+  "descriptionHtml" : "<p>用例开始时间:2022-07-12 11:29:43.507893</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "用例开始时间:2022-07-12 11:29:43.507893",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "检查：'剧集页点击一音频进入其音频播放页'",
+      "time" : {
+        "start" : 1657596583608,
+        "stop" : 1657596583871,
+        "duration" : 263
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "检查：'点击播放喵回到播放页'",
+      "time" : {
+        "start" : 1657596599956,
+        "stop" : 1657596600518,
+        "duration" : 562
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "a41f7b7bba2f13f",
+      "name" : "stdout",
+      "source" : "a41f7b7bba2f13f.txt",
+      "type" : "text/plain",
+      "size" : 204
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test"
+  }, {
+    "name" : "host",
+    "value" : "guozhierdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "57130-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_case.test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d98ce2eff1eba6fb.json",
+  "parameterValues" : [ ]
+}

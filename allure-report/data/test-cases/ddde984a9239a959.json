@@ -1,0 +1,52 @@
+{
+  "uid" : "ddde984a9239a959",
+  "name" : "play_01",
+  "fullName" : "tests.test_case.test#play_01",
+  "historyId" : "1d088665d1726cf633a44224e56a9385",
+  "time" : {
+    "start" : 1657538386047,
+    "stop" : 1657538386375,
+    "duration" : 328
+  },
+  "description" : "用例开始时间:2022-07-11 19:19:46.047239",
+  "descriptionHtml" : "<p>用例开始时间:2022-07-11 19:19:46.047239</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test"
+  }, {
+    "name" : "host",
+    "value" : "guozhierdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "43266-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_case.test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ddde984a9239a959.json",
+  "parameterValues" : [ ]
+}

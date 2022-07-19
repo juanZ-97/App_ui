@@ -1,0 +1,212 @@
+{
+  "uid" : "ae90943120980793",
+  "name" : "play_01",
+  "fullName" : "tests.test_case.test02_play_entry#play_01",
+  "historyId" : "eb826bd962e94ba3f369c31f96a14a71",
+  "time" : {
+    "start" : 1657595460286,
+    "stop" : 1657595481378,
+    "duration" : 21092
+  },
+  "description" : "用例开始时间:2022-07-12 11:11:00.286386",
+  "descriptionHtml" : "<p>用例开始时间:2022-07-12 11:11:00.286386</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "用例开始时间:2022-07-12 11:11:00.286386",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "检查：'点击热门推荐下第一个广播剧'",
+      "time" : {
+        "start" : 1657595464990,
+        "stop" : 1657595465375,
+        "duration" : 385
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "检查：'点击搜索栏'",
+      "time" : {
+        "start" : 1657595467562,
+        "stop" : 1657595468022,
+        "duration" : 460
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "检查：'输入搜索文案'",
+      "time" : {
+        "start" : 1657595468369,
+        "stop" : 1657595469405,
+        "duration" : 1036
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "输入元素：偷偷藏不住",
+      "time" : {
+        "start" : 1657595469965,
+        "stop" : 1657595470690,
+        "duration" : 725
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "检查：'输入搜索文案'",
+        "time" : {
+          "start" : 1657595469965,
+          "stop" : 1657595470024,
+          "duration" : 59
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "检查：'点击综合搜索下第一个广播剧封面'",
+      "time" : {
+        "start" : 1657595472023,
+        "stop" : 1657595473376,
+        "duration" : 1353
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "检查：'点击搜索栏'",
+      "time" : {
+        "start" : 1657595476617,
+        "stop" : 1657595477378,
+        "duration" : 761
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "检查：'点击第一个热搜词'",
+      "time" : {
+        "start" : 1657595477444,
+        "stop" : 1657595478356,
+        "duration" : 912
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "检查：'点击综合搜索下第一个广播剧封面'",
+      "time" : {
+        "start" : 1657595479677,
+        "stop" : 1657595479754,
+        "duration" : 77
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "edb351759b0a89fd",
+      "name" : "stdout",
+      "source" : "edb351759b0a89fd.txt",
+      "type" : "text/plain",
+      "size" : 390
+    }, {
+      "uid" : "7b0b2964c785906e",
+      "name" : "stderr",
+      "source" : "7b0b2964c785906e.txt",
+      "type" : "text/plain",
+      "size" : 89
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test02_play_entry"
+  }, {
+    "name" : "host",
+    "value" : "guozhierdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "56776-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_case.test02_play_entry"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ae90943120980793.json",
+  "parameterValues" : [ ]
+}

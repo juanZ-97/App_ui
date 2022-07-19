@@ -1,0 +1,361 @@
+{
+  "uid" : "57abd6c603e1344f",
+  "name" : "play_01",
+  "fullName" : "tests.test_case.test02_play_01#play_01",
+  "historyId" : "61ae2d34426efd8580b7c3f777b740b2",
+  "time" : {
+    "start" : 1657595246490,
+    "stop" : 1657595270427,
+    "duration" : 23937
+  },
+  "description" : "用例开始时间:2022-07-12 11:07:26.490126",
+  "descriptionHtml" : "<p>用例开始时间:2022-07-12 11:07:26.490126</p>\n",
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "用例开始时间:2022-07-12 11:07:26.490126",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "检查：'点击热门推荐下第一个广播剧'",
+      "time" : {
+        "start" : 1657595251189,
+        "stop" : 1657595251634,
+        "duration" : 445
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "检查：'点击搜索栏'",
+      "time" : {
+        "start" : 1657595253888,
+        "stop" : 1657595254335,
+        "duration" : 447
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "检查：'输入搜索文案'",
+      "time" : {
+        "start" : 1657595254714,
+        "stop" : 1657595254808,
+        "duration" : 94
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "输入元素：偷偷藏不住",
+      "time" : {
+        "start" : 1657595256712,
+        "stop" : 1657595257445,
+        "duration" : 733
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "检查：'输入搜索文案'",
+        "time" : {
+          "start" : 1657595256712,
+          "stop" : 1657595256767,
+          "duration" : 55
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "检查：'点击综合搜索下第一个广播剧封面'",
+      "time" : {
+        "start" : 1657595261715,
+        "stop" : 1657595263017,
+        "duration" : 1302
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "检查：'点击搜索栏'",
+      "time" : {
+        "start" : 1657595266289,
+        "stop" : 1657595267094,
+        "duration" : 805
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "检查：'点击第一个热搜词'",
+      "time" : {
+        "start" : 1657595267138,
+        "stop" : 1657595268031,
+        "duration" : 893
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "检查：'点击综合搜索下第一个广播剧封面'",
+      "time" : {
+        "start" : 1657595268068,
+        "stop" : 1657595269396,
+        "duration" : 1328
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "d234c2459453a04e",
+      "name" : "stdout",
+      "source" : "d234c2459453a04e.txt",
+      "type" : "text/plain",
+      "size" : 390
+    }, {
+      "uid" : "4cfa3d39551265b4",
+      "name" : "stderr",
+      "source" : "4cfa3d39551265b4.txt",
+      "type" : "text/plain",
+      "size" : 89
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test02_play_01"
+  }, {
+    "name" : "host",
+    "value" : "guozhierdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "56606-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_case.test02_play_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9378523a14e934eb",
+      "status" : "broken",
+      "statusDetails" : "Exception: 页面中未能找到 [点击综合搜索下第一个广播剧封面]",
+      "time" : {
+        "start" : 1657595199730,
+        "stop" : 1657595220246,
+        "duration" : 20516
+      }
+    }, {
+      "uid" : "7a76e04f4b87b066",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ElementActions' object has no attribute 'set_keycode_serach'",
+      "time" : {
+        "start" : 1657595159629,
+        "stop" : 1657595171755,
+        "duration" : 12126
+      }
+    }, {
+      "uid" : "c856902f7dfe84f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657594975767,
+        "stop" : 1657595001707,
+        "duration" : 25940
+      }
+    }, {
+      "uid" : "5485e1aeed4d71aa",
+      "status" : "broken",
+      "statusDetails" : "Exception: 页面中未能找到 [点击综合搜索下第一个广播剧封面]",
+      "time" : {
+        "start" : 1657594940662,
+        "stop" : 1657594960481,
+        "duration" : 19819
+      }
+    }, {
+      "uid" : "45f0761e60ed830e",
+      "status" : "broken",
+      "statusDetails" : "Exception: 页面中未能找到 [点击综合搜索下第一个广播剧封面]",
+      "time" : {
+        "start" : 1657594758313,
+        "stop" : 1657594776584,
+        "duration" : 18271
+      }
+    }, {
+      "uid" : "ec2175203da761df",
+      "status" : "broken",
+      "statusDetails" : "Exception: 页面中未能找到 [点击搜索栏]",
+      "time" : {
+        "start" : 1657594659670,
+        "stop" : 1657594676399,
+        "duration" : 16729
+      }
+    }, {
+      "uid" : "375579ebc6f68965",
+      "status" : "broken",
+      "statusDetails" : "Exception: 页面中未能找到 [点击搜索栏]",
+      "time" : {
+        "start" : 1657594610663,
+        "stop" : 1657594627715,
+        "duration" : 17052
+      }
+    }, {
+      "uid" : "11e899370b685cbe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657594169879,
+        "stop" : 1657594198251,
+        "duration" : 28372
+      }
+    }, {
+      "uid" : "b2d2952d4d8f7516",
+      "status" : "broken",
+      "statusDetails" : "Exception: 页面中未能找到 [点击综合搜索下第一个广播剧封面]",
+      "time" : {
+        "start" : 1657594053639,
+        "stop" : 1657594070502,
+        "duration" : 16863
+      }
+    }, {
+      "uid" : "7f4190ef9bd9e471",
+      "status" : "broken",
+      "statusDetails" : "Exception: 页面中未能找到 [点击综合搜索下第一个广播剧封面]",
+      "time" : {
+        "start" : 1657594008146,
+        "stop" : 1657594026381,
+        "duration" : 18235
+      }
+    }, {
+      "uid" : "e2a155b33addb6a1",
+      "status" : "broken",
+      "statusDetails" : "Exception: 页面中未能找到 [点击综合搜索下第一个广播剧封面]",
+      "time" : {
+        "start" : 1657537729008,
+        "stop" : 1657537747895,
+        "duration" : 18887
+      }
+    }, {
+      "uid" : "366e9d4ff5dbfc14",
+      "status" : "broken",
+      "statusDetails" : "Exception: 页面中未能找到 [点击综合搜索下第一个广播剧封面]",
+      "time" : {
+        "start" : 1657537625328,
+        "stop" : 1657537642413,
+        "duration" : 17085
+      }
+    }, {
+      "uid" : "55cd65f9239e855",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '参与声优' in '总预告'",
+      "time" : {
+        "start" : 1657537453988,
+        "stop" : 1657537462245,
+        "duration" : 8257
+      }
+    }, {
+      "uid" : "76996ae25a755622",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '参与声优' in '已完结'",
+      "time" : {
+        "start" : 1657537398209,
+        "stop" : 1657537404479,
+        "duration" : 6270
+      }
+    }, {
+      "uid" : "5dad1ad7278aefb9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657535520842,
+        "stop" : 1657535525561,
+        "duration" : 4719
+      }
+    }, {
+      "uid" : "d4bac6e22a4d2393",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657535495922,
+        "stop" : 1657535500642,
+        "duration" : 4720
+      }
+    }, {
+      "uid" : "8518d5ca82b8bfff",
+      "status" : "broken",
+      "statusDetails" : "TypeError: attribute name must be string, not 'NoneType'",
+      "time" : {
+        "start" : 1657535428977,
+        "stop" : 1657535433686,
+        "duration" : 4709
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "57abd6c603e1344f.json",
+  "parameterValues" : [ ]
+}

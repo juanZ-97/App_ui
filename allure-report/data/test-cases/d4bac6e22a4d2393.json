@@ -1,0 +1,69 @@
+{
+  "uid" : "d4bac6e22a4d2393",
+  "name" : "play_01",
+  "fullName" : "tests.test_case.test02_play_01#play_01",
+  "historyId" : "61ae2d34426efd8580b7c3f777b740b2",
+  "time" : {
+    "start" : 1657535495922,
+    "stop" : 1657535500642,
+    "duration" : 4720
+  },
+  "description" : "用例开始时间:2022-07-11 18:31:35.921730",
+  "descriptionHtml" : "<p>用例开始时间:2022-07-11 18:31:35.921730</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "用例开始时间:2022-07-11 18:31:35.921730",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8afc664a3d8747c",
+      "name" : "stdout",
+      "source" : "8afc664a3d8747c.txt",
+      "type" : "text/plain",
+      "size" : 49
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test02_play_01"
+  }, {
+    "name" : "host",
+    "value" : "guozhierdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "41677-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_case.test02_play_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d4bac6e22a4d2393.json",
+  "parameterValues" : [ ]
+}

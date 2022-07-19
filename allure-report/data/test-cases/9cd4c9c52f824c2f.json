@@ -1,0 +1,121 @@
+{
+  "uid" : "9cd4c9c52f824c2f",
+  "name" : "test22_live_basic",
+  "fullName" : "tests.test_case.test22_live_basic#test22_live_basic",
+  "historyId" : "accd3a8e2e9a01edc0526115f4ba41e1",
+  "time" : {
+    "start" : 1657796182078,
+    "stop" : 1657796194128,
+    "duration" : 12050
+  },
+  "description" : "用例开始时间:2022-07-14 18:56:22.078459",
+  "descriptionHtml" : "<p>用例开始时间:2022-07-14 18:56:22.078459</p>\n",
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'ElementActions' object has no attribute 'free_swipe'",
+  "statusTrace" : "测试类名称：test22_live_basic \n输入参数：{'method': 'free_swipe', 'element': [0.1, 0.9, 0.5, 0.5], 'time': 5} \n错误信息：(\"'ElementActions' object has no attribute 'free_swipe'\",)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "用例开始时间:2022-07-14 18:56:22.078459",
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'ElementActions' object has no attribute 'free_swipe'",
+    "statusTrace" : "测试类名称：test22_live_basic \n输入参数：{'method': 'free_swipe', 'element': [0.1, 0.9, 0.5, 0.5], 'time': 5} \n错误信息：(\"'ElementActions' object has no attribute 'free_swipe'\",)",
+    "steps" : [ {
+      "name" : "重启应用程序",
+      "time" : {
+        "start" : 1657796182171,
+        "stop" : 1657796183692,
+        "duration" : 1521
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "检查：'获取权限'",
+      "time" : {
+        "start" : 1657796183692,
+        "stop" : 1657796189118,
+        "duration" : 5426
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "a2c5fb24a8a606bb",
+      "name" : "失败截图",
+      "source" : "a2c5fb24a8a606bb.png",
+      "type" : "image/png",
+      "size" : 1270479
+    }, {
+      "uid" : "cda12acce029f150",
+      "name" : "APPlog",
+      "source" : "cda12acce029f150.txt",
+      "type" : "text/plain",
+      "size" : 1209813
+    }, {
+      "uid" : "67dc26ac6488830e",
+      "name" : "stdout",
+      "source" : "67dc26ac6488830e.txt",
+      "type" : "text/plain",
+      "size" : 184
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test22_live_basic"
+  }, {
+    "name" : "host",
+    "value" : "guozhierdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "25867-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_case.test22_live_basic"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "9cd4c9c52f824c2f.json",
+  "parameterValues" : [ ]
+}

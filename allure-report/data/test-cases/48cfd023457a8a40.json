@@ -1,0 +1,100 @@
+{
+  "uid" : "48cfd023457a8a40",
+  "name" : "module_name",
+  "fullName" : "tests.test_case.test#module_name",
+  "historyId" : "5955122f2089f780149d761934104aa0",
+  "time" : {
+    "start" : 1657596672343,
+    "stop" : 1657596677927,
+    "duration" : 5584
+  },
+  "description" : "用例开始时间:2022-07-12 11:31:12.342977",
+  "descriptionHtml" : "<p>用例开始时间:2022-07-12 11:31:12.342977</p>\n",
+  "status" : "broken",
+  "statusMessage" : "IndexError: list index out of range",
+  "statusTrace" : "测试类名称：module_name \n输入参数：{'method': 'click', 'element': 'cn.missevan:id/title', 'index': 1, 'name': '剧集页点击一音频进入其音频播放页', 'time': 5, 'type': 'id'} \n错误信息：('list index out of range',)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "用例开始时间:2022-07-12 11:31:12.342977",
+    "status" : "broken",
+    "statusMessage" : "IndexError: list index out of range",
+    "statusTrace" : "测试类名称：module_name \n输入参数：{'method': 'click', 'element': 'cn.missevan:id/title', 'index': 1, 'name': '剧集页点击一音频进入其音频播放页', 'time': 5, 'type': 'id'} \n错误信息：('list index out of range',)",
+    "steps" : [ {
+      "name" : "检查：'剧集页点击一音频进入其音频播放页'",
+      "time" : {
+        "start" : 1657596672420,
+        "stop" : 1657596677923,
+        "duration" : 5503
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "bf4eb19d320faeb9",
+      "name" : "失败截图",
+      "source" : "bf4eb19d320faeb9.png",
+      "type" : "image/png",
+      "size" : 105940
+    }, {
+      "uid" : "4206179abcbda817",
+      "name" : "APPlog",
+      "source" : "4206179abcbda817.txt",
+      "type" : "text/plain",
+      "size" : 1263358
+    }, {
+      "uid" : "b624efbe87d53bd5",
+      "name" : "stdout",
+      "source" : "b624efbe87d53bd5.txt",
+      "type" : "text/plain",
+      "size" : 219
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test"
+  }, {
+    "name" : "host",
+    "value" : "guozhierdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "57246-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_case.test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "48cfd023457a8a40.json",
+  "parameterValues" : [ ]
+}

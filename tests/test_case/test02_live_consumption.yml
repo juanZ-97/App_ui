@@ -16,6 +16,9 @@ test_live_consumption:
     element: cn.missevan:id/send_gift
     name: 礼物按钮
   -
+    method: swipe
+    element: 575,2050,575,1520
+  -
     method: click
     element: cn.missevan:id/item_gift_img
     index: 7

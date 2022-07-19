@@ -1,0 +1,365 @@
+{
+  "uid" : "e87e05392fbe19de",
+  "name" : "test_play_01",
+  "fullName" : "tests.test_case.test02_play_01#test_play_01",
+  "historyId" : "9fde5d04cda6165f0d329e2471dc88bd",
+  "time" : {
+    "start" : 1657534315333,
+    "stop" : 1657534345343,
+    "duration" : 30010
+  },
+  "description" : "用例开始时间:2022-07-11 18:11:55.332867",
+  "descriptionHtml" : "<p>用例开始时间:2022-07-11 18:11:55.332867</p>\n",
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "用例开始时间:2022-07-11 18:11:55.332867",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "重启应用程序",
+      "time" : {
+        "start" : 1657534315439,
+        "stop" : 1657534316954,
+        "duration" : 1515
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "检查：'获取权限'",
+      "time" : {
+        "start" : 1657534316955,
+        "stop" : 1657534323236,
+        "duration" : 6281
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "检查：'点击我的图标'",
+      "time" : {
+        "start" : 1657534326242,
+        "stop" : 1657534328806,
+        "duration" : 2564
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "检查：'进入登录页'",
+      "time" : {
+        "start" : 1657534328907,
+        "stop" : 1657534329714,
+        "duration" : 807
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "检查：'点击密码登录'",
+      "time" : {
+        "start" : 1657534329790,
+        "stop" : 1657534330715,
+        "duration" : 925
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "检查：'输入账号'",
+      "time" : {
+        "start" : 1657534330773,
+        "stop" : 1657534330834,
+        "duration" : 61
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "输入元素：17802155756",
+      "time" : {
+        "start" : 1657534331489,
+        "stop" : 1657534333463,
+        "duration" : 1974
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "检查：'输入账号'",
+        "time" : {
+          "start" : 1657534331489,
+          "stop" : 1657534332733,
+          "duration" : 1244
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "检查：'输入密码'",
+      "time" : {
+        "start" : 1657534333463,
+        "stop" : 1657534333975,
+        "duration" : 512
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "输入元素：123456",
+      "time" : {
+        "start" : 1657534334639,
+        "stop" : 1657534335264,
+        "duration" : 625
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "检查：'输入密码'",
+        "time" : {
+          "start" : 1657534334639,
+          "stop" : 1657534334686,
+          "duration" : 47
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "检查：'勾选同意隐私协议'",
+      "time" : {
+        "start" : 1657534335265,
+        "stop" : 1657534335803,
+        "duration" : 538
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "检查：'点击登录按钮'",
+      "time" : {
+        "start" : 1657534335864,
+        "stop" : 1657534336702,
+        "duration" : 838
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "检查：'判断页面是否有小鱼干字样，确保登录成功进入我的页'",
+      "time" : {
+        "start" : 1657534338142,
+        "stop" : 1657534338221,
+        "duration" : 79
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "检查：'点击我的页 - 设置按钮'",
+      "time" : {
+        "start" : 1657534338257,
+        "stop" : 1657534338298,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "检查：'点击退出登录'",
+      "time" : {
+        "start" : 1657534342986,
+        "stop" : 1657534343111,
+        "duration" : 125
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "检查：'确认退出'",
+      "time" : {
+        "start" : 1657534343165,
+        "stop" : 1657534343787,
+        "duration" : 622
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "检查：'获取「点击登录」文字'",
+      "time" : {
+        "start" : 1657534345070,
+        "stop" : 1657534345139,
+        "duration" : 69
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "检查：'回到首页'",
+      "time" : {
+        "start" : 1657534345176,
+        "stop" : 1657534345276,
+        "duration" : 100
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "545ffa8a3fb6821c",
+      "name" : "stdout",
+      "source" : "545ffa8a3fb6821c.txt",
+      "type" : "text/plain",
+      "size" : 528
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 19,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test02_play_01"
+  }, {
+    "name" : "host",
+    "value" : "guozhierdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "41186-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_case.test02_play_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d993043b7015d47e",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ElementActions' object has no attribute 'swipe_up'",
+      "time" : {
+        "start" : 1657534213587,
+        "stop" : 1657534234413,
+        "duration" : 20826
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e87e05392fbe19de.json",
+  "parameterValues" : [ ]
+}

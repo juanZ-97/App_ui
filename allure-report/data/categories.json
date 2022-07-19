@@ -7,18 +7,34 @@
       "name" : "TypeError: swipe() missing 3 required positional arguments: 'y1', 'x2', and 'y2'",
       "children" : [ {
         "name" : "test_live_consumption",
-        "uid" : "e89dfb4cd88fe2a0",
+        "uid" : "b91f4c962c803807",
         "parentUid" : "0a76080a05ae3cb0770dbcd1dd7f40b2",
         "status" : "broken",
         "time" : {
-          "start" : 1657276676749,
-          "stop" : 1657276691228,
-          "duration" : 14479
+          "start" : 1657524930185,
+          "stop" : 1657524944853,
+          "duration" : 14668
         },
         "flaky" : true,
         "parameters" : [ ]
       } ],
       "uid" : "0a76080a05ae3cb0770dbcd1dd7f40b2"
+    }, {
+      "name" : "AttributeError: 'ElementActions' object has no attribute 'free_swipe'",
+      "children" : [ {
+        "name" : "test22_live_basic",
+        "uid" : "9cd4c9c52f824c2f",
+        "parentUid" : "97b897b222139c9c79b763247fcaa8af",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657796182078,
+          "stop" : 1657796194128,
+          "duration" : 12050
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "97b897b222139c9c79b763247fcaa8af"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]

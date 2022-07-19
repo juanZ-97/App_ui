@@ -1,0 +1,115 @@
+{
+  "uid" : "55cd65f9239e855",
+  "name" : "play_01",
+  "fullName" : "tests.test_case.test02_play_01#play_01",
+  "historyId" : "61ae2d34426efd8580b7c3f777b740b2",
+  "time" : {
+    "start" : 1657537453988,
+    "stop" : 1657537462245,
+    "duration" : 8257
+  },
+  "description" : "用例开始时间:2022-07-11 19:04:13.988206",
+  "descriptionHtml" : "<p>用例开始时间:2022-07-11 19:04:13.988206</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '参与声优' in '总预告'",
+  "statusTrace" : "测试类名称：play_01 \n输入参数：{'method': 'get_text', 'element': 'cn.missevan:id/title', 'index': 1, 'assert_text': '参与声优', 'name': '验证当前页面是否为剧集页', 'time': 5, 'type': 'id'} \n错误信息：(\"assert '参与声优' in '总预告'\",)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "用例开始时间:2022-07-11 19:04:13.988206",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert '参与声优' in '总预告'",
+    "statusTrace" : "测试类名称：play_01 \n输入参数：{'method': 'get_text', 'element': 'cn.missevan:id/title', 'index': 1, 'assert_text': '参与声优', 'name': '验证当前页面是否为剧集页', 'time': 5, 'type': 'id'} \n错误信息：(\"assert '参与声优' in '总预告'\",)",
+    "steps" : [ {
+      "name" : "检查：'点击热门推荐下第一个广播剧'",
+      "time" : {
+        "start" : 1657537458719,
+        "stop" : 1657537460955,
+        "duration" : 2236
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "检查：'验证当前页面是否为剧集页'",
+      "time" : {
+        "start" : 1657537462021,
+        "stop" : 1657537462206,
+        "duration" : 185
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "3dcab15fc541315b",
+      "name" : "失败截图",
+      "source" : "3dcab15fc541315b.png",
+      "type" : "image/png",
+      "size" : 615488
+    }, {
+      "uid" : "b754cf5bc303cc73",
+      "name" : "APPlog",
+      "source" : "b754cf5bc303cc73.txt",
+      "type" : "text/plain",
+      "size" : 1309623
+    }, {
+      "uid" : "85f66859008e0429",
+      "name" : "stdout",
+      "source" : "85f66859008e0429.txt",
+      "type" : "text/plain",
+      "size" : 128
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test02_play_01"
+  }, {
+    "name" : "host",
+    "value" : "guozhierdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "42453-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_case.test02_play_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "55cd65f9239e855.json",
+  "parameterValues" : [ ]
+}

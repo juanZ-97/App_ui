@@ -1,0 +1,82 @@
+module_name:
+  -
+    method: click
+    element: cn.missevan:id/previous
+    name: 点击上一集按钮
+  -
+    method: click
+    element: cn.missevan:id/next
+    name: 点击下一集按钮
+  -
+    method:
+    element:
+    name:
+  -
+    method:
+    element:
+    name:
+  -
+    method:
+    element:
+    name:
+  -
+    method:
+    element:
+    name:
+  -
+    method:
+    element:
+    name:
+  -
+    method:
+    element:
+    name:
+  -
+    method:
+    element:
+    name:
+  -
+    method:
+    element:
+    name:
+  -
+    method:
+    element:
+    name:
+  -
+    method:
+    element:
+    name:
+
+  -
+    method:
+    element:
+    name:
+  -
+    method:
+    element:
+    name:
+  -
+    method:
+    element:
+    name:
+  -
+    method:
+    element:
+    name:
+  -
+    method:
+    element:
+    name:
+  -
+    method:
+    element:
+    name:
+  -
+    method:
+    element:
+    name:
+  -
+    method:
+    element:
+    name:
