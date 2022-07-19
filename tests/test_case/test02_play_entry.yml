@@ -97,4 +97,3 @@ play_01:
     method: is_element_displayed
     element: cn.missevan:id/playViewsContainer
     name: 验证页面是否存在播放视图容器
-
