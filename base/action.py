@@ -6,8 +6,13 @@
 
 import time
 import allure
+import os
 from appium import webdriver
 from appium.webdriver.common.touch_action import TouchAction
+from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.common.action_chains import ActionBuilder
+from selenium.webdriver.common.actions import interaction
+from selenium.webdriver.common.actions.pointer_input import PointerInput
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 
@@ -91,11 +96,13 @@ class ElementActions:
     def set_keycode_search(self):
         """ 搜索键
         """
+        self._set_key() # 此方法原为使 set_keycode_enter 生效新增的方法，若使用到此无法生效，可删除
         self._send_key_event('KEYCODE_SEARCH')
 
     def set_keycode_enter(self):
         """ 回车键
         """
+        self._set_key()
         self._send_key_event('KEYCODE_ENTER')
 
     def clear(self):
@@ -142,25 +149,46 @@ class ElementActions:
         for num in list_nums:
             self._send_key_event('KEYCODE_NUM', num)
 
+    def _set_key(self):
+        # 调起搜狗输入法
+        os.system('adb shell ime set com.sohu.inputmethod.sogou/.SogouIME')
+        # time.sleep(1)
+        # 输入回车键
+        self.driver.press_keycode(66)
+        # time.sleep(1)
+        # 最后调起appium的输入法
+        os.system('adb shell ime set io.appium.settings/.UnicodeIME')
+
     def click(self, locator, count=1):
         """基础的点击事件
         :param locator: 定位器
         :param count: 点击次数
         """
-        if locator.get('index'):
-            el = self._find_elements(locator)[locator['index']]
-        else:
-            el = self._find_element(locator)
+        if locator['type'] != 'coordinates':
+            if locator.get('index'):
+                el = self._find_elements(locator) [locator ['index']]
+            else:
+                el = self._find_element(locator)
 
-        if count == 1:
-            el.click()
+            if count == 1:
+                el.click()
+            else:
+                touch_action = TouchAction(self.driver)
+                try:
+                    for x in range(count):
+                        touch_action.tap(el).perform()
+                except:
+                    pass
         else:
-            touch_action = TouchAction(self.driver)
-            try:
-                for x in range(count):
-                    touch_action.tap(el).perform()
-            except:
-                pass
+            x = int(((locator['element'].split(',')) [0].split('(')) [1])
+            y = int(((locator['element'].split(',')) [1].split(')')) [0])
+            actions = ActionChains(self.driver)
+            actions.w3c_actions = ActionBuilder(self.driver, mouse=PointerInput(interaction.POINTER_TOUCH, "touch"))
+            actions.w3c_actions.pointer_action.move_to_location(x, y)
+            actions.w3c_actions.pointer_action.pointer_down()
+            actions.w3c_actions.pointer_action.pause(0.1)
+            actions.w3c_actions.pointer_action.release()
+            actions.perform()
 
     def get_text(self, locator):
         """获取元素中的text文本

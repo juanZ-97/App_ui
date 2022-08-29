@@ -1,0 +1,15 @@
+2022-08-29 17:27:22 [Info]:[滑动]向左滑动
+2022-08-29 17:27:25 [Warn]:页面中未找到 {'method': 'is_element_displayed', 'element': 'cn.missevan:id/card', 'name': '验证当前页面是否为剧集页', 'time': 5, 'type': 'id'} 
+2022-08-29 17:27:25 [Info]:系统按键返回上一页
+2022-08-29 17:27:35 [Warn]:页面中未找到 {'method': 'is_element_displayed', 'element': 'cn.missevan:id/card', 'name': '验证当前页面是否为剧集页', 'time': 5, 'type': 'id'} 
+2022-08-29 17:27:35 [Info]:系统按键返回上一页
+2022-08-29 17:27:36 [Info]:系统按键返回上一页
+2022-08-29 17:27:37 [Info]:系统按键返回上一页
+2022-08-29 17:27:38 [Info]:系统按键返回上一页
+2022-08-29 17:27:43 [Info]:[输入]元素 他似晨风起 
+Input method io.appium.settings/.UnicodeIME selected for user #0
+2022-08-29 17:27:51 [Warn]:页面中未找到 {'method': 'is_element_displayed', 'element': 'cn.missevan:id/card', 'name': '验证当前页面是否为剧集页', 'time': 5, 'type': 'id'} 
+2022-08-29 17:27:51 [Info]:系统按键返回上一页
+2022-08-29 17:28:02 [Info]:系统按键返回上一页
+2022-08-29 17:28:04 [Info]:系统按键返回上一页
+2022-08-29 17:28:05 [Info]:系统按键返回上一页

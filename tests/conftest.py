@@ -74,6 +74,8 @@ def yamldict(locator):
             locator['type'] = 'id'
         elif 'android.' in element or 'XCUIElement' in element:
             locator['type'] = 'class name'
+        elif '(' and ')' in element:  # 识别坐标定位
+            locator['type'] = 'coordinates'
         else:
             locator['type'] = 'accessibility id'
     return locator

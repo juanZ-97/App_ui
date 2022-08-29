@@ -9,7 +9,7 @@ test_index:
     method: launchApp # 启动 APP
   -
     method: 方法名称 例如：click （必填）
-    element: 查找元素id,class等 （选填，配合 method 如需要点击元素，查找元素等必填）
+    element: 查找元素id,class,具体坐标(配合 click 使用)等 （选填，配合 method 如需要点击元素，查找元素等必填）
     type: 元素类型 id,xpath,class  name,accessibility id （选填，会自动识别，如识别错误则自行填写）
     name: 测试步骤的名称 例如：点击搜索按钮 （选填）
     text: 需要输入或者查找的文本 （选填，配合部分 method 使用）
@@ -30,6 +30,8 @@ test_index:
  |      区域截图
  |  set_text(self, locator)
  |      输入文本
+ |  sleep(s)
+ |      等待
  
  不需要参数的 method
  |  launchApp(self)
@@ -49,7 +51,8 @@ test_index:
  |  swip_up(self)
  |      向上刷新
  |  click_shoot_windows(self)
- |      检测权限窗口 
+ |      检测权限窗口
+
 ```
 #### 运行方式
 > pytest -s ./test_case/test_ranking.yml --alluredir './report/test'

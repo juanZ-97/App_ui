@@ -1,3 +1,5 @@
 "Status","Name","Duration in ms","Description"
-"broken","tests.test_case.test02_live_consumption#test_live_consumption","14479","用例开始时间:2022-07-08 18:37:56.749235"
-"passed","tests.test_case.test01_login#test_login","24603","用例开始时间:2022-07-08 18:26:00.150745"
+"broken","tests.test#test","12951","用例开始时间:2022-08-29 19:11:27.816675"
+"passed","tests.test_case.test02_play_entry#play_01","60845","用例开始时间:2022-08-29 17:27:17.328619"
+"broken","tests.test#play_03","129849","用例开始时间:2022-08-29 19:14:34.244911"
+"broken","tests.test_case.test03_play_basic#play_03","130335","用例开始时间:2022-08-29 19:01:34.263428"

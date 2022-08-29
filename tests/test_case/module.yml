@@ -1,0 +1,37 @@
+module:
+  # 具体元素点击
+  -
+    method: click
+    element: cn.missevan:id/textView5
+    name: 进入登录页
+  # 具体坐标点击
+  -
+    method: click
+    element: (534, 2229)
+    name: 点击播放喵回到播放页
+  # 验证某元素是否存在
+  -
+    method: is_element_displayed
+    element: cn.missevan:id/play_cat
+    name: 验证首页是否有播放喵
+    is_displayed: True
+  # 验证某元素内的文字是否包含 xx
+  -
+    method: get_text
+    element: cn.missevan:id/sound_title
+    name: 判断标题是否为第一期
+    assert_text: 第一期
+  # 在某处输入文字
+  -
+    method: set_text
+    element: cn.missevan:id/etPhoneNum
+    text: 17802155756
+    name: 输入账号
+  # 向左滑动
+  -
+    method: swip_left
+    name: 右滑至首页 - 广播剧 tab
+  # 返回上一页
+  -
+    method: back_press
+    name: 返回
