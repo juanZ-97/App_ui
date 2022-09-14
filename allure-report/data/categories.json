@@ -1,53 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "Exception: 页面中未能找到 [判断标题是否为第一期]",
-      "children" : [ {
-        "name" : "play_03",
-        "uid" : "1603d2787cc219bb",
-        "parentUid" : "3f98a040a8999a20227caa9f905dc29c",
-        "status" : "broken",
-        "time" : {
-          "start" : 1661770894263,
-          "stop" : 1661771024598,
-          "duration" : 130335
-        },
-        "flaky" : true,
-        "parameters" : [ ]
-      }, {
-        "name" : "test",
-        "uid" : "ee7f7d2d1836acd2",
-        "parentUid" : "3f98a040a8999a20227caa9f905dc29c",
-        "status" : "broken",
-        "time" : {
-          "start" : 1661771487817,
-          "stop" : 1661771500768,
-          "duration" : 12951
-        },
-        "flaky" : true,
-        "parameters" : [ ]
-      } ],
-      "uid" : "3f98a040a8999a20227caa9f905dc29c"
-    }, {
-      "name" : "IndexError: list index out of range",
-      "children" : [ {
-        "name" : "play_03",
-        "uid" : "959590e870a955fe",
-        "parentUid" : "cbf21ee610ffd376e0ce643a364ade80",
-        "status" : "broken",
-        "time" : {
-          "start" : 1661771674245,
-          "stop" : 1661771804094,
-          "duration" : 129849
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "cbf21ee610ffd376e0ce643a364ade80"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ],
+  "children" : [ ],
   "name" : "categories"
 }

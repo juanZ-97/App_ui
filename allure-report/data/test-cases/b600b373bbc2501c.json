@@ -1,0 +1,177 @@
+{
+  "uid" : "b600b373bbc2501c",
+  "name" : "play_03",
+  "fullName" : "tests.test#play_03",
+  "historyId" : "7bc032d251f7b2817b22448f8e4384a8",
+  "time" : {
+    "start" : 1662372476105,
+    "stop" : 1662372477942,
+    "duration" : 1837
+  },
+  "description" : "用例开始时间:2022-09-05 18:07:56.104927",
+  "descriptionHtml" : "<p>用例开始时间:2022-09-05 18:07:56.104927</p>\n",
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "用例开始时间:2022-09-05 18:07:56.104927",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8180656883ef97b0",
+      "name" : "stdout",
+      "source" : "8180656883ef97b0.txt",
+      "type" : "text/plain",
+      "size" : 43
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test"
+  }, {
+    "name" : "host",
+    "value" : "guozhierdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "99821-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b422a22224e78596",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662372015320,
+        "stop" : 1662372024260,
+        "duration" : 8940
+      }
+    }, {
+      "uid" : "33564707de5f2b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662371425812,
+        "stop" : 1662371427576,
+        "duration" : 1764
+      }
+    }, {
+      "uid" : "385ff0785b2b96f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662371382515,
+        "stop" : 1662371387341,
+        "duration" : 4826
+      }
+    }, {
+      "uid" : "fe5a6da8b9d16d51",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662371292619,
+        "stop" : 1662371298262,
+        "duration" : 5643
+      }
+    }, {
+      "uid" : "d7482512324e7dda",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662371235899,
+        "stop" : 1662371237403,
+        "duration" : 1504
+      }
+    }, {
+      "uid" : "bc5d4acb79879022",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662371193303,
+        "stop" : 1662371198536,
+        "duration" : 5233
+      }
+    }, {
+      "uid" : "d51aef2ed3eaa91",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662371019394,
+        "stop" : 1662371025078,
+        "duration" : 5684
+      }
+    }, {
+      "uid" : "5780dc541d7e0fe6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662370874018,
+        "stop" : 1662370879597,
+        "duration" : 5579
+      }
+    }, {
+      "uid" : "12b74fef74baa9a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662370509906,
+        "stop" : 1662370515069,
+        "duration" : 5163
+      }
+    }, {
+      "uid" : "7deb85e3c5d2b7bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662369307562,
+        "stop" : 1662369308880,
+        "duration" : 1318
+      }
+    }, {
+      "uid" : "a66a7bd4a28c114e",
+      "status" : "broken",
+      "statusDetails" : "TypeError: get_toast() missing 1 required positional argument: 'driver'",
+      "time" : {
+        "start" : 1662369245113,
+        "stop" : 1662369245217,
+        "duration" : 104
+      }
+    }, {
+      "uid" : "b3a09096f4028262",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662359149919,
+        "stop" : 1662359202711,
+        "duration" : 52792
+      }
+    }, {
+      "uid" : "99b83ca1e2599f22",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '00:14' in '00:15'",
+      "time" : {
+        "start" : 1662350014994,
+        "stop" : 1662350068217,
+        "duration" : 53223
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b600b373bbc2501c.json",
+  "parameterValues" : [ ]
+}

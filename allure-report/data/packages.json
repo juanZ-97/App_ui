@@ -1,73 +1,21 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "children" : [ {
-    "name" : "tests",
+    "name" : "tests.test",
     "children" : [ {
-      "name" : "test_case",
-      "children" : [ {
-        "name" : "test02_play_entry",
-        "children" : [ {
-          "name" : "play_01",
-          "uid" : "9c076411e19b5b3f",
-          "parentUid" : "ff0fccc90164cb10cc444c0a50c4432f",
-          "status" : "passed",
-          "time" : {
-            "start" : 1661765237329,
-            "stop" : 1661765298174,
-            "duration" : 60845
-          },
-          "flaky" : false,
-          "parameters" : [ ]
-        } ],
-        "uid" : "ff0fccc90164cb10cc444c0a50c4432f"
-      }, {
-        "name" : "test03_play_basic",
-        "children" : [ {
-          "name" : "play_03",
-          "uid" : "1603d2787cc219bb",
-          "parentUid" : "b1304d01cc6427e7279578f39377369e",
-          "status" : "broken",
-          "time" : {
-            "start" : 1661770894263,
-            "stop" : 1661771024598,
-            "duration" : 130335
-          },
-          "flaky" : true,
-          "parameters" : [ ]
-        } ],
-        "uid" : "b1304d01cc6427e7279578f39377369e"
-      } ],
-      "uid" : "3c7c3677fda4916c93fc9e10878d8719"
-    }, {
-      "name" : "test",
-      "children" : [ {
-        "name" : "test",
-        "uid" : "ee7f7d2d1836acd2",
-        "parentUid" : "a3536f5b294b9a0f71c98c978d0173f4",
-        "status" : "broken",
-        "time" : {
-          "start" : 1661771487817,
-          "stop" : 1661771500768,
-          "duration" : 12951
-        },
-        "flaky" : true,
-        "parameters" : [ ]
-      }, {
-        "name" : "play_03",
-        "uid" : "959590e870a955fe",
-        "parentUid" : "a3536f5b294b9a0f71c98c978d0173f4",
-        "status" : "broken",
-        "time" : {
-          "start" : 1661771674245,
-          "stop" : 1661771804094,
-          "duration" : 129849
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "a3536f5b294b9a0f71c98c978d0173f4"
+      "name" : "play_03",
+      "uid" : "b600b373bbc2501c",
+      "parentUid" : "a3536f5b294b9a0f71c98c978d0173f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662372476105,
+        "stop" : 1662372477942,
+        "duration" : 1837
+      },
+      "flaky" : true,
+      "parameters" : [ ]
     } ],
-    "uid" : "bf49149a3821e34f7608bb6885d52868"
+    "uid" : "tests.test"
   } ],
   "name" : "packages"
 }

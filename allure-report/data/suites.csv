@@ -1,5 +1,2 @@
 "Status","Name","Duration in ms","Description"
-"broken","tests.test#test","12951","用例开始时间:2022-08-29 19:11:27.816675"
-"passed","tests.test_case.test02_play_entry#play_01","60845","用例开始时间:2022-08-29 17:27:17.328619"
-"broken","tests.test#play_03","129849","用例开始时间:2022-08-29 19:14:34.244911"
-"broken","tests.test_case.test03_play_basic#play_03","130335","用例开始时间:2022-08-29 19:01:34.263428"
+"passed","tests.test#play_03","1837","用例开始时间:2022-09-05 18:07:56.104927"

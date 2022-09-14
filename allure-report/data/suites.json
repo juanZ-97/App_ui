@@ -1,68 +1,20 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "children" : [ {
-    "name" : "tests.test_case",
-    "children" : [ {
-      "name" : "test02_play_entry",
-      "children" : [ {
-        "name" : "play_01",
-        "uid" : "9c076411e19b5b3f",
-        "parentUid" : "9a28324fb4742df5c65150448f676ad4",
-        "status" : "passed",
-        "time" : {
-          "start" : 1661765237329,
-          "stop" : 1661765298174,
-          "duration" : 60845
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "9a28324fb4742df5c65150448f676ad4"
-    }, {
-      "name" : "test03_play_basic",
-      "children" : [ {
-        "name" : "play_03",
-        "uid" : "1603d2787cc219bb",
-        "parentUid" : "bf6eabd6e75320b8bd8d2f7a1f3c2c3e",
-        "status" : "broken",
-        "time" : {
-          "start" : 1661770894263,
-          "stop" : 1661771024598,
-          "duration" : 130335
-        },
-        "flaky" : true,
-        "parameters" : [ ]
-      } ],
-      "uid" : "bf6eabd6e75320b8bd8d2f7a1f3c2c3e"
-    } ],
-    "uid" : "0cc86a2310b4d245e3f2a5a97552b3a2"
-  }, {
     "name" : "tests",
     "children" : [ {
       "name" : "test",
       "children" : [ {
-        "name" : "test",
-        "uid" : "ee7f7d2d1836acd2",
+        "name" : "play_03",
+        "uid" : "b600b373bbc2501c",
         "parentUid" : "e5dea4907aebe10f132312d71f31e0c3",
-        "status" : "broken",
+        "status" : "passed",
         "time" : {
-          "start" : 1661771487817,
-          "stop" : 1661771500768,
-          "duration" : 12951
+          "start" : 1662372476105,
+          "stop" : 1662372477942,
+          "duration" : 1837
         },
         "flaky" : true,
-        "parameters" : [ ]
-      }, {
-        "name" : "play_03",
-        "uid" : "959590e870a955fe",
-        "parentUid" : "e5dea4907aebe10f132312d71f31e0c3",
-        "status" : "broken",
-        "time" : {
-          "start" : 1661771674245,
-          "stop" : 1661771804094,
-          "duration" : 129849
-        },
-        "flaky" : false,
         "parameters" : [ ]
       } ],
       "uid" : "e5dea4907aebe10f132312d71f31e0c3"

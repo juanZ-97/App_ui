@@ -15,7 +15,7 @@ from selenium.webdriver.common.actions import interaction
 from selenium.webdriver.common.actions.pointer_input import PointerInput
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
-
+from selenium.webdriver.support import expected_conditions as EC
 from utils import L
 
 
@@ -294,6 +294,26 @@ class ElementActions:
             self.sleep(2)
             L.i("[滑动]向右滑动 ")
 
+    def free_swipe(self, element, speed=500):
+        """
+        sx: 滑动起始点的横向位置, 范围(0-1)
+        ex: 滑动终止点的横向位置, 范围(0-1)
+        sy: 滑动起始点的纵向位置, 范围(0-1)
+        ey: 滑动终止点的纵向位置, 范围(0-1)
+        """
+        sx = element['element'][0]
+        ex = element['element'][1]
+        sy = element['element'][2]
+        ey = element['element'][3]
+        if len(element['element']) == 5:
+            for z in range(element['element'][4]):
+                L.i(f"开始第{z+1}次自定义滑动")
+                time.sleep(2)
+                self.driver.swipe(sx * self.width, sy * self.height, ex * self.width, ey * self.height, speed)
+        else:
+            L.i("开始自定义滑动")
+            self.driver.swipe(sx * self.width, sy * self.height, ex * self.width, ey * self.height, speed)
+
     def is_element_displayed(self, locator, is_raise=False, element=True):
         """ ：控件是否显示e
         :param locator: 定位器
@@ -441,23 +461,24 @@ class ElementActions:
             return False
         except:
             return False
-        
-    def free_swipe(self, element, speed=500):
-        """
-        sx: 滑动起始点的横向位置, 范围(0-1)
-        ex: 滑动终止点的横向位置, 范围(0-1)
-        sy: 滑动起始点的纵向位置, 范围(0-1)
-        ey: 滑动终止点的纵向位置, 范围(0-1)
-        """
-        sx = element['element'][0]
-        ex = element['element'][1]
-        sy = element['element'][2]
-        ey = element['element'][3]
-        if len(element['element']) == 5:
-            for z in range(element['element'][4]):
-                L.i(f"开始第{z+1}次自定义滑动")
-                time.sleep(2)
-                self.driver.swipe(sx * self.width, sy * self.height, ex * self.width, ey * self.height, speed)
+
+    def get_toast(self, text=None, timeout=5, poll_frequency=0.5):
+        if text:
+            toast_loc = ("//*[contains(@text, '%s')]" % text)
+            print('有text')
         else:
-            L.i("开始自定义滑动")
-            self.driver.swipe(sx * self.width, sy * self.height, ex * self.width, ey * self.height, speed)
+            toast_loc = "//*[@class='android.widget.Toast']"
+            print('没有预设定的text')
+        try:
+            WebDriverWait(self.driver, timeout, poll_frequency).until(EC.presence_of_element_located(('xpath', toast_loc)))
+            print('看到 toast_loc 了哦', toast_loc)
+            toast_elm = self._find_element(toast_loc)
+            print('找到 toast_elm:', toast_elm)
+            return toast_elm
+        except:
+            print('要返回 False 了')
+            return False
+
+
+        
+

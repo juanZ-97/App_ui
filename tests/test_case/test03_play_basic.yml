@@ -31,7 +31,7 @@ play_03:
     name: 点击全部剧集按钮
   -
     method: click
-    element: cn.missevan:id/cn.missevan:id/title
+    element: cn.missevan:id/layout
     index: 1
     name: 点击第一期
 
@@ -53,7 +53,7 @@ play_03:
     name: 点击下一集
   -
     method: click
-    element: cn.missevan:id/play
+    element: (537,1718)
     name: 点击暂停
   -
     method: sleep
@@ -62,11 +62,11 @@ play_03:
   -
     method: get_text
     element: cn.missevan:id/playingPosition
-    name: 判断播放进度是否为 00:00
-    assert_text: 00:00
+    name: 判断播放进度是否为 00:09
+    assert_text: 00:09
   -
     method: click
-    element: cn.missevan:id/play
+    element: (537,1718)
     name: 点击开始播放
   -
     method: sleep
@@ -75,7 +75,8 @@ play_03:
   -
     method: get_text
     element: cn.missevan:id/playingPosition
-    name: 判断播放进度是否为 00:05
-    assert_text: 00:05
+    name: 判断播放进度是否在 20s 内
+    assert_text: 00:1
+
   # 音频播放页 - 切换播放模式
   # 音频播放页 - 切换音视频

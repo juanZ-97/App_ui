@@ -1,40 +1,10 @@
 [ {
-  "uid" : "1603d2787cc219bb",
+  "uid" : "b600b373bbc2501c",
   "name" : "play_03",
   "time" : {
-    "start" : 1661770894263,
-    "stop" : 1661771024598,
-    "duration" : 130335
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "959590e870a955fe",
-  "name" : "play_03",
-  "time" : {
-    "start" : 1661771674245,
-    "stop" : 1661771804094,
-    "duration" : 129849
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "ee7f7d2d1836acd2",
-  "name" : "test",
-  "time" : {
-    "start" : 1661771487817,
-    "stop" : 1661771500768,
-    "duration" : 12951
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "9c076411e19b5b3f",
-  "name" : "play_01",
-  "time" : {
-    "start" : 1661765237329,
-    "stop" : 1661765298174,
-    "duration" : 60845
+    "start" : 1662372476105,
+    "stop" : 1662372477942,
+    "duration" : 1837
   },
   "status" : "passed",
   "severity" : "normal"
