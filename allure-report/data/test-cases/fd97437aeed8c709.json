@@ -1,5 +1,5 @@
 {
-  "uid" : "99b83ca1e2599f22",
+  "uid" : "fd97437aeed8c709",
   "name" : "play_03",
   "fullName" : "tests.test#play_03",
   "historyId" : "7bc032d251f7b2817b22448f8e4384a8",
@@ -67,21 +67,21 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "8e7f7c66e26fb544",
+      "uid" : "829bdf5a9957de7b",
       "name" : "失败截图",
-      "source" : "8e7f7c66e26fb544.png",
+      "source" : "829bdf5a9957de7b.png",
       "type" : "image/png",
       "size" : 2047477
     }, {
-      "uid" : "7efabd0b39fc5c73",
+      "uid" : "281d199bfddbfde5",
       "name" : "APPlog",
-      "source" : "7efabd0b39fc5c73.txt",
+      "source" : "281d199bfddbfde5.txt",
       "type" : "text/plain",
       "size" : 1458084
     }, {
-      "uid" : "bc50d52ce1723686",
+      "uid" : "80e72742c3807843",
       "name" : "stdout",
-      "source" : "bc50d52ce1723686.txt",
+      "source" : "80e72742c3807843.txt",
       "type" : "text/plain",
       "size" : 154
     } ],
@@ -125,6 +125,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "99b83ca1e2599f22.json",
+  "source" : "fd97437aeed8c709.json",
   "parameterValues" : [ ]
 }

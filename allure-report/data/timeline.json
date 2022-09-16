@@ -1,12 +1,29 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
   "children" : [ {
     "name" : "guozhierdeMacBook-Air.local",
     "children" : [ {
+      "name" : "28157-MainThread",
+      "children" : [ {
+        "name" : "test_login",
+        "uid" : "9af10c8042e9337b",
+        "parentUid" : "8310c954768f67f1754c54786f3dad43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663328266372,
+          "stop" : 1663328286679,
+          "duration" : 20307
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8310c954768f67f1754c54786f3dad43"
+    }, {
       "name" : "99821-MainThread",
       "children" : [ {
         "name" : "play_03",
-        "uid" : "b600b373bbc2501c",
+        "uid" : "59ce72cac61b6944",
         "parentUid" : "e9a5fca68a2d32febd710d8183f6cc9b",
         "status" : "passed",
         "time" : {
@@ -20,6 +37,5 @@
       "uid" : "e9a5fca68a2d32febd710d8183f6cc9b"
     } ],
     "uid" : "4df1809960c6fe0443cdc2db6032134e"
-  } ],
-  "name" : "timeline"
+  } ]
 }

@@ -1,5 +1,5 @@
 {
-  "uid" : "b3a09096f4028262",
+  "uid" : "8a2e8be6e4777c65",
   "name" : "play_03",
   "fullName" : "tests.test#play_03",
   "historyId" : "7bc032d251f7b2817b22448f8e4384a8",
@@ -63,9 +63,9 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "9c7d0a1491f616c3",
+      "uid" : "8a7fa57ea1541423",
       "name" : "stdout",
-      "source" : "9c7d0a1491f616c3.txt",
+      "source" : "8a7fa57ea1541423.txt",
       "type" : "text/plain",
       "size" : 156
     } ],
@@ -109,6 +109,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "b3a09096f4028262.json",
+  "source" : "8a2e8be6e4777c65.json",
   "parameterValues" : [ ]
 }

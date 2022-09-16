@@ -29,7 +29,7 @@ class Singleton(object):
                             'platformName': 'Android',
                             'platformVersion': '11.0',
                             'newCommandTimeout': '3000',
-                            'waitForIdleTimeout': '100',
+                            'waitForIdleTimeout': 100,
                             'udid': udid}
 
             driver = webdriver.Remote(host, desired_caps)
