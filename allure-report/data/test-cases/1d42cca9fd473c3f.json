@@ -1,15 +1,15 @@
 {
-  "uid" : "69cf3fa3e9113c23",
+  "uid" : "1d42cca9fd473c3f",
   "name" : "play_03",
   "fullName" : "tests.test#play_03",
   "historyId" : "7bc032d251f7b2817b22448f8e4384a8",
   "time" : {
-    "start" : 1662370509906,
-    "stop" : 1662370515069,
-    "duration" : 5163
+    "start" : 1662369307562,
+    "stop" : 1662369308880,
+    "duration" : 1318
   },
-  "description" : "用例开始时间:2022-09-05 17:35:09.905729",
-  "descriptionHtml" : "<p>用例开始时间:2022-09-05 17:35:09.905729</p>\n",
+  "description" : "用例开始时间:2022-09-05 17:15:07.562093",
+  "descriptionHtml" : "<p>用例开始时间:2022-09-05 17:15:07.562093</p>\n",
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ ],
@@ -25,7 +25,7 @@
     "value" : "guozhierdeMacBook-Air.local"
   }, {
     "name" : "thread",
-    "value" : "98552-MainThread"
+    "value" : "98244-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -47,6 +47,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "69cf3fa3e9113c23.json",
+  "source" : "1d42cca9fd473c3f.json",
   "parameterValues" : [ ]
 }

@@ -1,5 +1,5 @@
 {
-  "uid" : "9af10c8042e9337b",
+  "uid" : "48ab7781469fba8d",
   "name" : "test_login",
   "fullName" : "tests.test_case.test01_login#test_login",
   "historyId" : "abf00df7609b8fd10cbc5307195d4cb9",
@@ -243,9 +243,9 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "62defd987d3655ec",
+      "uid" : "a89f584952020367",
       "name" : "stdout",
-      "source" : "62defd987d3655ec.txt",
+      "source" : "a89f584952020367.txt",
       "type" : "text/plain",
       "size" : 405
     } ],
@@ -291,6 +291,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "9af10c8042e9337b.json",
+  "source" : "48ab7781469fba8d.json",
   "parameterValues" : [ ]
 }

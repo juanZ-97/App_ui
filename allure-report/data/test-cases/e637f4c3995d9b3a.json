@@ -1,5 +1,5 @@
 {
-  "uid" : "a24f4d168ca507bd",
+  "uid" : "e637f4c3995d9b3a",
   "name" : "play_03",
   "fullName" : "tests.test#play_03",
   "historyId" : "7bc032d251f7b2817b22448f8e4384a8",
@@ -22,15 +22,15 @@
     "statusTrace" : "测试类名称：play_03 \n输入参数：{'method': 'get_toast', 'name': '进入登录页', 'time': 5} \n错误信息：(\"get_toast() missing 1 required positional argument: 'driver'\",)",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "1b20cb88ffa8e861",
+      "uid" : "329869f437f730bc",
       "name" : "失败截图",
-      "source" : "1b20cb88ffa8e861.png",
+      "source" : "329869f437f730bc.png",
       "type" : "image/png",
       "size" : 1195742
     }, {
-      "uid" : "e6049bf3a7dae7a4",
+      "uid" : "a3a399ab1303227d",
       "name" : "APPlog",
-      "source" : "e6049bf3a7dae7a4.txt",
+      "source" : "a3a399ab1303227d.txt",
       "type" : "text/plain",
       "size" : 1257253
     } ],
@@ -74,6 +74,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "a24f4d168ca507bd.json",
+  "source" : "e637f4c3995d9b3a.json",
   "parameterValues" : [ ]
 }

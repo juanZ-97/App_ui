@@ -1,8 +1,8 @@
 {
   "total" : 2,
   "items" : [ {
-    "uid" : "e387fa4bb326b54ea8c19c2822aba374",
-    "name" : "tests",
+    "uid" : "0cc86a2310b4d245e3f2a5a97552b3a2",
+    "name" : "tests.test_case",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -12,8 +12,8 @@
       "total" : 1
     }
   }, {
-    "uid" : "0cc86a2310b4d245e3f2a5a97552b3a2",
-    "name" : "tests.test_case",
+    "uid" : "e387fa4bb326b54ea8c19c2822aba374",
+    "name" : "tests",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

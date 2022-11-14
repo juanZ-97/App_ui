@@ -1,21 +1,8 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
-  "name" : "behaviors",
   "children" : [ {
-    "name" : "play_03",
-    "uid" : "59ce72cac61b6944",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1662372476105,
-      "stop" : 1662372477942,
-      "duration" : 1837
-    },
-    "flaky" : true,
-    "parameters" : [ ]
-  }, {
     "name" : "test_login",
-    "uid" : "9af10c8042e9337b",
+    "uid" : "48ab7781469fba8d",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -25,5 +12,18 @@
     },
     "flaky" : false,
     "parameters" : [ ]
-  } ]
+  }, {
+    "name" : "play_03",
+    "uid" : "f419e6143fcb504a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1668408811188,
+      "stop" : 1668408816475,
+      "duration" : 5287
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  } ],
+  "name" : "behaviors"
 }

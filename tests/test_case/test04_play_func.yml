@@ -1,0 +1,11 @@
+play_04:
+  # 具体元素点击
+  -
+    method: click
+    element: cn.missevan:id/feed
+    name: 点击投食
+  # 具体坐标点击
+  -
+    method: get_toast
+    assert_text: 投食成功
+    name: 判断 toast 是否包含投食成功字样

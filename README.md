@@ -14,6 +14,7 @@ test_index:
     name: 测试步骤的名称 例如：点击搜索按钮 （选填）
     text: 需要输入或者查找的文本 （选填，配合部分 method 使用）
     time: 查找该元素需要的时间，默认 5s （选填）
+    get_toast: 操作后获取系统弹出的 toast 信息，返回 toast 的文案，可配合 assert_text 使用
     index: 页面有多个id，class时，不为空则查找元素数组下标 （选填）
     is_displayed: 默认 True ，当为 False 时元素未找到也不会抛异常（选填）
     is_not_exist: 默认 True ，配合 get_text 方法使用

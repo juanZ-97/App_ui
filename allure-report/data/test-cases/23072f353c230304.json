@@ -1,35 +1,18 @@
 {
-  "uid" : "b410fe5fa9940964",
+  "uid" : "23072f353c230304",
   "name" : "play_03",
   "fullName" : "tests.test#play_03",
   "historyId" : "7bc032d251f7b2817b22448f8e4384a8",
   "time" : {
-    "start" : 1662371292619,
-    "stop" : 1662371298262,
-    "duration" : 5643
+    "start" : 1662371019394,
+    "stop" : 1662371025078,
+    "duration" : 5684
   },
-  "description" : "用例开始时间:2022-09-05 17:48:12.619277",
-  "descriptionHtml" : "<p>用例开始时间:2022-09-05 17:48:12.619277</p>\n",
+  "description" : "用例开始时间:2022-09-05 17:43:39.394359",
+  "descriptionHtml" : "<p>用例开始时间:2022-09-05 17:43:39.394359</p>\n",
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ ],
-  "testStage" : {
-    "description" : "用例开始时间:2022-09-05 17:48:12.619277",
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ {
-      "uid" : "7481cf2b0dcdc907",
-      "name" : "stdout",
-      "source" : "7481cf2b0dcdc907.txt",
-      "type" : "text/plain",
-      "size" : 43
-    } ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 1,
-    "shouldDisplayMessage" : false,
-    "hasContent" : true
-  },
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "parentSuite",
@@ -42,7 +25,7 @@
     "value" : "guozhierdeMacBook-Air.local"
   }, {
     "name" : "thread",
-    "value" : "99132-MainThread"
+    "value" : "98799-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -64,6 +47,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "b410fe5fa9940964.json",
+  "source" : "23072f353c230304.json",
   "parameterValues" : [ ]
 }

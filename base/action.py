@@ -15,7 +15,7 @@ from selenium.webdriver.common.actions import interaction
 from selenium.webdriver.common.actions.pointer_input import PointerInput
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support import expected_conditions as ec
 from utils import L
 
 
@@ -462,22 +462,13 @@ class ElementActions:
         except:
             return False
 
-    def get_toast(self, text=None, timeout=5, poll_frequency=0.5):
-        if text:
-            toast_loc = ("//*[contains(@text, '%s')]" % text)
-            print('有text')
-        else:
-            toast_loc = "//*[@class='android.widget.Toast']"
-            print('没有预设定的text')
-        try:
-            WebDriverWait(self.driver, timeout, poll_frequency).until(EC.presence_of_element_located(('xpath', toast_loc)))
-            print('看到 toast_loc 了哦', toast_loc)
-            toast_elm = self._find_element(toast_loc)
-            print('找到 toast_elm:', toast_elm)
-            return toast_elm
-        except:
-            print('要返回 False 了')
-            return False
+    def get_toast(self, timeout=5, poll_frequency=0.5):
+        toast_loc = (By.XPATH, '//*[@class="android.widget.Toast"]')
+        toast = WebDriverWait(self.driver, timeout, poll_frequency).until(
+            ec.presence_of_element_located(toast_loc)
+        )
+        toast_text = toast.get_attribute('text')
+        return toast_text
 
 
         

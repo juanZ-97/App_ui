@@ -1,13 +1,12 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-  "name" : "timeline",
   "children" : [ {
     "name" : "guozhierdeMacBook-Air.local",
     "children" : [ {
       "name" : "28157-MainThread",
       "children" : [ {
         "name" : "test_login",
-        "uid" : "9af10c8042e9337b",
+        "uid" : "48ab7781469fba8d",
         "parentUid" : "8310c954768f67f1754c54786f3dad43",
         "status" : "passed",
         "time" : {
@@ -20,22 +19,23 @@
       } ],
       "uid" : "8310c954768f67f1754c54786f3dad43"
     }, {
-      "name" : "99821-MainThread",
+      "name" : "46521-MainThread",
       "children" : [ {
         "name" : "play_03",
-        "uid" : "59ce72cac61b6944",
-        "parentUid" : "e9a5fca68a2d32febd710d8183f6cc9b",
+        "uid" : "f419e6143fcb504a",
+        "parentUid" : "bb173a86523a5f99d9df2f0111ab9b92",
         "status" : "passed",
         "time" : {
-          "start" : 1662372476105,
-          "stop" : 1662372477942,
-          "duration" : 1837
+          "start" : 1668408811188,
+          "stop" : 1668408816475,
+          "duration" : 5287
         },
         "flaky" : true,
         "parameters" : [ ]
       } ],
-      "uid" : "e9a5fca68a2d32febd710d8183f6cc9b"
+      "uid" : "bb173a86523a5f99d9df2f0111ab9b92"
     } ],
     "uid" : "4df1809960c6fe0443cdc2db6032134e"
-  } ]
+  } ],
+  "name" : "timeline"
 }
