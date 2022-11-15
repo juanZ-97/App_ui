@@ -1,11 +1,79 @@
 play_04:
-  # 具体元素点击
+  # 点击喜欢
+  -
+    method: click
+    element: cn.missevan:id/like
+    name: 点击喜欢
+  -
+    method: get_toast
+    assert_text: 成功添加到喜欢
+    name: 判断 toast 是否包含添加到喜欢字样
+  -
+    method: sleep
+    element: 1
+    name: 等待 1s
+  # 取消喜欢
+  -
+    method: click
+    element: cn.missevan:id/like
+    name: 点击喜欢
+  -
+    method: get_toast
+    assert_text: 已取消喜欢
+    name: 判断 toast 是否已取消喜欢
+  -
+    method: sleep
+    element: 1
+    name: 等待 1s
+  # 点击下载
+  - method: click
+    element: cn.missevan:id/download
+    name: 点击下载
+  -
+    method: get_toast
+    assert_text: 下载
+    name: 判断 toast 是否包含下载字样
+  # 点击收藏
+  -
+    method: click
+    element: cn.missevan:id/collect
+    name: 点击收藏
+  -
+    method: click
+    element: cn.missevan:id/album_name_text_view
+    name: 点击第一个音单
+  -
+    method: get_toast
+    assert_text: 收藏音频成功
+    name: 判断 toast 是否收藏音频成功
+  # 取消收藏
+  -
+    method: click
+    element: cn.missevan:id/collect
+    name: 点击收藏
+  -
+    method: click
+    element: cn.missevan:id/album_name_text_view
+    name: 点击第一个音单
+  -
+    method: get_toast
+    assert_text: 取消收藏音频成功
+    name: 判断 toast 是否取消收藏音频成功
+  -
+    method: sleep
+    element: 1
+    name: 等待 1s
+  # 投食
   -
     method: click
     element: cn.missevan:id/feed
     name: 点击投食
-  # 具体坐标点击
   -
-    method: get_toast
+    method: get_text
+    element: cn.missevan:id/title
     assert_text: 投食成功
-    name: 判断 toast 是否包含投食成功字样
+    name: 判断弹窗是否包含投食成功字样
+  -
+    method: click
+    element: cn.missevan:id/close
+    name: 关闭投食成功弹窗
