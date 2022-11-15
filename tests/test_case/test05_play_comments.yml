@@ -1,48 +1,111 @@
 play_05:
-
-
-  # 具体元素点击
+  # 评论 emoji 表情
   -
     method: click
-    element: cn.missevan:id/textView5
-    name: 进入登录页
-  # 具体坐标点击
+    element: cn.missevan:id/tvTitle
+    index: 1
+    name: 点击评论按钮
   -
     method: click
-    element: (534, 2229)
-    name: 点击播放喵回到播放页
-  # 验证某元素是否存在
+    element: cn.missevan:id/emoji
+    name: 点击 emoji 按钮
   -
-    method: is_element_displayed
-    element: cn.missevan:id/play_cat
-    name: 验证首页是否有播放喵
-    is_displayed: True
-  # 验证某元素内的文字是否包含 xx
+    method: click
+    element: android.widget.ImageView
+    index: 1
+    name: 点击第一个 emoji 表情
   -
-    method: get_text
-    element: cn.missevan:id/sound_title
-    name: 判断标题是否为第一期
-    assert_text: 第一期
-  # 在某处输入文字
-  -
-    method: set_text
-    element: cn.missevan:id/etPhoneNum
-    text: 17802155756
-    name: 输入账号
-  # 向左滑动
-  -
-    method: swip_left
-    name: 右滑至首页 - 广播剧 tab
-  # 返回上一页
-  -
-    method: back_press
-    name: 返回
-  # 判断 toast 是否为预期
-  - method: get_toast
-    assert_text: 投食成功
-    name: 判断 toast 是否包含投食成功字样
-  # 等待 2s
+    method: click
+    element: cn.missevan:id/send
+    name: 发送消息
   -
     method: sleep
-    element: 2
-    name: 等待 2s
+    element: 1
+    name: 等待 1s
+  -
+    method: get_text
+    element: cn.missevan:id/content
+    index: 0
+    name: 判断第一个评论是否为自己刚刚发送的评论
+    assert_text: 收听
+  # 点赞
+  -
+    method: click
+    element: cn.missevan:id/like_num
+    index: 0
+    name: 点赞自己发布的评论
+  # 点踩
+  -
+    method: click
+    element: cn.missevan:id/dislike
+    index: 0
+    name: 点踩自己发布的评论
+  # 回复自己的评论
+  -
+    method: click
+    element: cn.missevan:id/content
+    index: 0
+    name: 点击自己的评论区回复评论
+  -
+    method: set_text
+    element: cn.missevan:id/editor
+    text: 确实好听
+    name: 输入回复文案
+  -
+    method: click
+    element: cn.missevan:id/send
+    name: 发送消息
+  -
+    method: get_toast
+    assert_text: 发送成功
+    name: 判断是否出现发送成功的 toast
+  # 删除评论
+  -
+    method: click
+    element: cn.missevan:id/more
+    index: 0
+    name: 对自己发布的评论点击更多按钮
+  -
+    method: click
+    element: cn.missevan:id/delete_comment
+    name: 删除
+  -
+    method: get_toast
+    assert_text: 删除成功
+    name: 判断是否出现删除成功的 toast
+  # 举报
+  -
+    method: click
+    element: cn.missevan:id/more
+    index: 0
+    name: 点击评论右侧的更多按钮
+  -
+    method: click
+    element: cn.missevan:id/report_comment
+    name: 点击举报
+  -
+    method: click
+    element: cn.missevan:id/confirm
+    name: 点击举报弹窗 - 确认
+  -
+    method: get_toast
+    assert_text: 举报成功
+    name: 判断是否出现举报成功的 toast
+  # 拉黑用户
+  -
+    method: click
+    element: cn.missevan:id/more
+    index: 0
+    name: 点击评论右侧的更多按钮
+  -
+    method: click
+    element: cn.missevan:id/blacklist_user
+    name: 点击拉黑
+  -
+    method: click
+    element: cn.missevan:id/tv_sure
+    name: 点击拉黑弹窗 - 确认
+  -
+    method: get_toast
+    assert_text: 成功加入黑名单
+    name: 判断是否出现拉黑成功的 toast
