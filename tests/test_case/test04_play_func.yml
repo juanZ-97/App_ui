@@ -77,3 +77,51 @@ play_04:
     method: click
     element: cn.missevan:id/close
     name: 关闭投食成功弹窗
+  # 追剧
+  -
+    method: click
+    element: cn.missevan:id/follow_drama
+    name: 追剧
+  -
+    method: get_toast
+    assert_text: 自己追的剧
+    name: 判断追剧成功
+  -
+    method: sleep
+    element: 1
+    name: 等待 1s
+  # 取消追剧
+  -
+    method: click
+    element: cn.missevan:id/follow_drama
+    name: 取消追剧
+  -
+    method: get_toast
+    assert_text: 主人果真不爱我了
+    name: 判断取消追剧成功
+  # 关注 UP 主
+  -
+    method: swip_up
+    name: 向上滑
+  -
+    method: click
+    element: cn.missevan:id/follow_user
+    name: 关注 UP 主
+  -
+    method: get_toast
+    assert_text: 关注成功
+    name: 判断关注 UP 成功
+    # 取消关注 UP 主
+  -
+    method: click
+    element: cn.missevan:id/follow_user
+    name: 取消关注
+  -
+    method: click
+    element: cn.missevan:id/tv_sure
+    name: 取消关注弹窗 - 确定
+  -
+    method: get_toast
+    assert_text: 取消关注成功
+    name: 判断取消关注 UP 主成功
+
