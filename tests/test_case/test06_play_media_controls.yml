@@ -1,0 +1,48 @@
+play_06:
+  # 打开通知栏
+  -
+    method: click
+    element: cn.missevan:id/all_episodes
+    name: 点击全部剧集按钮
+  -
+    method: click
+    element: cn.missevan:id/layout
+    index: 0
+    name: 点击预告
+  -
+    method: open_notifications
+    name: 打开通知栏
+  -
+    method: get_text
+    element: com.android.systemui:id/header_title
+    name: 判断标题是否为预告
+    assert_text: 预告
+  # 通知栏切换到下一首
+  -
+    method: click
+    element: com.android.systemui:id/action3
+    name: 点击下一首
+  -
+    method: get_text
+    element: com.android.systemui:id/header_title
+    name: 判断标题是否为第一集
+    assert_text: 第一期
+  # 通知栏切换到上一首
+  -
+    method: click
+    element: com.android.systemui:id/action1
+    name: 点击上一首
+  -
+    method: get_text
+    element: com.android.systemui:id/header_title
+    name: 判断标题是否为预告
+    assert_text: 预告
+  # 点击通知栏播放器进入猫耳播放页
+  -
+    method: click
+    element: com.android.systemui:id/app_name
+    name: 点击播放器
+  -
+    method: is_element_displayed
+    element: cn.missevan:id/play
+    name: 验证页面是否存在暂停键

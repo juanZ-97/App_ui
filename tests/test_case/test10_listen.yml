@@ -1,0 +1,37 @@
+listen_02:
+  # 音频播放页 - 切换播放模式
+  -
+    method: click
+    element: cn.missevan:id/rb_tab_listen
+    name: 点击我听按钮
+  -
+    method: click
+    element: cn.missevan:id/tv_menu_title
+    index: 1
+    name: 点击收藏按钮
+  -
+    method: click
+    element: cn.missevan:id/iv_create
+    name: 新建音单
+  -
+    method: set_text
+    element: cn.missevan:id/edt_name
+    text: 自动化新增音单
+    name: 输入新建音单名称
+  -
+    method: click
+    element: cn.missevan:id/ck_privacy
+    name: 设为私密音单
+  -
+    method: click
+    element: cn.missevan:id/tvSure
+    name: 确定新建音单
+  -
+    method: sleep
+    element: 1
+    name: 等待 1s
+  -
+    method: get_text
+    element: cn.missevan:id/tv_title
+    name: 判断标题是否为刚刚新建的音单标题
+    assert_text: 自动化新增音单
