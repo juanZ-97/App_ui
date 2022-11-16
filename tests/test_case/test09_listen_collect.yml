@@ -1,9 +1,5 @@
 listen_02:
-  # 音频播放页 - 切换播放模式
-  -
-    method: click
-    element: cn.missevan:id/rb_tab_listen
-    name: 点击我听按钮
+  # 新建音单
   -
     method: click
     element: cn.missevan:id/tv_menu_title
