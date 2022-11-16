@@ -1,0 +1,91 @@
+play_06:
+  # 进入剧集页
+  -
+    method: click
+    element: cn.missevan:id/drama_cover
+    name: 点击播放页剧集头像
+  -
+    method: is_element_displayed
+    element: cn.missevan:id/drama_cover_stroke
+    name: 验证当前页面是否为剧集页
+  # 追剧
+  -
+    method: click
+    element: cn.missevan:id/subscribe_drama
+    name: 点击追剧
+  -
+    method: get_toast
+    assert_text: 自己追的剧
+    name: 判断 toast 是否追剧成功
+  -
+    method: sleep
+    element: 1
+    name: 等待 1s
+  # 取消追剧
+  -
+    method: click
+    element: cn.missevan:id/subscribe_drama
+    name: 点击取消追剧
+  -
+    method: get_toast
+    assert_text: 主人果真不爱我了
+    name: 判断 toast 是否取消追剧成功
+  # 下载
+  -
+    method: click
+    element: cn.missevan:id/header_download
+    name: 点击剧集页顶部的下载按钮
+  -
+    method: click
+    element: cn.missevan:id/tv_name
+    index: 0
+    name: 点击剧集缓存页的第一个剧集
+  -
+    method: click
+    element: cn.missevan:id/tv_download
+    name: 点击剧集缓存页的缓存所选
+  -
+    method: get_toast
+    assert_text: 已加入下载列表
+    name: 判断 toast 是否有缓存字样（此处假设所选内容不可缓存）
+  # 打开剧集页选集半窗
+  -
+    method: click
+    element: cn.missevan:id/show_all_episodes
+    name: 点击剧集选集半窗
+  -
+    method: click
+    element: cn.missevan:id/layout
+    index: 0
+    name: 点击预告
+  -
+    method: is_element_displayed
+    element: cn.missevan:id/play
+    name: 验证页面是否存在暂停键
+  -
+    method: back_press
+    name: 返回到上一页
+  -
+    method: click
+    element: cn.missevan:id/character
+    name: 点击声优头像进入声优百科页
+  -
+    method: get_text
+    element: cn.missevan:id/toolbarTitle
+    name: 判断标题是否声优百科
+    assert_text: 声优百科
+  -
+    method: click
+    element: cn.missevan:id/ivClose
+    name: 关闭声优百科页
+  -
+    method: click
+    element: cn.missevan:id/cover
+    index: 0
+    name: 点击剧集推荐的第一个封面进入其他剧集页
+  -
+    method: get_text
+    element: cn.missevan:id/header_title
+    name: 判断当前是否已处于其他剧集详情页
+    assert_text: 他似晨风起
+    is_not_exist: True
