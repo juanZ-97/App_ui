@@ -31,3 +31,128 @@ listen_02:
     element: cn.missevan:id/tv_title
     name: 判断标题是否为刚刚新建的音单标题
     assert_text: 自动化新增音单
+  # 删除新建音单
+  -
+    method: click
+    element: cn.missevan:id/iv_options
+    name: 点击新建音单 - 操作按钮
+  -
+    method: click
+    element: cn.missevan:id/iv_del
+    name: 选择第一个音单的选中按钮
+  -
+    method: click
+    element: cn.missevan:id/fl_del
+    name: 点击删除按钮
+  -
+    method: click
+    element: cn.missevan:id/tvConfirm
+    name: 点击删除音单弹窗 - 确定按钮
+  -
+    method: get_toast
+    assert_text: 音单删除成功
+    name: 判断是否出现音单删除成功的 toast
+  -
+    method: click
+    element: cn.missevan:id/tv_independent_header_filtrate
+    name: 点击完成按钮
+  -
+    method: sleep
+    element: 1
+    name: 等待 1s
+  -
+    method: get_text
+    element: cn.missevan:id/tv_title
+    name: 判断当前第一个音单是否已经不是之前新建的音单
+    assert_text: 自动化新增音单
+    is_not_exist: True
+  # 收藏 / 取消收藏音单
+  -
+    method: click
+    element: cn.missevan:id/tvTitle
+    index: 1
+    name: 点击收藏音单
+  -
+    method: sleep
+    element: 2
+    name: 等待 1s
+  -
+    method: click
+    element: cn.missevan:id/tv_title
+    name: 点击第一个收藏音单的封面
+  -
+    method: click
+    element: cn.missevan:id/tv_collection
+    name: 取消收藏
+  -
+    method: get_toast
+    assert_text: 取消收藏音单成功
+    name: 判断是否出现取消收藏音单成功的 toast
+  -
+    method: click
+    element: cn.missevan:id/tv_collection
+    name: 收藏
+  -
+    method: get_toast
+    assert_text: 收藏音单成功
+    name: 判断是否出现收藏音单成功的 toast
+  # 评论音单
+  -
+    method: click
+    element: cn.missevan:id/tv_comment
+    name: 点击音单内的评论按钮
+  -
+    method: click
+    element: cn.missevan:id/send_comment
+    name: 发送评论
+  -
+    method: set_text
+    element: cn.missevan:id/editor
+    text: 好听
+    name: 输入评论
+  -
+    method: click
+    element: cn.missevan:id/switch_button2
+    name: 点击表情
+  -
+    method: click
+    element: android.widget.ImageView
+    index: 1
+    name: 点击第一个 emoji 表情
+  -
+    method: click
+    element: cn.missevan:id/send
+    name: 发送消息
+  -
+    method: get_text
+    element: cn.missevan:id/comment_content
+    name: 判断当前第一条评论的内容是否为刚才评论的
+    assert_text: 好听[收听]
+  -
+    method: click
+    element: cn.missevan:id/comment_expand_operator
+    name: 点击评论- 更多
+  -
+    method: click
+    element: cn.missevan:id/comment_delete
+    name: 点击删除按钮
+  -
+    method: get_toast
+    assert_text: 删除成功
+    name: 判断是否出现删除成功的 toast
+  -
+    method: get_text
+    element: cn.missevan:id/comment_content
+    name: 判断当前第一条评论的内容是否为刚才评论的
+    assert_text: 好听[收听]
+    is_not_exist: True
+ # 回到我听页
+  -
+    method: back_press
+    name: 返回
+  -
+    method: back_press
+    name: 返回
+  -
+    method: back_press
+    name: 返回
