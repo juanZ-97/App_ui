@@ -1,0 +1,122 @@
+listen_03:
+  # 已购 - 搜索
+  -
+    method: click
+    element: cn.missevan:id/tv_menu_title
+    index: 2
+    name: 进入已购页
+  -
+    method: set_text
+    element: cn.missevan:id/search
+    text: 百妖谱
+    name: 搜索框输入百妖谱
+  -
+    method: sleep
+    element: 1
+    name: 等待 1s
+  -
+    method: get_text
+    element: cn.missevan:id/drama_title
+    name: 判断当前第一个结果是不是百妖谱
+    assert_text: 百妖谱
+  -
+    method: clear_text
+    element: cn.missevan:id/search
+    name: 输入账号
+  -
+    method: sleep
+    element: 1
+    name: 等待 1s
+  -
+    method: get_text
+    element: cn.missevan:id/drama_title
+    name: 判断当前第一个结果是不是百妖谱
+    assert_text: 百妖谱
+    is_not_exist: True
+  # 已购 - 删除
+  -
+    method: click
+    element: cn.missevan:id/menu_more
+    name: 右上角 - 管理
+  -
+    method: click
+    element: cn.missevan:id/tvTitle
+    index: 2
+    name: 管理已购剧集
+  -
+    method: click
+    element: cn.missevan:id/cb_drama_select
+    name: 选择第一个剧集的选中按钮
+  -
+    method: click
+    element: cn.missevan:id/confirm_delete
+    name: 点击删除按钮
+  -
+    method: click
+    element: cn.missevan:id/tvConfirm
+    name: 点击删除剧集弹窗 - 确定按钮
+  -
+    method: get_toast
+    assert_text: 删除成功
+    name: 判断是否出现剧集删除成功的 toast
+  -
+    method: back_press
+    name: 返回
+  -
+    method: sleep
+    element: 1
+    name: 等待 1s
+  -
+    method: get_text
+    element: cn.missevan:id/drama_title
+    name: 判断当前第一个结果是不是被删除的长风渡
+    assert_text: 长风渡
+    is_not_exist: True
+  # 恢复被删剧集
+  -
+    method: click
+    element: cn.missevan:id/menu_more
+    name: 右上角 - 管理
+  -
+    method: click
+    element: cn.missevan:id/tvTitle
+    index: 2
+    name: 管理已购剧集
+  -
+    method: click
+    element: cn.missevan:id/delete_count_view
+    name: 点击「已删除 x 部剧集」
+  -
+    method: click
+    element: cn.missevan:id/btn_drama_recover
+    name: 点击恢复
+  -
+    method: get_toast
+    assert_text: 恢复成功
+    name: 判断是否出现剧集删除成功的 toast
+  -
+    method: back_press
+    name: 返回
+  -
+    method: sleep
+    element: 1
+    name: 等待 1s
+  -
+    method: get_text
+    element: cn.missevan:id/drama_title
+    name: 判断当前第一个结果是不是被删除的长风渡
+    assert_text: 长风渡
+  -
+    method: back_press
+    name: 返回
+  # 历史页
+  -
+    method: click
+    element: cn.missevan:id/tv_menu_title
+    index: 3
+    name: 进入已购页
+  -
+    method: get_text
+    element: cn.missevan:id/tv_independent_header_title
+    name: 判断当前页标题是否为「历史记录」
+    assert_text: 历史记录
