@@ -1,0 +1,121 @@
+listen_04:
+  # 我听 - 我关注的直播
+  -
+    method: is_element_displayed
+    element: cn.missevan:id/rv_live_follow
+    name: 验证是否存在我关注的直播模块
+    is_displayed: True
+  -
+    method: click
+    element: cn.missevan:id/tv_live_state
+    index: 0
+    name: 点击进入直播间
+   第一次进入直播间，点击关闭「我知道了」
+  -
+    method: click
+    element: cn.missevan:id/iv_known
+    name: 点击「我知道了」
+  # 验证是否存在粉丝勋章
+  -
+    method: sleep
+    element: 1
+    name: 等待 1s
+  -
+    method: is_element_displayed
+    element: cn.missevan:id/room_metal
+    name: 验证是否存在粉丝勋章（即是否进入直播间）
+    is_displayed: True
+  -
+    method: click
+    element: cn.missevan:id/close_icon
+    name: 直播间 - 退出按钮
+  -
+    method: click
+    element: cn.missevan:id/confirm
+    name: 退出直播间弹窗 - 退出
+  # 验证是否存在追剧模块
+  -
+    method: is_element_displayed
+    element: cn.missevan:id/rv_follow
+    name: 验证是否存在追剧模块
+    is_displayed: True
+  -
+    method: click
+    element: cn.missevan:id/tv_title
+    index: 0
+    name: 点击追剧第一个剧集的标题进入剧集页
+  -
+    method: sleep
+    element: 1
+    name: 等待 1s
+  -
+    method: is_element_displayed
+    element: cn.missevan:id/drama_cover_stroke
+    name: 验证当前页面是否为剧集页
+    is_displayed: True
+  -
+    method: back_press
+    name: 返回到我听页
+  -
+    method: click
+    element: cn.missevan:id/tv_all
+    name: 选择查看全部
+  -
+    method: click
+    element: cn.missevan:id/cover
+    index: 0
+    name: 点击第一个剧集
+  -
+    method: is_element_displayed
+    element: cn.missevan:id/drama_cover_stroke
+    name: 验证当前页面是否为剧集页
+    is_displayed: True
+  -
+    method: sleep
+    element: 1
+    name: 等待 1s
+  -
+    method: is_element_displayed
+    element: cn.missevan:id/drama_cover_stroke
+    name: 验证当前页面是否为剧集页
+    is_displayed: True
+  -
+    method: back_press
+    name: 返回到追剧页
+  -
+    method: click
+    element: cn.missevan:id/rb_newest
+    name: 点击最新追剧
+  -
+    method: click
+    element: cn.missevan:id/cover
+    index: 0
+    name: 点击第一个剧集
+  -
+    method: is_element_displayed
+    element: cn.missevan:id/drama_cover_stroke
+    name: 验证当前页面是否为剧集页
+    is_displayed: True
+  -
+    method: sleep
+    element: 1
+    name: 等待 1s
+  -
+    method: is_element_displayed
+    element: cn.missevan:id/drama_cover_stroke
+    name: 验证当前页面是否为剧集页
+    is_displayed: True
+  -
+    method: back_press
+    name: 返回到追剧页
+  -
+    method: click
+    element: cn.missevan:id/back_left
+    name: 左上角 - 返回到我听页
+  # 验证是否存在「动态」模块
+  -
+    method: get_text
+    element: android.widget.TextView
+    index: 25
+    assert_text: 动态
+    name: 验证是否存在动态模块
