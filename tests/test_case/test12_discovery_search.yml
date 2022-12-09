@@ -1,0 +1,88 @@
+discovery_01:
+  # 发现 - 切换到发现页
+  -
+    method: click
+    element: cn.missevan:id/rb_tab_discovery
+    name: 点击进入发现页
+  # 关键词精准搜索
+  -
+    method: click
+    element: cn.missevan:id/search
+    name: 点击搜索
+  -
+    method: set_text
+    element: cn.missevan:id/search
+    text: 偷偷藏不住
+    name: 输入搜索关键词
+  -
+    method: click
+    element: set_keycode_enter
+    name: 回车搜索
+  -
+    method: sleep
+    element: 1
+    name: 等待 1s
+  -
+    method: get_text
+    element: cn.missevan:id/drama_title
+    name: 判断标题是否包含搜索词
+    assert_text: 偷偷藏不住
+  -
+    method: click
+    element: cn.missevan:id/tv_cancel
+    name: 取消回到发现页
+
+# 关键词联想搜索
+  -
+    method: click
+    element: cn.missevan:id/search
+    name: 点击搜索
+  -
+    method: set_text
+    element: cn.missevan:id/search
+    text: 偷偷藏不住
+    name: 输入搜索关键词
+  -
+    method: click
+    element: cn.missevan:id/tv_query
+    index: 0
+    name: 点击第一个联想词
+  -
+    method: get_text
+    element: cn.missevan:id/drama_title
+    name: 判断标题是否包含搜索词
+    assert_text: 偷偷藏不住
+  -
+    method: click
+    element: cn.missevan:id/tv_cancel
+    name: 取消回到发现页
+
+# 热门搜索推荐点击
+  -
+    method: click
+    element: cn.missevan:id/tv_tag
+    index: 0
+    name: 点击第一个热门搜索词
+  -
+    method: is_element_displayed
+    element: cn.missevan:id/sliding_tabs
+    name: 验证是否有搜索顶部 tab 栏
+    is_displayed: True
+  -
+    method: click
+    element: cn.missevan:id/tv_cancel
+    name: 取消回到发现页
+# 验证是否有搜索历史记录
+  -
+    method: click
+    element: cn.missevan:id/search
+    name: 点击搜索
+  -
+    method: is_element_displayed
+    element: cn.missevan:id/search_history_detail
+    name: 验证是否历史记录 id
+    is_displayed: True
+  -
+    method: click
+    element: cn.missevan:id/tv_cancel
+    name: 取消回到发现页
