@@ -1,88 +1,89 @@
-discovery_01:
+mine_01:
   # 发现 - 切换到发现页
   -
     method: click
-    element: cn.missevan:id/rb_tab_discovery
-    name: 点击进入发现页
-  # 关键词精准搜索
+    element: cn.missevan:id/nav_icon_mine
+    name: 点击进入我的页
+  # 进入个人主页
   -
     method: click
-    element: cn.missevan:id/search
-    name: 点击搜索
+    element: cn.missevan:id/rl_user_info
+    name: 点击个人信息模块
   -
-    method: set_text
-    element: cn.missevan:id/search
-    text: 偷偷藏不住
-    name: 输入搜索关键词
+    method: is_element_displayed
+    element: cn.missevan:id/header_sound_bg
+    name: 验证是否有背景音 id
+    is_displayed: True
   -
-    method: click
-    element: set_keycode_enter
-    name: 回车搜索
+    method: back_press
+    name: 返回
+# 已购页
   -
     method: sleep
     element: 1
     name: 等待 1s
   -
-    method: get_text
-    element: cn.missevan:id/drama_title
-    name: 判断标题是否包含搜索词
-    assert_text: 偷偷藏不住
-  -
     method: click
-    element: cn.missevan:id/tv_cancel
-    name: 取消回到发现页
-
-# 关键词联想搜索
-  -
-    method: click
-    element: cn.missevan:id/search
-    name: 点击搜索
-  -
-    method: set_text
-    element: cn.missevan:id/search
-    text: 偷偷藏不住
-    name: 输入搜索关键词
-  -
-    method: click
-    element: cn.missevan:id/tv_query
-    index: 0
-    name: 点击第一个联想词
+    element: cn.missevan:id/new_personal_already_bought
+    name: 点击已购模块
   -
     method: get_text
-    element: cn.missevan:id/drama_title
-    name: 判断标题是否包含搜索词
-    assert_text: 偷偷藏不住
+    element: cn.missevan:id/tv_independent_header_title
+    name: 判断标题是否已购
+    assert_text: 已购
+  -
+    method: back_press
+    name: 返回
+# 音频页
+  -
+    method: sleep
+    element: 1
+    name: 等待 1s
   -
     method: click
-    element: cn.missevan:id/tv_cancel
-    name: 取消回到发现页
+    element: cn.missevan:id/new_personal_sounds
+    name: 点击音频模块
+  -
+    method: get_text
+    element: cn.missevan:id/tv_independent_header_title
+    name: 判断标题是否音频
+    assert_text: 音频
+  -
+    method: back_press
+    name: 返回
 
-# 热门搜索推荐点击
+# 关注页
+  -
+    method: sleep
+    element: 1
+    name: 等待 1s
   -
     method: click
-    element: cn.missevan:id/tv_tag
-    index: 0
-    name: 点击第一个热门搜索词
+    element: cn.missevan:id/new_personal_my_follow
+    name: 点击关注模块
   -
     method: is_element_displayed
-    element: cn.missevan:id/sliding_tabs
-    name: 验证是否有搜索顶部 tab 栏
+    element: cn.missevan:id/flHeader
+    name: 验证首页是否有关注页的搜索栏
     is_displayed: True
   -
-    method: click
-    element: cn.missevan:id/tv_cancel
-    name: 取消回到发现页
-# 验证是否有搜索历史记录
+    method: back_press
+    name: 返回
+
+# 粉丝页
+  -
+    method: sleep
+    element: 1
+    name: 等待 1s
   -
     method: click
-    element: cn.missevan:id/search
-    name: 点击搜索
+    element: cn.missevan:id/new_personal_fans
+    name: 点击粉丝模块
   -
     method: is_element_displayed
-    element: cn.missevan:id/search_history_detail
-    name: 验证是否历史记录 id
-    is_displayed: True
+    element: cn.missevan:id/flHeader
+    name: 验证首页是否有关注页的搜索栏
+    is_displayed: False
   -
-    method: click
-    element: cn.missevan:id/tv_cancel
-    name: 取消回到发现页
+    method: back_press
+    name: 返回
