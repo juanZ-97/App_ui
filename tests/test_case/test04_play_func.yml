@@ -1,4 +1,4 @@
-play_04:
+play_03:
   # 点击喜欢
   -
     method: click
@@ -26,9 +26,13 @@ play_04:
     element: 1
     name: 等待 1s
   # 点击下载
-  - method: click
+  -
+    method: click
     element: cn.missevan:id/download
     name: 点击下载
+#  -
+#    method: click_shoot_windows
+#    name: 同意下载权限
   -
     method: get_toast
     assert_text: 下载
@@ -43,6 +47,10 @@ play_04:
     element: cn.missevan:id/album_name_text_view
     name: 点击第一个音单
   -
+    method: sleep
+    element: 1
+    name: 等待 1s
+  -
     method: get_toast
     assert_text: 收藏音频成功
     name: 判断 toast 是否收藏音频成功
@@ -55,6 +63,10 @@ play_04:
     method: click
     element: cn.missevan:id/album_name_text_view
     name: 点击第一个音单
+  -
+    method: sleep
+    element: 1
+    name: 等待 1s
   -
     method: get_toast
     assert_text: 取消收藏音频成功
@@ -69,6 +81,10 @@ play_04:
     element: cn.missevan:id/feed
     name: 点击投食
   -
+    method: sleep
+    element: 1
+    name: 等待 1s
+  -
     method: get_text
     element: cn.missevan:id/title
     assert_text: 投食成功
@@ -80,7 +96,7 @@ play_04:
   # 追剧
   -
     method: click
-    element: cn.missevan:id/follow_drama
+    element: cn.missevan:id/subscribe_drama
     name: 追剧
   -
     method: get_toast
@@ -88,13 +104,17 @@ play_04:
     name: 判断追剧成功
   -
     method: sleep
-    element: 1
+    element: 2
     name: 等待 1s
   # 取消追剧
   -
     method: click
-    element: cn.missevan:id/follow_drama
+    element: cn.missevan:id/subscribe_drama
     name: 取消追剧
+  -
+    method: sleep
+    element: 1
+    name: 等待 1s
   -
     method: get_toast
     assert_text: 主人果真不爱我了
@@ -107,6 +127,10 @@ play_04:
     method: click
     element: cn.missevan:id/follow_user
     name: 关注 UP 主
+  -
+    method: sleep
+    element: 1
+    name: 等待 1s
   -
     method: get_toast
     assert_text: 关注成功
@@ -121,7 +145,13 @@ play_04:
     element: cn.missevan:id/tv_sure
     name: 取消关注弹窗 - 确定
   -
+    method: sleep
+    element: 1
+    name: 等待 1s
+  -
     method: get_toast
     assert_text: 取消关注成功
     name: 判断取消关注 UP 主成功
-
+  -
+    method: swip_down
+    name: 向下滑

@@ -22,9 +22,16 @@ listen_01:
     element: cn.missevan:id/download
     name: 点击下载
   -
+    method: sleep
+    element: 1
+    name: 等待 1s
+  -
     method: get_toast
     assert_text: 下载
     name: 判断 toast 是否包含下载字样
+  -
+    method: back_press
+    name: 返回到上一页
   -
     method: back_press
     name: 返回到上一页
@@ -60,6 +67,10 @@ listen_01:
     method: swip_up
     name: 向上滑
   -
+    method: sleep
+    element: 1
+    name: 等待 1s
+  -
     method: get_text
     element: cn.missevan:id/sound_title
     name: 判断标题是否为预告
@@ -67,11 +78,13 @@ listen_01:
   -
     method: back_press
     name: 返回到上一页
+  -
+    method: back_press
+    name: 返回到上一页
   # 删除已下载剧集
   -
     method: click
     element: cn.missevan:id/item_delete
-    index: 1
     name: 点击剧集音频删除按钮
   -
     method: click
@@ -86,9 +99,9 @@ listen_01:
     element: cn.missevan:id/tv_error
     name: 判断是否已删除完毕
     assert_text: 什么都没找到呀
-  -
-    method: back_press
-    name: 返回到上一页
+#  -
+#    method: back_press
+#    name: 返回到上一页
   # 切换到音频 tab
   -
     method: click
@@ -104,6 +117,10 @@ listen_01:
   -
     method: swip_up
     name: 向上滑
+  -
+    method: sleep
+    element: 1
+    name: 等待 1s
   -
     method: get_text
     element: cn.missevan:id/sound_title

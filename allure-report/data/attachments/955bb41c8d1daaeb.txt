@@ -1,0 +1,566 @@
+11-16 15:44:44.429   882   882 I aptouch_daemon: print_log, touch:1, down:1 (+0)
+11-16 15:44:44.430  2010  2801 D fingersense_manager: Calling fingersense_classify_touch()
+11-16 15:44:44.430  2010  2801 I FLP2012 : kr: touch_dn_event
+11-16 15:44:44.431  2010  2801 I FLP2012 : kr: OTHER
+11-16 15:44:44.431  2010  2801 D fingersense_manager: fingersense_classify_touch() finished
+11-16 15:44:44.432  2010  2800 I InputDispatcher: stylus touch down, set lcd event 1
+11-16 15:44:44.433  2010  2800 I chatty  : uid=1000(system) InputDispatcher identical 1 line
+11-16 15:44:44.433  2010  2800 I InputDispatcher: stylus touch down, set lcd event 1
+11-16 15:44:44.435  2010  2621 I NavigationBarPolicy: pointY:2359.0realSize.y:2400HIT_REGION_TO_MAX:34
+11-16 15:44:44.437  2010  2653 I PowerManagerService: handleSandman: wakefulness: 1,startDreaming: false
+11-16 15:44:44.438  2010  2789 D HwGameAssistantController: isGameForeground? false
+11-16 15:44:44.438  2010  2789 I GestureNav_QSO: foundation:1
+11-16 15:44:44.438  2010  2789 I GestureNav_QSO: bindFaCenter
+11-16 15:44:44.439  2010  2789 I GestureNav_QSO: focusPackageName : cn.missevan, focusTitleName : cn.missevan/cn.missevan.activity.MainActivity
+11-16 15:44:44.442  2010  2789 W ProcessStats: Tracking association SourceState{10661d1 com.huawei.hwid.core/10083 ImpFg #143904} whose proc state 2 is better than process ProcessState{13127d5 com.huawei.hwid.persistent/10083 pkg=com.huawei.hwid} proc state 3 (4 skipped)
+11-16 15:44:44.445   765 18531 D AudioPolicyService: getUidState(10017) !cacheIter->second.first, return PROCESS_STATE_UNKNOWN
+11-16 15:44:44.445   765 18531 D AudioPolicyService: getUidState(10017) cacheIter->second.first, return cacheIter->second.second(-1)
+11-16 15:44:44.447 24992 24992 I AbilityCenter_TouchPositionService: follow finger service on create
+11-16 15:44:44.447 24992 24992 I AbilityCenter_TouchPositionService: follow finger on bind
+11-16 15:44:44.448 24992 24992 I AbilityCenter_TouchPositionService: showBottomPromptView end
+11-16 15:44:44.449  2010  2010 I GestureNav_QSO: fa service connected
+11-16 15:44:44.450  2010  2647 D ActivityManager: setPrivilegeType r: ServiceRecord{108de29 u0 com.huawei.ohos.famanager/com.huawei.abilitygallery.service.TouchPositionService}, interfaceDescriptor : com.huawei.abilitygallery.IAbilityGalleryGesture
+11-16 15:44:44.462   882   882 I aptouch_daemon: print_log, touch:0, down:0
+11-16 15:44:44.463  2010  2789 I GestureNav_Strategy: Gesture failed as up in region(maybe sliping in region)
+11-16 15:44:44.464  2010  2800 I InputDispatcher: stylus touch up, set lcd event 0
+11-16 15:44:44.464  2010  2800 I chatty  : uid=1000(system) InputDispatcher identical 1 line
+11-16 15:44:44.464  2010  2800 I InputDispatcher: stylus touch up, set lcd event 0
+11-16 15:44:44.464  2010  2800 V InputDispatcher: Asynchronous input event injection succeeded.
+11-16 15:44:44.465  2010  2800 I InputDispatcher: stylus touch down, set lcd event 1
+11-16 15:44:44.465  2010  2800 I chatty  : uid=1000(system) InputDispatcher identical 1 line
+11-16 15:44:44.465  2010  2800 I InputDispatcher: stylus touch down, set lcd event 1
+11-16 15:44:44.465  2010  2800 V InputDispatcher: Asynchronous input event injection succeeded.
+11-16 15:44:44.465  2010  2800 I InputDispatcher: stylus touch up, set lcd event 0
+11-16 15:44:44.465  2010  2800 I chatty  : uid=1000(system) InputDispatcher identical 1 line
+11-16 15:44:44.465  2010  2800 I InputDispatcher: stylus touch up, set lcd event 0
+11-16 15:44:44.466  2010  2789 W Binder  : Outgoing transactions from this process must be FLAG_ONEWAY
+11-16 15:44:44.466  2010  2789 W Binder  : java.lang.Throwable
+11-16 15:44:44.466  2010  2789 W Binder  : 	at android.os.BinderProxy.transact(libmapleframework.so:6235312)
+11-16 15:44:44.466  2010  2789 W Binder  : 	at com.huawei.abilitygallery.IAbilityGalleryGesture$Stub$Proxy.sendPosition(libmaplehwServices.so:4207916)
+11-16 15:44:44.466  2010  2789 W Binder  : 	at com.android.server.gesture.QuickSlideOutController$FaConnection.sendPosition(libmaplehwPartBasicplatformServices.so:458956)
+11-16 15:44:44.466  2010  2789 W Binder  : 	at com.android.server.gesture.QuickSlideOutController.handleCancelOrUp(libmaplehwPartBasicplatformServices.so:478200)
+11-16 15:44:44.466  2010  2789 W Binder  : 	at com.android.server.gesture.QuickSlideOutController.handleActionUp(libmaplehwPartBasicplatformServices.so:569564)
+11-16 15:44:44.466  2010  2789 W Binder  : 	at com.android.server.gesture.QuickSlideOutController.handleTouchEvent(libmaplehwPartBasicplatformServices.so:590444)
+11-16 15:44:44.466  2010  2789 W Binder  : 	at com.android.server.gesture.GestureNavBottomStrategy.handleQuickSlideOut(libmaplehwPartBasicplatformServices.so:624436)
+11-16 15:44:44.466  2010  2789 W Binder  : 	at com.android.server.gesture.GestureNavBottomStrategy.handleTouchEvent(libmaplehwPartBasicplatformServices.so:679644)
+11-16 15:44:44.466  2010  2789 W Binder  : 	at com.android.server.gesture.GestureNavBottomStrategy.onTouchEvent(libmaplehwPartBasicplatformServices.so:755844)
+11-16 15:44:44.466  2010  2789 W Binder  : 	at com.android.server.gesture.GestureNavManager.onTouchEvent(libmaplehwPartBasicplatformServices.so:868752)
+11-16 15:44:44.466  2010  2789 W Binder  : 	at com.android.server.gesture.GestureNavView.onTouchEvent(libmaplehwPartBasicplatformServices.so:1166100)
+11-16 15:44:44.466  2010  2789 W Binder  : 	at android.view.View.dispatchTouchEvent(libmapleframework.so:2988316)
+11-16 15:44:44.466  2010  2789 W Binder  : 	at android.view.View.dispatchPointerEvent(libmapleframework.so:3005408)
+11-16 15:44:44.466  2010  2789 W Binder  : 	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(libmapleframework.so:3011424)
+11-16 15:44:44.466  2010  2789 W Binder  : 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(libmapleframework.so:3020496)
+11-16 15:44:44.466  2010  2789 W Binder  : 	at android.view.ViewRootImpl$InputStage.deliver(libmapleframework.so:3973316)
+11-16 15:44:44.466  2010  2789 W Binder  : 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(libmapleframework.so:3973068)
+11-16 15:44:44.466  2010  2789 W Binder  : 	at android.view.ViewRootImpl$AsyncInputStage.forward(libmapleframework.so:2976944)
+11-16 15:44:44.466  2010  2789 W Binder  : 	at android.view.ViewRootImpl$InputStage.apply(libmapleframework.so:3799984)
+11-16 15:44:44.466  2010  2789 W Binder  : 	at android.view.ViewRootImpl$AsyncInputStage.apply(libmapleframework.so:3021676)
+11-16 15:44:44.466  2010  2789 W Binder  : 	at android.view.ViewRootImpl$InputStage.deliver(libmapleframework.so:3973336)
+11-16 15:44:44.466  2010  2789 W Binder  : 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(libmapleframework.so:3973068)
+11-16 15:44:44.466  2010  2789 W Binder  : 	at android.view.ViewRootImpl$InputStage.apply(libmapleframework.so:3799984)
+11-16 15:44:44.466  2010  2789 W Binder  : 	at android.view.ViewRootImpl$InputStage.deliver(libmapleframework.so:3973336)
+11-16 15:44:44.466  2010  2789 W Binder  : 	at android.view.ViewRootImpl.deliverInputEvent(libmapleframework.so:2989992)
+11-16 15:44:44.466  2010  2789 W Binder  : 	at android.view.ViewRootImpl.doProcessInputEvents(libmapleframework.so:4232380)
+11-16 15:44:44.466  2010  2789 W Binder  : 	at android.view.ViewRootImpl.enqueueInputEvent(libmapleframework.so:2988820)
+11-16 15:44:44.466  2010  2789 W Binder  : 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(libmapleframework.so:3025912)
+11-16 15:44:44.466  2010  2789 W Binder  : 	at android.view.InputEventReceiver.dispatchInputEvent(libmapleframework.so:5242844)
+11-16 15:44:44.466  2010  2789 W Binder  : 	at android.os.MessageQueue.nativePollOnce(libmapleframework.so:6258692)
+11-16 15:44:44.466  2010  2789 W Binder  : 	at android.os.MessageQueue.next(libmapleframework.so:6247360)
+11-16 15:44:44.466  2010  2789 W Binder  : 	at android.os.Looper.loop(libmapleframework.so:4841888)
+11-16 15:44:44.466  2010  2789 W Binder  : 	at android.os.HandlerThread.run(libmapleframework.so:4832316)
+11-16 15:44:44.466 24992 27633 I AbilityCenter_TouchPositionService: action: 1, position: x=1082.0,y=2359.0
+11-16 15:44:44.466 24992 27633 I AbilityCenter_TouchPositionService: positionHandler == null && eventCode == MotionEvent.ACTION_UP
+11-16 15:44:44.466 24992 27633 I AbilityCenter_TouchPositionService: eventCode == MotionEvent.ACTION_UP
+11-16 15:44:44.466 24992 27633 E AbilityCenter_TouchPositionService: position handler is null
+11-16 15:44:44.468  4771  4771 V AudioManager: querySoundEffectsEnabled...
+11-16 15:44:44.469  2010  2621 I NavigationBarPolicy: pointY:2359.0realSize.y:2400HIT_REGION_TO_MAX:34
+11-16 15:44:44.474   765  1874 I asd_out_fwk: L = -18.395750db, R = -18.395750db, Device = 0x2, TimeStampKernel = 380345280, TimeStampServer = 380347200
+11-16 15:44:44.474  2010  2789 I GestureNav_QSO: release
+11-16 15:44:44.476   765 28603 D AudioPolicyService: getUidState(10017) cacheIter->second.first, return cacheIter->second.second(7)
+11-16 15:44:44.480  4771  4771 I ViewRootImpl: dispatchDetachedFromWindow in doDie
+11-16 15:44:44.481   765 28603 D AudioPolicyService: getUidState(10017) cacheIter->second.first, return cacheIter->second.second(11)
+11-16 15:44:44.486  2010  3879 I TrafficMonitor: update:rxPkts:139,txPkts:1,rxBytes:45843,txBytes:60
+11-16 15:44:44.486  2010  3879 I TrafficMonitor: gettimer:interval=2000
+11-16 15:44:44.489   769  1987 W BufferQueueProducer: [cn.missevan/cn.missevan.activity.MainActivity#1]:1390: disconnect: not connected (req=1)
+11-16 15:44:44.489  4771  5010 W libEGL  : EGLNativeWindowType 0x7e672ecf10 disconnect failed
+11-16 15:44:44.489  2010  6390 I WindowManager: removeIfPossible: Window{104ceb1 u0 cn.missevan/cn.missevan.activity.MainActivity} callers=com.android.server.wm.WindowState.removeIfPossible:5163788 com.android.server.wm.WindowManagerService.removeWindow:4766012 android.view.IWindowSession$Stub.onTransact:5317436 com.android.server.wm.Session.onTransact:6796980 android.os.Binder.execTransactInternal:6255836
+11-16 15:44:44.491  2010  6390 I WindowManager: Not removing Window{104ceb1 u0 cn.missevan/cn.missevan.activity.MainActivity EXITING} due to exit animation
+11-16 15:44:44.491  2010  6390 I WindowManager: Changing focus from Window{104ceb1 u0 cn.missevan/cn.missevan.activity.MainActivity EXITING} to Window{c2f5ad u0 cn.missevan/cn.missevan.activity.MainActivity} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:6670244 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6669720 com.android.server.wm.WindowState.setupWindowForRemoveOnExit:4973984 com.android.server.wm.WindowState.removeIfPossible:5167672
+11-16 15:44:44.492  2010  6390 I HwPhoneWindowManager: StatusToSurfaceFlinger Window{c2f5ad u0 cn.missevan/cn.missevan.activity.MainActivity} sideMode = 1 notchMode = 0 dataIn val = 4
+11-16 15:44:44.493   769  1987 D SurfaceFlingerEx: surfaceStatus: = 4
+11-16 15:44:44.493  2010  6390 V HwPhoneWindowManager: updateSystemUiColorLw window=Window{c2f5ad u0 cn.missevan/cn.missevan.activity.MainActivity},EmuiStyle=0,StatusBarColor=0x0,NavigationBarColor=0xff000000, mForceNotchStatusBar=false
+11-16 15:44:44.493   769  1987 I RoundCornerDisplay: [OnSurfaceStatusChanged]hidestatus is not changed: new = 0, old = 0
+11-16 15:44:44.493   769  1987 I RoundCornerDisplay: [OnSurfaceStatusChanged]sideRegionStatus is not changed: sideRegionStatus = 1, m_sideRegionMode = 0
+11-16 15:44:44.491    48    48 W migration/6: type=1400 audit(0.0:76784): avc: granted { setsched } for pid=48 scontext=u:r:kernel:s0 tcontext=u:r:kernel:s0 tclass=process
+11-16 15:44:44.493  2010  2621 D HwPhoneWindowManager: Transact:setSystemUIColor to status bar service
+11-16 15:44:44.493  2010  6390 I HwDisplayContentEx: currentFocus windowstate not null
+11-16 15:44:44.493  2010  6390 I HwDisplayContentEx: trans currentFocus windowstate not null
+11-16 15:44:44.493  2010  6390 D ZrHung.AppEyeTransparentWindow: TransparentWindow mHungConfigStatus = 0,mHungConfigEnable = 1
+11-16 15:44:44.493  4088 13407 I HwCommandQueue: updateBarBgColor
+11-16 15:44:44.493  4088 13407 D HwCommandQueue: CommandQueue, setBarBackgroundColor
+11-16 15:44:44.491    54    54 W migration/7: type=1400 audit(0.0:76785): avc: granted { setsched } for pid=54 scontext=u:r:kernel:s0 tcontext=u:r:kernel:s0 tclass=process
+11-16 15:44:44.494  2010  2621 D StatusBarManagerService: win:Window{c2f5ad u0 cn.missevan/cn.missevan.activity.MainActivity}mIsColorEnable:truelight:false
+11-16 15:44:44.494  2010  2621 I StatusBarDisable: setFlags what=0 which=1 pkg=Window{c2f5ad u0 cn.missevan/cn.missevan.activity.MainActivity}
+11-16 15:44:44.494  4088  6833 D HwCommandQueue: CommandQueue, set Launcher StatusBar Color
+11-16 15:44:44.500  2010  6390 D InputDispatcher: Window handle Window{104ceb1 u0 cn.missevan/cn.missevan.activity.MainActivity} has no registered input channel
+11-16 15:44:44.504  4771  4771 D DecorView: showOrHideHighlightView: hasFocus=true; winMode=1; isMrgNull=true
+11-16 15:44:44.506  4771  4771 W InputMethodManager: startInputReason = 1
+11-16 15:44:44.506  4771  4771 W HwRemoteInputMethodManager: isCasting false because IHwDistributedWindowManager is invalid.
+11-16 15:44:44.507  2010  4593 D HwInputMethodManagerService: isSecMethodUsing = false
+11-16 15:44:44.509  2010  6390 D InputMethodManagerService: onInputHide
+11-16 15:44:44.510   765 28603 D AudioPolicyService: getUidState(10232) cacheIter->second.first, return cacheIter->second.second(3)
+11-16 15:44:44.511  4297  5488 I PGServer: report state:10006 event type:1 pid:0 uid:0 pkg:null to pid: 4297
+11-16 15:44:44.513 22844 22844 I UnicodeIME: onFinishInput:
+11-16 15:44:44.513 22844 22844 I UnicodeIME: onStartInput
+11-16 15:44:44.636  4603  4660 I appium  : channel read: POST /wd/hub/session/99d1857d-34f3-4904-986a-253a25fab314/element
+11-16 15:44:44.637  4603  4660 I appium  : FindElement command
+11-16 15:44:44.638  4603  4660 I appium  : method: 'id', selector: 'cn.missevan:id/all_episodes'
+11-16 15:44:44.638  4603  4660 I appium  : Waiting up to 100ms for the device to idle
+11-16 15:44:44.650  2010  2624 I WindowManager: Exit animation finished in Window{104ceb1 u0 cn.missevan/cn.missevan.activity.MainActivity EXITING}: remove=true
+11-16 15:44:44.650  2010  2624 E WindowManager: win=Window{104ceb1 u0 cn.missevan/cn.missevan.activity.MainActivity EXITING} destroySurfaces: appStopped=false win.mWindowRemovalAllowed=true win.mRemoveOnExit=true
+11-16 15:44:44.652  2010  2624 I WindowManager: postWindowRemoveCleanupLocked: Window{104ceb1 u0 cn.missevan/cn.missevan.activity.MainActivity}
+11-16 15:44:44.652  2010  2624 I WindowManager: Removing Window{104ceb1 u0 cn.missevan/cn.missevan.activity.MainActivity} from AppWindowToken{13f6609 token=Token{1418580 ActivityRecord{119cfc2 u0 cn.missevan/.activity.MainActivity t110}}}
+11-16 15:44:44.673   765  1874 I asd_out_fwk: L = -23.356697db, R = -23.356697db, Device = 0x2, TimeStampKernel = 380354880, TimeStampServer = 380356800
+11-16 15:44:44.693  4667  5956 I Booster_Qoe: AdaBoostPredict rlt,index:6,NisPsSlow:0,NProba:325,rsrp(rssi):-40,rsrq(noise):-78,rtt(chload):378,buffhigh(uldelay):0,buffcomm(rtt):90
+11-16 15:44:44.693  4667  5956 I Booster_Qoe: AdaBoostPredict rlt,index:2,NisPsSlow:0,NProba:325,rsrp(rssi):-40,rsrq(noise):-78,rtt(chload):378,buffhigh(uldelay):0,buffcomm(rtt):33
+11-16 15:44:44.693  4667  5956 I Collector: HandleRawWifiInfo: flag:0, netId:0!
+11-16 15:44:44.693  4667  4954 E BoosterUtil: convertSubIdToSlotId failed, subId:0, slotId:-1
+11-16 15:44:44.693  4667  4954 E BoosterUtil: getDefaultDataSlotId failed, invalid slotId:-1, subId:0
+11-16 15:44:44.694  4667  4954 E NrSmartCure: onNetworkQoeUpdate failed, invalid defaultDataSlotId=-1
+11-16 15:44:44.694  2010  3970 I WiFi_PRO_WifiProStateMachine: APP_SERVICE_QOE_NOTIFY Qoe info 10231,4,0,325,1,2,4,0,325,400000,400000,10,10,0,0,247,0 CID 2 mMasterWifiRssi -31 mMasterCardAmbr 1048576 mSlaveCardAmbr 1048576
+11-16 15:44:44.694  4667  5324 I Hicom_Monitor: handleNetworkQoeReport. foregroundAppTcpRtt: 90, maxRatioChannelId: 2
+11-16 15:44:44.694  4667  5324 I Hicom_Monitor: handleNetworkQoeReport. qoeString: 10231,4,0,325,1,2,4,0,325,400000,400000,10,10,0,0,247,0
+11-16 15:44:44.694  4667  5324 I Utils   : multipathPolicy is null
+11-16 15:44:44.695  2010  3970 I HwWifiProServiceProxy: ctrlHwWifiNetwork pkgName: WIFIPRO_SERVICE interfaceId: 9
+11-16 15:44:44.695  2010  3970 I WiFi_PRO_WifiProStateMachine: isWifi2WifiProcess = false, mIsNeedIgnoreQoeUpdate = false, mIsAppInBlacklist = false, mIsAppInBlacklistFullScreen = false, mIsWiFiNoInternet false, screen on = true, full screen = false, isLandscapeMode = false, mNotifyWifiLinkPoorReason = -1
+11-16 15:44:44.695  2010  3970 I WiFi_PRO_WifiProStateMachine: mChannelQoeBadCnt = 0, mAppQoeBadCnt = 0, mNetworkSlowReason = 0, mNetworkSlowChannelBadCnt = 0
+11-16 15:44:44.695  2010  3970 E WiFi_PROHumanFactorRecommend: isRichTrafficUser, invalid slotId=-1
+11-16 15:44:44.696  2010  3970 E WiFi_PROHumanFactorRecommend: isEconomicTrafficUser, invalid slotId=-1
+11-16 15:44:44.732  2010  4593 I WindowManager: addWindowToken: displayid:0 binder:android.os.Binder@13a32a5 token:WindowToken{f4d437 android.os.Binder@13a32a5}
+11-16 15:44:44.731    54    54 W migration/7: type=1400 audit(0.0:76786): avc: granted { setsched } for pid=54 scontext=u:r:kernel:s0 tcontext=u:r:kernel:s0 tclass=process
+11-16 15:44:44.731    48    48 W migration/6: type=1400 audit(0.0:76787): avc: granted { setsched } for pid=48 scontext=u:r:kernel:s0 tcontext=u:r:kernel:s0 tclass=process
+11-16 15:44:44.751    48    48 W migration/6: type=1400 audit(0.0:76788): avc: granted { setsched } for pid=48 scontext=u:r:kernel:s0 tcontext=u:r:kernel:s0 tclass=process
+11-16 15:44:44.763  4771  4771 D MouseWheelSynthesizer: mMoveStepInDp: 64, mMoveStepInPixel: 192, mUpTimeDelayed: 100
+11-16 15:44:44.765  4297  5325 I PG_ash  : view add pid:4771 uid:10231
+11-16 15:44:44.765  4771  4771 D ViewRootImpl: ViewRootImpl mIsInProductivePCDisplay: false
+11-16 15:44:44.765  2010  4593 I HwPCUtils#HwRioViewManager: check if rio enable, displayId = 0， packageName = cn.missevan
+11-16 15:44:44.767  2010  4593 E WindowManager: App trying to use insecure INPUT_FEATURE_NO_INPUT_CHANNEL flag. Ignoring
+11-16 15:44:44.769  2010  4593 I WindowManager: addWindow: Window{1439359 u0 Toast} client:android.os.BinderProxy@13a94c5 currentDisplayId:0 requestDisplayId:0 token:android.os.Binder@13a32a5
+11-16 15:44:44.769  4771  4771 D InputEventReceiver: dispatchInputInterval 1000000
+11-16 15:44:44.771  4603  4660 W QueryController: Could not detect idle state.
+11-16 15:44:44.772  2010  6390 E maple   :  info->si_addr not null: 0xc PC: c4bde700
+11-16 15:44:44.773  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:765
+11-16 15:44:44.780  4771  5010 D mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000
+11-16 15:44:44.787  4771  5010 D OpenGLRenderer: disableOutlineDraw is true
+11-16 15:44:44.791  2010  2624 I WindowManager: dispatchResized : win = Window{1439359 u0 Toast} drawState = HAS_DRAWN
+11-16 15:44:44.794  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:766
+11-16 15:44:44.806  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:767
+11-16 15:44:44.807  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:768
+11-16 15:44:44.808  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:769
+11-16 15:44:44.809  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:770
+11-16 15:44:44.810  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:771
+11-16 15:44:44.811  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:772
+11-16 15:44:44.811  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:773
+11-16 15:44:44.812  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:774
+11-16 15:44:44.813  4644  5101 D DeviceMonitorPowerKit: run, sCountNum is 1
+11-16 15:44:44.813  4644  5101 D DeviceMonitorPowerKit: interval is 839969, ElapsedRealtime is 476969407, isNeedRepeat: false
+11-16 15:44:44.813  4644  5101 E DeviceMonitorPowerKit: not Satify ApplyResource
+11-16 15:44:44.820  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:775
+11-16 15:44:44.820  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:776
+11-16 15:44:44.821  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:777
+11-16 15:44:44.823  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:778
+11-16 15:44:44.826  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:779
+11-16 15:44:44.826  6950  6485 I CAWARENESS_ServiceMonitor: memory(kB) static totalPss=19406, dalvikPss=2085, nativePss=4836
+11-16 15:44:44.827  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:780
+11-16 15:44:44.829  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:781
+11-16 15:44:44.832  2010  6390 D HwConnectivityServiceEx: set 1000 wlan0 value false
+11-16 15:44:44.838  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:782
+11-16 15:44:44.840  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:783
+11-16 15:44:44.847  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:784
+11-16 15:44:44.853  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:785
+11-16 15:44:44.857  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:786
+11-16 15:44:44.861  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:787
+11-16 15:44:44.864  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:788
+11-16 15:44:44.867  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:789
+11-16 15:44:44.870  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:790
+11-16 15:44:44.873   765  1874 I asd_out_fwk: L = -18.276760db, R = -18.276760db, Device = 0x2, TimeStampKernel = 380364480, TimeStampServer = 380366400
+11-16 15:44:44.887  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:791
+11-16 15:44:44.890  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:792
+11-16 15:44:44.894  4603  4660 I appium  : AppiumResponse: {"sessionId":"99d1857d-34f3-4904-986a-253a25fab314","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:929)\n"}}
+11-16 15:44:45.073   765  1874 I asd_out_fwk: L = -21.948116db, R = -21.948116db, Device = 0x2, TimeStampKernel = 380374080, TimeStampServer = 380376000
+11-16 15:44:45.112  4667  6060 D LteRecoveryEngine: UnRecoverState processMessage UPDATE_PS_SLOW_VALUE
+11-16 15:44:45.133   681 15256 I netd    : trafficSwapActiveStatsMap() <0.41ms>
+11-16 15:44:45.272   765  1874 I AudioFlinger: pid(5282):mVol=1.000000, tVol=0.039811, pVol=1.000000, sVol=1.000000, cVol = 1.000000, scale=1.000000, output=13, mDevice=0x2, mStreamType=3
+11-16 15:44:45.274   765  1874 I asd_out_fwk: L = -24.184755db, R = -24.184755db, Device = 0x2, TimeStampKernel = 380383680, TimeStampServer = 380385600
+11-16 15:44:45.419  4603  4660 I appium  : channel read: POST /wd/hub/session/99d1857d-34f3-4904-986a-253a25fab314/element
+11-16 15:44:45.421  4603  4660 I appium  : FindElement command
+11-16 15:44:45.422  4603  4660 I appium  : method: 'id', selector: 'cn.missevan:id/all_episodes'
+11-16 15:44:45.422  4603  4660 I appium  : Waiting up to 100ms for the device to idle
+11-16 15:44:45.473   765  1874 I asd_out_fwk: L = -11.321031db, R = -11.321031db, Device = 0x2, TimeStampKernel = 380393280, TimeStampServer = 380395200
+11-16 15:44:45.552   765  1874 D stereoWidening_frame: SwsOutProcPlaySamples enableCount is 250 countchans is 2, samples:960, format:5
+11-16 15:44:45.557  4603  4660 W QueryController: Could not detect idle state.
+11-16 15:44:45.557  2010  4593 E maple   :  info->si_addr not null: 0xc PC: c4bde700
+11-16 15:44:45.560  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:793
+11-16 15:44:45.577  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:794
+11-16 15:44:45.591  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:795
+11-16 15:44:45.595  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:796
+11-16 15:44:45.597  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:797
+11-16 15:44:45.601  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:798
+11-16 15:44:45.606  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:799
+11-16 15:44:45.608  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:800
+11-16 15:44:45.610  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:801
+11-16 15:44:45.612  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:802
+11-16 15:44:45.614  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:803
+11-16 15:44:45.615  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:804
+11-16 15:44:45.621  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:805
+11-16 15:44:45.624  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:806
+11-16 15:44:45.626  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:807
+11-16 15:44:45.627  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:808
+11-16 15:44:45.630  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:809
+11-16 15:44:45.640  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:810
+11-16 15:44:45.642  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:811
+11-16 15:44:45.644  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:812
+11-16 15:44:45.646  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:813
+11-16 15:44:45.647  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:814
+11-16 15:44:45.660  4603  4660 I appium  : AppiumResponse: {"sessionId":"99d1857d-34f3-4904-986a-253a25fab314","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:929)\n"}}
+11-16 15:44:45.673   765  1874 I asd_out_fwk: L = -17.326395db, R = -17.326395db, Device = 0x2, TimeStampKernel = 380402880, TimeStampServer = 380404800
+11-16 15:44:45.722  4667  5956 I Booster_Qoe: AdaBoostPredict rlt,index:6,NisPsSlow:0,NProba:325,rsrp(rssi):-40,rsrq(noise):-79,rtt(chload):329,buffhigh(uldelay):0,buffcomm(rtt):54
+11-16 15:44:45.722  4667  5956 I Booster_Qoe: AdaBoostPredict rlt,index:2,NisPsSlow:0,NProba:325,rsrp(rssi):-40,rsrq(noise):-79,rtt(chload):329,buffhigh(uldelay):0,buffcomm(rtt):31
+11-16 15:44:45.722  4667  5956 I Collector: HandleRawWifiInfo: flag:0, netId:0!
+11-16 15:44:45.724  4667  4954 E BoosterUtil: convertSubIdToSlotId failed, subId:0, slotId:-1
+11-16 15:44:45.724  4667  4954 E BoosterUtil: getDefaultDataSlotId failed, invalid slotId:-1, subId:0
+11-16 15:44:45.724  4667  4954 E NrSmartCure: onNetworkQoeUpdate failed, invalid defaultDataSlotId=-1
+11-16 15:44:45.725  4667  5324 I Hicom_Monitor: handleNetworkQoeReport. foregroundAppTcpRtt: 54, maxRatioChannelId: 2
+11-16 15:44:45.725  4667  5324 I Hicom_Monitor: handleNetworkQoeReport. qoeString: 10231,4,0,325,1,2,4,0,325,400000,400000,10,10,0,3,113,0
+11-16 15:44:45.726  4667  5324 I Utils   : multipathPolicy is null
+11-16 15:44:45.726  2010  3970 I WiFi_PRO_WifiProStateMachine: APP_SERVICE_QOE_NOTIFY Qoe info 10231,4,0,325,1,2,4,0,325,400000,400000,10,10,0,3,113,0 CID 2 mMasterWifiRssi -32 mMasterCardAmbr 1048576 mSlaveCardAmbr 1048576
+11-16 15:44:45.727  2010  3970 I HwWifiProServiceProxy: ctrlHwWifiNetwork pkgName: WIFIPRO_SERVICE interfaceId: 9
+11-16 15:44:45.727  2010  3970 I WiFi_PRO_WifiProStateMachine: isWifi2WifiProcess = false, mIsNeedIgnoreQoeUpdate = false, mIsAppInBlacklist = false, mIsAppInBlacklistFullScreen = false, mIsWiFiNoInternet false, screen on = true, full screen = false, isLandscapeMode = false, mNotifyWifiLinkPoorReason = -1
+11-16 15:44:45.727  2010  3970 I WiFi_PRO_WifiProStateMachine: mChannelQoeBadCnt = 0, mAppQoeBadCnt = 0, mNetworkSlowReason = 0, mNetworkSlowChannelBadCnt = 0
+11-16 15:44:45.730  2010  3970 E WiFi_PROHumanFactorRecommend: isRichTrafficUser, invalid slotId=-1
+11-16 15:44:45.734  2010  3970 E WiFi_PROHumanFactorRecommend: isEconomicTrafficUser, invalid slotId=-1
+11-16 15:44:45.749  2010  3880 I WificondControl: Noise: -78, Snr: 39, Chload: 514, rssi: -32, txBitrate: 400, rxBitrate: 400, frequency: 5745, UlDelay: 0, currentTxBytes: 46463662, currentTxPackets: 379183, currentTxFailed: 0, currentRxBytes: 1063235275, currentRxPackets: 1788565
+11-16 15:44:45.752  2010  3880 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@c5e735
+11-16 15:44:45.873   765  1874 I asd_out_fwk: L = -17.283052db, R = -17.283052db, Device = 0x2, TimeStampKernel = 380412480, TimeStampServer = 380414400
+11-16 15:44:46.073   765  1874 I asd_out_fwk: L = -7.808309db, R = -7.808309db, Device = 0x2, TimeStampKernel = 380422080, TimeStampServer = 380424000
+11-16 15:44:46.114  4667  6060 D LteRecoveryEngine: UnRecoverState processMessage UPDATE_PS_SLOW_VALUE
+11-16 15:44:46.193   882   882 I aptouch_daemon: check_afe_status, idle in. 133
+11-16 15:44:46.202  4603  4660 I appium  : channel read: POST /wd/hub/session/99d1857d-34f3-4904-986a-253a25fab314/element
+11-16 15:44:46.203  4603  4660 I appium  : FindElement command
+11-16 15:44:46.206  4603  4660 I appium  : method: 'id', selector: 'cn.missevan:id/all_episodes'
+11-16 15:44:46.206  4603  4660 I appium  : Waiting up to 100ms for the device to idle
+11-16 15:44:46.272   765  1874 I AudioFlinger: pid(5282):mVol=1.000000, tVol=0.039811, pVol=1.000000, sVol=1.000000, cVol = 1.000000, scale=1.000000, output=13, mDevice=0x2, mStreamType=3
+11-16 15:44:46.273   765  1874 I asd_out_fwk: L = -18.784161db, R = -18.784161db, Device = 0x2, TimeStampKernel = 380431680, TimeStampServer = 380433600
+11-16 15:44:46.377  4603  4660 W QueryController: Could not detect idle state.
+11-16 15:44:46.378  2010  6390 E maple   :  info->si_addr not null: 0xc PC: c4bde700
+11-16 15:44:46.381  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:815
+11-16 15:44:46.409  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:816
+11-16 15:44:46.424  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:817
+11-16 15:44:46.441  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:818
+11-16 15:44:46.443  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:819
+11-16 15:44:46.446  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:820
+11-16 15:44:46.447  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:821
+11-16 15:44:46.449 24992 25068 D AbilityCenter_SaveLogUtil: isStartedLogcat is false
+11-16 15:44:46.449 24992 25068 I chatty  : uid=10017(com.huawei.ohos.famanager) pool-5-thread-1 identical 1 line
+11-16 15:44:46.449 24992 25068 D AbilityCenter_SaveLogUtil: isStartedLogcat is false
+11-16 15:44:46.449  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:822
+11-16 15:44:46.452  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:823
+11-16 15:44:46.455  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:824
+11-16 15:44:46.470 24992 25068 D AbilityCenter_SaveLogUtil: isStartedLogcat is false
+11-16 15:44:46.470 24992 25068 I chatty  : uid=10017(com.huawei.ohos.famanager) pool-5-thread-1 identical 2 lines
+11-16 15:44:46.470 24992 25068 D AbilityCenter_SaveLogUtil: isStartedLogcat is false
+11-16 15:44:46.473   765  1874 I asd_out_fwk: L = -25.840702db, R = -25.840702db, Device = 0x2, TimeStampKernel = 380441280, TimeStampServer = 380443200
+11-16 15:44:46.474  2010  2010 I WindowManager: removeWindowToken: displayid:0 binder:android.os.Binder@d27249 token:null
+11-16 15:44:46.474  2010  2010 W WindowManager: removeWindowToken: Attempted to remove non-existing token: android.os.Binder@d27249
+11-16 15:44:46.475  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:825
+11-16 15:44:46.488  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:826
+11-16 15:44:46.490  2010  3879 I TrafficMonitor: update:rxPkts:50,txPkts:4,rxBytes:17915,txBytes:437
+11-16 15:44:46.490  2010  3879 I TrafficMonitor: no expired. level:2
+11-16 15:44:46.490  2010  3879 I TrafficMonitor: gettimer:interval=2000
+11-16 15:44:46.490  2010  3879 I TrafficMonitor: during_ms:2004,period_ms:2000
+11-16 15:44:46.490  2010  3879 I TrafficMonitor: count:282,rx_sum:50,tx_sum:4,rxBytes:17915,during_ms:2004,rx_speed:8939.620758483034,tx_speed:218.06387225548903,rto:12.5
+11-16 15:44:46.490  2010  3879 I HuaweiWifiWatchdogStateMachine: Get speed information rx_speed = 8939 ,tx_speed = 218 ,isSpeedOk = false ,mBestSpeedInPeriod = 8939
+11-16 15:44:46.493  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:827
+11-16 15:44:46.498  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:828
+11-16 15:44:46.503  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:829
+11-16 15:44:46.505  2010  6390 D HwConnectivityServiceEx: set 10231 wlan0 value false
+11-16 15:44:46.508  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:830
+11-16 15:44:46.511  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:831
+11-16 15:44:46.517  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:832
+11-16 15:44:46.523  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:833
+11-16 15:44:46.535  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:834
+11-16 15:44:46.544  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:835
+11-16 15:44:46.547  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:836
+11-16 15:44:46.549  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:837
+11-16 15:44:46.552  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:838
+11-16 15:44:46.553  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:839
+11-16 15:44:46.555  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:840
+11-16 15:44:46.557  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:841
+11-16 15:44:46.559  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:842
+11-16 15:44:46.579  4603  4660 I appium  : AppiumResponse: {"sessionId":"99d1857d-34f3-4904-986a-253a25fab314","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:929)\n"}}
+11-16 15:44:46.673   765  1874 I asd_out_fwk: L = -21.247162db, R = -21.247162db, Device = 0x2, TimeStampKernel = 380450880, TimeStampServer = 380452800
+11-16 15:44:46.736  2010  2010 I WindowManager: removeWindowToken: displayid:0 binder:android.os.Binder@13a32a5 token:WindowToken{f4d437 android.os.Binder@13a32a5}
+11-16 15:44:46.737  4771  4771 I ViewRootImpl: dispatchDetachedFromWindow in doDie
+11-16 15:44:46.741  4297  5325 I PG_ash  : view remove pid:4771 uid:10231
+11-16 15:44:46.742  4667  5956 I Booster_Qoe: AdaBoostPredict rlt,index:6,NisPsSlow:0,NProba:325,rsrp(rssi):-40,rsrq(noise):-78,rtt(chload):514,buffhigh(uldelay):0,buffcomm(rtt):58
+11-16 15:44:46.742  4667  5956 I Booster_Qoe: AdaBoostPredict rlt,index:2,NisPsSlow:0,NProba:325,rsrp(rssi):-40,rsrq(noise):-78,rtt(chload):514,buffhigh(uldelay):0,buffcomm(rtt):49
+11-16 15:44:46.743  4667  5956 I Collector: HandleRawWifiInfo: flag:0, netId:0!
+11-16 15:44:46.745  4667  4954 E BoosterUtil: convertSubIdToSlotId failed, subId:0, slotId:-1
+11-16 15:44:46.745  4667  4954 E BoosterUtil: getDefaultDataSlotId failed, invalid slotId:-1, subId:0
+11-16 15:44:46.745  4667  4954 E NrSmartCure: onNetworkQoeUpdate failed, invalid defaultDataSlotId=-1
+11-16 15:44:46.746  4667  5324 I Hicom_Monitor: handleNetworkQoeReport. foregroundAppTcpRtt: 58, maxRatioChannelId: 2
+11-16 15:44:46.746  4667  5324 I Hicom_Monitor: handleNetworkQoeReport. qoeString: 10231,4,0,325,1,2,4,0,325,400000,400000,10,10,0,1,67,0
+11-16 15:44:46.746  4667  5324 I Utils   : multipathPolicy is null
+11-16 15:44:46.746  2010  3970 I WiFi_PRO_WifiProStateMachine: APP_SERVICE_QOE_NOTIFY Qoe info 10231,4,0,325,1,2,4,0,325,400000,400000,10,10,0,1,67,0 CID 2 mMasterWifiRssi -32 mMasterCardAmbr 1048576 mSlaveCardAmbr 1048576
+11-16 15:44:46.747  2010  3970 I HwWifiProServiceProxy: ctrlHwWifiNetwork pkgName: WIFIPRO_SERVICE interfaceId: 9
+11-16 15:44:46.747  2010  3970 I WiFi_PRO_WifiProStateMachine: isWifi2WifiProcess = false, mIsNeedIgnoreQoeUpdate = false, mIsAppInBlacklist = false, mIsAppInBlacklistFullScreen = false, mIsWiFiNoInternet false, screen on = true, full screen = false, isLandscapeMode = false, mNotifyWifiLinkPoorReason = -1
+11-16 15:44:46.747  2010  3970 I WiFi_PRO_WifiProStateMachine: mChannelQoeBadCnt = 0, mAppQoeBadCnt = 0, mNetworkSlowReason = 0, mNetworkSlowChannelBadCnt = 0
+11-16 15:44:46.750  2010  3970 E WiFi_PROHumanFactorRecommend: isRichTrafficUser, invalid slotId=-1
+11-16 15:44:46.752  2010  3970 E WiFi_PROHumanFactorRecommend: isEconomicTrafficUser, invalid slotId=-1
+11-16 15:44:46.753   769  2657 W BufferQueueProducer: [Toast#0]:1390: disconnect: not connected (req=1)
+11-16 15:44:46.753  4771  5010 W libEGL  : EGLNativeWindowType 0x7dedb3e490 disconnect failed
+11-16 15:44:46.760  2010  6390 I WindowManager: removeIfPossible: Window{1439359 u0 Toast} callers=com.android.server.wm.WindowState.removeIfPossible:5163788 com.android.server.wm.WindowManagerService.removeWindow:4766012 android.view.IWindowSession$Stub.onTransact:5317436 com.android.server.wm.Session.onTransact:6796980 android.os.Binder.execTransactInternal:6255836
+11-16 15:44:46.760  2010  6390 I WindowManager: Not removing Window{1439359 u0 Toast EXITING} due to exit animation
+11-16 15:44:46.773  2010  6390 W NotificationService: Toast already killed. pkg=cn.missevan callback=android.app.ITransientNotification$Stub$Proxy@139ce27
+11-16 15:44:46.852  2010  2624 I WindowManager: Exit animation finished in Window{1439359 u0 Toast EXITING}: remove=true
+11-16 15:44:46.873   765  1874 I asd_out_fwk: L = -23.683617db, R = -23.683617db, Device = 0x2, TimeStampKernel = 380460480, TimeStampServer = 380462400
+11-16 15:44:46.877  2010  2624 I WindowManager: postWindowRemoveCleanupLocked: Window{1439359 u0 Toast}
+11-16 15:44:46.878  2010  2624 I WindowManager: Removing Window{1439359 u0 Toast} from WindowToken{f4d437 android.os.Binder@13a32a5}
+11-16 15:44:46.878  2010  2624 I WindowManager: removeWindowToken: displayid:0 binder:android.os.Binder@13a32a5 token:null
+11-16 15:44:47.076   765  1874 I asd_out_fwk: L = -20.447716db, R = -20.447716db, Device = 0x2, TimeStampKernel = 380470080, TimeStampServer = 380472000
+11-16 15:44:47.117  4667  6060 D LteRecoveryEngine: UnRecoverState processMessage UPDATE_PS_SLOW_VALUE
+11-16 15:44:47.175  4603  4660 I appium  : channel read: POST /wd/hub/session/99d1857d-34f3-4904-986a-253a25fab314/element
+11-16 15:44:47.176  4603  4660 I appium  : FindElement command
+11-16 15:44:47.180  4603  4660 I appium  : method: 'id', selector: 'cn.missevan:id/all_episodes'
+11-16 15:44:47.180  4603  4660 I appium  : Waiting up to 100ms for the device to idle
+11-16 15:44:47.272   765  1874 I AudioFlinger: pid(5282):mVol=1.000000, tVol=0.039811, pVol=1.000000, sVol=1.000000, cVol = 1.000000, scale=1.000000, output=13, mDevice=0x2, mStreamType=3
+11-16 15:44:47.274   765  1874 I asd_out_fwk: L = -13.059891db, R = -13.059891db, Device = 0x2, TimeStampKernel = 380479680, TimeStampServer = 380481600
+11-16 15:44:47.323  4603  4660 W QueryController: Could not detect idle state.
+11-16 15:44:47.324  2010  6390 E maple   :  info->si_addr not null: 0xc PC: c4bde700
+11-16 15:44:47.326  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:843
+11-16 15:44:47.355  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:844
+11-16 15:44:47.381  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:845
+11-16 15:44:47.386  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:846
+11-16 15:44:47.389  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:847
+11-16 15:44:47.393  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:848
+11-16 15:44:47.396  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:849
+11-16 15:44:47.407  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:850
+11-16 15:44:47.408  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:851
+11-16 15:44:47.410  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:852
+11-16 15:44:47.412  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:853
+11-16 15:44:47.413  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:854
+11-16 15:44:47.415  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:855
+11-16 15:44:47.420  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:856
+11-16 15:44:47.422  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:857
+11-16 15:44:47.424  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:858
+11-16 15:44:47.426  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:859
+11-16 15:44:47.427  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:860
+11-16 15:44:47.429  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:861
+11-16 15:44:47.430  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:862
+11-16 15:44:47.431  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:863
+11-16 15:44:47.434  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:864
+11-16 15:44:47.442  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:865
+11-16 15:44:47.459  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:866
+11-16 15:44:47.474   765  1874 I asd_out_fwk: L = -9.996149db, R = -9.996149db, Device = 0x2, TimeStampKernel = 380489280, TimeStampServer = 380491200
+11-16 15:44:47.476  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:867
+11-16 15:44:47.486  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:868
+11-16 15:44:47.490  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:869
+11-16 15:44:47.494  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:870
+11-16 15:44:47.496  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:871
+11-16 15:44:47.498  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:872
+11-16 15:44:47.507  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:873
+11-16 15:44:47.509  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:874
+11-16 15:44:47.510  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:875
+11-16 15:44:47.512  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:876
+11-16 15:44:47.515  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:877
+11-16 15:44:47.522  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:878
+11-16 15:44:47.530  4603  4660 I appium  : AppiumResponse: {"sessionId":"99d1857d-34f3-4904-986a-253a25fab314","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:929)\n"}}
+11-16 15:44:47.674   765  1874 I asd_out_fwk: L = -17.183956db, R = -17.183956db, Device = 0x2, TimeStampKernel = 380498880, TimeStampServer = 380500800
+11-16 15:44:47.766  4667  5956 I Booster_Qoe: AdaBoostPredict rlt,index:6,NisPsSlow:0,NProba:325,rsrp(rssi):-40,rsrq(noise):-78,rtt(chload):514,buffhigh(uldelay):0,buffcomm(rtt):23
+11-16 15:44:47.766  4667  5956 I Booster_Qoe: AdaBoostPredict rlt,index:2,NisPsSlow:0,NProba:325,rsrp(rssi):-40,rsrq(noise):-78,rtt(chload):514,buffhigh(uldelay):0,buffcomm(rtt):19
+11-16 15:44:47.767  4667  5956 I Collector: HandleRawWifiInfo: flag:0, netId:0!
+11-16 15:44:47.772  4667  4954 E BoosterUtil: convertSubIdToSlotId failed, subId:0, slotId:-1
+11-16 15:44:47.772  4667  4954 E BoosterUtil: getDefaultDataSlotId failed, invalid slotId:-1, subId:0
+11-16 15:44:47.772  4667  4954 E NrSmartCure: onNetworkQoeUpdate failed, invalid defaultDataSlotId=-1
+11-16 15:44:47.774  2010  3970 I WiFi_PRO_WifiProStateMachine: APP_SERVICE_QOE_NOTIFY Qoe info 10231,4,0,325,1,2,4,0,325,400000,400000,10,10,0,1,69,0 CID 2 mMasterWifiRssi -31 mMasterCardAmbr 1048576 mSlaveCardAmbr 1048576
+11-16 15:44:47.774  4667  5324 I Hicom_Monitor: handleNetworkQoeReport. foregroundAppTcpRtt: 23, maxRatioChannelId: 2
+11-16 15:44:47.774  4667  5324 I Hicom_Monitor: handleNetworkQoeReport. qoeString: 10231,4,0,325,1,2,4,0,325,400000,400000,10,10,0,1,69,0
+11-16 15:44:47.774  4667  5324 I Utils   : multipathPolicy is null
+11-16 15:44:47.775  2010  3970 I HwWifiProServiceProxy: ctrlHwWifiNetwork pkgName: WIFIPRO_SERVICE interfaceId: 9
+11-16 15:44:47.775  2010  3970 I WiFi_PRO_WifiProStateMachine: isWifi2WifiProcess = false, mIsNeedIgnoreQoeUpdate = false, mIsAppInBlacklist = false, mIsAppInBlacklistFullScreen = false, mIsWiFiNoInternet false, screen on = true, full screen = false, isLandscapeMode = false, mNotifyWifiLinkPoorReason = -1
+11-16 15:44:47.775  2010  3970 I WiFi_PRO_WifiProStateMachine: mChannelQoeBadCnt = 0, mAppQoeBadCnt = 0, mNetworkSlowReason = 0, mNetworkSlowChannelBadCnt = 0
+11-16 15:44:47.776  2010  3970 E WiFi_PROHumanFactorRecommend: isRichTrafficUser, invalid slotId=-1
+11-16 15:44:47.779  2010  3970 E WiFi_PROHumanFactorRecommend: isEconomicTrafficUser, invalid slotId=-1
+11-16 15:44:47.876   765  1874 I asd_out_fwk: L = -21.804251db, R = -21.804251db, Device = 0x2, TimeStampKernel = 380508480, TimeStampServer = 380510400
+11-16 15:44:47.887  5282  6308 D CCodecBuffers: [c2.android.aac.decoder#379:1D-Input.Impl[N]] codec released a buffer owned by client (index 1)
+11-16 15:44:47.951 24423 24980 D MemoryCeilingMonitor: [handleMemoryCalculate]
+11-16 15:44:47.952 24423 24980 D MemoryCeilingMonitor: [calculate] tot: 6040048, max: 402653184, free: 152912, heap: 5887136, per: 0.01462086041768392
+11-16 15:44:48.028  4667  4954 I SpeedTestNotifier: is low speed scene
+11-16 15:44:48.073  4603  4660 I appium  : channel read: POST /wd/hub/session/99d1857d-34f3-4904-986a-253a25fab314/element
+11-16 15:44:48.075   765  1874 I asd_out_fwk: L = -16.310795db, R = -16.310795db, Device = 0x2, TimeStampKernel = 380518080, TimeStampServer = 380520000
+11-16 15:44:48.075  4603  4660 I appium  : FindElement command
+11-16 15:44:48.078  4603  4660 I appium  : method: 'id', selector: 'cn.missevan:id/all_episodes'
+11-16 15:44:48.079  4603  4660 I appium  : Waiting up to 100ms for the device to idle
+11-16 15:44:48.121  4667  6060 D LteRecoveryEngine: UnRecoverState processMessage UPDATE_PS_SLOW_VALUE
+11-16 15:44:48.241  4603  4660 W QueryController: Could not detect idle state.
+11-16 15:44:48.242  2010  4593 E maple   :  info->si_addr not null: 0xc PC: c4bde700
+11-16 15:44:48.243  2010  3880 I WificondControl: Noise: -86, Snr: 127, Chload: 189, rssi: -31, txBitrate: 400, rxBitrate: 400, frequency: 5745, UlDelay: 0, currentTxBytes: 46463822, currentTxPackets: 379185, currentTxFailed: 0, currentRxBytes: 1063247206, currentRxPackets: 1788610
+11-16 15:44:48.246  2010  3879 I WiFi_PRO: MSG_RETURN_AP_CURRY_RSSI rssi = -31
+11-16 15:44:48.246  2010  3879 I QosMonitor: queryRtt: rttType = 3
+11-16 15:44:48.246  2010  3879 I HwWifiProServiceProxy: ctrlHwWifiNetwork pkgName: WIFIPRO_SERVICE interfaceId: 8
+11-16 15:44:48.246  2010  3974 I HwDualBandManager: handle2gApStrongWifiRssiChange
+11-16 15:44:48.246  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:879
+11-16 15:44:48.247  2010  3879 I QosMonitor: postEventFromNative: msg=100,arg1=4,arg2=10
+11-16 15:44:48.247  2010  3971 I HuaweiWifiWatchdogStateMachine: POta txb txg rxg:0, 6, 0. Lr =0% Totpkt=6
+11-16 15:44:48.248  2010  3879 I HwWifiProServiceProxy: ctrlHwWifiNetwork pkgName: WIFIPRO_SERVICE interfaceId: 8
+11-16 15:44:48.248  2010  3879 I QosMonitor: postEventFromNative: msg=100,arg1=0,arg2=10
+11-16 15:44:48.248  2010  3879 I QosMonitor: resetRtt: rttType = 3
+11-16 15:44:48.248  2010  3879 I HwWifiProServiceProxy: ctrlHwWifiNetwork pkgName: WIFIPRO_SERVICE interfaceId: 8
+11-16 15:44:48.249  2010  3879 I MQoS    : rtt=192,tcpTxPkts=735410,tcpRxPkts=1987971
+11-16 15:44:48.249  2010 11971 D HwConnectivityServiceEx: set 1000 wlan0 value false
+11-16 15:44:48.250  2010  3971 I HuaweiWifiWatchdogStateMachine: PTcp RTT:0, rtt pkt=0, tcp_rx=12, tcp_tx=11, tcp_reTran=0, rtRate=0
+11-16 15:44:48.250  2010  3971 I HuaweiWifiWatchdogStateMachine: start computeQosLevel tcpRtt = 0 ,rssi = -31 ,mBestSpeedInPeriod = 8939
+11-16 15:44:48.250  2010  3971 I HuaweiWifiWatchdogStateMachine: smoothConsecutiveQosResults, currentQosLevel = 3
+11-16 15:44:48.254  2010 11971 I MQoS    : QOS_level:0(0),wifi-link;SIM error;use level-0
+11-16 15:44:48.262  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:880
+11-16 15:44:48.272  2010  2623 W WindowManager: Unable to start animation, surface is null or no children.
+11-16 15:44:48.272   765  1874 I AudioFlinger: pid(5282):mVol=1.000000, tVol=0.039811, pVol=1.000000, sVol=1.000000, cVol = 1.000000, scale=1.000000, output=13, mDevice=0x2, mStreamType=3
+11-16 15:44:48.272  2010  2623 I WindowManager: Policy visibility false: Window{1439359 u0 Toast}
+11-16 15:44:48.274   765  1874 I asd_out_fwk: L = -15.932856db, R = -15.932856db, Device = 0x2, TimeStampKernel = 380527680, TimeStampServer = 380529600
+11-16 15:44:48.283  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:881
+11-16 15:44:48.290  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:882
+11-16 15:44:48.292  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:883
+11-16 15:44:48.295  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:884
+11-16 15:44:48.297  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:885
+11-16 15:44:48.298  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:886
+11-16 15:44:48.300  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:887
+11-16 15:44:48.302  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:888
+11-16 15:44:48.304  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:889
+11-16 15:44:48.305  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:890
+11-16 15:44:48.307  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:891
+11-16 15:44:48.311  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:892
+11-16 15:44:48.312  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:893
+11-16 15:44:48.313  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:894
+11-16 15:44:48.314  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:895
+11-16 15:44:48.322  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:896
+11-16 15:44:48.341  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:897
+11-16 15:44:48.344  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:898
+11-16 15:44:48.346  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:899
+11-16 15:44:48.350  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:900
+11-16 15:44:48.357  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:901
+11-16 15:44:48.376  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:902
+11-16 15:44:48.392  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:903
+11-16 15:44:48.402  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:904
+11-16 15:44:48.409  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:905
+11-16 15:44:48.413  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:906
+11-16 15:44:48.414  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:907
+11-16 15:44:48.417  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:908
+11-16 15:44:48.418  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:909
+11-16 15:44:48.422  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:910
+11-16 15:44:48.427  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:911
+11-16 15:44:48.440  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:912
+11-16 15:44:48.443  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:913
+11-16 15:44:48.458  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:914
+11-16 15:44:48.462  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:915
+11-16 15:44:48.466  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:916
+11-16 15:44:48.470  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:917
+11-16 15:44:48.475   765  1874 I asd_out_fwk: L = -18.217585db, R = -18.217585db, Device = 0x2, TimeStampKernel = 380537280, TimeStampServer = 380539200
+11-16 15:44:48.477  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:918
+11-16 15:44:48.480  1056  6371 D BufferPoolAccessor: bufferpool2 0x704e697420 : 6(24576 size) total buffers - 1(4096 size) used buffers - 1453/1459 (recycle/alloc) - 7/1458 (fetch/transfer)
+11-16 15:44:48.486  4603  4660 I appium  : AppiumResponse: {"sessionId":"99d1857d-34f3-4904-986a-253a25fab314","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:929)\n"}}
+11-16 15:44:48.492  2010  3879 I TrafficMonitor: update:rxPkts:36,txPkts:7,rxBytes:7883,txBytes:335
+11-16 15:44:48.492  2010  3879 I TrafficMonitor: gettimer:interval=2000
+11-16 15:44:48.675   765  1874 I asd_out_fwk: L = -22.809780db, R = -22.809780db, Device = 0x2, TimeStampKernel = 380546880, TimeStampServer = 380548800
+11-16 15:44:48.687   681 15256 I netd    : trafficSwapActiveStatsMap() <0.99ms>
+11-16 15:44:48.759  2010  3880 I WificondControl: Noise: -86, Snr: 127, Chload: 189, rssi: -31, txBitrate: 400, rxBitrate: 400, frequency: 5745, UlDelay: 0, currentTxBytes: 46463822, currentTxPackets: 379185, currentTxFailed: 0, currentRxBytes: 1063247206, currentRxPackets: 1788610
+11-16 15:44:48.762  2010  3880 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@c5e735
+11-16 15:44:48.789  4667  5956 I Booster_Qoe: AdaBoostPredict rlt,index:6,NisPsSlow:0,NProba:312,rsrp(rssi):-40,rsrq(noise):-86,rtt(chload):189,buffhigh(uldelay):0,buffcomm(rtt):31
+11-16 15:44:48.790  4667  5956 I Booster_Qoe: AdaBoostPredict rlt,index:2,NisPsSlow:0,NProba:312,rsrp(rssi):-40,rsrq(noise):-86,rtt(chload):189,buffhigh(uldelay):0,buffcomm(rtt):29
+11-16 15:44:48.790  4667  5956 I Collector: HandleRawWifiInfo: flag:0, netId:0!
+11-16 15:44:48.792  4667  4954 E BoosterUtil: convertSubIdToSlotId failed, subId:0, slotId:-1
+11-16 15:44:48.792  4667  4954 E BoosterUtil: getDefaultDataSlotId failed, invalid slotId:-1, subId:0
+11-16 15:44:48.792  4667  4954 E NrSmartCure: onNetworkQoeUpdate failed, invalid defaultDataSlotId=-1
+11-16 15:44:48.794  4667  5324 I Hicom_Monitor: handleNetworkQoeReport. foregroundAppTcpRtt: 31, maxRatioChannelId: 2
+11-16 15:44:48.794  4667  5324 I Hicom_Monitor: handleNetworkQoeReport. qoeString: 10231,4,0,312,1,2,4,0,312,400000,400000,10,10,0,0,24,0
+11-16 15:44:48.794  4667  5324 I Utils   : multipathPolicy is null
+11-16 15:44:48.794  2010  3970 I WiFi_PRO_WifiProStateMachine: APP_SERVICE_QOE_NOTIFY Qoe info 10231,4,0,312,1,2,4,0,312,400000,400000,10,10,0,0,24,0 CID 2 mMasterWifiRssi -31 mMasterCardAmbr 1048576 mSlaveCardAmbr 1048576
+11-16 15:44:48.795  2010  3970 I HwWifiProServiceProxy: ctrlHwWifiNetwork pkgName: WIFIPRO_SERVICE interfaceId: 9
+11-16 15:44:48.795  2010  3970 I WiFi_PRO_WifiProStateMachine: isWifi2WifiProcess = false, mIsNeedIgnoreQoeUpdate = false, mIsAppInBlacklist = false, mIsAppInBlacklistFullScreen = false, mIsWiFiNoInternet false, screen on = true, full screen = false, isLandscapeMode = false, mNotifyWifiLinkPoorReason = -1
+11-16 15:44:48.795  2010  3970 I WiFi_PRO_WifiProStateMachine: mChannelQoeBadCnt = 0, mAppQoeBadCnt = 0, mNetworkSlowReason = 0, mNetworkSlowChannelBadCnt = 0
+11-16 15:44:48.797  2010  3970 E WiFi_PROHumanFactorRecommend: isRichTrafficUser, invalid slotId=-1
+11-16 15:44:48.798  2010  3970 E WiFi_PROHumanFactorRecommend: isEconomicTrafficUser, invalid slotId=-1
+11-16 15:44:48.874   765  1874 I asd_out_fwk: L = -20.025257db, R = -20.025257db, Device = 0x2, TimeStampKernel = 380556480, TimeStampServer = 380558400
+11-16 15:44:48.981  5282  6370 D BufferPoolAccessor: bufferpool2 0x7eda6f7820 : 6(49152 size) total buffers - 5(40960 size) used buffers - 1/7 (recycle/alloc) - 6/1487 (fetch/transfer)
+11-16 15:44:49.012  4603  4660 I appium  : channel read: POST /wd/hub/session/99d1857d-34f3-4904-986a-253a25fab314/element
+11-16 15:44:49.013  4603  4660 I appium  : FindElement command
+11-16 15:44:49.017  4603  4660 I appium  : method: 'id', selector: 'cn.missevan:id/all_episodes'
+11-16 15:44:49.018  4603  4660 I appium  : Waiting up to 100ms for the device to idle
+11-16 15:44:49.074   765  1874 I asd_out_fwk: L = -17.867779db, R = -17.867779db, Device = 0x2, TimeStampKernel = 380566080, TimeStampServer = 380568000
+11-16 15:44:49.123  4667  6060 D LteRecoveryEngine: UnRecoverState processMessage UPDATE_PS_SLOW_VALUE
+11-16 15:44:49.173  4603  4660 W QueryController: Could not detect idle state.
+11-16 15:44:49.174  2010  4593 E maple   :  info->si_addr not null: 0xc PC: c4bde700
+11-16 15:44:49.177  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:919
+11-16 15:44:49.193  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:920
+11-16 15:44:49.206  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:921
+11-16 15:44:49.224  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:922
+11-16 15:44:49.228  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:923
+11-16 15:44:49.231  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:924
+11-16 15:44:49.235  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:925
+11-16 15:44:49.239  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:926
+11-16 15:44:49.242  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:927
+11-16 15:44:49.244  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:928
+11-16 15:44:49.257  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:929
+11-16 15:44:49.271   765  1874 I AudioFlinger: pid(5282):mVol=1.000000, tVol=0.039811, pVol=1.000000, sVol=1.000000, cVol = 1.000000, scale=1.000000, output=13, mDevice=0x2, mStreamType=3
+11-16 15:44:49.273  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:930
+11-16 15:44:49.273   765  1874 I asd_out_fwk: L = -25.895460db, R = -25.895460db, Device = 0x2, TimeStampKernel = 380575680, TimeStampServer = 380577600
+11-16 15:44:49.276  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:931
+11-16 15:44:49.281  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:932
+11-16 15:44:49.288  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:933
+11-16 15:44:49.293  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:934
+11-16 15:44:49.296  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:935
+11-16 15:44:49.304  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:936
+11-16 15:44:49.308  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:937
+11-16 15:44:49.322  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:938
+11-16 15:44:49.330  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:939
+11-16 15:44:49.333  1047  1047 E Thermal-daemon:hw_thermal: [charger_ic] tempNew :36  tempOld :35
+11-16 15:44:49.334  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:940
+11-16 15:44:49.334  1047  1047 E Thermal-daemon:hw_thermal: Report temperature: [charger_ic] temp :36  reportThreshold:1
+11-16 15:44:49.337  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:941
+11-16 15:44:49.340  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:942
+11-16 15:44:49.341  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:943
+11-16 15:44:49.342  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:944
+11-16 15:44:49.344  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:945
+11-16 15:44:49.357  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:946
+11-16 15:44:49.366  4603  4660 I appium  : AppiumResponse: {"sessionId":"99d1857d-34f3-4904-986a-253a25fab314","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:929)\n"}}
+11-16 15:44:49.474   765  1874 I asd_out_fwk: L = -20.745111db, R = -20.745111db, Device = 0x2, TimeStampKernel = 380585280, TimeStampServer = 380587200
+11-16 15:44:49.524  2010  6390 D HwConnectivityServiceEx: set 10231 wlan0 value false
+11-16 15:44:49.532  2010  2637 D ZrHung.AppEyeTransparentWindow: handleMessage CHECK_TRANS_WINDOW_ERROR_MSG
+11-16 15:44:49.676   765  1874 I asd_out_fwk: L = -7.927773db, R = -7.927773db, Device = 0x2, TimeStampKernel = 380594880, TimeStampServer = 380596800
+11-16 15:44:49.814  4667  5956 I Booster_Qoe: AdaBoostPredict rlt,index:6,NisPsSlow:0,NProba:312,rsrp(rssi):-40,rsrq(noise):-82,rtt(chload):224,buffhigh(uldelay):0,buffcomm(rtt):12
+11-16 15:44:49.815  4667  5956 I Booster_Qoe: AdaBoostPredict rlt,index:2,NisPsSlow:0,NProba:312,rsrp(rssi):-40,rsrq(noise):-82,rtt(chload):224,buffhigh(uldelay):0,buffcomm(rtt):11
+11-16 15:44:49.815  4667  5956 I Collector: HandleRawWifiInfo: flag:0, netId:0!
+11-16 15:44:49.817  4667  4954 E BoosterUtil: convertSubIdToSlotId failed, subId:0, slotId:-1
+11-16 15:44:49.817  4667  4954 E BoosterUtil: getDefaultDataSlotId failed, invalid slotId:-1, subId:0
+11-16 15:44:49.817  4667  4954 E NrSmartCure: onNetworkQoeUpdate failed, invalid defaultDataSlotId=-1
+11-16 15:44:49.819  2010  3970 I WiFi_PRO_WifiProStateMachine: APP_SERVICE_QOE_NOTIFY Qoe info 10231,4,0,312,1,2,4,0,312,400000,400000,10,10,0,3,44,0 CID 2 mMasterWifiRssi -31 mMasterCardAmbr 1048576 mSlaveCardAmbr 1048576
+11-16 15:44:49.820  2010  3970 I HwWifiProServiceProxy: ctrlHwWifiNetwork pkgName: WIFIPRO_SERVICE interfaceId: 9
+11-16 15:44:49.820  2010  3970 I WiFi_PRO_WifiProStateMachine: isWifi2WifiProcess = false, mIsNeedIgnoreQoeUpdate = false, mIsAppInBlacklist = false, mIsAppInBlacklistFullScreen = false, mIsWiFiNoInternet false, screen on = true, full screen = false, isLandscapeMode = false, mNotifyWifiLinkPoorReason = -1
+11-16 15:44:49.820  2010  3970 I WiFi_PRO_WifiProStateMachine: mChannelQoeBadCnt = 0, mAppQoeBadCnt = 0, mNetworkSlowReason = 0, mNetworkSlowChannelBadCnt = 0
+11-16 15:44:49.820  2010  3970 E WiFi_PROHumanFactorRecommend: isRichTrafficUser, invalid slotId=-1
+11-16 15:44:49.821  4667  5324 I Hicom_Monitor: handleNetworkQoeReport. foregroundAppTcpRtt: 12, maxRatioChannelId: 2
+11-16 15:44:49.821  4667  5324 I Hicom_Monitor: handleNetworkQoeReport. qoeString: 10231,4,0,312,1,2,4,0,312,400000,400000,10,10,0,3,44,0
+11-16 15:44:49.821  4667  5324 I Utils   : multipathPolicy is null
+11-16 15:44:49.821  2010  3970 E WiFi_PROHumanFactorRecommend: isEconomicTrafficUser, invalid slotId=-1
+11-16 15:44:49.874   765  1874 I asd_out_fwk: L = -15.026223db, R = -15.026223db, Device = 0x2, TimeStampKernel = 380604480, TimeStampServer = 380606400
+11-16 15:44:49.897  4603  4660 I appium  : channel read: GET /wd/hub/session/99d1857d-34f3-4904-986a-253a25fab314/screenshot
+11-16 15:44:49.898  4603  4660 I appium  : CaptureScreenshot command
+11-16 15:44:50.016  6486  6486 D skia    : HME hme_jpeg_dec version=JPEG_DEC_16.12.1, releasetime=12:06:23 May 10 2021
+11-16 15:44:50.016  6486  6486 D skia    : HME SkHmeDecFunction1 constructor ok
+11-16 15:44:50.017  6486  6486 D HiTraceC: entered HiTraceInit, Log Registered: 1
+11-16 15:44:50.033   505   505 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@3.0::IMapper/default in either framework or device manifest.
+11-16 15:44:50.034  6486  6486 W Gralloc3: mapper 3.x is not supported
+11-16 15:44:50.073   765  1874 I asd_out_fwk: L = -30.317146db, R = -30.317146db, Device = 0x2, TimeStampKernel = 380614080, TimeStampServer = 380616000
+11-16 15:44:50.126  4667  6060 D LteRecoveryEngine: UnRecoverState processMessage UPDATE_PS_SLOW_VALUE
+11-16 15:44:50.272   765  1874 I AudioFlinger: pid(5282):mVol=1.000000, tVol=0.039811, pVol=1.000000, sVol=1.000000, cVol = 1.000000, scale=1.000000, output=13, mDevice=0x2, mStreamType=3
+11-16 15:44:50.274   765  1874 I asd_out_fwk: L = -21.855267db, R = -21.855267db, Device = 0x2, TimeStampKernel = 380623680, TimeStampServer = 380625600
+11-16 15:44:50.384  4603  4660 I appium  : AppiumResponse: {"sessionId":"99d1857d-34f3-4904-986a-253a25fab314","value":"iVBORw0KGgoAAAANSUhEUgAABJgAAAlgCAYAAADEQo0EAAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHic7N15fFT1vf/x1zmzZrLvCQFCCAHCLiCCgggigq1Vq9XaWtvbeq3WLt7u\n9ndLqbX11rZau1prtYrVVqti3bBaRURBdoghIUBIgJCdbLMv5/z+oEZTQMVBFn0/Hw9lzjLf850z\nkMx5z…

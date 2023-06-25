@@ -11,13 +11,12 @@ discovery_01:
     name: 点击搜索
   -
     method: set_text
-    element: cn.missevan:id/search
+    element: cn.missevan:id/et_search
     text: 偷偷藏不住
     name: 输入搜索关键词
   -
-    method: click
-    element: set_keycode_enter
-    name: 回车搜索
+    method: set_keycode_enter
+    name: 点击回车键进行搜索
   -
     method: sleep
     element: 1
@@ -39,7 +38,7 @@ discovery_01:
     name: 点击搜索
   -
     method: set_text
-    element: cn.missevan:id/search
+    element: cn.missevan:id/et_search
     text: 偷偷藏不住
     name: 输入搜索关键词
   -
@@ -47,6 +46,10 @@ discovery_01:
     element: cn.missevan:id/tv_query
     index: 0
     name: 点击第一个联想词
+  -
+    method: sleep
+    element: 1
+    name: 等待 1s
   -
     method: get_text
     element: cn.missevan:id/drama_title
@@ -64,6 +67,10 @@ discovery_01:
     index: 0
     name: 点击第一个热门搜索词
   -
+    method: sleep
+    element: 1
+    name: 等待 1s
+  -
     method: is_element_displayed
     element: cn.missevan:id/sliding_tabs
     name: 验证是否有搜索顶部 tab 栏
@@ -77,6 +84,10 @@ discovery_01:
     method: click
     element: cn.missevan:id/search
     name: 点击搜索
+  -
+    method: sleep
+    element: 1
+    name: 等待 1s
   -
     method: is_element_displayed
     element: cn.missevan:id/search_history_detail

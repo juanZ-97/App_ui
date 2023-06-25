@@ -1,0 +1,661 @@
+06-21 16:02:56.914 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:02:56.917 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:02:56.928 31917 31924 I ocessService0:: This is non sticky GC, maxfree is 8388608 minfree is 2097152
+06-21 16:02:56.958  2055  3327 D libsensor-displayalgo: the value of  brightness:438.000000,R:78288747.866619,G:78288943.845811,B:78301111.058432,EVENT_C:7253.000000,EVENT_R:2826.500000,EVENT_G:3653.500000,EVENT_B:1464.000000
+06-21 16:02:56.958  2055  3327 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-21 16:02:56.958  2055  3327 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-21 16:02:56.959  2055  3327 I libsensor-displayalgo: the value of  RESULT3143.488055,1241.879062,1522.354140,570.296979
+06-21 16:02:56.959  2055  3327 I libsensor-displayalgo: the value of  getChannelDataCalibrated3295.775618,1150.219382,1769.438579,622.440776
+06-21 16:02:56.959  2055  3327 I libsensor-displayalgo: the value of  REAL LUX233.441422
+06-21 16:02:56.959  2055  3327 I libsensor-displayalgo: the value of  CAL REAL LUX233.441422
+06-21 16:02:56.972  1289  2256 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+06-21 16:02:56.974  2055 15083 I libcitsensorservice@2.0-impl: msg_transfer
+06-21 16:02:56.974  2055  3319 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:11 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+06-21 16:02:56.974  1289  1865 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+06-21 16:02:56.975  1289 31993 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+06-21 16:02:56.982  1289 31993 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+06-21 16:02:56.982  1289 31993 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+06-21 16:02:56.982  1289 31993 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+06-21 16:02:56.983  1289 31993 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+06-21 16:02:56.989  1289  1506 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+06-21 16:02:56.996  1289 31996 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+06-21 16:02:56.998  1289 31996 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+06-21 16:02:56.998  1289 31996 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+06-21 16:02:57.027 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:02:57.028 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:02:57.029 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:02:57.033 29732 31890 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:02:57.147 29732 30588 I CCodecBufferChannel: pipelineRoom(3) is <= numClientBuffers(3). Not signalling any more buffers to client
+06-21 16:02:57.258  2055  3327 D libsensor-displayalgo: the value of  brightness:438.000000,R:78288747.866619,G:78288943.845811,B:78301111.058432,EVENT_C:7245.500000,EVENT_R:2825.000000,EVENT_G:3651.500000,EVENT_B:1463.500000
+06-21 16:02:57.259  2055  3327 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-21 16:02:57.259  2055  3327 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-21 16:02:57.259  2055  3327 I libsensor-displayalgo: the value of  RESULT3143.488055,1241.879062,1522.354140,570.296979
+06-21 16:02:57.259  2055  3327 I libsensor-displayalgo: the value of  getChannelDataCalibrated3295.775618,1150.219382,1769.438579,622.440776
+06-21 16:02:57.259  2055  3327 I libsensor-displayalgo: the value of  REAL LUX232.918259
+06-21 16:02:57.259  2055  3327 I libsensor-displayalgo: the value of  CAL REAL LUX232.918259
+06-21 16:02:57.277  1289  2256 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+06-21 16:02:57.279  2055  2137 I libcitsensorservice@2.0-impl: msg_transfer
+06-21 16:02:57.279  2055  3319 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:11 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+06-21 16:02:57.280  1289  1865 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+06-21 16:02:57.281  1289 32003 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+06-21 16:02:57.287  1289 32003 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+06-21 16:02:57.287  1289 32003 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+06-21 16:02:57.287  1289 32003 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+06-21 16:02:57.287  1289 32003 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+06-21 16:02:57.294  1289  1506 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+06-21 16:02:57.301  1289 32004 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+06-21 16:02:57.302  1289 32004 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+06-21 16:02:57.302  1289 32004 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+06-21 16:02:57.347 29732 30588 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:02:57.451  6878  7627 I SmartThreadExecutor: handleMessage: start check 0
+06-21 16:02:57.451  6878  7627 I SmartThreadExecutor: handleMessage: check end 0 -65 false
+06-21 16:02:57.466 29732 30588 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:02:57.471 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:02:57.471 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:02:57.476 29513 29649 E TbsEPLoader: onLoadFailed
+06-21 16:02:57.536 29445 29484 I appium  : channel read: POST /wd/hub/session/ec832cae-5da2-429d-a853-90de0bafd2d5/element
+06-21 16:02:57.539 29445 29484 I appium  : FindElement command
+06-21 16:02:57.544 29445 29484 I appium  : method: 'id', selector: 'cn.missevan:id/fl_search'
+06-21 16:02:57.544 29445 29484 I appium  : Waiting up to 100ms for the device to idle
+06-21 16:02:57.544  5790 31894 I SafeBinderCall: onPositionChange binder cost:0
+06-21 16:02:57.545  4190  4190 D MiPlayDetailViewModel: onPositionChange(): position = 4984
+06-21 16:02:57.558  2055  3327 D libsensor-displayalgo: the value of  brightness:438.000000,R:78288747.866619,G:78288943.845811,B:78301111.058432,EVENT_C:7251.000000,EVENT_R:2824.500000,EVENT_G:3654.500000,EVENT_B:1465.000000
+06-21 16:02:57.558  2055  3327 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-21 16:02:57.558  2055  3327 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-21 16:02:57.558  2055  3327 I libsensor-displayalgo: the value of  RESULT3143.488055,1241.879062,1522.354140,570.296979
+06-21 16:02:57.558  2055  3327 I libsensor-displayalgo: the value of  getChannelDataCalibrated3295.775618,1150.219382,1769.438579,622.440776
+06-21 16:02:57.558  2055  3327 I libsensor-displayalgo: the value of  REAL LUX233.339935
+06-21 16:02:57.558  2055  3327 I libsensor-displayalgo: the value of  CAL REAL LUX233.339935
+06-21 16:02:57.582  1289  2256 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+06-21 16:02:57.583  2055  2137 I libcitsensorservice@2.0-impl: msg_transfer
+06-21 16:02:57.583  2055  3319 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:11 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+06-21 16:02:57.584  1289  1865 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+06-21 16:02:57.585  1289 32015 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+06-21 16:02:57.592  1289 32015 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+06-21 16:02:57.592  1289 32015 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+06-21 16:02:57.592  1289 32015 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+06-21 16:02:57.592  1289 32015 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+06-21 16:02:57.598 29732 30588 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(3). Not signalling any more buffers to client
+06-21 16:02:57.599  1289  1506 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+06-21 16:02:57.603 29732 31890 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:02:57.603 29732 30588 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:02:57.606  1289 32016 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+06-21 16:02:57.607  1289 32016 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+06-21 16:02:57.607  1289 32016 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+06-21 16:02:57.645 29732 29898 D AudioTrack: [audioTrackData][fine] 5s(f:5002 m:0 s:0 k:0) : pid 29732 uid 10499 sessionId 433 sr 44100 ch 2 fmt 1
+06-21 16:02:57.705 29732 31890 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:02:57.706 29732 30588 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:02:57.709 29732 30588 I CCodecBufferChannel: pipelineRoom(3) is <= numClientBuffers(3). Not signalling any more buffers to client
+06-21 16:02:57.710 29732 31890 I CCodecBufferChannel: pipelineRoom(3) is <= numClientBuffers(3). Not signalling any more buffers to client
+06-21 16:02:57.802 29732 30588 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:02:57.805  5322  9961 W MiuiPerfServiceClient: interceptAndQueuing:29513|cn.missevan|45|43|75524898870302|Slow issue draw commands|2
+06-21 16:02:57.859  2055  3327 D libsensor-displayalgo: the value of  brightness:438.000000,R:78288747.866619,G:78288943.845811,B:78301111.058432,EVENT_C:7248.500000,EVENT_R:2824.000000,EVENT_G:3654.000000,EVENT_B:1464.500000
+06-21 16:02:57.859  2055  3327 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-21 16:02:57.859  2055  3327 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-21 16:02:57.859  2055  3327 I libsensor-displayalgo: the value of  RESULT3143.488055,1241.879062,1522.354140,570.296979
+06-21 16:02:57.859  2055  3327 I libsensor-displayalgo: the value of  getChannelDataCalibrated3295.775618,1150.219382,1769.438579,622.440776
+06-21 16:02:57.859  2055  3327 I libsensor-displayalgo: the value of  REAL LUX233.200211
+06-21 16:02:57.859  2055  3327 I libsensor-displayalgo: the value of  CAL REAL LUX233.200211
+06-21 16:02:57.883  2423  2423 W WindowManager: removeWindowToken: Attempted to remove non-existing token: android.os.Binder@a028a45
+06-21 16:02:57.886  1289  2256 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+06-21 16:02:57.887  2055  2055 I libcitsensorservice@2.0-impl: msg_transfer
+06-21 16:02:57.887  2055  3319 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:11 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+06-21 16:02:57.888  1289  1865 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+06-21 16:02:57.889  1289 32019 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+06-21 16:02:57.896  1289 32019 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+06-21 16:02:57.896  1289 32019 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+06-21 16:02:57.897  1289 32019 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+06-21 16:02:57.897  1289 32019 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+06-21 16:02:57.903  1289  1506 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+06-21 16:02:57.911  1289 32020 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+06-21 16:02:57.911  1289 32020 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+06-21 16:02:57.911  1289 32020 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+06-21 16:02:57.979 29445 29484 W QueryController: Could not detect idle state.
+06-21 16:02:58.013 29445 29484 I appium  : AppiumResponse: {"sessionId":"ec832cae-5da2-429d-a853-90de0bafd2d5","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:920)\n"}}
+06-21 16:02:58.018 29732 31890 D BufferPoolAccessor2.0: bufferpool2 0x70b8aa5028 : 5(40960 size) total buffers - 1(8192 size) used buffers - 250/255 (recycle/alloc) - 5/254 (fetch/transfer)
+06-21 16:02:58.023  1965 31891 D BufferPoolAccessor2.0: bufferpool2 0xb400007e66c54e28 : 4(16384 size) total buffers - 1(4096 size) used buffers - 247/251 (recycle/alloc) - 4/250 (fetch/transfer)
+06-21 16:02:58.025 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:02:58.026 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:02:58.026 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:02:58.144 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:02:58.144 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:02:58.148 29732 30588 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:02:58.149 29732 31890 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:02:58.151 29513 29523 I cn.missevan: This is non sticky GC, maxfree is 8388608 minfree is 2097152
+06-21 16:02:58.151 29513 29523 I cn.missevan: Background concurrent copying GC freed 74288(17MB) AllocSpace objects, 43(10MB) LOS objects, 31% free, 52MB/76MB, paused 110us,69us total 177.345ms
+06-21 16:02:58.157  2055  3327 D libsensor-displayalgo: the value of  brightness:438.000000,R:78288747.866619,G:78288943.845811,B:78301111.058432,EVENT_C:7255.500000,EVENT_R:2823.500000,EVENT_G:3653.000000,EVENT_B:1465.500000
+06-21 16:02:58.157  2055  3327 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-21 16:02:58.157  2055  3327 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-21 16:02:58.158  2055  3327 I libsensor-displayalgo: the value of  RESULT3143.488055,1241.879062,1522.354140,570.296979
+06-21 16:02:58.158  2055  3327 I libsensor-displayalgo: the value of  getChannelDataCalibrated3295.775618,1150.219382,1769.438579,622.440776
+06-21 16:02:58.158  2055  3327 I libsensor-displayalgo: the value of  REAL LUX233.586365
+06-21 16:02:58.158  2055  3327 I libsensor-displayalgo: the value of  CAL REAL LUX233.586365
+06-21 16:02:58.160  1289  2256 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+06-21 16:02:58.161  2055  2055 I libcitsensorservice@2.0-impl: msg_transfer
+06-21 16:02:58.161  2055  3319 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:11 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+06-21 16:02:58.161  1289  1865 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+06-21 16:02:58.162  1289 32021 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+06-21 16:02:58.168  1289 32021 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+06-21 16:02:58.168  1289 32021 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+06-21 16:02:58.168  1289 32021 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+06-21 16:02:58.169  1289 32021 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+06-21 16:02:58.175  1289  1506 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+06-21 16:02:58.178  1308  1430 E ANDR-PERF-UTIL: Failed to update node /sys/class/kgsl/kgsl-3d0/idle_timer with value 32
+06-21 16:02:58.178  1308  1430 E ANDR-PERF-UTIL: 0
+06-21 16:02:58.178  1308  1430 E ANDR-PERF-RESOURCEQS: Failed to reset optimization [10, 11]
+06-21 16:02:58.182  1289 32023 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+06-21 16:02:58.183  1289 32023 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+06-21 16:02:58.183  1289 32023 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+06-21 16:02:58.256 29732 30587 D BufferPoolAccessor2.0: evictor expired: 2, evicted: 0
+06-21 16:02:58.266  2423  3334 D MiuiNetworkPolicy: updateLimit mLimitEnabled=false,enabled=true,mNetworkPriorityMode=1
+06-21 16:02:58.270  1965  2823 D BufferPoolAccessor2.0: evictor expired: 2, evicted: 0
+06-21 16:02:58.283  1289  2256 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+06-21 16:02:58.284  2055  2055 I libcitsensorservice@2.0-impl: msg_transfer
+06-21 16:02:58.285  2055  3319 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:11 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+06-21 16:02:58.285  1289  1865 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+06-21 16:02:58.287  1289 32025 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+06-21 16:02:58.293  1289 32025 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+06-21 16:02:58.293  1289 32025 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+06-21 16:02:58.293  1289 32025 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+06-21 16:02:58.293  1289 32025 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+06-21 16:02:58.295  1308  1430 E ANDR-PERF-UTIL: Failed to update node /sys/class/kgsl/kgsl-3d0/idle_timer with value 32
+06-21 16:02:58.295  1308  1430 E ANDR-PERF-UTIL: 0
+06-21 16:02:58.295  1308  1430 E ANDR-PERF-RESOURCEQS: Failed to reset optimization [10, 11]
+06-21 16:02:58.295 29513 29513 I Choreographer: Skipped 33 frames!  The application may be doing too much work on its main thread.
+06-21 16:02:58.300 29513 29513 W Choreographer: Frame time is 0.250313 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+06-21 16:02:58.301  1289  1506 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+06-21 16:02:58.306  1289 32026 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+06-21 16:02:58.306  1289 32026 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+06-21 16:02:58.306  1289 32026 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+06-21 16:02:58.459  2055  3327 D libsensor-displayalgo: the value of  brightness:438.000000,R:78288747.866619,G:78288943.845811,B:78301111.058432,EVENT_C:7248.500000,EVENT_R:2823.000000,EVENT_G:3650.500000,EVENT_B:1465.500000
+06-21 16:02:58.459  2055  3327 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-21 16:02:58.459  2055  3327 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-21 16:02:58.460  2055  3327 I libsensor-displayalgo: the value of  RESULT3143.488055,1241.879062,1522.354140,570.296979
+06-21 16:02:58.460  2055  3327 I libsensor-displayalgo: the value of  getChannelDataCalibrated3295.775618,1150.219382,1769.438579,622.440776
+06-21 16:02:58.460  2055  3327 I libsensor-displayalgo: the value of  REAL LUX232.997467
+06-21 16:02:58.460  2055  3327 I libsensor-displayalgo: the value of  CAL REAL LUX232.997467
+06-21 16:02:58.468 29732 30588 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(3). Not signalling any more buffers to client
+06-21 16:02:58.469 29732 31890 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:02:58.474  5322  9961 W MiuiPerfServiceClient: interceptAndQueuing:29513|cn.missevan|297|277|75526007263322|Slow issue draw commands|3
+06-21 16:02:58.543  4190  4190 D MiPlayDetailViewModel: onPositionChange(): position = 5983
+06-21 16:02:58.543  5790 31894 I SafeBinderCall: onPositionChange binder cost:0
+06-21 16:02:58.571 29445 29484 I appium  : channel read: POST /wd/hub/session/ec832cae-5da2-429d-a853-90de0bafd2d5/element
+06-21 16:02:58.574 29445 29484 I appium  : FindElement command
+06-21 16:02:58.578 29445 29484 I appium  : method: 'id', selector: 'cn.missevan:id/fl_search'
+06-21 16:02:58.580 29445 29484 I appium  : Waiting up to 100ms for the device to idle
+06-21 16:02:58.615  5682  7272 W BatteryHistoryManager: save history : 2023.6.21  16:2
+06-21 16:02:58.619  5682  5682 W BatteryHistoryM: type=1400 audit(0.0:8820): avc: denied { search } for name="/" dev="bpf" ino=1 scontext=u:r:system_app:s0 tcontext=u:object_r:fs_bpf:s0 tclass=dir permissive=0
+06-21 16:02:58.619  5682  5682 W BatteryHistoryM: type=1400 audit(0.0:8821): avc: denied { search } for name="/" dev="bpf" ino=1 scontext=u:r:system_app:s0 tcontext=u:object_r:fs_bpf:s0 tclass=dir permissive=0
+06-21 16:02:58.631  5682  5682 W BatteryHistoryM: type=1400 audit(0.0:8822): avc: denied { search } for name="/" dev="bpf" ino=1 scontext=u:r:system_app:s0 tcontext=u:object_r:fs_bpf:s0 tclass=dir permissive=0
+06-21 16:02:58.637  5682  7272 I PowerRankHelperHolder: refreshStats begin
+06-21 16:02:58.631  5682  5682 W BatteryHistoryM: type=1400 audit(0.0:8823): avc: denied { search } for name="/" dev="bpf" ino=1 scontext=u:r:system_app:s0 tcontext=u:object_r:fs_bpf:s0 tclass=dir permissive=0
+06-21 16:02:58.645  1289  2256 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+06-21 16:02:58.646  2055  2055 I libcitsensorservice@2.0-impl: msg_transfer
+06-21 16:02:58.647  2055  3319 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:11 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+06-21 16:02:58.647  1289  1865 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+06-21 16:02:58.649  1289 32031 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+06-21 16:02:58.653  1308  1430 E ANDR-PERF-UTIL: Failed to update node /sys/class/kgsl/kgsl-3d0/idle_timer with value 32
+06-21 16:02:58.653  1308  1430 E ANDR-PERF-UTIL: 0
+06-21 16:02:58.653  1308  1430 E ANDR-PERF-RESOURCEQS: Failed to reset optimization [10, 11]
+06-21 16:02:58.655  1289 32031 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+06-21 16:02:58.655  1289 32031 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+06-21 16:02:58.656  1289 32031 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+06-21 16:02:58.656  1289 32031 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+06-21 16:02:58.657  1190  1190 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+06-21 16:02:58.658  1190  1190 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired
+06-21 16:02:58.658  1190  1190 I vendor.qti.bluetooth@1.0-ibs_handler: DeviceWakeUp: Writing IBS_WAKE_IND
+06-21 16:02:58.658  1190  4531 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_ACK: 0xFC
+06-21 16:02:58.659  1190  4531 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Signal wack_cond_
+06-21 16:02:58.659  1190  1190 D vendor.qti.bluetooth@1.0-ibs_handler: DeviceWakeUp: Unblocked from waiting for FC, pthread_cond_timedwait ret = 0
+06-21 16:02:58.660  1190  4531 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+06-21 16:02:58.660  1190  4531 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+06-21 16:02:58.661  1289  1506 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+06-21 16:02:58.669  1289 32032 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+06-21 16:02:58.669  1289 32032 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+06-21 16:02:58.669  1289 32032 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+06-21 16:02:58.671  2423  5715 D TelephonyManager: requestModemActivityInfo: Sending result to app: ModemActivityInfo{ mTimestamp=77700417 mSleepTimeMs=75272465 mIdleTimeMs=110250 mTxTimeMs[]=[0, 0, 0, 0, 0] mRxTimeMs=2307789}
+06-21 16:02:58.693   944   954 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup58: Permission denied
+06-21 16:02:58.687   944   944 W Binder:944_2: type=1400 audit(0.0:8824): avc: denied { read } for name="wakeup58" dev="sysfs" ino=122911 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+06-21 16:02:58.696   944   954 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup38: Permission denied
+06-21 16:02:58.691   944   944 W Binder:944_2: type=1400 audit(0.0:8825): avc: denied { read } for name="wakeup38" dev="sysfs" ino=113130 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+06-21 16:02:58.700  1190  4531 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+06-21 16:02:58.701   944   954 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup36: Permission denied
+06-21 16:02:58.704   944   954 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup44: Permission denied
+06-21 16:02:58.705   944   954 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup34: Permission denied
+06-21 16:02:58.706   944   954 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup24: Permission denied
+06-21 16:02:58.707   944   954 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup9: Permission denied
+06-21 16:02:58.708 29732 30588 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(3). Not signalling any more buffers to client
+06-21 16:02:58.708 29732 31890 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:02:58.713   944   954 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup40: Permission denied
+06-21 16:02:58.716   944   954 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup5: Permission denied
+06-21 16:02:58.716   944   954 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup10: Permission denied
+06-21 16:02:58.717   944   954 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup39: Permission denied
+06-21 16:02:58.720   944   954 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup37: Permission denied
+06-21 16:02:58.722   944   954 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup45: Permission denied
+06-21 16:02:58.724   944   954 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup35: Permission denied
+06-21 16:02:58.726   944   954 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup43: Permission denied
+06-21 16:02:58.727   944   954 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup33: Permission denied
+06-21 16:02:58.728   944   954 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup8: Permission denied
+06-21 16:02:58.729   944   954 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup41: Permission denied
+06-21 16:02:58.730   944   954 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup21: Permission denied
+06-21 16:02:58.730   944   954 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup6: Permission denied
+06-21 16:02:58.742 29445 29484 W QueryController: Could not detect idle state.
+06-21 16:02:58.745  5322  9961 W MiuiPerfServiceClient: interceptAndQueuing:29513|cn.missevan|87|82|75526349384520|Slow issue draw commands|2
+06-21 16:02:58.758  2055  3327 D libsensor-displayalgo: the value of  brightness:438.000000,R:78288747.866619,G:78288943.845811,B:78301111.058432,EVENT_C:7257.000000,EVENT_R:2825.500000,EVENT_G:3654.000000,EVENT_B:1466.000000
+06-21 16:02:58.758  2055  3327 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-21 16:02:58.758  2055  3327 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-21 16:02:58.758  2055  3327 I libsensor-displayalgo: the value of  RESULT3143.488055,1241.879062,1522.354140,570.296979
+06-21 16:02:58.758  2055  3327 I libsensor-displayalgo: the value of  getChannelDataCalibrated3295.775618,1150.219382,1769.438579,622.440776
+06-21 16:02:58.758  1308  1430 E ANDR-PERF-UTIL: Failed to update node /sys/class/kgsl/kgsl-3d0/idle_timer with value 32
+06-21 16:02:58.758  1308  1430 E ANDR-PERF-UTIL: 0
+06-21 16:02:58.758  2055  3327 I libsensor-displayalgo: the value of  REAL LUX233.621674
+06-21 16:02:58.758  1308  1430 E ANDR-PERF-RESOURCEQS: Failed to reset optimization [10, 11]
+06-21 16:02:58.758  2055  3327 I libsensor-displayalgo: the value of  CAL REAL LUX233.621674
+06-21 16:02:58.771  5682  7272 D UidAppMobileRadioPowerCalculator: mobile not active power: 0.0
+06-21 16:02:58.771  5682  7272 D UidAppMobileRadioPowerCalculator: mobile not active power: 0.0
+06-21 16:02:58.774  5682  5696 I tycenter.remot: This is non sticky GC, maxfree is 8388608 minfree is 2097152
+06-21 16:02:58.796 29445 29484 I appium  : AppiumResponse: {"sessionId":"ec832cae-5da2-429d-a853-90de0bafd2d5","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:920)\n"}}
+06-21 16:02:58.797 29732 30588 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:02:58.815 29445 29457 I tomator2.serve: This is non sticky GC, maxfree is 8388608 minfree is 2097152
+06-21 16:02:58.907  5682  7272 I PowerRankHelperHolder: screenDet: 0.0
+06-21 16:02:58.909  5682  7272 I PowerRankHelperHolder: refreshStats end
+06-21 16:02:58.915 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:02:58.915 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:02:58.918 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:02:58.918  5682  7272 W BatteryHistoryManager: save history reset
+06-21 16:02:58.918  5682  7272 W BatteryHistoryManager: save history curHistoryTime : 77696094
+06-21 16:02:58.918  5682  7272 W BatteryHistoryManager: save history next record history time(min) : 58 utc 1687338058918
+06-21 16:02:58.920  1308  1430 E ANDR-PERF-UTIL: Failed to update node /sys/class/kgsl/kgsl-3d0/idle_timer with value 32
+06-21 16:02:58.920  1308  1430 E ANDR-PERF-UTIL: 0
+06-21 16:02:58.920  1308  1430 E ANDR-PERF-RESOURCEQS: Failed to reset optimization [10, 11]
+06-21 16:02:59.029 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:02:59.029 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:02:59.058  2055  3327 D libsensor-displayalgo: the value of  brightness:438.000000,R:78288747.866619,G:78288943.845811,B:78301111.058432,EVENT_C:7257.000000,EVENT_R:2825.500000,EVENT_G:3654.000000,EVENT_B:1466.000000
+06-21 16:02:59.058  2055  3327 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-21 16:02:59.058  2055  3327 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-21 16:02:59.059  2055  3327 I libsensor-displayalgo: the value of  RESULT3143.488055,1241.879062,1522.354140,570.296979
+06-21 16:02:59.059  2055  3327 I libsensor-displayalgo: the value of  getChannelDataCalibrated3295.775618,1150.219382,1769.438579,622.440776
+06-21 16:02:59.059  2055  3327 I libsensor-displayalgo: the value of  REAL LUX233.621674
+06-21 16:02:59.059  2055  3327 I libsensor-displayalgo: the value of  CAL REAL LUX233.621674
+06-21 16:02:59.074  1289  2256 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+06-21 16:02:59.075  2055 15083 I libcitsensorservice@2.0-impl: msg_transfer
+06-21 16:02:59.075  2055  3319 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:11 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+06-21 16:02:59.075  1289  1865 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+06-21 16:02:59.076  1289 32035 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+06-21 16:02:59.082  1289  2256 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+06-21 16:02:59.082  2055 15083 I libcitsensorservice@2.0-impl: msg_transfer
+06-21 16:02:59.083  1289 32035 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+06-21 16:02:59.083  1289 32035 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+06-21 16:02:59.084  1289 32035 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+06-21 16:02:59.084  1289 32035 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+06-21 16:02:59.090  1289  1506 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+06-21 16:02:59.092  1308  1430 E ANDR-PERF-UTIL: Failed to update node /sys/class/kgsl/kgsl-3d0/idle_timer with value 32
+06-21 16:02:59.092  1308  1430 E ANDR-PERF-UTIL: 0
+06-21 16:02:59.092  1308  1430 E ANDR-PERF-RESOURCEQS: Failed to reset optimization [10, 11]
+06-21 16:02:59.097 29513 29513 E DownloadReceiver: [main] --------DOWNLOAD_FIRE_JOB-----------
+06-21 16:02:59.097  1289 32037 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+06-21 16:02:59.097 29513 29513 E DownloadReceiver: [main] type = 1	failedCount = 4
+06-21 16:02:59.097  1289 32037 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+06-21 16:02:59.097  1289 32037 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+06-21 16:02:59.100 29513 29513 E DownloadReceiver: [main] --------DOWNLOAD_START_JOB-----------
+06-21 16:02:59.103  2423  5715 E NotificationVibratorHelper: Error creating vibration waveform with pattern: [0]
+06-21 16:02:59.155 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:02:59.155 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:02:59.160 29732 31890 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:02:59.160 29732 30588 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:02:59.161 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:02:59.234 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:02:59.235 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:02:59.328 29445 29484 I appium  : channel read: POST /wd/hub/session/ec832cae-5da2-429d-a853-90de0bafd2d5/element
+06-21 16:02:59.329 29445 29484 I appium  : FindElement command
+06-21 16:02:59.329  2423  2423 W NotificationHistory: Attempted to add notif for locked/gone/disabled user 0
+06-21 16:02:59.331 29445 29484 I appium  : method: 'id', selector: 'cn.missevan:id/fl_search'
+06-21 16:02:59.332 29445 29484 I appium  : Waiting up to 100ms for the device to idle
+06-21 16:02:59.335  5301  5301 D MiBarrage: No barrage: not in game scene or in video scene
+06-21 16:02:59.338  5682 24849 W Parcel  : **** enforceInterface() expected 'com.miui.gamebooster.service.ISecurityCenterNotificationListener' but read 'android.service.notification.INotificationListener'
+06-21 16:02:59.338  5682 24849 W Binder  : Caught a RuntimeException from the binder stub implementation.
+06-21 16:02:59.338  5682 24849 W Binder  : java.lang.SecurityException: Binder invocation to an incorrect interface
+06-21 16:02:59.338  5682 24849 W Binder  : 	at android.os.Parcel.nativeEnforceInterface(Native Method)
+06-21 16:02:59.338  5682 24849 W Binder  : 	at android.os.Parcel.enforceInterface(Parcel.java:699)
+06-21 16:02:59.338  5682 24849 W Binder  : 	at com.miui.gamebooster.service.ISecurityCenterNotificationListener$Stub.onTransact(Unknown Source:18)
+06-21 16:02:59.338  5682 24849 W Binder  : 	at android.os.Binder.execTransactInternal(Binder.java:1190)
+06-21 16:02:59.338  5682 24849 W Binder  : 	at android.os.Binder.execTransact(Binder.java:1149)
+06-21 16:02:59.345 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:02:59.345  4190  4190 D InterruptionStateProvider: No bubble up: not allowed to bubble: 0|cn.missevan|4658|null|10499
+06-21 16:02:59.345  5682  7216 V onNotificationPostedCallBack: flags=0
+06-21 16:02:59.352  4190  4474 D PeopleSpaceWidgetMgr: Sbn doesn't contain valid PeopleTileKey: null/0/cn.missevan
+06-21 16:02:59.357  2055  3327 D libsensor-displayalgo: the value of  brightness:438.000000,R:78288747.866619,G:78288943.845811,B:78301111.058432,EVENT_C:7261.000000,EVENT_R:2829.000000,EVENT_G:3659.500000,EVENT_B:1468.500000
+06-21 16:02:59.357  2055  3327 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-21 16:02:59.357  2055  3327 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-21 16:02:59.358  2055  3327 I libsensor-displayalgo: the value of  RESULT3143.488055,1241.879062,1522.354140,570.296979
+06-21 16:02:59.358  2055  3327 I libsensor-displayalgo: the value of  getChannelDataCalibrated3295.775618,1150.219382,1769.438579,622.440776
+06-21 16:02:59.358  2055  3327 I libsensor-displayalgo: the value of  REAL LUX233.819199
+06-21 16:02:59.358  2055  3327 I libsensor-displayalgo: the value of  CAL REAL LUX233.819199
+06-21 16:02:59.380  1308  1430 E ANDR-PERF-UTIL: Failed to update node /sys/class/kgsl/kgsl-3d0/idle_timer with value 32
+06-21 16:02:59.380  1308  1430 E ANDR-PERF-UTIL: 0
+06-21 16:02:59.380  1308  1430 E ANDR-PERF-RESOURCEQS: Failed to reset optimization [10, 11]
+06-21 16:02:59.384  6164  6320 D IdProviderImpl: getOAID from com.miui.analytics
+06-21 16:02:59.462 29732 30588 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(3). Not signalling any more buffers to client
+06-21 16:02:59.463 29732 31890 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:02:59.544  4190  4190 D MiPlayDetailViewModel: onPositionChange(): position = 6984
+06-21 16:02:59.544  5790 31894 I SafeBinderCall: onPositionChange binder cost:0
+06-21 16:02:59.551 29445 29484 W QueryController: Could not detect idle state.
+06-21 16:02:59.646 29445 29484 I appium  : AppiumResponse: {"sessionId":"ec832cae-5da2-429d-a853-90de0bafd2d5","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:920)\n"}}
+06-21 16:02:59.658  2055  3327 D libsensor-displayalgo: the value of  brightness:438.000000,R:78288747.866619,G:78288943.845811,B:78301111.058432,EVENT_C:7261.000000,EVENT_R:2829.000000,EVENT_G:3659.500000,EVENT_B:1468.500000
+06-21 16:02:59.658  2055  3327 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-21 16:02:59.658  2055  3327 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-21 16:02:59.659  2055  3327 I libsensor-displayalgo: the value of  RESULT3143.488055,1241.879062,1522.354140,570.296979
+06-21 16:02:59.659  2055  3327 I libsensor-displayalgo: the value of  getChannelDataCalibrated3295.775618,1150.219382,1769.438579,622.440776
+06-21 16:02:59.659  1190  4538 I vendor.qti.bluetooth@1.0-ibs_handler: DeviceSleep: TX Awake, Sending SLEEP_IND
+06-21 16:02:59.659  2055  3327 I libsensor-displayalgo: the value of  REAL LUX233.819199
+06-21 16:02:59.659  2055  3327 I libsensor-displayalgo: the value of  CAL REAL LUX233.819199
+06-21 16:02:59.659  1190  4538 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+06-21 16:02:59.668 29732 30583 D CCodecBufferChannel: [c2.android.aac.decoder#75] DEBUG: elapsed: n=6 [in=0 pipeline=0 out=2]
+06-21 16:02:59.668 29732 30583 D PipelineWatcher: DEBUG: elapsed 2 / 6
+06-21 16:02:59.678 29732 30588 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(3). Not signalling any more buffers to client
+06-21 16:02:59.678 29732 31890 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:02:59.785 29732 30588 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(3). Not signalling any more buffers to client
+06-21 16:02:59.786 29732 31890 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:02:59.810  1190  4333 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released
+06-21 16:02:59.866  2423  3216 I BatteryService: current mPlugType2current mHealthInfo.batteryLevel100current mHealthInfo.batteryTemperature380
+06-21 16:02:59.870  5797  7029 D ThermalIECHandler: storeDataStyle: thermal_iec_monitor_persistence_data_style_iec_state; startIECTime: -1; IECScreenOffOverPeriodTime: 70496382
+06-21 16:02:59.874  4162  4162 D DynamicService:  ACTION_BATTERY_CHANGED change,USB plug = 2
+06-21 16:02:59.875  4108  4108 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 0
+06-21 16:02:59.875  4108  4108 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 1
+06-21 16:02:59.876  5682  5682 I BatteryInfoReceiver: ACTION_BATTERY_CHANGED
+06-21 16:02:59.877  5797  6910 D PowerCheckerService: onBatteryChanged, mBatteryLevel = 100, status = 2, level = 100, plug = 2, scale = 100
+06-21 16:02:59.878  5797  6439 D PowerKeeper.FrozenApp: onBatteryChanged plug=true mBatteryPlugged=2
+06-21 16:02:59.880  5682  5682 I PowerNoticeUI: handleBatteryChanged oldPlugType 2 mPlugType 2 oldBatteryLevel 100 mBatteryLevel 100 temperature 380
+06-21 16:02:59.882  5797  7046 D PowerKeeper.Thermal: mBatteryTemperature: 38
+06-21 16:02:59.884  4152  4152 V DeviceStatisticsService: chargerType=2 batteryLevel=100 totalBatteryCapacity=4210000
+06-21 16:02:59.884  4152  4152 D DeviceInfoHidlClient: isRadioOn()=true
+06-21 16:02:59.884  4152  4152 I DeviceInfoHidlClient: isPowerInfoNeverSent=false batteryLevel=100 batteryLevelIndex=6 chargingMode=2 totalCapacity=4210000 powerSaveMode=false
+06-21 16:02:59.886  2423  2635 I android_os_HwBinder: HwBinder: Starting thread pool for getting: vendor.xiaomi.hardware.micharge@1.0::IMiCharge/default
+06-21 16:02:59.887  1345  1372 E vendor.xiaomi.hardware.micharge@1.0-service: Failed to open node /sys/class/qcom-battery/reverse_chg_mode
+06-21 16:02:59.887  1345  1372 I vendor.xiaomi.hardware.micharge@1.0-service: ReadFilePathValue path = /sys/class/qcom-battery/reverse_chg_mode value =
+06-21 16:02:59.890  2423  2635 I android_os_HwBinder: HwBinder: Starting thread pool for getting: vendor.xiaomi.hardware.micharge@1.0::IMiCharge/default
+06-21 16:02:59.891  1345  1372 I vendor.xiaomi.hardware.micharge@1.0-service: ReadFilePathValue path = /sys/class/qcom-battery/fastchg_mode value = 0
+06-21 16:02:59.911 29732 30588 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(3). Not signalling any more buffers to client
+06-21 16:02:59.912 29732 31890 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:02:59.959  2055  3327 D libsensor-displayalgo: the value of  brightness:438.000000,R:78288747.866619,G:78288943.845811,B:78301111.058432,EVENT_C:7261.000000,EVENT_R:2829.000000,EVENT_G:3659.500000,EVENT_B:1468.500000
+06-21 16:02:59.959  2055  3327 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-21 16:02:59.959  2055  3327 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-21 16:02:59.960  2055  3327 I libsensor-displayalgo: the value of  RESULT3143.488055,1241.879062,1522.354140,570.296979
+06-21 16:02:59.960  2055  3327 I libsensor-displayalgo: the value of  getChannelDataCalibrated3295.775618,1150.219382,1769.438579,622.440776
+06-21 16:02:59.960  2055  3327 I libsensor-displayalgo: the value of  REAL LUX233.819199
+06-21 16:02:59.960  2055  3327 I libsensor-displayalgo: the value of  CAL REAL LUX233.819199
+06-21 16:03:00.006  4190  4190 D KeyguardUpdateMonitor: received broadcast android.intent.action.TIME_TICK
+06-21 16:03:00.019  1289  1865 I SDM     : HWCDisplay::SetActiveConfigWithConstraints: config: 0, WxH 1080x2400, fps 60
+06-21 16:03:00.020  1289  1865 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 831000000
+06-21 16:03:00.020  1289  1865 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2400-0 for Peripheral
+06-21 16:03:00.021  1289  1865 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 1 to 0
+06-21 16:03:00.021  1289  1865 I SDM     : HWCDisplay::SubmitDisplayConfig: Active WxH 1080x2400 fps 60
+06-21 16:03:00.023  1289  1506 I SDM     : HWDeviceDRM::SetupAtomic: Setting mode: WxH: 1080x2400, vrefresh: 60, hskew: 0
+06-21 16:03:00.024  1289  2256 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+06-21 16:03:00.024  2055  2137 I libcitsensorservice@2.0-impl: msg_transfer
+06-21 16:03:00.024  2055  3319 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:11 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+06-21 16:03:00.026  1289  1865 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+06-21 16:03:00.027  1335  2243 D FPSMonitor: threadFuncFpsMonitor display 0, fps 60
+06-21 16:03:00.028  2055  3320 I libsensor-displayalgo: displayInfoCallback::display info won't handle!!!
+06-21 16:03:00.028  1289 32044 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+06-21 16:03:00.030  4190  4190 D KeyguardUpdateMonitor: handleTimeUpdate
+06-21 16:03:00.031  1308  1430 E ANDR-PERF-UTIL: Failed to update node /sys/class/kgsl/kgsl-3d0/idle_timer with value 32
+06-21 16:03:00.031  1308  1430 E ANDR-PERF-UTIL: 0
+06-21 16:03:00.031  1308  1430 E ANDR-PERF-RESOURCEQS: Failed to reset optimization [10, 11]
+06-21 16:03:00.040 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:00.041 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:00.057  1289 32044 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+06-21 16:03:00.058  1289 32044 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+06-21 16:03:00.058  1289 32044 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+06-21 16:03:00.059  1289 32044 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+06-21 16:03:00.073  1289  1506 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+06-21 16:03:00.079  5419  8536 D SLM-SRV-SLAService: checktemp temperature = 38993 temperature_average = 38652 isPerformanceMode = false thermal_enable_slm = true
+06-21 16:03:00.083  1289 32045 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+06-21 16:03:00.085  1289 32045 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+06-21 16:03:00.085  1289 32045 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+06-21 16:03:00.113  1933  1975 I mstatdaemon: Entering time loop
+06-21 16:03:00.113  1933  1975 I mstatdaemon: t = 1687334580
+06-21 16:03:00.113  1933  1975 I mstatdaemon: translated_t = 1371344580
+06-21 16:03:00.113  1933  1975 I mstat_log: mstatcommitLog log_alloc() failed
+06-21 16:03:00.150 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:00.152 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:00.156 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:00.156 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:00.157 29732 31890 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:00.164 29445 29484 I appium  : channel read: POST /wd/hub/session/ec832cae-5da2-429d-a853-90de0bafd2d5/element
+06-21 16:03:00.168 29445 29484 I appium  : FindElement command
+06-21 16:03:00.171 29445 29484 I appium  : method: 'id', selector: 'cn.missevan:id/fl_search'
+06-21 16:03:00.173 29445 29484 I appium  : Waiting up to 100ms for the device to idle
+06-21 16:03:00.231 29732 30588 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(3). Not signalling any more buffers to client
+06-21 16:03:00.233 29732 31890 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:00.234 29732 30588 I CCodecBufferChannel: pipelineRoom(3) is <= numClientBuffers(3). Not signalling any more buffers to client
+06-21 16:03:00.259  2055  3327 D libsensor-displayalgo: the value of  brightness:438.000000,R:78288747.866619,G:78288943.845811,B:78301111.058432,EVENT_C:7256.000000,EVENT_R:2830.500000,EVENT_G:3657.000000,EVENT_B:1465.000000
+06-21 16:03:00.259  2055  3327 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-21 16:03:00.259  2055  3327 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-21 16:03:00.259  2055  3327 I libsensor-displayalgo: the value of  RESULT3143.488055,1241.879062,1522.354140,570.296979
+06-21 16:03:00.259  2055  3327 I libsensor-displayalgo: the value of  getChannelDataCalibrated3295.775618,1150.219382,1769.438579,622.440776
+06-21 16:03:00.259  2055  3327 I libsensor-displayalgo: the value of  REAL LUX233.580338
+06-21 16:03:00.259  2055  3327 I libsensor-displayalgo: the value of  CAL REAL LUX233.580338
+06-21 16:03:00.359 29732 30588 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(3). Not signalling any more buffers to client
+06-21 16:03:00.360 29732 31890 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:00.428  2423  2423 W WindowManager: removeWindowToken: Attempted to remove non-existing token: android.os.Binder@653df6d
+06-21 16:03:00.473 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:00.474 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:00.514 29445 29484 W QueryController: Could not detect idle state.
+06-21 16:03:00.545  4190  4190 D MiPlayDetailViewModel: onPositionChange(): position = 7984
+06-21 16:03:00.546  5790 31894 I SafeBinderCall: onPositionChange binder cost:1
+06-21 16:03:00.558  2055  3327 D libsensor-displayalgo: the value of  brightness:438.000000,R:78288747.866619,G:78288943.845811,B:78301111.058432,EVENT_C:7256.000000,EVENT_R:2830.500000,EVENT_G:3657.000000,EVENT_B:1465.000000
+06-21 16:03:00.558  2055  3327 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-21 16:03:00.558  2055  3327 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-21 16:03:00.558  2055  3327 I libsensor-displayalgo: the value of  RESULT3143.488055,1241.879062,1522.354140,570.296979
+06-21 16:03:00.558  2055  3327 I libsensor-displayalgo: the value of  getChannelDataCalibrated3295.775618,1150.219382,1769.438579,622.440776
+06-21 16:03:00.558  2055  3327 I libsensor-displayalgo: the value of  REAL LUX233.580338
+06-21 16:03:00.558  2055  3327 I libsensor-displayalgo: the value of  CAL REAL LUX233.580338
+06-21 16:03:00.578 29445 29484 I appium  : AppiumResponse: {"sessionId":"ec832cae-5da2-429d-a853-90de0bafd2d5","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:920)\n"}}
+06-21 16:03:00.594 29732 30588 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(3). Not signalling any more buffers to client
+06-21 16:03:00.594 29732 31890 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:00.677 29732 30588 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(3). Not signalling any more buffers to client
+06-21 16:03:00.678 29732 31890 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:00.766 29513 29513 E DownloadReceiver: [main] --------DOWNLOAD_FIRE_JOB-----------
+06-21 16:03:00.767 29513 29513 E DownloadReceiver: [main] type = 1	failedCount = 4
+06-21 16:03:00.780  2423  5715 E NotificationVibratorHelper: Error creating vibration waveform with pattern: [0]
+06-21 16:03:00.792 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:00.792 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:00.793 29732 30588 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:00.794 29732 31890 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:00.859  2055  3327 D libsensor-displayalgo: the value of  brightness:438.000000,R:78288747.866619,G:78288943.845811,B:78301111.058432,EVENT_C:7256.000000,EVENT_R:2830.500000,EVENT_G:3657.000000,EVENT_B:1465.000000
+06-21 16:03:00.859  2055  3327 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-21 16:03:00.859  2055  3327 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-21 16:03:00.860  2055  3327 I libsensor-displayalgo: the value of  RESULT3143.488055,1241.879062,1522.354140,570.296979
+06-21 16:03:00.860  2055  3327 I libsensor-displayalgo: the value of  getChannelDataCalibrated3295.775618,1150.219382,1769.438579,622.440776
+06-21 16:03:00.860  2055  3327 I libsensor-displayalgo: the value of  REAL LUX233.580338
+06-21 16:03:00.860  2055  3327 I libsensor-displayalgo: the value of  CAL REAL LUX233.580338
+06-21 16:03:00.908 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:00.909 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:01.004  2423  2423 W NotificationHistory: Attempted to add notif for locked/gone/disabled user 0
+06-21 16:03:01.011  5682 24849 W Parcel  : **** enforceInterface() expected 'com.miui.gamebooster.service.ISecurityCenterNotificationListener' but read 'android.service.notification.INotificationListener'
+06-21 16:03:01.012  5682 24849 W Binder  : Caught a RuntimeException from the binder stub implementation.
+06-21 16:03:01.012  5682 24849 W Binder  : java.lang.SecurityException: Binder invocation to an incorrect interface
+06-21 16:03:01.012  5682 24849 W Binder  : 	at android.os.Parcel.nativeEnforceInterface(Native Method)
+06-21 16:03:01.012  5682 24849 W Binder  : 	at android.os.Parcel.enforceInterface(Parcel.java:699)
+06-21 16:03:01.012  5682 24849 W Binder  : 	at com.miui.gamebooster.service.ISecurityCenterNotificationListener$Stub.onTransact(Unknown Source:18)
+06-21 16:03:01.012  5682 24849 W Binder  : 	at android.os.Binder.execTransactInternal(Binder.java:1190)
+06-21 16:03:01.012  5682 24849 W Binder  : 	at android.os.Binder.execTransact(Binder.java:1149)
+06-21 16:03:01.013  5682  7216 V onNotificationPostedCallBack: flags=0
+06-21 16:03:01.015  5301  5301 D MiBarrage: No barrage: not in game scene or in video scene
+06-21 16:03:01.017  4190  4190 D InterruptionStateProvider: No bubble up: not allowed to bubble: 0|cn.missevan|4658|null|10499
+06-21 16:03:01.032  4190  4474 D PeopleSpaceWidgetMgr: Sbn doesn't contain valid PeopleTileKey: null/0/cn.missevan
+06-21 16:03:01.059  1289  2256 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+06-21 16:03:01.059  2055 15083 I libcitsensorservice@2.0-impl: msg_transfer
+06-21 16:03:01.060  2055  3319 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:11 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+06-21 16:03:01.060  1289  1865 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+06-21 16:03:01.062  1289 32047 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+06-21 16:03:01.075  1289 32047 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+06-21 16:03:01.075  1289 32047 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+06-21 16:03:01.076  1289 32047 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+06-21 16:03:01.076  1289 32047 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+06-21 16:03:01.077  1308  1430 E ANDR-PERF-UTIL: Failed to update node /sys/class/kgsl/kgsl-3d0/idle_timer with value 32
+06-21 16:03:01.077  1308  1430 E ANDR-PERF-UTIL: 0
+06-21 16:03:01.077  1308  1430 E ANDR-PERF-RESOURCEQS: Failed to reset optimization [10, 11]
+06-21 16:03:01.085  6164  6320 D IdProviderImpl: getOAID from com.miui.analytics
+06-21 16:03:01.091  1289  1506 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+06-21 16:03:01.101 29445 29484 I appium  : channel read: POST /wd/hub/session/ec832cae-5da2-429d-a853-90de0bafd2d5/element
+06-21 16:03:01.102 29445 29484 I appium  : FindElement command
+06-21 16:03:01.104  1289 32048 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+06-21 16:03:01.105  1289 32048 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+06-21 16:03:01.105  1289 32048 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+06-21 16:03:01.107 29445 29484 I appium  : method: 'id', selector: 'cn.missevan:id/fl_search'
+06-21 16:03:01.108 29445 29484 I appium  : Waiting up to 100ms for the device to idle
+06-21 16:03:01.158  2055  3327 D libsensor-displayalgo: the value of  brightness:438.000000,R:78288747.866619,G:78288943.845811,B:78301111.058432,EVENT_C:7254.000000,EVENT_R:2831.500000,EVENT_G:3654.000000,EVENT_B:1464.000000
+06-21 16:03:01.158  2055  3327 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-21 16:03:01.158  2055  3327 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-21 16:03:01.158  2055  3327 I libsensor-displayalgo: the value of  RESULT3143.488055,1241.879062,1522.354140,570.296979
+06-21 16:03:01.158  2055  3327 I libsensor-displayalgo: the value of  getChannelDataCalibrated3295.775618,1150.219382,1769.438579,622.440776
+06-21 16:03:01.158  2055  3327 I libsensor-displayalgo: the value of  REAL LUX233.346207
+06-21 16:03:01.158  2055  3327 I libsensor-displayalgo: the value of  CAL REAL LUX233.346207
+06-21 16:03:01.225 29732 30588 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(3). Not signalling any more buffers to client
+06-21 16:03:01.226 29732 31890 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:01.228 29732 30588 I CCodecBufferChannel: pipelineRoom(3) is <= numClientBuffers(3). Not signalling any more buffers to client
+06-21 16:03:01.229 29732 31890 I CCodecBufferChannel: pipelineRoom(3) is <= numClientBuffers(3). Not signalling any more buffers to client
+06-21 16:03:01.350 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:01.351 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:01.354 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:01.354 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:01.459  2055  3327 D libsensor-displayalgo: the value of  brightness:438.000000,R:78288747.866619,G:78288943.845811,B:78301111.058432,EVENT_C:7254.000000,EVENT_R:2831.500000,EVENT_G:3654.000000,EVENT_B:1464.000000
+06-21 16:03:01.459  2055  3327 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-21 16:03:01.459  2055  3327 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-21 16:03:01.460  2055  3327 I libsensor-displayalgo: the value of  RESULT3143.488055,1241.879062,1522.354140,570.296979
+06-21 16:03:01.460  2055  3327 I libsensor-displayalgo: the value of  getChannelDataCalibrated3295.775618,1150.219382,1769.438579,622.440776
+06-21 16:03:01.460  2055  3327 I libsensor-displayalgo: the value of  REAL LUX233.346207
+06-21 16:03:01.460  2055  3327 I libsensor-displayalgo: the value of  CAL REAL LUX233.346207
+06-21 16:03:01.467 29732 30588 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:01.468 29732 30588 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(3). Not signalling any more buffers to client
+06-21 16:03:01.468 29732 31890 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:01.524 29445 29484 W QueryController: Could not detect idle state.
+06-21 16:03:01.543  5790 31894 I SafeBinderCall: onPositionChange binder cost:0
+06-21 16:03:01.544  4190  4190 D MiPlayDetailViewModel: onPositionChange(): position = 8983
+06-21 16:03:01.587 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:01.605 29445 29484 I appium  : AppiumResponse: {"sessionId":"ec832cae-5da2-429d-a853-90de0bafd2d5","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:920)\n"}}
+06-21 16:03:01.678 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:01.679 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:01.758  2055  3327 D libsensor-displayalgo: the value of  brightness:438.000000,R:78288747.866619,G:78288943.845811,B:78301111.058432,EVENT_C:7254.000000,EVENT_R:2831.500000,EVENT_G:3654.000000,EVENT_B:1464.000000
+06-21 16:03:01.759  2055  3327 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-21 16:03:01.759  2055  3327 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-21 16:03:01.759  2055  3327 I libsensor-displayalgo: the value of  RESULT3143.488055,1241.879062,1522.354140,570.296979
+06-21 16:03:01.759  2055  3327 I libsensor-displayalgo: the value of  getChannelDataCalibrated3295.775618,1150.219382,1769.438579,622.440776
+06-21 16:03:01.759  2055  3327 I libsensor-displayalgo: the value of  REAL LUX233.346207
+06-21 16:03:01.759  2055  3327 I libsensor-displayalgo: the value of  CAL REAL LUX233.346207
+06-21 16:03:01.795 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:01.905 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:01.906 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:01.908 29732 31890 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:01.908 29732 30588 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:02.028 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:02.028 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:02.058  2055  3327 D libsensor-displayalgo: the value of  brightness:438.000000,R:78288747.866619,G:78288943.845811,B:78301111.058432,EVENT_C:7254.000000,EVENT_R:2831.500000,EVENT_G:3654.000000,EVENT_B:1464.000000
+06-21 16:03:02.058  2055  3327 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-21 16:03:02.058  2055  3327 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-21 16:03:02.059  2055  3327 I libsensor-displayalgo: the value of  RESULT3143.488055,1241.879062,1522.354140,570.296979
+06-21 16:03:02.059  2055  3327 I libsensor-displayalgo: the value of  getChannelDataCalibrated3295.775618,1150.219382,1769.438579,622.440776
+06-21 16:03:02.059  2055  3327 I libsensor-displayalgo: the value of  REAL LUX233.346207
+06-21 16:03:02.059  2055  3327 I libsensor-displayalgo: the value of  CAL REAL LUX233.346207
+06-21 16:03:02.132 29445 29484 I appium  : channel read: POST /wd/hub/session/ec832cae-5da2-429d-a853-90de0bafd2d5/element
+06-21 16:03:02.134 29445 29484 I appium  : FindElement command
+06-21 16:03:02.137 29445 29484 I appium  : method: 'id', selector: 'cn.missevan:id/fl_search'
+06-21 16:03:02.138 29445 29484 I appium  : Waiting up to 100ms for the device to idle
+06-21 16:03:02.224 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:02.225 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:02.226 29732 30588 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:02.227 29732 31890 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:02.228 29732 30588 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:02.230 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:02.359 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:02.359  2055  3327 D libsensor-displayalgo: the value of  brightness:438.000000,R:78288747.866619,G:78288943.845811,B:78301111.058432,EVENT_C:7252.500000,EVENT_R:2827.500000,EVENT_G:3652.500000,EVENT_B:1465.000000
+06-21 16:03:02.359  2055  3327 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-21 16:03:02.359  2055  3327 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-21 16:03:02.359  2055  3327 I libsensor-displayalgo: the value of  RESULT3143.488055,1241.879062,1522.354140,570.296979
+06-21 16:03:02.359  2055  3327 I libsensor-displayalgo: the value of  getChannelDataCalibrated3295.775618,1150.219382,1769.438579,622.440776
+06-21 16:03:02.359  2055  3327 I libsensor-displayalgo: the value of  REAL LUX233.241684
+06-21 16:03:02.359  2055  3327 I libsensor-displayalgo: the value of  CAL REAL LUX233.241684
+06-21 16:03:02.362 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:02.466 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:02.467 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:02.544  5790 31894 I SafeBinderCall: onPositionChange binder cost:0
+06-21 16:03:02.544  4190  4190 D MiPlayDetailViewModel: onPositionChange(): position = 9984
+06-21 16:03:02.554 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:02.555 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:02.557 29445 29484 W QueryController: Could not detect idle state.
+06-21 16:03:02.597 29445 29484 I appium  : AppiumResponse: {"sessionId":"ec832cae-5da2-429d-a853-90de0bafd2d5","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:920)\n"}}
+06-21 16:03:02.645 29732 29898 D AudioTrack: [audioTrackData][fine] 10s(f:10002 m:0 s:0 k:0) : pid 29732 uid 10499 sessionId 433 sr 44100 ch 2 fmt 1
+06-21 16:03:02.659  2055  3327 D libsensor-displayalgo: the value of  brightness:438.000000,R:78288747.866619,G:78288943.845811,B:78301111.058432,EVENT_C:7252.500000,EVENT_R:2824.500000,EVENT_G:3652.500000,EVENT_B:1464.000000
+06-21 16:03:02.659  2055  3327 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-21 16:03:02.659  2055  3327 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-21 16:03:02.660  2055  3327 I libsensor-displayalgo: the value of  RESULT3143.488055,1241.879062,1522.354140,570.296979
+06-21 16:03:02.660  2055  3327 I libsensor-displayalgo: the value of  getChannelDataCalibrated3295.775618,1150.219382,1769.438579,622.440776
+06-21 16:03:02.660  2055  3327 I libsensor-displayalgo: the value of  REAL LUX233.436035
+06-21 16:03:02.660  2055  3327 I libsensor-displayalgo: the value of  CAL REAL LUX233.436035
+06-21 16:03:02.671 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:02.674 29732 31890 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:02.675 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:02.786 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:02.786 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:02.788 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:02.789 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:02.910 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:02.911 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:02.913 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:02.914 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:02.924  2423  2423 W WindowManager: removeWindowToken: Attempted to remove non-existing token: android.os.Binder@958cd5f
+06-21 16:03:02.958  2055  3327 D libsensor-displayalgo: the value of  brightness:438.000000,R:78288747.866619,G:78288943.845811,B:78301111.058432,EVENT_C:7254.500000,EVENT_R:2825.500000,EVENT_G:3649.500000,EVENT_B:1463.000000
+06-21 16:03:02.959  2055  3327 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-21 16:03:02.959  2055  3327 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-21 16:03:02.960  2055  3327 I libsensor-displayalgo: the value of  RESULT3143.488055,1241.879062,1522.354140,570.296979
+06-21 16:03:02.960  2055  3327 I libsensor-displayalgo: the value of  getChannelDataCalibrated3295.775618,1150.219382,1769.438579,622.440776
+06-21 16:03:02.960  2055  3327 I libsensor-displayalgo: the value of  REAL LUX233.484192
+06-21 16:03:02.960  2055  3327 I libsensor-displayalgo: the value of  CAL REAL LUX233.484192
+06-21 16:03:02.979 29732 30583 D CCodecBufferChannel: [c2.android.aac.decoder#75] DEBUG: elapsed: n=6 [in=0 pipeline=0 out=2]
+06-21 16:03:02.979 29732 30583 D PipelineWatcher: DEBUG: elapsed 2 / 6
+06-21 16:03:03.020 29732 31890 D BufferPoolAccessor2.0: bufferpool2 0x70b8aa5028 : 5(40960 size) total buffers - 1(8192 size) used buffers - 465/470 (recycle/alloc) - 5/469 (fetch/transfer)
+06-21 16:03:03.026  1965 31891 D BufferPoolAccessor2.0: bufferpool2 0xb400007e66c54e28 : 4(16384 size) total buffers - 1(4096 size) used buffers - 462/466 (recycle/alloc) - 6/465 (fetch/transfer)
+06-21 16:03:03.027 29732 30588 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(3). Not signalling any more buffers to client
+06-21 16:03:03.027 29732 31890 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:03.033 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:03.035 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:03.035 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:03.109 29732 30588 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(3). Not signalling any more buffers to client
+06-21 16:03:03.109 29732 31890 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:03.123 29445 29484 I appium  : channel read: GET /wd/hub/session/ec832cae-5da2-429d-a853-90de0bafd2d5/screenshot
+06-21 16:03:03.124 29445 29484 I appium  : CaptureScreenshot command
+06-21 16:03:03.222 29732 30588 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:03.223 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:03.224 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:03.224 29732 31890 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:03.259  2055  3327 D libsensor-displayalgo: the value of  brightness:438.000000,R:78288747.866619,G:78288943.845811,B:78301111.058432,EVENT_C:7252.000000,EVENT_R:2827.000000,EVENT_G:3649.000000,EVENT_B:1464.000000
+06-21 16:03:03.259  2055  3327 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-21 16:03:03.259  2055  3327 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-21 16:03:03.260  2055  3327 I libsensor-displayalgo: the value of  RESULT3143.488055,1241.879062,1522.354140,570.296979
+06-21 16:03:03.260  2055  3327 I libsensor-displayalgo: the value of  getChannelDataCalibrated3295.775618,1150.219382,1769.438579,622.440776
+06-21 16:03:03.260  2055  3327 I libsensor-displayalgo: the value of  REAL LUX233.147202
+06-21 16:03:03.260  2055  3327 I libsensor-displayalgo: the value of  CAL REAL LUX233.147202
+06-21 16:03:03.345 29732 30588 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(3). Not signalling any more buffers to client
+06-21 16:03:03.345 29732 31890 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:03.467 29732 30588 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(3). Not signalling any more buffers to client
+06-21 16:03:03.467 29732 31890 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:03.468 29732 30588 I CCodecBufferChannel: pipelineRoom(3) is <= numClientBuffers(3). Not signalling any more buffers to client
+06-21 16:03:03.544  4190  4190 D MiPlayDetailViewModel: onPositionChange(): position = 10983
+06-21 16:03:03.544  5790 31894 I SafeBinderCall: onPositionChange binder cost:1
+06-21 16:03:03.557 29732 30588 I CCodecBufferChannel: pipelineRoom(3) is <= numClientBuffers(3). Not signalling any more buffers to client
+06-21 16:03:03.558  2055  3327 D libsensor-displayalgo: the value of  brightness:438.000000,R:78288747.866619,G:78288943.845811,B:78301111.058432,EVENT_C:7251.500000,EVENT_R:2826.500000,EVENT_G:3649.500000,EVENT_B:1464.500000
+06-21 16:03:03.558  2055  3327 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-21 16:03:03.558  2055  3327 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-21 16:03:03.559  2055  3327 I libsensor-displayalgo: the value of  RESULT3143.488055,1241.879062,1522.354140,570.296979
+06-21 16:03:03.559  2055  3327 I libsensor-displayalgo: the value of  getChannelDataCalibrated3295.775618,1150.219382,1769.438579,622.440776
+06-21 16:03:03.559  2055  3327 I libsensor-displayalgo: the value of  REAL LUX233.112946
+06-21 16:03:03.559  2055  3327 I libsensor-displayalgo: the value of  CAL REAL LUX233.112946
+06-21 16:03:03.605 29445 29457 I tomator2.serve: This is sticky GC, maxfree is 8388608 minfree is 2097152
+06-21 16:03:03.615 29445 29484 I appium  : AppiumResponse: {"sessionId":"ec832cae-5da2-429d-a853-90de0bafd2d5","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAAlgCAYAAABtGofVAAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHic7N17XFR1/j/w13AZGAQRR1CQ8RIwIFGwaiWYtUqZFqRdxN0yMcsLVo/d\ntHZLbX/fLWt3H990q63MrlBbrehuKpSXQukGRV7AFdMBLziICYzKxeHO/P7gMec7h5mBYZgLB17P\nx6NHc…
+06-21 16:03:03.630 29445 29457 I tomator2.serve: This is non sticky GC, maxfree is 8388608 minfree is 2097152
+06-21 16:03:03.664 29732 30588 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(3). Not signalling any more buffers to client
+06-21 16:03:03.665 29732 31890 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:03.667 29732 30588 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(3). Not signalling any more buffers to client
+06-21 16:03:03.668 29732 31890 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client

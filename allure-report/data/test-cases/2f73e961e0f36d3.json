@@ -1,0 +1,260 @@
+{
+  "uid" : "2f73e961e0f36d3",
+  "name" : "play_01",
+  "fullName" : "tests.test_case.test02_play_entry#play_01",
+  "historyId" : "eb826bd962e94ba3f369c31f96a14a71",
+  "time" : {
+    "start" : 1668584901038,
+    "stop" : 1668584930090,
+    "duration" : 29052
+  },
+  "description" : "用例开始时间:2022-11-16 15:48:21.037673",
+  "descriptionHtml" : "<p>用例开始时间:2022-11-16 15:48:21.037673</p>\n",
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "用例开始时间:2022-11-16 15:48:21.037673",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "检查：'点击热门推荐下第一个广播剧'",
+      "time" : {
+        "start" : 1668584905748,
+        "stop" : 1668584905923,
+        "duration" : 175
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "检查：'点击搜索栏'",
+      "time" : {
+        "start" : 1668584907270,
+        "stop" : 1668584907488,
+        "duration" : 218
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "检查：'点击第一个热搜词'",
+      "time" : {
+        "start" : 1668584908052,
+        "stop" : 1668584908263,
+        "duration" : 211
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "检查：'点击综合搜索下第一个广播剧封面'",
+      "time" : {
+        "start" : 1668584908791,
+        "stop" : 1668584910220,
+        "duration" : 1429
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "检查：'点击搜索栏'",
+      "time" : {
+        "start" : 1668584915825,
+        "stop" : 1668584916214,
+        "duration" : 389
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "检查：'输入搜索文案'",
+      "time" : {
+        "start" : 1668584916770,
+        "stop" : 1668584916974,
+        "duration" : 204
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "输入元素：他似晨风起",
+      "time" : {
+        "start" : 1668584918005,
+        "stop" : 1668584918635,
+        "duration" : 630
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "检查：'输入搜索文案'",
+        "time" : {
+          "start" : 1668584918005,
+          "stop" : 1668584918063,
+          "duration" : 58
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "检查：'点击综合搜索下第一个广播剧封面'",
+      "time" : {
+        "start" : 1668584919948,
+        "stop" : 1668584921471,
+        "duration" : 1523
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "检查：'剧集页点击一音频进入其音频播放页'",
+      "time" : {
+        "start" : 1668584921999,
+        "stop" : 1668584922638,
+        "duration" : 639
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "检查：'点击播放喵回到播放页'",
+      "time" : {
+        "start" : 1668584928363,
+        "stop" : 1668584929015,
+        "duration" : 652
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "76707d0c9a5b69ff",
+      "name" : "stdout",
+      "source" : "76707d0c9a5b69ff.txt",
+      "type" : "text/plain",
+      "size" : 667
+    }, {
+      "uid" : "9b9803984d4c9dc2",
+      "name" : "stderr",
+      "source" : "9b9803984d4c9dc2.txt",
+      "type" : "text/plain",
+      "size" : 89
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test02_play_entry"
+  }, {
+    "name" : "host",
+    "value" : "guozhierdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "4192-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_case.test02_play_entry"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "62d7404dc1f4112a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: 查找元素验证页面是否存在播放视图容器失败\nStacktrace:\nNoSuchElementError: An element could not be located on the page using the given search parameters.\n    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:33:12)\n    at AndroidUiautomator2Driver.findElement (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:53:10)",
+      "time" : {
+        "start" : 1668584622822,
+        "stop" : 1668584651909,
+        "duration" : 29087
+      }
+    }, {
+      "uid" : "abcfd50f697f76c0",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: 查找元素验证当前页面是否为剧集页失败\nStacktrace:\nNoSuchElementError: An element could not be located on the page using the given search parameters.\n    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:33:12)\n    at AndroidUiautomator2Driver.findElement (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:53:10)",
+      "time" : {
+        "start" : 1668584402878,
+        "stop" : 1668584410610,
+        "duration" : 7732
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2f73e961e0f36d3.json",
+  "parameterValues" : [ ]
+}

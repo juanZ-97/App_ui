@@ -1,0 +1,722 @@
+12-22 12:27:07.370  1251  2216 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [390] successfully, thermal_cur_bl 384
+12-22 12:27:07.372  1251  2216 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 390 (9.502636 percent), min=1
+12-22 12:27:07.373  2027  3267 I libsensor-ssccalapi: value of set_backlight390
+12-22 12:27:07.385  1251  2216 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [390] successfully, thermal_cur_bl 384
+12-22 12:27:07.387  1251  2216 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 390 (9.503380 percent), min=1
+12-22 12:27:07.387  2027  3267 I libsensor-ssccalapi: value of set_backlight390
+12-22 12:27:07.402  1251  2216 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [390] successfully, thermal_cur_bl 384
+12-22 12:27:07.404  1251  2216 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 390 (9.504123 percent), min=1
+12-22 12:27:07.404  2027  3267 I libsensor-ssccalapi: value of set_backlight390
+12-22 12:27:07.419  1251  2216 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [390] successfully, thermal_cur_bl 384
+12-22 12:27:07.420  1251  2216 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 390 (9.504867 percent), min=1
+12-22 12:27:07.420  2027  3267 I libsensor-ssccalapi: value of set_backlight390
+12-22 12:27:07.434  1251  2216 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [390] successfully, thermal_cur_bl 384
+12-22 12:27:07.434  1251  2216 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 390 (9.505610 percent), min=1
+12-22 12:27:07.436  2027  3267 I libsensor-ssccalapi: value of set_backlight390
+12-22 12:27:07.450  1251  2216 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [390] successfully, thermal_cur_bl 384
+12-22 12:27:07.451  1251  2216 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 390 (9.506353 percent), min=1
+12-22 12:27:07.451  2027  3267 I libsensor-ssccalapi: value of set_backlight390
+12-22 12:27:07.466  1251  2216 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [390] successfully, thermal_cur_bl 384
+12-22 12:27:07.467  1251  2216 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 390 (9.507097 percent), min=1
+12-22 12:27:07.468  2027  3267 I libsensor-ssccalapi: value of set_backlight390
+12-22 12:27:07.483  1251  2216 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [390] successfully, thermal_cur_bl 384
+12-22 12:27:07.485  1251  2216 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 390 (9.507842 percent), min=1
+12-22 12:27:07.485  2027  3267 I libsensor-ssccalapi: value of set_backlight390
+12-22 12:27:07.500  1251  2216 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [390] successfully, thermal_cur_bl 384
+12-22 12:27:07.501  1251  2216 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 390 (9.508586 percent), min=1
+12-22 12:27:07.502  2027  3267 I libsensor-ssccalapi: value of set_backlight390
+12-22 12:27:07.517  1251  2216 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [390] successfully, thermal_cur_bl 384
+12-22 12:27:07.518  1251  2216 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 390 (9.509330 percent), min=1
+12-22 12:27:07.518  2027  3267 I libsensor-ssccalapi: value of set_backlight390
+12-22 12:27:07.533  1251  2216 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [390] successfully, thermal_cur_bl 384
+12-22 12:27:07.535  1251  2216 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 390 (9.510075 percent), min=1
+12-22 12:27:07.535  2027  3267 I libsensor-ssccalapi: value of set_backlight390
+12-22 12:27:07.550  1251  2216 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [390] successfully, thermal_cur_bl 384
+12-22 12:27:07.552  1251  2216 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 390 (9.510818 percent), min=1
+12-22 12:27:07.552  2027  3267 I libsensor-ssccalapi: value of set_backlight390
+12-22 12:27:07.564  2038  5294 D BufferPoolAccessor2.0: bufferpool2 0xb400007a97936828 : 0(0 size) total buffers - 0(0 size) used buffers - 44/52 (recycle/alloc) - 8/96 (fetch/transfer)
+12-22 12:27:07.564  2038  5294 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 1
+12-22 12:27:07.565  1973  2871 D BufferPoolAccessor2.0: bufferpool2 0xb4000079cde8f628 : 0(0 size) total buffers - 0(0 size) used buffers - 43/46 (recycle/alloc) - 3/45 (fetch/transfer)
+12-22 12:27:07.565  1973  2871 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 1
+12-22 12:27:07.566  1251  2216 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [390] successfully, thermal_cur_bl 384
+12-22 12:27:07.567  1251  2216 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 390 (9.511563 percent), min=1
+12-22 12:27:07.567  2027  3267 I libsensor-ssccalapi: value of set_backlight390
+12-22 12:27:07.582  2027  3285 D libsensor-displayalgo: the value of  brightness:390.000000,R:48682048.510289,G:48099012.782131,B:44687705.329008,EVENT_C:3469.000000,EVENT_R:1535.000000,EVENT_G:1824.500000,EVENT_B:777.000000
+12-22 12:27:07.582  1251  2216 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [390] successfully, thermal_cur_bl 384
+12-22 12:27:07.583  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 12:27:07.583  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 12:27:07.584  2027  3285 I libsensor-displayalgo: the value of  RESULT2098.751515,826.700432,1043.289398,370.683805
+12-22 12:27:07.584  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2192.222901,766.415800,1205.941065,401.615781
+12-22 12:27:07.584  2027  3285 I libsensor-displayalgo: the value of  REAL LUX58.780861
+12-22 12:27:07.584  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX58.780861
+12-22 12:27:07.584  1251  2216 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 390 (9.512307 percent), min=1
+12-22 12:27:07.585  2027  3267 I libsensor-ssccalapi: value of set_backlight390
+12-22 12:27:07.599  1251  2216 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [390] successfully, thermal_cur_bl 384
+12-22 12:27:07.601  1251  2216 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 390 (9.513052 percent), min=1
+12-22 12:27:07.603  2027  3267 I libsensor-ssccalapi: value of set_backlight390
+12-22 12:27:07.614  1251  2216 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [390] successfully, thermal_cur_bl 384
+12-22 12:27:07.615  1251  2216 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 390 (9.513796 percent), min=1
+12-22 12:27:07.617  2027  3267 I libsensor-ssccalapi: value of set_backlight390
+12-22 12:27:07.631  1251  2216 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [390] successfully, thermal_cur_bl 384
+12-22 12:27:07.632  1251  2216 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 391 (9.514541 percent), min=1
+12-22 12:27:07.632  2027  3267 I libsensor-ssccalapi: value of set_backlight391
+12-22 12:27:07.648  1251  2448 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+12-22 12:27:07.648  2027  2097 I libcitsensorservice@2.0-impl: msg_transfer
+12-22 12:27:07.649  1251  2216 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [391] successfully, thermal_cur_bl 384
+12-22 12:27:07.650  2027  3266 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:10 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+12-22 12:27:07.651  1251  2216 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 391 (9.515285 percent), min=1
+12-22 12:27:07.652  1251  2216 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+12-22 12:27:07.652  2027  3267 I libsensor-ssccalapi: value of set_backlight391
+12-22 12:27:07.653  1251  7481 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+12-22 12:27:07.665  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [391] successfully, thermal_cur_bl 384
+12-22 12:27:07.665  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 391 (9.516029 percent), min=1
+12-22 12:27:07.666  1251  7481 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+12-22 12:27:07.666  1251  7481 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+12-22 12:27:07.666  1251  7481 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+12-22 12:27:07.666  1251  7481 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+12-22 12:27:07.666  2027  3267 I libsensor-ssccalapi: value of set_backlight391
+12-22 12:27:07.680  1251  1467 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+12-22 12:27:07.682  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [391] successfully, thermal_cur_bl 384
+12-22 12:27:07.683  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 391 (9.516773 percent), min=1
+12-22 12:27:07.684  2027  3267 I libsensor-ssccalapi: value of set_backlight391
+12-22 12:27:07.690  1251  7483 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+12-22 12:27:07.690  1251  7483 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+12-22 12:27:07.690  1251  7483 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+12-22 12:27:07.698  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [391] successfully, thermal_cur_bl 384
+12-22 12:27:07.699  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 391 (9.517516 percent), min=1
+12-22 12:27:07.700  2027  3267 I libsensor-ssccalapi: value of set_backlight391
+12-22 12:27:07.714  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [391] successfully, thermal_cur_bl 384
+12-22 12:27:07.715  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 391 (9.518270 percent), min=1
+12-22 12:27:07.717  2027  3267 I libsensor-ssccalapi: value of set_backlight391
+12-22 12:27:07.730  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [391] successfully, thermal_cur_bl 384
+12-22 12:27:07.731  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 391 (9.519026 percent), min=1
+12-22 12:27:07.731  2027  3267 I libsensor-ssccalapi: value of set_backlight391
+12-22 12:27:07.746  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [391] successfully, thermal_cur_bl 384
+12-22 12:27:07.747  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 391 (9.519780 percent), min=1
+12-22 12:27:07.748  2027  3267 I libsensor-ssccalapi: value of set_backlight391
+12-22 12:27:07.763  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [391] successfully, thermal_cur_bl 384
+12-22 12:27:07.764  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 391 (9.520535 percent), min=1
+12-22 12:27:07.765  2027  3267 I libsensor-ssccalapi: value of set_backlight391
+12-22 12:27:07.779  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [391] successfully, thermal_cur_bl 384
+12-22 12:27:07.780  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 391 (9.521207 percent), min=1
+12-22 12:27:07.781  2027  3267 I libsensor-ssccalapi: value of set_backlight391
+12-22 12:27:07.795  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [391] successfully, thermal_cur_bl 384
+12-22 12:27:07.796  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 391 (9.521951 percent), min=1
+12-22 12:27:07.796  2027  3267 I libsensor-ssccalapi: value of set_backlight391
+12-22 12:27:07.812  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [391] successfully, thermal_cur_bl 384
+12-22 12:27:07.813  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 391 (9.522696 percent), min=1
+12-22 12:27:07.813  2027  3267 I libsensor-ssccalapi: value of set_backlight391
+12-22 12:27:07.828  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [391] successfully, thermal_cur_bl 384
+12-22 12:27:07.829  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 391 (9.523440 percent), min=1
+12-22 12:27:07.829  2027  3267 I libsensor-ssccalapi: value of set_backlight391
+12-22 12:27:07.844  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [391] successfully, thermal_cur_bl 384
+12-22 12:27:07.845  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 391 (9.524185 percent), min=1
+12-22 12:27:07.845  2027  3267 I libsensor-ssccalapi: value of set_backlight391
+12-22 12:27:07.861  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [391] successfully, thermal_cur_bl 384
+12-22 12:27:07.863  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 391 (9.524930 percent), min=1
+12-22 12:27:07.863  2027  3267 I libsensor-ssccalapi: value of set_backlight391
+12-22 12:27:07.877  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [391] successfully, thermal_cur_bl 384
+12-22 12:27:07.878  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 391 (9.525676 percent), min=1
+12-22 12:27:07.878  2027  3267 I libsensor-ssccalapi: value of set_backlight391
+12-22 12:27:07.882  2027  3285 D libsensor-displayalgo: the value of  brightness:391.000000,R:48683337.871526,G:48099975.259693,B:44688167.032088,EVENT_C:3477.500000,EVENT_R:1537.500000,EVENT_G:1828.000000,EVENT_B:777.000000
+12-22 12:27:07.882  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 12:27:07.882  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 12:27:07.883  2027  3285 I libsensor-displayalgo: the value of  RESULT2102.019788,828.003061,1044.813094,371.249918
+12-22 12:27:07.883  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2195.729143,767.588016,1207.828546,402.245737
+12-22 12:27:07.883  2027  3285 I libsensor-displayalgo: the value of  REAL LUX59.207779
+12-22 12:27:07.883  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX59.207779
+12-22 12:27:07.895  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [391] successfully, thermal_cur_bl 384
+12-22 12:27:07.897  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 391 (9.526421 percent), min=1
+12-22 12:27:07.898  2027  3267 I libsensor-ssccalapi: value of set_backlight391
+12-22 12:27:07.911  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [391] successfully, thermal_cur_bl 384
+12-22 12:27:07.913  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 391 (9.527165 percent), min=1
+12-22 12:27:07.914  2027  3267 I libsensor-ssccalapi: value of set_backlight391
+12-22 12:27:07.928  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [391] successfully, thermal_cur_bl 384
+12-22 12:27:07.930  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 391 (9.527910 percent), min=1
+12-22 12:27:07.930  2027  3267 I libsensor-ssccalapi: value of set_backlight391
+12-22 12:27:07.943  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [391] successfully, thermal_cur_bl 384
+12-22 12:27:07.944  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 391 (9.528656 percent), min=1
+12-22 12:27:07.945  2027  3267 I libsensor-ssccalapi: value of set_backlight391
+12-22 12:27:07.959  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [391] successfully, thermal_cur_bl 384
+12-22 12:27:07.959  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 391 (9.529401 percent), min=1
+12-22 12:27:07.960  2027  3267 I libsensor-ssccalapi: value of set_backlight391
+12-22 12:27:07.975  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [391] successfully, thermal_cur_bl 384
+12-22 12:27:07.976  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 391 (9.530146 percent), min=1
+12-22 12:27:07.977  2027  3267 I libsensor-ssccalapi: value of set_backlight391
+12-22 12:27:07.992  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [391] successfully, thermal_cur_bl 384
+12-22 12:27:07.992  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 391 (9.530890 percent), min=1
+12-22 12:27:07.993  2027  3267 I libsensor-ssccalapi: value of set_backlight391
+12-22 12:27:08.009  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [391] successfully, thermal_cur_bl 384
+12-22 12:27:08.010  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 391 (9.531636 percent), min=1
+12-22 12:27:08.010  2027  3267 I libsensor-ssccalapi: value of set_backlight391
+12-22 12:27:08.024  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [391] successfully, thermal_cur_bl 384
+12-22 12:27:08.025  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 391 (9.532381 percent), min=1
+12-22 12:27:08.026  2027  3267 I libsensor-ssccalapi: value of set_backlight391
+12-22 12:27:08.041  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [391] successfully, thermal_cur_bl 384
+12-22 12:27:08.042  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 391 (9.533127 percent), min=1
+12-22 12:27:08.043  2027  3267 I libsensor-ssccalapi: value of set_backlight391
+12-22 12:27:08.058  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [391] successfully, thermal_cur_bl 384
+12-22 12:27:08.060  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 391 (9.533873 percent), min=1
+12-22 12:27:08.060  2027  3267 I libsensor-ssccalapi: value of set_backlight391
+12-22 12:27:08.074  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [391] successfully, thermal_cur_bl 384
+12-22 12:27:08.075  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 391 (9.534618 percent), min=1
+12-22 12:27:08.075  2027  3267 I libsensor-ssccalapi: value of set_backlight391
+12-22 12:27:08.090  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [391] successfully, thermal_cur_bl 384
+12-22 12:27:08.091  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 391 (9.535364 percent), min=1
+12-22 12:27:08.092  2027  3267 I libsensor-ssccalapi: value of set_backlight391
+12-22 12:27:08.107  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [391] successfully, thermal_cur_bl 384
+12-22 12:27:08.108  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 391 (9.536110 percent), min=1
+12-22 12:27:08.109  2027  3267 I libsensor-ssccalapi: value of set_backlight391
+12-22 12:27:08.123  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [391] successfully, thermal_cur_bl 384
+12-22 12:27:08.124  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 391 (9.536856 percent), min=1
+12-22 12:27:08.124  2027  3267 I libsensor-ssccalapi: value of set_backlight391
+12-22 12:27:08.141  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [391] successfully, thermal_cur_bl 384
+12-22 12:27:08.143  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 391 (9.537601 percent), min=1
+12-22 12:27:08.143  2027  3267 I libsensor-ssccalapi: value of set_backlight391
+12-22 12:27:08.157  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [391] successfully, thermal_cur_bl 384
+12-22 12:27:08.159  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 391 (9.538347 percent), min=1
+12-22 12:27:08.159  2027  3267 I libsensor-ssccalapi: value of set_backlight391
+12-22 12:27:08.173  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [391] successfully, thermal_cur_bl 384
+12-22 12:27:08.175  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 392 (9.539093 percent), min=1
+12-22 12:27:08.175  2027  3267 I libsensor-ssccalapi: value of set_backlight392
+12-22 12:27:08.183  2027  3285 D libsensor-displayalgo: the value of  brightness:392.000000,R:48683337.871526,G:48099975.259693,B:44688167.032088,EVENT_C:3477.500000,EVENT_R:1537.500000,EVENT_G:1828.000000,EVENT_B:777.000000
+12-22 12:27:08.183  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 12:27:08.183  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 12:27:08.183  2027  3285 I libsensor-displayalgo: the value of  RESULT2105.253788,829.290283,1046.321657,371.810507
+12-22 12:27:08.183  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2199.199620,768.745935,1209.698566,402.869708
+12-22 12:27:08.184  2027  3285 I libsensor-displayalgo: the value of  REAL LUX58.972099
+12-22 12:27:08.184  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX58.972099
+12-22 12:27:08.190  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [392] successfully, thermal_cur_bl 384
+12-22 12:27:08.191  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 392 (9.539839 percent), min=1
+12-22 12:27:08.192  2027  3267 I libsensor-ssccalapi: value of set_backlight392
+12-22 12:27:08.206  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [392] successfully, thermal_cur_bl 384
+12-22 12:27:08.207  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 392 (9.540585 percent), min=1
+12-22 12:27:08.208  2027  3267 I libsensor-ssccalapi: value of set_backlight392
+12-22 12:27:08.221  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [392] successfully, thermal_cur_bl 384
+12-22 12:27:08.223  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 392 (9.541330 percent), min=1
+12-22 12:27:08.223  2027  3267 I libsensor-ssccalapi: value of set_backlight392
+12-22 12:27:08.238  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [392] successfully, thermal_cur_bl 384
+12-22 12:27:08.239  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 392 (9.542076 percent), min=1
+12-22 12:27:08.239  2027  3267 I libsensor-ssccalapi: value of set_backlight392
+12-22 12:27:08.256  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [392] successfully, thermal_cur_bl 384
+12-22 12:27:08.258  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 392 (9.542823 percent), min=1
+12-22 12:27:08.258  2027  3267 I libsensor-ssccalapi: value of set_backlight392
+12-22 12:27:08.272  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [392] successfully, thermal_cur_bl 384
+12-22 12:27:08.273  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 392 (9.543570 percent), min=1
+12-22 12:27:08.274  2027  3267 I libsensor-ssccalapi: value of set_backlight392
+12-22 12:27:08.288  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [392] successfully, thermal_cur_bl 384
+12-22 12:27:08.289  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 392 (9.544316 percent), min=1
+12-22 12:27:08.290  2027  3267 I libsensor-ssccalapi: value of set_backlight392
+12-22 12:27:08.306  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [392] successfully, thermal_cur_bl 384
+12-22 12:27:08.307  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 392 (9.545062 percent), min=1
+12-22 12:27:08.308  2027  3267 I libsensor-ssccalapi: value of set_backlight392
+12-22 12:27:08.321  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [392] successfully, thermal_cur_bl 384
+12-22 12:27:08.322  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 392 (9.545809 percent), min=1
+12-22 12:27:08.323  2027  3267 I libsensor-ssccalapi: value of set_backlight392
+12-22 12:27:08.340  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [392] successfully, thermal_cur_bl 384
+12-22 12:27:08.341  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 392 (9.546556 percent), min=1
+12-22 12:27:08.341  2027  3267 I libsensor-ssccalapi: value of set_backlight392
+12-22 12:27:08.354  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [392] successfully, thermal_cur_bl 384
+12-22 12:27:08.355  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 392 (9.547302 percent), min=1
+12-22 12:27:08.356  2027  3267 I libsensor-ssccalapi: value of set_backlight392
+12-22 12:27:08.370  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [392] successfully, thermal_cur_bl 384
+12-22 12:27:08.372  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 392 (9.548049 percent), min=1
+12-22 12:27:08.373  2027  3267 I libsensor-ssccalapi: value of set_backlight392
+12-22 12:27:08.386  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [392] successfully, thermal_cur_bl 384
+12-22 12:27:08.387  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 392 (9.548796 percent), min=1
+12-22 12:27:08.388  2027  3267 I libsensor-ssccalapi: value of set_backlight392
+12-22 12:27:08.402  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [392] successfully, thermal_cur_bl 384
+12-22 12:27:08.403  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 392 (9.549541 percent), min=1
+12-22 12:27:08.404  2027  3267 I libsensor-ssccalapi: value of set_backlight392
+12-22 12:27:08.420  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [392] successfully, thermal_cur_bl 384
+12-22 12:27:08.420  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 392 (9.550288 percent), min=1
+12-22 12:27:08.421  2027  3267 I libsensor-ssccalapi: value of set_backlight392
+12-22 12:27:08.435  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [392] successfully, thermal_cur_bl 384
+12-22 12:27:08.436  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 392 (9.551035 percent), min=1
+12-22 12:27:08.437  2027  3267 I libsensor-ssccalapi: value of set_backlight392
+12-22 12:27:08.452  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [392] successfully, thermal_cur_bl 384
+12-22 12:27:08.453  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 392 (9.551783 percent), min=1
+12-22 12:27:08.454  2027  3267 I libsensor-ssccalapi: value of set_backlight392
+12-22 12:27:08.469  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [392] successfully, thermal_cur_bl 384
+12-22 12:27:08.469  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 392 (9.552529 percent), min=1
+12-22 12:27:08.470  2027  3267 I libsensor-ssccalapi: value of set_backlight392
+12-22 12:27:08.482  2027  3285 D libsensor-displayalgo: the value of  brightness:392.000000,R:48683337.871526,G:48099975.259693,B:44688167.032088,EVENT_C:3477.500000,EVENT_R:1537.500000,EVENT_G:1828.000000,EVENT_B:777.000000
+12-22 12:27:08.482  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 12:27:08.482  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 12:27:08.482  2027  3285 I libsensor-displayalgo: the value of  RESULT2105.253788,829.290283,1046.321657,371.810507
+12-22 12:27:08.483  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2199.199620,768.745935,1209.698566,402.869708
+12-22 12:27:08.483  2027  3285 I libsensor-displayalgo: the value of  REAL LUX58.972099
+12-22 12:27:08.483  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX58.972099
+12-22 12:27:08.485  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [392] successfully, thermal_cur_bl 384
+12-22 12:27:08.486  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 392 (9.553277 percent), min=1
+12-22 12:27:08.486  2027  3267 I libsensor-ssccalapi: value of set_backlight392
+12-22 12:27:08.501  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [392] successfully, thermal_cur_bl 384
+12-22 12:27:08.502  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 392 (9.554024 percent), min=1
+12-22 12:27:08.502  2027  3267 I libsensor-ssccalapi: value of set_backlight392
+12-22 12:27:08.519  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [392] successfully, thermal_cur_bl 384
+12-22 12:27:08.521  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 392 (9.554771 percent), min=1
+12-22 12:27:08.521  2027  3267 I libsensor-ssccalapi: value of set_backlight392
+12-22 12:27:08.534  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [392] successfully, thermal_cur_bl 384
+12-22 12:27:08.535  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 392 (9.555519 percent), min=1
+12-22 12:27:08.535  2027  3267 I libsensor-ssccalapi: value of set_backlight392
+12-22 12:27:08.550  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [392] successfully, thermal_cur_bl 384
+12-22 12:27:08.551  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 392 (9.556266 percent), min=1
+12-22 12:27:08.551  2027  3267 I libsensor-ssccalapi: value of set_backlight392
+12-22 12:27:08.568  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [392] successfully, thermal_cur_bl 384
+12-22 12:27:08.569  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 392 (9.557014 percent), min=1
+12-22 12:27:08.569  2027  3267 I libsensor-ssccalapi: value of set_backlight392
+12-22 12:27:08.583  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [392] successfully, thermal_cur_bl 384
+12-22 12:27:08.584  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 392 (9.557760 percent), min=1
+12-22 12:27:08.584  2027  3267 I libsensor-ssccalapi: value of set_backlight392
+12-22 12:27:08.601  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [392] successfully, thermal_cur_bl 384
+12-22 12:27:08.602  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 392 (9.558508 percent), min=1
+12-22 12:27:08.602  2027  3267 I libsensor-ssccalapi: value of set_backlight392
+12-22 12:27:08.617  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [392] successfully, thermal_cur_bl 384
+12-22 12:27:08.618  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 392 (9.559255 percent), min=1
+12-22 12:27:08.619  2027  3267 I libsensor-ssccalapi: value of set_backlight392
+12-22 12:27:08.633  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [392] successfully, thermal_cur_bl 384
+12-22 12:27:08.633  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 392 (9.560002 percent), min=1
+12-22 12:27:08.634  2027  3267 I libsensor-ssccalapi: value of set_backlight392
+12-22 12:27:08.649  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [392] successfully, thermal_cur_bl 384
+12-22 12:27:08.650  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 392 (9.560750 percent), min=1
+12-22 12:27:08.650  2027  3267 I libsensor-ssccalapi: value of set_backlight392
+12-22 12:27:08.667  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [392] successfully, thermal_cur_bl 384
+12-22 12:27:08.668  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 392 (9.561498 percent), min=1
+12-22 12:27:08.669  2027  3267 I libsensor-ssccalapi: value of set_backlight392
+12-22 12:27:08.684  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [392] successfully, thermal_cur_bl 384
+12-22 12:27:08.686  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 392 (9.562245 percent), min=1
+12-22 12:27:08.686  2027  3267 I libsensor-ssccalapi: value of set_backlight392
+12-22 12:27:08.696  6547  6588 I appium  : channel read: POST /wd/hub/session/f6b797fb-d416-4e5a-8eb3-0d6651418eeb/element
+12-22 12:27:08.697  6547  6588 I appium  : FindElement command
+12-22 12:27:08.699  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [392] successfully, thermal_cur_bl 384
+12-22 12:27:08.699  6547  6588 I appium  : method: 'id', selector: 'cn.missevan:id/all_episodes'
+12-22 12:27:08.700  6547  6588 I appium  : Waiting up to 100ms for the device to idle
+12-22 12:27:08.700  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 393 (9.562994 percent), min=1
+12-22 12:27:08.701  2027  3267 I libsensor-ssccalapi: value of set_backlight393
+12-22 12:27:08.716  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [393] successfully, thermal_cur_bl 384
+12-22 12:27:08.717  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 393 (9.563742 percent), min=1
+12-22 12:27:08.717  2027  3267 I libsensor-ssccalapi: value of set_backlight393
+12-22 12:27:08.732  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [393] successfully, thermal_cur_bl 384
+12-22 12:27:08.733  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 393 (9.564490 percent), min=1
+12-22 12:27:08.734  2027  3267 I libsensor-ssccalapi: value of set_backlight393
+12-22 12:27:08.740  6206  7013 D UidObserver: onUidIdle uid=10114 uidstate=100
+12-22 12:27:08.742  6206  7013 D UidObserver: onUidIdle uid=10243 uidstate=100
+12-22 12:27:08.743  6206  7013 D UidObserver: onUidIdle uid=10139 uidstate=100
+12-22 12:27:08.748  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [393] successfully, thermal_cur_bl 384
+12-22 12:27:08.749  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 393 (9.565238 percent), min=1
+12-22 12:27:08.750  2027  3267 I libsensor-ssccalapi: value of set_backlight393
+12-22 12:27:08.765  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [393] successfully, thermal_cur_bl 384
+12-22 12:27:08.767  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 393 (9.565986 percent), min=1
+12-22 12:27:08.768  2027  3267 I libsensor-ssccalapi: value of set_backlight393
+12-22 12:27:08.781  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [393] successfully, thermal_cur_bl 384
+12-22 12:27:08.782  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 393 (9.566734 percent), min=1
+12-22 12:27:08.782  2027  3285 D libsensor-displayalgo: the value of  brightness:393.000000,R:48683337.871526,G:48099975.259693,B:44688167.032088,EVENT_C:3475.000000,EVENT_R:1537.000000,EVENT_G:1829.000000,EVENT_B:777.500000
+12-22 12:27:08.782  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 12:27:08.782  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 12:27:08.783  2027  3285 I libsensor-displayalgo: the value of  RESULT2108.484502,830.576216,1047.828545,372.370509
+12-22 12:27:08.783  2027  3267 I libsensor-ssccalapi: value of set_backlight393
+12-22 12:27:08.783  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2202.666697,769.902649,1211.566679,403.493044
+12-22 12:27:08.783  2027  3285 I libsensor-displayalgo: the value of  REAL LUX58.583965
+12-22 12:27:08.783  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX58.583965
+12-22 12:27:08.798  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [393] successfully, thermal_cur_bl 384
+12-22 12:27:08.799  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 393 (9.567482 percent), min=1
+12-22 12:27:08.799  2027  3267 I libsensor-ssccalapi: value of set_backlight393
+12-22 12:27:08.814  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [393] successfully, thermal_cur_bl 384
+12-22 12:27:08.815  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 393 (9.568230 percent), min=1
+12-22 12:27:08.816  2027  3267 I libsensor-ssccalapi: value of set_backlight393
+12-22 12:27:08.830  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [393] successfully, thermal_cur_bl 384
+12-22 12:27:08.831  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 393 (9.568978 percent), min=1
+12-22 12:27:08.831  2027  3267 I libsensor-ssccalapi: value of set_backlight393
+12-22 12:27:08.842  2475  3040 I BatteryService: current mPlugType2current mHealthInfo.batteryLevel26current mHealthInfo.batteryTemperature355
+12-22 12:27:08.845  6206  7182 D ThermalIECHandler: storeDataStyle: thermal_iec_monitor_persistence_data_style_iec_state; startIECTime: -1; IECScreenOffOverPeriodTime: 1410825231
+12-22 12:27:08.846  6206  7099 D PowerCheckerService: onBatteryChanged, mBatteryLevel = 26, status = 2, level = 26, plug = 2, scale = 100
+12-22 12:27:08.847  6206  6950 D PowerKeeper.FrozenApp: onBatteryChanged plug=true mBatteryPlugged=2
+12-22 12:27:08.848  6206  7192 D PowerKeeper.Thermal: mBatteryTemperature: 35
+12-22 12:27:08.849  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [393] successfully, thermal_cur_bl 384
+12-22 12:27:08.851  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 393 (9.569726 percent), min=1
+12-22 12:27:08.851  4453  4453 V DeviceStatisticsService: chargerType=2 batteryLevel=26 totalBatteryCapacity=4215300
+12-22 12:27:08.852  2027  3267 I libsensor-ssccalapi: value of set_backlight393
+12-22 12:27:08.853  9660  9660 D DynamicService:  ACTION_BATTERY_CHANGED change,USB plug = 2
+12-22 12:27:08.853  4409  4409 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 1
+12-22 12:27:08.858  6547  6588 I appium  : AppiumResponse: {"sessionId":"f6b797fb-d416-4e5a-8eb3-0d6651418eeb","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:920)\n"}}
+12-22 12:27:08.860  6171  6171 I PowerUtils: getChargerType: USB
+12-22 12:27:08.861  6171  6171 I PowerOffUI: charger type = USB
+12-22 12:27:08.861  6171  6171 I BatteryInfoReceiver: ACTION_BATTERY_CHANGED
+12-22 12:27:08.862  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [393] successfully, thermal_cur_bl 384
+12-22 12:27:08.862  6171  6171 I PowerNoticeUI: handleBatteryChanged oldPlugType 2 mPlugType 2 oldBatteryLevel 26 mBatteryLevel 26 temperature 355
+12-22 12:27:08.863  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 393 (9.570475 percent), min=1
+12-22 12:27:08.864  2027  3267 I libsensor-ssccalapi: value of set_backlight393
+12-22 12:27:08.881  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [393] successfully, thermal_cur_bl 384
+12-22 12:27:08.883  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 393 (9.571223 percent), min=1
+12-22 12:27:08.883  2027  3267 I libsensor-ssccalapi: value of set_backlight393
+12-22 12:27:08.898  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [393] successfully, thermal_cur_bl 384
+12-22 12:27:08.900  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 393 (9.571972 percent), min=1
+12-22 12:27:08.901  2027  3267 I libsensor-ssccalapi: value of set_backlight393
+12-22 12:27:08.913  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [393] successfully, thermal_cur_bl 384
+12-22 12:27:08.915  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 393 (9.572721 percent), min=1
+12-22 12:27:08.916  2027  3267 I libsensor-ssccalapi: value of set_backlight393
+12-22 12:27:08.929  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [393] successfully, thermal_cur_bl 384
+12-22 12:27:08.931  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 393 (9.573469 percent), min=1
+12-22 12:27:08.932  2027  3267 I libsensor-ssccalapi: value of set_backlight393
+12-22 12:27:08.947  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [393] successfully, thermal_cur_bl 384
+12-22 12:27:08.948  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 393 (9.574218 percent), min=1
+12-22 12:27:08.949  2027  3267 I libsensor-ssccalapi: value of set_backlight393
+12-22 12:27:08.964  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [393] successfully, thermal_cur_bl 384
+12-22 12:27:08.965  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 393 (9.574966 percent), min=1
+12-22 12:27:08.965  2027  3267 I libsensor-ssccalapi: value of set_backlight393
+12-22 12:27:08.978  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [393] successfully, thermal_cur_bl 384
+12-22 12:27:08.979  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 393 (9.575716 percent), min=1
+12-22 12:27:08.980  2027  3267 I libsensor-ssccalapi: value of set_backlight393
+12-22 12:27:08.988 13055 13339 D MemoryCeilingMonitor: [handleMemoryCalculate]
+12-22 12:27:08.988 13055 13339 D MemoryCeilingMonitor: [calculate] tot: 6051664, max: 268435456, free: 557056, heap: 5494608, per: 0.02046900987625122
+12-22 12:27:08.995  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [393] successfully, thermal_cur_bl 384
+12-22 12:27:08.996  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 393 (9.576465 percent), min=1
+12-22 12:27:08.996  2027  3267 I libsensor-ssccalapi: value of set_backlight393
+12-22 12:27:09.012  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [393] successfully, thermal_cur_bl 384
+12-22 12:27:09.014  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 393 (9.577213 percent), min=1
+12-22 12:27:09.014  2027  3267 I libsensor-ssccalapi: value of set_backlight393
+12-22 12:27:09.029  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [393] successfully, thermal_cur_bl 384
+12-22 12:27:09.030  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 393 (9.577962 percent), min=1
+12-22 12:27:09.031  2027  3267 I libsensor-ssccalapi: value of set_backlight393
+12-22 12:27:09.045  1251  2215 I SDM     : HWBacklightThermal::StopTimer: hwc thermal dimming: exit at [393] successfully, thermal_cur_bl 384
+12-22 12:27:09.046  1251  2215 I SDM     : DisplayBuiltIn::SetPanelBrightness: Set brightness to 393 (9.578532 percent), min=1
+12-22 12:27:09.047  2027  3267 I libsensor-ssccalapi: value of set_backlight393
+12-22 12:27:09.184  2027  3285 D libsensor-displayalgo: the value of  brightness:393.000000,R:48683337.871526,G:48099975.259693,B:44688167.032088,EVENT_C:3497.000000,EVENT_R:1545.000000,EVENT_G:1840.000000,EVENT_B:781.500000
+12-22 12:27:09.184  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 12:27:09.185  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 12:27:09.185  2027  3285 I libsensor-displayalgo: the value of  RESULT2108.484502,830.576216,1047.828545,372.370509
+12-22 12:27:09.186  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2202.666697,769.902649,1211.566679,403.493044
+12-22 12:27:09.186  2027  3285 I libsensor-displayalgo: the value of  REAL LUX60.010555
+12-22 12:27:09.186  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX60.010555
+12-22 12:27:09.420  6547  6588 I appium  : channel read: POST /wd/hub/session/f6b797fb-d416-4e5a-8eb3-0d6651418eeb/element
+12-22 12:27:09.421  6547  6588 I appium  : FindElement command
+12-22 12:27:09.424  6547  6588 I appium  : method: 'id', selector: 'cn.missevan:id/all_episodes'
+12-22 12:27:09.425  6547  6588 I appium  : Waiting up to 100ms for the device to idle
+12-22 12:27:09.482  2027  3285 D libsensor-displayalgo: the value of  brightness:393.000000,R:48683337.871526,G:48099975.259693,B:44688167.032088,EVENT_C:3484.000000,EVENT_R:1539.000000,EVENT_G:1834.500000,EVENT_B:780.000000
+12-22 12:27:09.482  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 12:27:09.482  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 12:27:09.483  2027  3285 I libsensor-displayalgo: the value of  RESULT2108.484502,830.576216,1047.828545,372.370509
+12-22 12:27:09.483  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2202.666697,769.902649,1211.566679,403.493044
+12-22 12:27:09.483  2027  3285 I libsensor-displayalgo: the value of  REAL LUX59.190899
+12-22 12:27:09.483  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX59.190899
+12-22 12:27:09.561  6547  6588 I appium  : AppiumResponse: {"sessionId":"f6b797fb-d416-4e5a-8eb3-0d6651418eeb","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:920)\n"}}
+12-22 12:27:09.783  2027  3285 D libsensor-displayalgo: the value of  brightness:393.000000,R:48683337.871526,G:48099975.259693,B:44688167.032088,EVENT_C:3463.000000,EVENT_R:1532.500000,EVENT_G:1823.000000,EVENT_B:775.500000
+12-22 12:27:09.783  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 12:27:09.783  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 12:27:09.784  2027  3285 I libsensor-displayalgo: the value of  RESULT2108.484502,830.576216,1047.828545,372.370509
+12-22 12:27:09.784  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2202.666697,769.902649,1211.566679,403.493044
+12-22 12:27:09.784  2027  3285 I libsensor-displayalgo: the value of  REAL LUX57.796196
+12-22 12:27:09.784  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX57.796196
+12-22 12:27:10.000  1953  2016 I mstatdaemon: Entering time loop
+12-22 12:27:10.000  1953  2016 I mstatdaemon: t = 1671683230
+12-22 12:27:10.000  1953  2016 I mstatdaemon: translated_t = 1355693230
+12-22 12:27:10.000  1953  2016 I mstat_log: mstatcommitLog log_alloc() failed
+12-22 12:27:10.060  2475  2686 W ProcessStats: Tracking association SourceState{7299ece system/1000 BTopFgs #322151} whose proc state 2 is better than process ProcessState{c6f91ef com.miui.screenshot/10113 pkg=com.miui.screenshot} proc state 3 (40 skipped)
+12-22 12:27:10.068 20304 26892 D IdProviderImpl: getOAID from com.miui.analytics
+12-22 12:27:10.082  2027  3285 D libsensor-displayalgo: the value of  brightness:393.000000,R:48683337.871526,G:48099975.259693,B:44688167.032088,EVENT_C:3493.000000,EVENT_R:1542.000000,EVENT_G:1839.500000,EVENT_B:782.000000
+12-22 12:27:10.082  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 12:27:10.082  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 12:27:10.082  2027  3285 I libsensor-displayalgo: the value of  RESULT2108.484502,830.576216,1047.828545,372.370509
+12-22 12:27:10.082  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2202.666697,769.902649,1211.566679,403.493044
+12-22 12:27:10.082  2027  3285 I libsensor-displayalgo: the value of  REAL LUX59.777988
+12-22 12:27:10.082  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX59.777988
+12-22 12:27:10.091  6547  6588 I appium  : channel read: POST /wd/hub/session/f6b797fb-d416-4e5a-8eb3-0d6651418eeb/element
+12-22 12:27:10.093  6547  6588 I appium  : FindElement command
+12-22 12:27:10.097  6547  6588 I appium  : method: 'id', selector: 'cn.missevan:id/all_episodes'
+12-22 12:27:10.098  6547  6588 I appium  : Waiting up to 100ms for the device to idle
+12-22 12:27:10.242  2475  2475 W NotificationHistory: Attempted to add notif for locked/gone/disabled user 0
+12-22 12:27:10.247  5648  5648 D MiBarrage: No barrage: not in game scene or in video scene
+12-22 12:27:10.247  6171  6639 W Parcel  : **** enforceInterface() expected 'com.miui.gamebooster.service.ISecurityCenterNotificationListener' but read 'android.service.notification.INotificationListener'
+12-22 12:27:10.250  6171  6639 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-22 12:27:10.250  6171  6639 W Binder  : java.lang.SecurityException: Binder invocation to an incorrect interface
+12-22 12:27:10.250  6171  6639 W Binder  : 	at android.os.Parcel.nativeEnforceInterface(Native Method)
+12-22 12:27:10.250  6171  6639 W Binder  : 	at android.os.Parcel.enforceInterface(Parcel.java:699)
+12-22 12:27:10.250  6171  6639 W Binder  : 	at com.miui.gamebooster.service.ISecurityCenterNotificationListener$Stub.onTransact(Unknown Source:18)
+12-22 12:27:10.250  6171  6639 W Binder  : 	at android.os.Binder.execTransactInternal(Binder.java:1190)
+12-22 12:27:10.250  6171  6639 W Binder  : 	at android.os.Binder.execTransact(Binder.java:1149)
+12-22 12:27:10.253  4496  4660 D PeopleSpaceWidgetMgr: Sbn doesn't contain valid PeopleTileKey: null/0/com.miui.screenshot
+12-22 12:27:10.302  6547  6588 I appium  : AppiumResponse: {"sessionId":"f6b797fb-d416-4e5a-8eb3-0d6651418eeb","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:920)\n"}}
+12-22 12:27:10.383  2027  3285 D libsensor-displayalgo: the value of  brightness:393.000000,R:48683337.871526,G:48099975.259693,B:44688167.032088,EVENT_C:3478.000000,EVENT_R:1536.500000,EVENT_G:1831.000000,EVENT_B:778.000000
+12-22 12:27:10.384  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 12:27:10.384  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 12:27:10.384  2027  3285 I libsensor-displayalgo: the value of  RESULT2108.484502,830.576216,1047.828545,372.370509
+12-22 12:27:10.384  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2202.666697,769.902649,1211.566679,403.493044
+12-22 12:27:10.384  2027  3285 I libsensor-displayalgo: the value of  REAL LUX58.864925
+12-22 12:27:10.384  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX58.864925
+12-22 12:27:10.608  2475  3040 I BatteryService: current mPlugType2current mHealthInfo.batteryLevel26current mHealthInfo.batteryTemperature355
+12-22 12:27:10.613  6206  7182 D ThermalIECHandler: storeDataStyle: thermal_iec_monitor_persistence_data_style_iec_state; startIECTime: -1; IECScreenOffOverPeriodTime: 1410825231
+12-22 12:27:10.617  6206  6950 D PowerKeeper.FrozenApp: onBatteryChanged plug=true mBatteryPlugged=2
+12-22 12:27:10.618  6171  6171 I BatteryInfoReceiver: ACTION_BATTERY_CHANGED
+12-22 12:27:10.619  6206  7192 D PowerKeeper.Thermal: mBatteryTemperature: 35
+12-22 12:27:10.621  6171  6171 I PowerNoticeUI: handleBatteryChanged oldPlugType 2 mPlugType 2 oldBatteryLevel 26 mBatteryLevel 26 temperature 355
+12-22 12:27:10.624  6206  7099 D PowerCheckerService: onBatteryChanged, mBatteryLevel = 26, status = 2, level = 26, plug = 2, scale = 100
+12-22 12:27:10.624  9660  9660 D DynamicService:  ACTION_BATTERY_CHANGED change,USB plug = 2
+12-22 12:27:10.625  4409  4409 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 1
+12-22 12:27:10.625  4453  4453 V DeviceStatisticsService: chargerType=2 batteryLevel=26 totalBatteryCapacity=4215300
+12-22 12:27:10.782  2027  3285 D libsensor-displayalgo: the value of  brightness:393.000000,R:48683337.871526,G:48099975.259693,B:44688167.032088,EVENT_C:3475.500000,EVENT_R:1536.000000,EVENT_G:1829.000000,EVENT_B:777.500000
+12-22 12:27:10.782  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 12:27:10.782  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 12:27:10.782  2027  3285 I libsensor-displayalgo: the value of  RESULT2108.484502,830.576216,1047.828545,372.370509
+12-22 12:27:10.782  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2202.666697,769.902649,1211.566679,403.493044
+12-22 12:27:10.782  2027  3285 I libsensor-displayalgo: the value of  REAL LUX58.656948
+12-22 12:27:10.782  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX58.656948
+12-22 12:27:10.833  6547  6588 I appium  : channel read: POST /wd/hub/session/f6b797fb-d416-4e5a-8eb3-0d6651418eeb/element
+12-22 12:27:10.836  6547  6588 I appium  : FindElement command
+12-22 12:27:10.838  6547  6588 I appium  : method: 'id', selector: 'cn.missevan:id/all_episodes'
+12-22 12:27:10.839  6547  6588 I appium  : Waiting up to 100ms for the device to idle
+12-22 12:27:11.001  6547  6588 I appium  : AppiumResponse: {"sessionId":"f6b797fb-d416-4e5a-8eb3-0d6651418eeb","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:920)\n"}}
+12-22 12:27:11.083  2027  3285 D libsensor-displayalgo: the value of  brightness:393.000000,R:48683337.871526,G:48099975.259693,B:44688167.032088,EVENT_C:3452.000000,EVENT_R:1526.000000,EVENT_G:1816.500000,EVENT_B:774.000000
+12-22 12:27:11.083  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 12:27:11.083  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 12:27:11.084  2027  3285 I libsensor-displayalgo: the value of  RESULT2108.484502,830.576216,1047.828545,372.370509
+12-22 12:27:11.084  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2202.666697,769.902649,1211.566679,403.493044
+12-22 12:27:11.084  2027  3285 I libsensor-displayalgo: the value of  REAL LUX57.091045
+12-22 12:27:11.084  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX57.091045
+12-22 12:27:11.385  2027  3285 D libsensor-displayalgo: the value of  brightness:393.000000,R:48683337.871526,G:48099975.259693,B:44688167.032088,EVENT_C:3484.000000,EVENT_R:1537.000000,EVENT_G:1835.500000,EVENT_B:778.000000
+12-22 12:27:11.386  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 12:27:11.386  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 12:27:11.386  2027  3285 I libsensor-displayalgo: the value of  RESULT2108.484502,830.576216,1047.828545,372.370509
+12-22 12:27:11.386  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2202.666697,769.902649,1211.566679,403.493044
+12-22 12:27:11.386  2027  3285 I libsensor-displayalgo: the value of  REAL LUX59.474274
+12-22 12:27:11.386  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX59.474274
+12-22 12:27:11.539  6547  6588 I appium  : channel read: POST /wd/hub/session/f6b797fb-d416-4e5a-8eb3-0d6651418eeb/element
+12-22 12:27:11.543  6547  6588 I appium  : FindElement command
+12-22 12:27:11.549  6547  6588 I appium  : method: 'id', selector: 'cn.missevan:id/all_episodes'
+12-22 12:27:11.550  6547  6588 I appium  : Waiting up to 100ms for the device to idle
+12-22 12:27:11.683  2027  3285 D libsensor-displayalgo: the value of  brightness:393.000000,R:48683337.871526,G:48099975.259693,B:44688167.032088,EVENT_C:3453.000000,EVENT_R:1523.500000,EVENT_G:1817.000000,EVENT_B:773.500000
+12-22 12:27:11.683  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 12:27:11.683  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 12:27:11.684  2027  3285 I libsensor-displayalgo: the value of  RESULT2108.484502,830.576216,1047.828545,372.370509
+12-22 12:27:11.684  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2202.666697,769.902649,1211.566679,403.493044
+12-22 12:27:11.684  2027  3285 I libsensor-displayalgo: the value of  REAL LUX57.319237
+12-22 12:27:11.684  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX57.319237
+12-22 12:27:11.694  6547  6588 I appium  : AppiumResponse: {"sessionId":"f6b797fb-d416-4e5a-8eb3-0d6651418eeb","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:920)\n"}}
+12-22 12:27:11.984  2027  3285 D libsensor-displayalgo: the value of  brightness:393.000000,R:48683337.871526,G:48099975.259693,B:44688167.032088,EVENT_C:3460.500000,EVENT_R:1527.000000,EVENT_G:1821.500000,EVENT_B:776.000000
+12-22 12:27:11.984  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 12:27:11.984  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 12:27:11.984  2027  3285 I libsensor-displayalgo: the value of  RESULT2108.484502,830.576216,1047.828545,372.370509
+12-22 12:27:11.984  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2202.666697,769.902649,1211.566679,403.493044
+12-22 12:27:11.984  2027  3285 I libsensor-displayalgo: the value of  REAL LUX57.718258
+12-22 12:27:11.984  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX57.718258
+12-22 12:27:12.232  6547  6588 I appium  : channel read: POST /wd/hub/session/f6b797fb-d416-4e5a-8eb3-0d6651418eeb/element
+12-22 12:27:12.235  6547  6588 I appium  : FindElement command
+12-22 12:27:12.240  6547  6588 I appium  : method: 'id', selector: 'cn.missevan:id/all_episodes'
+12-22 12:27:12.241  6547  6588 I appium  : Waiting up to 100ms for the device to idle
+12-22 12:27:12.331  7271  7271 D ScreenShotService: unregisterCallback
+12-22 12:27:12.335 20304 20444 D IdProviderImpl: getOAID from com.miui.analytics
+12-22 12:27:12.341  7271  7306 D DeviceManagerUtil: list = []
+12-22 12:27:12.347 20304 20444 D IdProviderImpl: getOAID from com.miui.analytics
+12-22 12:27:12.351  7271  7271 I TakeScreenshotService: finishTotal ScreenshotTrackInfo: timeOfBitmapAvailable: 93 timeOfMediaStoreSave: 30 timeOfBitmapSave: 40 timeOfLongBitmapSave: -1
+12-22 12:27:12.351  7271  7271 I TakeScreenshotService:  unBindScreenshotService
+12-22 12:27:12.357  7271  7271 I TakeScreenshotService: Screenshot Service onDestroy
+12-22 12:27:12.359 32044 32044 W MiuiGallery2_MiuiCameraCaptureReceiver: [main] - ACTION_SAVE_TO_CLOUD start, path [/storage/emulated/0/DCIM/Screenshots/Screenshot_2022-12-22-12-27-00-307_com.miui.thirdappassistant.jpg], mediaId [-1], temp [false], usingGaussian [false], length [-1], supportSharedBitmap [false], needTriggerScan [true]
+12-22 12:27:12.359  2475  2677 W ScreenshotHelper: Handler msg.what=SCREENSHOT_MSG_PROCESS_COMPLETE AOSP
+12-22 12:27:12.359  2475  2677 D MediaProjectionManagerServiceStubImpl: handleForegroundServicesChanged
+12-22 12:27:12.359 32044 32136 E MiuiGallery2_LocationManager: [misc-pool-2] - hasCacheLocation:false
+12-22 12:27:12.360 17867 17895 D MyLog   : -->log(1): [Tid:46] [KeepAliveManager] -->onProcessDied(), pid=7271, uid=10113
+12-22 12:27:12.367  1251  2215 I SDM     : HWCDisplay::SetActiveConfigWithConstraints: config: 1, WxH 1080x2400, fps 120
+12-22 12:27:12.368  1251  2215 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 831000000
+12-22 12:27:12.368  1251  2215 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2400-0 for Peripheral
+12-22 12:27:12.369  1251  2215 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 0 to 1
+12-22 12:27:12.369  1251  2215 I SDM     : HWCDisplay::SubmitDisplayConfig: Active WxH 1080x2400 fps 120
+12-22 12:27:12.369  4496  4660 D PeopleSpaceWidgetMgr: Sbn doesn't contain valid PeopleTileKey: null/0/com.miui.screenshot
+12-22 12:27:12.370  1251  2448 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+12-22 12:27:12.371  2475  3650 I MiuiNetworkPolicyTrafficLimit: updateWhiteListUidForMobileTraffic uid=10113,add=false
+12-22 12:27:12.371  2027  2096 I libcitsensorservice@2.0-impl: msg_transfer
+12-22 12:27:12.371  1251  1467 I SDM     : HWDeviceDRM::SetupAtomic: Setting mode: WxH: 1080x2400, vrefresh: 120, hskew: 0
+12-22 12:27:12.371  2027  3266 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:10 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+12-22 12:27:12.371  2475  3650 D MiuiNetworkPolicyTrafficLimit: updateWhiteListUidForMobileTraffic rst=true
+12-22 12:27:12.371  1251  2215 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+12-22 12:27:12.372  6171 21901 I tycenter.remot: oneway function results for code 4 on binder at 0xb400007a4cbd8000 will be dropped but finished with status UNKNOWN_TRANSACTION
+12-22 12:27:12.374  2027  3267 I libsensor-displayalgo: displayInfoCallback::display info won't handle!!!
+12-22 12:27:12.374  1328  2240 D FPSMonitor: threadFuncFpsMonitor display 0, fps 120
+12-22 12:27:12.376  1251  7498 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+12-22 12:27:12.381  2027  3285 D libsensor-displayalgo: the value of  brightness:393.000000,R:48683337.871526,G:48099975.259693,B:44688167.032088,EVENT_C:3473.000000,EVENT_R:1531.000000,EVENT_G:1828.500000,EVENT_B:776.000000
+12-22 12:27:12.382  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 12:27:12.382  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 12:27:12.382  2027  3285 I libsensor-displayalgo: the value of  RESULT2108.484502,830.576216,1047.828545,372.370509
+12-22 12:27:12.382  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2202.666697,769.902649,1211.566679,403.493044
+12-22 12:27:12.382  2027  3285 I libsensor-displayalgo: the value of  REAL LUX58.768131
+12-22 12:27:12.382  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX58.768131
+12-22 12:27:12.383  5561 25699 D MediaProvider: Open with FUSE. FilePath: /storage/emulated/0/DCIM/Screenshots/Screenshot_2022-12-22-12-27-00-307_com.miui.thirdappassistant.jpg. Uid: 10221. Media Capabilities Uid: 0. ShouldRedact: false. ShouldTranscode: false
+12-22 12:27:12.386 32044 32120 E XmExifInterface: parse xm thumbnail error
+12-22 12:27:12.390  5561  5583 W MediaProvider: Failed to fetch original file descriptor
+12-22 12:27:12.390  5561  5583 W MediaProvider: java.io.FileNotFoundException: Input file descriptor is already original
+12-22 12:27:12.390  5561  5583 W MediaProvider: 	at com.android.providers.media.MediaProvider.getOriginalMediaFormatFileDescriptor(MediaProvider.java:5891)
+12-22 12:27:12.390  5561  5583 W MediaProvider: 	at com.android.providers.media.MediaProvider.openTypedAssetFileCommon(MediaProvider.java:7319)
+12-22 12:27:12.390  5561  5583 W MediaProvider: 	at com.android.providers.media.MediaProvider.openTypedAssetFile(MediaProvider.java:7300)
+12-22 12:27:12.390  5561  5583 W MediaProvider: 	at android.content.ContentProvider$Transport.openTypedAssetFile(ContentProvider.java:553)
+12-22 12:27:12.390  5561  5583 W MediaProvider: 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:327)
+12-22 12:27:12.390  5561  5583 W MediaProvider: 	at android.os.Binder.execTransactInternal(Binder.java:1185)
+12-22 12:27:12.390  5561  5583 W MediaProvider: 	at android.os.Binder.execTransact(Binder.java:1149)
+12-22 12:27:12.390  5561 25699 D MediaProvider: Open with FUSE. FilePath: /storage/emulated/0/DCIM/Screenshots/Screenshot_2022-12-22-12-27-00-307_com.miui.thirdappassistant.jpg. Uid: 10221. Media Capabilities Uid: 0. ShouldRedact: false. ShouldTranscode: false
+12-22 12:27:12.402 32044 13600 E MiuiGallery2_SyncUtil: [eventual-scan-3] - isGalleryCloudSyncable false
+12-22 12:27:12.403 32044 13600 W SQLiteLog: (28) double-quoted string literal: "DCIM/Screenshots"
+12-22 12:27:12.405 32044 32119 E XmExifInterface: parse xm thumbnail error
+12-22 12:27:12.407  6547  6588 I appium  : AppiumResponse: {"sessionId":"f6b797fb-d416-4e5a-8eb3-0d6651418eeb","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:920)\n"}}
+12-22 12:27:12.413  1251  7498 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+12-22 12:27:12.414  1251  7498 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+12-22 12:27:12.414  1251  7498 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+12-22 12:27:12.414  1251  7498 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+12-22 12:27:12.416 20304 20444 D IdProviderImpl: getOAID from com.miui.analytics
+12-22 12:27:12.420  1251  1467 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+12-22 12:27:12.426  1251  7507 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+12-22 12:27:12.427  1251  7507 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+12-22 12:27:12.427  1251  7507 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+12-22 12:27:12.510  2475  2981 W InputManager-JNI: Input channel object 'ef1673f ScreenshotAnimation (client)' was disposed without first being removed with the input manager!
+12-22 12:27:12.548  2475  2981 I SmartPower.com.miui.screenshot/10113(7271): visible->invisible(12207ms) R(become invisible) adj=905.
+12-22 12:27:12.549  2475  2981 I SmartPower.com.miui.screenshot/10113(7271): invisible->background(1ms) R(become background) adj=905.
+12-22 12:27:12.549  2475  3758 I SmartPower: com.miui.screenshot/10113 state=foreground adj=905 proc size=1 move to inactive become invisible
+12-22 12:27:12.554  7271  7271 I GlobalScreenshot: release screenshot bitmap
+12-22 12:27:12.683  2027  3285 D libsensor-displayalgo: the value of  brightness:393.000000,R:46967049.270905,G:46386272.655177,B:43094623.277676,EVENT_C:3450.500000,EVENT_R:1522.000000,EVENT_G:1817.000000,EVENT_B:771.000000
+12-22 12:27:12.683  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 12:27:12.683  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 12:27:12.683  2027  3285 I libsensor-displayalgo: the value of  RESULT2056.671013,809.714319,1023.730839,362.731537
+12-22 12:27:12.684  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2148.538793,750.564713,1183.703363,393.048452
+12-22 12:27:12.684  2027  3285 I libsensor-displayalgo: the value of  REAL LUX60.912735
+12-22 12:27:12.684  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX60.912735
+12-22 12:27:12.703  1251  2448 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+12-22 12:27:12.703  2027  2096 I libcitsensorservice@2.0-impl: msg_transfer
+12-22 12:27:12.703  2027  3266 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:10 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+12-22 12:27:12.704  1251  2215 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+12-22 12:27:12.704  1251  7508 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+12-22 12:27:12.710  1251  2448 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+12-22 12:27:12.711  2027  2096 I libcitsensorservice@2.0-impl: msg_transfer
+12-22 12:27:12.711  1251  7508 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+12-22 12:27:12.711  1251  7508 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+12-22 12:27:12.712  1251  7508 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+12-22 12:27:12.712  1251  7508 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+12-22 12:27:12.716  1251  1467 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+12-22 12:27:12.722  1251  7511 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+12-22 12:27:12.723  1251  7511 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+12-22 12:27:12.723  1251  7511 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+12-22 12:27:12.924  6547  6588 I appium  : channel read: POST /wd/hub/session/f6b797fb-d416-4e5a-8eb3-0d6651418eeb/element
+12-22 12:27:12.925  6547  6588 I appium  : FindElement command
+12-22 12:27:12.928  6547  6588 I appium  : method: 'id', selector: 'cn.missevan:id/all_episodes'
+12-22 12:27:12.929  6547  6588 I appium  : Waiting up to 100ms for the device to idle
+12-22 12:27:12.986  2027  3285 D libsensor-displayalgo: the value of  brightness:393.000000,R:49265920.314967,G:48706179.588531,B:45266231.422300,EVENT_C:3470.500000,EVENT_R:1530.500000,EVENT_G:1827.000000,EVENT_B:777.000000
+12-22 12:27:12.986  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 12:27:12.986  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 12:27:12.987  2027  3285 I libsensor-displayalgo: the value of  RESULT2126.483334,837.714648,1056.267259,375.764075
+12-22 12:27:12.987  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2221.469504,776.519618,1221.324063,407.170243
+12-22 12:27:12.987  2027  3285 I libsensor-displayalgo: the value of  REAL LUX57.238293
+12-22 12:27:12.988  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX57.238293
+12-22 12:27:13.122  6547  6588 W QueryController: Could not detect idle state.
+12-22 12:27:13.224  6206  7013 D UidObserver: onUidIdle uid=10238 uidstate=100
+12-22 12:27:13.284  2027  3285 D libsensor-displayalgo: the value of  brightness:393.000000,R:49265920.314967,G:48706179.588531,B:45266231.422300,EVENT_C:3470.500000,EVENT_R:1530.500000,EVENT_G:1827.000000,EVENT_B:777.000000
+12-22 12:27:13.284  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 12:27:13.284  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 12:27:13.284  2027  3285 I libsensor-displayalgo: the value of  RESULT2126.483334,837.714648,1056.267259,375.764075
+12-22 12:27:13.284  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2221.469504,776.519618,1221.324063,407.170243
+12-22 12:27:13.284  2027  3285 I libsensor-displayalgo: the value of  REAL LUX57.238293
+12-22 12:27:13.284  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX57.238293
+12-22 12:27:13.284  6547  6588 I appium  : AppiumResponse: {"sessionId":"f6b797fb-d416-4e5a-8eb3-0d6651418eeb","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:920)\n"}}
+12-22 12:27:13.586  2027  3285 D libsensor-displayalgo: the value of  brightness:393.000000,R:49265920.314967,G:48706179.588531,B:45266231.422300,EVENT_C:3470.500000,EVENT_R:1530.500000,EVENT_G:1827.000000,EVENT_B:777.000000
+12-22 12:27:13.586  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 12:27:13.586  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 12:27:13.587  2027  3285 I libsensor-displayalgo: the value of  RESULT2126.483334,837.714648,1056.267259,375.764075
+12-22 12:27:13.587  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2221.469504,776.519618,1221.324063,407.170243
+12-22 12:27:13.587  2027  3285 I libsensor-displayalgo: the value of  REAL LUX57.238293
+12-22 12:27:13.587  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX57.238293
+12-22 12:27:13.604  1251  2215 I SDM     : HWCDisplay::SetActiveConfigWithConstraints: config: 0, WxH 1080x2400, fps 60
+12-22 12:27:13.605  1251  2215 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 831000000
+12-22 12:27:13.605  1251  2215 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2400-0 for Peripheral
+12-22 12:27:13.606  1251  2215 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 1 to 0
+12-22 12:27:13.606  1251  2215 I SDM     : HWCDisplay::SubmitDisplayConfig: Active WxH 1080x2400 fps 60
+12-22 12:27:13.608  1251  2448 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+12-22 12:27:13.608  1251  1467 I SDM     : HWDeviceDRM::SetupAtomic: Setting mode: WxH: 1080x2400, vrefresh: 60, hskew: 0
+12-22 12:27:13.609  2027  4130 I libcitsensorservice@2.0-impl: msg_transfer
+12-22 12:27:13.609  2027  3266 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:10 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+12-22 12:27:13.610  1251  2215 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+12-22 12:27:13.610  1251  7514 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+12-22 12:27:13.614  1328  2240 D FPSMonitor: threadFuncFpsMonitor display 0, fps 60
+12-22 12:27:13.614  2027  3267 I libsensor-displayalgo: displayInfoCallback::display info won't handle!!!
+12-22 12:27:13.643  1251  7514 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+12-22 12:27:13.643  1251  7514 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+12-22 12:27:13.644  1251  7514 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+12-22 12:27:13.644  1251  7514 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+12-22 12:27:13.658  1251  7515 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+12-22 12:27:13.659  1251  1467 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+12-22 12:27:13.659  1251  7515 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+12-22 12:27:13.659  1251  7515 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+12-22 12:27:13.833  6547  6588 I appium  : channel read: GET /wd/hub/session/f6b797fb-d416-4e5a-8eb3-0d6651418eeb/screenshot
+12-22 12:27:13.837  6547  6588 I appium  : CaptureScreenshot command
+12-22 12:27:13.925  2475  3040 I BatteryService: current mPlugType2current mHealthInfo.batteryLevel26current mHealthInfo.batteryTemperature354
+12-22 12:27:13.929  6206  7182 D ThermalIECHandler: storeDataStyle: thermal_iec_monitor_persistence_data_style_iec_state; startIECTime: -1; IECScreenOffOverPeriodTime: 1410825231
+12-22 12:27:13.930  6171  6171 I BatteryInfoReceiver: ACTION_BATTERY_CHANGED
+12-22 12:27:13.930  6206  6950 D PowerKeeper.FrozenApp: onBatteryChanged plug=true mBatteryPlugged=2
+12-22 12:27:13.930  6206  7099 D PowerCheckerService: onBatteryChanged, mBatteryLevel = 26, status = 2, level = 26, plug = 2, scale = 100
+12-22 12:27:13.931  6206  7192 D PowerKeeper.Thermal: mBatteryTemperature: 35
+12-22 12:27:13.932  6171  6171 I PowerNoticeUI: handleBatteryChanged oldPlugType 2 mPlugType 2 oldBatteryLevel 26 mBatteryLevel 26 temperature 354
+12-22 12:27:13.932  4409  4409 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 1
+12-22 12:27:13.934  9660  9660 D DynamicService:  ACTION_BATTERY_CHANGED change,USB plug = 2
+12-22 12:27:13.935  2475  2688 I android_os_HwBinder: HwBinder: Starting thread pool for getting: vendor.xiaomi.hardware.micharge@1.0::IMiCharge/default
+12-22 12:27:13.935  1344 28451 E vendor.xiaomi.hardware.micharge@1.0-service: Failed to open node /sys/class/qcom-battery/reverse_chg_mode
+12-22 12:27:13.935  1344 28451 I vendor.xiaomi.hardware.micharge@1.0-service: ReadFilePathValue path = /sys/class/qcom-battery/reverse_chg_mode value =
+12-22 12:27:13.938  2475  2688 I android_os_HwBinder: HwBinder: Starting thread pool for getting: vendor.xiaomi.hardware.micharge@1.0::IMiCharge/default
+12-22 12:27:13.938  1344 28451 I vendor.xiaomi.hardware.micharge@1.0-service: ReadFilePathValue path = /sys/class/qcom-battery/fastchg_mode value = 0
+12-22 12:27:13.939  4453  4453 V DeviceStatisticsService: chargerType=2 batteryLevel=26 totalBatteryCapacity=4215300
+12-22 12:27:13.982  2027  3285 D libsensor-displayalgo: the value of  brightness:393.000000,R:49265920.314967,G:48706179.588531,B:45266231.422300,EVENT_C:3465.000000,EVENT_R:1527.500000,EVENT_G:1825.000000,EVENT_B:776.000000
+12-22 12:27:13.982  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 12:27:13.982  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 12:27:13.983  2027  3285 I libsensor-displayalgo: the value of  RESULT2126.483334,837.714648,1056.267259,375.764075
+12-22 12:27:13.983  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2221.469504,776.519618,1221.324063,407.170243
+12-22 12:27:13.983  2027  3285 I libsensor-displayalgo: the value of  REAL LUX56.953461
+12-22 12:27:13.983  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX56.953461
+12-22 12:27:14.117 23436 23436 W esthd-24809: type=1400 audit(0.0:121462): avc: granted { nlmsg_readpriv } for scontext=u:r:untrusted_app_27:s0:c512,c768 tcontext=u:r:untrusted_app_27:s0:c512,c768 tclass=netlink_route_socket app=com.xunmeng.pinduoduo
+12-22 12:27:14.129 23436 23436 W esthd-24809: type=1400 audit(0.0:121463): avc: denied { read } for name="drivers" dev="proc" ino=4026531852 scontext=u:r:untrusted_app_27:s0:c512,c768 tcontext=u:object_r:proc_tty_drivers:s0 tclass=file permissive=0 app=com.xunmeng.pinduoduo
+12-22 12:27:14.133 23436 23436 W esthd-24809: type=1400 audit(0.0:121464): avc: denied { read } for name="tcp" dev="proc" ino=4026532037 scontext=u:r:untrusted_app_27:s0:c512,c768 tcontext=u:object_r:proc_net_tcp_udp:s0 tclass=file permissive=0 app=com.xunmeng.pinduoduo
+12-22 12:27:14.283  2027  3285 D libsensor-displayalgo: the value of  brightness:393.000000,R:49265920.314967,G:48706179.588531,B:45266231.422300,EVENT_C:3465.000000,EVENT_R:1527.500000,EVENT_G:1825.000000,EVENT_B:776.000000
+12-22 12:27:14.284  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 12:27:14.284  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 12:27:14.285  2027  3285 I libsensor-displayalgo: the value of  RESULT2126.483334,837.714648,1056.267259,375.764075
+12-22 12:27:14.285  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2221.469504,776.519618,1221.324063,407.170243
+12-22 12:27:14.285  2027  3285 I libsensor-displayalgo: the value of  REAL LUX56.953461
+12-22 12:27:14.285  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX56.953461
+12-22 12:27:14.384  2475  3650 D MiuiNetworkPolicy: updateLimit mLimitEnabled=true,enabled=false,mNetworkPriorityMode=1
+12-22 12:27:14.541 23436 23436 W esthd-24810: type=1400 audit(0.0:121465): avc: granted { nlmsg_readpriv } for scontext=u:r:untrusted_app_27:s0:c512,c768 tcontext=u:r:untrusted_app_27:s0:c512,c768 tclass=netlink_route_socket app=com.xunmeng.pinduoduo
+12-22 12:27:14.582  2027  3285 D libsensor-displayalgo: the value of  brightness:393.000000,R:49265920.314967,G:48706179.588531,B:45266231.422300,EVENT_C:3465.000000,EVENT_R:1527.500000,EVENT_G:1825.000000,EVENT_B:776.000000
+12-22 12:27:14.582  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 12:27:14.582  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 12:27:14.583  2027  3285 I libsensor-displayalgo: the value of  RESULT2126.483334,837.714648,1056.267259,375.764075
+12-22 12:27:14.583  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2221.469504,776.519618,1221.324063,407.170243
+12-22 12:27:14.583  2027  3285 I libsensor-displayalgo: the value of  REAL LUX56.953461
+12-22 12:27:14.583  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX56.953461
+12-22 12:27:14.883  2027  3285 D libsensor-displayalgo: the value of  brightness:393.000000,R:49265920.314967,G:48706179.588531,B:45266231.422300,EVENT_C:3479.000000,EVENT_R:1533.000000,EVENT_G:1832.500000,EVENT_B:778.000000
+12-22 12:27:14.884  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 12:27:14.884  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 12:27:14.884  2027  3285 I libsensor-displayalgo: the value of  RESULT2126.483334,837.714648,1056.267259,375.764075
+12-22 12:27:14.884  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2221.469504,776.519618,1221.324063,407.170243
+12-22 12:27:14.884  2027  3285 I libsensor-displayalgo: the value of  REAL LUX57.912941
+12-22 12:27:14.884  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX57.912941
+12-22 12:27:15.104 19413 19872 I SmartThreadExecutor: handleMessage: start check 0
+12-22 12:27:15.104 19413 19872 I SmartThreadExecutor: handleMessage: check end 0 -100 false
+12-22 12:27:15.183  2027  3285 D libsensor-displayalgo: the value of  brightness:393.000000,R:49265920.314967,G:48706179.588531,B:45266231.422300,EVENT_C:3491.000000,EVENT_R:1534.500000,EVENT_G:1837.000000,EVENT_B:780.000000
+12-22 12:27:15.183  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 12:27:15.183  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 12:27:15.184  2027  3285 I libsensor-displayalgo: the value of  RESULT2126.483334,837.714648,1056.267259,375.764075
+12-22 12:27:15.184  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2221.469504,776.519618,1221.324063,407.170243
+12-22 12:27:15.184  2027  3285 I libsensor-displayalgo: the value of  REAL LUX58.745567
+12-22 12:27:15.184  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX58.745567
+12-22 12:27:15.563  6547  6559 I tomator2.serve: This is sticky GC, maxfree is 8388608 minfree is 2097152
+12-22 12:27:15.582  2027  3285 D libsensor-displayalgo: the value of  brightness:393.000000,R:49265920.314967,G:48706179.588531,B:45266231.422300,EVENT_C:3480.500000,EVENT_R:1531.500000,EVENT_G:1830.500000,EVENT_B:777.500000
+12-22 12:27:15.582  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 12:27:15.582  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 12:27:15.582  2027  3285 I libsensor-displayalgo: the value of  RESULT2126.483334,837.714648,1056.267259,375.764075
+12-22 12:27:15.582  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2221.469504,776.519618,1221.324063,407.170243
+12-22 12:27:15.582  2027  3285 I libsensor-displayalgo: the value of  REAL LUX58.024971
+12-22 12:27:15.582  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX58.024971
+12-22 12:27:15.608  6547  6559 I tomator2.serve: This is non sticky GC, maxfree is 8388608 minfree is 2097152
+12-22 12:27:15.663  6547  6559 I tomator2.serve: This is sticky GC, maxfree is 8388608 minfree is 2097152
+12-22 12:27:15.678  6547  6588 I appium  : AppiumResponse: {"sessionId":"f6b797fb-d416-4e5a-8eb3-0d6651418eeb","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAAlgCAYAAABtGofVAAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHicVL3Zrm1Jlqb1mdm02a5mn+MeSVYCxVtxgygJgRCik7jjBimfigfgkosC\nkWSJqKzMSI/wCHc/3V5rzd5aLobN6Z4hueTneOy9ZmM27B9/M5b63/+P/yfHrOiamhg9MYKta3a/\noZJiG…
+12-22 12:27:15.694  6547  6559 I tomator2.serve: This is non sticky GC, maxfree is 8388608 minfree is 2097152
+12-22 12:27:15.732  2475  2688 W ActivityManager: Unable to start service Intent { cmp=com.miui.powerkeeper/.perfshielder.PerfShielderStatisticsService } U=0: not found
+12-22 12:27:15.884  2027  3285 D libsensor-displayalgo: the value of  brightness:393.000000,R:49265920.314967,G:48706179.588531,B:45266231.422300,EVENT_C:3518.500000,EVENT_R:1545.500000,EVENT_G:1850.000000,EVENT_B:784.000000
+12-22 12:27:15.885  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 12:27:15.885  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 12:27:15.886  2027  3285 I libsensor-displayalgo: the value of  RESULT2126.483334,837.714648,1056.267259,375.764075
+12-22 12:27:15.886  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2221.469504,776.519618,1221.324063,407.170243
+12-22 12:27:15.886  2027  3285 I libsensor-displayalgo: the value of  REAL LUX60.538208
+12-22 12:27:15.886  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX60.538208
+12-22 12:27:15.971  6206  7013 D UidObserver: onUidIdle uid=10203 uidstate=100
+12-22 12:27:16.057  5773  8966 D SLM-SRV-SLAService: checktemp temperature = 35777 temperature_average = 36200 isPerformanceMode = false thermal_enable_slm = true

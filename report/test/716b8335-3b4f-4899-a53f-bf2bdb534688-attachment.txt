@@ -1,0 +1,1391 @@
+06-08 18:22:20.804  1977  2997 D libsensor-displayalgo: the value of  brightness:400.000000,R:18781811.588660,G:16635044.097718,B:32526411.313589,EVENT_C:4370.500000,EVENT_R:1764.500000,EVENT_G:2146.000000,EVENT_B:874.500000
+06-08 18:22:20.804  1977  2997 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-08 18:22:20.804  1977  2997 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-08 18:22:20.804  1977  2997 I libsensor-displayalgo: the value of  RESULT1080.727947,418.371065,540.108701,198.051462
+06-08 18:22:20.804  1977  2997 I libsensor-displayalgo: the value of  getChannelDataCalibrated1129.329349,387.685844,624.958035,214.665414
+06-08 18:22:20.804  1977  2997 I libsensor-displayalgo: the value of  REAL LUX192.441666
+06-08 18:22:20.804  1977  2997 I libsensor-displayalgo: the value of  CAL REAL LUX192.441666
+06-08 18:22:20.809  1245  2285 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+06-08 18:22:20.810  1977  1977 I libcitsensorservice@2.0-impl: msg_transfer
+06-08 18:22:20.810  1977  2987 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:8 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+06-08 18:22:20.810  1245  1846 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+06-08 18:22:20.813  1245 31518 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+06-08 18:22:20.820  1245 31518 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+06-08 18:22:20.820  1245 31518 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+06-08 18:22:20.821  1245 31518 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+06-08 18:22:20.821  1245 31518 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+06-08 18:22:20.825  1245  1464 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+06-08 18:22:20.833  1245 31520 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+06-08 18:22:20.833  1245 31520 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+06-08 18:22:20.833  1245 31520 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+06-08 18:22:20.868  6952 31243 I SafeBinderCall: onPositionChange binder cost:2
+06-08 18:22:20.868  4164  4164 D MiPlayDetailViewModel: onPositionChange(): position = 32474
+06-08 18:22:21.105  1977  2997 D libsensor-displayalgo: the value of  brightness:400.000000,R:18781811.588660,G:16635044.097718,B:32526411.313589,EVENT_C:4368.000000,EVENT_R:1766.000000,EVENT_G:2145.000000,EVENT_B:875.000000
+06-08 18:22:21.106  1977  2997 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-08 18:22:21.106  1977  2997 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-08 18:22:21.106  1977  2997 I libsensor-displayalgo: the value of  RESULT1080.727947,418.371065,540.108701,198.051462
+06-08 18:22:21.106  1977  2997 I libsensor-displayalgo: the value of  getChannelDataCalibrated1129.329349,387.685844,624.958035,214.665414
+06-08 18:22:21.106  1977  2997 I libsensor-displayalgo: the value of  REAL LUX192.122559
+06-08 18:22:21.106  1977  2997 I libsensor-displayalgo: the value of  CAL REAL LUX192.122559
+06-08 18:22:21.113  1245  2285 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+06-08 18:22:21.114  1977  1977 I libcitsensorservice@2.0-impl: msg_transfer
+06-08 18:22:21.114  1977  2987 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:8 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+06-08 18:22:21.115  1245  1846 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+06-08 18:22:21.116  1245 31530 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+06-08 18:22:21.131  1245 31530 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+06-08 18:22:21.131  1245 31530 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+06-08 18:22:21.131  1245 31530 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+06-08 18:22:21.131  1245 31530 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+06-08 18:22:21.138 29468 29501 I appium  : channel read: POST /wd/hub/session/cfd318ce-f210-4e8c-9683-1cb7f91149d1/element
+06-08 18:22:21.139  1245  1464 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+06-08 18:22:21.139 29468 29501 I appium  : FindElement command
+06-08 18:22:21.140 29468 29501 I appium  : method: 'id', selector: 'cn.missevan:id/all_episodes'
+06-08 18:22:21.140 29468 29501 I appium  : Waiting up to 100ms for the device to idle
+06-08 18:22:21.144  1245 31531 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+06-08 18:22:21.144  1245 31531 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+06-08 18:22:21.145  1245 31531 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+06-08 18:22:21.245 29468 29501 W QueryController: Could not detect idle state.
+06-08 18:22:21.269 29468 29501 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@307113; boundsInParent: Rect(0, 0 - 1080, 956); boundsInScreen: Rect(0, 220 - 1080, 1176); packageName: cn.missevan; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; viewIdResName: cn.missevan:id/danmakuView; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: true; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+06-08 18:22:21.269 29468 29501 W ByMatcher: Skipping null child (1 of 2)
+06-08 18:22:21.328 29468 29501 I appium  : AppiumResponse: {"sessionId":"cfd318ce-f210-4e8c-9683-1cb7f91149d1","value":{"ELEMENT":"00000000-0000-020b-ffff-ffff00000d5b","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-020b-ffff-ffff00000d5b"}}
+06-08 18:22:21.342 29468 29501 I appium  : channel read: POST /wd/hub/session/cfd318ce-f210-4e8c-9683-1cb7f91149d1/element/00000000-0000-020b-ffff-ffff00000d5b/click
+06-08 18:22:21.343 29468 29501 I appium  : Click command
+06-08 18:22:21.405  1977  2997 D libsensor-displayalgo: the value of  brightness:400.000000,R:18781811.588660,G:16635044.097718,B:32526411.313589,EVENT_C:4432.500000,EVENT_R:1785.500000,EVENT_G:2182.500000,EVENT_B:892.500000
+06-08 18:22:21.405  1977  2997 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-08 18:22:21.405  1977  2997 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-08 18:22:21.406  1977  2997 I libsensor-displayalgo: the value of  RESULT1080.727947,418.371065,540.108701,198.051462
+06-08 18:22:21.406  1977  2997 I libsensor-displayalgo: the value of  getChannelDataCalibrated1129.329349,387.685844,624.958035,214.665414
+06-08 18:22:21.406  1977  2997 I libsensor-displayalgo: the value of  REAL LUX196.224060
+06-08 18:22:21.406  1977  2997 I libsensor-displayalgo: the value of  CAL REAL LUX196.224060
+06-08 18:22:21.420  1245  2285 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+06-08 18:22:21.420  1977  2106 I libcitsensorservice@2.0-impl: msg_transfer
+06-08 18:22:21.421  1977  2987 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:8 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+06-08 18:22:21.421  1245  1846 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+06-08 18:22:21.423  1245 31532 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+06-08 18:22:21.431  1245 31532 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+06-08 18:22:21.432  1245 31532 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+06-08 18:22:21.433  1245 31532 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+06-08 18:22:21.433  1245 31532 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+06-08 18:22:21.435  1245  1464 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+06-08 18:22:21.443  1245 31533 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+06-08 18:22:21.444  1245 31533 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+06-08 18:22:21.444  1245 31533 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+06-08 18:22:21.451 29468 29501 W QueryController: Could not detect idle state.
+06-08 18:22:21.656 29468 29501 W QueryController: Could not detect idle state.
+06-08 18:22:21.676  2403  4239 W ProcessStats: Tracking association SourceState{40e24a5 com.miui.powerkeeper/1000 BTopFgs #856462} whose proc state 2 is better than process ProcessState{c42da2b com.miui.analytics/10089 pkg=com.miui.analytics} proc state 3 (8 skipped)
+06-08 18:22:21.681  2403  4016 D MIUIInput: Input event injection from pid 29447, MotionEvent: DOWN
+06-08 18:22:21.682  2403  2910 D MIUIInput: [MotionEvent] publisher action=0x4, 2077965121, channel '9ede85b NavigationBar0 (server)'
+06-08 18:22:21.682  2403  2910 D MIUIInput: [MotionEvent] publisher action=0x0, 2077965121, channel 'b941ad3 cn.missevan/cn.missevan.activity.MainActivity (server)'
+06-08 18:22:21.683  1379  2271 D RefreshRateConfigs: TouchBoost - choose 120.00fps
+06-08 18:22:21.683 29523 29523 D MIUIInput: [MotionEvent] ViewRootImpl windowName 'cn.missevan/cn.missevan.activity.MainActivity', { action=ACTION_DOWN, id[0]=0, pointerCount=1, eventTime=2077965121, downTime=2077965120, phoneEventTime=18:22:21.664 } moveCount:0
+06-08 18:22:21.688  2403  4016 D MIUIInput: Input event injection from pid 29447, MotionEvent: UP
+06-08 18:22:21.689  2403  2910 D MIUIInput: [MotionEvent] publisher action=0x1, 2077965121, channel 'b941ad3 cn.missevan/cn.missevan.activity.MainActivity (server)'
+06-08 18:22:21.690 29523 29523 D MIUIInput: [MotionEvent] ViewRootImpl windowName 'cn.missevan/cn.missevan.activity.MainActivity', { action=ACTION_UP, id[0]=0, pointerCount=1, eventTime=2077965121, downTime=2077965120, phoneEventTime=18:22:21.664 } moveCount:0
+06-08 18:22:21.700 29523 29523 D IS_CTS_MODE: true
+06-08 18:22:21.700 29523 29523 D MULTI_WINDOW_SWITCH_ENABLED: false
+06-08 18:22:21.704  1977  2997 D libsensor-displayalgo: the value of  brightness:400.000000,R:18781811.588660,G:16635044.097718,B:32526411.313589,EVENT_C:4382.500000,EVENT_R:1770.500000,EVENT_G:2153.500000,EVENT_B:878.000000
+06-08 18:22:21.704  1977  2997 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-08 18:22:21.704  1977  2997 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-08 18:22:21.705  1977  2997 I libsensor-displayalgo: the value of  RESULT1080.727947,418.371065,540.108701,198.051462
+06-08 18:22:21.705  1977  2997 I libsensor-displayalgo: the value of  getChannelDataCalibrated1129.329349,387.685844,624.958035,214.665414
+06-08 18:22:21.705  1977  2997 I libsensor-displayalgo: the value of  REAL LUX193.119263
+06-08 18:22:21.705  1977  2997 I libsensor-displayalgo: the value of  CAL REAL LUX193.119263
+06-08 18:22:21.705 29523 29523 D DecorView[]: updateDecorCaptionStatus displayWindowDecor is false
+06-08 18:22:21.707 29468 29501 I appium  : Waiting up to 100ms for the device to idle
+06-08 18:22:21.723  1245  2285 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+06-08 18:22:21.723  1977  1977 I libcitsensorservice@2.0-impl: msg_transfer
+06-08 18:22:21.724  1977  2987 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:8 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+06-08 18:22:21.724  1245  1846 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+06-08 18:22:21.724  1245 31534 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+06-08 18:22:21.732  1245 31534 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+06-08 18:22:21.732  1245 31534 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+06-08 18:22:21.733  1245 31534 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+06-08 18:22:21.733  1245 31534 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+06-08 18:22:21.740  1245  1464 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+06-08 18:22:21.741  2403  4239 I WindowManagerService: Physical orientation applied, rotation=0 sfOrientation=ORIENTATION_0
+06-08 18:22:21.747  1245 31535 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+06-08 18:22:21.748  1245 31535 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+06-08 18:22:21.748  1245 31535 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+06-08 18:22:21.787 29523 29523 D DecorView[MainActivity]: onWindowFocusChanged hasWindowFocus false
+06-08 18:22:21.806 29523 30301 D BLASTBufferQueue: releaseBufferCallback ReleaseCallbackId: bufferId:126800319480050 framenumber:1
+06-08 18:22:21.814 29523 29523 D DecorView[]: onWindowFocusChanged hasWindowFocus true
+06-08 18:22:21.814 29523 29523 I HandWritingStubImpl: refreshLastKeyboardType: 1
+06-08 18:22:21.815 29523 29523 I HandWritingStubImpl: getCurrentKeyboardType: 1
+06-08 18:22:21.826 29523 29523 I HandWritingStubImpl: isKeyboardTypeChanged: false
+06-08 18:22:21.827  7825  7825 E BaseInputMethodService: onFinishInput
+06-08 18:22:21.827  7825  7825 E BaseInputMethodService: onStartInput
+06-08 18:22:21.867  6952 31243 I SafeBinderCall: onPositionChange binder cost:1
+06-08 18:22:21.867  4164  4164 D MiPlayDetailViewModel: onPositionChange(): position = 33474
+06-08 18:22:21.875 29468 29501 W QueryController: Could not detect idle state.
+06-08 18:22:21.877 29468 29501 I appium  : AppiumResponse: {"sessionId":"cfd318ce-f210-4e8c-9683-1cb7f91149d1","value":null}
+06-08 18:22:21.895 29468 29501 I appium  : channel read: POST /wd/hub/session/cfd318ce-f210-4e8c-9683-1cb7f91149d1/element
+06-08 18:22:21.895 29468 29501 I appium  : FindElement command
+06-08 18:22:21.896 29468 29501 I appium  : method: 'id', selector: 'cn.missevan:id/layout'
+06-08 18:22:21.897 29468 29501 I appium  : Waiting up to 100ms for the device to idle
+06-08 18:22:22.006  1977  2997 D libsensor-displayalgo: the value of  brightness:400.000000,R:18781811.588660,G:16635044.097718,B:32526411.313589,EVENT_C:4354.500000,EVENT_R:1764.500000,EVENT_G:2135.500000,EVENT_B:869.000000
+06-08 18:22:22.006  1977  2997 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-08 18:22:22.006  1977  2997 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-08 18:22:22.006  1977  2997 I libsensor-displayalgo: the value of  RESULT1080.727947,418.371065,540.108701,198.051462
+06-08 18:22:22.006  1977  2997 I libsensor-displayalgo: the value of  getChannelDataCalibrated1129.329349,387.685844,624.958035,214.665414
+06-08 18:22:22.006  1977  2997 I libsensor-displayalgo: the value of  REAL LUX191.281479
+06-08 18:22:22.006  1977  2997 I libsensor-displayalgo: the value of  CAL REAL LUX191.281479
+06-08 18:22:22.028  1245  2285 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+06-08 18:22:22.029  1977  1977 I libcitsensorservice@2.0-impl: msg_transfer
+06-08 18:22:22.030  1977  2987 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:8 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+06-08 18:22:22.030  1245  1846 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+06-08 18:22:22.031  1245 31537 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+06-08 18:22:22.040  1245 31537 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+06-08 18:22:22.040  1245 31537 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+06-08 18:22:22.040  1245 31537 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+06-08 18:22:22.040  1245 31537 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+06-08 18:22:22.045  1245  1464 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+06-08 18:22:22.052  1245 31538 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+06-08 18:22:22.052  1245 31538 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+06-08 18:22:22.052  1245 31538 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+06-08 18:22:22.221  5373 30186 W MiuiPerfServiceClient: interceptAndQueuing:29523|cn.missevan|89|83|2077965245495284|Slow handle traversal|2
+06-08 18:22:22.332  1245  2285 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+06-08 18:22:22.333  1977  1977 I libcitsensorservice@2.0-impl: msg_transfer
+06-08 18:22:22.334  1977  2987 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:8 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+06-08 18:22:22.335  1245  1846 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+06-08 18:22:22.336  1245 31539 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+06-08 18:22:22.343  1245 31539 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+06-08 18:22:22.343  1245 31539 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+06-08 18:22:22.344  1245 31539 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+06-08 18:22:22.344  1245 31539 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+06-08 18:22:22.350  1245  1464 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+06-08 18:22:22.356  1245 31540 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+06-08 18:22:22.357  1245 31540 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+06-08 18:22:22.357  1245 31540 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+06-08 18:22:22.371 29468 29501 W QueryController: Could not detect idle state.
+06-08 18:22:22.386 29468 29501 I appium  : AppiumResponse: {"sessionId":"cfd318ce-f210-4e8c-9683-1cb7f91149d1","value":{"ELEMENT":"00000000-0000-0224-ffff-ffff00000f7d","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0224-ffff-ffff00000f7d"}}
+06-08 18:22:22.403  1977  2997 D libsensor-displayalgo: the value of  brightness:400.000000,R:9985268.124722,G:9750670.247830,B:11968995.685125,EVENT_C:3974.000000,EVENT_R:1621.000000,EVENT_G:1944.500000,EVENT_B:796.500000
+06-08 18:22:22.404  1977  2997 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-08 18:22:22.404  1977  2997 E libsensor-displayalgo: RGB_black_white_scenario_0822!
+06-08 18:22:22.404  1977  2997 I libsensor-displayalgo: the value of  RESULT329.261428,129.912320,167.371283,62.660361
+06-08 18:22:22.404  1977  2997 I libsensor-displayalgo: the value of  getChannelDataCalibrated344.068639,120.383965,193.664772,67.916753
+06-08 18:22:22.404  1977  2997 I libsensor-displayalgo: the value of  REAL LUX220.081589
+06-08 18:22:22.404  1977  2997 I libsensor-displayalgo: the value of  CAL REAL LUX220.081589
+06-08 18:22:22.410 29468 29501 I appium  : channel read: POST /wd/hub/session/cfd318ce-f210-4e8c-9683-1cb7f91149d1/element/00000000-0000-0224-ffff-ffff00000f7d/click
+06-08 18:22:22.415 29468 29501 I appium  : Click command
+06-08 18:22:22.439  2403  4016 D MIUIInput: Input event injection from pid 29447, MotionEvent: DOWN
+06-08 18:22:22.440  2403  2910 D MIUIInput: [MotionEvent] publisher action=0x4, 2077965881, channel '9ede85b NavigationBar0 (server)'
+06-08 18:22:22.440  2403  2910 D MIUIInput: [MotionEvent] publisher action=0x0, 2077965881, channel 'c3ed2df cn.missevan/cn.missevan.activity.MainActivity (server)'
+06-08 18:22:22.441 29523 29523 D MIUIInput: [MotionEvent] ViewRootImpl windowName 'cn.missevan/cn.missevan.activity.MainActivity', { action=ACTION_DOWN, id[0]=0, pointerCount=1, eventTime=2077965881, downTime=2077965880, phoneEventTime=18:22:22.425 } moveCount:0
+06-08 18:22:22.451  2403  4016 D MIUIInput: Input event injection from pid 29447, MotionEvent: UP
+06-08 18:22:22.452  2403  2910 D MIUIInput: [MotionEvent] publisher action=0x1, 2077965881, channel 'c3ed2df cn.missevan/cn.missevan.activity.MainActivity (server)'
+06-08 18:22:22.452 29523 29523 D MIUIInput: [MotionEvent] ViewRootImpl windowName 'cn.missevan/cn.missevan.activity.MainActivity', { action=ACTION_UP, id[0]=0, pointerCount=1, eventTime=2077965881, downTime=2077965880, phoneEventTime=18:22:22.425 } moveCount:0
+06-08 18:22:22.460  2403  3919 I MediaFocusControl: abandonAudioFocus() from uid/pid 10462/29685 clientId=android.media.AudioManager@2b470c3cn.missevan.lib.utils.AudioFocusManager@b019d40
+06-08 18:22:22.461 29685 29685 I @@@BBPLOG: Info T2A64C4F8 CPlayMain L367 Set audio track usage: 2
+06-08 18:22:22.472 29468 29501 I appium  : Waiting up to 100ms for the device to idle
+06-08 18:22:22.473 29685 29685 I @@@BBPLOG: Info T2A64C4F8 CDataLog L134 CreateOverview, play total time: 37757
+06-08 18:22:22.473 29468 29501 I appium  : AppiumResponse: {"sessionId":"cfd318ce-f210-4e8c-9683-1cb7f91149d1","value":null}
+06-08 18:22:22.521 29468 29501 I appium  : channel read: POST /wd/hub/session/cfd318ce-f210-4e8c-9683-1cb7f91149d1/appium/device/open_notifications
+06-08 18:22:22.521 29468 29501 I appium  : OpenNotification command
+06-08 18:22:22.591  1371  2214 D AudioTrackShared: tallyUnderrunFrames(772) at uf = 167868, bump mUnderrunCount = 7
+06-08 18:22:22.613 29523 29538 I cn.missevan: This is sticky GC, maxfree is 8388608 minfree is 2097152
+06-08 18:22:22.638  1245  2285 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+06-08 18:22:22.639  1977  1977 I libcitsensorservice@2.0-impl: msg_transfer
+06-08 18:22:22.640  1977  2987 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:8 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+06-08 18:22:22.640  1245  1846 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+06-08 18:22:22.641  1245 31543 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+06-08 18:22:22.648  1245 31543 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+06-08 18:22:22.648  1245 31543 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+06-08 18:22:22.648  1245 31543 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+06-08 18:22:22.649  1245 31543 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+06-08 18:22:22.654  1245  1464 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+06-08 18:22:22.661  1245 31544 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+06-08 18:22:22.661  1245 31544 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+06-08 18:22:22.661  1245 31544 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+06-08 18:22:22.703  1977  2997 D libsensor-displayalgo: the value of  brightness:400.000000,R:18453134.127447,G:18243875.510164,B:18561515.609146,EVENT_C:4449.000000,EVENT_R:1791.000000,EVENT_G:2202.000000,EVENT_B:881.500000
+06-08 18:22:22.703  1977  2997 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-08 18:22:22.703  1977  2997 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-08 18:22:22.704  1977  2997 I libsensor-displayalgo: the value of  RESULT1104.873464,430.414755,561.843370,190.541286
+06-08 18:22:22.704  1977  2997 I libsensor-displayalgo: the value of  getChannelDataCalibrated1154.560713,398.846196,650.107151,206.525231
+06-08 18:22:22.704  1977  2997 I libsensor-displayalgo: the value of  REAL LUX195.796524
+06-08 18:22:22.704  1977  2997 I libsensor-displayalgo: the value of  CAL REAL LUX195.796524
+06-08 18:22:22.726  2403  4016 I WindowManagerService: Physical orientation applied, rotation=0 sfOrientation=ORIENTATION_0
+06-08 18:22:22.740 29468 29501 W QueryController: Could not detect idle state.
+06-08 18:22:22.744 29468 29501 I appium  : Opened Notification
+06-08 18:22:22.746 29523 29542 D BLASTBufferQueue: releaseBufferCallback ReleaseCallbackId: bufferId:126800319480054 framenumber:1
+06-08 18:22:22.752 29468 29501 I appium  : AppiumResponse: {"sessionId":"cfd318ce-f210-4e8c-9683-1cb7f91149d1","value":null}
+06-08 18:22:22.764  4164  4164 D StatusBar: disable<e i a s b h r c s > disable2<q i n >
+06-08 18:22:22.765  4164  4164 D CollapsedStatusBarFragment: adjustDisableFlags: mStatusBarView.getState() = 1 mHideIconsForBouncer = false mWereIconsJustHidden = false, mWakeUpCoordinator.getNotificationsFullyHidden = false, mIsExpanded = false, mBypassController.getBypassEnabled = false, mStatusBarStateController.getState() = 0, mKeyguardStateController.isKeyguardGoingAway() = false, mHeadsUpManager.hasPinnedHeadsUp = false, mIsLaunchAnimationRunning = false, mHideIconsDuringLaunchAnimation = true, isFullWidth()true, mShowIconsWhenExpanded = true, mControlPanelExpand = false
+06-08 18:22:22.765  4164  4164 D QS      : setListening true
+06-08 18:22:22.765  4164  4164 D QS      : setListening true
+06-08 18:22:22.765  4164  4164 V PanelView:  updateDismissView true
+06-08 18:22:22.774  4164  4389 I BoostHelper: boost: add myTid: 4164
+06-08 18:22:22.775  4164  4389 I BoostHelper: boost: add mRenderThreadTid: 4708
+06-08 18:22:22.775  4164  4389 I BoostHelper: boostThreadLegacy sched thread [4164, 4708] is run,mod=6
+06-08 18:22:22.775  2403  3423 D SchedBoost: startBoostInternal 2000
+06-08 18:22:22.775  2403  3423 D SchedBoost: ready to boost
+06-08 18:22:22.777  2403  3423 D SchedBoost: startBoostInternal 2000
+06-08 18:22:22.777  2403  3423 D SchedBoost: ready to boost
+06-08 18:22:22.778 29468 29501 I appium  : channel read: POST /wd/hub/session/cfd318ce-f210-4e8c-9683-1cb7f91149d1/element
+06-08 18:22:22.778  1262  1454 E ANDR-PERF-OPTSHANDLER: checkAlreadySetCpuset: fopen failed, errno Permission denied, trying pgid as pid to check
+06-08 18:22:22.779 29468 29501 I appium  : FindElement command
+06-08 18:22:22.781 29468 29501 I appium  : method: 'id', selector: 'com.android.systemui:id/header_title'
+06-08 18:22:22.781 29468 29501 I appium  : Waiting up to 100ms for the device to idle
+06-08 18:22:22.783  2403  4648 I WindowManagerService: Physical orientation applied, rotation=0 sfOrientation=ORIENTATION_0
+06-08 18:22:22.822  2403  4016 I WindowManagerService: Physical orientation applied, rotation=0 sfOrientation=ORIENTATION_0
+06-08 18:22:22.826  4164  4164 D StatusBar: disable<e i a s b h r c s > disable2<q i n >
+06-08 18:22:22.826  4164  4164 D CollapsedStatusBarFragment: adjustDisableFlags: mStatusBarView.getState() = 1 mHideIconsForBouncer = false mWereIconsJustHidden = false, mWakeUpCoordinator.getNotificationsFullyHidden = false, mIsExpanded = true, mBypassController.getBypassEnabled = false, mStatusBarStateController.getState() = 0, mKeyguardStateController.isKeyguardGoingAway() = false, mHeadsUpManager.hasPinnedHeadsUp = false, mIsLaunchAnimationRunning = false, mHideIconsDuringLaunchAnimation = true, isFullWidth()true, mShowIconsWhenExpanded = false, mControlPanelExpand = false
+06-08 18:22:22.828  4164  4164 D PanelView: shouldDisableHomeFsg changed to true
+06-08 18:22:22.830  2403  4648 W ActivityManager: Sending non-protected broadcast com.android.systemui.fsgesture from system 4164:com.android.systemui/1000 pkg com.android.systemui. Callers=
+06-08 18:22:22.830  2403  4648 W ActivityManager: Sending non-protected broadcast com.android.systemui.fsgesture from system 4164:com.android.systemui/1000 pkg com.android.systemui. Callers=
+06-08 18:22:22.832  4164  4164 D QS      : setListening true
+06-08 18:22:22.834  1262  1262 W perf-hal-servic: type=1400 audit(0.0:273327): avc: denied { search } for name="1875" dev="proc" ino=73068469 scontext=u:r:vendor_hal_perf_default:s0 tcontext=u:r:miuibooster:s0 tclass=dir permissive=0
+06-08 18:22:22.834  1262  1262 W perf-hal-servic: type=1400 audit(0.0:273328): avc: denied { search } for name="1875" dev="proc" ino=73068469 scontext=u:r:vendor_hal_perf_default:s0 tcontext=u:r:miuibooster:s0 tclass=dir permissive=0
+06-08 18:22:22.836  1875  1898 W MiuiBooster: "MiuiBoosterService requestCpuHighFreq: 1000, 1, 2000"
+06-08 18:22:22.836  1875  1898 W MiuiBooster: "requestCpuHighFreq,final level:1,final timeoutms:2000"
+06-08 18:22:22.836  1875  1898 W MiuiBooster: "perf_hint_hc start"
+06-08 18:22:22.836  1875  1898 W MiuiBooster: "big_core_value[level-1]:4095"
+06-08 18:22:22.836  1875  1898 W MiuiBooster: "little_core_value[level-1]:4095"
+06-08 18:22:22.836  1875  1898 W MiuiBooster: "prime_core_value[level - 1]:4095"
+06-08 18:22:22.846  4164  4164 W RenderThread: type=1400 audit(0.0:273329): avc: denied { read write } for name="metis" dev="tmpfs" ino=1112 scontext=u:r:system_app:s0 tcontext=u:object_r:migt_dev:s0 tclass=chr_file permissive=0
+06-08 18:22:22.837  1875  1898 W MiuiBooster: "perf_handle:780636"
+06-08 18:22:22.837  4164  5025 D MiBridge: requestCpuHighFreq handle: 1
+06-08 18:22:22.837  4164  5025 D CpuBoostUtil: boostCpuToMax:0
+06-08 18:22:22.838  7124  7124 D NavStubView_Touch: onSystemUiFlagsChanged  mIsShowStatusBar    old= true   new=true
+06-08 18:22:22.838  7124  7124 D NavStubView_Touch: onSystemUiFlagsChanged  mIsShowNavBar    old= true   new=true
+06-08 18:22:22.840  4164 31549 W RingtonePlayer: STOP command without a player
+06-08 18:22:22.841  7124  7344 W RecentsImpl: updateFsgWindowVisibilityState   isEnter=true   typeFrom=typefrom_status_bar_expansion   isOpen=true   mIsInAnotherPro=false   mIsStatusBarExpansion=false
+06-08 18:22:22.842  7124  7399 D RecentsImpl: showBackStubWindow  hasNavigationBar=true
+06-08 18:22:22.842  7124  7124 D RecentsImpl: hideNavStubView
+06-08 18:22:22.842  7124  7124 D NavStubView_Touch: setKeepHidden    old=false   new=true
+06-08 18:22:22.842  7124  7124 D NavStubView_Touch: updateTouchable    old=false   new=true
+06-08 18:22:22.842  7124  7124 D NavStubView_Touch:   updateTouchable---requestApplyInsets
+06-08 18:22:22.842  7124  7399 D GestureStubView_Touch: setKeepHidden    old=false   new=false
+06-08 18:22:22.842  7124  7399 W GestureStubView: adaptRotation   currentRotation=0   mRotation=0
+06-08 18:22:22.842  7124  7399 D GestureStubView: resetRenderProperty: showGestureStub   isLayoutParamChanged=false
+06-08 18:22:22.843  7124  7399 D GestureStubView_Touch: disableTouch    old=false   new=false
+06-08 18:22:22.843  7124  7399 D GestureStubView: showGestureStub
+06-08 18:22:22.843  7124  7399 D GestureStubView_Touch: setKeepHidden    old=false   new=false
+06-08 18:22:22.843  7124  7399 W GestureStubView: adaptRotation   currentRotation=0   mRotation=0
+06-08 18:22:22.843  7124  7399 D GestureStubView: resetRenderProperty: showGestureStub   isLayoutParamChanged=false
+06-08 18:22:22.843  7124  7399 D GestureStubView_Touch: disableTouch    old=false   new=false
+06-08 18:22:22.843  7124  7399 D GestureStubView: showGestureStub
+06-08 18:22:22.845  7124  7124 W NavStubView_Touch: onComputeInternalInsets  bounds=Rect(0, 0 - 1080, 68)   mHideGestureLine=false   mIsShowNavBar=true   mKeepHidden=true   mDisableTouch=false   mUseEmptyTouchableRegion=true
+06-08 18:22:22.845  7124  7124 W NavStubView_Touch:   onComputeInternalInsets  empty
+06-08 18:22:22.847  7124  7399 D GestureStubView: gatherTransparentRegion: need render w:54  h:1440
+06-08 18:22:22.847  7124  7399 D GestureStubView: gatherTransparentRegion: need render w:54  h:1440
+06-08 18:22:22.855  2403  4239 I WindowManagerService: Physical orientation applied, rotation=0 sfOrientation=ORIENTATION_0
+06-08 18:22:22.868  6952 31243 I SafeBinderCall: onPositionChange binder cost:2
+06-08 18:22:22.880  2403  4648 I WindowManagerService: Physical orientation applied, rotation=0 sfOrientation=ORIENTATION_0
+06-08 18:22:22.881 29468 29501 W QueryController: Could not detect idle state.
+06-08 18:22:22.893  4164  5129 D BLASTBufferQueue: releaseBufferCallback ReleaseCallbackId: bufferId:17884243828837 framenumber:1
+06-08 18:22:22.901  2403  4648 I WindowManagerService: Physical orientation applied, rotation=0 sfOrientation=ORIENTATION_0
+06-08 18:22:22.905  1379  2670 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+06-08 18:22:22.928  4164  4164 D MiPlayDetailViewModel: onPositionChange(): position = 34473
+06-08 18:22:22.929  7124  7124 D NavStubView_Touch: onSystemUiFlagsChanged  mIsShowStatusBar    old= true   new=true
+06-08 18:22:22.929  7124  7124 D NavStubView_Touch: onSystemUiFlagsChanged  mIsShowNavBar    old= true   new=true
+06-08 18:22:22.940  1245  2285 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+06-08 18:22:22.940  2403  4239 I WindowManagerService: Physical orientation applied, rotation=0 sfOrientation=ORIENTATION_0
+06-08 18:22:22.940  1977  1977 I libcitsensorservice@2.0-impl: msg_transfer
+06-08 18:22:22.940  1977  2987 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:8 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+06-08 18:22:22.940  1245  1846 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+06-08 18:22:22.943  1245 31550 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+06-08 18:22:22.953  1245 31550 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+06-08 18:22:22.953  1245 31550 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+06-08 18:22:22.953  1245 31550 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+06-08 18:22:22.953  1245 31550 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+06-08 18:22:22.956 29523 29523 D DecorView[]: onWindowFocusChanged hasWindowFocus false
+06-08 18:22:22.957  1245  1464 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+06-08 18:22:22.966  1245 31551 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+06-08 18:22:22.968  1245 31551 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+06-08 18:22:22.968  1245 31551 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+06-08 18:22:22.985 29468 29501 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@80006ee2; boundsInParent: Rect(0, 0 - 1080, 2252); boundsInScreen: Rect(0, 104 - 1080, 2356); packageName: cn.missevan; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; visible: true; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+06-08 18:22:22.986 29468 29501 W ByMatcher: Skipping null child (0 of 1)
+06-08 18:22:22.991 29468 29501 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@80006ee2; boundsInParent: Rect(0, 0 - 1080, 2252); boundsInScreen: Rect(0, 104 - 1080, 2356); packageName: cn.missevan; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; visible: true; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+06-08 18:22:22.993 29468 29501 W ByMatcher: Skipping null child (0 of 1)
+06-08 18:22:22.999 29468 29501 I appium  : AppiumResponse: {"sessionId":"cfd318ce-f210-4e8c-9683-1cb7f91149d1","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:920)\n"}}
+06-08 18:22:23.004  1977  2997 D libsensor-displayalgo: the value of  brightness:400.000000,R:6883288.276958,G:6384533.122799,B:6965480.608900,EVENT_C:4123.500000,EVENT_R:1686.000000,EVENT_G:2012.500000,EVENT_B:813.500000
+06-08 18:22:23.004  1977  2997 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-08 18:22:23.004  1977  2997 E libsensor-displayalgo: RGB_black_white_scenario_0822!
+06-08 18:22:23.004  1977  2997 I libsensor-displayalgo: the value of  RESULT202.950678,75.097638,105.991060,37.022504
+06-08 18:22:23.004  1977  2997 I libsensor-displayalgo: the value of  getChannelDataCalibrated212.077570,69.589638,122.641914,40.128213
+06-08 18:22:23.004  1977  2997 I libsensor-displayalgo: the value of  REAL LUX238.269180
+06-08 18:22:23.004  1977  2997 I libsensor-displayalgo: the value of  CAL REAL LUX238.269180
+06-08 18:22:23.037  2403  4648 I WindowManagerService: Physical orientation applied, rotation=0 sfOrientation=ORIENTATION_0
+06-08 18:22:23.096  2403  5694 I WindowManagerService: Physical orientation applied, rotation=0 sfOrientation=ORIENTATION_0
+06-08 18:22:23.118  2403  3057 D MiuiNetworkPolicy: updateLimit mLimitEnabled=true,enabled=false,mNetworkPriorityMode=1
+06-08 18:22:23.143  2403  5811 I WindowManagerService: Physical orientation applied, rotation=0 sfOrientation=ORIENTATION_0
+06-08 18:22:23.166 29685 29685 I @@@BBPLOG: Info T2A64C4F8 CPlayMain L283 The Session UUID: 2f4dd724-2bfd-40d4-91c6-ef91f3a26cc7
+06-08 18:22:23.169 29685 29685 I @@@BBPLOG: Info T2A64C4F8 bbPlayer L143 Open source: https://cn-sccd-ct-01-18.bilivideo.com/mefmxcodeboss/aod/202011/07/749a44ed0e4b2c0ccb9c960e94035c5a104613-128k.m4a?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEuENvNC8aNEVEtEvE9IMvXBvE2ENvNCImNEVEIj0Y2J_aug859r1qXg8xNEVE5XREto8GuFGv2U7SuxI72X6fTr859IB_&uipk=5&nbs=1&deadline=1686226942&gen=playurlv2&os=bcache&oi=3729190097&trid=0000c6369515e11241c09fd42243a34de7b2B&mid=0&platform=android&upsig=833272eb97df4d776eae71a1267d705e&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,mid,platform&cdnid=62618&bvc=vod&nettype=0&orderid=0,1&logo=00000000
+06-08 18:22:23.175 29685 29841 I @@@BBPLOG: Info T5FAE6CB0 CPlayMain L707 Open task cache enable
+06-08 18:22:23.184  6952  6952 I Cir_Miplay_ActiveAudioSessionManager: dispatchTopActiveSessionChangeCallbackLocked, size:1
+06-08 18:22:23.185 11442 11913 V Avrcp_ext: onMetadataChanged
+06-08 18:22:23.186  6952  6952 I Cir_Miplay_MiPlayAudioService: onTopActiveSessionChange, cn.missevan
+06-08 18:22:23.187  6952  6952 I Cir_Miplay_MiPlayAudioService: topActiveSessionChange appId:cn.missevan
+06-08 18:22:23.188  6952  6952 I Cir_Miplay_MiPlayAudioStatUtils: recordPackageName:cn.missevan
+06-08 18:22:23.188  6952  6952 I Cir_Miplay_MiPlayAudioStatUtils: packageNameEquals.
+06-08 18:22:23.189  6952  6952 I Cir_Miplay_ActiveSessionRecord: dispatch meta change, MediaMetaData{mArtist='Megrezz', mAlbum='null', mTitle='他似晨风起 | 预告', mArt=valid, mDuration=90093, mLrc='null'}
+06-08 18:22:23.189  6952  6952 I Cir_Miplay_MiPlayAudioService: dispatchMetaChange:cn.missevan  ActiveSsionPackageName:cn.missevan
+06-08 18:22:23.193 29685 29841 I @@@BBPLOG: Info T5FAE6CB0 CFileSrc L53 Open url: https://cn-sccd-ct-01-18.bilivideo.com/mefmxcodeboss/aod/202011/07/749a44ed0e4b2c0ccb9c960e94035c5a104613-128k.m4a?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEuENvNC8aNEVEtEvE9IMvXBvE2ENvNCImNEVEIj0Y2J_aug859r1qXg8xNEVE5XREto8GuFGv2U7SuxI72X6fTr859IB_&uipk=5&nbs=1&deadline=1686226942&gen=playurlv2&os=bcache&oi=3729190097&trid=0000c6369515e11241c09fd42243a34de7b2B&mid=0&platform=android&upsig=833272eb97df4d776eae71a1267d705e&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,mid,platform&cdnid=62618&bvc=vod&nettype=0&orderid=0,1&logo=00000000, flag: 0x1000
+06-08 18:22:23.194 29685 29841 I @@@BBPLOG: Info T5FAE6CB0 CBPMFileIO L76 Get .bpm cache, header size: 671, media size: 1528161, cache chunk size: 262144, cached chunk cnt: 6, cache chunk cnt: 6
+06-08 18:22:23.194 29685 29841 I @@@BBPLOG: Info T5FAE6CB0 CCacheIO L224 Read from cache, file name /data/user/0/cn.missevan/cache/bbp/player/main/08ffebf1fbe39343f4454bec538160dd.bpm
+06-08 18:22:23.194 29685 29841 I @@@BBPLOG: Info T5FAE6CB0 CCacheIO L238 Open done, IOProtocol: file+cache
+06-08 18:22:23.196  6952 15990 I Cir_Miplay_MiPlayAudioService: dispatchMetaChange:MediaMetaData{mArtist='Megrezz', mAlbum='null', mTitle='他似晨风起 | 预告', mArt=valid, mDuration=90093, mLrc='null'}
+06-08 18:22:23.196  6952 15990 I Cir_Miplay_MetaInfoManager: setMetadata.
+06-08 18:22:23.197 11442 11913 V Avrcp_ext: updateCurrentMediaState: mMediaController: MediaController (cn.missevan@1e9b8f9) 他似晨风起 | 预告, Megrezz, null
+06-08 18:22:23.197 11442 11913 V Avrcp_ext: updateCurrentMediaState: isPlaying = false
+06-08 18:22:23.197 11442 11913 W Avrcp_ext: isMusicActive: true getBluetoothPlayState: 1 A2dp State: 11 mAudioPlaybackIsActive: true
+06-08 18:22:23.197 11442 11913 D Avrcp_ext: isMusicActive = true mAudioPlaybackIsActive = true player state = PlaybackState {state=3, position=34804, buffered position=0, speed=1.0, updated=3046143489, actions=894, custom actions=[], active item id=-1, error=null}
+06-08 18:22:23.199 11442 11913 D Avrcp_ext: overwrite album_artist :if album is blank
+06-08 18:22:23.201  6952  6952 I MiPlayProxyDeviceManager: onTopActiveSessionChange, cn.missevan
+06-08 18:22:23.203  6952  6952 I SafeBinderCall: onTopActiveSessionChange binder cost:0
+06-08 18:22:23.204 11442 11913 V Avrcp_ext: Media update: id -1➡-1? [MediaAttributes: 他⋯告 -  by M⋯z (90093 0/0) - ] : [MediaAttributes: 他⋯》 -  by M⋯z (198997 0/0) - ]
+06-08 18:22:23.204 11442 11913 D Avrcp_ext: isPackageNameValid: browsedPackage = cn.missevanisValid = true
+06-08 18:22:23.204 11442 11913 V Avrcp_ext: isBrowseSupported for cn.missevan: false
+06-08 18:22:23.204 11442 11913 V Avrcp_ext: Send track changed
+06-08 18:22:23.204 11442 11913 V Avrcp_ext: updatePlaybackState, state: PlaybackState {state=3, position=34804, buffered position=0, speed=1.0, updated=3046143489, actions=894, custom actions=[], active item id=-1, error=null} device: null
+06-08 18:22:23.204 11442 11913 V Avrcp_ext: Device: no name:
+06-08 18:22:23.204 11442 11913 V Avrcp_ext: Device: no name:
+06-08 18:22:23.204 11442 11913 V Avrcp_ext: Device: no name:
+06-08 18:22:23.204 11442 11913 V Avrcp_ext: Device: no name:
+06-08 18:22:23.204 11442 11913 V Avrcp_ext: Device: no name:
+06-08 18:22:23.204 11442 11913 V Avrcp_ext: updatePlayerStateAndPosition, old=PlaybackState {state=3, position=11657, buffered position=0, speed=1.0, updated=3046120342, actions=894, custom actions=[], active item id=-1, error=null}, state=PlaybackState {state=3, position=34804, buffered position=0, speed=1.0, updated=3046143489, actions=894, custom actions=[], active item id=-1, error=null}
+06-08 18:22:23.204 11442 11913 V Avrcp_ext: old state = PlaybackState {state=3, position=11657, buffered position=0, speed=1.0, updated=3046120342, actions=894, custom actions=[], active item id=-1, error=null}, new state= PlaybackState {state=3, position=34804, buffered position=0, speed=1.0, updated=3046143489, actions=894, custom actions=[], active item id=-1, error=null}
+06-08 18:22:23.205 11442 11913 D HeadsetService: getHeadsetService(): returning com.android.bluetooth.hfp.HeadsetService@6a6242b
+06-08 18:22:23.205 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:23.205 11442 11913 D HeadsetService: isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+06-08 18:22:23.205 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:23.205 11442 11913 V Avrcp_ext: isPlayStateTobeUpdated: device: null
+06-08 18:22:23.205 11442 11913 V Avrcp_ext: Single connection exists
+06-08 18:22:23.205 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:23.205 11442 11913 D HeadsetService: isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+06-08 18:22:23.205 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:23.205 11442 11913 V Avrcp_ext: isPlayStateTobeUpdated: device: null
+06-08 18:22:23.205 11442 11913 V Avrcp_ext: Single connection exists
+06-08 18:22:23.205 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:23.205 11442 11913 D HeadsetService: isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+06-08 18:22:23.205 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:23.205 11442 11913 V Avrcp_ext: isPlayStateTobeUpdated: device: null
+06-08 18:22:23.205 11442 11913 V Avrcp_ext: Single connection exists
+06-08 18:22:23.205 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:23.205 11442 11913 D HeadsetService: isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+06-08 18:22:23.205 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:23.205 11442 11913 V Avrcp_ext: isPlayStateTobeUpdated: device: null
+06-08 18:22:23.205 11442 11913 V Avrcp_ext: Single connection exists
+06-08 18:22:23.205 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:23.205 11442 11913 D HeadsetService: isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+06-08 18:22:23.205 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:23.205 11442 11913 V Avrcp_ext: isPlayStateTobeUpdated: device: null
+06-08 18:22:23.205 11442 11913 V Avrcp_ext: Single connection exists
+06-08 18:22:23.205 11442 11913 D Avrcp_ext: Enter sendPlayPosNotificationRsp
+06-08 18:22:23.205 11442 11913 D Avrcp_ext: sendPlayPosNotificationRsp: Not registered or requesting.
+06-08 18:22:23.205 11442 11913 D Avrcp_ext: Enter sendPlayPosNotificationRsp
+06-08 18:22:23.205 11442 11913 D Avrcp_ext: sendPlayPosNotificationRsp: Not registered or requesting.
+06-08 18:22:23.205 11442 11913 D Avrcp_ext: Enter sendPlayPosNotificationRsp
+06-08 18:22:23.205 11442 11913 D Avrcp_ext: sendPlayPosNotificationRsp: Not registered or requesting.
+06-08 18:22:23.205 11442 11913 D Avrcp_ext: Enter sendPlayPosNotificationRsp
+06-08 18:22:23.205 11442 11913 D Avrcp_ext: sendPlayPosNotificationRsp: Not registered or requesting.
+06-08 18:22:23.205 11442 11913 D Avrcp_ext: Enter sendPlayPosNotificationRsp
+06-08 18:22:23.205  6952  6952 I SafeBinderCall: onMediaMetaChange binder cost:2
+06-08 18:22:23.205  6952  6952 I MiPlayClientSDK: =======================================================================
+06-08 18:22:23.205  6952  6952 I MiPlayClientSDK: onMediaInfoChange start
+06-08 18:22:23.205  6952  6952 I MiPlayClientSDK: local_device_id, MediaMetaData{mArtist='Megrezz', mAlbum='null', mTitle='他似晨风起 | 预告', mDuration=90093, mId='', mCoverUrl='', mStatus=0, mVolume=0, mArt=android.graphics.Bitmap@7c6384a, mPosition=0, mLrc='null', mPackgeName='cn.missevan', mSourceName='2738969101的Xiaomi Civi 2', mDeviceState=2}
+06-08 18:22:23.205  6952  6952 I MiPlayClientSDK: onMediaInfoChange end
+06-08 18:22:23.205  6952  6952 I MiPlayClientSDK: =======================================================================
+06-08 18:22:23.205  6952  6952 I MiPlayProxyDeviceManager: onMediaInfoChange
+06-08 18:22:23.205  6952  6952 I MiPlay  : onMediaMetaChanged,local_device_id, meta:MediaMetaData{mArtist='Megrezz', mAlbum='null', mTitle='他似晨风起 | 预告', mDuration=90093, art:valid}
+06-08 18:22:23.205  4164  4164 D MiPlayDetailViewModel: onMediaMetaChange(): metaData.title = 他似晨风起 | 预告
+06-08 18:22:23.206  4164  4164 D MiPlayDetailViewModel: onActiveAudioSessionChange(): audioSessionList?.size = 1
+06-08 18:22:23.207 11442 11913 D Avrcp_ext: sendPlayPosNotificationRsp: Not registered or requesting.
+06-08 18:22:23.207 11442 11913 V Avrcp_ext: Exit updatePlayerStateAndPosition
+06-08 18:22:23.208  6952  7187 I SafeBinderCall: onActiveAudioSessionChange binder cost:3
+06-08 18:22:23.213  4164  4164 I SafeBinderCall: call getMediaMetaData binder cost:6
+06-08 18:22:23.214  4164  4164 I SafeBinderCall: call getPosition binder cost:1
+06-08 18:22:23.215  4164  4164 I SafeBinderCall: call getPlaybackState binder cost:1
+06-08 18:22:23.216 21969 22263 D MemoryCeilingMonitor: [handleMemoryCalculate]
+06-08 18:22:23.216 21969 22263 D MemoryCeilingMonitor: [calculate] tot: 5981872, max: 268435456, free: 694856, heap: 5287016, per: 0.019695669412612915
+06-08 18:22:23.218 29685 29841 I @@@BBPLOG: Info T5FAE6CB0 CSrcEng L115 The source format is: 1, size: 262144, 70797466
+06-08 18:22:23.226 29685 29841 I @@@BBPLOG: Info T5FAE6CB0 BBPFuncLog L113 ----CMP4ParserBase::ReadBoxMoov Value is 00000000 start.
+06-08 18:22:23.227 29685 29841 I @@@BBPLOG: Info T5FAE6CB0 BBPFuncLog L140 ----CMP4ParserBase::ReadBoxMoov leave! no return. Ussed Time: 1
+06-08 18:22:23.234 29685 30679 I @@@BBPLOG: Info T61B9DCB0 CRndNDK L129 First Frame: 54 ms, dns: 0 ms, req: 0 ms, rsp: 0 ms, dat: 0 ms
+06-08 18:22:23.237 29685 30703 D AudioTrack: [audioTrackData][mute] 3s(f:13120 m:3653 s:244 k:806) : pid 29685 uid 10462 sessionId 9417 sr 44100 ch 2 fmt 1
+06-08 18:22:23.245  1245  2285 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+06-08 18:22:23.245  1977  3798 I libcitsensorservice@2.0-impl: msg_transfer
+06-08 18:22:23.245  1977  2987 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:8 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+06-08 18:22:23.245  1245  1846 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+06-08 18:22:23.250  1245 31552 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+06-08 18:22:23.259  1245 31552 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+06-08 18:22:23.259  1245 31552 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+06-08 18:22:23.260  1245 31552 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+06-08 18:22:23.260  1245 31552 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+06-08 18:22:23.261  1245  1464 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+06-08 18:22:23.266  6952  6952 I Cir_Miplay_ActiveAudioSessionManager: dispatchTopActiveSessionChangeCallbackLocked, size:1
+06-08 18:22:23.268  6952  6952 I Cir_Miplay_MiPlayAudioService: onTopActiveSessionChange, cn.missevan
+06-08 18:22:23.268  6952  6952 I Cir_Miplay_MiPlayAudioService: topActiveSessionChange appId:cn.missevan
+06-08 18:22:23.268  6952  6952 I Cir_Miplay_MiPlayAudioStatUtils: recordPackageName:cn.missevan
+06-08 18:22:23.268  6952  6952 I Cir_Miplay_MiPlayAudioStatUtils: packageNameEquals.
+06-08 18:22:23.268  6952  6952 I Cir_Miplay_ActiveSessionRecord: dispatch meta change, MediaMetaData{mArtist='Megrezz', mAlbum='null', mTitle='他似晨风起 | 预告', mArt=valid, mDuration=90093, mLrc='null'}
+06-08 18:22:23.268  6952  6952 I Cir_Miplay_MiPlayAudioService: dispatchMetaChange:cn.missevan  ActiveSsionPackageName:cn.missevan
+06-08 18:22:23.273  6952 15990 I Cir_Miplay_MiPlayAudioService: dispatchMetaChange:MediaMetaData{mArtist='Megrezz', mAlbum='null', mTitle='他似晨风起 | 预告', mArt=valid, mDuration=90093, mLrc='null'}
+06-08 18:22:23.273  6952 15990 I Cir_Miplay_MetaInfoManager: setMetadata.
+06-08 18:22:23.273  1245 31553 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+06-08 18:22:23.275  1245 31553 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+06-08 18:22:23.275  1245 31553 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+06-08 18:22:23.275  6952  6952 I MiPlayProxyDeviceManager: onTopActiveSessionChange, cn.missevan
+06-08 18:22:23.276  6952  6952 I SafeBinderCall: onTopActiveSessionChange binder cost:0
+06-08 18:22:23.280  2403  4016 I MediaFocusControl: requestAudioFocus() from uid/pid 10462/29685 AA=USAGE_MEDIA/CONTENT_TYPE_MUSIC clientId=android.media.AudioManager@2b470c3cn.missevan.lib.utils.AudioFocusManager@b019d40 callingPack=cn.missevan req=1 flags=0x1 sdk=28
+06-08 18:22:23.280  4164  4164 D MiPlayDetailViewModel: onMediaMetaChange(): metaData.title = 他似晨风起 | 预告
+06-08 18:22:23.281  6952  6952 I SafeBinderCall: onMediaMetaChange binder cost:5
+06-08 18:22:23.281  2403  4016 I AudioService.FadeOutManager: unfadeOutUid() uid:10462
+06-08 18:22:23.281  6952  6952 I MiPlayClientSDK: =======================================================================
+06-08 18:22:23.281  6952  6952 I MiPlayClientSDK: onMediaInfoChange start
+06-08 18:22:23.281  6952  6952 I MiPlayClientSDK: local_device_id, MediaMetaData{mArtist='Megrezz', mAlbum='null', mTitle='他似晨风起 | 预告', mDuration=90093, mId='', mCoverUrl='', mStatus=0, mVolume=0, mArt=android.graphics.Bitmap@7c8b3bb, mPosition=0, mLrc='null', mPackgeName='cn.missevan', mSourceName='2738969101的Xiaomi Civi 2', mDeviceState=2}
+06-08 18:22:23.281  6952  6952 I MiPlayClientSDK: onMediaInfoChange end
+06-08 18:22:23.281  6952  6952 I MiPlayClientSDK: =======================================================================
+06-08 18:22:23.281  6952  6952 I MiPlayProxyDeviceManager: onMediaInfoChange
+06-08 18:22:23.281  6952  6952 I MiPlay  : onMediaMetaChanged,local_device_id, meta:MediaMetaData{mArtist='Megrezz', mAlbum='null', mTitle='他似晨风起 | 预告', mDuration=90093, art:valid}
+06-08 18:22:23.285  4164  4164 D MiPlayDetailViewModel: onActiveAudioSessionChange(): audioSessionList?.size = 1
+06-08 18:22:23.287  6952  7187 I SafeBinderCall: onActiveAudioSessionChange binder cost:5
+06-08 18:22:23.288 11442 11913 V Avrcp_ext: onMetadataChanged
+06-08 18:22:23.291 11442 11913 V Avrcp_ext: updateCurrentMediaState: mMediaController: MediaController (cn.missevan@1e9b8f9) 他似晨风起 | 预告, Megrezz, null
+06-08 18:22:23.291 11442 11913 V Avrcp_ext: updateCurrentMediaState: isPlaying = false
+06-08 18:22:23.291 11442 11913 W Avrcp_ext: isMusicActive: true getBluetoothPlayState: 1 A2dp State: 11 mAudioPlaybackIsActive: true
+06-08 18:22:23.291 11442 11913 D Avrcp_ext: isMusicActive = true mAudioPlaybackIsActive = true player state = PlaybackState {state=3, position=36, buffered position=0, speed=1.0, updated=3046143583, actions=894, custom actions=[], active item id=-1, error=null}
+06-08 18:22:23.292 11442 11913 D Avrcp_ext: overwrite album_artist :if album is blank
+06-08 18:22:23.292  4164  4164 I SafeBinderCall: call getMediaMetaData binder cost:6
+06-08 18:22:23.293 11442 11913 V Avrcp_ext: Media update: id -1➡-1? [MediaAttributes: 他⋯告 -  by M⋯z (90093 0/0) - ] : [MediaAttributes: 他⋯告 -  by M⋯z (90093 0/0) - ]
+06-08 18:22:23.293 11442 11913 D Avrcp_ext: isPackageNameValid: browsedPackage = cn.missevanisValid = true
+06-08 18:22:23.293 11442 11913 V Avrcp_ext: isBrowseSupported for cn.missevan: false
+06-08 18:22:23.293 11442 11913 V Avrcp_ext: updatePlaybackState, state: PlaybackState {state=3, position=36, buffered position=0, speed=1.0, updated=3046143583, actions=894, custom actions=[], active item id=-1, error=null} device: null
+06-08 18:22:23.293 11442 11913 V Avrcp_ext: Device: no name:
+06-08 18:22:23.293 11442 11913 V Avrcp_ext: Device: no name:
+06-08 18:22:23.293 11442 11913 V Avrcp_ext: Device: no name:
+06-08 18:22:23.293 11442 11913 V Avrcp_ext: Device: no name:
+06-08 18:22:23.293 11442 11913 V Avrcp_ext: Device: no name:
+06-08 18:22:23.293 11442 11913 V Avrcp_ext: updatePlayerStateAndPosition, old=PlaybackState {state=3, position=34804, buffered position=0, speed=1.0, updated=3046143489, actions=894, custom actions=[], active item id=-1, error=null}, state=PlaybackState {state=3, position=36, buffered position=0, speed=1.0, updated=3046143583, actions=894, custom actions=[], active item id=-1, error=null}
+06-08 18:22:23.293 11442 11913 V Avrcp_ext: old state = PlaybackState {state=3, position=34804, buffered position=0, speed=1.0, updated=3046143489, actions=894, custom actions=[], active item id=-1, error=null}, new state= PlaybackState {state=3, position=36, buffered position=0, speed=1.0, updated=3046143583, actions=894, custom actions=[], active item id=-1, error=null}
+06-08 18:22:23.293 11442 11913 D HeadsetService: getHeadsetService(): returning com.android.bluetooth.hfp.HeadsetService@6a6242b
+06-08 18:22:23.293 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:23.293 11442 11913 D HeadsetService: isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+06-08 18:22:23.293 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:23.293 11442 11913 V Avrcp_ext: isPlayStateTobeUpdated: device: null
+06-08 18:22:23.293 11442 11913 V Avrcp_ext: Single connection exists
+06-08 18:22:23.293 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:23.293 11442 11913 D HeadsetService: isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+06-08 18:22:23.293 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:23.293 11442 11913 V Avrcp_ext: isPlayStateTobeUpdated: device: null
+06-08 18:22:23.293 11442 11913 V Avrcp_ext: Single connection exists
+06-08 18:22:23.293 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:23.293 11442 11913 D HeadsetService: isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+06-08 18:22:23.293 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:23.293 11442 11913 V Avrcp_ext: isPlayStateTobeUpdated: device: null
+06-08 18:22:23.293 11442 11913 V Avrcp_ext: Single connection exists
+06-08 18:22:23.293 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:23.293 11442 11913 D HeadsetService: isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+06-08 18:22:23.293 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:23.293 11442 11913 V Avrcp_ext: isPlayStateTobeUpdated: device: null
+06-08 18:22:23.293 11442 11913 V Avrcp_ext: Single connection exists
+06-08 18:22:23.293 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:23.293 11442 11913 D HeadsetService: isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+06-08 18:22:23.293 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:23.293 11442 11913 V Avrcp_ext: isPlayStateTobeUpdated: device: null
+06-08 18:22:23.293 11442 11913 V Avrcp_ext: Single connection exists
+06-08 18:22:23.293 11442 11913 D Avrcp_ext: Enter sendPlayPosNotificationRsp
+06-08 18:22:23.293 11442 11913 D Avrcp_ext: sendPlayPosNotificationRsp: Not registered or requesting.
+06-08 18:22:23.293 11442 11913 D Avrcp_ext: Enter sendPlayPosNotificationRsp
+06-08 18:22:23.293 11442 11913 D Avrcp_ext: sendPlayPosNotificationRsp: Not registered or requesting.
+06-08 18:22:23.293 11442 11913 D Avrcp_ext: Enter sendPlayPosNotificationRsp
+06-08 18:22:23.293 11442 11913 D Avrcp_ext: sendPlayPosNotificationRsp: Not registered or requesting.
+06-08 18:22:23.293 11442 11913 D Avrcp_ext: Enter sendPlayPosNotificationRsp
+06-08 18:22:23.293 11442 11913 D Avrcp_ext: sendPlayPosNotificationRsp: Not registered or requesting.
+06-08 18:22:23.293 11442 11913 D Avrcp_ext: Enter sendPlayPosNotificationRsp
+06-08 18:22:23.293 11442 11913 D Avrcp_ext: sendPlayPosNotificationRsp: Not registered or requesting.
+06-08 18:22:23.293 11442 11913 V Avrcp_ext: Exit updatePlayerStateAndPosition
+06-08 18:22:23.294  4164  4164 I SafeBinderCall: call getPosition binder cost:1
+06-08 18:22:23.294 11442 11913 V Avrcp_ext: onPlaybackStateChanged: state PlaybackState {state=3, position=31, buffered position=0, speed=1.0, updated=3046143578, actions=894, custom actions=[], active item id=-1, error=null}
+06-08 18:22:23.295  4164  4164 I SafeBinderCall: call getPlaybackState binder cost:1
+06-08 18:22:23.297  6952  6952 I Cir_Miplay_ActiveSessionRecord: onPlaybackStateChanged:3
+06-08 18:22:23.298 11442 11913 V Avrcp_ext: updateCurrentMediaState: mMediaController: MediaController (cn.missevan@1e9b8f9) 他似晨风起 | 预告, Megrezz, null
+06-08 18:22:23.298 11442 11913 V Avrcp_ext: updateCurrentMediaState: isPlaying = false
+06-08 18:22:23.298 11442 11913 W Avrcp_ext: isMusicActive: true getBluetoothPlayState: 1 A2dp State: 11 mAudioPlaybackIsActive: true
+06-08 18:22:23.298  6952  6952 I Cir_Miplay_ActiveSessionRecordStack: onPlaybackStateChange.
+06-08 18:22:23.304  4164  4164 V MediaTimeout: processState 0|cn.missevan|1500|null|10462: PlaybackState {state=3, position=31, buffered position=0, speed=1.0, updated=3046143578, actions=894, custom actions=[], active item id=-1, error=null}
+06-08 18:22:23.305 11442 11913 D Avrcp_ext: isMusicActive = true mAudioPlaybackIsActive = true player state = PlaybackState {state=3, position=46, buffered position=0, speed=1.0, updated=3046143593, actions=894, custom actions=[], active item id=-1, error=null}
+06-08 18:22:23.305  1977  2997 D libsensor-displayalgo: the value of  brightness:400.000000,R:4505643.014040,G:4097334.936326,B:4569700.939817,EVENT_C:3817.500000,EVENT_R:1582.500000,EVENT_G:1845.000000,EVENT_B:752.000000
+06-08 18:22:23.306  1977  2997 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-08 18:22:23.306  1977  2997 E libsensor-displayalgo: RGB_black_white_scenario_0822!
+06-08 18:22:23.306  1977  2997 I libsensor-displayalgo: the value of  RESULT122.480001,43.980056,64.184395,22.449170
+06-08 18:22:23.306  1977  2997 I libsensor-displayalgo: the value of  getChannelDataCalibrated127.988047,40.754360,74.267556,24.332365
+06-08 18:22:23.306  1977  2997 I libsensor-displayalgo: the value of  REAL LUX223.715485
+06-08 18:22:23.306  1977  2997 I libsensor-displayalgo: the value of  CAL REAL LUX223.715485
+06-08 18:22:23.308 11442 11913 D Avrcp_ext: overwrite album_artist :if album is blank
+06-08 18:22:23.311 11442 11913 V Avrcp_ext: Media update: id -1➡-1? [MediaAttributes: 他⋯告 -  by M⋯z (90093 0/0) - ] : [MediaAttributes: 他⋯告 -  by M⋯z (90093 0/0) - ]
+06-08 18:22:23.312 11442 11913 D Avrcp_ext: isPackageNameValid: browsedPackage = cn.missevanisValid = true
+06-08 18:22:23.312 11442 11913 V Avrcp_ext: isBrowseSupported for cn.missevan: false
+06-08 18:22:23.312 11442 11913 V Avrcp_ext: updatePlaybackState, state: PlaybackState {state=3, position=46, buffered position=0, speed=1.0, updated=3046143593, actions=894, custom actions=[], active item id=-1, error=null} device: null
+06-08 18:22:23.312 11442 11913 V Avrcp_ext: Device: no name:
+06-08 18:22:23.312 11442 11913 V Avrcp_ext: Device: no name:
+06-08 18:22:23.312 11442 11913 V Avrcp_ext: Device: no name:
+06-08 18:22:23.312 11442 11913 V Avrcp_ext: Device: no name:
+06-08 18:22:23.312 11442 11913 V Avrcp_ext: Device: no name:
+06-08 18:22:23.312 11442 11913 V Avrcp_ext: updatePlayerStateAndPosition, old=PlaybackState {state=3, position=36, buffered position=0, speed=1.0, updated=3046143583, actions=894, custom actions=[], active item id=-1, error=null}, state=PlaybackState {state=3, position=46, buffered position=0, speed=1.0, updated=3046143593, actions=894, custom actions=[], active item id=-1, error=null}
+06-08 18:22:23.312 11442 11913 V Avrcp_ext: old state = PlaybackState {state=3, position=36, buffered position=0, speed=1.0, updated=3046143583, actions=894, custom actions=[], active item id=-1, error=null}, new state= PlaybackState {state=3, position=46, buffered position=0, speed=1.0, updated=3046143593, actions=894, custom actions=[], active item id=-1, error=null}
+06-08 18:22:23.312 11442 11913 D HeadsetService: getHeadsetService(): returning com.android.bluetooth.hfp.HeadsetService@6a6242b
+06-08 18:22:23.313 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:23.313 11442 11913 D HeadsetService: isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+06-08 18:22:23.313 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:23.313 11442 11913 V Avrcp_ext: isPlayStateTobeUpdated: device: null
+06-08 18:22:23.313 11442 11913 V Avrcp_ext: Single connection exists
+06-08 18:22:23.315 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:23.315 11442 11913 D HeadsetService: isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+06-08 18:22:23.315 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:23.315 11442 11913 V Avrcp_ext: isPlayStateTobeUpdated: device: null
+06-08 18:22:23.315 11442 11913 V Avrcp_ext: Single connection exists
+06-08 18:22:23.315 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:23.315 11442 11913 D HeadsetService: isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+06-08 18:22:23.315 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:23.315 11442 11913 V Avrcp_ext: isPlayStateTobeUpdated: device: null
+06-08 18:22:23.315 11442 11913 V Avrcp_ext: Single connection exists
+06-08 18:22:23.315 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:23.315 11442 11913 D HeadsetService: isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+06-08 18:22:23.315 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:23.315 11442 11913 V Avrcp_ext: isPlayStateTobeUpdated: device: null
+06-08 18:22:23.315 11442 11913 V Avrcp_ext: Single connection exists
+06-08 18:22:23.315 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:23.315 11442 11913 D HeadsetService: isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+06-08 18:22:23.315 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:23.315 11442 11913 V Avrcp_ext: isPlayStateTobeUpdated: device: null
+06-08 18:22:23.315 11442 11913 V Avrcp_ext: Single connection exists
+06-08 18:22:23.315 11442 11913 D Avrcp_ext: Enter sendPlayPosNotificationRsp
+06-08 18:22:23.315 11442 11913 D Avrcp_ext: sendPlayPosNotificationRsp: Not registered or requesting.
+06-08 18:22:23.315 11442 11913 D Avrcp_ext: Enter sendPlayPosNotificationRsp
+06-08 18:22:23.315 11442 11913 D Avrcp_ext: sendPlayPosNotificationRsp: Not registered or requesting.
+06-08 18:22:23.315 11442 11913 D Avrcp_ext: Enter sendPlayPosNotificationRsp
+06-08 18:22:23.315 11442 11913 D Avrcp_ext: sendPlayPosNotificationRsp: Not registered or requesting.
+06-08 18:22:23.315 11442 11913 D Avrcp_ext: Enter sendPlayPosNotificationRsp
+06-08 18:22:23.315 11442 11913 D Avrcp_ext: sendPlayPosNotificationRsp: Not registered or requesting.
+06-08 18:22:23.315 11442 11913 D Avrcp_ext: Enter sendPlayPosNotificationRsp
+06-08 18:22:23.315 11442 11913 D Avrcp_ext: sendPlayPosNotificationRsp: Not registered or requesting.
+06-08 18:22:23.315 11442 11913 V Avrcp_ext: Exit updatePlayerStateAndPosition
+06-08 18:22:23.315 11442 11913 V Avrcp_ext:  Exit onPlaybackStateChanged
+06-08 18:22:23.316  2403  4648 I WindowManagerService: Physical orientation applied, rotation=0 sfOrientation=ORIENTATION_0
+06-08 18:22:23.319  6952  6952 I Cir_Miplay_ActiveAudioSessionManager: TopAudioSession play change
+06-08 18:22:23.319  6952  6952 I Cir_Miplay_MiPlayAudioService: dispatchPlaybackStateChange:3
+06-08 18:22:23.319  6952  6952 I Cir_Miplay_MiPlayAudioService: localPlayStateChange state:3
+06-08 18:22:23.319  6952  6952 I Cir_Miplay_MiPlayAudioService: playStateNotify state:3  ,id:,uuid:local_device_id
+06-08 18:22:23.319  6952  6952 I ActiveSessionRecord: onPlaybackStateChanged: PlaybackState {state=3, position=31, buffered position=0, speed=1.0, updated=3046143578, actions=894, custom actions=[], active item id=-1, error=null}
+06-08 18:22:23.326  6952  6952 I ActiveAudioSessionManager: startPositionCallbackTask
+06-08 18:22:23.334  6952  6952 I SafeBinderCall: onPlaybackStateChange binder cost:6
+06-08 18:22:23.334  4164  4164 D MiPlayDetailViewModel: onPlaybackStateChange(): state = 3
+06-08 18:22:23.334  6952  6952 I MiPlayClientSDK: =======================================================================
+06-08 18:22:23.334  6952  6952 I MiPlayClientSDK: onPlayStateChange start
+06-08 18:22:23.334  6952  6952 I MiPlayClientSDK: local_device_id, state:3
+06-08 18:22:23.334  6952  6952 I MiPlayClientSDK: onPlayStateChange end
+06-08 18:22:23.334  6952  6952 I MiPlayClientSDK: =======================================================================
+06-08 18:22:23.334  6952  6952 I MiPlayProxyDeviceManager: onPlayStateChange
+06-08 18:22:23.334  6952  6952 I MiPlay  : onPlaybackStateChanged,local_device_id, state:pause
+06-08 18:22:23.352  2403  5811 I WindowManagerService: Physical orientation applied, rotation=0 sfOrientation=ORIENTATION_0
+06-08 18:22:23.381  4164  5025 D MiBridge: cancelCpuHighFreq---uid: 1000
+06-08 18:22:23.390  4164  4164 E adTracker: Value pending_update1 of type java.lang.String cannot be converted to JSONObject
+06-08 18:22:23.390  4164  5025 D MiBridge: cancelCpuHighFreq ret: 0
+06-08 18:22:23.391  4164  5025 D CpuBoostUtil: cancelCpuHighFreq:0
+06-08 18:22:23.403  2403  2923 I BatteryService: current mPlugType2current mHealthInfo.batteryLevel96current mHealthInfo.batteryTemperature373
+06-08 18:22:23.422  5823  7760 D ThermalIECHandler: storeDataStyle: thermal_iec_monitor_persistence_data_style_iec_state; startIECTime: -1; IECScreenOffOverPeriodTime: 3035475955
+06-08 18:22:23.422  4056  4056 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 1
+06-08 18:22:23.423  5786  5786 I BatteryInfoReceiver: ACTION_BATTERY_CHANGED
+06-08 18:22:23.423  4125  4125 D DynamicService:  ACTION_BATTERY_CHANGED change,USB plug = 2
+06-08 18:22:23.424  5786  5786 I PowerNoticeUI: handleBatteryChanged oldPlugType 2 mPlugType 2 oldBatteryLevel 96 mBatteryLevel 96 temperature 373
+06-08 18:22:23.424  5823  6819 D PowerKeeper.FrozenApp: onBatteryChanged plug=true mBatteryPlugged=2
+06-08 18:22:23.424  5823  7357 D PowerCheckerService: onBatteryChanged, mBatteryLevel = 96, status = 2, level = 96, plug = 2, scale = 100
+06-08 18:22:23.426  5823  7671 D PowerKeeper.Thermal: mBatteryTemperature: 37
+06-08 18:22:23.426  4098  4098 V DeviceStatisticsService: chargerType=2 batteryLevel=96 totalBatteryCapacity=4110400
+06-08 18:22:23.426  4098  4098 D DeviceInfoHidlClient: isRadioOn()=true
+06-08 18:22:23.426  4098  4098 I DeviceInfoHidlClient: isPowerInfoNeverSent=false batteryLevel=96 batteryLevelIndex=6 chargingMode=2 totalCapacity=4110400 powerSaveMode=false
+06-08 18:22:23.427  2403  2605 I android_os_HwBinder: HwBinder: Starting thread pool for getting: vendor.xiaomi.hardware.micharge@1.0::IMiCharge/default
+06-08 18:22:23.428  1307  1361 E vendor.xiaomi.hardware.micharge@1.0-service: Failed to open node /sys/class/qcom-battery/reverse_chg_mode
+06-08 18:22:23.428  1307  1361 I vendor.xiaomi.hardware.micharge@1.0-service: ReadFilePathValue path = /sys/class/qcom-battery/reverse_chg_mode value =
+06-08 18:22:23.453  2403  2605 I android_os_HwBinder: HwBinder: Starting thread pool for getting: vendor.xiaomi.hardware.micharge@1.0::IMiCharge/default
+06-08 18:22:23.454  1307  1361 I vendor.xiaomi.hardware.micharge@1.0-service: ReadFilePathValue path = /sys/class/qcom-battery/fastchg_mode value = 0
+06-08 18:22:23.456  5786  8361 I android_os_HwBinder: HwBinder: Starting thread pool for getting: vendor.xiaomi.hardware.micharge@1.0::IMiCharge/default
+06-08 18:22:23.457  1307  1361 I vendor.xiaomi.hardware.micharge@1.0-service: ReadFilePathValue path = /sys/class/qcom-battery/night_charging value = 0
+06-08 18:22:23.457  5786  8361 I ChargeProtectionUtils: getNightChargingState: 0
+06-08 18:22:23.458  2403  4239 I WindowManagerService: Physical orientation applied, rotation=0 sfOrientation=ORIENTATION_0
+06-08 18:22:23.545 29468 29501 I appium  : channel read: POST /wd/hub/session/cfd318ce-f210-4e8c-9683-1cb7f91149d1/element
+06-08 18:22:23.546 29468 29501 I appium  : FindElement command
+06-08 18:22:23.547 29468 29501 I appium  : method: 'id', selector: 'com.android.systemui:id/header_title'
+06-08 18:22:23.547 29468 29501 I appium  : Waiting up to 100ms for the device to idle
+06-08 18:22:23.549  1245  2285 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+06-08 18:22:23.549  1977  2106 I libcitsensorservice@2.0-impl: msg_transfer
+06-08 18:22:23.550  1977  2987 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:8 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+06-08 18:22:23.550  1245  1846 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+06-08 18:22:23.552  1245 31556 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+06-08 18:22:23.557  2403  4016 I WindowManagerService: Physical orientation applied, rotation=0 sfOrientation=ORIENTATION_0
+06-08 18:22:23.561  1245 31556 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+06-08 18:22:23.561  1245 31556 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+06-08 18:22:23.562  1245 31556 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+06-08 18:22:23.562  1245 31556 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+06-08 18:22:23.566  1245  1464 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+06-08 18:22:23.575  1245 31557 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+06-08 18:22:23.576  1245 31557 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+06-08 18:22:23.576  1245 31557 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+06-08 18:22:23.588  5357  5357 D MiBarrage: No barrage: not in game scene or in video scene
+06-08 18:22:23.590  4164  4164 D NotificationFilterController: filter group summary suppressed key=0|com.xiaomi.market|2147483647|ranker_group|10114|ranker_group
+06-08 18:22:23.591  4164  4164 D InterruptionStateProvider: No alerting: filtered notification: 0|cn.missevan|1500|null|10462
+06-08 18:22:23.592  4164  4164 D InterruptionStateProvider: No alerting: filtered notification: 0|cn.missevan|1500|null|10462
+06-08 18:22:23.592  5786 12513 W Parcel  : **** enforceInterface() expected 'com.miui.gamebooster.service.ISecurityCenterNotificationListener' but read 'android.service.notification.INotificationListener'
+06-08 18:22:23.592  5786 12513 W Binder  : Caught a RuntimeException from the binder stub implementation.
+06-08 18:22:23.592  5786 12513 W Binder  : java.lang.SecurityException: Binder invocation to an incorrect interface
+06-08 18:22:23.592  5786 12513 W Binder  : 	at android.os.Parcel.nativeEnforceInterface(Native Method)
+06-08 18:22:23.592  5786 12513 W Binder  : 	at android.os.Parcel.enforceInterface(Parcel.java:699)
+06-08 18:22:23.592  5786 12513 W Binder  : 	at com.miui.gamebooster.service.ISecurityCenterNotificationListener$Stub.onTransact(Unknown Source:18)
+06-08 18:22:23.592  5786 12513 W Binder  : 	at android.os.Binder.execTransactInternal(Binder.java:1190)
+06-08 18:22:23.592  5786 12513 W Binder  : 	at android.os.Binder.execTransact(Binder.java:1149)
+06-08 18:22:23.593  4164  4164 D NotificationFilterController: filter group summary suppressed key=0|com.xiaomi.market|2147483647|ranker_group|10114|ranker_group
+06-08 18:22:23.597  4164  4389 D PeopleSpaceWidgetMgr: Sbn doesn't contain valid PeopleTileKey: null/0/cn.missevan
+06-08 18:22:23.600  4164  5025 D MiBridge: requestCpuHighFreq---- uid: 1000 level: 1 timeoutms:2000
+06-08 18:22:23.600  1875  1898 W MiuiBooster: "MiuiBoosterService requestCpuHighFreq: 1000, 1, 2000"
+06-08 18:22:23.600  1875  1898 W MiuiBooster: "requestCpuHighFreq,final level:1,final timeoutms:2000"
+06-08 18:22:23.600  1875  1898 W MiuiBooster: "perf_hint_hc start"
+06-08 18:22:23.600  1875  1898 W MiuiBooster: "big_core_value[level-1]:4095"
+06-08 18:22:23.600  1875  1898 W MiuiBooster: "little_core_value[level-1]:4095"
+06-08 18:22:23.600  1875  1898 W MiuiBooster: "prime_core_value[level - 1]:4095"
+06-08 18:22:23.598  1262  1262 W perf-hal-servic: type=1400 audit(0.0:273330): avc: denied { search } for name="1875" dev="proc" ino=73068469 scontext=u:r:vendor_hal_perf_default:s0 tcontext=u:r:miuibooster:s0 tclass=dir permissive=0
+06-08 18:22:23.598  1262  1262 W perf-hal-servic: type=1400 audit(0.0:273331): avc: denied { search } for name="1875" dev="proc" ino=73068469 scontext=u:r:vendor_hal_perf_default:s0 tcontext=u:r:miuibooster:s0 tclass=dir permissive=0
+06-08 18:22:23.603  1875  1898 W MiuiBooster: "perf_handle:780637"
+06-08 18:22:23.604  1977  2997 D libsensor-displayalgo: the value of  brightness:400.000000,R:4505527.532788,G:4097142.178184,B:4567439.322287,EVENT_C:3810.500000,EVENT_R:1583.000000,EVENT_G:1840.500000,EVENT_B:748.500000
+06-08 18:22:23.604  1977  2997 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-08 18:22:23.604  1977  2997 E libsensor-displayalgo: RGB_black_white_scenario_0822!
+06-08 18:22:23.604  1977  2997 I libsensor-displayalgo: the value of  RESULT122.459940,43.965026,64.179752,22.441475
+06-08 18:22:23.604  1977  2997 I libsensor-displayalgo: the value of  getChannelDataCalibrated127.967085,40.740432,74.262184,24.324024
+06-08 18:22:23.604  1977  2997 I libsensor-displayalgo: the value of  REAL LUX223.282730
+06-08 18:22:23.604  1977  2997 I libsensor-displayalgo: the value of  CAL REAL LUX223.282730
+06-08 18:22:23.607  4164  5025 D MiBridge: requestCpuHighFreq handle: 1
+06-08 18:22:23.607  4164  5025 D CpuBoostUtil: boostCpuToMax:0
+06-08 18:22:23.607  4164  5025 D MiBridge: cancelCpuHighFreq---uid: 1000
+06-08 18:22:23.610  4164  5025 D MiBridge: cancelCpuHighFreq ret: 0
+06-08 18:22:23.610  4164  5025 D CpuBoostUtil: cancelCpuHighFreq:0
+06-08 18:22:23.626  5786 12513 W Parcel  : **** enforceInterface() expected 'com.miui.gamebooster.service.ISecurityCenterNotificationListener' but read 'android.service.notification.INotificationListener'
+06-08 18:22:23.626  5786 12513 W Binder  : Caught a RuntimeException from the binder stub implementation.
+06-08 18:22:23.626  5786 12513 W Binder  : java.lang.SecurityException: Binder invocation to an incorrect interface
+06-08 18:22:23.626  5786 12513 W Binder  : 	at android.os.Parcel.nativeEnforceInterface(Native Method)
+06-08 18:22:23.626  5786 12513 W Binder  : 	at android.os.Parcel.enforceInterface(Parcel.java:699)
+06-08 18:22:23.626  5786 12513 W Binder  : 	at com.miui.gamebooster.service.ISecurityCenterNotificationListener$Stub.onTransact(Unknown Source:18)
+06-08 18:22:23.626  5786 12513 W Binder  : 	at android.os.Binder.execTransactInternal(Binder.java:1190)
+06-08 18:22:23.626  5786 12513 W Binder  : 	at android.os.Binder.execTransact(Binder.java:1149)
+06-08 18:22:23.630  4164  4164 I MediaCarouselController: media_data_arrive: addOrUpdatePlayer
+06-08 18:22:23.630  4164  4164 I MiuiMediaControlPanel: media_data_arrive: bindPlayer: mPlayerViewHolder=com.android.systemui.media.PlayerViewHolder@100c6ee
+06-08 18:22:23.630  4164  4164 I MiuiMediaControlPanel: media_data_arrive: bindPlayer: 猫耳FM, 他似晨风起 | 预告, Megrezz
+06-08 18:22:23.630  4164  4164 I MiuiMediaControlPanel: MediaAction: contentDesc=快退; MediaAction: contentDesc=上一首; MediaAction: contentDesc=暂停; MediaAction: contentDesc=下一首; MediaAction: contentDesc=快进;
+06-08 18:22:23.631  5357  5357 D MiBarrage: No barrage: not in game scene or in video scene
+06-08 18:22:23.632  4164  4164 D MiuiMediaControlPanel: setArtwork---ProcessArtworkTask
+06-08 18:22:23.637  4164  4164 D NotificationFilterController: filter group summary suppressed key=0|com.xiaomi.market|2147483647|ranker_group|10114|ranker_group
+06-08 18:22:23.638  4164  4164 D InterruptionStateProvider: No alerting: filtered notification: 0|cn.missevan|1500|null|10462
+06-08 18:22:23.638  4164  4164 D InterruptionStateProvider: No alerting: filtered notification: 0|cn.missevan|1500|null|10462
+06-08 18:22:23.640  4164  4164 D NotificationFilterController: filter group summary suppressed key=0|com.xiaomi.market|2147483647|ranker_group|10114|ranker_group
+06-08 18:22:23.641  5786  8520 V onNotificationPostedCallBack: flags=98
+06-08 18:22:23.646  5786  8520 V m       : ret=0
+06-08 18:22:23.646  5786  8520 V onNotificationPostedCallBack: flags=98
+06-08 18:22:23.647  4164  5025 D MiBridge: requestCpuHighFreq---- uid: 1000 level: 1 timeoutms:2000
+06-08 18:22:23.647  5786  8520 V m       : ret=0
+06-08 18:22:23.647  1875  1898 W MiuiBooster: "MiuiBoosterService requestCpuHighFreq: 1000, 1, 2000"
+06-08 18:22:23.647  1875  1898 W MiuiBooster: "requestCpuHighFreq,final level:1,final timeoutms:2000"
+06-08 18:22:23.647  1875  1898 W MiuiBooster: "perf_hint_hc start"
+06-08 18:22:23.647  1875  1898 W MiuiBooster: "big_core_value[level-1]:4095"
+06-08 18:22:23.647  1875  1898 W MiuiBooster: "little_core_value[level-1]:4095"
+06-08 18:22:23.647  1875  1898 W MiuiBooster: "prime_core_value[level - 1]:4095"
+06-08 18:22:23.648  1875  1898 W MiuiBooster: "perf_handle:780638"
+06-08 18:22:23.649  4164  5025 D MiBridge: requestCpuHighFreq handle: 1
+06-08 18:22:23.649  4164  5025 D CpuBoostUtil: boostCpuToMax:0
+06-08 18:22:23.649  4164  5025 D MiBridge: cancelCpuHighFreq---uid: 1000
+06-08 18:22:23.650  4164  5025 D MiBridge: cancelCpuHighFreq ret: 0
+06-08 18:22:23.650  4164  5025 D CpuBoostUtil: cancelCpuHighFreq:0
+06-08 18:22:23.646  1262  1262 W perf-hal-servic: type=1400 audit(0.0:273332): avc: denied { search } for name="1875" dev="proc" ino=73068469 scontext=u:r:vendor_hal_perf_default:s0 tcontext=u:r:miuibooster:s0 tclass=dir permissive=0
+06-08 18:22:23.646  1262  1262 W perf-hal-servic: type=1400 audit(0.0:273333): avc: denied { search } for name="1875" dev="proc" ino=73068469 scontext=u:r:vendor_hal_perf_default:s0 tcontext=u:r:miuibooster:s0 tclass=dir permissive=0
+06-08 18:22:23.659  4164  4389 D PeopleSpaceWidgetMgr: Sbn doesn't contain valid PeopleTileKey: null/0/cn.missevan
+06-08 18:22:23.659  2403  5694 I WindowManagerService: Physical orientation applied, rotation=0 sfOrientation=ORIENTATION_0
+06-08 18:22:23.671  4164  4164 I MediaCarouselController: media_data_arrive: addOrUpdatePlayer
+06-08 18:22:23.671  4164  4164 I MiuiMediaControlPanel: media_data_arrive: bindPlayer: mPlayerViewHolder=com.android.systemui.media.PlayerViewHolder@100c6ee
+06-08 18:22:23.671  4164  4164 I MiuiMediaControlPanel: media_data_arrive: bindPlayer: 猫耳FM, 他似晨风起 | 预告, Megrezz
+06-08 18:22:23.671  4164  4164 I MiuiMediaControlPanel: MediaAction: contentDesc=快退; MediaAction: contentDesc=上一首; MediaAction: contentDesc=暂停; MediaAction: contentDesc=下一首; MediaAction: contentDesc=快进;
+06-08 18:22:23.693  1604  1966 D IdProviderImpl: getOAID from com.miui.analytics
+06-08 18:22:23.698 29685 30680 I @@@BBPLOG: Info T61B77CB0 CTCPSocket L69 Connect server: data.bilibili.com, port: 443, enable ssl: 1
+06-08 18:22:23.699  1604  1966 D IdProviderImpl: getOAID from com.miui.analytics
+06-08 18:22:23.716 29468 29501 W QueryController: Could not detect idle state.
+06-08 18:22:23.721 29685 30680 I @@@BBPLOG: Info T61B77CB0 CMbedSSL L29 Create SSL: CMbedSSL
+06-08 18:22:23.727  1604  1622 I .miui.analytic: This is non sticky GC, maxfree is 8388608 minfree is 2097152
+06-08 18:22:23.736  5373 30186 W MiuiPerfServiceClient: interceptAndQueuing:29523|cn.missevan|475|86|2077966611676117|Slow handle traversal|10
+06-08 18:22:23.740  5373 30186 W MiuiPerfServiceClient: interceptAndQueuing:29523|cn.missevan|109|43|2077966855454502|Slow handle traversal|4
+06-08 18:22:23.771  2403  5875 I WindowManagerService: Physical orientation applied, rotation=0 sfOrientation=ORIENTATION_0
+06-08 18:22:23.795 29468 29501 I appium  : AppiumResponse: {"sessionId":"cfd318ce-f210-4e8c-9683-1cb7f91149d1","value":{"ELEMENT":"00000000-0000-0203-ffff-ffff00025320","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0203-ffff-ffff00025320"}}
+06-08 18:22:23.819 29468 29501 I appium  : channel read: GET /wd/hub/session/cfd318ce-f210-4e8c-9683-1cb7f91149d1/element/00000000-0000-0203-ffff-ffff00025320/text
+06-08 18:22:23.820 29468 29501 I appium  : GetText command
+06-08 18:22:23.852 29685 30680 I @@@BBPLOG: Info T61B77CB0 CDataLogSender L88 Send log data 731 and response code is 200
+06-08 18:22:23.853 29685 30680 I @@@BBPLOG: Info T61B77CB0 CDataLogMng L341 Delete log file 1686219742285.ovw
+06-08 18:22:23.854  1245  2285 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+06-08 18:22:23.855  1977  1977 I libcitsensorservice@2.0-impl: msg_transfer
+06-08 18:22:23.856  1977  2987 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:8 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+06-08 18:22:23.857  1245  1846 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+06-08 18:22:23.857  1245 31560 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+06-08 18:22:23.861  2403  4239 I WindowManagerService: Physical orientation applied, rotation=0 sfOrientation=ORIENTATION_0
+06-08 18:22:23.866  1245 31560 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+06-08 18:22:23.866  1245 31560 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+06-08 18:22:23.872  1245 31560 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+06-08 18:22:23.872  1245 31560 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+06-08 18:22:23.872  1245  1464 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+06-08 18:22:23.872  4164  4164 D MiPlayDetailViewModel: onPositionChange(): position = 611
+06-08 18:22:23.873  6952 31243 I SafeBinderCall: onPositionChange binder cost:7
+06-08 18:22:23.880  1245 31561 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+06-08 18:22:23.880  1245 31561 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+06-08 18:22:23.880  1245 31561 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+06-08 18:22:23.934 29468 29501 W QueryController: Could not detect idle state.
+06-08 18:22:23.957  2403  5694 I WindowManagerService: Physical orientation applied, rotation=0 sfOrientation=ORIENTATION_0
+06-08 18:22:24.004  1977  2997 D libsensor-displayalgo: the value of  brightness:400.000000,R:4505362.701535,G:4095338.743547,B:4563676.653003,EVENT_C:3869.000000,EVENT_R:1600.000000,EVENT_G:1873.500000,EVENT_B:765.000000
+06-08 18:22:24.005  1977  2997 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-08 18:22:24.005  1977  2997 E libsensor-displayalgo: RGB_black_white_scenario_0822!
+06-08 18:22:24.005  1977  2997 I libsensor-displayalgo: the value of  RESULT122.382206,43.926935,64.142532,22.420038
+06-08 18:22:24.005  1977  2997 I libsensor-displayalgo: the value of  getChannelDataCalibrated127.885855,40.705136,74.219116,24.300789
+06-08 18:22:24.005  1977  2997 I libsensor-displayalgo: the value of  REAL LUX226.935989
+06-08 18:22:24.005  1977  2997 I libsensor-displayalgo: the value of  CAL REAL LUX226.935989
+06-08 18:22:24.056  2403  5694 I WindowManagerService: Physical orientation applied, rotation=0 sfOrientation=ORIENTATION_0
+06-08 18:22:24.138 29468 29501 W QueryController: Could not detect idle state.
+06-08 18:22:24.148 29468 29501 I appium  : AppiumResponse: {"sessionId":"cfd318ce-f210-4e8c-9683-1cb7f91149d1","value":"他似晨风起 | 预告"}
+06-08 18:22:24.158  1245  2285 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+06-08 18:22:24.158  1977  2106 I libcitsensorservice@2.0-impl: msg_transfer
+06-08 18:22:24.158  1977  2987 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:8 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+06-08 18:22:24.158  1245  1846 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+06-08 18:22:24.162  1245 31562 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+06-08 18:22:24.163  2403  5694 I WindowManagerService: Physical orientation applied, rotation=0 sfOrientation=ORIENTATION_0
+06-08 18:22:24.166 29468 29501 I appium  : channel read: POST /wd/hub/session/cfd318ce-f210-4e8c-9683-1cb7f91149d1/element
+06-08 18:22:24.166 29468 29501 I appium  : FindElement command
+06-08 18:22:24.171  1245 31562 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+06-08 18:22:24.171  1245 31562 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+06-08 18:22:24.171  1245 31562 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+06-08 18:22:24.171  1245 31562 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+06-08 18:22:24.172 29468 29501 I appium  : method: 'id', selector: 'com.android.systemui:id/action3'
+06-08 18:22:24.172 29468 29501 I appium  : Waiting up to 100ms for the device to idle
+06-08 18:22:24.175  1245  1464 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+06-08 18:22:24.184  1245 31563 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+06-08 18:22:24.185  1245 31563 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+06-08 18:22:24.185  1245 31563 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+06-08 18:22:24.263  2403  4239 I WindowManagerService: Physical orientation applied, rotation=0 sfOrientation=ORIENTATION_0
+06-08 18:22:24.305  1977  2997 D libsensor-displayalgo: the value of  brightness:400.000000,R:4504939.676187,G:4093807.116029,B:4558515.562962,EVENT_C:3804.500000,EVENT_R:1578.000000,EVENT_G:1840.000000,EVENT_B:751.000000
+06-08 18:22:24.305  1977  2997 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-08 18:22:24.305  1977  2997 E libsensor-displayalgo: RGB_black_white_scenario_0822!
+06-08 18:22:24.305  1977  2997 I libsensor-displayalgo: the value of  RESULT122.304232,43.883382,64.110674,22.396603
+06-08 18:22:24.305  1977  2997 I libsensor-displayalgo: the value of  getChannelDataCalibrated127.804374,40.664777,74.182254,24.275388
+06-08 18:22:24.305  1977  2997 I libsensor-displayalgo: the value of  REAL LUX222.830231
+06-08 18:22:24.305  1977  2997 I libsensor-displayalgo: the value of  CAL REAL LUX222.830231
+06-08 18:22:24.336 29468 29501 W QueryController: Could not detect idle state.
+06-08 18:22:24.360  2403  4239 I WindowManagerService: Physical orientation applied, rotation=0 sfOrientation=ORIENTATION_0
+06-08 18:22:24.377 29468 29501 I appium  : AppiumResponse: {"sessionId":"cfd318ce-f210-4e8c-9683-1cb7f91149d1","value":{"ELEMENT":"00000000-0000-0203-ffff-ffff00025317","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0203-ffff-ffff00025317"}}
+06-08 18:22:24.388 29468 29501 I appium  : channel read: POST /wd/hub/session/cfd318ce-f210-4e8c-9683-1cb7f91149d1/element/00000000-0000-0203-ffff-ffff00025317/click
+06-08 18:22:24.389 29468 29501 I appium  : Click command
+06-08 18:22:24.463  1245  2285 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+06-08 18:22:24.463  1977  1977 I libcitsensorservice@2.0-impl: msg_transfer
+06-08 18:22:24.464  1977  2987 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:8 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+06-08 18:22:24.464  1245  1846 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+06-08 18:22:24.467  1245 31564 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+06-08 18:22:24.472  2403  4648 I WindowManagerService: Physical orientation applied, rotation=0 sfOrientation=ORIENTATION_0
+06-08 18:22:24.476  1245 31564 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+06-08 18:22:24.476  1245 31564 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+06-08 18:22:24.476  1245 31564 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+06-08 18:22:24.477  1245 31564 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+06-08 18:22:24.480  1245  1464 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+06-08 18:22:24.489  1245 31565 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+06-08 18:22:24.490  1245 31565 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+06-08 18:22:24.490  1245 31565 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+06-08 18:22:24.538 29468 29501 W QueryController: Could not detect idle state.
+06-08 18:22:24.567  2403  4239 I WindowManagerService: Physical orientation applied, rotation=0 sfOrientation=ORIENTATION_0
+06-08 18:22:24.605  1977  2997 D libsensor-displayalgo: the value of  brightness:400.000000,R:4505300.173009,G:4093868.542266,B:4557954.248983,EVENT_C:3785.000000,EVENT_R:1572.500000,EVENT_G:1825.500000,EVENT_B:744.000000
+06-08 18:22:24.605  1977  2997 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-08 18:22:24.605  1977  2997 E libsensor-displayalgo: RGB_black_white_scenario_0822!
+06-08 18:22:24.605  1977  2997 I libsensor-displayalgo: the value of  RESULT122.301492,43.879794,64.110707,22.394287
+06-08 18:22:24.605  1977  2997 I libsensor-displayalgo: the value of  getChannelDataCalibrated127.801510,40.661452,74.182292,24.272878
+06-08 18:22:24.605  1977  2997 I libsensor-displayalgo: the value of  REAL LUX221.570175
+06-08 18:22:24.605  1977  2997 I libsensor-displayalgo: the value of  CAL REAL LUX221.570175
+06-08 18:22:24.666  2403  4648 I WindowManagerService: Physical orientation applied, rotation=0 sfOrientation=ORIENTATION_0
+06-08 18:22:24.738 29468 29501 W QueryController: Could not detect idle state.
+06-08 18:22:24.767  2403  4648 D MIUIInput: Input event injection from pid 29447, MotionEvent: DOWN
+06-08 18:22:24.767  1245  2285 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+06-08 18:22:24.768  1977  2106 I libcitsensorservice@2.0-impl: msg_transfer
+06-08 18:22:24.768  2403  2910 D MIUIInput: [MotionEvent] publisher action=0x4, 2077968211, channel '9ede85b NavigationBar0 (server)'
+06-08 18:22:24.768  1977  2987 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:8 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+06-08 18:22:24.768  2403  2910 D MIUIInput: [MotionEvent] publisher action=0x0, 2077968211, channel 'ee5aea9 NotificationShade (server)'
+06-08 18:22:24.768  1245  1846 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+06-08 18:22:24.769  4164  4164 D MIUIInput: [MotionEvent] ViewRootImpl windowName 'NotificationShade', { action=ACTION_DOWN, id[0]=0, pointerCount=1, eventTime=2077968211, downTime=2077968210, phoneEventTime=18:22:24.754 } moveCount:0
+06-08 18:22:24.771  4164  4164 D PanelView: cancelFlingSpring
+06-08 18:22:24.772  1245 31566 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+06-08 18:22:24.776  2403  5694 D MIUIInput: Input event injection from pid 29447, MotionEvent: UP
+06-08 18:22:24.776  2403  2910 D MIUIInput: [MotionEvent] publisher action=0x1, 2077968211, channel 'ee5aea9 NotificationShade (server)'
+06-08 18:22:24.777  4164  4164 D MIUIInput: [MotionEvent] ViewRootImpl windowName 'NotificationShade', { action=ACTION_UP, id[0]=0, pointerCount=1, eventTime=2077968211, downTime=2077968210, phoneEventTime=18:22:24.754 } moveCount:0
+06-08 18:22:24.778  4164  4164 D MiuiMediaControlPanel: media_btn_click: pendingIntent=PendingIntent{f184232: android.os.BinderProxy@c653ece}
+06-08 18:22:24.780  1245 31566 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+06-08 18:22:24.780  1245 31566 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+06-08 18:22:24.780  1245 31566 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+06-08 18:22:24.780  1245 31566 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+06-08 18:22:24.781  1262  1454 E ANDR-PERF-OPTSHANDLER: checkAlreadySetCpuset: fopen failed, errno Permission denied, trying pgid as pid to check
+06-08 18:22:24.784  1245  1464 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+06-08 18:22:24.789  2403  4648 I WindowManagerService: Physical orientation applied, rotation=0 sfOrientation=ORIENTATION_0
+06-08 18:22:24.794  1245 31567 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+06-08 18:22:24.794  1245 31567 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+06-08 18:22:24.794  1245 31567 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+06-08 18:22:24.802 29468 29501 I appium  : Waiting up to 100ms for the device to idle
+06-08 18:22:24.821  2403  4648 I MediaFocusControl: abandonAudioFocus() from uid/pid 10462/29685 clientId=android.media.AudioManager@2b470c3cn.missevan.lib.utils.AudioFocusManager@b019d40
+06-08 18:22:24.823 29685 29685 I @@@BBPLOG: Info T2A64C4F8 CPlayMain L367 Set audio track usage: 2
+06-08 18:22:24.827  2403  4239 W InputManager-JNI: Input channel object '308e7e1 PopupWindow:2321b0b (client)' was disposed without first being removed with the input manager!
+06-08 18:22:24.848 29523 29523 I HandWritingStubImpl: isKeyboardTypeChanged: false
+06-08 18:22:24.848 29523 29523 I HandWritingStubImpl: isKeyboardTypeChanged: false
+06-08 18:22:24.849 29523 29523 I HandWritingStubImpl: isKeyboardTypeChanged: false
+06-08 18:22:24.849 29523 29523 I HandWritingStubImpl: isKeyboardTypeChanged: false
+06-08 18:22:24.850 29523 29523 I HandWritingStubImpl: isKeyboardTypeChanged: false
+06-08 18:22:24.850 29523 29523 I HandWritingStubImpl: isKeyboardTypeChanged: false
+06-08 18:22:24.851 29523 29523 I HandWritingStubImpl: isKeyboardTypeChanged: false
+06-08 18:22:24.851 29523 29523 I HandWritingStubImpl: isKeyboardTypeChanged: false
+06-08 18:22:24.866  4164  4164 D MiPlayDetailViewModel: onPositionChange(): position = 1611
+06-08 18:22:24.866  6952 31243 I SafeBinderCall: onPositionChange binder cost:0
+06-08 18:22:24.905  1977  2997 D libsensor-displayalgo: the value of  brightness:400.000000,R:4505024.643816,G:4093434.760253,B:4556194.992913,EVENT_C:3780.500000,EVENT_R:1568.000000,EVENT_G:1825.500000,EVENT_B:744.000000
+06-08 18:22:24.905  1977  2997 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-08 18:22:24.905  1977  2997 E libsensor-displayalgo: RGB_black_white_scenario_0822!
+06-08 18:22:24.905  1977  2997 I libsensor-displayalgo: the value of  RESULT122.277891,43.865999,64.101931,22.387158
+06-08 18:22:24.905  1977  2997 I libsensor-displayalgo: the value of  getChannelDataCalibrated127.776849,40.648669,74.172138,24.265151
+06-08 18:22:24.905  1977  2997 I libsensor-displayalgo: the value of  REAL LUX221.423325
+06-08 18:22:24.905  1977  2997 I libsensor-displayalgo: the value of  CAL REAL LUX221.423325
+06-08 18:22:24.906 29468 29501 W QueryController: Could not detect idle state.
+06-08 18:22:24.921 29468 29501 I appium  : AppiumResponse: {"sessionId":"cfd318ce-f210-4e8c-9683-1cb7f91149d1","value":null}
+06-08 18:22:24.941 29685 29685 I @@@BBPLOG: Info T2A64C4F8 CPlayMain L283 The Session UUID: 0f405101-f9f0-4a0e-a2a3-94b12d86fc80
+06-08 18:22:24.941 29685 29685 I @@@BBPLOG: Info T2A64C4F8 bbPlayer L143 Open source: https://cn-hljheb-ct-01-02.bilivideo.com/mefmxcodeboss/aod/202008/09/a8ed53e7fcc22eaf6755411db3a5a8b8200456-128k.m4a?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEuENvNC8aNEVEtEvE9IMvXBvE2ENvNCImNEVEIj0Y2J_aug859r1qXg8xNEVE5XREto8GuFGv2U7SuxI72X6fTr859IB_&uipk=5&nbs=1&deadline=1686226894&gen=playurlv2&os=bcache&oi=3729190097&trid=00007de94c4148c34b38bb3e5ea3ec14ef70B&mid=0&platform=android&upsig=c52393549fa110d78d786ffb4003edf7&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,mid,platform&cdnid=3841&bvc=vod&nettype=0&orderid=0,1&logo=00000000
+06-08 18:22:24.948 29685 29841 I @@@BBPLOG: Info T5FAE6CB0 CPlayMain L707 Open task cache enable
+06-08 18:22:24.951  1371  2214 D AudioTrackShared: tallyUnderrunFrames( 77) at uf = 198665, bump mUnderrunCount = 8
+06-08 18:22:24.951 29468 29501 I appium  : channel read: POST /wd/hub/session/cfd318ce-f210-4e8c-9683-1cb7f91149d1/element
+06-08 18:22:24.951 29468 29501 I appium  : FindElement command
+06-08 18:22:24.954 29468 29501 I appium  : method: 'id', selector: 'com.android.systemui:id/header_title'
+06-08 18:22:24.957 29468 29501 I appium  : Waiting up to 100ms for the device to idle
+06-08 18:22:24.957  6952  6952 I Cir_Miplay_ActiveAudioSessionManager: dispatchTopActiveSessionChangeCallbackLocked, size:1
+06-08 18:22:24.959  6952  6952 I Cir_Miplay_MiPlayAudioService: onTopActiveSessionChange, cn.missevan
+06-08 18:22:24.959  6952  6952 I Cir_Miplay_MiPlayAudioService: topActiveSessionChange appId:cn.missevan
+06-08 18:22:24.959  6952  6952 I Cir_Miplay_MiPlayAudioStatUtils: recordPackageName:cn.missevan
+06-08 18:22:24.959  6952  6952 I Cir_Miplay_MiPlayAudioStatUtils: packageNameEquals.
+06-08 18:22:24.960  6952  6952 I Cir_Miplay_ActiveSessionRecord: dispatch meta change, MediaMetaData{mArtist='Megrezz', mAlbum='null', mTitle='他似晨风起 | 第一期', mArt=valid, mDuration=2968630, mLrc='null'}
+06-08 18:22:24.960  6952  6952 I Cir_Miplay_MiPlayAudioService: dispatchMetaChange:cn.missevan  ActiveSsionPackageName:cn.missevan
+06-08 18:22:24.966 29685 29841 I @@@BBPLOG: Info T5FAE6CB0 CFileSrc L53 Open url: https://cn-hljheb-ct-01-02.bilivideo.com/mefmxcodeboss/aod/202008/09/a8ed53e7fcc22eaf6755411db3a5a8b8200456-128k.m4a?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEuENvNC8aNEVEtEvE9IMvXBvE2ENvNCImNEVEIj0Y2J_aug859r1qXg8xNEVE5XREto8GuFGv2U7SuxI72X6fTr859IB_&uipk=5&nbs=1&deadline=1686226894&gen=playurlv2&os=bcache&oi=3729190097&trid=00007de94c4148c34b38bb3e5ea3ec14ef70B&mid=0&platform=android&upsig=c52393549fa110d78d786ffb4003edf7&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,mid,platform&cdnid=3841&bvc=vod&nettype=0&orderid=0,1&logo=00000000, flag: 0x1000
+06-08 18:22:24.968 11442 11913 V Avrcp_ext: onMetadataChanged
+06-08 18:22:24.970 29685 29841 I @@@BBPLOG: Info T5FAE6CB0 CBPMFileIO L76 Get .bpm cache, header size: 328, media size: 50145976, cache chunk size: 262144, cached chunk cnt: 192, cache chunk cnt: 192
+06-08 18:22:24.970 29685 29841 I @@@BBPLOG: Info T5FAE6CB0 CCacheIO L224 Read from cache, file name /data/user/0/cn.missevan/cache/bbp/player/main/fdb1adbaead748a0e5664bc9dd97ac2a.bpm
+06-08 18:22:24.970 29685 29841 I @@@BBPLOG: Info T5FAE6CB0 CCacheIO L238 Open done, IOProtocol: file+cache
+06-08 18:22:24.978 11442 11913 V Avrcp_ext: updateCurrentMediaState: mMediaController: MediaController (cn.missevan@1e9b8f9) 他似晨风起 | 第一期, Megrezz, null
+06-08 18:22:24.978 11442 11913 V Avrcp_ext: updateCurrentMediaState: isPlaying = false
+06-08 18:22:24.978 11442 11913 W Avrcp_ext: isMusicActive: true getBluetoothPlayState: 1 A2dp State: 11 mAudioPlaybackIsActive: true
+06-08 18:22:24.979  6952 15990 I Cir_Miplay_MiPlayAudioService: dispatchMetaChange:MediaMetaData{mArtist='Megrezz', mAlbum='null', mTitle='他似晨风起 | 第一期', mArt=valid, mDuration=2968630, mLrc='null'}
+06-08 18:22:24.979  6952 15990 I Cir_Miplay_MetaInfoManager: setMetadata.
+06-08 18:22:24.979 11442 11913 D Avrcp_ext: isMusicActive = true mAudioPlaybackIsActive = true player state = PlaybackState {state=3, position=1724, buffered position=0, speed=1.0, updated=3046145271, actions=894, custom actions=[], active item id=-1, error=null}
+06-08 18:22:24.980  6952  6952 I MiPlayProxyDeviceManager: onTopActiveSessionChange, cn.missevan
+06-08 18:22:24.982 11442 11913 D Avrcp_ext: overwrite album_artist :if album is blank
+06-08 18:22:24.982  6952  6952 I SafeBinderCall: onTopActiveSessionChange binder cost:0
+06-08 18:22:24.984  4164  4164 D MiPlayDetailViewModel: onMediaMetaChange(): metaData.title = 他似晨风起 | 第一期
+06-08 18:22:24.985  6952  6952 I SafeBinderCall: onMediaMetaChange binder cost:1
+06-08 18:22:24.985  6952  6952 I MiPlayClientSDK: =======================================================================
+06-08 18:22:24.985  6952  6952 I MiPlayClientSDK: onMediaInfoChange start
+06-08 18:22:24.985  6952  6952 I MiPlayClientSDK: local_device_id, MediaMetaData{mArtist='Megrezz', mAlbum='null', mTitle='他似晨风起 | 第一期', mDuration=2968630, mId='', mCoverUrl='', mStatus=0, mVolume=0, mArt=android.graphics.Bitmap@e378f16, mPosition=0, mLrc='null', mPackgeName='cn.missevan', mSourceName='2738969101的Xiaomi Civi 2', mDeviceState=2}
+06-08 18:22:24.985  6952  6952 I MiPlayClientSDK: onMediaInfoChange end
+06-08 18:22:24.985  6952  6952 I MiPlayClientSDK: =======================================================================
+06-08 18:22:24.985  6952  6952 I MiPlayProxyDeviceManager: onMediaInfoChange
+06-08 18:22:24.984 11442 11913 V Avrcp_ext: Media update: id -1➡-1? [MediaAttributes: 他⋯期 -  by M⋯z (2968630 0/0) - ] : [MediaAttributes: 他⋯告 -  by M⋯z (90093 0/0) - ]
+06-08 18:22:24.985 11442 11913 D Avrcp_ext: isPackageNameValid: browsedPackage = cn.missevanisValid = true
+06-08 18:22:24.985 11442 11913 V Avrcp_ext: isBrowseSupported for cn.missevan: false
+06-08 18:22:24.985 11442 11913 V Avrcp_ext: Send track changed
+06-08 18:22:24.985 11442 11913 V Avrcp_ext: updatePlaybackState, state: PlaybackState {state=3, position=1724, buffered position=0, speed=1.0, updated=3046145271, actions=894, custom actions=[], active item id=-1, error=null} device: null
+06-08 18:22:24.985 11442 11913 V Avrcp_ext: Device: no name:
+06-08 18:22:24.985 11442 11913 V Avrcp_ext: Device: no name:
+06-08 18:22:24.985 11442 11913 V Avrcp_ext: Device: no name:
+06-08 18:22:24.985 11442 11913 V Avrcp_ext: Device: no name:
+06-08 18:22:24.985 11442 11913 V Avrcp_ext: Device: no name:
+06-08 18:22:24.985 11442 11913 V Avrcp_ext: updatePlayerStateAndPosition, old=PlaybackState {state=3, position=46, buffered position=0, speed=1.0, updated=3046143593, actions=894, custom actions=[], active item id=-1, error=null}, state=PlaybackState {state=3, position=1724, buffered position=0, speed=1.0, updated=3046145271, actions=894, custom actions=[], active item id=-1, error=null}
+06-08 18:22:24.985 11442 11913 V Avrcp_ext: old state = PlaybackState {state=3, position=46, buffered position=0, speed=1.0, updated=3046143593, actions=894, custom actions=[], active item id=-1, error=null}, new state= PlaybackState {state=3, position=1724, buffered position=0, speed=1.0, updated=3046145271, actions=894, custom actions=[], active item id=-1, error=null}
+06-08 18:22:24.985 11442 11913 D HeadsetService: getHeadsetService(): returning com.android.bluetooth.hfp.HeadsetService@6a6242b
+06-08 18:22:24.985 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:24.985 11442 11913 D HeadsetService: isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+06-08 18:22:24.985 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:24.985 11442 11913 V Avrcp_ext: isPlayStateTobeUpdated: device: null
+06-08 18:22:24.985 11442 11913 V Avrcp_ext: Single connection exists
+06-08 18:22:24.985 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:24.985 11442 11913 D HeadsetService: isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+06-08 18:22:24.985 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:24.985 11442 11913 V Avrcp_ext: isPlayStateTobeUpdated: device: null
+06-08 18:22:24.985 11442 11913 V Avrcp_ext: Single connection exists
+06-08 18:22:24.985 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:24.985 11442 11913 D HeadsetService: isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+06-08 18:22:24.985 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:24.985 11442 11913 V Avrcp_ext: isPlayStateTobeUpdated: device: null
+06-08 18:22:24.985 11442 11913 V Avrcp_ext: Single connection exists
+06-08 18:22:24.985 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:24.985 11442 11913 D HeadsetService: isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+06-08 18:22:24.985 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:24.985 11442 11913 V Avrcp_ext: isPlayStateTobeUpdated: device: null
+06-08 18:22:24.985 11442 11913 V Avrcp_ext: Single connection exists
+06-08 18:22:24.985 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:24.985 11442 11913 D HeadsetService: isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+06-08 18:22:24.986 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:24.986 11442 11913 V Avrcp_ext: isPlayStateTobeUpdated: device: null
+06-08 18:22:24.986 11442 11913 V Avrcp_ext: Single connection exists
+06-08 18:22:24.986 11442 11913 D Avrcp_ext: Enter sendPlayPosNotificationRsp
+06-08 18:22:24.986 11442 11913 D Avrcp_ext: sendPlayPosNotificationRsp: Not registered or requesting.
+06-08 18:22:24.986 11442 11913 D Avrcp_ext: Enter sendPlayPosNotificationRsp
+06-08 18:22:24.986 11442 11913 D Avrcp_ext: sendPlayPosNotificationRsp: Not registered or requesting.
+06-08 18:22:24.986 11442 11913 D Avrcp_ext: Enter sendPlayPosNotificationRsp
+06-08 18:22:24.986 11442 11913 D Avrcp_ext: sendPlayPosNotificationRsp: Not registered or requesting.
+06-08 18:22:24.986 11442 11913 D Avrcp_ext: Enter sendPlayPosNotificationRsp
+06-08 18:22:24.986 11442 11913 D Avrcp_ext: sendPlayPosNotificationRsp: Not registered or requesting.
+06-08 18:22:24.986 11442 11913 D Avrcp_ext: Enter sendPlayPosNotificationRsp
+06-08 18:22:24.986 11442 11913 D Avrcp_ext: sendPlayPosNotificationRsp: Not registered or requesting.
+06-08 18:22:24.986 11442 11913 V Avrcp_ext: Exit updatePlayerStateAndPosition
+06-08 18:22:24.986 29685 29841 I @@@BBPLOG: Info T5FAE6CB0 CSrcEng L115 The source format is: 1, size: 262144, 70797466
+06-08 18:22:24.986  6952  6952 I MiPlay  : onMediaMetaChanged,local_device_id, meta:MediaMetaData{mArtist='Megrezz', mAlbum='null', mTitle='他似晨风起 | 第一期', mDuration=2968630, art:valid}
+06-08 18:22:24.987  4164  4164 D MiPlayDetailViewModel: onActiveAudioSessionChange(): audioSessionList?.size = 1
+06-08 18:22:24.992  6952  7187 I SafeBinderCall: onActiveAudioSessionChange binder cost:4
+06-08 18:22:24.993  4164  4164 I SafeBinderCall: call getMediaMetaData binder cost:5
+06-08 18:22:24.995  4164  4164 I SafeBinderCall: call getPosition binder cost:2
+06-08 18:22:24.996  4164  4164 I SafeBinderCall: call getPlaybackState binder cost:1
+06-08 18:22:24.997 29685 29841 I @@@BBPLOG: Info T5FAE6CB0 BBPFuncLog L113 ----CMP4ParserBase::ReadBoxMoov Value is 00000000 start.
+06-08 18:22:25.010 29685 29841 I @@@BBPLOG: Info T5FAE6CB0 BBPFuncLog L140 ----CMP4ParserBase::ReadBoxMoov leave! no return. Ussed Time: 13
+06-08 18:22:25.013 29685 30679 I @@@BBPLOG: Info T61B9DCB0 CRndNDK L129 First Frame: 64 ms, dns: 0 ms, req: 0 ms, rsp: 0 ms, dat: 0 ms
+06-08 18:22:25.049  6952  6952 I Cir_Miplay_ActiveAudioSessionManager: dispatchTopActiveSessionChangeCallbackLocked, size:1
+06-08 18:22:25.051 11442 11913 V Avrcp_ext: onMetadataChanged
+06-08 18:22:25.053  6952  6952 I Cir_Miplay_MiPlayAudioService: onTopActiveSessionChange, cn.missevan
+06-08 18:22:25.053  6952  6952 I Cir_Miplay_MiPlayAudioService: topActiveSessionChange appId:cn.missevan
+06-08 18:22:25.053  6952  6952 I Cir_Miplay_MiPlayAudioStatUtils: recordPackageName:cn.missevan
+06-08 18:22:25.053  6952  6952 I Cir_Miplay_MiPlayAudioStatUtils: packageNameEquals.
+06-08 18:22:25.053  6952  6952 I Cir_Miplay_ActiveSessionRecord: dispatch meta change, MediaMetaData{mArtist='Megrezz', mAlbum='null', mTitle='他似晨风起 | 第一期', mArt=valid, mDuration=2968630, mLrc='null'}
+06-08 18:22:25.053  6952  6952 I Cir_Miplay_MiPlayAudioService: dispatchMetaChange:cn.missevan  ActiveSsionPackageName:cn.missevan
+06-08 18:22:25.058 11442 11913 V Avrcp_ext: updateCurrentMediaState: mMediaController: MediaController (cn.missevan@1e9b8f9) 他似晨风起 | 第一期, Megrezz, null
+06-08 18:22:25.058 11442 11913 V Avrcp_ext: updateCurrentMediaState: isPlaying = false
+06-08 18:22:25.058 11442 11913 W Avrcp_ext: isMusicActive: true getBluetoothPlayState: 1 A2dp State: 11 mAudioPlaybackIsActive: true
+06-08 18:22:25.060 11442 11913 D Avrcp_ext: isMusicActive = true mAudioPlaybackIsActive = true player state = PlaybackState {state=3, position=1804, buffered position=0, speed=1.0, updated=3046145351, actions=894, custom actions=[], active item id=-1, error=null}
+06-08 18:22:25.061 11442 11913 D Avrcp_ext: overwrite album_artist :if album is blank
+06-08 18:22:25.062  6952  6952 I MiPlayProxyDeviceManager: onTopActiveSessionChange, cn.missevan
+06-08 18:22:25.065 11442 11913 V Avrcp_ext: Media update: id -1➡-1? [MediaAttributes: 他⋯期 -  by M⋯z (2968630 0/0) - ] : [MediaAttributes: 他⋯期 -  by M⋯z (2968630 0/0) - ]
+06-08 18:22:25.066 11442 11913 D Avrcp_ext: isPackageNameValid: browsedPackage = cn.missevanisValid = true
+06-08 18:22:25.066 11442 11913 V Avrcp_ext: isBrowseSupported for cn.missevan: false
+06-08 18:22:25.066 11442 11913 V Avrcp_ext: updatePlaybackState, state: PlaybackState {state=3, position=1804, buffered position=0, speed=1.0, updated=3046145351, actions=894, custom actions=[], active item id=-1, error=null} device: null
+06-08 18:22:25.066 11442 11913 V Avrcp_ext: Device: no name:
+06-08 18:22:25.066 11442 11913 V Avrcp_ext: Device: no name:
+06-08 18:22:25.066 11442 11913 V Avrcp_ext: Device: no name:
+06-08 18:22:25.066 11442 11913 V Avrcp_ext: Device: no name:
+06-08 18:22:25.066 11442 11913 V Avrcp_ext: Device: no name:
+06-08 18:22:25.066 11442 11913 V Avrcp_ext: updatePlayerStateAndPosition, old=PlaybackState {state=3, position=1724, buffered position=0, speed=1.0, updated=3046145271, actions=894, custom actions=[], active item id=-1, error=null}, state=PlaybackState {state=3, position=1804, buffered position=0, speed=1.0, updated=3046145351, actions=894, custom actions=[], active item id=-1, error=null}
+06-08 18:22:25.066 11442 11913 V Avrcp_ext: old state = PlaybackState {state=3, position=1724, buffered position=0, speed=1.0, updated=3046145271, actions=894, custom actions=[], active item id=-1, error=null}, new state= PlaybackState {state=3, position=1804, buffered position=0, speed=1.0, updated=3046145351, actions=894, custom actions=[], active item id=-1, error=null}
+06-08 18:22:25.066 11442 11913 D HeadsetService: getHeadsetService(): returning com.android.bluetooth.hfp.HeadsetService@6a6242b
+06-08 18:22:25.066 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:25.066 11442 11913 D HeadsetService: isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+06-08 18:22:25.066 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:25.066 11442 11913 V Avrcp_ext: isPlayStateTobeUpdated: device: null
+06-08 18:22:25.066 11442 11913 V Avrcp_ext: Single connection exists
+06-08 18:22:25.066 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:25.066 11442 11913 D HeadsetService: isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+06-08 18:22:25.066 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:25.066 11442 11913 V Avrcp_ext: isPlayStateTobeUpdated: device: null
+06-08 18:22:25.066 11442 11913 V Avrcp_ext: Single connection exists
+06-08 18:22:25.066 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:25.066 11442 11913 D HeadsetService: isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+06-08 18:22:25.066 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:25.066 11442 11913 V Avrcp_ext: isPlayStateTobeUpdated: device: null
+06-08 18:22:25.066 11442 11913 V Avrcp_ext: Single connection exists
+06-08 18:22:25.066 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:25.066 11442 11913 D HeadsetService: isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+06-08 18:22:25.066 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:25.066 11442 11913 V Avrcp_ext: isPlayStateTobeUpdated: device: null
+06-08 18:22:25.066 11442 11913 V Avrcp_ext: Single connection exists
+06-08 18:22:25.066 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:25.066 11442 11913 D HeadsetService: isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+06-08 18:22:25.066 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:25.066 11442 11913 V Avrcp_ext: isPlayStateTobeUpdated: device: null
+06-08 18:22:25.066 11442 11913 V Avrcp_ext: Single connection exists
+06-08 18:22:25.066 11442 11913 D Avrcp_ext: Enter sendPlayPosNotificationRsp
+06-08 18:22:25.066 11442 11913 D Avrcp_ext: sendPlayPosNotificationRsp: Not registered or requesting.
+06-08 18:22:25.066 11442 11913 D Avrcp_ext: Enter sendPlayPosNotificationRsp
+06-08 18:22:25.066 11442 11913 D Avrcp_ext: sendPlayPosNotificationRsp: Not registered or requesting.
+06-08 18:22:25.066 11442 11913 D Avrcp_ext: Enter sendPlayPosNotificationRsp
+06-08 18:22:25.066 11442 11913 D Avrcp_ext: sendPlayPosNotificationRsp: Not registered or requesting.
+06-08 18:22:25.066 11442 11913 D Avrcp_ext: Enter sendPlayPosNotificationRsp
+06-08 18:22:25.066 11442 11913 D Avrcp_ext: sendPlayPosNotificationRsp: Not registered or requesting.
+06-08 18:22:25.066 11442 11913 D Avrcp_ext: Enter sendPlayPosNotificationRsp
+06-08 18:22:25.066 11442 11913 D Avrcp_ext: sendPlayPosNotificationRsp: Not registered or requesting.
+06-08 18:22:25.066 11442 11913 V Avrcp_ext: Exit updatePlayerStateAndPosition
+06-08 18:22:25.068  6952  6952 I SafeBinderCall: onTopActiveSessionChange binder cost:0
+06-08 18:22:25.069  1245  2285 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+06-08 18:22:25.069  1977  2106 I libcitsensorservice@2.0-impl: msg_transfer
+06-08 18:22:25.070  2403  4239 I MediaFocusControl: requestAudioFocus() from uid/pid 10462/29685 AA=USAGE_MEDIA/CONTENT_TYPE_MUSIC clientId=android.media.AudioManager@2b470c3cn.missevan.lib.utils.AudioFocusManager@b019d40 callingPack=cn.missevan req=1 flags=0x1 sdk=28
+06-08 18:22:25.070  1977  2987 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:8 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+06-08 18:22:25.070  1245  1846 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+06-08 18:22:25.070  2403  4239 I AudioService.FadeOutManager: unfadeOutUid() uid:10462
+06-08 18:22:25.078  4164  4164 V MediaTimeout: processState 0|cn.missevan|1500|null|10462: PlaybackState {state=3, position=54, buffered position=0, speed=1.0, updated=3046145366, actions=894, custom actions=[], active item id=-1, error=null}
+06-08 18:22:25.078  4164  4164 D MiPlayDetailViewModel: onActiveAudioSessionChange(): audioSessionList?.size = 1
+06-08 18:22:25.081 11442 11913 V Avrcp_ext: onPlaybackStateChanged: state PlaybackState {state=3, position=54, buffered position=0, speed=1.0, updated=3046145366, actions=894, custom actions=[], active item id=-1, error=null}
+06-08 18:22:25.083  4164  4164 I SafeBinderCall: call getMediaMetaData binder cost:4
+06-08 18:22:25.084  4164  4164 I SafeBinderCall: call getPosition binder cost:1
+06-08 18:22:25.085  4164  4164 I SafeBinderCall: call getPlaybackState binder cost:1
+06-08 18:22:25.087  6952 15990 I Cir_Miplay_MiPlayAudioService: dispatchMetaChange:MediaMetaData{mArtist='Megrezz', mAlbum='null', mTitle='他似晨风起 | 第一期', mArt=valid, mDuration=2968630, mLrc='null'}
+06-08 18:22:25.087  6952 15990 I Cir_Miplay_MetaInfoManager: setMetadata.
+06-08 18:22:25.089  6952  7187 I SafeBinderCall: onActiveAudioSessionChange binder cost:5
+06-08 18:22:25.089 11442 11913 V Avrcp_ext: updateCurrentMediaState: mMediaController: MediaController (cn.missevan@1e9b8f9) 他似晨风起 | 第一期, Megrezz, null
+06-08 18:22:25.089 11442 11913 V Avrcp_ext: updateCurrentMediaState: isPlaying = false
+06-08 18:22:25.089 11442 11913 W Avrcp_ext: isMusicActive: true getBluetoothPlayState: 1 A2dp State: 11 mAudioPlaybackIsActive: true
+06-08 18:22:25.090 11442 11913 D Avrcp_ext: isMusicActive = true mAudioPlaybackIsActive = true player state = PlaybackState {state=3, position=70, buffered position=0, speed=1.0, updated=3046145382, actions=894, custom actions=[], active item id=-1, error=null}
+06-08 18:22:25.091 11442 11913 D Avrcp_ext: overwrite album_artist :if album is blank
+06-08 18:22:25.092 11442 11913 V Avrcp_ext: Media update: id -1➡-1? [MediaAttributes: 他⋯期 -  by M⋯z (2968630 0/0) - ] : [MediaAttributes: 他⋯期 -  by M⋯z (2968630 0/0) - ]
+06-08 18:22:25.092 11442 11913 D Avrcp_ext: isPackageNameValid: browsedPackage = cn.missevanisValid = true
+06-08 18:22:25.092 11442 11913 V Avrcp_ext: isBrowseSupported for cn.missevan: false
+06-08 18:22:25.092 11442 11913 V Avrcp_ext: updatePlaybackState, state: PlaybackState {state=3, position=70, buffered position=0, speed=1.0, updated=3046145382, actions=894, custom actions=[], active item id=-1, error=null} device: null
+06-08 18:22:25.092 11442 11913 V Avrcp_ext: Device: no name:
+06-08 18:22:25.092 11442 11913 V Avrcp_ext: Device: no name:
+06-08 18:22:25.092 11442 11913 V Avrcp_ext: Device: no name:
+06-08 18:22:25.092 11442 11913 V Avrcp_ext: Device: no name:
+06-08 18:22:25.092 11442 11913 V Avrcp_ext: Device: no name:
+06-08 18:22:25.092 11442 11913 V Avrcp_ext: updatePlayerStateAndPosition, old=PlaybackState {state=3, position=1804, buffered position=0, speed=1.0, updated=3046145351, actions=894, custom actions=[], active item id=-1, error=null}, state=PlaybackState {state=3, position=70, buffered position=0, speed=1.0, updated=3046145382, actions=894, custom actions=[], active item id=-1, error=null}
+06-08 18:22:25.092 11442 11913 V Avrcp_ext: old state = PlaybackState {state=3, position=1804, buffered position=0, speed=1.0, updated=3046145351, actions=894, custom actions=[], active item id=-1, error=null}, new state= PlaybackState {state=3, position=70, buffered position=0, speed=1.0, updated=3046145382, actions=894, custom actions=[], active item id=-1, error=null}
+06-08 18:22:25.092 11442 11913 D HeadsetService: getHeadsetService(): returning com.android.bluetooth.hfp.HeadsetService@6a6242b
+06-08 18:22:25.092 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:25.092 11442 11913 D HeadsetService: isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+06-08 18:22:25.093 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:25.099 11442 11913 V Avrcp_ext: isPlayStateTobeUpdated: device: null
+06-08 18:22:25.099 11442 11913 V Avrcp_ext: Single connection exists
+06-08 18:22:25.099 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:25.099 11442 11913 D HeadsetService: isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+06-08 18:22:25.099 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:25.099 11442 11913 V Avrcp_ext: isPlayStateTobeUpdated: device: null
+06-08 18:22:25.099 11442 11913 V Avrcp_ext: Single connection exists
+06-08 18:22:25.099 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:25.099 11442 11913 D HeadsetService: isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+06-08 18:22:25.099 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:25.099 11442 11913 V Avrcp_ext: isPlayStateTobeUpdated: device: null
+06-08 18:22:25.099 11442 11913 V Avrcp_ext: Single connection exists
+06-08 18:22:25.099 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:25.099 11442 11913 D HeadsetService: isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+06-08 18:22:25.099 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:25.099 11442 11913 V Avrcp_ext: isPlayStateTobeUpdated: device: null
+06-08 18:22:25.099 11442 11913 V Avrcp_ext: Single connection exists
+06-08 18:22:25.099 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:25.099 11442 11913 D HeadsetService: isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+06-08 18:22:25.099 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:25.099 11442 11913 V Avrcp_ext: isPlayStateTobeUpdated: device: null
+06-08 18:22:25.099 11442 11913 V Avrcp_ext: Single connection exists
+06-08 18:22:25.099 11442 11913 D Avrcp_ext: Enter sendPlayPosNotificationRsp
+06-08 18:22:25.099 11442 11913 D Avrcp_ext: sendPlayPosNotificationRsp: Not registered or requesting.
+06-08 18:22:25.099 11442 11913 D Avrcp_ext: Enter sendPlayPosNotificationRsp
+06-08 18:22:25.099 11442 11913 D Avrcp_ext: sendPlayPosNotificationRsp: Not registered or requesting.
+06-08 18:22:25.099 11442 11913 D Avrcp_ext: Enter sendPlayPosNotificationRsp
+06-08 18:22:25.099 11442 11913 D Avrcp_ext: sendPlayPosNotificationRsp: Not registered or requesting.
+06-08 18:22:25.099 11442 11913 D Avrcp_ext: Enter sendPlayPosNotificationRsp
+06-08 18:22:25.099 11442 11913 D Avrcp_ext: sendPlayPosNotificationRsp: Not registered or requesting.
+06-08 18:22:25.099 11442 11913 D Avrcp_ext: Enter sendPlayPosNotificationRsp
+06-08 18:22:25.099 11442 11913 D Avrcp_ext: sendPlayPosNotificationRsp: Not registered or requesting.
+06-08 18:22:25.099 11442 11913 V Avrcp_ext: Exit updatePlayerStateAndPosition
+06-08 18:22:25.099 11442 11913 V Avrcp_ext:  Exit onPlaybackStateChanged
+06-08 18:22:25.102  1245 31569 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+06-08 18:22:25.102  4164  4164 D MiPlayDetailViewModel: onMediaMetaChange(): metaData.title = 他似晨风起 | 第一期
+06-08 18:22:25.103 29468 29501 W QueryController: Could not detect idle state.
+06-08 18:22:25.106  6952  6952 I SafeBinderCall: onMediaMetaChange binder cost:7
+06-08 18:22:25.107  6952  6952 I MiPlayClientSDK: =======================================================================
+06-08 18:22:25.107  6952  6952 I MiPlayClientSDK: onMediaInfoChange start
+06-08 18:22:25.107  6952  6952 I MiPlayClientSDK: local_device_id, MediaMetaData{mArtist='Megrezz', mAlbum='null', mTitle='他似晨风起 | 第一期', mDuration=2968630, mId='', mCoverUrl='', mStatus=0, mVolume=0, mArt=android.graphics.Bitmap@c44d097, mPosition=0, mLrc='null', mPackgeName='cn.missevan', mSourceName='2738969101的Xiaomi Civi 2', mDeviceState=2}
+06-08 18:22:25.107  6952  6952 I MiPlayClientSDK: onMediaInfoChange end
+06-08 18:22:25.107  6952  6952 I MiPlayClientSDK: =======================================================================
+06-08 18:22:25.107  6952  6952 I MiPlayProxyDeviceManager: onMediaInfoChange
+06-08 18:22:25.107  6952  6952 I MiPlay  : onMediaMetaChanged,local_device_id, meta:MediaMetaData{mArtist='Megrezz', mAlbum='null', mTitle='他似晨风起 | 第一期', mDuration=2968630, art:valid}
+06-08 18:22:25.107  6952  6952 I Cir_Miplay_ActiveSessionRecord: onPlaybackStateChanged:3
+06-08 18:22:25.108  6952  6952 I Cir_Miplay_ActiveSessionRecordStack: onPlaybackStateChange.
+06-08 18:22:25.109  1245 31569 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+06-08 18:22:25.109  1245 31569 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+06-08 18:22:25.109  1245 31569 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+06-08 18:22:25.109  1245 31569 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+06-08 18:22:25.110  1245  1464 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+06-08 18:22:25.118  6952  6952 I Cir_Miplay_ActiveAudioSessionManager: TopAudioSession play change
+06-08 18:22:25.118  6952  6952 I Cir_Miplay_MiPlayAudioService: dispatchPlaybackStateChange:3
+06-08 18:22:25.118  6952  6952 I Cir_Miplay_MiPlayAudioService: localPlayStateChange state:3
+06-08 18:22:25.118  6952  6952 I Cir_Miplay_MiPlayAudioService: playStateNotify state:3  ,id:,uuid:local_device_id
+06-08 18:22:25.118  6952  6952 I ActiveSessionRecord: onPlaybackStateChanged: PlaybackState {state=3, position=54, buffered position=0, speed=1.0, updated=3046145366, actions=894, custom actions=[], active item id=-1, error=null}
+06-08 18:22:25.123  6952  6952 I ActiveAudioSessionManager: startPositionCallbackTask
+06-08 18:22:25.123  1245 31570 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+06-08 18:22:25.124  1245 31570 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+06-08 18:22:25.124  1245 31570 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+06-08 18:22:25.124  4164  4164 D MiPlayDetailViewModel: onPlaybackStateChange(): state = 3
+06-08 18:22:25.126  6952  6952 I SafeBinderCall: onPlaybackStateChange binder cost:3
+06-08 18:22:25.126  6952  6952 I MiPlayClientSDK: =======================================================================
+06-08 18:22:25.126  6952  6952 I MiPlayClientSDK: onPlayStateChange start
+06-08 18:22:25.126  6952  6952 I MiPlayClientSDK: local_device_id, state:3
+06-08 18:22:25.126  6952  6952 I MiPlayClientSDK: onPlayStateChange end
+06-08 18:22:25.126  6952  6952 I MiPlayClientSDK: =======================================================================
+06-08 18:22:25.126  6952  6952 I MiPlayProxyDeviceManager: onPlayStateChange
+06-08 18:22:25.126  6952  6952 I MiPlay  : onPlaybackStateChanged,local_device_id, state:pause
+06-08 18:22:25.148 29468 29501 I appium  : AppiumResponse: {"sessionId":"cfd318ce-f210-4e8c-9683-1cb7f91149d1","value":{"ELEMENT":"00000000-0000-0203-ffff-ffff00025320","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0203-ffff-ffff00025320"}}
+06-08 18:22:25.166 29468 29501 I appium  : channel read: GET /wd/hub/session/cfd318ce-f210-4e8c-9683-1cb7f91149d1/element/00000000-0000-0203-ffff-ffff00025320/text
+06-08 18:22:25.167 29468 29501 I appium  : GetText command
+06-08 18:22:25.182  2403  5811 I WindowManagerService: Physical orientation applied, rotation=0 sfOrientation=ORIENTATION_0
+06-08 18:22:25.203  1977  2997 D libsensor-displayalgo: the value of  brightness:400.000000,R:5113627.852208,G:4999912.183739,B:5182922.147386,EVENT_C:3812.000000,EVENT_R:1579.500000,EVENT_G:1844.000000,EVENT_B:748.000000
+06-08 18:22:25.203  1977  2997 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-08 18:22:25.203  1977  2997 E libsensor-displayalgo: RGB_black_white_scenario_0822!
+06-08 18:22:25.203  1977  2997 I libsensor-displayalgo: the value of  RESULT152.142928,54.466625,81.089780,27.952037
+06-08 18:22:25.203  1977  2997 I libsensor-displayalgo: the value of  getChannelDataCalibrated158.984946,50.471797,93.828722,30.296851
+06-08 18:22:25.203  1977  2997 I libsensor-displayalgo: the value of  REAL LUX221.493149
+06-08 18:22:25.203  1977  2997 I libsensor-displayalgo: the value of  CAL REAL LUX221.493149
+06-08 18:22:25.236  2403  4239 I WindowManagerService: Physical orientation applied, rotation=0 sfOrientation=ORIENTATION_0
+06-08 18:22:25.262  2403  3452 I WindowManagerService: Physical orientation applied, rotation=0 sfOrientation=ORIENTATION_0
+06-08 18:22:25.276 29468 29501 W QueryController: Could not detect idle state.
+06-08 18:22:25.282  2403  2911 D MIUIInput: [MotionEvent] notifyMotion - eventTime=2077968737823000, deviceId=8, source=0x1002, policyFlags=0x0, action=0x0, flags=0x0, downTime=2077968737823000, moveCount:0
+06-08 18:22:25.282  2403  2910 D MIUIInput: [MotionEvent] publisher action=0x4, 2077968737, channel '9ede85b NavigationBar0 (server)'
+06-08 18:22:25.282  2403  2910 D MIUIInput: [MotionEvent] publisher action=0x0, 2077968737, channel 'ee5aea9 NotificationShade (server)'
+06-08 18:22:25.284  4164  4164 D MIUIInput: [MotionEvent] ViewRootImpl windowName 'NotificationShade', { action=ACTION_DOWN, id[0]=0, pointerCount=1, eventTime=2077968737, downTime=2077968737, phoneEventTime=18:22:25.281 } moveCount:0
+06-08 18:22:25.285  4164  4164 D PanelView: cancelFlingSpring
+06-08 18:22:25.363 29523 29538 I cn.missevan: This is sticky GC, maxfree is 8388608 minfree is 2097152
+06-08 18:22:25.363 29523 29538 I cn.missevan: Background young concurrent copying GC freed 143081(7638KB) AllocSpace objects, 64(7788KB) LOS objects, 9% free, 61MB/68MB, paused 270us,250us total 100.806ms
+06-08 18:22:25.371  1245  2285 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+06-08 18:22:25.371  1977  2106 I libcitsensorservice@2.0-impl: msg_transfer
+06-08 18:22:25.372  1977  2987 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:8 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+06-08 18:22:25.372  1245  1846 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+06-08 18:22:25.373  1245 31573 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+06-08 18:22:25.374  2403  5875 I WindowManagerService: Physical orientation applied, rotation=0 sfOrientation=ORIENTATION_0
+06-08 18:22:25.382  1245 31573 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+06-08 18:22:25.382  1245 31573 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+06-08 18:22:25.383  1245 31573 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+06-08 18:22:25.384  1245 31573 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+06-08 18:22:25.388  1245  1464 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+06-08 18:22:25.395  1245 31574 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+06-08 18:22:25.396  1245 31574 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+06-08 18:22:25.396  1245 31574 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+06-08 18:22:25.406  2403  2911 D MIUIInput: [MotionEvent] notifyMotion - eventTime=2077968862983000, deviceId=8, source=0x1002, policyFlags=0x0, action=0x1, flags=0x0, downTime=2077968737823000, moveCount:0
+06-08 18:22:25.407  2403  2910 D MIUIInput: [MotionEvent] publisher action=0x1, 2077968862, channel 'ee5aea9 NotificationShade (server)'
+06-08 18:22:25.408  4164  4164 D MIUIInput: [MotionEvent] ViewRootImpl windowName 'NotificationShade', { action=ACTION_UP, id[0]=0, pointerCount=1, eventTime=2077968862, downTime=2077968737, phoneEventTime=18:22:25.406 } moveCount:0
+06-08 18:22:25.416 29468 29501 W QueryController: Could not detect idle state.
+06-08 18:22:25.417  4164  4389 I HapticFeedbackUtil: rtp:93
+06-08 18:22:25.418  5373 30186 W MiuiPerfServiceClient: interceptAndQueuing:29523|cn.missevan|1433|117|2077967627783512|Slow handle traversal|25
+06-08 18:22:25.419  5373 30186 W MiuiPerfServiceClient: interceptAndQueuing:29523|cn.missevan|161|91|2077968380974554|Slow handle traversal|3
+06-08 18:22:25.420  5373 30186 W MiuiPerfServiceClient: interceptAndQueuing:29523|cn.missevan|254|147|2077968770228095|Slow main thread|3
+06-08 18:22:25.421  1327  1327 D vendor.hardware.vibratorfeature: Vibrator perform effect 93
+06-08 18:22:25.421  1327  1327 D vendor.hardware.vibratorfeature: uses mCurrMagnitudeExt 1.000000
+06-08 18:22:25.421  1327  1327 D vendor.hardware.vibratorfeature: getAmplitudeFromEffectStrength 1.000000
+06-08 18:22:25.422  1327  1327 D vendor.hardware.vibratorfeature: return from driver is 479
+06-08 18:22:25.422  1327  1327 D vendor.hardware.vibratorfeature: playLengthMs is 529
+06-08 18:22:25.424  1327 31576 D vendor.hardware.vibratorfeature: Starting perform on another thread
+06-08 18:22:25.446  2403  5694 I WindowManagerService: Physical orientation applied, rotation=0 sfOrientation=ORIENTATION_0
+06-08 18:22:25.457 29468 29501 I appium  : AppiumResponse: {"sessionId":"cfd318ce-f210-4e8c-9683-1cb7f91149d1","value":"他似晨风起 | 预告"}
+06-08 18:22:25.474 29468 29501 I appium  : channel read: GET /wd/hub/session/cfd318ce-f210-4e8c-9683-1cb7f91149d1/screenshot
+06-08 18:22:25.477 29468 29501 I appium  : CaptureScreenshot command
+06-08 18:22:25.510  2403  4648 I WindowManagerService: Physical orientation applied, rotation=0 sfOrientation=ORIENTATION_0
+06-08 18:22:25.531  5357  5357 D MiBarrage: No barrage: not in game scene or in video scene
+06-08 18:22:25.534  4164  4164 D NotificationFilterController: filter group summary suppressed key=0|com.xiaomi.market|2147483647|ranker_group|10114|ranker_group
+06-08 18:22:25.535  4164  4164 D InterruptionStateProvider: No alerting: filtered notification: 0|cn.missevan|1500|null|10462
+06-08 18:22:25.536  4164  4164 D InterruptionStateProvider: No alerting: filtered notification: 0|cn.missevan|1500|null|10462
+06-08 18:22:25.539  5786  8455 W Parcel  : **** enforceInterface() expected 'com.miui.gamebooster.service.ISecurityCenterNotificationListener' but read 'android.service.notification.INotificationListener'
+06-08 18:22:25.540  5786  8455 W Binder  : Caught a RuntimeException from the binder stub implementation.
+06-08 18:22:25.540  5786  8455 W Binder  : java.lang.SecurityException: Binder invocation to an incorrect interface
+06-08 18:22:25.540  5786  8455 W Binder  : 	at android.os.Parcel.nativeEnforceInterface(Native Method)
+06-08 18:22:25.540  5786  8455 W Binder  : 	at android.os.Parcel.enforceInterface(Parcel.java:699)
+06-08 18:22:25.540  5786  8455 W Binder  : 	at com.miui.gamebooster.service.ISecurityCenterNotificationListener$Stub.onTransact(Unknown Source:18)
+06-08 18:22:25.540  5786  8455 W Binder  : 	at android.os.Binder.execTransactInternal(Binder.java:1190)
+06-08 18:22:25.540  5786  8455 W Binder  : 	at android.os.Binder.execTransact(Binder.java:1149)
+06-08 18:22:25.541  5357  5357 D MiBarrage: No barrage: not in game scene or in video scene
+06-08 18:22:25.548  5786  8455 W Parcel  : **** enforceInterface() expected 'com.miui.gamebooster.service.ISecurityCenterNotificationListener' but read 'android.service.notification.INotificationListener'
+06-08 18:22:25.550  5786  8455 W Binder  : Caught a RuntimeException from the binder stub implementation.
+06-08 18:22:25.550  5786  8455 W Binder  : java.lang.SecurityException: Binder invocation to an incorrect interface
+06-08 18:22:25.550  5786  8455 W Binder  : 	at android.os.Parcel.nativeEnforceInterface(Native Method)
+06-08 18:22:25.550  5786  8455 W Binder  : 	at android.os.Parcel.enforceInterface(Parcel.java:699)
+06-08 18:22:25.550  5786  8455 W Binder  : 	at com.miui.gamebooster.service.ISecurityCenterNotificationListener$Stub.onTransact(Unknown Source:18)
+06-08 18:22:25.550  5786  8455 W Binder  : 	at android.os.Binder.execTransactInternal(Binder.java:1190)
+06-08 18:22:25.550  5786  8455 W Binder  : 	at android.os.Binder.execTransact(Binder.java:1149)
+06-08 18:22:25.551 29685 30703 D AudioTrack: [audioTrackData][fine] 15s(f:15067 m:3926 s:338 k:0) : pid 29685 uid 10462 sessionId 9417 sr 44100 ch 2 fmt 1
+06-08 18:22:25.553  5786  8520 V onNotificationPostedCallBack: flags=98
+06-08 18:22:25.555  5786  8520 V m       : ret=0
+06-08 18:22:25.561  4164  4389 D PeopleSpaceWidgetMgr: Sbn doesn't contain valid PeopleTileKey: null/0/cn.missevan
+06-08 18:22:25.569  4164  4164 D NotificationFilterController: filter group summary suppressed key=0|com.xiaomi.market|2147483647|ranker_group|10114|ranker_group
+06-08 18:22:25.569  5786  8520 V onNotificationPostedCallBack: flags=98
+06-08 18:22:25.570  4164  4164 D InterruptionStateProvider: No alerting: filtered notification: 0|cn.missevan|1500|null|10462
+06-08 18:22:25.571  4164  4164 D InterruptionStateProvider: No alerting: filtered notification: 0|cn.missevan|1500|null|10462
+06-08 18:22:25.573  5786  8520 V m       : ret=0
+06-08 18:22:25.575  4164  4164 I MediaCarouselController: media_data_arrive: addOrUpdatePlayer
+06-08 18:22:25.575  4164  4164 I MiuiMediaControlPanel: media_data_arrive: bindPlayer: mPlayerViewHolder=com.android.systemui.media.PlayerViewHolder@100c6ee
+06-08 18:22:25.575  4164  4164 I MiuiMediaControlPanel: media_data_arrive: bindPlayer: 猫耳FM, 他似晨风起 | 第一期, Megrezz
+06-08 18:22:25.575  4164  4164 I MiuiMediaControlPanel: MediaAction: contentDesc=快退; MediaAction: contentDesc=上一首; MediaAction: contentDesc=暂停; MediaAction: contentDesc=下一首; MediaAction: contentDesc=快进;
+06-08 18:22:25.576  4164  4164 D MiuiMediaControlPanel: setArtwork---ProcessArtworkTask
+06-08 18:22:25.586  4164  4389 D PeopleSpaceWidgetMgr: Sbn doesn't contain valid PeopleTileKey: null/0/cn.missevan
+06-08 18:22:25.604  1977  2997 D libsensor-displayalgo: the value of  brightness:400.000000,R:4561311.833598,G:4155768.497039,B:4582652.465405,EVENT_C:3776.500000,EVENT_R:1568.000000,EVENT_G:1825.000000,EVENT_B:743.000000
+06-08 18:22:25.604  1977  2997 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-08 18:22:25.604  1977  2997 E libsensor-displayalgo: RGB_black_white_scenario_0822!
+06-08 18:22:25.604  1977  2997 I libsensor-displayalgo: the value of  RESULT124.162729,44.453913,65.210512,22.677203
+06-08 18:22:25.604  1977  2997 I libsensor-displayalgo: the value of  getChannelDataCalibrated129.746450,41.193462,75.454873,24.579527
+06-08 18:22:25.604  1977  2997 I libsensor-displayalgo: the value of  REAL LUX221.048218
+06-08 18:22:25.604  1977  2997 I libsensor-displayalgo: the value of  CAL REAL LUX221.048218
+06-08 18:22:25.617  2403  5693 I WindowManagerService: Physical orientation applied, rotation=0 sfOrientation=ORIENTATION_0
+06-08 18:22:25.622  4164  4164 I MediaCarouselController: media_data_arrive: addOrUpdatePlayer
+06-08 18:22:25.622  4164  4164 I MiuiMediaControlPanel: media_data_arrive: bindPlayer: mPlayerViewHolder=com.android.systemui.media.PlayerViewHolder@100c6ee
+06-08 18:22:25.622  4164  4164 I MiuiMediaControlPanel: media_data_arrive: bindPlayer: 猫耳FM, 他似晨风起 | 第一期, Megrezz
+06-08 18:22:25.622  4164  4164 I MiuiMediaControlPanel: MediaAction: contentDesc=快退; MediaAction: contentDesc=上一首; MediaAction: contentDesc=暂停; MediaAction: contentDesc=下一首; MediaAction: contentDesc=快进;
+06-08 18:22:25.645  1604  1966 D IdProviderImpl: getOAID from com.miui.analytics
+06-08 18:22:25.654  1604  1966 D IdProviderImpl: getOAID from com.miui.analytics
+06-08 18:22:25.676  2403  5693 I WindowManagerService: Physical orientation applied, rotation=0 sfOrientation=ORIENTATION_0
+06-08 18:22:25.677  1245  2285 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+06-08 18:22:25.677  1977  3798 I libcitsensorservice@2.0-impl: msg_transfer
+06-08 18:22:25.678  1977  2987 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:8 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+06-08 18:22:25.678  1245  1846 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+06-08 18:22:25.686  1245 31584 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+06-08 18:22:25.694  1245 31584 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+06-08 18:22:25.694  1245 31584 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+06-08 18:22:25.695  1245 31584 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+06-08 18:22:25.696  1245 31584 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+06-08 18:22:25.696  1245  1464 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+06-08 18:22:25.703 29523 29523 I HandWritingStubImpl: isKeyboardTypeChanged: false
+06-08 18:22:25.705 29523 29523 I HandWritingStubImpl: isKeyboardTypeChanged: false
+06-08 18:22:25.707 29523 29523 I HandWritingStubImpl: isKeyboardTypeChanged: false
+06-08 18:22:25.707 29523 29523 I HandWritingStubImpl: isKeyboardTypeChanged: false
+06-08 18:22:25.708 29523 29523 I HandWritingStubImpl: isKeyboardTypeChanged: false
+06-08 18:22:25.708 29523 29523 I HandWritingStubImpl: isKeyboardTypeChanged: false
+06-08 18:22:25.709 29523 29523 I HandWritingStubImpl: isKeyboardTypeChanged: false
+06-08 18:22:25.709 29523 29523 I HandWritingStubImpl: isKeyboardTypeChanged: false
+06-08 18:22:25.709  1245 31585 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+06-08 18:22:25.709  1245 31585 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+06-08 18:22:25.709  1245 31585 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+06-08 18:22:25.709  4164  4708 W RenderInspector: QueueBuffer time out on NotificationShade, count=1, avg=15 ms, max=15 ms.
+06-08 18:22:25.740  6952  6952 I Cir_Miplay_ActiveAudioSessionManager: dispatchTopActiveSessionChangeCallbackLocked, size:1
+06-08 18:22:25.741  6952  6952 I Cir_Miplay_MiPlayAudioService: onTopActiveSessionChange, cn.missevan
+06-08 18:22:25.741  6952  6952 I Cir_Miplay_MiPlayAudioService: topActiveSessionChange appId:cn.missevan
+06-08 18:22:25.741  6952  6952 I Cir_Miplay_MiPlayAudioStatUtils: recordPackageName:cn.missevan
+06-08 18:22:25.741  6952  6952 I Cir_Miplay_MiPlayAudioStatUtils: packageNameEquals.
+06-08 18:22:25.741  6952  6952 I Cir_Miplay_ActiveSessionRecord: dispatch meta change, MediaMetaData{mArtist='Megrezz', mAlbum='null', mTitle='他似晨风起 | 第一期', mArt=valid, mDuration=2968630, mLrc='null'}
+06-08 18:22:25.741  6952  6952 I Cir_Miplay_MiPlayAudioService: dispatchMetaChange:cn.missevan  ActiveSsionPackageName:cn.missevan
+06-08 18:22:25.742 11442 11913 V Avrcp_ext: onMetadataChanged
+06-08 18:22:25.743  6952  6952 I MiPlayProxyDeviceManager: onTopActiveSessionChange, cn.missevan
+06-08 18:22:25.744  6952  6952 I SafeBinderCall: onTopActiveSessionChange binder cost:0
+06-08 18:22:25.746  6952  7187 I SafeBinderCall: onActiveAudioSessionChange binder cost:1
+06-08 18:22:25.746  6952  6952 I SafeBinderCall: onMediaMetaChange binder cost:2
+06-08 18:22:25.748  4164  4164 D MiPlayDetailViewModel: onActiveAudioSessionChange(): audioSessionList?.size = 1
+06-08 18:22:25.749 11442 11913 V Avrcp_ext: updateCurrentMediaState: mMediaController: MediaController (cn.missevan@1e9b8f9) 他似晨风起 | 第一期, Megrezz, null
+06-08 18:22:25.749 11442 11913 V Avrcp_ext: updateCurrentMediaState: isPlaying = false
+06-08 18:22:25.749 11442 11913 W Avrcp_ext: isMusicActive: true getBluetoothPlayState: 1 A2dp State: 11 mAudioPlaybackIsActive: true
+06-08 18:22:25.750 11442 11913 D Avrcp_ext: isMusicActive = true mAudioPlaybackIsActive = true player state = PlaybackState {state=3, position=730, buffered position=0, speed=1.0, updated=3046146042, actions=894, custom actions=[], active item id=-1, error=null}
+06-08 18:22:25.751 11442 11913 D Avrcp_ext: overwrite album_artist :if album is blank
+06-08 18:22:25.751  4164  4164 I SafeBinderCall: call getMediaMetaData binder cost:2
+06-08 18:22:25.752 11442 11913 V Avrcp_ext: Media update: id -1➡-1? [MediaAttributes: 他⋯期 -  by M⋯z (2968630 0/0) - ] : [MediaAttributes: 他⋯期 -  by M⋯z (2968630 0/0) - ]
+06-08 18:22:25.752 11442 11913 D Avrcp_ext: isPackageNameValid: browsedPackage = cn.missevanisValid = true
+06-08 18:22:25.752 11442 11913 V Avrcp_ext: isBrowseSupported for cn.missevan: false
+06-08 18:22:25.752 11442 11913 V Avrcp_ext: updatePlaybackState, state: PlaybackState {state=3, position=730, buffered position=0, speed=1.0, updated=3046146042, actions=894, custom actions=[], active item id=-1, error=null} device: null
+06-08 18:22:25.752 11442 11913 V Avrcp_ext: Device: no name:
+06-08 18:22:25.752 11442 11913 V Avrcp_ext: Device: no name:
+06-08 18:22:25.752 11442 11913 V Avrcp_ext: Device: no name:
+06-08 18:22:25.752 11442 11913 V Avrcp_ext: Device: no name:
+06-08 18:22:25.752 11442 11913 V Avrcp_ext: Device: no name:
+06-08 18:22:25.752 11442 11913 V Avrcp_ext: updatePlayerStateAndPosition, old=PlaybackState {state=3, position=70, buffered position=0, speed=1.0, updated=3046145382, actions=894, custom actions=[], active item id=-1, error=null}, state=PlaybackState {state=3, position=730, buffered position=0, speed=1.0, updated=3046146042, actions=894, custom actions=[], active item id=-1, error=null}
+06-08 18:22:25.752 11442 11913 V Avrcp_ext: old state = PlaybackState {state=3, position=70, buffered position=0, speed=1.0, updated=3046145382, actions=894, custom actions=[], active item id=-1, error=null}, new state= PlaybackState {state=3, position=730, buffered position=0, speed=1.0, updated=3046146042, actions=894, custom actions=[], active item id=-1, error=null}
+06-08 18:22:25.752 11442 11913 D HeadsetService: getHeadsetService(): returning com.android.bluetooth.hfp.HeadsetService@6a6242b
+06-08 18:22:25.752 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:25.753  4164  4164 I SafeBinderCall: call getPosition binder cost:2
+06-08 18:22:25.752 11442 11913 D HeadsetService: isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+06-08 18:22:25.754 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:25.754 11442 11913 V Avrcp_ext: isPlayStateTobeUpdated: device: null
+06-08 18:22:25.754 11442 11913 V Avrcp_ext: Single connection exists
+06-08 18:22:25.754 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:25.754 11442 11913 D HeadsetService: isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+06-08 18:22:25.754 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:25.754 11442 11913 V Avrcp_ext: isPlayStateTobeUpdated: device: null
+06-08 18:22:25.754 11442 11913 V Avrcp_ext: Single connection exists
+06-08 18:22:25.754 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:25.754 11442 11913 D HeadsetService: isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+06-08 18:22:25.754 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:25.754 11442 11913 V Avrcp_ext: isPlayStateTobeUpdated: device: null
+06-08 18:22:25.754 11442 11913 V Avrcp_ext: Single connection exists
+06-08 18:22:25.754 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:25.754 11442 11913 D HeadsetService: isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+06-08 18:22:25.754 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:25.754 11442 11913 V Avrcp_ext: isPlayStateTobeUpdated: device: null
+06-08 18:22:25.754 11442 11913 V Avrcp_ext: Single connection exists
+06-08 18:22:25.754 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:25.754 11442 11913 D HeadsetService: isScoOrCallActive(): Call Active:falseCall is Ringing:falseSCO is Active:false
+06-08 18:22:25.754 11442 11913 D HeadsetService:  isAudioOn: The number of audio connected devices 0
+06-08 18:22:25.754 11442 11913 V Avrcp_ext: isPlayStateTobeUpdated: device: null
+06-08 18:22:25.754 11442 11913 V Avrcp_ext: Single connection exists
+06-08 18:22:25.754 11442 11913 D Avrcp_ext: Enter sendPlayPosNotificationRsp
+06-08 18:22:25.754 11442 11913 D Avrcp_ext: sendPlayPosNotificationRsp: Not registered or requesting.
+06-08 18:22:25.754 11442 11913 D Avrcp_ext: Enter sendPlayPosNotificationRsp
+06-08 18:22:25.754 11442 11913 D Avrcp_ext: sendPlayPosNotificationRsp: Not registered or requesting.
+06-08 18:22:25.754 11442 11913 D Avrcp_ext: Enter sendPlayPosNotificationRsp
+06-08 18:22:25.754 11442 11913 D Avrcp_ext: sendPlayPosNotificationRsp: Not registered or requesting.
+06-08 18:22:25.754 11442 11913 D Avrcp_ext: Enter sendPlayPosNotificationRsp
+06-08 18:22:25.754 11442 11913 D Avrcp_ext: sendPlayPosNotificationRsp: Not registered or requesting.
+06-08 18:22:25.754 11442 11913 D Avrcp_ext: Enter sendPlayPosNotificationRsp
+06-08 18:22:25.754 11442 11913 D Avrcp_ext: sendPlayPosNotificationRsp: Not registered or requesting.
+06-08 18:22:25.754 11442 11913 V Avrcp_ext: Exit updatePlayerStateAndPosition
+06-08 18:22:25.757  4164  4164 I SafeBinderCall: call getPlaybackState binder cost:4
+06-08 18:22:25.757  6952 15990 I Cir_Miplay_MiPlayAudioService: dispatchMetaChange:MediaMetaData{mArtist='Megrezz', mAlbum='null', mTitle='他似晨风起 | 第一期', mArt=valid, mDuration=2968630, mLrc='null'}
+06-08 18:22:25.757  6952  6952 I MiPlayClientSDK: =======================================================================
+06-08 18:22:25.758  6952  6952 I MiPlayClientSDK: onMediaInfoChange start
+06-08 18:22:25.758  6952 15990 I Cir_Miplay_MetaInfoManager: setMetadata.
+06-08 18:22:25.758  6952  6952 I MiPlayClientSDK: local_device_id, MediaMetaData{mArtist='Megrezz', mAlbum='null', mTitle='他似晨风起 | 第一期', mDuration=2968630, mId='', mCoverUrl='', mStatus=0, mVolume=0, mArt=android.graphics.Bitmap@69586a2, mPosition=0, mLrc='null', mPackgeName='cn.missevan', mSourceName='2738969101的Xiaomi Civi 2', mDeviceState=2}
+06-08 18:22:25.758  6952  6952 I MiPlayClientSDK: onMediaInfoChange end
+06-08 18:22:25.758  6952  6952 I MiPlayClientSDK: =======================================================================
+06-08 18:22:25.758  6952  6952 I MiPlayProxyDeviceManager: onMediaInfoChange
+06-08 18:22:25.758  6952  6952 I MiPlay  : onMediaMetaChanged,local_device_id, meta:MediaMetaData{mArtist='Megrezz', mAlbum='null', mTitle='他似晨风起 | 第一期', mDuration=2968630, art:valid}
+06-08 18:22:25.820  2403  5693 I WindowManagerService: Physical orientation applied, rotation=0 sfOrientation=ORIENTATION_0
+06-08 18:22:25.857  5373 30186 W MiuiPerfServiceClient: interceptAndQueuing:29523|cn.missevan|282|75|2077969119602262|Slow handle traversal|4
+06-08 18:22:25.867  6952 31243 I SafeBinderCall: onPositionChange binder cost:0
+06-08 18:22:25.869  4164  4164 D MiPlayDetailViewModel: onPositionChange(): position = 847
+06-08 18:22:25.873  2403  4648 I WindowManagerService: Physical orientation applied, rotation=0 sfOrientation=ORIENTATION_0
+06-08 18:22:25.880 29523 29538 I cn.missevan: This is non sticky GC, maxfree is 8388608 minfree is 2097152
+06-08 18:22:25.880 29523 29538 I cn.missevan: Background concurrent copying GC freed 416141(17MB) AllocSpace objects, 62(19MB) LOS objects, 39% free, 36MB/60MB, paused 486us,112us total 448.603ms
+06-08 18:22:25.901  2403  4648 I WindowManagerService: Physical orientation applied, rotation=0 sfOrientation=ORIENTATION_0
+06-08 18:22:25.904  1977  2997 D libsensor-displayalgo: the value of  brightness:400.000000,R:4560851.879136,G:4146582.030840,B:4581025.076281,EVENT_C:3752.500000,EVENT_R:1560.000000,EVENT_G:1811.000000,EVENT_B:735.000000
+06-08 18:22:25.904  1977  2997 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-08 18:22:25.904  1977  2997 E libsensor-displayalgo: RGB_black_white_scenario_0822!
+06-08 18:22:25.904  1977  2997 I libsensor-displayalgo: the value of  RESULT123.879087,44.364579,65.028326,22.620612
+06-08 18:22:25.904  1977  2997 I libsensor-displayalgo: the value of  getChannelDataCalibrated129.450052,41.110681,75.244066,24.518188
+06-08 18:22:25.904  1977  2997 I libsensor-displayalgo: the value of  REAL LUX219.691330
+06-08 18:22:25.904  1977  2997 I libsensor-displayalgo: the value of  CAL REAL LUX219.691330
+06-08 18:22:25.953  1327 31576 D vendor.hardware.vibratorfeature: Notifying perform complete
+06-08 18:22:25.954  1327  1327 D vendor.hardware.vibratorfeature: QTI Vibrator off
+06-08 18:22:25.955  1327  1327 D DynamicEffectThread: pause
+06-08 18:22:25.955  1327  1327 D DynamicEffectDevice: FFDevice pause
+06-08 18:22:25.966  4164  4164 V ShadeControllerImpl: NotificationShadeWindow: com.android.systemui.statusbar.phone.NotificationShadeWindowView{4c298e4 V.E...... ......ID 0,0-1080,2400} canPanelBeCollapsed(): true
+06-08 18:22:25.968  4164  4164 V PanelView:  updateDismissView false
+06-08 18:22:25.982  1245  2285 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+06-08 18:22:25.982  1977  3798 I libcitsensorservice@2.0-impl: msg_transfer
+06-08 18:22:25.983  1977  2987 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:8 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+06-08 18:22:25.983  1245  1846 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+06-08 18:22:25.984  2403  5693 I WindowManagerService: Physical orientation applied, rotation=0 sfOrientation=ORIENTATION_0
+06-08 18:22:25.988  4164  5025 D MiBridge: requestCpuHighFreq---- uid: 1000 level: 1 timeoutms:2000
+06-08 18:22:25.989  1875  1898 W MiuiBooster: "MiuiBoosterService requestCpuHighFreq: 1000, 1, 2000"
+06-08 18:22:25.989  1875  1898 W MiuiBooster: "requestCpuHighFreq,final level:1,final timeoutms:2000"
+06-08 18:22:25.989  1875  1898 W MiuiBooster: "perf_hint_hc start"
+06-08 18:22:25.989  1875  1898 W MiuiBooster: "big_core_value[level-1]:4095"
+06-08 18:22:25.989  1875  1898 W MiuiBooster: "little_core_value[level-1]:4095"
+06-08 18:22:25.989  1875  1898 W MiuiBooster: "prime_core_value[level - 1]:4095"
+06-08 18:22:25.991  1875  1898 W MiuiBooster: "perf_handle:780639"
+06-08 18:22:25.986  1262  1262 W perf-hal-servic: type=1400 audit(0.0:273334): avc: denied { search } for name="1875" dev="proc" ino=73064360 scontext=u:r:vendor_hal_perf_default:s0 tcontext=u:r:miuibooster:s0 tclass=dir permissive=0
+06-08 18:22:25.986  1262  1262 W perf-hal-servic: type=1400 audit(0.0:273335): avc: denied { search } for name="1875" dev="proc" ino=73064360 scontext=u:r:vendor_hal_perf_default:s0 tcontext=u:r:miuibooster:s0 tclass=dir permissive=0
+06-08 18:22:25.991  4164  5025 D CpuBoostUtil: boostCpuToMax:0
+06-08 18:22:25.993  1245 31586 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+06-08 18:22:26.002  2403  3919 I WindowManagerService: Physical orientation applied, rotation=0 sfOrientation=ORIENTATION_0
+06-08 18:22:26.006  1245 31586 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+06-08 18:22:26.007  1245 31586 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+06-08 18:22:26.007  1245 31586 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+06-08 18:22:26.007  1245 31586 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+06-08 18:22:26.008  7124  7124 D NavStubView_Touch: onSystemUiFlagsChanged  mIsShowStatusBar    old= true   new=true
+06-08 18:22:26.008  7124  7124 D NavStubView_Touch: onSystemUiFlagsChanged  mIsShowNavBar    old= true   new=true
+06-08 18:22:26.009  1245  1464 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+06-08 18:22:26.015  1245 31588 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+06-08 18:22:26.015  1245 31588 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+06-08 18:22:26.015  1245 31588 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+06-08 18:22:26.078  2403  5694 I WindowManagerService: Physical orientation applied, rotation=0 sfOrientation=ORIENTATION_0
+06-08 18:22:26.094 29523 29523 D DecorView[]: onWindowFocusChanged hasWindowFocus true
+06-08 18:22:26.094 29523 29523 I HandWritingStubImpl: isKeyboardTypeChanged: false
+06-08 18:22:26.094 29523 29523 I HandWritingStubImpl: refreshLastKeyboardType: 1
+06-08 18:22:26.094 29523 29523 I HandWritingStubImpl: getCurrentKeyboardType: 1
+06-08 18:22:26.102  7825  7825 E BaseInputMethodService: onFinishInput
+06-08 18:22:26.104  7825  7825 E BaseInputMethodService: onStartInput
+06-08 18:22:26.127  2403  5693 I WindowManagerService: Physical orientation applied, rotation=0 sfOrientation=ORIENTATION_0
+06-08 18:22:26.129 29523 29523 I HandWritingStubImpl: isKeyboardTypeChanged: false
+06-08 18:22:26.204  1977  2997 D libsensor-displayalgo: the value of  brightness:400.000000,R:4560661.041690,G:4142853.469201,B:4579365.003580,EVENT_C:3786.500000,EVENT_R:1569.000000,EVENT_G:1831.000000,EVENT_B:747.000000
+06-08 18:22:26.204  1977  2997 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-08 18:22:26.204  1977  2997 E libsensor-displayalgo: RGB_black_white_scenario_0822!
+06-08 18:22:26.204  1977  2997 I libsensor-displayalgo: the value of  RESULT123.757477,44.322294,64.953924,22.594601
+06-08 18:22:26.205  1977  2997 I libsensor-displayalgo: the value of  getChannelDataCalibrated129.322973,41.071497,75.157976,24.489995
+06-08 18:22:26.205  1977  2997 I libsensor-displayalgo: the value of  REAL LUX221.695847
+06-08 18:22:26.205  1977  2997 I libsensor-displayalgo: the value of  CAL REAL LUX221.695847
+06-08 18:22:26.220 29468 29501 I appium  : AppiumResponse: {"sessionId":"cfd318ce-f210-4e8c-9683-1cb7f91149d1","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAAlgCAYAAABtGofVAAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHic7L15mF3VdeC7jo2N0S2TBEdVHjqGqnIGhyrSsfMsKel0G5V4X7rN5HRe\nLMDpBDxlQELE/cIoXiMxZcAIyUlsEDhJmyEv/RKm9PfFUCL9Xn+WxEs7+Sjx0jZWFYk7NlXE2E3q\nytjG3…
+06-08 18:22:26.222 29468 29477 I tomator2.serve: This is sticky GC, maxfree is 8388608 minfree is 2097152
+06-08 18:22:26.232  2403  5693 I WindowManagerService: Physical orientation applied, rotation=0 sfOrientation=ORIENTATION_0
+06-08 18:22:26.272  4164  4177 D BLASTBufferQueue: releaseBufferCallback ReleaseCallbackId: bufferId:17884243828837 framenumber:261
+06-08 18:22:26.273 29523 30301 D BLASTBufferQueue: releaseBufferCallback ReleaseCallbackId: bufferId:126800319480058 framenumber:42
+06-08 18:22:26.287  1245  2285 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+06-08 18:22:26.287  1977  3798 I libcitsensorservice@2.0-impl: msg_transfer
+06-08 18:22:26.288  1977  2987 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:8 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+06-08 18:22:26.288  1245  1846 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)

@@ -1,0 +1,330 @@
+06-08 18:06:35.760  4164  4164 D MiPlayDetailViewModel: onPositionChange(): position = 26805
+06-08 18:06:35.760  6952 20004 I SafeBinderCall: onPositionChange binder cost:0
+06-08 18:06:35.844  1245  2285 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+06-08 18:06:35.845  1977 18363 I libcitsensorservice@2.0-impl: msg_transfer
+06-08 18:06:35.846  1977  2987 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:8 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+06-08 18:06:35.846  1245  1846 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+06-08 18:06:35.847  1245 20236 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+06-08 18:06:35.854  1245 20236 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+06-08 18:06:35.854  1245 20236 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+06-08 18:06:35.854  1245 20236 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+06-08 18:06:35.855  1245 20236 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+06-08 18:06:35.861  1245  1464 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+06-08 18:06:35.868  1245 20237 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+06-08 18:06:35.870  1245 20237 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+06-08 18:06:35.870  1245 20237 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+06-08 18:06:35.904  1977  2997 D libsensor-displayalgo: the value of  brightness:400.000000,R:18934780.468991,G:16789722.212748,B:32666677.668097,EVENT_C:4735.000000,EVENT_R:1925.000000,EVENT_G:2317.500000,EVENT_B:947.000000
+06-08 18:06:35.904  1977  2997 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-08 18:06:35.904  1977  2997 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-08 18:06:35.904  1977  2997 I libsensor-displayalgo: the value of  RESULT1087.014153,420.823739,543.255469,199.134795
+06-08 18:06:35.904  1977  2997 I libsensor-displayalgo: the value of  getChannelDataCalibrated1135.898252,389.958628,628.599151,215.839624
+06-08 18:06:35.904  1977  2997 I libsensor-displayalgo: the value of  REAL LUX213.580475
+06-08 18:06:35.904  1977  2997 I libsensor-displayalgo: the value of  CAL REAL LUX213.580475
+06-08 18:06:36.148  1245  2285 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+06-08 18:06:36.150  1977  2109 I libcitsensorservice@2.0-impl: msg_transfer
+06-08 18:06:36.150  1977  2987 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:8 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+06-08 18:06:36.151  1245  1846 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+06-08 18:06:36.154  1245 20238 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+06-08 18:06:36.159  1245 20238 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+06-08 18:06:36.159  1245 20238 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+06-08 18:06:36.161  1245 20238 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+06-08 18:06:36.161  1245 20238 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+06-08 18:06:36.166  1245  1464 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+06-08 18:06:36.172  1245 20239 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+06-08 18:06:36.173  1245 20239 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+06-08 18:06:36.177  1245 20239 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+06-08 18:06:36.205  1977  2997 D libsensor-displayalgo: the value of  brightness:400.000000,R:18934780.468991,G:16789722.212748,B:32666677.668097,EVENT_C:4695.000000,EVENT_R:1915.500000,EVENT_G:2296.000000,EVENT_B:937.000000
+06-08 18:06:36.205  1977  2997 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-08 18:06:36.206  1977  2997 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-08 18:06:36.206  1977  2997 I libsensor-displayalgo: the value of  RESULT1087.014153,420.823739,543.255469,199.134795
+06-08 18:06:36.206  1977  2997 I libsensor-displayalgo: the value of  getChannelDataCalibrated1135.898252,389.958628,628.599151,215.839624
+06-08 18:06:36.206  1977  2997 I libsensor-displayalgo: the value of  REAL LUX210.949753
+06-08 18:06:36.206  1977  2997 I libsensor-displayalgo: the value of  CAL REAL LUX210.949753
+06-08 18:06:36.442  1837  3108 I CameraImpl: checkAllClientsStoppedAndReclaimMem reclaim camera provider anon memory.
+06-08 18:06:36.453  1245  2285 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+06-08 18:06:36.454  1977  2109 I libcitsensorservice@2.0-impl: msg_transfer
+06-08 18:06:36.455  1977  2987 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:8 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+06-08 18:06:36.457  1245  1846 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+06-08 18:06:36.457  1245 20251 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+06-08 18:06:36.463  1245 20251 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+06-08 18:06:36.463  1245 20251 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+06-08 18:06:36.464  1245 20251 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+06-08 18:06:36.464  1245 20251 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+06-08 18:06:36.469  1245  1464 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+06-08 18:06:36.477  1245 20252 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+06-08 18:06:36.477  1245 20252 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+06-08 18:06:36.477  1245 20252 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+06-08 18:06:36.503  1977  2997 D libsensor-displayalgo: the value of  brightness:400.000000,R:18934780.468991,G:16789722.212748,B:32666677.668097,EVENT_C:4739.500000,EVENT_R:1931.000000,EVENT_G:2322.500000,EVENT_B:948.000000
+06-08 18:06:36.504  1977  2997 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-08 18:06:36.504  1977  2997 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-08 18:06:36.504  1977  2997 I libsensor-displayalgo: the value of  RESULT1087.014153,420.823739,543.255469,199.134795
+06-08 18:06:36.504  1977  2997 I libsensor-displayalgo: the value of  getChannelDataCalibrated1135.898252,389.958628,628.599151,215.839624
+06-08 18:06:36.504  1977  2997 I libsensor-displayalgo: the value of  REAL LUX213.818085
+06-08 18:06:36.504  1977  2997 I libsensor-displayalgo: the value of  CAL REAL LUX213.818085
+06-08 18:06:36.606 18435 18467 I appium  : channel read: POST /wd/hub/session/f84f00e2-411a-4162-9d70-a8da77e6b19f/elements
+06-08 18:06:36.607 18435 18467 I appium  : FindElements command
+06-08 18:06:36.610 18435 18467 I appium  : method: 'id', selector: 'cn.missevan:id/tvTitle'
+06-08 18:06:36.610 18435 18467 I appium  : Waiting up to 100ms for the device to idle
+06-08 18:06:36.759  1245  2285 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+06-08 18:06:36.760  1977  2106 I libcitsensorservice@2.0-impl: msg_transfer
+06-08 18:06:36.760  1977  2987 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:8 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+06-08 18:06:36.761  1245  1846 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+06-08 18:06:36.763  6952 20004 I SafeBinderCall: onPositionChange binder cost:3
+06-08 18:06:36.769  1245 20253 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+06-08 18:06:36.773  4164  4164 D MiPlayDetailViewModel: onPositionChange(): position = 27805
+06-08 18:06:36.777  1245 20253 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+06-08 18:06:36.778  1245 20253 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+06-08 18:06:36.778  1245 20253 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+06-08 18:06:36.778  1245 20253 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+06-08 18:06:36.783  1245  1464 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+06-08 18:06:36.790  1245 20254 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+06-08 18:06:36.790  1245 20254 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+06-08 18:06:36.790  1245 20254 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+06-08 18:06:36.803 18435 18467 W QueryController: Could not detect idle state.
+06-08 18:06:36.805  1977  2997 D libsensor-displayalgo: the value of  brightness:400.000000,R:18934780.468991,G:16789722.212748,B:32666677.668097,EVENT_C:4723.000000,EVENT_R:1923.000000,EVENT_G:2312.500000,EVENT_B:945.000000
+06-08 18:06:36.805  1977  2997 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-08 18:06:36.805  1977  2997 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-08 18:06:36.806  1977  2997 I libsensor-displayalgo: the value of  RESULT1087.014153,420.823739,543.255469,199.134795
+06-08 18:06:36.806  1977  2997 I libsensor-displayalgo: the value of  getChannelDataCalibrated1135.898252,389.958628,628.599151,215.839624
+06-08 18:06:36.806  1977  2997 I libsensor-displayalgo: the value of  REAL LUX212.743958
+06-08 18:06:36.806  1977  2997 I libsensor-displayalgo: the value of  CAL REAL LUX212.743958
+06-08 18:06:36.829 18435 18467 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@2fed39; boundsInParent: Rect(0, 0 - 1080, 956); boundsInScreen: Rect(0, 220 - 1080, 1176); packageName: cn.missevan; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; viewIdResName: cn.missevan:id/danmakuView; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: true; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+06-08 18:06:36.830 18435 18467 W ByMatcher: Skipping null child (1 of 2)
+06-08 18:06:36.897  2403  2403 W WindowManager: removeWindowToken: Attempted to remove non-existing token: android.os.Binder@a4f92d1
+06-08 18:06:36.939 18435 18467 I appium  : Caching 2 found elements
+06-08 18:06:36.946 18435 18467 I appium  : Cached 2 elements
+06-08 18:06:36.950 18435 18467 I appium  : AppiumResponse: {"sessionId":"f84f00e2-411a-4162-9d70-a8da77e6b19f","value":[{"ELEMENT":"00000000-0000-0194-ffff-ffff00000cff","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0194-ffff-ffff00000cff"},{"ELEMENT":"00000000-0000-0194-ffff-ffff00000d03","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0194-fff…
+06-08 18:06:36.983 18435 18467 I appium  : channel read: POST /wd/hub/session/f84f00e2-411a-4162-9d70-a8da77e6b19f/element/00000000-0000-0194-ffff-ffff00000d03/click
+06-08 18:06:36.984 18435 18467 I appium  : Click command
+06-08 18:06:37.063  1245  2285 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+06-08 18:06:37.065  1977  2109 I libcitsensorservice@2.0-impl: msg_transfer
+06-08 18:06:37.065  1977  2987 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:8 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+06-08 18:06:37.066  1245  1846 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+06-08 18:06:37.071  1245 20255 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+06-08 18:06:37.080  1245 20255 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+06-08 18:06:37.080  1245 20255 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+06-08 18:06:37.080  1245 20255 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+06-08 18:06:37.081  1245 20255 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+06-08 18:06:37.087  1245  1464 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+06-08 18:06:37.089  1245 20256 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+06-08 18:06:37.092  1245 20256 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+06-08 18:06:37.092  1245 20256 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+06-08 18:06:37.103  1977  2997 D libsensor-displayalgo: the value of  brightness:400.000000,R:18934780.468991,G:16789722.212748,B:32666677.668097,EVENT_C:4705.000000,EVENT_R:1920.000000,EVENT_G:2303.000000,EVENT_B:939.500000
+06-08 18:06:37.104  1977  2997 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-08 18:06:37.104  1977  2997 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-08 18:06:37.104  1977  2997 I libsensor-displayalgo: the value of  RESULT1087.014153,420.823739,543.255469,199.134795
+06-08 18:06:37.104  1977  2997 I libsensor-displayalgo: the value of  getChannelDataCalibrated1135.898252,389.958628,628.599151,215.839624
+06-08 18:06:37.104  1977  2997 I libsensor-displayalgo: the value of  REAL LUX211.601227
+06-08 18:06:37.104  1977  2997 I libsensor-displayalgo: the value of  CAL REAL LUX211.601227
+06-08 18:06:37.115 18435 18467 W QueryController: Could not detect idle state.
+06-08 18:06:37.317 18435 18467 W QueryController: Could not detect idle state.
+06-08 18:06:37.350  2403  5692 D MIUIInput: Input event injection from pid 18420, MotionEvent: DOWN
+06-08 18:06:37.352  2403  2910 D MIUIInput: [MotionEvent] publisher action=0x4, 2077020787, channel '9ede85b NavigationBar0 (server)'
+06-08 18:06:37.352  2403  2910 D MIUIInput: [MotionEvent] publisher action=0x0, 2077020787, channel '5f3d9f5 cn.missevan/cn.missevan.activity.MainActivity (server)'
+06-08 18:06:37.353  1379  2271 D RefreshRateConfigs: TouchBoost - choose 120.00fps
+06-08 18:06:37.353 18484 18484 D MIUIInput: [MotionEvent] ViewRootImpl windowName 'cn.missevan/cn.missevan.activity.MainActivity', { action=ACTION_DOWN, id[0]=0, pointerCount=1, eventTime=2077020787, downTime=2077020786, phoneEventTime=18:06:37.331 } moveCount:0
+06-08 18:06:37.362  2403  5692 D MIUIInput: Input event injection from pid 18420, MotionEvent: UP
+06-08 18:06:37.364  2403  2910 D MIUIInput: [MotionEvent] publisher action=0x1, 2077020787, channel '5f3d9f5 cn.missevan/cn.missevan.activity.MainActivity (server)'
+06-08 18:06:37.366 18484 18484 D MIUIInput: [MotionEvent] ViewRootImpl windowName 'cn.missevan/cn.missevan.activity.MainActivity', { action=ACTION_UP, id[0]=0, pointerCount=1, eventTime=2077020787, downTime=2077020786, phoneEventTime=18:06:37.330 } moveCount:0
+06-08 18:06:37.367 18484 18484 E cn.missevan: No package ID ff found for ID 0xffffffff.
+06-08 18:06:37.368  1245  2285 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+06-08 18:06:37.368  1977  2109 I libcitsensorservice@2.0-impl: msg_transfer
+06-08 18:06:37.368  1977  2987 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:8 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+06-08 18:06:37.369  1245  1846 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+06-08 18:06:37.371  1245 20257 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+06-08 18:06:37.377  1245 20257 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+06-08 18:06:37.381  1245 20257 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+06-08 18:06:37.382  1245 20257 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+06-08 18:06:37.382  1245 20257 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+06-08 18:06:37.383 18435 18467 I appium  : Waiting up to 100ms for the device to idle
+06-08 18:06:37.383  1245  1464 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+06-08 18:06:37.392  1245 20258 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+06-08 18:06:37.393  1245 20258 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+06-08 18:06:37.393  1245 20258 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+06-08 18:06:37.483 18435 18467 W QueryController: Could not detect idle state.
+06-08 18:06:37.486 18435 18467 I appium  : AppiumResponse: {"sessionId":"f84f00e2-411a-4162-9d70-a8da77e6b19f","value":null}
+06-08 18:06:37.503  1977  2997 D libsensor-displayalgo: the value of  brightness:400.000000,R:18934780.468991,G:16789722.212748,B:32666677.668097,EVENT_C:4707.000000,EVENT_R:1922.000000,EVENT_G:2301.500000,EVENT_B:937.500000
+06-08 18:06:37.503  1977  2997 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-08 18:06:37.504  1977  2997 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-08 18:06:37.504 18435 18467 I appium  : channel read: POST /wd/hub/session/f84f00e2-411a-4162-9d70-a8da77e6b19f/element
+06-08 18:06:37.504  1977  2997 I libsensor-displayalgo: the value of  RESULT1087.014153,420.823739,543.255469,199.134795
+06-08 18:06:37.504  1977  2997 I libsensor-displayalgo: the value of  getChannelDataCalibrated1135.898252,389.958628,628.599151,215.839624
+06-08 18:06:37.504  1977  2997 I libsensor-displayalgo: the value of  REAL LUX211.761185
+06-08 18:06:37.504  1977  2997 I libsensor-displayalgo: the value of  CAL REAL LUX211.761185
+06-08 18:06:37.504 18435 18467 I appium  : FindElement command
+06-08 18:06:37.508 18435 18467 I appium  : method: 'id', selector: 'cn.missevan:id/emoji'
+06-08 18:06:37.509 18435 18467 I appium  : Waiting up to 100ms for the device to idle
+06-08 18:06:37.648 18435 18467 W QueryController: Could not detect idle state.
+06-08 18:06:37.679  1245  2285 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+06-08 18:06:37.679  1977  2106 I libcitsensorservice@2.0-impl: msg_transfer
+06-08 18:06:37.680  1977  2987 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:8 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+06-08 18:06:37.680  1245  1846 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+06-08 18:06:37.682  1245 20259 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+06-08 18:06:37.690  1245 20259 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+06-08 18:06:37.690  1245 20259 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+06-08 18:06:37.690  5373  8501 W MiuiPerfServiceClient: interceptAndQueuing:18484|cn.missevan|102|74|2077021132929967|Slow handle traversal|4
+06-08 18:06:37.690  1245 20259 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+06-08 18:06:37.690  1245 20259 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+06-08 18:06:37.696  1245  1464 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+06-08 18:06:37.704  1245 20260 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+06-08 18:06:37.704  1245 20260 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+06-08 18:06:37.704  1245 20260 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+06-08 18:06:37.760  6952 20004 I SafeBinderCall: onPositionChange binder cost:1
+06-08 18:06:37.760  4164  4164 D MiPlayDetailViewModel: onPositionChange(): position = 28804
+06-08 18:06:37.805  1977  2997 D libsensor-displayalgo: the value of  brightness:400.000000,R:83162080.520815,G:83162080.520815,B:83162080.520815,EVENT_C:6856.500000,EVENT_R:2640.000000,EVENT_G:3472.500000,EVENT_B:1376.500000
+06-08 18:06:37.806  1977  2997 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-08 18:06:37.806  1977  2997 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-08 18:06:37.806  1977  2997 I libsensor-displayalgo: the value of  RESULT3074.026865,1218.177691,1487.818472,559.402618
+06-08 18:06:37.806  1977  2997 I libsensor-displayalgo: the value of  getChannelDataCalibrated3212.268885,1128.831045,1721.549954,606.329250
+06-08 18:06:37.806  1977  2997 I libsensor-displayalgo: the value of  REAL LUX217.319748
+06-08 18:06:37.806  1977  2997 I libsensor-displayalgo: the value of  CAL REAL LUX217.319748
+06-08 18:06:37.916 18435 18467 W ByMatcher: Node returned null child: android.view.accessibility.AccessibilityNodeInfo@33090d; boundsInParent: Rect(0, 0 - 1080, 2135); boundsInScreen: Rect(0, 222 - 1080, 2356); packageName: cn.missevan; className: android.view.ViewGroup; text: null; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; viewIdResName: cn.missevan:id/swipe_refresh_layout; checkable: false; checked: false; focusable: true; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: false; password: false; scrollable: false; importantForAccessibility: true; visible: true; actions: [AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+06-08 18:06:37.917 18435 18467 W ByMatcher: Skipping null child (1 of 2)
+06-08 18:06:37.951 18435 18467 I appium  : AppiumResponse: {"sessionId":"f84f00e2-411a-4162-9d70-a8da77e6b19f","value":{"ELEMENT":"00000000-0000-0194-ffff-ffff00000cf6","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0194-ffff-ffff00000cf6"}}
+06-08 18:06:37.964 18435 18467 I appium  : channel read: POST /wd/hub/session/f84f00e2-411a-4162-9d70-a8da77e6b19f/element/00000000-0000-0194-ffff-ffff00000cf6/click
+06-08 18:06:37.965 18435 18467 I appium  : Click command
+06-08 18:06:38.084  2403  2923 I BatteryService: current mPlugType2current mHealthInfo.batteryLevel96current mHealthInfo.batteryTemperature366
+06-08 18:06:38.085  1245  2285 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+06-08 18:06:38.087  1977 18363 I libcitsensorservice@2.0-impl: msg_transfer
+06-08 18:06:38.089  1977  2987 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:8 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+06-08 18:06:38.089  1245  1846 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+06-08 18:06:38.092  1245 20262 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+06-08 18:06:38.097  4056  4056 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 1
+06-08 18:06:38.099  5823  7760 D ThermalIECHandler: storeDataStyle: thermal_iec_monitor_persistence_data_style_iec_state; startIECTime: -1; IECScreenOffOverPeriodTime: 3035475955
+06-08 18:06:38.099  4125  4125 D DynamicService:  ACTION_BATTERY_CHANGED change,USB plug = 2
+06-08 18:06:38.102  4098  4098 V DeviceStatisticsService: chargerType=2 batteryLevel=96 totalBatteryCapacity=4098900
+06-08 18:06:38.103  4098  4098 D DeviceInfoHidlClient: isRadioOn()=true
+06-08 18:06:38.104  1977  2997 D libsensor-displayalgo: the value of  brightness:400.000000,R:83162080.520815,G:83162080.520815,B:83162080.520815,EVENT_C:6856.500000,EVENT_R:2640.000000,EVENT_G:3472.500000,EVENT_B:1376.500000
+06-08 18:06:38.104  1977  2997 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-08 18:06:38.104  1977  2997 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-08 18:06:38.104  1977  2997 I libsensor-displayalgo: the value of  RESULT3074.026865,1218.177691,1487.818472,559.402618
+06-08 18:06:38.104  1977  2997 I libsensor-displayalgo: the value of  getChannelDataCalibrated3212.268885,1128.831045,1721.549954,606.329250
+06-08 18:06:38.104  1977  2997 I libsensor-displayalgo: the value of  REAL LUX217.319748
+06-08 18:06:38.104  1977  2997 I libsensor-displayalgo: the value of  CAL REAL LUX217.319748
+06-08 18:06:38.104  4098  4098 I DeviceInfoHidlClient: isPowerInfoNeverSent=false batteryLevel=96 batteryLevelIndex=6 chargingMode=2 totalCapacity=4098900 powerSaveMode=false
+06-08 18:06:38.105  1245 20262 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+06-08 18:06:38.105  1245 20262 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+06-08 18:06:38.106  2403  2605 I android_os_HwBinder: HwBinder: Starting thread pool for getting: vendor.xiaomi.hardware.micharge@1.0::IMiCharge/default
+06-08 18:06:38.106  1245 20262 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+06-08 18:06:38.106  1245 20262 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+06-08 18:06:38.106  1307  1361 E vendor.xiaomi.hardware.micharge@1.0-service: Failed to open node /sys/class/qcom-battery/reverse_chg_mode
+06-08 18:06:38.106  1307  1361 I vendor.xiaomi.hardware.micharge@1.0-service: ReadFilePathValue path = /sys/class/qcom-battery/reverse_chg_mode value =
+06-08 18:06:38.108  5823  7357 D PowerCheckerService: onBatteryChanged, mBatteryLevel = 96, status = 2, level = 96, plug = 2, scale = 100
+06-08 18:06:38.108  5823  6819 D PowerKeeper.FrozenApp: onBatteryChanged plug=true mBatteryPlugged=2
+06-08 18:06:38.109  1245  1464 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+06-08 18:06:38.109  5786  5786 I BatteryInfoReceiver: ACTION_BATTERY_CHANGED
+06-08 18:06:38.110  5786  5786 I PowerNoticeUI: handleBatteryChanged oldPlugType 2 mPlugType 2 oldBatteryLevel 96 mBatteryLevel 96 temperature 366
+06-08 18:06:38.112  5823  7671 D PowerKeeper.Thermal: mBatteryTemperature: 36
+06-08 18:06:38.115  1245 20265 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+06-08 18:06:38.115  1245 20265 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+06-08 18:06:38.115  1245 20265 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+06-08 18:06:38.118  2403  2605 I android_os_HwBinder: HwBinder: Starting thread pool for getting: vendor.xiaomi.hardware.micharge@1.0::IMiCharge/default
+06-08 18:06:38.119  1307  1361 I vendor.xiaomi.hardware.micharge@1.0-service: ReadFilePathValue path = /sys/class/qcom-battery/fastchg_mode value = 0
+06-08 18:06:38.121  5786  8364 I android_os_HwBinder: HwBinder: Starting thread pool for getting: vendor.xiaomi.hardware.micharge@1.0::IMiCharge/default
+06-08 18:06:38.121  1307  1361 I vendor.xiaomi.hardware.micharge@1.0-service: ReadFilePathValue path = /sys/class/qcom-battery/night_charging value = 0
+06-08 18:06:38.121  5786  8364 I ChargeProtectionUtils: getNightChargingState: 0
+06-08 18:06:38.161 18435 18467 W QueryController: Could not detect idle state.
+06-08 18:06:38.364 18435 18467 W QueryController: Could not detect idle state.
+06-08 18:06:38.397  1245  2285 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+06-08 18:06:38.397  1977  2106 I libcitsensorservice@2.0-impl: msg_transfer
+06-08 18:06:38.399  1977  2987 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:8 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+06-08 18:06:38.400  1245  1846 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+06-08 18:06:38.401  1245 20268 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+06-08 18:06:38.406  1977  2997 D libsensor-displayalgo: the value of  brightness:400.000000,R:83162080.520815,G:83162080.520815,B:83162080.520815,EVENT_C:6894.500000,EVENT_R:2654.500000,EVENT_G:3501.000000,EVENT_B:1389.500000
+06-08 18:06:38.406  1977  2997 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-08 18:06:38.406  1977  2997 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-08 18:06:38.406  1977  2997 I libsensor-displayalgo: the value of  RESULT3074.026865,1218.177691,1487.818472,559.402618
+06-08 18:06:38.406  1977  2997 I libsensor-displayalgo: the value of  getChannelDataCalibrated3212.268885,1128.831045,1721.549954,606.329250
+06-08 18:06:38.406  1977  2997 I libsensor-displayalgo: the value of  REAL LUX219.695602
+06-08 18:06:38.406  1977  2997 I libsensor-displayalgo: the value of  CAL REAL LUX219.695602
+06-08 18:06:38.407  1245 20268 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+06-08 18:06:38.407  1245 20268 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+06-08 18:06:38.410  1245 20268 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+06-08 18:06:38.410  1245 20268 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+06-08 18:06:38.411  2403  4545 D MIUIInput: Input event injection from pid 18420, MotionEvent: DOWN
+06-08 18:06:38.412  2403  2910 D MIUIInput: [MotionEvent] publisher action=0x4, 2077021856, channel '9ede85b NavigationBar0 (server)'
+06-08 18:06:38.412  2403  2910 D MIUIInput: [MotionEvent] publisher action=0x0, 2077021856, channel '5f3d9f5 cn.missevan/cn.missevan.activity.MainActivity (server)'
+06-08 18:06:38.413  1245  1464 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+06-08 18:06:38.414 18484 18484 D MIUIInput: [MotionEvent] ViewRootImpl windowName 'cn.missevan/cn.missevan.activity.MainActivity', { action=ACTION_DOWN, id[0]=0, pointerCount=1, eventTime=2077021856, downTime=2077021855, phoneEventTime=18:06:38.399 } moveCount:0
+06-08 18:06:38.416  2403  5692 D MIUIInput: Input event injection from pid 18420, MotionEvent: UP
+06-08 18:06:38.417  2403  2910 D MIUIInput: [MotionEvent] publisher action=0x1, 2077021856, channel '5f3d9f5 cn.missevan/cn.missevan.activity.MainActivity (server)'
+06-08 18:06:38.418 18484 18484 D MIUIInput: [MotionEvent] ViewRootImpl windowName 'cn.missevan/cn.missevan.activity.MainActivity', { action=ACTION_UP, id[0]=0, pointerCount=1, eventTime=2077021856, downTime=2077021855, phoneEventTime=18:06:38.399 } moveCount:0
+06-08 18:06:38.420  1245 20269 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+06-08 18:06:38.421  1245 20269 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+06-08 18:06:38.421  1245 20269 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+06-08 18:06:38.428 18435 18467 I appium  : Waiting up to 100ms for the device to idle
+06-08 18:06:38.432 18484 18484 I HandWritingStubImpl: isKeyboardTypeChanged: false
+06-08 18:06:38.432 18484 18484 I HandWritingStubImpl: isKeyboardTypeChanged: false
+06-08 18:06:38.433 18484 18484 I HandWritingStubImpl: isKeyboardTypeChanged: false
+06-08 18:06:38.435 18484 18484 I HandWritingStubImpl: isKeyboardTypeChanged: false
+06-08 18:06:38.439 18484 18484 D IS_CTS_MODE: true
+06-08 18:06:38.440 18484 18484 D MULTI_WINDOW_SWITCH_ENABLED: false
+06-08 18:06:38.450 18484 18484 I HandWritingStubImpl: isKeyboardTypeChanged: false
+06-08 18:06:38.450 18484 18484 I HandWritingStubImpl: isKeyboardTypeChanged: false
+06-08 18:06:38.487  2403  5692 I WindowManagerService: Physical orientation applied, rotation=0 sfOrientation=ORIENTATION_0
+06-08 18:06:38.507  1379  4878 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+06-08 18:06:38.513  2403  5692 I WindowManagerService: Physical orientation applied, rotation=0 sfOrientation=ORIENTATION_0
+06-08 18:06:38.557 18435 18467 W QueryController: Could not detect idle state.
+06-08 18:06:38.565 18435 18467 I appium  : AppiumResponse: {"sessionId":"f84f00e2-411a-4162-9d70-a8da77e6b19f","value":null}
+06-08 18:06:38.585 18435 18467 I appium  : channel read: POST /wd/hub/session/f84f00e2-411a-4162-9d70-a8da77e6b19f/elements
+06-08 18:06:38.589 18435 18467 I appium  : FindElements command
+06-08 18:06:38.594 18435 18467 I appium  : method: 'class name', selector: 'android.widget.ImageView'
+06-08 18:06:38.595 18435 18467 I appium  : Waiting up to 100ms for the device to idle
+06-08 18:06:38.607 18484 18484 D DecorView[MainActivity]: onWindowFocusChanged hasWindowFocus false
+06-08 18:06:38.609 18484 18484 D DecorView[]: onWindowFocusChanged hasWindowFocus true
+06-08 18:06:38.609 18484 18484 I HandWritingStubImpl: refreshLastKeyboardType: 1
+06-08 18:06:38.609 18484 18484 I HandWritingStubImpl: getCurrentKeyboardType: 1
+06-08 18:06:38.612  7825  7825 E BaseInputMethodService: onFinishInput
+06-08 18:06:38.612  7825  7825 E BaseInputMethodService: onStartInput
+06-08 18:06:38.615 18484 18484 I HandWritingStubImpl: isKeyboardTypeChanged: false
+06-08 18:06:38.701  1245  2285 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+06-08 18:06:38.703  1977 18363 I libcitsensorservice@2.0-impl: msg_transfer
+06-08 18:06:38.704  1977  2997 D libsensor-displayalgo: the value of  brightness:400.000000,R:83162080.520815,G:83162080.520815,B:83162080.520815,EVENT_C:6871.500000,EVENT_R:2646.000000,EVENT_G:3486.000000,EVENT_B:1380.500000
+06-08 18:06:38.704  1977  2997 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-08 18:06:38.704  1977  2997 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-08 18:06:38.704  1977  2997 I libsensor-displayalgo: the value of  RESULT3074.026865,1218.177691,1487.818472,559.402618
+06-08 18:06:38.704  1977  2997 I libsensor-displayalgo: the value of  getChannelDataCalibrated3212.268885,1128.831045,1721.549954,606.329250
+06-08 18:06:38.704  1977  2997 I libsensor-displayalgo: the value of  REAL LUX218.441483
+06-08 18:06:38.704  1977  2997 I libsensor-displayalgo: the value of  CAL REAL LUX218.441483
+06-08 18:06:38.704  1977  2987 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:8 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+06-08 18:06:38.705  1245  1846 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+06-08 18:06:38.706  1245 20274 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+06-08 18:06:38.712 18435 18467 W QueryController: Could not detect idle state.
+06-08 18:06:38.713  1245 20274 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+06-08 18:06:38.713  1245 20274 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+06-08 18:06:38.715  1245 20274 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+06-08 18:06:38.716  1245 20274 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+06-08 18:06:38.718  1245  1464 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+06-08 18:06:38.724  1245 20275 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+06-08 18:06:38.725  1245 20275 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+06-08 18:06:38.725  1245 20275 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+06-08 18:06:38.735 18435 18467 I appium  : Caching 1 found element
+06-08 18:06:38.740 18435 18467 I appium  : Cached 1 element
+06-08 18:06:38.745  5373  8501 W MiuiPerfServiceClient: interceptAndQueuing:18484|cn.missevan|187|67|2077022073804498|Slow handle traversal|4
+06-08 18:06:38.747 18435 18467 I appium  : AppiumResponse: {"sessionId":"f84f00e2-411a-4162-9d70-a8da77e6b19f","value":[{"ELEMENT":"00000000-0000-01ae-ffff-ffff00000f68","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-01ae-ffff-ffff00000f68"}]}
+06-08 18:06:38.758 18435 18467 I appium  : channel read: GET /wd/hub/session/f84f00e2-411a-4162-9d70-a8da77e6b19f/screenshot
+06-08 18:06:38.759  4164  4164 D MiPlayDetailViewModel: onPositionChange(): position = 29804
+06-08 18:06:38.759  6952 20004 I SafeBinderCall: onPositionChange binder cost:1
+06-08 18:06:38.759 18435 18467 I appium  : CaptureScreenshot command
+06-08 18:06:39.063  1245  2285 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+06-08 18:06:39.063  1977 18363 I libcitsensorservice@2.0-impl: msg_transfer
+06-08 18:06:39.063  1977  2987 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:8 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+06-08 18:06:39.064  1245  1846 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+06-08 18:06:39.065  1245 20283 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+06-08 18:06:39.072  1245 20283 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+06-08 18:06:39.074  1245 20283 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+06-08 18:06:39.075  1245 20283 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+06-08 18:06:39.076  1245 20283 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+06-08 18:06:39.079  1245  1464 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+06-08 18:06:39.086  1245 20284 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+06-08 18:06:39.087  1245 20284 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+06-08 18:06:39.088  1245 20284 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+06-08 18:06:39.104  1977  2997 D libsensor-displayalgo: the value of  brightness:400.000000,R:5839427.745025,G:5838004.606291,B:5844250.476950,EVENT_C:4080.500000,EVENT_R:1697.500000,EVENT_G:1973.000000,EVENT_B:816.000000
+06-08 18:06:39.104  1977  2997 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-08 18:06:39.104  1977  2997 E libsensor-displayalgo: RGB_black_white_scenario_0822!
+06-08 18:06:39.104  1977  2997 I libsensor-displayalgo: the value of  RESULT180.445235,64.704759,96.719156,32.964019
+06-08 18:06:39.104  1977  2997 I libsensor-displayalgo: the value of  getChannelDataCalibrated188.560035,59.959021,111.913424,35.729273
+06-08 18:06:39.104  1977  2997 I libsensor-displayalgo: the value of  REAL LUX234.228012
+06-08 18:06:39.104  1977  2997 I libsensor-displayalgo: the value of  CAL REAL LUX234.228012
+06-08 18:06:39.188 18435 18467 I appium  : AppiumResponse: {"sessionId":"f84f00e2-411a-4162-9d70-a8da77e6b19f","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAAlgCAYAAABtGofVAAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHic7N15fFTV3T/wz7kzk32ZsIWEbZBVZBkQKmKBAUWwL5GwVCxVSajti6do\niShtxdaEUmt9nqck+KD+0NaEWtuqSIJt1YqQyCaLQsCCEBBCkIQkkJnsy8zc8/tjyJjJTPZJJgOf\n9+t1l…
+06-08 18:06:39.202 18435 18444 I tomator2.serve: This is non sticky GC, maxfree is 8388608 minfree is 2097152

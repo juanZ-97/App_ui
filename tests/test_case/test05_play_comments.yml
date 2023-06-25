@@ -1,4 +1,4 @@
-play_05:
+play_04:
   # 评论 emoji 表情
   -
     method: click
@@ -9,6 +9,10 @@ play_05:
     method: click
     element: cn.missevan:id/emoji
     name: 点击 emoji 按钮
+  -
+    method: sleep
+    element: 1
+    name: 等待 1s
   -
     method: click
     element: android.widget.ImageView
@@ -48,13 +52,17 @@ play_05:
     name: 点击自己的评论区回复评论
   -
     method: set_text
-    element: cn.missevan:id/editor
+    element: cn.missevan:id/edit_view
     text: 确实好听
     name: 输入回复文案
   -
     method: click
     element: cn.missevan:id/send
     name: 发送消息
+  -
+    method: sleep
+    element: 1
+    name: 等待 1s
   -
     method: get_toast
     assert_text: 发送成功
@@ -69,6 +77,10 @@ play_05:
     method: click
     element: cn.missevan:id/delete_comment
     name: 删除
+  -
+    method: sleep
+    element: 1
+    name: 等待 1s
   -
     method: get_toast
     assert_text: 删除成功
@@ -88,6 +100,10 @@ play_05:
     element: cn.missevan:id/confirm
     name: 点击举报弹窗 - 确认
   -
+    method: sleep
+    element: 1
+    name: 等待 1s
+  -
     method: get_toast
     assert_text: 举报成功
     name: 判断是否出现举报成功的 toast
@@ -106,6 +122,15 @@ play_05:
     element: cn.missevan:id/tv_sure
     name: 点击拉黑弹窗 - 确认
   -
+    method: sleep
+    element: 1
+    name: 等待 1s
+  -
     method: get_toast
     assert_text: 成功加入黑名单
     name: 判断是否出现拉黑成功的 toast
+  -
+    method: click
+    element: cn.missevan:id/tvTitle
+    index: 0
+    name: 点击简介按钮

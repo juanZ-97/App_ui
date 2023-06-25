@@ -1,21 +1,91 @@
 [ {
-  "uid" : "f419e6143fcb504a",
-  "name" : "play_03",
+  "uid" : "5f4209f8a161b0d0",
+  "name" : "play_06",
   "time" : {
-    "start" : 1668408811188,
-    "stop" : 1668408816475,
-    "duration" : 5287
+    "start" : 1668584683295,
+    "stop" : 1668584688622,
+    "duration" : 5327
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c05f40aba7d7e2b8",
+  "name" : "play_07",
+  "time" : {
+    "start" : 1668584689405,
+    "stop" : 1668584694544,
+    "duration" : 5139
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "64e01ae30695e824",
+  "name" : "test_login",
+  "time" : {
+    "start" : 1668584605575,
+    "stop" : 1668584622814,
+    "duration" : 17239
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "48ab7781469fba8d",
-  "name" : "test_login",
+  "uid" : "184aa038aa3a529d",
+  "name" : "listen_02",
   "time" : {
-    "start" : 1663328266372,
-    "stop" : 1663328286679,
-    "duration" : 20307
+    "start" : 1668584695247,
+    "stop" : 1668584700436,
+    "duration" : 5189
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "47c031720437a7c9",
+  "name" : "test21_enter_live",
+  "time" : {
+    "start" : 1668584701240,
+    "stop" : 1668584715266,
+    "duration" : 14026
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4af4b76d33b26c8f",
+  "name" : "play_03",
+  "time" : {
+    "start" : 1668584653261,
+    "stop" : 1668584661271,
+    "duration" : 8010
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2f73e961e0f36d3",
+  "name" : "play_01",
+  "time" : {
+    "start" : 1668584901038,
+    "stop" : 1668584930090,
+    "duration" : 29052
   },
   "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6cfa865aa0c059fc",
+  "name" : "play_05",
+  "time" : {
+    "start" : 1668584668740,
+    "stop" : 1668584682545,
+    "duration" : 13805
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1b8bf157820a3fa5",
+  "name" : "play_04",
+  "time" : {
+    "start" : 1668584662328,
+    "stop" : 1668584667591,
+    "duration" : 5263
+  },
+  "status" : "broken",
   "severity" : "normal"
 } ]

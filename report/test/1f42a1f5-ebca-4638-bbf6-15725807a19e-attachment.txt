@@ -1,0 +1,2 @@
+2022-11-16 16:23:48 [Info]:[输入]元素 景向谁依歌曲单截 
+Input method io.appium.settings/.UnicodeIME selected for user #0

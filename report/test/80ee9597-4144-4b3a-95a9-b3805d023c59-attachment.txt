@@ -1,0 +1,10 @@
+2023-06-08 15:54:39 [Info]:[获取]元素 判断第一个评论是否为自己刚刚发送的评论 
+Message: 查找元素
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:33:12)
+    at AndroidUiautomator2Driver.findElement (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:53:10)
+2023-06-08 15:54:47 [Error]:页面中未能找到 {'method': 'set_text', 'element': 'cn.missevan:id/editor', 'text': '确实好听', 'name': '输入回复文案', 'time': 5, 'type': 'id'} 元素

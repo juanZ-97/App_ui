@@ -1,0 +1,365 @@
+06-21 16:03:03.783 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:03.858  2055  3327 D libsensor-displayalgo: the value of  brightness:438.000000,R:78288747.866619,G:78288943.845811,B:78301111.058432,EVENT_C:7250.000000,EVENT_R:2825.000000,EVENT_G:3650.500000,EVENT_B:1463.000000
+06-21 16:03:03.858  2055  3327 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-21 16:03:03.858  2055  3327 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-21 16:03:03.859  2055  3327 I libsensor-displayalgo: the value of  RESULT3143.488055,1241.879062,1522.354140,570.296979
+06-21 16:03:03.859  2055  3327 I libsensor-displayalgo: the value of  getChannelDataCalibrated3295.775618,1150.219382,1769.438579,622.440776
+06-21 16:03:03.859  2055  3327 I libsensor-displayalgo: the value of  REAL LUX233.230957
+06-21 16:03:03.859  2055  3327 I libsensor-displayalgo: the value of  CAL REAL LUX233.230957
+06-21 16:03:03.886  6831  7071 D MemoryCeilingMonitor: [handleMemoryCalculate]
+06-21 16:03:03.886  6831  7071 D MemoryCeilingMonitor: [calculate] tot: 5821576, max: 268435456, free: 1507328, heap: 4314248, per: 0.016071826219558716
+06-21 16:03:03.911 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:04.000 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:04.000 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:04.102 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:04.103 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:04.104 29732 30588 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:04.105 29732 31890 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:04.158  2055  3327 D libsensor-displayalgo: the value of  brightness:438.000000,R:78288747.866619,G:78288943.845811,B:78301111.058432,EVENT_C:7251.500000,EVENT_R:2824.500000,EVENT_G:3651.500000,EVENT_B:1463.500000
+06-21 16:03:04.158  2055  3327 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-21 16:03:04.158  2055  3327 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-21 16:03:04.159  2055  3327 I libsensor-displayalgo: the value of  RESULT3143.488055,1241.879062,1522.354140,570.296979
+06-21 16:03:04.159  2055  3327 I libsensor-displayalgo: the value of  getChannelDataCalibrated3295.775618,1150.219382,1769.438579,622.440776
+06-21 16:03:04.159  2055  3327 I libsensor-displayalgo: the value of  REAL LUX233.360580
+06-21 16:03:04.159  2055  3327 I libsensor-displayalgo: the value of  CAL REAL LUX233.360580
+06-21 16:03:04.225 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:04.226 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:04.228 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:04.229 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:04.232 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:04.346 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:04.347 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:04.349 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:04.351 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:04.459  2055  3327 D libsensor-displayalgo: the value of  brightness:438.000000,R:78288747.866619,G:78288943.845811,B:78301111.058432,EVENT_C:7252.500000,EVENT_R:2825.500000,EVENT_G:3649.000000,EVENT_B:1463.000000
+06-21 16:03:04.459  2055  3327 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-21 16:03:04.459  2055  3327 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-21 16:03:04.459  2055  3327 I libsensor-displayalgo: the value of  RESULT3143.488055,1241.879062,1522.354140,570.296979
+06-21 16:03:04.460  2055  3327 I libsensor-displayalgo: the value of  getChannelDataCalibrated3295.775618,1150.219382,1769.438579,622.440776
+06-21 16:03:04.460  2055  3327 I libsensor-displayalgo: the value of  REAL LUX233.320297
+06-21 16:03:04.460  2055  3327 I libsensor-displayalgo: the value of  CAL REAL LUX233.320297
+06-21 16:03:04.544  5790 31894 I SafeBinderCall: onPositionChange binder cost:1
+06-21 16:03:04.544  4190  4190 D MiPlayDetailViewModel: onPositionChange(): position = 11984
+06-21 16:03:04.666 29732 31890 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:04.668 29732 30588 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:04.668 29732 30588 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:04.670 29732 31890 I CCodecBufferChannel: pipelineRoom(3) is <= numClientBuffers(3). Not signalling any more buffers to client
+06-21 16:03:04.688 29445 29484 I appium  : channel read: POST /wd/hub/session/ec832cae-5da2-429d-a853-90de0bafd2d5/elements
+06-21 16:03:04.689 29445 29484 I appium  : FindElements command
+06-21 16:03:04.690 29445 29484 I appium  : method: 'id', selector: 'cn.missevan:id/tv_menu_title'
+06-21 16:03:04.691 29445 29484 I appium  : Waiting up to 100ms for the device to idle
+06-21 16:03:04.757 29445 29484 I appium  : Found zero matches
+06-21 16:03:04.759  2055  3327 D libsensor-displayalgo: the value of  brightness:438.000000,R:78288747.866619,G:78288943.845811,B:78301111.058432,EVENT_C:7246.500000,EVENT_R:2822.000000,EVENT_G:3648.500000,EVENT_B:1463.000000
+06-21 16:03:04.759  2055  3327 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-21 16:03:04.759  2055  3327 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-21 16:03:04.760 29445 29484 I appium  : AppiumResponse: {"sessionId":"ec832cae-5da2-429d-a853-90de0bafd2d5","value":[]}
+06-21 16:03:04.760  2055  3327 I libsensor-displayalgo: the value of  RESULT3143.488055,1241.879062,1522.354140,570.296979
+06-21 16:03:04.760  2055  3327 I libsensor-displayalgo: the value of  getChannelDataCalibrated3295.775618,1150.219382,1769.438579,622.440776
+06-21 16:03:04.760  2055  3327 I libsensor-displayalgo: the value of  REAL LUX233.006058
+06-21 16:03:04.760  2055  3327 I libsensor-displayalgo: the value of  CAL REAL LUX233.006058
+06-21 16:03:04.788 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:04.790 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:04.911 29732 30588 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(3). Not signalling any more buffers to client
+06-21 16:03:04.912 29732 31890 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:04.914 29732 30588 I CCodecBufferChannel: pipelineRoom(3) is <= numClientBuffers(3). Not signalling any more buffers to client
+06-21 16:03:04.916 29732 31890 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:04.998 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:04.999 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:05.059  2055  3327 D libsensor-displayalgo: the value of  brightness:438.000000,R:78288747.866619,G:78288943.845811,B:78301111.058432,EVENT_C:7239.000000,EVENT_R:2819.500000,EVENT_G:3642.000000,EVENT_B:1460.000000
+06-21 16:03:05.059  2055  3327 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-21 16:03:05.059  2055  3327 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-21 16:03:05.060  2055  3327 I libsensor-displayalgo: the value of  RESULT3143.488055,1241.879062,1522.354140,570.296979
+06-21 16:03:05.060  2055  3327 I libsensor-displayalgo: the value of  getChannelDataCalibrated3295.775618,1150.219382,1769.438579,622.440776
+06-21 16:03:05.060  2055  3327 I libsensor-displayalgo: the value of  REAL LUX232.518951
+06-21 16:03:05.060  2055  3327 I libsensor-displayalgo: the value of  CAL REAL LUX232.518951
+06-21 16:03:05.113 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:05.114 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:05.114 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:05.116 29732 30588 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:05.117 29732 31890 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:05.225 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:05.225 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:05.228 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:05.229 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:05.229 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:05.289 29445 29484 I appium  : channel read: POST /wd/hub/session/ec832cae-5da2-429d-a853-90de0bafd2d5/elements
+06-21 16:03:05.291 29445 29484 I appium  : FindElements command
+06-21 16:03:05.295 29445 29484 I appium  : method: 'id', selector: 'cn.missevan:id/tv_menu_title'
+06-21 16:03:05.295 29445 29484 I appium  : Waiting up to 100ms for the device to idle
+06-21 16:03:05.350 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:05.358  2055  3327 D libsensor-displayalgo: the value of  brightness:438.000000,R:78288747.866619,G:78288943.845811,B:78301111.058432,EVENT_C:7247.500000,EVENT_R:2824.000000,EVENT_G:3650.500000,EVENT_B:1463.500000
+06-21 16:03:05.358  2055  3327 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-21 16:03:05.358  2055  3327 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-21 16:03:05.358  2055  3327 I libsensor-displayalgo: the value of  RESULT3143.488055,1241.879062,1522.354140,570.296979
+06-21 16:03:05.358  2055  3327 I libsensor-displayalgo: the value of  getChannelDataCalibrated3295.775618,1150.219382,1769.438579,622.440776
+06-21 16:03:05.358  2055  3327 I libsensor-displayalgo: the value of  REAL LUX233.051636
+06-21 16:03:05.359  2055  3327 I libsensor-displayalgo: the value of  CAL REAL LUX233.051636
+06-21 16:03:05.437 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:05.438 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:05.545  4190  4190 D MiPlayDetailViewModel: onPositionChange(): position = 12984
+06-21 16:03:05.545  5790 31894 I SafeBinderCall: onPositionChange binder cost:1
+06-21 16:03:05.560 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:05.565 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:05.566 29445 29484 W QueryController: Could not detect idle state.
+06-21 16:03:05.621 29445 29484 I appium  : Found zero matches
+06-21 16:03:05.625 29445 29484 I appium  : AppiumResponse: {"sessionId":"ec832cae-5da2-429d-a853-90de0bafd2d5","value":[]}
+06-21 16:03:05.659  2055  3327 D libsensor-displayalgo: the value of  brightness:438.000000,R:78288747.866619,G:78288943.845811,B:78301111.058432,EVENT_C:7246.000000,EVENT_R:2825.000000,EVENT_G:3651.500000,EVENT_B:1463.000000
+06-21 16:03:05.659  2055  3327 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-21 16:03:05.659  2055  3327 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-21 16:03:05.660  2055  3327 I libsensor-displayalgo: the value of  RESULT3143.488055,1241.879062,1522.354140,570.296979
+06-21 16:03:05.660  2055  3327 I libsensor-displayalgo: the value of  getChannelDataCalibrated3295.775618,1150.219382,1769.438579,622.440776
+06-21 16:03:05.660  2055  3327 I libsensor-displayalgo: the value of  REAL LUX232.994141
+06-21 16:03:05.660  2055  3327 I libsensor-displayalgo: the value of  CAL REAL LUX232.994141
+06-21 16:03:05.670 29732 30588 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(3). Not signalling any more buffers to client
+06-21 16:03:05.670 29732 31890 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:05.958  2055  3327 D libsensor-displayalgo: the value of  brightness:438.000000,R:78288747.866619,G:78288943.845811,B:78301111.058432,EVENT_C:7241.500000,EVENT_R:2821.500000,EVENT_G:3647.500000,EVENT_B:1462.000000
+06-21 16:03:05.959  2055  3327 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-21 16:03:05.959  2055  3327 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-21 16:03:05.959  2055  3327 I libsensor-displayalgo: the value of  RESULT3143.488055,1241.879062,1522.354140,570.296979
+06-21 16:03:05.959  2055  3327 I libsensor-displayalgo: the value of  getChannelDataCalibrated3295.775618,1150.219382,1769.438579,622.440776
+06-21 16:03:05.959  2055  3327 I libsensor-displayalgo: the value of  REAL LUX232.707779
+06-21 16:03:05.959  2055  3327 I libsensor-displayalgo: the value of  CAL REAL LUX232.707779
+06-21 16:03:05.995 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:05.997 29732 30588 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:06.000 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:06.002 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:06.110 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:06.110 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:06.112 29732 31890 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:06.115 29732 30588 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:06.121  5797  5797 D MilletUtils: checkDownload uid =10499 per=0 delTime=4005 delByte=390nowByte=286953865 before=286953475
+06-21 16:03:06.121  5797  5797 D MilletUtils: broadcastMsg uid =10499 val=false delete
+06-21 16:03:06.158 29445 29484 I appium  : channel read: POST /wd/hub/session/ec832cae-5da2-429d-a853-90de0bafd2d5/elements
+06-21 16:03:06.160 29445 29484 I appium  : FindElements command
+06-21 16:03:06.164 29445 29484 I appium  : method: 'id', selector: 'cn.missevan:id/tv_menu_title'
+06-21 16:03:06.165 29445 29484 I appium  : Waiting up to 100ms for the device to idle
+06-21 16:03:06.223 29445 29484 I appium  : Found zero matches
+06-21 16:03:06.226 29445 29484 I appium  : AppiumResponse: {"sessionId":"ec832cae-5da2-429d-a853-90de0bafd2d5","value":[]}
+06-21 16:03:06.234 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:06.236 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:06.236 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:06.259  2055  3327 D libsensor-displayalgo: the value of  brightness:438.000000,R:78288747.866619,G:78288943.845811,B:78301111.058432,EVENT_C:7236.500000,EVENT_R:2820.000000,EVENT_G:3644.500000,EVENT_B:1461.000000
+06-21 16:03:06.259  2055  3327 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-21 16:03:06.259  2055  3327 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-21 16:03:06.260  2055  3327 I libsensor-displayalgo: the value of  RESULT3143.488055,1241.879062,1522.354140,570.296979
+06-21 16:03:06.260  2055  3327 I libsensor-displayalgo: the value of  getChannelDataCalibrated3295.775618,1150.219382,1769.438579,622.440776
+06-21 16:03:06.260  2055  3327 I libsensor-displayalgo: the value of  REAL LUX232.356186
+06-21 16:03:06.260  2055  3327 I libsensor-displayalgo: the value of  CAL REAL LUX232.356186
+06-21 16:03:06.328 29732 30583 D CCodecBufferChannel: [c2.android.aac.decoder#75] DEBUG: elapsed: n=6 [in=0 pipeline=0 out=2]
+06-21 16:03:06.328 29732 30583 D PipelineWatcher: DEBUG: elapsed 2 / 6
+06-21 16:03:06.351 29732 30588 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(3). Not signalling any more buffers to client
+06-21 16:03:06.353 29732 31890 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:06.354 29732 30588 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:06.355 29732 31890 I CCodecBufferChannel: pipelineRoom(3) is <= numClientBuffers(3). Not signalling any more buffers to client
+06-21 16:03:06.438 29732 30588 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:06.440 29732 30588 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:06.445 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:06.448 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:06.544  4190  4190 D MiPlayDetailViewModel: onPositionChange(): position = 13983
+06-21 16:03:06.545  5790 31894 I SafeBinderCall: onPositionChange binder cost:2
+06-21 16:03:06.552 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:06.552 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:06.555 29732 30588 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:06.555 29732 31890 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:06.558  2055  3327 D libsensor-displayalgo: the value of  brightness:438.000000,R:78288747.866619,G:78288943.845811,B:78301111.058432,EVENT_C:7239.500000,EVENT_R:2822.000000,EVENT_G:3647.000000,EVENT_B:1462.000000
+06-21 16:03:06.558  2055  3327 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-21 16:03:06.558  2055  3327 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-21 16:03:06.559  2055  3327 I libsensor-displayalgo: the value of  RESULT3143.488055,1241.879062,1522.354140,570.296979
+06-21 16:03:06.559  2055  3327 I libsensor-displayalgo: the value of  getChannelDataCalibrated3295.775618,1150.219382,1769.438579,622.440776
+06-21 16:03:06.559  2055  3327 I libsensor-displayalgo: the value of  REAL LUX232.525024
+06-21 16:03:06.559  2055  3327 I libsensor-displayalgo: the value of  CAL REAL LUX232.525024
+06-21 16:03:06.673 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:06.674 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:06.745 29445 29484 I appium  : channel read: POST /wd/hub/session/ec832cae-5da2-429d-a853-90de0bafd2d5/elements
+06-21 16:03:06.746 29445 29484 I appium  : FindElements command
+06-21 16:03:06.750 29445 29484 I appium  : method: 'id', selector: 'cn.missevan:id/tv_menu_title'
+06-21 16:03:06.750 29445 29484 I appium  : Waiting up to 100ms for the device to idle
+06-21 16:03:06.761  2423  5715 W ProcessStats: Tracking association SourceState{79ee129 com.android.phone/1001 BTopFgs #29117} whose proc state 2 is better than process ProcessState{5f68cae com.xiaomi.mirror/1000 pkg=com.xiaomi.mirror} proc state 3 (22 skipped)
+06-21 16:03:06.801 29445 29484 I appium  : Found zero matches
+06-21 16:03:06.804 29445 29484 I appium  : AppiumResponse: {"sessionId":"ec832cae-5da2-429d-a853-90de0bafd2d5","value":[]}
+06-21 16:03:06.859  2055  3327 D libsensor-displayalgo: the value of  brightness:438.000000,R:78288747.866619,G:78288943.845811,B:78301111.058432,EVENT_C:7239.500000,EVENT_R:2822.000000,EVENT_G:3648.000000,EVENT_B:1462.500000
+06-21 16:03:06.859  2055  3327 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-21 16:03:06.859  2055  3327 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-21 16:03:06.860  2055  3327 I libsensor-displayalgo: the value of  RESULT3143.488055,1241.879062,1522.354140,570.296979
+06-21 16:03:06.860  2055  3327 I libsensor-displayalgo: the value of  getChannelDataCalibrated3295.775618,1150.219382,1769.438579,622.440776
+06-21 16:03:06.860  2055  3327 I libsensor-displayalgo: the value of  REAL LUX232.529922
+06-21 16:03:06.860  2055  3327 I libsensor-displayalgo: the value of  CAL REAL LUX232.529922
+06-21 16:03:06.994 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:06.995 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:06.999 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:07.109 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:07.111 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:07.159  2055  3327 D libsensor-displayalgo: the value of  brightness:438.000000,R:78288747.866619,G:78288943.845811,B:78301111.058432,EVENT_C:7237.000000,EVENT_R:2821.000000,EVENT_G:3644.500000,EVENT_B:1462.000000
+06-21 16:03:07.159  2055  3327 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-21 16:03:07.159  2055  3327 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-21 16:03:07.159  2055  3327 I libsensor-displayalgo: the value of  RESULT3143.488055,1241.879062,1522.354140,570.296979
+06-21 16:03:07.159  2055  3327 I libsensor-displayalgo: the value of  getChannelDataCalibrated3295.775618,1150.219382,1769.438579,622.440776
+06-21 16:03:07.159  2055  3327 I libsensor-displayalgo: the value of  REAL LUX232.272537
+06-21 16:03:07.159  2055  3327 I libsensor-displayalgo: the value of  CAL REAL LUX232.272537
+06-21 16:03:07.304 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:07.306 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:07.308 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:07.321 29445 29484 I appium  : channel read: POST /wd/hub/session/ec832cae-5da2-429d-a853-90de0bafd2d5/elements
+06-21 16:03:07.323 29445 29484 I appium  : FindElements command
+06-21 16:03:07.326 29445 29484 I appium  : method: 'id', selector: 'cn.missevan:id/tv_menu_title'
+06-21 16:03:07.327 29445 29484 I appium  : Waiting up to 100ms for the device to idle
+06-21 16:03:07.376 29445 29484 I appium  : Found zero matches
+06-21 16:03:07.379 29445 29484 I appium  : AppiumResponse: {"sessionId":"ec832cae-5da2-429d-a853-90de0bafd2d5","value":[]}
+06-21 16:03:07.428 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:07.428 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:07.431 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:07.459  2055  3327 D libsensor-displayalgo: the value of  brightness:438.000000,R:78288747.866619,G:78288943.845811,B:78301111.058432,EVENT_C:7238.000000,EVENT_R:2821.500000,EVENT_G:3645.000000,EVENT_B:1461.000000
+06-21 16:03:07.459  2055  3327 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-21 16:03:07.459  2055  3327 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-21 16:03:07.459  2055  3327 I libsensor-displayalgo: the value of  RESULT3143.488055,1241.879062,1522.354140,570.296979
+06-21 16:03:07.459  2055  3327 I libsensor-displayalgo: the value of  getChannelDataCalibrated3295.775618,1150.219382,1769.438579,622.440776
+06-21 16:03:07.459  2055  3327 I libsensor-displayalgo: the value of  REAL LUX232.428238
+06-21 16:03:07.459  2055  3327 I libsensor-displayalgo: the value of  CAL REAL LUX232.428238
+06-21 16:03:07.544  4190  4190 D MiPlayDetailViewModel: onPositionChange(): position = 14983
+06-21 16:03:07.544  5790 31894 I SafeBinderCall: onPositionChange binder cost:1
+06-21 16:03:07.554 29732 30588 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(3). Not signalling any more buffers to client
+06-21 16:03:07.554 29732 31890 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:07.556 29732 30588 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(3). Not signalling any more buffers to client
+06-21 16:03:07.556 29732 31890 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:07.650 29732 29898 D AudioTrack: [audioTrackData][fine] 15s(f:15007 m:0 s:0 k:0) : pid 29732 uid 10499 sessionId 433 sr 44100 ch 2 fmt 1
+06-21 16:03:07.669 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:07.670 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:07.759  2055  3327 D libsensor-displayalgo: the value of  brightness:438.000000,R:78288747.866619,G:78288943.845811,B:78301111.058432,EVENT_C:7223.000000,EVENT_R:2815.500000,EVENT_G:3638.500000,EVENT_B:1458.500000
+06-21 16:03:07.759  2055  3327 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-21 16:03:07.759  2055  3327 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-21 16:03:07.759  2055  3327 I libsensor-displayalgo: the value of  RESULT3143.488055,1241.879062,1522.354140,570.296979
+06-21 16:03:07.759  2055  3327 I libsensor-displayalgo: the value of  getChannelDataCalibrated3295.775618,1150.219382,1769.438579,622.440776
+06-21 16:03:07.759  2055  3327 I libsensor-displayalgo: the value of  REAL LUX231.503189
+06-21 16:03:07.759  2055  3327 I libsensor-displayalgo: the value of  CAL REAL LUX231.503189
+06-21 16:03:07.791 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:07.879 29732 30588 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(3). Not signalling any more buffers to client
+06-21 16:03:07.880 29732 31890 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:07.903 29445 29484 I appium  : channel read: POST /wd/hub/session/ec832cae-5da2-429d-a853-90de0bafd2d5/elements
+06-21 16:03:07.904 29445 29484 I appium  : FindElements command
+06-21 16:03:07.906 29445 29484 I appium  : method: 'id', selector: 'cn.missevan:id/tv_menu_title'
+06-21 16:03:07.907 29445 29484 I appium  : Waiting up to 100ms for the device to idle
+06-21 16:03:07.962 29445 29484 I appium  : Found zero matches
+06-21 16:03:07.968 29445 29484 I appium  : AppiumResponse: {"sessionId":"ec832cae-5da2-429d-a853-90de0bafd2d5","value":[]}
+06-21 16:03:07.983 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:07.983 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:08.059  2055  3327 D libsensor-displayalgo: the value of  brightness:438.000000,R:78288747.866619,G:78288943.845811,B:78301111.058432,EVENT_C:7240.500000,EVENT_R:2819.500000,EVENT_G:3649.000000,EVENT_B:1461.500000
+06-21 16:03:08.059  2055  3327 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-21 16:03:08.059  2055  3327 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-21 16:03:08.059  2055  3327 I libsensor-displayalgo: the value of  RESULT3143.488055,1241.879062,1522.354140,570.296979
+06-21 16:03:08.060  2055  3327 I libsensor-displayalgo: the value of  getChannelDataCalibrated3295.775618,1150.219382,1769.438579,622.440776
+06-21 16:03:08.060  2055  3327 I libsensor-displayalgo: the value of  REAL LUX232.821472
+06-21 16:03:08.060  2055  3327 I libsensor-displayalgo: the value of  CAL REAL LUX232.821472
+06-21 16:03:08.231 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:08.358  2055  3327 D libsensor-displayalgo: the value of  brightness:438.000000,R:78288747.866619,G:78288943.845811,B:78301111.058432,EVENT_C:7245.000000,EVENT_R:2820.000000,EVENT_G:3649.000000,EVENT_B:1462.500000
+06-21 16:03:08.359  2055  3327 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-21 16:03:08.359  2055  3327 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-21 16:03:08.359  2055  3327 I libsensor-displayalgo: the value of  RESULT3143.488055,1241.879062,1522.354140,570.296979
+06-21 16:03:08.359  2055  3327 I libsensor-displayalgo: the value of  getChannelDataCalibrated3295.775618,1150.219382,1769.438579,622.440776
+06-21 16:03:08.359  2055  3327 I libsensor-displayalgo: the value of  REAL LUX233.038986
+06-21 16:03:08.359  2055  3327 I libsensor-displayalgo: the value of  CAL REAL LUX233.038986
+06-21 16:03:08.426 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:08.427 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:08.428 29732 30588 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:08.429 29732 31890 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:08.492 29445 29484 I appium  : channel read: POST /wd/hub/session/ec832cae-5da2-429d-a853-90de0bafd2d5/elements
+06-21 16:03:08.494 29445 29484 I appium  : FindElements command
+06-21 16:03:08.500 29445 29484 I appium  : method: 'id', selector: 'cn.missevan:id/tv_menu_title'
+06-21 16:03:08.501 29445 29484 I appium  : Waiting up to 100ms for the device to idle
+06-21 16:03:08.545 29732 31890 D BufferPoolAccessor2.0: bufferpool2 0x70b8aa5028 : 5(40960 size) total buffers - 1(8192 size) used buffers - 703/708 (recycle/alloc) - 6/707 (fetch/transfer)
+06-21 16:03:08.546  5790 31894 I SafeBinderCall: onPositionChange binder cost:2
+06-21 16:03:08.546  4190  4190 D MiPlayDetailViewModel: onPositionChange(): position = 15984
+06-21 16:03:08.552  1965 31891 D BufferPoolAccessor2.0: bufferpool2 0xb400007e66c54e28 : 4(16384 size) total buffers - 1(4096 size) used buffers - 700/704 (recycle/alloc) - 7/703 (fetch/transfer)
+06-21 16:03:08.555 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:08.556 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:08.648 29445 29484 I appium  : Found zero matches
+06-21 16:03:08.653 29445 29484 I appium  : AppiumResponse: {"sessionId":"ec832cae-5da2-429d-a853-90de0bafd2d5","value":[]}
+06-21 16:03:08.658  2055  3327 D libsensor-displayalgo: the value of  brightness:438.000000,R:78288747.866619,G:78288943.845811,B:78301111.058432,EVENT_C:7234.500000,EVENT_R:2819.000000,EVENT_G:3646.000000,EVENT_B:1460.000000
+06-21 16:03:08.658  2055  3327 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-21 16:03:08.658  2055  3327 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-21 16:03:08.658  2055  3327 I libsensor-displayalgo: the value of  RESULT3143.488055,1241.879062,1522.354140,570.296979
+06-21 16:03:08.658  2055  3327 I libsensor-displayalgo: the value of  getChannelDataCalibrated3295.775618,1150.219382,1769.438579,622.440776
+06-21 16:03:08.658  2055  3327 I libsensor-displayalgo: the value of  REAL LUX232.402222
+06-21 16:03:08.658  2055  3327 I libsensor-displayalgo: the value of  CAL REAL LUX232.402222
+06-21 16:03:08.664 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:08.756 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:08.756 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:08.871 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:08.871 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:08.959  2055  3327 D libsensor-displayalgo: the value of  brightness:438.000000,R:78288747.866619,G:78288943.845811,B:78301111.058432,EVENT_C:7241.500000,EVENT_R:2821.500000,EVENT_G:3649.000000,EVENT_B:1461.500000
+06-21 16:03:08.959  2055  3327 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-21 16:03:08.959  2055  3327 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-21 16:03:08.959  2055  3327 I libsensor-displayalgo: the value of  RESULT3143.488055,1241.879062,1522.354140,570.296979
+06-21 16:03:08.959  2055  3327 I libsensor-displayalgo: the value of  getChannelDataCalibrated3295.775618,1150.219382,1769.438579,622.440776
+06-21 16:03:08.959  2055  3327 I libsensor-displayalgo: the value of  REAL LUX232.816635
+06-21 16:03:08.959  2055  3327 I libsensor-displayalgo: the value of  CAL REAL LUX232.816635
+06-21 16:03:08.992 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:08.992 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:08.994 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:08.995 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:09.105 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:09.106 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:09.107 29732 30588 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:09.108 29732 31890 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:09.181 29445 29484 I appium  : channel read: POST /wd/hub/session/ec832cae-5da2-429d-a853-90de0bafd2d5/elements
+06-21 16:03:09.182 29445 29484 I appium  : FindElements command
+06-21 16:03:09.183 29445 29484 I appium  : method: 'id', selector: 'cn.missevan:id/tv_menu_title'
+06-21 16:03:09.184 29445 29484 I appium  : Waiting up to 100ms for the device to idle
+06-21 16:03:09.228 29732 30588 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:09.249 29445 29484 I appium  : Found zero matches
+06-21 16:03:09.251 29445 29484 I appium  : AppiumResponse: {"sessionId":"ec832cae-5da2-429d-a853-90de0bafd2d5","value":[]}
+06-21 16:03:09.258  2055  3327 D libsensor-displayalgo: the value of  brightness:438.000000,R:78288747.866619,G:78288943.845811,B:78301111.058432,EVENT_C:7247.000000,EVENT_R:2820.500000,EVENT_G:3650.000000,EVENT_B:1464.000000
+06-21 16:03:09.258  2055  3327 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-21 16:03:09.258  2055  3327 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-21 16:03:09.259  2055  3327 I libsensor-displayalgo: the value of  RESULT3143.488055,1241.879062,1522.354140,570.296979
+06-21 16:03:09.259  2055  3327 I libsensor-displayalgo: the value of  getChannelDataCalibrated3295.775618,1150.219382,1769.438579,622.440776
+06-21 16:03:09.259  2055  3327 I libsensor-displayalgo: the value of  REAL LUX233.084915
+06-21 16:03:09.259  2055  3327 I libsensor-displayalgo: the value of  CAL REAL LUX233.084915
+06-21 16:03:09.316 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:09.317 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:09.431 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:09.432 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:09.433 29732 30588 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:09.434 29732 31890 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:09.544  4190  4190 D MiPlayDetailViewModel: onPositionChange(): position = 16983
+06-21 16:03:09.544  5790 31894 I SafeBinderCall: onPositionChange binder cost:1
+06-21 16:03:09.548 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:09.550 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:09.558  2055  3327 D libsensor-displayalgo: the value of  brightness:438.000000,R:78288747.866619,G:78288943.845811,B:78301111.058432,EVENT_C:7257.500000,EVENT_R:2825.500000,EVENT_G:3654.500000,EVENT_B:1463.500000
+06-21 16:03:09.558  2055  3327 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-21 16:03:09.558  2055  3327 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-21 16:03:09.559  2055  3327 I libsensor-displayalgo: the value of  RESULT3143.488055,1241.879062,1522.354140,570.296979
+06-21 16:03:09.559  2055  3327 I libsensor-displayalgo: the value of  getChannelDataCalibrated3295.775618,1150.219382,1769.438579,622.440776
+06-21 16:03:09.559  2055  3327 I libsensor-displayalgo: the value of  REAL LUX233.882828
+06-21 16:03:09.559  2055  3327 I libsensor-displayalgo: the value of  CAL REAL LUX233.882828
+06-21 16:03:09.655 29732 30583 D CCodecBufferChannel: [c2.android.aac.decoder#75] DEBUG: elapsed: n=6 [in=0 pipeline=0 out=2]
+06-21 16:03:09.655 29732 30583 D PipelineWatcher: DEBUG: elapsed 2 / 6
+06-21 16:03:09.773 29445 29484 I appium  : channel read: GET /wd/hub/session/ec832cae-5da2-429d-a853-90de0bafd2d5/screenshot
+06-21 16:03:09.775 29445 29484 I appium  : CaptureScreenshot command
+06-21 16:03:09.858  2055  3327 D libsensor-displayalgo: the value of  brightness:438.000000,R:78288747.866619,G:78288943.845811,B:78301111.058432,EVENT_C:7255.500000,EVENT_R:2826.500000,EVENT_G:3653.500000,EVENT_B:1466.500000
+06-21 16:03:09.858  2055  3327 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-21 16:03:09.858  2055  3327 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-21 16:03:09.859  2055  3327 I libsensor-displayalgo: the value of  RESULT3143.488055,1241.879062,1522.354140,570.296979
+06-21 16:03:09.859  2055  3327 I libsensor-displayalgo: the value of  getChannelDataCalibrated3295.775618,1150.219382,1769.438579,622.440776
+06-21 16:03:09.859  2055  3327 I libsensor-displayalgo: the value of  REAL LUX233.414780
+06-21 16:03:09.859  2055  3327 I libsensor-displayalgo: the value of  CAL REAL LUX233.414780
+06-21 16:03:09.866 29732 30588 I CCodecBufferChannel: pipelineRoom(3) is <= numClientBuffers(3). Not signalling any more buffers to client
+06-21 16:03:09.867 29732 31890 I CCodecBufferChannel: pipelineRoom(2) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:09.995 29732 30588 I CCodecBufferChannel: pipelineRoom(3) is <= numClientBuffers(3). Not signalling any more buffers to client
+06-21 16:03:10.080  5419  8536 D SLM-SRV-SLAService: checktemp temperature = 38677 temperature_average = 38669 isPerformanceMode = false thermal_enable_slm = true
+06-21 16:03:10.098  5874  5874 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.safetynet.service.START pkg=com.google.android.gms }
+06-21 16:03:10.113  1933  1975 I mstatdaemon: Entering time loop
+06-21 16:03:10.113  1933  1975 I mstatdaemon: t = 1687334590
+06-21 16:03:10.114  1933  1975 I mstatdaemon: translated_t = 1371344590
+06-21 16:03:10.114  1933  1975 I mstat_log: mstatcommitLog log_alloc() failed
+06-21 16:03:10.122 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(2). Not signalling any more buffers to client
+06-21 16:03:10.122 29732 31890 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:10.158  2055  3327 D libsensor-displayalgo: the value of  brightness:438.000000,R:78288747.866619,G:78288943.845811,B:78301111.058432,EVENT_C:7257.000000,EVENT_R:2828.500000,EVENT_G:3656.500000,EVENT_B:1466.000000
+06-21 16:03:10.158  2055  3327 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-21 16:03:10.158  2055  3327 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-21 16:03:10.159  2055  3327 I libsensor-displayalgo: the value of  RESULT3143.488055,1241.879062,1522.354140,570.296979
+06-21 16:03:10.159  2055  3327 I libsensor-displayalgo: the value of  getChannelDataCalibrated3295.775618,1150.219382,1769.438579,622.440776
+06-21 16:03:10.159  2055  3327 I libsensor-displayalgo: the value of  REAL LUX233.622330
+06-21 16:03:10.159  2055  3327 I libsensor-displayalgo: the value of  CAL REAL LUX233.622330
+06-21 16:03:10.194 29732 30588 I CCodecBufferChannel: pipelineRoom(1) is <= numClientBuffers(1). Not signalling any more buffers to client
+06-21 16:03:10.297 29445 29484 I appium  : AppiumResponse: {"sessionId":"ec832cae-5da2-429d-a853-90de0bafd2d5","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAAlgCAYAAABtGofVAAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHic7N17XFR1/j/w13AZGAQRR1CQ8RIwIFGwaiWYtUqZFqRdxN0yMcsLVo/d\ntHZLbX/fLWt3H990q63MrlBbrehuKpSXQukGRV7AFdMBLziICYzKxeHO/P7gMec7h5mBYZgLB17P\nx6NHc…
+06-21 16:03:10.357 29445 29457 I tomator2.serve: This is sticky GC, maxfree is 8388608 minfree is 2097152

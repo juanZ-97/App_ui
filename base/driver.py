@@ -1,8 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-@ Author：YueC
-@ Description：driver 驱动
-"""
 
 from appium import webdriver
 from base.action import ElementActions
@@ -26,9 +22,10 @@ class Singleton(object):
                             'automationName': 'UiAutomator2',
                             'deviceName': udid,
                             'noReset': True,
+                            'fullReset': False,
                             'platformName': 'Android',
-                            'platformVersion': '11.0',
-                            'newCommandTimeout': '3000',
+                            'platformVersion': '10',
+                            'newCommandTimeout': 30000,
                             'waitForIdleTimeout': 100,
                             'udid': udid}
 

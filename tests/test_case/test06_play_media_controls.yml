@@ -1,4 +1,4 @@
-play_06:
+play_05:
   # 打开通知栏
   -
     method: click
@@ -13,6 +13,10 @@ play_06:
     method: open_notifications
     name: 打开通知栏
   -
+    method: sleep
+    element: 2
+    name: 等待 1s
+  -
     method: get_text
     element: com.android.systemui:id/header_title
     name: 判断标题是否为预告
@@ -22,6 +26,9 @@ play_06:
     method: click
     element: com.android.systemui:id/action3
     name: 点击下一首
+  -
+    method: sleep
+    element: 1
   -
     method: get_text
     element: com.android.systemui:id/header_title
@@ -33,6 +40,9 @@ play_06:
     element: com.android.systemui:id/action1
     name: 点击上一首
   -
+    method: sleep
+    element: 1
+  -
     method: get_text
     element: com.android.systemui:id/header_title
     name: 判断标题是否为预告
@@ -42,6 +52,9 @@ play_06:
     method: click
     element: com.android.systemui:id/app_name
     name: 点击播放器
+  -
+    method: back_press
+    name: 返回
   -
     method: is_element_displayed
     element: cn.missevan:id/play

@@ -1,4 +1,44 @@
 {
+  "e9b05bf2b05b81878b6ca27348423b35" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "47c031720437a7c9",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.StaleElementReferenceException: Message: androidx.test.uiautomator.StaleObjectException\nStacktrace:\nio.appium.uiautomator2.common.exceptions.StaleElementReferenceException: androidx.test.uiautomator.StaleObjectException\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:63)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:929)\nCaused by: androidx.test.uiautomator.StaleObjectException\n\tat androidx.test.uiautomator.UiObject2.getAccessibilityNodeInfo(UiObject2.java:647)\n\tat androidx.test.uiautomator.UiObject2.hashCode(UiObject2.java:105)\n\tat java.lang.Object.toString(Object.java:291)\n\tat java.util.Formatter$FormatSpecifier.printString(Formatter.java:2978)\n\tat java.util.Formatter$FormatSpecifier.print(Formatter.java:2855)\n\tat java.util.Formatter.format(Formatter.java:2524)\n\tat java.util.Formatter.format(Formatter.java:2459)\n\tat java.lang.String.format(String.java:2870)\n\tat io.appium.uiautomator2.utils.ReflectionUtils.invoke(ReflectionUtils.java:85)\n\tat io.appium.uiautomator2.core.AxNodeInfoExtractor.extractAxNodeInfo(AxNodeInfoExtractor.java:58)\n\tat io.appium.uiautomator2.core.AxNodeInfoExtractor.toAxNodeInfo(AxNodeInfoExtractor.java:48)\n\tat io.appium.uiautomator2.model.BaseElement.click(BaseElement.java:64)\n\tat io.appium.uiautomator2.handler.Click.safeHandle(Click.java:37)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\t... 33 more",
+      "time" : {
+        "start" : 1668584701240,
+        "stop" : 1668584715266,
+        "duration" : 14026
+      }
+    } ]
+  },
+  "27b4bd3806a00f64fd455bc928e18365" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4af4b76d33b26c8f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '第一期' in '第二期ED《悸动在呼吸之间》'",
+      "time" : {
+        "start" : 1668584653261,
+        "stop" : 1668584661271,
+        "duration" : 8010
+      }
+    } ]
+  },
   "abf00df7609b8fd10cbc5307195d4cb9" : {
     "statistic" : {
       "failed" : 0,
@@ -9,16 +49,76 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "48ab7781469fba8d",
+      "uid" : "64e01ae30695e824",
       "status" : "passed",
       "time" : {
-        "start" : 1663328266372,
-        "stop" : 1663328286679,
-        "duration" : 20307
+        "start" : 1668584605575,
+        "stop" : 1668584622814,
+        "duration" : 17239
       }
     } ]
   },
-  "7bc032d251f7b2817b22448f8e4384a8" : {
+  "628969266f1e42a9e25cac82938a77d5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6cfa865aa0c059fc",
+      "status" : "broken",
+      "statusDetails" : "Exception: 页面中未能找到 [发送消息]",
+      "time" : {
+        "start" : 1668584668740,
+        "stop" : 1668584682545,
+        "duration" : 13805
+      }
+    } ]
+  },
+  "cbdab2857a0b0c12917f78e70e15a780" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "184aa038aa3a529d",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
+      "time" : {
+        "start" : 1668584695247,
+        "stop" : 1668584700436,
+        "duration" : 5189
+      }
+    } ]
+  },
+  "1c9d869fc94334b6e8d24624aa187cff" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5f4209f8a161b0d0",
+      "status" : "broken",
+      "statusDetails" : "Exception: 页面中未能找到 [点击全部剧集按钮]",
+      "time" : {
+        "start" : 1668584683295,
+        "stop" : 1668584688622,
+        "duration" : 5327
+      }
+    } ]
+  },
+  "eb826bd962e94ba3f369c31f96a14a71" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -28,12 +128,52 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f419e6143fcb504a",
+      "uid" : "2f73e961e0f36d3",
       "status" : "passed",
       "time" : {
-        "start" : 1668408811188,
-        "stop" : 1668408816475,
-        "duration" : 5287
+        "start" : 1668584901038,
+        "stop" : 1668584930090,
+        "duration" : 29052
+      }
+    } ]
+  },
+  "502cc6a6cd62fd42c75f6b2afd541c96" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1b8bf157820a3fa5",
+      "status" : "broken",
+      "statusDetails" : "Exception: 页面中未能找到 [点击喜欢]",
+      "time" : {
+        "start" : 1668584662328,
+        "stop" : 1668584667591,
+        "duration" : 5263
+      }
+    } ]
+  },
+  "ead8299058c58e549428363137a2fe3c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c05f40aba7d7e2b8",
+      "status" : "broken",
+      "statusDetails" : "Exception: 页面中未能找到 [点击播放页剧集头像]",
+      "time" : {
+        "start" : 1668584689405,
+        "stop" : 1668584694544,
+        "duration" : 5139
       }
     } ]
   }

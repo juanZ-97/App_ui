@@ -1,4 +1,4 @@
-play_03:
+play_02:
   # 音频播放页 - 切换音频
   -
     method: click
@@ -7,6 +7,9 @@ play_03:
   -
     method: swip_up
     name: 向上滑
+  -
+    method: sleep
+    element: 1
   -
     method: get_text
     element: cn.missevan:id/sound_title
@@ -19,6 +22,9 @@ play_03:
   -
     method: swip_up
     name: 向上滑
+  -
+    method: sleep
+    element: 1
   -
     method: get_text
     element: cn.missevan:id/sound_title
@@ -34,13 +40,15 @@ play_03:
     element: cn.missevan:id/layout
     index: 1
     name: 点击第一期
-
   -
     method: back_press
     name: 返回
   -
     method: swip_up
     name: 向上滑
+  -
+    method: sleep
+    element: 1
   -
     method: get_text
     element: cn.missevan:id/sound_title
@@ -69,7 +77,7 @@ play_03:
     assert_text: 00:00
   -
     method: click
-    element: (537,1718)
+    element: cn.missevan:id/play
     name: 点击开始播放
   -
     method: sleep
@@ -98,5 +106,12 @@ play_03:
     method: get_toast
     assert_text: 随机播放
     name: 判断是否切换至随机播放
-  # 音频播放页 - 切换音视频（暂不做）
   -
+    method: click
+    element: cn.missevan:id/play_mode
+    name: 随机播放 -> 顺序播放
+  -
+    method: sleep
+    element: 2
+    name: 等待 2s
+  # 音频播放页 - 切换音视频（暂不做）

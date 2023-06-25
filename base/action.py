@@ -218,6 +218,9 @@ class ElementActions:
         with allure.step("输入元素：{0}".format(value)):
             self._find_element(locator).send_keys(value)
 
+    def clear_text(self, locator):
+        self._find_element(locator).clear()
+
     def swipeElementUp(self, element):
         """ IOS专用 在元素内部滑动
         :param element: 以查找到的元素
@@ -268,7 +271,7 @@ class ElementActions:
                     pass
         L.i("[滑动]向上刷新 ")
 
-    def swip_left(self, height=0.5, count=1, speed=1000):
+    def swip_left(self, height=0.78, count=1, speed=1000):
         """ 向左滑动
         :param height: 高度满屏幕为1
         :param count: 滑动次数
@@ -314,7 +317,7 @@ class ElementActions:
             L.i("开始自定义滑动")
             self.driver.swipe(sx * self.width, sy * self.height, ex * self.width, ey * self.height, speed)
 
-    def is_element_displayed(self, locator, is_raise=False, element=True):
+    def is_element_displayed(self, locator, is_raise=True, element=True):
         """ ：控件是否显示e
         :param locator: 定位器
         :param is_raise: 是否抛异常
@@ -463,12 +466,25 @@ class ElementActions:
             return False
 
     def get_toast(self, timeout=5, poll_frequency=0.5):
+        '''
+        # 抓取 toast
+        @param timeout:
+        @param poll_frequency:
+        @return:
+        '''
         toast_loc = (By.XPATH, '//*[@class="android.widget.Toast"]')
         toast = WebDriverWait(self.driver, timeout, poll_frequency).until(
             ec.presence_of_element_located(toast_loc)
         )
         toast_text = toast.get_attribute('text')
         return toast_text
+
+    def open_notifications(self):
+        '''
+        # 打开系统通知栏
+        @return:
+        '''
+        self.driver.open_notifications()
 
 
         

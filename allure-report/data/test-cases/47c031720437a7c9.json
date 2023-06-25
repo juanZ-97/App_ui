@@ -1,0 +1,136 @@
+{
+  "uid" : "47c031720437a7c9",
+  "name" : "test21_enter_live",
+  "fullName" : "tests.test_case.test21_enter_live#test21_enter_live",
+  "historyId" : "e9b05bf2b05b81878b6ca27348423b35",
+  "time" : {
+    "start" : 1668584701240,
+    "stop" : 1668584715266,
+    "duration" : 14026
+  },
+  "description" : "用例开始时间:2022-11-16 15:45:01.240371",
+  "descriptionHtml" : "<p>用例开始时间:2022-11-16 15:45:01.240371</p>\n",
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.StaleElementReferenceException: Message: androidx.test.uiautomator.StaleObjectException\nStacktrace:\nio.appium.uiautomator2.common.exceptions.StaleElementReferenceException: androidx.test.uiautomator.StaleObjectException\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:63)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:929)\nCaused by: androidx.test.uiautomator.StaleObjectException\n\tat androidx.test.uiautomator.UiObject2.getAccessibilityNodeInfo(UiObject2.java:647)\n\tat androidx.test.uiautomator.UiObject2.hashCode(UiObject2.java:105)\n\tat java.lang.Object.toString(Object.java:291)\n\tat java.util.Formatter$FormatSpecifier.printString(Formatter.java:2978)\n\tat java.util.Formatter$FormatSpecifier.print(Formatter.java:2855)\n\tat java.util.Formatter.format(Formatter.java:2524)\n\tat java.util.Formatter.format(Formatter.java:2459)\n\tat java.lang.String.format(String.java:2870)\n\tat io.appium.uiautomator2.utils.ReflectionUtils.invoke(ReflectionUtils.java:85)\n\tat io.appium.uiautomator2.core.AxNodeInfoExtractor.extractAxNodeInfo(AxNodeInfoExtractor.java:58)\n\tat io.appium.uiautomator2.core.AxNodeInfoExtractor.toAxNodeInfo(AxNodeInfoExtractor.java:48)\n\tat io.appium.uiautomator2.model.BaseElement.click(BaseElement.java:64)\n\tat io.appium.uiautomator2.handler.Click.safeHandle(Click.java:37)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\t... 33 more",
+  "statusTrace" : "测试类名称：test21_enter_live \n输入参数：{'method': 'click', 'element': 'cn.missevan:id/ll_content', 'time': 5, 'type': 'id'} \n错误信息：('androidx.test.uiautomator.StaleObjectException', None, ['io.appium.uiautomator2.common.exceptions.StaleElementReferenceException: androidx.test.uiautomator.StaleObjectException', '\\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:63)', '\\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)', '\\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)', '\\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)', '\\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)', '\\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)', '\\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)', '\\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)', '\\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)', '\\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)', '\\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)', '\\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)', '\\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)', '\\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)', '\\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)', '\\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)', '\\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)', '\\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)', '\\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)', '\\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)', '\\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)', '\\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)', '\\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)', '\\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)', '\\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)', '\\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)', '\\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)', '\\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)', '\\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)', '\\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)', '\\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)', '\\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)', '\\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)', '\\tat java.lang.Thread.run(Thread.java:929)', 'Caused by: androidx.test.uiautomator.StaleObjectException', '\\tat androidx.test.uiautomator.UiObject2.getAccessibilityNodeInfo(UiObject2.java:647)', '\\tat androidx.test.uiautomator.UiObject2.hashCode(UiObject2.java:105)', '\\tat java.lang.Object.toString(Object.java:291)', '\\tat java.util.Formatter$FormatSpecifier.printString(Formatter.java:2978)', '\\tat java.util.Formatter$FormatSpecifier.print(Formatter.java:2855)', '\\tat java.util.Formatter.format(Formatter.java:2524)', '\\tat java.util.Formatter.format(Formatter.java:2459)', '\\tat java.lang.String.format(String.java:2870)', '\\tat io.appium.uiautomator2.utils.ReflectionUtils.invoke(ReflectionUtils.java:85)', '\\tat io.appium.uiautomator2.core.AxNodeInfoExtractor.extractAxNodeInfo(AxNodeInfoExtractor.java:58)', '\\tat io.appium.uiautomator2.core.AxNodeInfoExtractor.toAxNodeInfo(AxNodeInfoExtractor.java:48)', '\\tat io.appium.uiautomator2.model.BaseElement.click(BaseElement.java:64)', '\\tat io.appium.uiautomator2.handler.Click.safeHandle(Click.java:37)', '\\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)', '\\t... 33 more', ''])",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "用例开始时间:2022-11-16 15:45:01.240371",
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.StaleElementReferenceException: Message: androidx.test.uiautomator.StaleObjectException\nStacktrace:\nio.appium.uiautomator2.common.exceptions.StaleElementReferenceException: androidx.test.uiautomator.StaleObjectException\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:63)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:929)\nCaused by: androidx.test.uiautomator.StaleObjectException\n\tat androidx.test.uiautomator.UiObject2.getAccessibilityNodeInfo(UiObject2.java:647)\n\tat androidx.test.uiautomator.UiObject2.hashCode(UiObject2.java:105)\n\tat java.lang.Object.toString(Object.java:291)\n\tat java.util.Formatter$FormatSpecifier.printString(Formatter.java:2978)\n\tat java.util.Formatter$FormatSpecifier.print(Formatter.java:2855)\n\tat java.util.Formatter.format(Formatter.java:2524)\n\tat java.util.Formatter.format(Formatter.java:2459)\n\tat java.lang.String.format(String.java:2870)\n\tat io.appium.uiautomator2.utils.ReflectionUtils.invoke(ReflectionUtils.java:85)\n\tat io.appium.uiautomator2.core.AxNodeInfoExtractor.extractAxNodeInfo(AxNodeInfoExtractor.java:58)\n\tat io.appium.uiautomator2.core.AxNodeInfoExtractor.toAxNodeInfo(AxNodeInfoExtractor.java:48)\n\tat io.appium.uiautomator2.model.BaseElement.click(BaseElement.java:64)\n\tat io.appium.uiautomator2.handler.Click.safeHandle(Click.java:37)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\t... 33 more",
+    "statusTrace" : "测试类名称：test21_enter_live \n输入参数：{'method': 'click', 'element': 'cn.missevan:id/ll_content', 'time': 5, 'type': 'id'} \n错误信息：('androidx.test.uiautomator.StaleObjectException', None, ['io.appium.uiautomator2.common.exceptions.StaleElementReferenceException: androidx.test.uiautomator.StaleObjectException', '\\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:63)', '\\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)', '\\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)', '\\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)', '\\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)', '\\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)', '\\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)', '\\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)', '\\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)', '\\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)', '\\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)', '\\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)', '\\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)', '\\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)', '\\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)', '\\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)', '\\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)', '\\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)', '\\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)', '\\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)', '\\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)', '\\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)', '\\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)', '\\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)', '\\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)', '\\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)', '\\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)', '\\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)', '\\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)', '\\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)', '\\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)', '\\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)', '\\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)', '\\tat java.lang.Thread.run(Thread.java:929)', 'Caused by: androidx.test.uiautomator.StaleObjectException', '\\tat androidx.test.uiautomator.UiObject2.getAccessibilityNodeInfo(UiObject2.java:647)', '\\tat androidx.test.uiautomator.UiObject2.hashCode(UiObject2.java:105)', '\\tat java.lang.Object.toString(Object.java:291)', '\\tat java.util.Formatter$FormatSpecifier.printString(Formatter.java:2978)', '\\tat java.util.Formatter$FormatSpecifier.print(Formatter.java:2855)', '\\tat java.util.Formatter.format(Formatter.java:2524)', '\\tat java.util.Formatter.format(Formatter.java:2459)', '\\tat java.lang.String.format(String.java:2870)', '\\tat io.appium.uiautomator2.utils.ReflectionUtils.invoke(ReflectionUtils.java:85)', '\\tat io.appium.uiautomator2.core.AxNodeInfoExtractor.extractAxNodeInfo(AxNodeInfoExtractor.java:58)', '\\tat io.appium.uiautomator2.core.AxNodeInfoExtractor.toAxNodeInfo(AxNodeInfoExtractor.java:48)', '\\tat io.appium.uiautomator2.model.BaseElement.click(BaseElement.java:64)', '\\tat io.appium.uiautomator2.handler.Click.safeHandle(Click.java:37)', '\\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)', '\\t... 33 more', ''])",
+    "steps" : [ {
+      "name" : "重启应用程序",
+      "time" : {
+        "start" : 1668584701336,
+        "stop" : 1668584702552,
+        "duration" : 1216
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "检查：'获取权限'",
+      "time" : {
+        "start" : 1668584702553,
+        "stop" : 1668584707955,
+        "duration" : 5402
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "检查：'None'",
+      "time" : {
+        "start" : 1668584714106,
+        "stop" : 1668584714431,
+        "duration" : 325
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "99efa019bf04cf83",
+      "name" : "失败截图",
+      "source" : "99efa019bf04cf83.png",
+      "type" : "image/png",
+      "size" : 775216
+    }, {
+      "uid" : "b72ae9864eebf3b6",
+      "name" : "APPlog",
+      "source" : "b72ae9864eebf3b6.txt",
+      "type" : "text/plain",
+      "size" : 485470
+    }, {
+      "uid" : "d131be48da6206dd",
+      "name" : "stdout",
+      "source" : "d131be48da6206dd.txt",
+      "type" : "text/plain",
+      "size" : 233
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test21_enter_live"
+  }, {
+    "name" : "host",
+    "value" : "guozhierdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "3972-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_case.test21_enter_live"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "47c031720437a7c9.json",
+  "parameterValues" : [ ]
+}

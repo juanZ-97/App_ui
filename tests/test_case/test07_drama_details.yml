@@ -5,6 +5,10 @@ play_06:
     element: cn.missevan:id/drama_cover
     name: 点击播放页剧集头像
   -
+    method: sleep
+    element: 1
+    name: 等待 1s
+  -
     method: is_element_displayed
     element: cn.missevan:id/drama_cover_stroke
     name: 验证当前页面是否为剧集页
@@ -14,18 +18,22 @@ play_06:
     element: cn.missevan:id/subscribe_drama
     name: 点击追剧
   -
-    method: get_toast
-    assert_text: 自己追的剧
-    name: 判断 toast 是否追剧成功
-  -
     method: sleep
     element: 1
     name: 等待 1s
+  -
+    method: get_toast
+    assert_text: 自己追的剧
+    name: 判断 toast 是否追剧成功
   # 取消追剧
   -
     method: click
     element: cn.missevan:id/subscribe_drama
     name: 点击取消追剧
+  -
+    method: sleep
+    element: 1
+    name: 等待 1s
   -
     method: get_toast
     assert_text: 主人果真不爱我了
@@ -37,17 +45,20 @@ play_06:
     name: 点击剧集页顶部的下载按钮
   -
     method: click
-    element: cn.missevan:id/tv_name
-    index: 0
-    name: 点击剧集缓存页的第一个剧集
+    element: cn.missevan:id/tv_select_all
+    name: 点击剧集缓存页的选择全部按钮
   -
     method: click
     element: cn.missevan:id/tv_download
     name: 点击剧集缓存页的缓存所选
   -
+    method: sleep
+    element: 1
+    name: 等待 1s
+  -
     method: get_toast
     assert_text: 已加入下载列表
-    name: 判断 toast 是否有缓存字样（此处假设所选内容不可缓存）
+    name: 判断 toast 是否有缓存字样
   # 打开剧集页选集半窗
   -
     method: click
@@ -56,19 +67,28 @@ play_06:
   -
     method: click
     element: cn.missevan:id/layout
-    index: 0
-    name: 点击预告
+    index: 1
+    name: 点击
+  -
+    method: sleep
+    element: 1
+    name: 等待 1s
   -
     method: is_element_displayed
     element: cn.missevan:id/play
     name: 验证页面是否存在暂停键
   -
-    method: back_press
-    name: 返回到上一页
+    method: click
+    element: cn.missevan:id/drama_cover
+    name: 点击播放页剧集头像
   -
     method: click
     element: cn.missevan:id/character
     name: 点击声优头像进入声优百科页
+  -
+    method: sleep
+    element: 1
+    name: 等待 1s
   -
     method: get_text
     element: cn.missevan:id/toolbarTitle
@@ -84,8 +104,25 @@ play_06:
     index: 0
     name: 点击剧集推荐的第一个封面进入其他剧集页
   -
-    method: get_text
-    element: cn.missevan:id/header_title
-    name: 判断当前是否已处于其他剧集详情页
-    assert_text: 他似晨风起
-    is_not_exist: True
+    method: sleep
+    element: 1
+    name: 等待 1s
+  -
+    method: is_element_displayed
+    element: cn.missevan:id/header_download
+    name: 验证当前页面是否为剧集页
+  -
+    method: back_press
+    name: 返回到上一页
+  -
+    method: back_press
+    name: 返回到上一页
+  -
+    method: back_press
+    name: 返回到上一页
+#  -
+#    method: back_press
+#    name: 返回到上一页
+#  -
+#    method: back_press
+#    name: 返回到上一页

@@ -4,7 +4,7 @@ listen_02:
     method: click
     element: cn.missevan:id/tv_menu_title
     index: 1
-    name: 点击收藏按钮
+    name: 进入我的收藏页
   -
     method: click
     element: cn.missevan:id/iv_create
@@ -49,6 +49,10 @@ listen_02:
     element: cn.missevan:id/tvConfirm
     name: 点击删除音单弹窗 - 确定按钮
   -
+    method: sleep
+    element: 1
+    name: 等待 1s
+  -
     method: get_toast
     assert_text: 音单删除成功
     name: 判断是否出现音单删除成功的 toast
@@ -75,7 +79,7 @@ listen_02:
   -
     method: sleep
     element: 2
-    name: 等待 1s
+    name: 等待 2s
   -
     method: click
     element: cn.missevan:id/tv_title
@@ -85,6 +89,10 @@ listen_02:
     element: cn.missevan:id/tv_collection
     name: 取消收藏
   -
+    method: sleep
+    element: 1
+    name: 等待 1s
+  -
     method: get_toast
     assert_text: 取消收藏音单成功
     name: 判断是否出现取消收藏音单成功的 toast
@@ -92,6 +100,10 @@ listen_02:
     method: click
     element: cn.missevan:id/tv_collection
     name: 收藏
+  -
+    method: sleep
+    element: 1
+    name: 等待 1s
   -
     method: get_toast
     assert_text: 收藏音单成功
@@ -103,17 +115,21 @@ listen_02:
     name: 点击音单内的评论按钮
   -
     method: click
-    element: cn.missevan:id/send_comment
+    element: cn.missevan:id/danmu_edit
     name: 发送评论
   -
     method: set_text
-    element: cn.missevan:id/editor
+    element: cn.missevan:id/edit_view
     text: 好听
     name: 输入评论
   -
     method: click
-    element: cn.missevan:id/switch_button2
+    element: cn.missevan:id/emoji_btn
     name: 点击表情
+  -
+    method: sleep
+    element: 1
+    name: 等待 1s
   -
     method: click
     element: android.widget.ImageView
@@ -124,22 +140,44 @@ listen_02:
     element: cn.missevan:id/send
     name: 发送消息
   -
+    method: back_press
+    name: 返回
+  -
+    method: click
+    element: cn.missevan:id/tv_comment
+    name: 点击音单内的评论按钮
+  -
+    method: sleep
+    element: 1
+    name: 等待 1s
+  -
     method: get_text
     element: cn.missevan:id/comment_content
     name: 判断当前第一条评论的内容是否为刚才评论的
     assert_text: 好听[收听]
+
   -
     method: click
     element: cn.missevan:id/comment_expand_operator
+    index: 0
     name: 点击评论- 更多
   -
     method: click
     element: cn.missevan:id/comment_delete
+    index: 0
     name: 点击删除按钮
+  -
+    method: sleep
+    element: 1
+    name: 等待 1s
   -
     method: get_toast
     assert_text: 删除成功
     name: 判断是否出现删除成功的 toast
+  -
+    method: sleep
+    element: 1
+    name: 等待 1s
   -
     method: get_text
     element: cn.missevan:id/comment_content

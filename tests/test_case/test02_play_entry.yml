@@ -10,7 +10,7 @@ play_01:
     name: 点击热门推荐下第一个广播剧
   -
     method: is_element_displayed
-    element: cn.missevan:id/card
+    element: cn.missevan:id/header_download
     name: 验证当前页面是否为剧集页
   -
     method: back_press
@@ -27,14 +27,9 @@ play_01:
     index: 0
     name: 点击第一个热搜词
   -
-    method: click
-    element: cn.missevan:id/cover
-    index: 0
-    name: 点击综合搜索下第一个广播剧封面
-  -
     method: is_element_displayed
-    element: cn.missevan:id/card
-    name: 验证当前页面是否为剧集页
+    element: cn.missevan:id/parallax_parent
+    name: 验证当前页面是否为搜索结果页
   -
     method: back_press
     name: 返回到上一页
@@ -64,7 +59,7 @@ play_01:
     name: 点击综合搜索下第一个广播剧封面
   -
     method: is_element_displayed
-    element: cn.missevan:id/card
+    element: cn.missevan:id/header_download
     name: 验证当前页面是否为剧集页
 
   # 进入音频播放页
@@ -89,12 +84,19 @@ play_01:
   -
     method: back_press
     name: 返回到首页
+  -
+    method: back_press
+    name: 返回到首页
 
   # 进入音频播放页
   -
     method: is_element_displayed
     element: cn.missevan:id/play_cat
     name: 验证首页是否有播放喵
+#  -
+#    method: click
+#    element: cn.missevan:id/play_cat
+#    name: 点击播放喵回到播放页
   -
     method: click
     element: (534, 2229)
@@ -103,3 +105,18 @@ play_01:
     method: is_element_displayed
     element: cn.missevan:id/playViewsContainer
     name: 验证页面是否存在播放视图容器
+# 播放预告
+  -
+    method: swip_up
+    name: 向上滑
+  -
+    method: click
+    element: cn.missevan:id/all_episodes
+    name: 点击全部剧集按钮
+  -
+    method: click
+    element: cn.missevan:id/layout
+    index: 0
+    name: 点击预告
+  -
+    method: back_press

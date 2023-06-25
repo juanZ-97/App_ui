@@ -1,5 +1,5 @@
 mine_01:
-  # 发现 - 切换到发现页
+  # 发现 - 切换到我的页
   -
     method: click
     element: cn.missevan:id/nav_icon_mine
@@ -9,6 +9,10 @@ mine_01:
     method: click
     element: cn.missevan:id/rl_user_info
     name: 点击个人信息模块
+  -
+    method: sleep
+    element: 1
+    name: 等待 1s
   -
     method: is_element_displayed
     element: cn.missevan:id/header_sound_bg
@@ -27,6 +31,10 @@ mine_01:
     element: cn.missevan:id/new_personal_already_bought
     name: 点击已购模块
   -
+    method: sleep
+    element: 1
+    name: 等待 1s
+  -
     method: get_text
     element: cn.missevan:id/tv_independent_header_title
     name: 判断标题是否已购
@@ -43,6 +51,10 @@ mine_01:
     method: click
     element: cn.missevan:id/new_personal_sounds
     name: 点击音频模块
+  -
+    method: sleep
+    element: 1
+    name: 等待 1s
   -
     method: get_text
     element: cn.missevan:id/tv_independent_header_title
@@ -62,6 +74,10 @@ mine_01:
     element: cn.missevan:id/new_personal_my_follow
     name: 点击关注模块
   -
+    method: sleep
+    element: 1
+    name: 等待 1s
+  -
     method: is_element_displayed
     element: cn.missevan:id/flHeader
     name: 验证首页是否有关注页的搜索栏
@@ -79,6 +95,10 @@ mine_01:
     method: click
     element: cn.missevan:id/new_personal_fans
     name: 点击粉丝模块
+  -
+    method: sleep
+    element: 1
+    name: 等待 1s
   -
     method: is_element_displayed
     element: cn.missevan:id/flHeader

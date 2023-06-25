@@ -1,0 +1,2 @@
+Unknown input method com.sohu.inputmethod.sogou/.SogouIME cannot be selected for user #0
+Unknown input method io.appium.settings/.UnicodeIME cannot be selected for user #0

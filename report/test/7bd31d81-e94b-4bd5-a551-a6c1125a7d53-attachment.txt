@@ -1,0 +1,2 @@
+2022-11-16 16:27:54 [Info]:[输入]元素 催眠舒压轻音乐 
+Input method io.appium.settings/.UnicodeIME selected for user #0

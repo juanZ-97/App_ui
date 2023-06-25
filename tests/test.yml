@@ -1,6 +1,331 @@
-play_03:
-  # 音频播放页 - 切换播放模式
+mine_02:
+  # 启动音
+  -
+    method: click
+    element: cn.missevan:id/new_function_layout
+    index: 0
+    name: 点击启动音
+  -
+    method: click
+    element: cn.missevan:id/tv_i_know
+    name: 点击启动音首次的提示确认弹窗
+  -
+    method: get_text
+    element: cn.missevan:id/tv_independent_header_title
+    name: 判断标题是否启动音
+    assert_text: 启动音
+  -
+    method: back_press
+    name: 返回
+  # 闹钟
+  -
+    method: sleep
+    element: 1
+    name: 等待 1s
+  -
+    method: click
+    element: cn.missevan:id/new_function_layout
+    index: 1
+    name: 点击闹钟
+  -
+    method: get_text
+    element: cn.missevan:id/tv_independent_header_title
+    name: 判断标题是否为铃声推荐
+    assert_text: 铃声推荐
+  -
+    method: back_press
+    name: 返回
+# 定时关闭
+  -
+    method: sleep
+    element: 1
+    name: 等待 1s
+  -
+    method: click
+    element: cn.missevan:id/new_function_layout
+    index: 2
+    name: 点击定时关闭
+  -
+    method: click
+    element: cn.missevan:id/tv_content
+    index: 1
+    name: 选择「播放完当前音」
+  -
+    method: get_text
+    element: cn.missevan:id/auto_close
+    name: 判断我的 - 闹钟是否有「播完后关闭」字样
+    assert_text: 播完后关闭
+# 联系客服
+  -
+    method: click
+    element: cn.missevan:id/new_function_layout
+    index: 3
+    name: 点击联系客服
+  -
+    method: click
+    element: cn.missevan:id/tv_feedback_bug
+    name: 点击 BUG 反馈
+  -
+    method: swip_up
+    name: 滑动到页面底部
+  -
+    method: click
+    element: cn.missevan:id/tv_send_log
+    name: 点击发送日志
+  -
+    method: click
+    element: cn.missevan:id/positive_btn
+    name: 点击确认发送日志
+  -
+    method: sleep
+    element: 2
+    name: 等待 2s
   -
     method: get_toast
-    name: 进入登录页
-  # 音频播放页 - 切换音视频
+    assert_text: 发送成功
+    name: 判断 toast 是否包含发送成功字样
+  -
+    method: back_press
+    name: 返回
+  -
+    method: click
+    element: cn.missevan:id/tv_contact_service
+    name: 点击联系客服
+  -
+    method: sleep
+    element: 1
+    name: 等待 1s
+  -
+    method: get_text
+    element: cn.missevan:id/sobot_text_title
+    name: 判断标题是否有「客服娘」字样
+    assert_text: 客服娘
+  -
+    method: back_press
+    name: 返回
+  -
+    method: back_press
+    name: 返回到我的页
+# 日常任务
+  -
+    method: click
+    element: cn.missevan:id/new_function_layout
+    index: 4
+    name: 点击日常任务
+  -
+    method: click
+    element: cn.missevan:id/task_num_txt
+    index: 1
+    name: 点击摸鱼
+  -
+    method: click
+    element: cn.missevan:id/done
+    name: 点击摸鱼完成弹窗的完成按钮
+  -
+    method: back_press
+    name: 返回
+  -
+    method: sleep
+    element: 1
+    name: 等待 1s
+# 主题切换 - 暂不做
+# 我的追剧
+  -
+    method: click
+    element: cn.missevan:id/new_function_layout
+    index: 6
+    name: 点击我的追剧
+  -
+    method: get_text
+    element: cn.missevan:id/tv_independent_header_title
+    name: 判断标题是否包含追剧
+    assert_text: 追剧
+  -
+    method: click
+    element: cn.missevan:id/cover
+    name: 点击摸鱼完成弹窗的完成按钮
+  -
+    method: is_element_displayed
+    element: cn.missevan:id/header_download
+    name: 验证当前页面是否为剧集页
+  -
+    method: back_press
+    name: 返回
+  -
+    method: back_press
+    name: 返回
+  -
+    method: sleep
+    element: 1
+    name: 等待 1s
+ 我的消息
+  -
+    method: click
+    element: cn.missevan:id/new_function_layout
+    index: 7
+    name: 点击我的消息
+  -
+    method: click
+    element: cn.missevan:id/comment
+    name: 点击评论
+  -
+    method: get_text
+    element: cn.missevan:id/tv_independent_header_title
+    name: 判断标题是否包含我的评论
+    assert_text: 我的评论
+  -
+    method: back_press
+    name: 返回
+  -
+    method: click
+    element: cn.missevan:id/at
+    name: 点击艾特我
+  -
+    method: get_text
+    element: cn.missevan:id/tv_independent_header_title
+    name: 判断标题是否包含艾特我的
+    assert_text: 我的
+  -
+    method: back_press
+    name: 返回
+  -
+    method: click
+    element: cn.missevan:id/like
+    name: 点击赞
+  -
+    method: get_text
+    element: cn.missevan:id/tv_independent_header_title
+    name: 判断标题是否包含收到的赞
+    assert_text: 收到的赞
+  -
+    method: back_press
+    name: 返回
+  -
+    method: click
+    element: cn.missevan:id/system
+    name: 点击系统消息
+  -
+    method: get_text
+    element: cn.missevan:id/tv_independent_header_title
+    name: 判断标题是否包含系统通知
+    assert_text: 系统通知
+  -
+    method: back_press
+    name: 返回
+  # 我的消息 - 发送消息
+  -
+    method: click
+    element: cn.missevan:id/msg_avatar
+    index: 0
+    name: 点击第一个私信对象
+  -
+    method: click
+    element: cn.missevan:id/danmu_edit
+    name: 点击更多
+  -
+    method: set_text
+    element: cn.missevan:id/editor
+    text: 今天天气怎么样？
+    name: 输入发送的私信消息
+  -
+    method: click
+    element: cn.missevan:id/send
+    name: 点击发送
+ # 我的消息 - 拉黑
+  -
+    method: click
+    element: cn.missevan:id/menu_more
+    name: 点击更多
+  -
+    method: click
+    element: cn.missevan:id/tv_blacklist
+    name: 点击加入黑名单
+  -
+    method: click
+    element: cn.missevan:id/tv_sure
+    name: 点击确认加入黑名单
+  -
+    method: get_toast
+    assert_text: 成功加入黑名单
+    name: 判断 toast 是否包含成功加入黑名单
+  -
+    method: click
+    element: cn.missevan:id/menu_more
+    name: 点击更多
+  -
+    method: click
+    element: cn.missevan:id/tv_blacklist
+    name: 点击移除黑名单
+  -
+    method: get_toast
+    assert_text: 移除黑名单成功
+    name: 判断 toast 是否包含移除黑名单成功
+  -
+    method: back_press
+    name: 返回
+  -
+    method: back_press
+    name: 返回到我的页
+  -
+    method: sleep
+    element: 1
+    name: 等待 1s
+# 我的钱包
+  -
+    method: click
+    element: cn.missevan:id/new_function_layout
+    index: 8
+    name: 点击我的钱包
+  -
+    method: get_text
+    element: cn.missevan:id/tv_independent_header_title
+    name: 判断标题是否包含购买钻石
+    assert_text: 购买钻石
+  -
+    method: back_press
+    name: 返回到我的页
+# 直播中心
+  -
+    method: sleep
+    element: 1
+    name: 等待 1s
+  -
+    method: click
+    element: cn.missevan:id/new_function_layout
+    index: 9
+    name: 点击直播中心
+  -
+    method: get_text
+    element: cn.missevan:id/tv_independent_header_title
+    name: 判断标题是否包含直播中心
+    assert_text: 直播中心
+  -
+    method: back_press
+    name: 返回到我的页
+# 猫耳商城
+  -
+    method: sleep
+    element: 1
+    name: 等待 1s
+  -
+    method: click
+    element: cn.missevan:id/new_function_layout
+    index: 10
+    name: 点击猫耳商城
+  -
+    method: get_text
+    element: cn.missevan:id/toolbarTitle
+    name: 判断标题是否包含猫耳商城
+    assert_text: 猫耳商城
+  -
+    method: sleep
+    element: 2
+    name: 等待 2s
+  -
+    method: is_element_displayed
+    element: cn.missevan:id/youZanX5View
+    name: 验证首页是否有有赞的内容
+    is_displayed: True
+  -
+    method: back_press
+    name: 返回到我的页

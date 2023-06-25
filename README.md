@@ -31,6 +31,8 @@ test_index:
  |      区域截图
  |  set_text(self, locator)
  |      输入文本
+ |  clear_text(self, locator)
+ |      清除某元素的文字（暂较常用于输入框的清除）
  |  sleep(s)
  |      等待
  
@@ -56,7 +58,7 @@ test_index:
 
 ```
 #### 运行方式
-> pytest -s ./test_case/test_ranking.yml --alluredir './report/test'
+> python3 run.py
 
 或者直接运行文件目录
 

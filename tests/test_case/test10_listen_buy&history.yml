@@ -14,6 +14,7 @@ listen_03:
     method: sleep
     element: 1
     name: 等待 1s
+
   -
     method: get_text
     element: cn.missevan:id/drama_title
@@ -56,6 +57,10 @@ listen_03:
     element: cn.missevan:id/tvConfirm
     name: 点击删除剧集弹窗 - 确定按钮
   -
+    method: sleep
+    element: 1
+    name: 等待 1s
+  -
     method: get_toast
     assert_text: 删除成功
     name: 判断是否出现剧集删除成功的 toast
@@ -70,7 +75,7 @@ listen_03:
     method: get_text
     element: cn.missevan:id/drama_title
     name: 判断当前第一个结果是不是被删除的长风渡
-    assert_text: 长风渡
+    assert_text: 将门毒后
     is_not_exist: True
   # 恢复被删剧集
   -
@@ -91,6 +96,10 @@ listen_03:
     element: cn.missevan:id/btn_drama_recover
     name: 点击恢复
   -
+    method: sleep
+    element: 1
+    name: 等待 1s
+  -
     method: get_toast
     assert_text: 恢复成功
     name: 判断是否出现剧集删除成功的 toast
@@ -105,7 +114,7 @@ listen_03:
     method: get_text
     element: cn.missevan:id/drama_title
     name: 判断当前第一个结果是不是被删除的长风渡
-    assert_text: 长风渡
+    assert_text: 将门毒后
   -
     method: back_press
     name: 返回
@@ -116,7 +125,15 @@ listen_03:
     index: 3
     name: 进入已购页
   -
+    method: sleep
+    element: 1
+    name: 等待 1s
+  -
     method: get_text
     element: cn.missevan:id/tv_independent_header_title
     name: 判断当前页标题是否为「历史记录」
     assert_text: 历史记录
+  # 返回我听页
+  -
+    method: back_press
+    name: 返回

@@ -1,0 +1,637 @@
+11-16 15:44:56.302   760  3984 E TS_HAL  : huawei_tp_get_event_data: call
+11-16 15:44:56.302   760  3984 E TS_HAL  : huawei_tp_get_event_data: call
+11-16 15:44:56.303  4088  4196 I HwSideTouchManagerEx: getSideTouchRegion:com.android.systemuitype:0
+11-16 15:44:56.304  4088  4088 D vol.VolumeDialogImpl: rescheduleTimeout 2000
+11-16 15:44:56.304  4088  4088 I vol.VolumeDialogImpl: STREAM_MUSIC onProgressChanged 0 fromUser=true
+11-16 15:44:56.304   760   760 I TS_Service: hwTsRunCommand
+11-16 15:44:56.304   760   760 E TS_HAL  : huawei_tp_run_command: call
+11-16 15:44:56.305   882  2861 I aptouch_daemon: get_cmd, TSA_ExecuteCommand
+11-16 15:44:56.305   882  2861 I aptouch_daemon: operator(), TSA_ExecuteCommand(THP_GetTuneTimePrmt android.uid.systemui:10061#volumeGreenAreaStart) = OK#190
+11-16 15:44:56.306  4088  4088 I vol.Events: writeEvent touch_level_changed STREAM_MUSIC 0
+11-16 15:44:56.306   882  2861 I aptouch_daemon: excute_cmd_end, cmd: TSA_ExecuteCommand.
+11-16 15:44:56.306   760   760 I aptouch_daemon, [aptouch_interface_client]: ret = OK#190
+11-16 15:44:56.306  4088  5723 I AudioManager: setStreamVolume 3 index: 0 flags: 0
+11-16 15:44:56.306  2010  4593 I HwSideTouchManager: getSideTouchRegion startRegion OK#190
+11-16 15:44:56.306   765 18531 I APM_AudioPolicyManager: getOutputsForDevices, openOutputs size is 2, outputs size is 2
+11-16 15:44:56.306  2010  4605 I HwAudioService: setStreamVolume index=0,preVol=1
+11-16 15:44:56.306  2010  4605 I AS.AudioService: setStreamVolume(stream =3,index =0,calling =com.android.systemui)
+11-16 15:44:56.306   760   760 I TS_Service: hwTsRunCommand
+11-16 15:44:56.306   760   760 E TS_HAL  : huawei_tp_run_command: call
+11-16 15:44:56.307   765 18531 I APM_AudioPolicyManager: getOutputsForDevices, openOutputs size is 2, outputs size is 2
+11-16 15:44:56.307  2010  4605 I AS.AudioService: isTotalSilence : false, mRingerAndZenModeMutedStreams :422
+11-16 15:44:56.307   765 18531 I APM_AudioPolicyManager: getOutputsForDevices, openOutputs size is 2, outputs size is 2
+11-16 15:44:56.308   765 18531 I chatty  : uid=1041(audioserver) Binder:765_8 identical 2 lines
+11-16 15:44:56.308   765 18531 I APM_AudioPolicyManager: getOutputsForDevices, openOutputs size is 2, outputs size is 2
+11-16 15:44:56.309  2010  2010 E HwMediaSessionServiceEx: onReceive is not support
+11-16 15:44:56.309   765 18531 I APM_AudioPolicyManager: getOutputsForDevices, openOutputs size is 2, outputs size is 2
+11-16 15:44:56.309  2010  2010 D HwSideVibrationManager: not a effctive stream type, return: 10
+11-16 15:44:56.309  5015  5015 V AudioManager: getStreamVolume streamType: 3 volume: 0
+11-16 15:44:56.309  5015  5015 V AudioManager: isStreamMute   streamType: 3
+11-16 15:44:56.310   765 18531 I APM_AudioPolicyManager: getOutputsForDevices, openOutputs size is 2, outputs size is 2
+11-16 15:44:56.310  5282  5282 V AudioManager: getStreamVolume streamType: 3 volume: 0
+11-16 15:44:56.310  5282  5282 V AudioManager: isStreamMute   streamType: 3
+11-16 15:44:56.310   882  2861 I aptouch_daemon: get_cmd, TSA_ExecuteCommand
+11-16 15:44:56.311  2010  3904 I AudioSystem: setStreamVolumeIndexAS: stream=3 dev=2 idx=0
+11-16 15:44:56.312   765 18531 I APM_AudioPolicyManager: setStreamVolumeIndex() stream 3, device 0x0002, index 0
+11-16 15:44:56.312   765 18531 I APM_AudioPolicyManager: setVolumeIndexForAttributes: attributes={ Content type: AUDIO_CONTENT_TYPE_UNKNOWN Usage: AUDIO_USAGE_MEDIA Source: AUDIO_SOURCE_DEFAULT Flags: 0x0 Tags:  } index=0 device=0x2
+11-16 15:44:56.312   765 18531 V APM::AudioOutputDescriptor: setVolume for volumeSrc 6, volume -758.000000, delay 0
+11-16 15:44:56.312   765 18531 I APM::AudioOutputDescriptor: setVolume output 13 for volumeSource 6, volume -758.000000, delay 0 stream=AUDIO_STREAM_MUSIC
+11-16 15:44:56.312   765 18531 I AudioPolicyService: AudioCommandThread() adding set volume stream 3, volume 0.000000, output 13
+11-16 15:44:56.312   765  1010 I AudioFlinger: AudioFlinger: setStreamVolume stream=3; value=0.000000; output=13
+11-16 15:44:56.313   765  1010 I stereoWidening_frame: volumeDb = -120.000000
+11-16 15:44:56.313  2010  2010 V AudioManager: getStreamMaxVolume  treamType: 3
+11-16 15:44:56.313  2010  2010 D HwSideVibrationManager: VOLUME_CHANGED_ACTION stream = 3 maxVolumelevel= 15 minVolumeLevel= 0 currentlevel= 0
+11-16 15:44:56.313   882  2861 I aptouch_daemon: operator(), TSA_ExecuteCommand(THP_GetTuneTimePrmt android.uid.systemui:10061#volumeGreenAreaEnd) = OK#1010
+11-16 15:44:56.313  2010  2785 I HwInnerVibratorService: isSupportHwVibrator type:haptic.volume.min, isSupport:0
+11-16 15:44:56.313   882  2861 I aptouch_daemon: excute_cmd_end, cmd: TSA_ExecuteCommand.
+11-16 15:44:56.313  2010  2785 I HwInnerVibratorService: setHwVibrator on: uid is 1000, pid is 2010, packagename = android, type is haptic.volume.min repeat:-1
+11-16 15:44:56.313  2010  2785 I VibratorService: doCancelVibrateLocked into
+11-16 15:44:56.313   760   760 I aptouch_daemon, [aptouch_interface_client]: ret = OK#1010
+11-16 15:44:56.313  2010  2785 W VibratorService: setHwVibrator type=haptic.volume.min
+11-16 15:44:56.313   750   750 I hwvibrator@1.1: setHwVibrator type = haptic.volume.min
+11-16 15:44:56.313  2010  4593 I HwSideTouchManager: getSideTouchRegion endRegion OK#1010
+11-16 15:44:56.314   750   750 I hwvibrator@1.1: Start: succ.
+11-16 15:44:56.314  2010  2010 I VibratorService: mSendVibratorStateOnRunnable vibrator_state on, acquire support false
+11-16 15:44:56.314  2010  2653 I PowerManagerService: handleSandman: wakefulness: 1,startDreaming: false
+11-16 15:44:56.314   765 18531 I APM_AudioPolicyManager: checkAndSetVolume volumeSource 6, index 0, device 00000002, volumeDb -758.000000, output 13
+11-16 15:44:56.314   750  6535 I hwvibrator@1.1: OnTaskStarked
+11-16 15:44:56.314   750  6535 I hwvibrator@1.1: OnTaskStarked, delay time = 0, type = 109
+11-16 15:44:56.314   750  6535 I hwvibrator@1.1: DoVibratorEffect seqType = 0, type = 109
+11-16 15:44:56.315   765  1010 D AudioFlinger: setParameters(): io 0, keyvalue streamDevices=2;streamType=3;volumeIndex=0, calling pid 765 calling uid 1041
+11-16 15:44:56.316   740   850 I AudioModuleManager: [AudioModuleSetParameters:51]: list size: 13
+11-16 15:44:56.316   740   850 I audio_hw_effect: [voice_enhance_set_volume:1991]: voice enhance volume index value: 0
+11-16 15:44:56.317   765 18531 I APM_AudioPolicyManager: getOutputsForDevices, openOutputs size is 2, outputs size is 2
+11-16 15:44:56.317  2010  3904 I AudioSystem: setStreamVolumeIndexAS: stream=10 dev=2 idx=1
+11-16 15:44:56.317   765 18531 I APM_AudioPolicyManager: setStreamVolumeIndex() stream 10, device 0x0002, index 1
+11-16 15:44:56.317   765 18531 I APM_AudioPolicyManager: setVolumeIndexForAttributes: attributes={ Content type: AUDIO_CONTENT_TYPE_UNKNOWN Usage: AUDIO_USAGE_ASSISTANCE_ACCESSIBILITY Source: AUDIO_SOURCE_DEFAULT Flags: 0x0 Tags:  } index=1 device=0x2
+11-16 15:44:56.318   765  1010 D AudioFlinger: setParameters(): io 0, keyvalue streamDevices=2;streamType=10;volumeIndex=1, calling pid 765 calling uid 1041
+11-16 15:44:56.318   740   850 I AudioModuleManager: [AudioModuleSetParameters:51]: list size: 13
+11-16 15:44:56.318   740   850 I audio_hw_effect: [voice_enhance_set_parameters:2035]: stream type is not music
+11-16 15:44:56.320   765 18531 I APM_AudioPolicyManager: getOutputsForDevices, openOutputs size is 2, outputs size is 2
+11-16 15:44:56.320  5015  5015 V AudioManager: getStreamVolume streamType: 3 volume: 0
+11-16 15:44:56.320  5015  5015 V AudioManager: isStreamMute   streamType: 3
+11-16 15:44:56.320   765 18531 I APM_AudioPolicyManager: getOutputsForDevices, openOutputs size is 2, outputs size is 2
+11-16 15:44:56.321  5282  5282 V AudioManager: getStreamVolume streamType: 3 volume: 0
+11-16 15:44:56.321  5282  5282 V AudioManager: isStreamMute   streamType: 3
+11-16 15:44:56.321  2010  4605 E HwVrServiceManagerImpl: client service is not alive.
+11-16 15:44:56.321  2010  4605 I VolumeController: call systemui volumeChanged
+11-16 15:44:56.321  4088  4773 I vol.VolumeDialogControl.VC: volumeChanged STREAM_MUSIC
+11-16 15:44:56.322  4088  5723 I vol.VolumeDialogControl: onReceive VOLUME_CHANGED_ACTION stream=10 level=1 oldLevel=2
+11-16 15:44:56.322  4088  5723 I vol.VolumeDialogControl: onReceive VOLUME_CHANGED_ACTION stream=3 level=0 oldLevel=1
+11-16 15:44:56.322  4088  5723 I vol.Events: writeEvent level_changed STREAM_MUSIC 0
+11-16 15:44:56.322  4088  5723 I vol.Events: writeEvent mute_changed STREAM_MUSIC true
+11-16 15:44:56.323  4088  4088 I vol.VolumeDialogImpl: STREAM_ACCESSIBILITY onProgressChanged 100 fromUser=false
+11-16 15:44:56.323  2010  3904 I AudioSystem: setStreamVolumeIndexAS: stream=3 dev=2 idx=0
+11-16 15:44:56.323   765 18531 I APM_AudioPolicyManager: setStreamVolumeIndex() stream 3, device 0x0002, index 0
+11-16 15:44:56.323   765 18531 I APM_AudioPolicyManager: setVolumeIndexForAttributes: attributes={ Content type: AUDIO_CONTENT_TYPE_UNKNOWN Usage: AUDIO_USAGE_MEDIA Source: AUDIO_SOURCE_DEFAULT Flags: 0x0 Tags:  } index=0 device=0x2
+11-16 15:44:56.323   765 18531 I APM::AudioOutputDescriptor: do not setVolume.
+11-16 15:44:56.323   765 18531 I APM_AudioPolicyManager: checkAndSetVolume volumeSource 6, index 0, device 00000002, volumeDb -758.000000, output 13
+11-16 15:44:56.324   765  1010 D AudioFlinger: setParameters(): io 0, keyvalue streamDevices=2;streamType=3;volumeIndex=0, calling pid 765 calling uid 1041
+11-16 15:44:56.324   740   740 I AudioModuleManager: [AudioModuleSetParameters:51]: list size: 13
+11-16 15:44:56.324   740   740 I audio_hw_effect: [voice_enhance_set_volume:1991]: voice enhance volume index value: 0
+11-16 15:44:56.325  2010  3904 I AudioSystem: setStreamVolumeIndexAS: stream=3 dev=4000 idx=0
+11-16 15:44:56.325   765 18531 I APM_AudioPolicyManager: setStreamVolumeIndex() stream 3, device 0x4000, index 0
+11-16 15:44:56.325   765 18531 I APM_AudioPolicyManager: setVolumeIndexForAttributes: attributes={ Content type: AUDIO_CONTENT_TYPE_UNKNOWN Usage: AUDIO_USAGE_MEDIA Source: AUDIO_SOURCE_DEFAULT Flags: 0x0 Tags:  } index=0 device=0x4000
+11-16 15:44:56.326   765  1010 D AudioFlinger: setParameters(): io 0, keyvalue streamDevices=16384;streamType=3;volumeIndex=0, calling pid 765 calling uid 1041
+11-16 15:44:56.327   740   850 I AudioModuleManager: [AudioModuleSetParameters:51]: list size: 13
+11-16 15:44:56.327   740   850 I audio_hw_effect: [voice_enhance_set_volume:1991]: voice enhance volume index value: 0
+11-16 15:44:56.329  2010  3904 I AudioSystem: setStreamVolumeIndexAS: stream=3 dev=8000 idx=0
+11-16 15:44:56.329   765 18531 I APM_AudioPolicyManager: setStreamVolumeIndex() stream 3, device 0x8000, index 0
+11-16 15:44:56.329   765 18531 I APM_AudioPolicyManager: setVolumeIndexForAttributes: attributes={ Content type: AUDIO_CONTENT_TYPE_UNKNOWN Usage: AUDIO_USAGE_MEDIA Source: AUDIO_SOURCE_DEFAULT Flags: 0x0 Tags:  } index=0 device=0x8000
+11-16 15:44:56.330   765  1010 D AudioFlinger: setParameters(): io 0, keyvalue streamDevices=32768;streamType=3;volumeIndex=0, calling pid 765 calling uid 1041
+11-16 15:44:56.330   740 21547 I AudioModuleManager: [AudioModuleSetParameters:51]: list size: 13
+11-16 15:44:56.331   740 21547 I audio_hw_effect: [voice_enhance_set_volume:1991]: voice enhance volume index value: 0
+11-16 15:44:56.332  2010  3904 I AudioSystem: setStreamVolumeIndexAS: stream=3 dev=20000000 idx=0
+11-16 15:44:56.332   765 18531 I APM_AudioPolicyManager: setStreamVolumeIndex() stream 3, device 0x20000000, index 0
+11-16 15:44:56.332   765 18531 I APM_AudioPolicyManager: setVolumeIndexForAttributes: attributes={ Content type: AUDIO_CONTENT_TYPE_UNKNOWN Usage: AUDIO_USAGE_MEDIA Source: AUDIO_SOURCE_DEFAULT Flags: 0x0 Tags:  } index=0 device=0x20000000
+11-16 15:44:56.333   765  1010 D AudioFlinger: setParameters(): io 0, keyvalue streamDevices=536870912;streamType=3;volumeIndex=0, calling pid 765 calling uid 1041
+11-16 15:44:56.333   740   850 I AudioModuleManager: [AudioModuleSetParameters:51]: list size: 13
+11-16 15:44:56.333   740   850 I audio_hw_effect: [voice_enhance_set_volume:1991]: voice enhance volume index value: 0
+11-16 15:44:56.334  2010  3904 I AudioSystem: setStreamVolumeIndexAS: stream=3 dev=40000000 idx=0
+11-16 15:44:56.335   765 18531 I APM_AudioPolicyManager: setStreamVolumeIndex() stream 3, device 0x40000000, index 0
+11-16 15:44:56.335   765 18531 I APM_AudioPolicyManager: setVolumeIndexForAttributes: attributes={ Content type: AUDIO_CONTENT_TYPE_UNKNOWN Usage: AUDIO_USAGE_MEDIA Source: AUDIO_SOURCE_DEFAULT Flags: 0x0 Tags:  } index=0 device=0x40000000
+11-16 15:44:56.335  2010  3904 E AudioSystem-JNI: Command failed for android_media_AudioSystem_setStreamVolumeIndex: -22
+11-16 15:44:56.335  2010  3904 I AudioSystem: setStreamVolumeIndexAS: stream=10 dev=2 idx=1
+11-16 15:44:56.335   765 18531 I APM_AudioPolicyManager: setStreamVolumeIndex() stream 10, device 0x0002, index 1
+11-16 15:44:56.335   765 18531 I APM_AudioPolicyManager: setVolumeIndexForAttributes: attributes={ Content type: AUDIO_CONTENT_TYPE_UNKNOWN Usage: AUDIO_USAGE_ASSISTANCE_ACCESSIBILITY Source: AUDIO_SOURCE_DEFAULT Flags: 0x0 Tags:  } index=1 device=0x2
+11-16 15:44:56.336  4297  4981 I PGAudioState: AUDIO_SET_FINAL_VOLUME, track id : 196, final volume : 0.0
+11-16 15:44:56.336   765  1010 D AudioFlinger: setParameters(): io 0, keyvalue SmartPA_LowVolume=on, calling pid 765 calling uid 1041
+11-16 15:44:56.336  4297  4981 I PGServer: report state:2 event type:2 pid:5282 uid:10231 pkg:null to pid: 4297
+11-16 15:44:56.336   740   850 I AudioModuleManager: [AudioModuleSetParameters:51]: list size: 13
+11-16 15:44:56.336  4297  4981 I PGServer: report state:2 event type:2 pid:5282 uid:10231 pkg:null to pid: 2010
+11-16 15:44:56.336  4297  4981 I PGServer: report state:2 event type:2 pid:5282 uid:10231 pkg:null to pid: 4667
+11-16 15:44:56.336  4297  4981 D PGAudioState: audio type:out state:stop pid:5282 uid:10231
+11-16 15:44:56.337  4667  4954 I OllieMsgCenter: publishEvt=2130771989
+11-16 15:44:56.337  4088  4088 D vol.VolumeDialogImpl: rescheduleTimeout 2000
+11-16 15:44:56.338   765 18531 I AudioPolicyManagerCustomBase: SmartPA_LowVolume=on
+11-16 15:44:56.339   765  1010 D AudioFlinger: setParameters(): io 0, keyvalue streamDevices=2;streamType=10;volumeIndex=1, calling pid 765 calling uid 1041
+11-16 15:44:56.339   740   850 I AudioModuleManager: [AudioModuleSetParameters:51]: list size: 13
+11-16 15:44:56.340   740   850 I audio_hw_effect: [voice_enhance_set_parameters:2035]: stream type is not music
+11-16 15:44:56.340  2010  3904 I AudioSystem: setStreamVolumeIndexAS: stream=10 dev=4000 idx=6
+11-16 15:44:56.341   765 28603 I APM_AudioPolicyManager: setStreamVolumeIndex() stream 10, device 0x4000, index 6
+11-16 15:44:56.341   765 28603 I APM_AudioPolicyManager: setVolumeIndexForAttributes: attributes={ Content type: AUDIO_CONTENT_TYPE_UNKNOWN Usage: AUDIO_USAGE_ASSISTANCE_ACCESSIBILITY Source: AUDIO_SOURCE_DEFAULT Flags: 0x0 Tags:  } index=6 device=0x4000
+11-16 15:44:56.342   765  1010 D AudioFlinger: setParameters(): io 0, keyvalue streamDevices=16384;streamType=10;volumeIndex=6, calling pid 765 calling uid 1041
+11-16 15:44:56.342   740   850 I AudioModuleManager: [AudioModuleSetParameters:51]: list size: 13
+11-16 15:44:56.342   740   850 I audio_hw_effect: [voice_enhance_set_parameters:2035]: stream type is not music
+11-16 15:44:56.343  2010  3904 I AudioSystem: setStreamVolumeIndexAS: stream=10 dev=8000 idx=15
+11-16 15:44:56.343   765 28603 I APM_AudioPolicyManager: setStreamVolumeIndex() stream 10, device 0x8000, index 15
+11-16 15:44:56.344   765 28603 I APM_AudioPolicyManager: setVolumeIndexForAttributes: attributes={ Content type: AUDIO_CONTENT_TYPE_UNKNOWN Usage: AUDIO_USAGE_ASSISTANCE_ACCESSIBILITY Source: AUDIO_SOURCE_DEFAULT Flags: 0x0 Tags:  } index=15 device=0x8000
+11-16 15:44:56.345   765  1010 D AudioFlinger: setParameters(): io 0, keyvalue streamDevices=32768;streamType=10;volumeIndex=15, calling pid 765 calling uid 1041
+11-16 15:44:56.345   740   850 I AudioModuleManager: [AudioModuleSetParameters:51]: list size: 13
+11-16 15:44:56.345   740   850 I audio_hw_effect: [voice_enhance_set_parameters:2035]: stream type is not music
+11-16 15:44:56.347  2010  3904 I AudioSystem: setStreamVolumeIndexAS: stream=10 dev=20000000 idx=6
+11-16 15:44:56.347   765 28603 I APM_AudioPolicyManager: setStreamVolumeIndex() stream 10, device 0x20000000, index 6
+11-16 15:44:56.347   765 28603 I APM_AudioPolicyManager: setVolumeIndexForAttributes: attributes={ Content type: AUDIO_CONTENT_TYPE_UNKNOWN Usage: AUDIO_USAGE_ASSISTANCE_ACCESSIBILITY Source: AUDIO_SOURCE_DEFAULT Flags: 0x0 Tags:  } index=6 device=0x20000000
+11-16 15:44:56.348   765  1010 D AudioFlinger: setParameters(): io 0, keyvalue streamDevices=536870912;streamType=10;volumeIndex=6, calling pid 765 calling uid 1041
+11-16 15:44:56.349   740   850 I AudioModuleManager: [AudioModuleSetParameters:51]: list size: 13
+11-16 15:44:56.349   740   850 I audio_hw_effect: [voice_enhance_set_parameters:2035]: stream type is not music
+11-16 15:44:56.350  2010  3904 I AudioSystem: setStreamVolumeIndexAS: stream=10 dev=40000000 idx=6
+11-16 15:44:56.351   765 28603 I APM_AudioPolicyManager: setStreamVolumeIndex() stream 10, device 0x40000000, index 6
+11-16 15:44:56.351   765 28603 I APM_AudioPolicyManager: setVolumeIndexForAttributes: attributes={ Content type: AUDIO_CONTENT_TYPE_UNKNOWN Usage: AUDIO_USAGE_ASSISTANCE_ACCESSIBILITY Source: AUDIO_SOURCE_DEFAULT Flags: 0x0 Tags:  } index=6 device=0x40000000
+11-16 15:44:56.351  2010  3904 E AudioSystem-JNI: Command failed for android_media_AudioSystem_setStreamVolumeIndex: -22
+11-16 15:44:56.351  2010  3904 E HwAudioService: setLVMMode abort
+11-16 15:44:56.351   765 28603 I APM_AudioPolicyManager: getOutputsForDevices, openOutputs size is 2, outputs size is 2
+11-16 15:44:56.354  2010  2653 I PowerManagerService: handleSandman: wakefulness: 1,startDreaming: false
+11-16 15:44:56.352   765 28603 I APM_AudioPolicyManager: getOutputsForDevices, openOutputs size is 2, outputs size is 2
+11-16 15:44:56.368   882   882 I aptouch_daemon: report_events, 4096
+11-16 15:44:56.368   760  3984 E TS_HAL  : huawei_tp_get_event_data: call
+11-16 15:44:56.369   760  3984 E TS_HAL  : huawei_tp_get_event_data: call
+11-16 15:44:56.370  4088  4196 I HwSideTouchManagerEx: getSideTouchRegion:com.android.systemuitype:0
+11-16 15:44:56.371   760   760 I TS_Service: hwTsRunCommand
+11-16 15:44:56.371   760   760 E TS_HAL  : huawei_tp_run_command: call
+11-16 15:44:56.374   882  2861 I aptouch_daemon: get_cmd, TSA_ExecuteCommand
+11-16 15:44:56.374   882  2861 I aptouch_daemon: operator(), TSA_ExecuteCommand(THP_GetTuneTimePrmt android.uid.systemui:10061#volumeGreenAreaStart) = OK#190
+11-16 15:44:56.374   882  2861 I aptouch_daemon: excute_cmd_end, cmd: TSA_ExecuteCommand.
+11-16 15:44:56.374   760   760 I aptouch_daemon, [aptouch_interface_client]: ret = OK#190
+11-16 15:44:56.375  2010  5176 I HwSideTouchManager: getSideTouchRegion startRegion OK#190
+11-16 15:44:56.375   760   760 I TS_Service: hwTsRunCommand
+11-16 15:44:56.375   760   760 E TS_HAL  : huawei_tp_run_command: call
+11-16 15:44:56.376   882  2860 I aptouch_daemon: get_cmd, TSA_ExecuteCommand
+11-16 15:44:56.376   882  2860 I aptouch_daemon: operator(), TSA_ExecuteCommand(THP_GetTuneTimePrmt android.uid.systemui:10061#volumeGreenAreaEnd) = OK#1010
+11-16 15:44:56.376   882  2860 I aptouch_daemon: excute_cmd_end, cmd: TSA_ExecuteCommand.
+11-16 15:44:56.376   760   760 I aptouch_daemon, [aptouch_interface_client]: ret = OK#1010
+11-16 15:44:56.376  2010  5176 I HwSideTouchManager: getSideTouchRegion endRegion OK#1010
+11-16 15:44:56.391  4088  4088 D vol.VolumeDialogImpl: rescheduleTimeout 2000
+11-16 15:44:56.404  4088  4088 D vol.VolumeDialogImpl: rescheduleTimeout 2000
+11-16 15:44:56.431   740  1146 D asd_pop : pop_recognition AudioAudio stream find POP[stream = 3 ; device = 2 ; ratio = 0.600377 ; wavelet_buf_qsum = 1583858036.080443]
+11-16 15:44:56.431   740  1146 D asd_pop : pop_recognition AudioAudio stream find POP[stream = 3 ; device = 2 ; ratio = 0.590926 ; wavelet_buf_qsum = 1590352369.215146]
+11-16 15:44:56.431   740  1146 D asd_pop : pop_recognition AudioAudio stream find POP[stream = 3 ; device = 2 ; ratio = 0.588018 ; wavelet_buf_qsum = 1598218216.880757]
+11-16 15:44:56.431   740  1146 D asd_pop : pop_recognition AudioAudio stream find POP[stream = 3 ; device = 2 ; ratio = 0.594496 ; wavelet_buf_qsum = 1590151996.167934]
+11-16 15:44:56.431   740  1146 D asd_pop : pop_recognition AudioAudio stream find POP[stream = 3 ; device = 2 ; ratio = 0.615894 ; wavelet_buf_qsum = 1598812707.306434]
+11-16 15:44:56.431   740  1146 D asd_pop : pop_recognition AudioAudio stream find POP[stream = 3 ; device = 2 ; ratio = 0.620189 ; wavelet_buf_qsum = 1587741829.253437]
+11-16 15:44:56.431   740  1146 D asd_pop : pop_recognition AudioAudio stream find POP[stream = 3 ; device = 2 ; ratio = 0.611297 ; wavelet_buf_qsum = 1583081168.169855]
+11-16 15:44:56.431   740  1146 D asd_pop : pop_recognition AudioAudio stream find POP[stream = 3 ; device = 2 ; ratio = 0.616028 ; wavelet_buf_qsum = 1585895100.272671]
+11-16 15:44:56.431   740  1146 D asd_pop : pop_recognition AudioAudio stream find POP[stream = 3 ; device = 2 ; ratio = 0.619928 ; wavelet_buf_qsum = 1588409692.809071]
+11-16 15:44:56.436   882   882 I aptouch_daemon: report_events, 4096
+11-16 15:44:56.436   760  3984 E TS_HAL  : huawei_tp_get_event_data: call
+11-16 15:44:56.436   760  3984 E TS_HAL  : huawei_tp_get_event_data: call
+11-16 15:44:56.446  4088  4196 I HwSideTouchManagerEx: getSideTouchRegion:com.android.systemuitype:0
+11-16 15:44:56.448   760   760 I TS_Service: hwTsRunCommand
+11-16 15:44:56.448   760   760 E TS_HAL  : huawei_tp_run_command: call
+11-16 15:44:56.450   882  2860 I aptouch_daemon: get_cmd, TSA_ExecuteCommand
+11-16 15:44:56.451   882   882 I aptouch_daemon: request_lock_timed, + LockStatus 0x00000021
+11-16 15:44:56.451   740  1146 D asd_pop : pop_recognition AudioAudio stream find POP[stream = 3 ; device = 2 ; ratio = 0.622021 ; wavelet_buf_qsum = 24575.493956]
+11-16 15:44:56.451   740  1146 I chatty  : uid=1041(audioserver) vendor.huawei.h identical 4 lines
+11-16 15:44:56.451   740  1146 D asd_pop : pop_recognition AudioAudio stream find POP[stream = 3 ; device = 2 ; ratio = 0.622021 ; wavelet_buf_qsum = 24575.493956]
+11-16 15:44:56.452   882  2860 I aptouch_daemon: operator(), TSA_ExecuteCommand(THP_GetTuneTimePrmt android.uid.systemui:10061#volumeGreenAreaStart) = OK#190
+11-16 15:44:56.452   882  2860 I aptouch_daemon: excute_cmd_end, cmd: TSA_ExecuteCommand.
+11-16 15:44:56.452   882   882 I aptouch_daemon: request_lock_timed, -, 2ms, 0
+11-16 15:44:56.453   760   760 I aptouch_daemon, [aptouch_interface_client]: ret = OK#190
+11-16 15:44:56.453  2010  5176 I HwSideTouchManager: getSideTouchRegion startRegion OK#190
+11-16 15:44:56.454   765  1874 I asd_out_fwk: L = -122.910773db, R = -122.910773db, Device = 0x2, TimeStampKernel = 380920320, TimeStampServer = 380922240
+11-16 15:44:56.454   765  1874 I asd_out_fwk: 1->0 volume_FrameCount 1928, Device = 0x2
+11-16 15:44:56.455   760   760 I TS_Service: hwTsRunCommand
+11-16 15:44:56.455   760   760 E TS_HAL  : huawei_tp_run_command: call
+11-16 15:44:56.456   882  2860 I aptouch_daemon: get_cmd, TSA_ExecuteCommand
+11-16 15:44:56.456   882  2860 I aptouch_daemon: operator(), TSA_ExecuteCommand(THP_GetTuneTimePrmt android.uid.systemui:10061#volumeGreenAreaEnd) = OK#1010
+11-16 15:44:56.456   882  2860 I aptouch_daemon: excute_cmd_end, cmd: TSA_ExecuteCommand.
+11-16 15:44:56.456   760   760 I aptouch_daemon, [aptouch_interface_client]: ret = OK#1010
+11-16 15:44:56.456  2010  5176 I HwSideTouchManager: getSideTouchRegion endRegion OK#1010
+11-16 15:44:56.487  4088  4088 D vol.VolumeDialogImpl: rescheduleTimeout 2000
+11-16 15:44:56.502   882   882 I aptouch_daemon: report_events, 4096
+11-16 15:44:56.502   760  3984 E TS_HAL  : huawei_tp_get_event_data: call
+11-16 15:44:56.502   760  3984 E TS_HAL  : huawei_tp_get_event_data: call
+11-16 15:44:56.503  2010  3879 I TrafficMonitor: update:rxPkts:132,txPkts:0,rxBytes:35044,txBytes:0
+11-16 15:44:56.503  2010  3879 I TrafficMonitor: no expired. level:3
+11-16 15:44:56.504  2010  3879 I TrafficMonitor: gettimer:interval=2000
+11-16 15:44:56.504  2010  3879 I TrafficMonitor: during_ms:2002,period_ms:2000
+11-16 15:44:56.504  2010  3879 I TrafficMonitor: count:287,rx_sum:132,tx_sum:0,rxBytes:35044,during_ms:2002,rx_speed:17504.495504495506,tx_speed:0.0,rto:0.0
+11-16 15:44:56.504  2010  3879 I HuaweiWifiWatchdogStateMachine: Get speed information rx_speed = 17504 ,tx_speed = 0 ,isSpeedOk = false ,mBestSpeedInPeriod = 19175
+11-16 15:44:56.507  4088  4088 D vol.VolumeDialogImpl: rescheduleTimeout 2000
+11-16 15:44:56.508  4088  4196 I HwSideTouchManagerEx: getSideTouchRegion:com.android.systemuitype:0
+11-16 15:44:56.509  4088  4088 D vol.VolumeDialogImpl: rescheduleTimeout 2000
+11-16 15:44:56.509   760   760 I TS_Service: hwTsRunCommand
+11-16 15:44:56.509   760   760 E TS_HAL  : huawei_tp_run_command: call
+11-16 15:44:56.514   882  2860 I aptouch_daemon: get_cmd, TSA_ExecuteCommand
+11-16 15:44:56.514   882  2860 I aptouch_daemon: operator(), TSA_ExecuteCommand(THP_GetTuneTimePrmt android.uid.systemui:10061#volumeGreenAreaStart) = OK#190
+11-16 15:44:56.514   882  2860 I aptouch_daemon: excute_cmd_end, cmd: TSA_ExecuteCommand.
+11-16 15:44:56.514   760   760 I aptouch_daemon, [aptouch_interface_client]: ret = OK#190
+11-16 15:44:56.514  2010  5176 I HwSideTouchManager: getSideTouchRegion startRegion OK#190
+11-16 15:44:56.515   760   760 I TS_Service: hwTsRunCommand
+11-16 15:44:56.515   760   760 E TS_HAL  : huawei_tp_run_command: call
+11-16 15:44:56.516   882  2861 I aptouch_daemon: get_cmd, TSA_ExecuteCommand
+11-16 15:44:56.516   882  2861 I aptouch_daemon: operator(), TSA_ExecuteCommand(THP_GetTuneTimePrmt android.uid.systemui:10061#volumeGreenAreaEnd) = OK#1010
+11-16 15:44:56.516   882  2861 I aptouch_daemon: excute_cmd_end, cmd: TSA_ExecuteCommand.
+11-16 15:44:56.516   760   760 I aptouch_daemon, [aptouch_interface_client]: ret = OK#1010
+11-16 15:44:56.517  2010  5176 I HwSideTouchManager: getSideTouchRegion endRegion OK#1010
+11-16 15:44:56.523  4088  4088 D vol.VolumeDialogImpl: rescheduleTimeout 2000
+11-16 15:44:56.571  4088  4088 I chatty  : uid=10061(com.huawei.magazine) com.android.systemui identical 1 line
+11-16 15:44:56.587  4088  4088 D vol.VolumeDialogImpl: rescheduleTimeout 2000
+11-16 15:44:56.625  4603  4660 I appium  : channel read: POST /wd/hub/session/99d1857d-34f3-4904-986a-253a25fab314/elements
+11-16 15:44:56.625  4603  4660 I appium  : FindElements command
+11-16 15:44:56.626  4603  4660 I appium  : method: 'id', selector: 'cn.missevan:id/tv_menu_title'
+11-16 15:44:56.626  4603  4660 I appium  : Waiting up to 100ms for the device to idle
+11-16 15:44:56.654  4088  4088 D vol.VolumeDialogImpl: rescheduleTimeout 2000
+11-16 15:44:56.641  2010  2653 I chatty  : uid=1000(system) PowerManagerSer identical 10 lines
+11-16 15:44:56.657  2010  2653 I PowerManagerService: handleSandman: wakefulness: 1,startDreaming: false
+11-16 15:44:56.668  2010  3904 I [SPMN]  : insert SYSTEM -- name = volume_music_speaker, package = android, user = 0, value = 0
+11-16 15:44:56.671   765 28603 I APM_AudioPolicyManager: getOutputsForDevices, openOutputs size is 2, outputs size is 2
+11-16 15:44:56.673 18343 18373 V AudioManager: getStreamVolume streamType: 3 volume: 0
+11-16 15:44:56.673   765 28603 I APM_AudioPolicyManager: getOutputsForDevices, openOutputs size is 2, outputs size is 2
+11-16 15:44:56.673 18343 18373 I FWK-AudioListenerManager: onChange volume has changed listenerCount:3 old:6 current:0
+11-16 15:44:56.673 18343 18929 V AudioManager: getStreamVolume streamType: 3 volume: 0
+11-16 15:44:56.673 18343 18929 V AudioManager: getStreamMaxVolume  treamType: 3
+11-16 15:44:56.674 18343 18373 V AudioManager: getStreamMaxVolume  treamType: 3
+11-16 15:44:56.674 18343 18343 I FWK-VideoPlayManager: MuteState VolumeChange muteState:true oldIsMute:false
+11-16 15:44:56.675   765 28603 I APM_AudioPolicyManager: getOutputsForDevices, openOutputs size is 2, outputs size is 2
+11-16 15:44:56.675 18343 18373 V AudioManager: getStreamVolume streamType: 3 volume: 0
+11-16 15:44:56.675 18343 18373 I FWK-HWNF-UI-R-1107|H5InteractDelegate: onAudioVolumeChange
+11-16 15:44:56.675 18343 18373 V AudioManager: getStreamMaxVolume  treamType: 3
+11-16 15:44:56.675 18343 18343 I HwMediaPlayer: HwMedia::onSystemVolumeUpdated,isForFeedsPage:false,muted:true
+11-16 15:44:56.675 18343 18343 I HwMediaPlayer: HwMedia::onSystemVolumeUpdated,isForFeedsPage:true,muted:true
+11-16 15:44:56.676   765 28603 I APM_AudioPolicyManager: getOutputsForDevices, openOutputs size is 2, outputs size is 2
+11-16 15:44:56.676 18343 18373 V AudioManager: getStreamVolume streamType: 3 volume: 0
+11-16 15:44:56.676 18343 18373 I FWK-HWNF-UI-R-1107|H5InteractDelegate: onAudioVolumeChange
+11-16 15:44:56.679 18343 18343 I hwbr_engine_AwContents: HwMedia::AwContents, UpdateMutedStatus playerId:-1  muted:true
+11-16 15:44:56.682 18343 18343 I HWBR-O-1111|hwbr_engine_mainprocess-7817: [INFO:media_web_contents_observer.cc(943)] HwMedia::MediaWebContentsObserver::UpdateMutedStatus(1)
+11-16 15:44:56.683 18343 18343 I HwMediaPlayer: HwMedia::onSystemVolumeUpdated,isForFeedsPage:false,muted:true
+11-16 15:44:56.683 18343 18343 I HwMediaPlayer: HwMedia::onSystemVolumeUpdated,isForFeedsPage:true,muted:true
+11-16 15:44:56.683 18343 18343 I hwbr_engine_AwContents: HwMedia::AwContents, UpdateMutedStatus playerId:-1  muted:true
+11-16 15:44:56.684 18343 18343 I HWBR-O-1111|hwbr_engine_mainprocess-7817: [INFO:media_web_contents_observer.cc(943)] HwMedia::MediaWebContentsObserver::UpdateMutedStatus(1)
+11-16 15:44:56.685 18343 18343 W FWK-HWNF-UI-R-1107|CustomEventManager: function is null
+11-16 15:44:56.685 18343 18343 W FWK-HWNF-UI-R-1107|CustomEventManager: function is null
+11-16 15:44:56.754  4088  4088 D vol.VolumeDialogImpl: rescheduleTimeout 2000
+11-16 15:44:56.695  2010  3904 I chatty  : uid=1000(system) AudioService identical 1 line
+11-16 15:44:56.726  2010  3904 I [SPMN]  : insert SYSTEM -- name = volume_music_speaker, package = android, user = 0, value = 0
+11-16 15:44:56.757  2010  2653 I PowerManagerService: handleSandman: wakefulness: 1,startDreaming: false
+11-16 15:44:56.757  2010  3904 I [SPMN]  : insert SYSTEM -- name = volume_music_speaker, package = android, user = 0, value = 0
+11-16 15:44:56.785  2010  2653 I PowerManagerService: handleSandman: wakefulness: 1,startDreaming: false
+11-16 15:44:56.792  2010  3904 I [SPMN]  : insert SYSTEM -- name = volume_music_speaker, package = android, user = 0, value = 0
+11-16 15:44:56.791    54    54 W migration/7: type=1400 audit(0.0:76802): avc: granted { setsched } for pid=54 scontext=u:r:kernel:s0 tcontext=u:r:kernel:s0 tclass=process
+11-16 15:44:56.800   882   882 I aptouch_daemon: print_log, touch:0, down:0
+11-16 15:44:56.803  2010  2800 I InputDispatcher: stylus touch up, set lcd event 0
+11-16 15:44:56.803  2010  2800 I chatty  : uid=1000(system) InputDispatcher identical 1 line
+11-16 15:44:56.803  2010  2800 I InputDispatcher: stylus touch up, set lcd event 0
+11-16 15:44:56.803  4088  4088 D vol.VolumeDialogImpl: rescheduleTimeout 2000
+11-16 15:44:56.806  4088  4088 D vol.VolumeDialogImpl: rescheduleTimeout 2000
+11-16 15:44:56.806  4088  4088 I vol.VolumeDialogImpl: onStopTrackingTouch 3
+11-16 15:44:56.807  4088  4088 W vol.VolumeDialogImpl: sendIfStopTracking mRow.tracking:false
+11-16 15:44:56.809  2010  2653 I PowerManagerService: handleSandman: wakefulness: 1,startDreaming: false
+11-16 15:44:56.810  4088  4088 I vol.Events: writeEvent touch_level_done STREAM_MUSIC 0
+11-16 15:44:56.810  4088  4196 I HwSideTouchManagerEx: setVolumePanelInfo:com.android.systemui
+11-16 15:44:56.812   760   760 I TS_Service: hwTsRunCommand
+11-16 15:44:56.812   760   760 E TS_HAL  : huawei_tp_run_command: call
+11-16 15:44:56.814   882  2861 I aptouch_daemon: get_cmd, TSA_ExecuteCommand
+11-16 15:44:56.814   882  2861 I aptouch_daemon: operator(), TSA_ExecuteCommand(THP_Ring_SetVolumeGUIInfo android.uid.systemui:10061#1#1020#1020#288#792#792#792) = OK
+11-16 15:44:56.814   882  2861 I aptouch_daemon: excute_cmd_end, cmd: TSA_ExecuteCommand.
+11-16 15:44:56.814   760   760 I aptouch_daemon, [aptouch_interface_client]: ret = OK
+11-16 15:44:56.810  2010  2653 I PowerManagerService: handleSandman: wakefulness: 1,startDreaming: false
+11-16 15:44:56.820  2010  3904 I [SPMN]  : insert SYSTEM -- name = volume_music_speaker, package = android, user = 0, value = 0
+11-16 15:44:56.833   765  1874 I asd_out_fwk: L = [0], R = [0], continus 20 times, Device = 0x2
+11-16 15:44:56.831    54    54 W migration/7: type=1400 audit(0.0:76803): avc: granted { setsched } for pid=54 scontext=u:r:kernel:s0 tcontext=u:r:kernel:s0 tclass=process
+11-16 15:44:56.981  4667  5956 I Booster_Qoe: AdaBoostPredict rlt,index:6,NisPsSlow:0,NProba:312,rsrp(rssi):-40,rsrq(noise):-85,rtt(chload):218,buffhigh(uldelay):0,buffcomm(rtt):0
+11-16 15:44:56.981  4667  5956 I Booster_Qoe: AdaBoostPredict rlt,index:2,NisPsSlow:0,NProba:312,rsrp(rssi):-40,rsrq(noise):-85,rtt(chload):218,buffhigh(uldelay):0,buffcomm(rtt):0
+11-16 15:44:56.981  4667  5956 I Collector: HandleRawWifiInfo: flag:0, netId:0!
+11-16 15:44:56.982  4667  4954 E BoosterUtil: convertSubIdToSlotId failed, subId:0, slotId:-1
+11-16 15:44:56.982  4667  4954 E BoosterUtil: getDefaultDataSlotId failed, invalid slotId:-1, subId:0
+11-16 15:44:56.982  4667  4954 E NrSmartCure: onNetworkQoeUpdate failed, invalid defaultDataSlotId=-1
+11-16 15:44:56.982  4667  5324 I Hicom_Monitor: handleNetworkQoeReport. foregroundAppTcpRtt: 0, maxRatioChannelId: 2
+11-16 15:44:56.982  4667  5324 I Hicom_Monitor: handleNetworkQoeReport. qoeString: 10231,4,0,312,1,2,4,0,312,400000,400000,10,10,0,0,134,0
+11-16 15:44:56.982  4667  5324 I Utils   : multipathPolicy is null
+11-16 15:44:56.983  2010  3970 I WiFi_PRO_WifiProStateMachine: APP_SERVICE_QOE_NOTIFY Qoe info 10231,4,0,312,1,2,4,0,312,400000,400000,10,10,0,0,134,0 CID 2 mMasterWifiRssi -30 mMasterCardAmbr 1048576 mSlaveCardAmbr 1048576
+11-16 15:44:56.983  2010  3970 I HwWifiProServiceProxy: ctrlHwWifiNetwork pkgName: WIFIPRO_SERVICE interfaceId: 9
+11-16 15:44:56.983  2010  3970 I WiFi_PRO_WifiProStateMachine: isWifi2WifiProcess = false, mIsNeedIgnoreQoeUpdate = false, mIsAppInBlacklist = false, mIsAppInBlacklistFullScreen = false, mIsWiFiNoInternet false, screen on = true, full screen = false, isLandscapeMode = false, mNotifyWifiLinkPoorReason = -1
+11-16 15:44:56.983  2010  3970 I WiFi_PRO_WifiProStateMachine: mChannelQoeBadCnt = 0, mAppQoeBadCnt = 0, mNetworkSlowReason = 0, mNetworkSlowChannelBadCnt = 0
+11-16 15:44:56.983  2010  3970 E WiFi_PROHumanFactorRecommend: isRichTrafficUser, invalid slotId=-1
+11-16 15:44:56.984  2010  3970 E WiFi_PROHumanFactorRecommend: isEconomicTrafficUser, invalid slotId=-1
+11-16 15:44:57.010  4603  4660 W QueryController: Could not detect idle state.
+11-16 15:44:57.010  2010  2747 E maple   :  info->si_addr not null: 0xc PC: c4bde700
+11-16 15:44:57.012  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:1098
+11-16 15:44:57.013  2010  2747 I ClipboardService: callingPackage:cn.missevan, uid =10231, isFocusedWindow =true
+11-16 15:44:57.015  4603  4660 I appium  : Found zero matches
+11-16 15:44:57.016  4603  4660 I appium  : AppiumResponse: {"sessionId":"99d1857d-34f3-4904-986a-253a25fab314","value":[]}
+11-16 15:44:57.145  4667  6060 D LteRecoveryEngine: UnRecoverState processMessage UPDATE_PS_SLOW_VALUE
+11-16 15:44:57.171    54    54 W migration/7: type=1400 audit(0.0:76804): avc: granted { setsched } for pid=54 scontext=u:r:kernel:s0 tcontext=u:r:kernel:s0 tclass=process
+11-16 15:44:57.191    54    54 W migration/7: type=1400 audit(0.0:76805): avc: granted { setsched } for pid=54 scontext=u:r:kernel:s0 tcontext=u:r:kernel:s0 tclass=process
+11-16 15:44:57.234   765  1874 I asd_out_fwk: L = [0], R = [0], continus 20 times, Device = 0x2
+11-16 15:44:57.272   765  1874 I AudioFlinger: pid(5282):mVol=1.000000, tVol=0.000000, pVol=1.000000, sVol=1.000000, cVol = 1.000000, scale=1.000000, output=13, mDevice=0x2, mStreamType=3
+11-16 15:44:57.291    54    54 W migration/7: type=1400 audit(0.0:76806): avc: granted { setsched } for pid=54 scontext=u:r:kernel:s0 tcontext=u:r:kernel:s0 tclass=process
+11-16 15:44:57.299  2010  3876 I NetworkStats: performPollLocked, pid = 2010
+11-16 15:44:57.299  2010  2653 I PowerManagerService: handleSandman: wakefulness: 1,startDreaming: false
+11-16 15:44:57.301   681 15256 I netd    : trafficSwapActiveStatsMap() <0.81ms>
+11-16 15:44:57.307   681 15256 I netd    : tetherGetStats() <2.80ms>
+11-16 15:44:57.313  2010  3876 I HwNetworkStatsServiceEx: hwRecordUidAndProcSnapshotLocked currentTime = 1668584697303
+11-16 15:44:57.315  2010  3876 I HwNetworkManagementService: request swap success.
+11-16 15:44:57.319  2010  3876 I NetworkStatsCollection: getSummary, uid = 1000stats size = 2
+11-16 15:44:57.319  2010  3876 I NetworkStatsCollection: getSummary, uid = 1000stats size = 2
+11-16 15:44:57.319  2010  3876 I NetworkStatsCollection: getSummary, uid = 1000stats size = 81
+11-16 15:44:57.321  2010  3876 I NetworkStatsCollection: getSummary, uid = 1000stats size = 2
+11-16 15:44:57.322  2010  3876 I NetworkStatsCollection: getSummary, uid = 1000stats size = 2
+11-16 15:44:57.322  2010  3876 I NetworkStatsCollection: getSummary, uid = 1000stats size = 81
+11-16 15:44:57.326   681 15256 I netd    : bandwidthSetGlobalAlert(2097152) <0.30ms>
+11-16 15:44:57.327  4439  5396 W HSM_BG-11.1.1.458: TrafficNotifyDelegate:Current data imsi is null, so return.
+11-16 15:44:57.327  2010  2653 I PowerManagerService: handleSandman: wakefulness: 1,startDreaming: false
+11-16 15:44:57.550  4603  4660 I appium  : channel read: POST /wd/hub/session/99d1857d-34f3-4904-986a-253a25fab314/elements
+11-16 15:44:57.550  4603  4660 I appium  : FindElements command
+11-16 15:44:57.551  4603  4660 I appium  : method: 'id', selector: 'cn.missevan:id/tv_menu_title'
+11-16 15:44:57.551  4603  4660 I appium  : Waiting up to 100ms for the device to idle
+11-16 15:44:57.552  2010  2747 E maple   :  info->si_addr not null: 0xc PC: c4bde700
+11-16 15:44:57.553  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:1099
+11-16 15:44:57.555  2010  2747 I ClipboardService: callingPackage:cn.missevan, uid =10231, isFocusedWindow =true
+11-16 15:44:57.557  4603  4660 I appium  : Found zero matches
+11-16 15:44:57.559  4603  4660 I appium  : AppiumResponse: {"sessionId":"99d1857d-34f3-4904-986a-253a25fab314","value":[]}
+11-16 15:44:57.634   765  1874 I asd_out_fwk: L = [0], R = [0], continus 20 times, Device = 0x2
+11-16 15:44:57.758  2010  2010 I WindowManager: removeWindowToken: displayid:0 binder:android.os.Binder@13a32a5 token:null
+11-16 15:44:57.758  2010  2010 W WindowManager: removeWindowToken: Attempted to remove non-existing token: android.os.Binder@13a32a5
+11-16 15:44:57.803  2010  3880 I WificondControl: Noise: -85, Snr: 127, Chload: 218, rssi: -31, txBitrate: 400, rxBitrate: 400, frequency: 5745, UlDelay: 0, currentTxBytes: 46464235, currentTxPackets: 379190, currentTxFailed: 0, currentRxBytes: 1063356638, currentRxPackets: 1789047
+11-16 15:44:57.807  2010  3880 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@c5e735
+11-16 15:44:57.961 24423 24980 D MemoryCeilingMonitor: [handleMemoryCalculate]
+11-16 15:44:57.962 24423 24980 D MemoryCeilingMonitor: [calculate] tot: 6040048, max: 402653184, free: 136400, heap: 5903648, per: 0.014661868413289389
+11-16 15:44:58.006  4667  5956 I Booster_Qoe: AdaBoostPredict rlt,index:6,NisPsSlow:0,NProba:312,rsrp(rssi):-40,rsrq(noise):-85,rtt(chload):218,buffhigh(uldelay):0,buffcomm(rtt):41
+11-16 15:44:58.007  4667  5956 I Booster_Qoe: AdaBoostPredict rlt,index:2,NisPsSlow:0,NProba:312,rsrp(rssi):-40,rsrq(noise):-85,rtt(chload):218,buffhigh(uldelay):0,buffcomm(rtt):41
+11-16 15:44:58.007  4667  5956 I Collector: HandleRawWifiInfo: flag:0, netId:0!
+11-16 15:44:58.009  4667  4954 E BoosterUtil: convertSubIdToSlotId failed, subId:0, slotId:-1
+11-16 15:44:58.009  4667  4954 E BoosterUtil: getDefaultDataSlotId failed, invalid slotId:-1, subId:0
+11-16 15:44:58.009  4667  4954 E NrSmartCure: onNetworkQoeUpdate failed, invalid defaultDataSlotId=-1
+11-16 15:44:58.010  4667  5324 I Hicom_Monitor: handleNetworkQoeReport. foregroundAppTcpRtt: 41, maxRatioChannelId: 2
+11-16 15:44:58.010  4667  5324 I Hicom_Monitor: handleNetworkQoeReport. qoeString: 10231,4,0,312,1,2,4,0,312,400000,400000,10,10,0,0,170,0
+11-16 15:44:58.010  4667  5324 I Utils   : multipathPolicy is null
+11-16 15:44:58.010  2010  3970 I WiFi_PRO_WifiProStateMachine: APP_SERVICE_QOE_NOTIFY Qoe info 10231,4,0,312,1,2,4,0,312,400000,400000,10,10,0,0,170,0 CID 2 mMasterWifiRssi -31 mMasterCardAmbr 1048576 mSlaveCardAmbr 1048576
+11-16 15:44:58.011  2010  3970 I HwWifiProServiceProxy: ctrlHwWifiNetwork pkgName: WIFIPRO_SERVICE interfaceId: 9
+11-16 15:44:58.011  2010  3970 I WiFi_PRO_WifiProStateMachine: isWifi2WifiProcess = false, mIsNeedIgnoreQoeUpdate = false, mIsAppInBlacklist = false, mIsAppInBlacklistFullScreen = false, mIsWiFiNoInternet false, screen on = true, full screen = false, isLandscapeMode = false, mNotifyWifiLinkPoorReason = -1
+11-16 15:44:58.011  2010  3970 I WiFi_PRO_WifiProStateMachine: mChannelQoeBadCnt = 0, mAppQoeBadCnt = 0, mNetworkSlowReason = 0, mNetworkSlowChannelBadCnt = 0
+11-16 15:44:58.013  2010  3970 E WiFi_PROHumanFactorRecommend: isRichTrafficUser, invalid slotId=-1
+11-16 15:44:58.014  2010  3970 E WiFi_PROHumanFactorRecommend: isEconomicTrafficUser, invalid slotId=-1
+11-16 15:44:58.034   765  1874 I asd_out_fwk: L = [0], R = [0], continus 20 times, Device = 0x2
+11-16 15:44:58.044  4667  4954 I SpeedTestNotifier: is low speed scene
+11-16 15:44:58.081  4603  4660 I appium  : channel read: POST /wd/hub/session/99d1857d-34f3-4904-986a-253a25fab314/elements
+11-16 15:44:58.081  4603  4660 I appium  : FindElements command
+11-16 15:44:58.083  4603  4660 I appium  : method: 'id', selector: 'cn.missevan:id/tv_menu_title'
+11-16 15:44:58.083  4603  4660 I appium  : Waiting up to 100ms for the device to idle
+11-16 15:44:58.083  2010  2747 E maple   :  info->si_addr not null: 0xc PC: c4bde700
+11-16 15:44:58.085  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:1100
+11-16 15:44:58.094  2010  2747 I ClipboardService: callingPackage:cn.missevan, uid =10231, isFocusedWindow =true
+11-16 15:44:58.096  4603  4660 I appium  : Found zero matches
+11-16 15:44:58.098  4603  4660 I appium  : AppiumResponse: {"sessionId":"99d1857d-34f3-4904-986a-253a25fab314","value":[]}
+11-16 15:44:58.147  4667  6060 D LteRecoveryEngine: UnRecoverState processMessage UPDATE_PS_SLOW_VALUE
+11-16 15:44:58.272   765  1874 I AudioFlinger: pid(5282):mVol=1.000000, tVol=0.000000, pVol=1.000000, sVol=1.000000, cVol = 1.000000, scale=1.000000, output=13, mDevice=0x2, mStreamType=3
+11-16 15:44:58.308 24423 24444 I PERF_LOG: GC.happened gc!!!!!!!!!
+11-16 15:44:58.434   765  1874 I asd_out_fwk: L = [0], R = [0], continus 20 times, Device = 0x2
+11-16 15:44:58.508  2010  3879 I TrafficMonitor: update:rxPkts:82,txPkts:2,rxBytes:33338,txBytes:120
+11-16 15:44:58.508  2010  3879 I TrafficMonitor: gettimer:interval=2000
+11-16 15:44:58.579  2010  2747 D HwConnectivityServiceEx: set 10231 wlan0 value false
+11-16 15:44:58.614  4603  4660 I appium  : channel read: POST /wd/hub/session/99d1857d-34f3-4904-986a-253a25fab314/elements
+11-16 15:44:58.615  4603  4660 I appium  : FindElements command
+11-16 15:44:58.618  4603  4660 I appium  : method: 'id', selector: 'cn.missevan:id/tv_menu_title'
+11-16 15:44:58.618  4603  4660 I appium  : Waiting up to 100ms for the device to idle
+11-16 15:44:58.619  2010  2747 E maple   :  info->si_addr not null: 0xc PC: c4bde700
+11-16 15:44:58.622  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:1101
+11-16 15:44:58.625  2010  2747 I ClipboardService: callingPackage:cn.missevan, uid =10231, isFocusedWindow =true
+11-16 15:44:58.629  4603  4660 I appium  : Found zero matches
+11-16 15:44:58.634  4603  4660 I appium  : AppiumResponse: {"sessionId":"99d1857d-34f3-4904-986a-253a25fab314","value":[]}
+11-16 15:44:58.718   681 15256 I netd    : trafficSwapActiveStatsMap() <0.98ms>
+11-16 15:44:58.815   769  1987 W BufferQueueProducer: [VolumeIndex#0]:1390: disconnect: not connected (req=1)
+11-16 15:44:58.815  4088  4555 W libEGL  : EGLNativeWindowType 0x7e43464fd0 disconnect failed
+11-16 15:44:58.816  4088  4088 W vol.VolumeDialogImpl: sendIfEndtrue
+11-16 15:44:58.816  4088  4088 D iMonitor: create: 907400028
+11-16 15:44:58.816  4088  4088 I iMonitor: send: 907400028
+11-16 15:44:58.816  4088  4088 D vol.VolumeDialogImpl: dismiss dialog
+11-16 15:44:58.817  4088  4196 I HwSideTouchManagerEx: setVolumePanelInfo:com.android.systemui
+11-16 15:44:58.817  2010  2747 D HwSideVibrationManager: unregisterVolumeChangedListener
+11-16 15:44:58.817  4088  4088 I vol.Events: writeEvent dismiss_dialog timeout
+11-16 15:44:58.817   760   760 I TS_Service: hwTsRunCommand
+11-16 15:44:58.817   760   760 E TS_HAL  : huawei_tp_run_command: call
+11-16 15:44:58.818  2010  4605 I AS.AudioService: Volume controller visible: false
+11-16 15:44:58.818  4088  5723 I vol.Events: writeEvent active_stream_changed UNKNOWN_STREAM_-1
+11-16 15:44:58.819  2010  4605 I AS.AudioService: forceVolumeControlStream(-1)
+11-16 15:44:58.822  2010  4605 D HwAppTransitionImpl: windowAnimations = 0 dose not come from system, not to override it.
+11-16 15:44:58.822  2010  4605 E WindowManager: win=Window{110e009 u0 VolumeIndex} destroySurfaces: appStopped=true win.mWindowRemovalAllowed=false win.mRemoveOnExit=false
+11-16 15:44:58.824   882  2861 I aptouch_daemon: get_cmd, TSA_ExecuteCommand
+11-16 15:44:58.824   882  2861 I aptouch_daemon: operator(), TSA_ExecuteCommand(THP_Ring_SetVolumeGUIInfo android.uid.systemui:10061#0#1020#1020#288#792#792#792) = OK
+11-16 15:44:58.824   882  2861 I aptouch_daemon: excute_cmd_end, cmd: TSA_ExecuteCommand.
+11-16 15:44:58.825   760   760 I aptouch_daemon, [aptouch_interface_client]: ret = OK
+11-16 15:44:58.827   882   882 I aptouch_daemon: report_events, 1572864
+11-16 15:44:58.828   760  3984 E TS_HAL  : huawei_tp_get_event_data: call
+11-16 15:44:58.829  4088  4088 I ViewRootImpl: dispatchDetachedFromWindow in doDie
+11-16 15:44:58.831    54    54 W migration/7: type=1400 audit(0.0:76809): avc: granted { setsched } for pid=54 scontext=u:r:kernel:s0 tcontext=u:r:kernel:s0 tclass=process
+11-16 15:44:58.829   760  3984 E TS_HAL  : huawei_tp_get_event_data: call
+11-16 15:44:58.830  2010  4605 I WindowManager: removeIfPossible: Window{110e009 u0 VolumeIndex} callers=com.android.server.wm.WindowState.removeIfPossible:5163788 com.android.server.wm.WindowManagerService.removeWindow:4766012 android.view.IWindowSession$Stub.onTransact:5317436 com.android.server.wm.Session.onTransact:6796980 android.os.Binder.execTransactInternal:6255836
+11-16 15:44:58.831  2010  4605 I WindowManager: postWindowRemoveCleanupLocked: Window{110e009 u0 VolumeIndex}
+11-16 15:44:58.831  2010  4605 I WindowManager: Removing Window{110e009 u0 VolumeIndex} from WindowToken{f4d5a7 android.os.BinderProxy@13d5579}
+11-16 15:44:58.831  2010  4605 I WindowManager: removeWindowToken: displayid:0 binder:android.os.BinderProxy@13d5579 token:WindowToken{f4d5a7 android.os.BinderProxy@13d5579}
+11-16 15:44:58.833   765  1874 I asd_out_fwk: L = [0], R = [0], continus 20 times, Device = 0x2
+11-16 15:44:58.869  4439  5545 E SmartChgBase/File: file /data/user_de/0/com.huawei.systemmanager/files/smart_charge/base/mock/enable is invalid in IsFileExist
+11-16 15:44:58.869  4439  5545 E SmartChgBase/File: file /data/user_de/0/com.huawei.systemmanager/files/smart_charge/base/mock/enable is invalid in IsFileExist
+11-16 15:44:59.015  1056  6371 D BufferPoolAccessor: bufferpool2 0x704e697420 : 6(24576 size) total buffers - 1(4096 size) used buffers - 1947/1953 (recycle/alloc) - 8/1952 (fetch/transfer)
+11-16 15:44:59.029  4667  5956 I Booster_Qoe: AdaBoostPredict rlt,index:6,NisPsSlow:0,NProba:325,rsrp(rssi):-40,rsrq(noise):-78,rtt(chload):253,buffhigh(uldelay):0,buffcomm(rtt):16
+11-16 15:44:59.029  4667  5956 I Booster_Qoe: AdaBoostPredict rlt,index:2,NisPsSlow:0,NProba:325,rsrp(rssi):-40,rsrq(noise):-78,rtt(chload):253,buffhigh(uldelay):0,buffcomm(rtt):16
+11-16 15:44:59.030  4667  5956 I Collector: HandleRawWifiInfo: flag:0, netId:0!
+11-16 15:44:59.031  4667  4954 E BoosterUtil: convertSubIdToSlotId failed, subId:0, slotId:-1
+11-16 15:44:59.031  4667  4954 E BoosterUtil: getDefaultDataSlotId failed, invalid slotId:-1, subId:0
+11-16 15:44:59.031  4667  4954 E NrSmartCure: onNetworkQoeUpdate failed, invalid defaultDataSlotId=-1
+11-16 15:44:59.032  4667  5324 I Hicom_Monitor: handleNetworkQoeReport. foregroundAppTcpRtt: 16, maxRatioChannelId: 2
+11-16 15:44:59.032  4667  5324 I Hicom_Monitor: handleNetworkQoeReport. qoeString: 10231,4,0,325,1,2,4,0,325,400000,400000,10,10,0,1,172,0
+11-16 15:44:59.032  4667  5324 I Utils   : multipathPolicy is null
+11-16 15:44:59.032  2010  3970 I WiFi_PRO_WifiProStateMachine: APP_SERVICE_QOE_NOTIFY Qoe info 10231,4,0,325,1,2,4,0,325,400000,400000,10,10,0,1,172,0 CID 2 mMasterWifiRssi -31 mMasterCardAmbr 1048576 mSlaveCardAmbr 1048576
+11-16 15:44:59.032  2010  3970 I HwWifiProServiceProxy: ctrlHwWifiNetwork pkgName: WIFIPRO_SERVICE interfaceId: 9
+11-16 15:44:59.032  2010  3970 I WiFi_PRO_WifiProStateMachine: isWifi2WifiProcess = false, mIsNeedIgnoreQoeUpdate = false, mIsAppInBlacklist = false, mIsAppInBlacklistFullScreen = false, mIsWiFiNoInternet false, screen on = true, full screen = false, isLandscapeMode = false, mNotifyWifiLinkPoorReason = -1
+11-16 15:44:59.032  2010  3970 I WiFi_PRO_WifiProStateMachine: mChannelQoeBadCnt = 0, mAppQoeBadCnt = 0, mNetworkSlowReason = 0, mNetworkSlowChannelBadCnt = 0
+11-16 15:44:59.033  2010  3970 E WiFi_PROHumanFactorRecommend: isRichTrafficUser, invalid slotId=-1
+11-16 15:44:59.033  2010  3970 E WiFi_PROHumanFactorRecommend: isEconomicTrafficUser, invalid slotId=-1
+11-16 15:44:59.148  4667  6060 D LteRecoveryEngine: UnRecoverState processMessage UPDATE_PS_SLOW_VALUE
+11-16 15:44:59.152  2010  2637 D ZrHung.AppEyeTransparentWindow: handleMessage CHECK_TRANS_WINDOW_ERROR_MSG
+11-16 15:44:59.153  4603  4660 I appium  : channel read: POST /wd/hub/session/99d1857d-34f3-4904-986a-253a25fab314/elements
+11-16 15:44:59.154  4603  4660 I appium  : FindElements command
+11-16 15:44:59.155  4603  4660 I appium  : method: 'id', selector: 'cn.missevan:id/tv_menu_title'
+11-16 15:44:59.155  4603  4660 I appium  : Waiting up to 100ms for the device to idle
+11-16 15:44:59.173  4088  4088 I ViewRootImpl: dispatchDetachedFromWindow in doDie
+11-16 15:44:59.176   769  1987 W BufferQueueProducer: [VolumeDialogImpl#0]:1390: disconnect: not connected (req=1)
+11-16 15:44:59.176  4088  4555 W libEGL  : EGLNativeWindowType 0x7e53246e10 disconnect failed
+11-16 15:44:59.177  2010  2747 I WindowManager: removeIfPossible: Window{cc4a09 u0 VolumeDialogImpl} callers=com.android.server.wm.WindowState.removeIfPossible:5163788 com.android.server.wm.WindowManagerService.removeWindow:4766012 android.view.IWindowSession$Stub.onTransact:5317436 com.android.server.wm.Session.onTransact:6796980 android.os.Binder.execTransactInternal:6255836
+11-16 15:44:59.178  2010  2747 D HwAppTransitionImpl: windowAnimations = ffffffff dose not come from system, not to override it.
+11-16 15:44:59.179  2010  2747 I WindowManager: postWindowRemoveCleanupLocked: Window{cc4a09 u0 VolumeDialogImpl}
+11-16 15:44:59.179  2010  2747 I WindowManager: Removing Window{cc4a09 u0 VolumeDialogImpl} from WindowToken{f4d54b android.os.BinderProxy@d9b22d}
+11-16 15:44:59.179  2010  2747 I WindowManager: removeWindowToken: displayid:0 binder:android.os.BinderProxy@d9b22d token:WindowToken{f4d54b android.os.BinderProxy@d9b22d}
+11-16 15:44:59.234   765  1874 I asd_out_fwk: L = [0], R = [0], continus 20 times, Device = 0x2
+11-16 15:44:59.271   765  1874 I AudioFlinger: pid(5282):mVol=1.000000, tVol=0.000000, pVol=1.000000, sVol=1.000000, cVol = 1.000000, scale=1.000000, output=13, mDevice=0x2, mStreamType=3
+11-16 15:44:59.280  4603  4660 W QueryController: Could not detect idle state.
+11-16 15:44:59.280  2010  2747 E maple   :  info->si_addr not null: 0xc PC: c4bde700
+11-16 15:44:59.281  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:1102
+11-16 15:44:59.284  2010  4605 I ClipboardService: callingPackage:cn.missevan, uid =10231, isFocusedWindow =true
+11-16 15:44:59.286  4603  4660 I appium  : Found zero matches
+11-16 15:44:59.287  4603  4660 I appium  : AppiumResponse: {"sessionId":"99d1857d-34f3-4904-986a-253a25fab314","value":[]}
+11-16 15:44:59.314   765 28603 D AudioFlinger: setParameters(): io 0, keyvalue vibrator_state=off, calling pid 2010 calling uid 1000
+11-16 15:44:59.315   740   850 I AudioModuleManager: [AudioModuleSetParameters:51]: list size: 13
+11-16 15:44:59.316  2010  2010 I VibratorService: mSendVibratorStateOffRunnable vibrator_state off, acquire support false
+11-16 15:44:59.431    54    54 W migration/7: type=1400 audit(0.0:76810): avc: granted { setsched } for pid=54 scontext=u:r:kernel:s0 tcontext=u:r:kernel:s0 tclass=process
+11-16 15:44:59.615  5282  6370 D BufferPoolAccessor: bufferpool2 0x7eda6f7820 : 6(49152 size) total buffers - 5(40960 size) used buffers - 1/7 (recycle/alloc) - 6/1985 (fetch/transfer)
+11-16 15:44:59.634   765  1874 I asd_out_fwk: L = [0], R = [0], continus 20 times, Device = 0x2
+11-16 15:44:59.815  4603  4660 I appium  : channel read: POST /wd/hub/session/99d1857d-34f3-4904-986a-253a25fab314/elements
+11-16 15:44:59.817  4603  4660 I appium  : FindElements command
+11-16 15:44:59.820  4603  4660 I appium  : method: 'id', selector: 'cn.missevan:id/tv_menu_title'
+11-16 15:44:59.821  4603  4660 I appium  : Waiting up to 100ms for the device to idle
+11-16 15:44:59.822  2010  4605 E maple   :  info->si_addr not null: 0xc PC: c4bde700
+11-16 15:44:59.825  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:1103
+11-16 15:44:59.826  2010  4605 I ClipboardService: callingPackage:cn.missevan, uid =10231, isFocusedWindow =true
+11-16 15:44:59.829  4603  4660 I appium  : Found zero matches
+11-16 15:44:59.835  4603  4660 I appium  : AppiumResponse: {"sessionId":"99d1857d-34f3-4904-986a-253a25fab314","value":[]}
+11-16 15:44:59.851    54    54 W migration/7: type=1400 audit(0.0:76811): avc: granted { setsched } for pid=54 scontext=u:r:kernel:s0 tcontext=u:r:kernel:s0 tclass=process
+11-16 15:44:59.951    54    54 W migration/7: type=1400 audit(0.0:76812): avc: granted { setsched } for pid=54 scontext=u:r:kernel:s0 tcontext=u:r:kernel:s0 tclass=process
+11-16 15:45:00.006  4088  4088 E ndroid.systemu: No package ID ff found for ID 0xffffffff.
+11-16 15:45:00.014  4088  4088 E ndroid.systemu: No package ID ff found for ID 0xffffffff.
+11-16 15:45:00.015  4088  4088 E DateView: DateView,mCurrentTime: 1668584700015
+11-16 15:45:00.019  2010  2653 I PowerManagerService: handleSandman: wakefulness: 1,startDreaming: false
+11-16 15:45:00.033   765  1874 I asd_out_fwk: L = [0], R = [0], continus 20 times, Device = 0x2
+11-16 15:45:00.040   882   882 I aptouch_daemon: check_afe_status, idle in. 133
+11-16 15:45:00.051    54    54 W migration/7: type=1400 audit(0.0:76813): avc: granted { setsched } for pid=54 scontext=u:r:kernel:s0 tcontext=u:r:kernel:s0 tclass=process
+11-16 15:45:00.054  4667  5956 I Booster_Qoe: AdaBoostPredict rlt,index:6,NisPsSlow:0,NProba:333,rsrp(rssi):-40,rsrq(noise):-67,rtt(chload):688,buffhigh(uldelay):0,buffcomm(rtt):6
+11-16 15:45:00.054  4667  5956 I Booster_Qoe: AdaBoostPredict rlt,index:2,NisPsSlow:0,NProba:333,rsrp(rssi):-40,rsrq(noise):-67,rtt(chload):688,buffhigh(uldelay):0,buffcomm(rtt):6
+11-16 15:45:00.054  4667  5956 I Collector: HandleRawWifiInfo: flag:0, netId:0!
+11-16 15:45:00.022  2010  2653 I PowerManagerService: handleSandman: wakefulness: 1,startDreaming: false
+11-16 15:45:00.054  4667  4954 E BoosterUtil: convertSubIdToSlotId failed, subId:0, slotId:-1
+11-16 15:45:00.054  4667  4954 E BoosterUtil: getDefaultDataSlotId failed, invalid slotId:-1, subId:0
+11-16 15:45:00.054  4667  4954 E NrSmartCure: onNetworkQoeUpdate failed, invalid defaultDataSlotId=-1
+11-16 15:45:00.055  4667  5324 I Hicom_Monitor: handleNetworkQoeReport. foregroundAppTcpRtt: 6, maxRatioChannelId: 2
+11-16 15:45:00.055  4667  5324 I Hicom_Monitor: handleNetworkQoeReport. qoeString: 10231,4,0,333,1,2,4,0,333,400000,400000,10,10,0,0,83,0
+11-16 15:45:00.055  4667  5324 I Utils   : multipathPolicy is null
+11-16 15:45:00.055  2010  3970 I WiFi_PRO_WifiProStateMachine: APP_SERVICE_QOE_NOTIFY Qoe info 10231,4,0,333,1,2,4,0,333,400000,400000,10,10,0,0,83,0 CID 2 mMasterWifiRssi -30 mMasterCardAmbr 1048576 mSlaveCardAmbr 1048576
+11-16 15:45:00.056  2010  3970 I HwWifiProServiceProxy: ctrlHwWifiNetwork pkgName: WIFIPRO_SERVICE interfaceId: 9
+11-16 15:45:00.056  2010  3970 I WiFi_PRO_WifiProStateMachine: isWifi2WifiProcess = false, mIsNeedIgnoreQoeUpdate = false, mIsAppInBlacklist = false, mIsAppInBlacklistFullScreen = false, mIsWiFiNoInternet false, screen on = true, full screen = false, isLandscapeMode = false, mNotifyWifiLinkPoorReason = -1
+11-16 15:45:00.056  2010  3970 I WiFi_PRO_WifiProStateMachine: mChannelQoeBadCnt = 0, mAppQoeBadCnt = 0, mNetworkSlowReason = 0, mNetworkSlowChannelBadCnt = 0
+11-16 15:45:00.056  2010  3970 E WiFi_PROHumanFactorRecommend: isRichTrafficUser, invalid slotId=-1
+11-16 15:45:00.057  2010  3970 E WiFi_PROHumanFactorRecommend: isEconomicTrafficUser, invalid slotId=-1
+11-16 15:45:00.060  9372  9372 E ndroid.launche: No package ID ff found for ID 0xffffffff.
+11-16 15:45:00.150  4667  6060 D LteRecoveryEngine: UnRecoverState processMessage UPDATE_PS_SLOW_VALUE
+11-16 15:45:00.253  2010  3880 I WificondControl: Noise: -67, Snr: 127, Chload: 688, rssi: -30, txBitrate: 400, rxBitrate: 400, frequency: 5745, UlDelay: 0, currentTxBytes: 46464423, currentTxPackets: 379192, currentTxFailed: 0, currentRxBytes: 1063396100, currentRxPackets: 1789160
+11-16 15:45:00.255  2010  3971 I HuaweiWifiWatchdogStateMachine: mHighDataFlowProtection = 0, reset to HIGH_DATA_FLOW_NONE
+11-16 15:45:00.255  2010  3971 I HuaweiWifiWatchdogStateMachine: POta txb txg rxg:0, 7, 0. Lr =0% Totpkt=7
+11-16 15:45:00.255  2010  3879 I WiFi_PRO: MSG_RETURN_AP_CURRY_RSSI rssi = -30
+11-16 15:45:00.256  2010  3879 I QosMonitor: queryRtt: rttType = 3
+11-16 15:45:00.256  2010  3974 I HwDualBandManager: handle2gApStrongWifiRssiChange
+11-16 15:45:00.256  2010  3879 I HwWifiProServiceProxy: ctrlHwWifiNetwork pkgName: WIFIPRO_SERVICE interfaceId: 8
+11-16 15:45:00.256  2010  3879 I QosMonitor: postEventFromNative: msg=100,arg1=4,arg2=10
+11-16 15:45:00.256  2010  3879 I HwWifiProServiceProxy: ctrlHwWifiNetwork pkgName: WIFIPRO_SERVICE interfaceId: 8
+11-16 15:45:00.256  2010  3879 I QosMonitor: postEventFromNative: msg=100,arg1=0,arg2=10
+11-16 15:45:00.256  2010  3879 I MQoS    : rtt=352,tcpTxPkts=735412,tcpRxPkts=1987972
+11-16 15:45:00.256  2010  3879 I QosMonitor: resetRtt: rttType = 3
+11-16 15:45:00.256  2010  3879 I HwWifiProServiceProxy: ctrlHwWifiNetwork pkgName: WIFIPRO_SERVICE interfaceId: 8
+11-16 15:45:00.256  2010 11971 D HwConnectivityServiceEx: set 1000 wlan0 value false
+11-16 15:45:00.257  2010 11971 I MQoS    : QOS_level:0(0),wifi-link;SIM error;use level-0
+11-16 15:45:00.258  2010  3971 I HuaweiWifiWatchdogStateMachine: PTcp RTT:0, rtt pkt=0, tcp_rx=1, tcp_tx=2, tcp_reTran=0, rtRate=0
+11-16 15:45:00.258  2010  3971 I HuaweiWifiWatchdogStateMachine: start computeQosLevel tcpRtt = 0 ,rssi = -30 ,mBestSpeedInPeriod = 19175
+11-16 15:45:00.258  2010  3971 I HuaweiWifiWatchdogStateMachine: smoothConsecutiveQosResults, currentQosLevel = 3
+11-16 15:45:00.271   765  1874 I AudioFlinger: pid(5282):mVol=1.000000, tVol=0.000000, pVol=1.000000, sVol=1.000000, cVol = 1.000000, scale=1.000000, output=13, mDevice=0x2, mStreamType=3
+11-16 15:45:00.332   765  1874 I PlaybackThreadProxy: switch off effect for silence
+11-16 15:45:00.356  4603  4660 I appium  : channel read: POST /wd/hub/session/99d1857d-34f3-4904-986a-253a25fab314/elements
+11-16 15:45:00.357  4603  4660 I appium  : FindElements command
+11-16 15:45:00.360  4603  4660 I appium  : method: 'id', selector: 'cn.missevan:id/tv_menu_title'
+11-16 15:45:00.361  4603  4660 I appium  : Waiting up to 100ms for the device to idle
+11-16 15:45:00.451    54    54 W migration/7: type=1400 audit(0.0:76814): avc: granted { setsched } for pid=54 scontext=u:r:kernel:s0 tcontext=u:r:kernel:s0 tclass=process
+11-16 15:45:00.511  2010  3879 I TrafficMonitor: update:rxPkts:60,txPkts:0,rxBytes:21184,txBytes:0
+11-16 15:45:00.511  2010  3879 I TrafficMonitor: no expired. level:2
+11-16 15:45:00.511  2010  3879 I TrafficMonitor: gettimer:interval=2000
+11-16 15:45:00.511  2010  3879 I TrafficMonitor: during_ms:2003,period_ms:2000
+11-16 15:45:00.511  2010  3879 I TrafficMonitor: count:289,rx_sum:60,tx_sum:0,rxBytes:21184,during_ms:2003,rx_speed:10576.135796305542,tx_speed:0.0,rto:0.0
+11-16 15:45:00.511  2010  3879 I HuaweiWifiWatchdogStateMachine: Get speed information rx_speed = 10576 ,tx_speed = 0 ,isSpeedOk = false ,mBestSpeedInPeriod = 19175
+11-16 15:45:00.608  4603  4660 W QueryController: Could not detect idle state.
+11-16 15:45:00.609  2010  2747 E maple   :  info->si_addr not null: 0xc PC: c4bde700
+11-16 15:45:00.613  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:1104
+11-16 15:45:00.623  2010  2747 I ClipboardService: callingPackage:cn.missevan, uid =10231, isFocusedWindow =true
+11-16 15:45:00.629  4603  4660 I appium  : Found zero matches
+11-16 15:45:00.635  4603  4660 I appium  : AppiumResponse: {"sessionId":"99d1857d-34f3-4904-986a-253a25fab314","value":[]}
+11-16 15:45:00.815  2010  3880 I WificondControl: Noise: -67, Snr: 127, Chload: 688, rssi: -30, txBitrate: 400, rxBitrate: 400, frequency: 5745, UlDelay: 0, currentTxBytes: 46464423, currentTxPackets: 379192, currentTxFailed: 0, currentRxBytes: 1063396100, currentRxPackets: 1789160
+11-16 15:45:00.819  2010  3880 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@c5e735
+11-16 15:45:00.851    54    54 W migration/7: type=1400 audit(0.0:76815): avc: granted { setsched } for pid=54 scontext=u:r:kernel:s0 tcontext=u:r:kernel:s0 tclass=process
+11-16 15:45:01.077  4667  5956 I Booster_Qoe: AdaBoostPredict rlt,index:6,NisPsSlow:0,NProba:333,rsrp(rssi):-40,rsrq(noise):-67,rtt(chload):688,buffhigh(uldelay):0,buffcomm(rtt):2
+11-16 15:45:01.077  4667  5956 I Booster_Qoe: AdaBoostPredict rlt,index:2,NisPsSlow:0,NProba:333,rsrp(rssi):-40,rsrq(noise):-67,rtt(chload):688,buffhigh(uldelay):0,buffcomm(rtt):2
+11-16 15:45:01.077  4667  4954 E BoosterUtil: convertSubIdToSlotId failed, subId:0, slotId:-1
+11-16 15:45:01.077  4667  4954 E BoosterUtil: getDefaultDataSlotId failed, invalid slotId:-1, subId:0
+11-16 15:45:01.077  4667  4954 E NrSmartCure: onNetworkQoeUpdate failed, invalid defaultDataSlotId=-1
+11-16 15:45:01.078  4667  5324 I Hicom_Monitor: handleNetworkQoeReport. foregroundAppTcpRtt: 2, maxRatioChannelId: 2
+11-16 15:45:01.078  4667  5324 I Hicom_Monitor: handleNetworkQoeReport. qoeString: 10231,4,0,333,1,2,4,0,333,400000,400000,10,10,0,0,52,0
+11-16 15:45:01.078  4667  5324 I Utils   : multipathPolicy is null
+11-16 15:45:01.078  2010  3970 I WiFi_PRO_WifiProStateMachine: APP_SERVICE_QOE_NOTIFY Qoe info 10231,4,0,333,1,2,4,0,333,400000,400000,10,10,0,0,52,0 CID 2 mMasterWifiRssi -30 mMasterCardAmbr 1048576 mSlaveCardAmbr 1048576
+11-16 15:45:01.079  2010  3970 I HwWifiProServiceProxy: ctrlHwWifiNetwork pkgName: WIFIPRO_SERVICE interfaceId: 9
+11-16 15:45:01.079  2010  3970 I WiFi_PRO_WifiProStateMachine: isWifi2WifiProcess = false, mIsNeedIgnoreQoeUpdate = false, mIsAppInBlacklist = false, mIsAppInBlacklistFullScreen = false, mIsWiFiNoInternet false, screen on = true, full screen = false, isLandscapeMode = false, mNotifyWifiLinkPoorReason = -1
+11-16 15:45:01.079  2010  3970 I WiFi_PRO_WifiProStateMachine: mChannelQoeBadCnt = 0, mAppQoeBadCnt = 0, mNetworkSlowReason = 0, mNetworkSlowChannelBadCnt = 0
+11-16 15:45:01.079  2010  3970 E WiFi_PROHumanFactorRecommend: isRichTrafficUser, invalid slotId=-1
+11-16 15:45:01.080  2010  3970 E WiFi_PROHumanFactorRecommend: isEconomicTrafficUser, invalid slotId=-1
+11-16 15:45:01.082  4667  5956 I Collector: HandleRawWifiInfo: flag:0, netId:0!
+11-16 15:45:01.154  4667  6060 D LteRecoveryEngine: UnRecoverState processMessage UPDATE_PS_SLOW_VALUE
+11-16 15:45:01.155  4603  4660 I appium  : channel read: POST /wd/hub/session/99d1857d-34f3-4904-986a-253a25fab314/elements
+11-16 15:45:01.156  4603  4660 I appium  : FindElements command
+11-16 15:45:01.159  4603  4660 I appium  : method: 'id', selector: 'cn.missevan:id/tv_menu_title'
+11-16 15:45:01.160  4603  4660 I appium  : Waiting up to 100ms for the device to idle
+11-16 15:45:01.161  2010  2747 E maple   :  info->si_addr not null: 0xc PC: c4bde700
+11-16 15:45:01.163  4603  4660 W AccessibilityInteractionClient: old interaction Id is: -1,current interaction Id is:1105
+11-16 15:45:01.166  2010  2747 I ClipboardService: callingPackage:cn.missevan, uid =10231, isFocusedWindow =true
+11-16 15:45:01.170  4603  4660 I appium  : Found zero matches
+11-16 15:45:01.171    54    54 W migration/7: type=1400 audit(0.0:76816): avc: granted { setsched } for pid=54 scontext=u:r:kernel:s0 tcontext=u:r:kernel:s0 tclass=process
+11-16 15:45:01.174  4603  4660 I appium  : AppiumResponse: {"sessionId":"99d1857d-34f3-4904-986a-253a25fab314","value":[]}
+11-16 15:45:01.272   765  1874 I AudioFlinger: pid(5282):mVol=1.000000, tVol=0.000000, pVol=1.000000, sVol=1.000000, cVol = 1.000000, scale=1.000000, output=13, mDevice=0x2, mStreamType=3
+11-16 15:45:01.371    54    54 W migration/7: type=1400 audit(0.0:76817): avc: granted { setsched } for pid=54 scontext=u:r:kernel:s0 tcontext=u:r:kernel:s0 tclass=process
+11-16 15:45:01.394  1059 18693 D aiserver: IgsService fusionId:4, notifyType:0
+11-16 15:45:01.394  1059 18693 I aiserver: #IgsEventManager#GetParsersByFusionType fusionId:4,notifyType:0
+11-16 15:45:01.394  1059 18693 I aiserver: #IgsEventManager#SmartScreenParser::parseFusionResult begin....
+11-16 15:45:01.394  1059 18693 I aiserver: IgsRegisterParamManager reportRPVecotor size = 1
+11-16 15:45:01.394  1059 18693 I aiserver: #IgsEventManager# SmartScreenParser: event_id:5, event_msg=faceDirection:0
+11-16 15:45:01.394  1059 18693 I aiserver: IgsService IgsEventThread eventId =5
+11-16 15:45:01.394  1059 18693 I aiserver: IgsService IgsEventThread Find listener,pid=6950, eventId=5
+11-16 15:45:01.395  1059 18693 I aiserver: IgsService onIgsEventDoneV2 call
+11-16 15:45:01.395  6950 18691 I swingclient: IgsListenerProxy::onIgsEventDoneV2
+11-16 15:45:01.395  6950 18691 D HWSWINGCA: -----onSwingEventDone----
+11-16 15:45:01.395  6950 18691 I CAWARENESS_SwingManager: onSwingEventDone eventId = 5 eventStr=faceDirection:0
+11-16 15:45:01.396  6950 18691 I CAWARENESS_AbilityContext: [1668584702229] publishing {dataId=100000093, mode=0}
+11-16 15:45:01.396  6950 18691 I CAWARENESS_AbilityContext: [1668584702229] deliver {dataId=100000093, mode=0} to 1 receivers
+11-16 15:45:01.396  6950 18689 I CAWARENESS_SwingManager: handleMessage msg:2
+11-16 15:45:01.397  6950 18691 I swingclient: IgsListenerProxy::onIgsEventDone eventId = 5
+11-16 15:45:01.398  6950  6551 I CAWARENESS_CompatibleFenceTrigger: fenceName 13 pid 2010 uid 1000
+11-16 15:45:01.398  6950  7857 I CAWARENESS_CompatibleFenceTrigger: triggerForSwing with IAwarenessListener
+11-16 15:45:01.398  6950  6551 I CAWARENESS_CacheReportDataService: insertData
+11-16 15:45:01.399  2010  2747 I HwSwingFaceRotationHub: handleFenceResult FaceDirection 0
+11-16 15:45:01.399  2010  2620 D HwWindowManagerServiceEx: notifySwingRotation rotation:0
+11-16 15:45:01.399  2010  2620 V HwDisplayRotationEx: setSwingRotation 0
+11-16 15:45:01.400  2010  2620 I HwDisplayRotationEx: swingRotationForSensor desireRotation 0 swingRotation 0 sensorRotation -1 lastRotation 0
+11-16 15:45:01.400  2010  2620 I HwWindowManagerServiceEx: setLandAnimationInfo : false
+11-16 15:45:01.401  6950  6552 I CAWARENESS_AwarenessSQLiteDatabase: insert recId is 37829
+11-16 15:45:01.402  6950  6552 I CAWARENESS_CacheReportDataService: Current count 163
+11-16 15:45:01.551    54    54 W migration/7: type=1400 audit(0.0:76818): avc: granted { setsched } for pid=54 scontext=u:r:kernel:s0 tcontext=u:r:kernel:s0 tclass=process
+11-16 15:45:01.596  2010  2747 D HwConnectivityServiceEx: set 10231 wlan0 value false
+11-16 15:45:01.710  4603  4660 I appium  : channel read: GET /wd/hub/session/99d1857d-34f3-4904-986a-253a25fab314/screenshot
+11-16 15:45:01.711  4603  4660 I appium  : CaptureScreenshot command
+11-16 15:45:01.829  6553  6553 D skia    : HME hme_jpeg_dec version=JPEG_DEC_16.12.1, releasetime=12:06:23 May 10 2021
+11-16 15:45:01.829  6553  6553 D skia    : HME SkHmeDecFunction1 constructor ok
+11-16 15:45:01.830  6553  6553 D HiTraceC: entered HiTraceInit, Log Registered: 1
+11-16 15:45:01.853   505   505 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@3.0::IMapper/default in either framework or device manifest.
+11-16 15:45:01.855  6553  6553 W Gralloc3: mapper 3.x is not supported
+11-16 15:45:01.931    54    54 W migration/7: type=1400 audit(0.0:76819): avc: granted { setsched } for pid=54 scontext=u:r:kernel:s0 tcontext=u:r:kernel:s0 tclass=process
+11-16 15:45:02.103  4667  5956 I Booster_Qoe: AdaBoostPredict rlt,index:6,NisPsSlow:0,NProba:333,rsrp(rssi):-40,rsrq(noise):-67,rtt(chload):688,buffhigh(uldelay):0,buffcomm(rtt):0
+11-16 15:45:02.103  4667  5956 I Booster_Qoe: AdaBoostPredict rlt,index:2,NisPsSlow:0,NProba:333,rsrp(rssi):-40,rsrq(noise):-67,rtt(chload):688,buffhigh(uldelay):0,buffcomm(rtt):0
+11-16 15:45:02.103  4667  5956 I Collector: HandleRawWifiInfo: flag:0, netId:0!
+11-16 15:45:02.106  4667  4954 E BoosterUtil: convertSubIdToSlotId failed, subId:0, slotId:-1
+11-16 15:45:02.107  4667  4954 E BoosterUtil: getDefaultDataSlotId failed, invalid slotId:-1, subId:0
+11-16 15:45:02.107  4667  4954 E NrSmartCure: onNetworkQoeUpdate failed, invalid defaultDataSlotId=-1
+11-16 15:45:02.108  4667  5324 I Hicom_Monitor: handleNetworkQoeReport. foregroundAppTcpRtt: 0, maxRatioChannelId: 2
+11-16 15:45:02.108  4667  5324 I Hicom_Monitor: handleNetworkQoeReport. qoeString: 10231,4,0,333,1,2,4,0,333,400000,400000,10,10,0,0,94,0
+11-16 15:45:02.109  2010  3970 I WiFi_PRO_WifiProStateMachine: APP_SERVICE_QOE_NOTIFY Qoe info 10231,4,0,333,1,2,4,0,333,400000,400000,10,10,0,0,94,0 CID 2 mMasterWifiRssi -29 mMasterCardAmbr 1048576 mSlaveCardAmbr 1048576
+11-16 15:45:02.110  2010  3970 I HwWifiProServiceProxy: ctrlHwWifiNetwork pkgName: WIFIPRO_SERVICE interfaceId: 9
+11-16 15:45:02.111    54    54 W migration/7: type=1400 audit(0.0:76820): avc: granted { setsched } for pid=54 scontext=u:r:kernel:s0 tcontext=u:r:kernel:s0 tclass=process
+11-16 15:45:02.110  2010  3970 I WiFi_PRO_WifiProStateMachine: isWifi2WifiProcess = false, mIsNeedIgnoreQoeUpdate = false, mIsAppInBlacklist = false, mIsAppInBlacklistFullScreen = false, mIsWiFiNoInternet false, screen on = true, full screen = false, isLandscapeMode = false, mNotifyWifiLinkPoorReason = -1
+11-16 15:45:02.111  2010  3970 I WiFi_PRO_WifiProStateMachine: mChannelQoeBadCnt = 0, mAppQoeBadCnt = 0, mNetworkSlowReason = 0, mNetworkSlowChannelBadCnt = 0
+11-16 15:45:02.113  4667  5324 I Utils   : multipathPolicy is null
+11-16 15:45:02.114  2010  3970 E WiFi_PROHumanFactorRecommend: isRichTrafficUser, invalid slotId=-1
+11-16 15:45:02.117  2010  3970 E WiFi_PROHumanFactorRecommend: isEconomicTrafficUser, invalid slotId=-1
+11-16 15:45:02.155  4667  6060 D LteRecoveryEngine: UnRecoverState processMessage UPDATE_PS_SLOW_VALUE
+11-16 15:45:02.244  4603  4660 I appium  : AppiumResponse: {"sessionId":"99d1857d-34f3-4904-986a-253a25fab314","value":"iVBORw0KGgoAAAANSUhEUgAABJgAAAlgCAYAAADEQo0EAAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHic7N15fFT1vf/x1zmzZrLvCQFCCAHCLiCCgggigq1Vq9XaWtvbeq3WLt7u\n9ndLqbX11rZau1prtYrVVqti3bBaRURBdoghIUBIgJCdbLMv5/z+oEZTQMVBFn0/Hw9lzjLf850z\nkMx5z…
+11-16 15:45:02.272   765  1874 I AudioFlinger: pid(5282):mVol=1.000000, tVol=0.000000, pVol=1.000000, sVol=1.000000, cVol = 1.000000, scale=1.000000, output=13, mDevice=0x2, mStreamType=3
+11-16 15:45:02.271    54    54 W migration/7: type=1400 audit(0.0:76821): avc: granted { setsched } for pid=54 scontext=u:r:kernel:s0 tcontext=u:r:kernel:s0 tclass=process

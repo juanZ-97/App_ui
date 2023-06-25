@@ -1,0 +1,108 @@
+{
+  "uid" : "c05f40aba7d7e2b8",
+  "name" : "play_07",
+  "fullName" : "tests.test_case.test07_drama_details#play_07",
+  "historyId" : "ead8299058c58e549428363137a2fe3c",
+  "time" : {
+    "start" : 1668584689405,
+    "stop" : 1668584694544,
+    "duration" : 5139
+  },
+  "description" : "用例开始时间:2022-11-16 15:44:49.405053",
+  "descriptionHtml" : "<p>用例开始时间:2022-11-16 15:44:49.405053</p>\n",
+  "status" : "broken",
+  "statusMessage" : "Exception: 页面中未能找到 [点击播放页剧集头像]",
+  "statusTrace" : "测试类名称：play_07 \n输入参数：{'method': 'click', 'element': 'cn.missevan:id/drama_cover', 'name': '点击播放页剧集头像', 'time': 5, 'type': 'id'} \n错误信息：('页面中未能找到 [点击播放页剧集头像]',)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "用例开始时间:2022-11-16 15:44:49.405053",
+    "status" : "broken",
+    "statusMessage" : "Exception: 页面中未能找到 [点击播放页剧集头像]",
+    "statusTrace" : "测试类名称：play_07 \n输入参数：{'method': 'click', 'element': 'cn.missevan:id/drama_cover', 'name': '点击播放页剧集头像', 'time': 5, 'type': 'id'} \n错误信息：('页面中未能找到 [点击播放页剧集头像]',)",
+    "steps" : [ {
+      "name" : "检查：'点击播放页剧集头像'",
+      "time" : {
+        "start" : 1668584689505,
+        "stop" : 1668584694543,
+        "duration" : 5038
+      },
+      "status" : "broken",
+      "statusMessage" : "Exception: 页面中未能找到 [点击播放页剧集头像]\n",
+      "statusTrace" : "  File \"/Users/guozhi/PycharmProjects/YamlAppium/base/action.py\", line 359, in _find_element\n    raise Exception(\"页面中未能找到 [%s]\" % locator.get('name'))\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "fc7d855918a503cd",
+      "name" : "失败截图",
+      "source" : "fc7d855918a503cd.png",
+      "type" : "image/png",
+      "size" : 329584
+    }, {
+      "uid" : "d395776ed16c770c",
+      "name" : "APPlog",
+      "source" : "d395776ed16c770c.txt",
+      "type" : "text/plain",
+      "size" : 155131
+    }, {
+      "uid" : "2933398e3cb37570",
+      "name" : "stdout",
+      "source" : "2933398e3cb37570.txt",
+      "type" : "text/plain",
+      "size" : 1016
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test07_drama_details"
+  }, {
+    "name" : "host",
+    "value" : "guozhierdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "3972-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_case.test07_drama_details"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "c05f40aba7d7e2b8.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,261 @@
+06-19 16:20:02.173  2018  3127 D libsensor-displayalgo: the value of  brightness:438.000000,R:77296384.557271,G:77297133.237939,B:77313059.061408,EVENT_C:6316.000000,EVENT_R:2399.000000,EVENT_G:3228.500000,EVENT_B:1276.000000
+06-19 16:20:02.173  2018  3127 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-19 16:20:02.173  2018  3127 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-19 16:20:02.174  2018  3127 I libsensor-displayalgo: the value of  RESULT3116.697536,1231.266004,1510.266625,565.233393
+06-19 16:20:02.174  2018  3127 I libsensor-displayalgo: the value of  getChannelDataCalibrated3267.687221,1140.389644,1755.389210,616.914213
+06-19 16:20:02.174  2018  3127 I libsensor-displayalgo: the value of  REAL LUX181.167282
+06-19 16:20:02.174  2018  3127 I libsensor-displayalgo: the value of  CAL REAL LUX181.167282
+06-19 16:20:02.418   899   899 I HandWritingStubImpl: isKeyboardTypeChanged: false
+06-19 16:20:02.419   899   899 I HandWritingStubImpl: isKeyboardTypeChanged: false
+06-19 16:20:02.433  1265  2358 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+06-19 16:20:02.433  2018  2018 I libcitsensorservice@2.0-impl: msg_transfer
+06-19 16:20:02.434  2018  3098 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:9 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+06-19 16:20:02.434  1265  1889 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+06-19 16:20:02.436  1265  5919 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+06-19 16:20:02.442  1265  5919 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+06-19 16:20:02.442  1265  5919 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+06-19 16:20:02.442  1265  5919 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+06-19 16:20:02.443  1265  5919 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+06-19 16:20:02.449  1265  1584 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+06-19 16:20:02.456  1265  5925 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+06-19 16:20:02.456  1265  5925 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+06-19 16:20:02.457  1265  5925 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+06-19 16:20:02.473  2018  3127 D libsensor-displayalgo: the value of  brightness:438.000000,R:77296384.557271,G:77297133.237939,B:77313059.061408,EVENT_C:6326.000000,EVENT_R:2401.500000,EVENT_G:3231.500000,EVENT_B:1277.500000
+06-19 16:20:02.473  2018  3127 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-19 16:20:02.473  2018  3127 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-19 16:20:02.474  2018  3127 I libsensor-displayalgo: the value of  RESULT3116.697536,1231.266004,1510.266625,565.233393
+06-19 16:20:02.474  2018  3127 I libsensor-displayalgo: the value of  getChannelDataCalibrated3267.687221,1140.389644,1755.389210,616.914213
+06-19 16:20:02.474  2018  3127 I libsensor-displayalgo: the value of  REAL LUX181.793411
+06-19 16:20:02.474  2018  3127 I libsensor-displayalgo: the value of  CAL REAL LUX181.793411
+06-19 16:20:02.649 29212 29398 D MemoryCeilingMonitor: [handleMemoryCalculate]
+06-19 16:20:02.650 29212 29398 D MemoryCeilingMonitor: [calculate] tot: 6239336, max: 268435456, free: 1847472, heap: 4391864, per: 0.016360968351364136
+06-19 16:20:02.775  2018  3127 D libsensor-displayalgo: the value of  brightness:438.000000,R:77296384.557271,G:77297133.237939,B:77313059.061408,EVENT_C:6326.000000,EVENT_R:2401.500000,EVENT_G:3231.500000,EVENT_B:1277.500000
+06-19 16:20:02.775  2018  3127 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-19 16:20:02.775  2018  3127 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-19 16:20:02.776  2018  3127 I libsensor-displayalgo: the value of  RESULT3116.697536,1231.266004,1510.266625,565.233393
+06-19 16:20:02.776  2018  3127 I libsensor-displayalgo: the value of  getChannelDataCalibrated3267.687221,1140.389644,1755.389210,616.914213
+06-19 16:20:02.776  2018  3127 I libsensor-displayalgo: the value of  REAL LUX181.793411
+06-19 16:20:02.776  2018  3127 I libsensor-displayalgo: the value of  CAL REAL LUX181.793411
+06-19 16:20:02.912   899   899 I HandWritingStubImpl: isKeyboardTypeChanged: false
+06-19 16:20:02.913   899   899 I HandWritingStubImpl: isKeyboardTypeChanged: false
+06-19 16:20:02.929  1265  2358 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+06-19 16:20:02.929  2018  2108 I libcitsensorservice@2.0-impl: msg_transfer
+06-19 16:20:02.930  2018  3098 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:9 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+06-19 16:20:02.930  1265  1889 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+06-19 16:20:02.931  1265  5945 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+06-19 16:20:02.943  1265  5945 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+06-19 16:20:02.944  1265  5945 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+06-19 16:20:02.944  1265  5945 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+06-19 16:20:02.944  1265  5945 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+06-19 16:20:02.946  1265  1584 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+06-19 16:20:02.955  1265  5947 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+06-19 16:20:02.959  1265  5947 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+06-19 16:20:02.959  1265  5947 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+06-19 16:20:03.074  2018  3127 D libsensor-displayalgo: the value of  brightness:438.000000,R:77296384.557271,G:77297133.237939,B:77313059.061408,EVENT_C:6319.500000,EVENT_R:2401.500000,EVENT_G:3229.000000,EVENT_B:1275.500000
+06-19 16:20:03.074  2018  3127 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-19 16:20:03.074  2018  3127 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-19 16:20:03.074  2018  3127 I libsensor-displayalgo: the value of  RESULT3116.697536,1231.266004,1510.266625,565.233393
+06-19 16:20:03.074  2018  3127 I libsensor-displayalgo: the value of  getChannelDataCalibrated3267.687221,1140.389644,1755.389210,616.914213
+06-19 16:20:03.074  2018  3127 I libsensor-displayalgo: the value of  REAL LUX181.383392
+06-19 16:20:03.074  2018  3127 I libsensor-displayalgo: the value of  CAL REAL LUX181.383392
+06-19 16:20:03.087  5809  3719 I SafeBinderCall: onPositionChange binder cost:2
+06-19 16:20:03.088  4233  4233 D MiPlayDetailViewModel: onPositionChange(): position = 24277
+06-19 16:20:03.375  2018  3127 D libsensor-displayalgo: the value of  brightness:438.000000,R:77296384.557271,G:77297133.237939,B:77313059.061408,EVENT_C:6319.500000,EVENT_R:2401.500000,EVENT_G:3229.000000,EVENT_B:1275.500000
+06-19 16:20:03.375  2018  3127 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-19 16:20:03.375  2018  3127 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-19 16:20:03.376  2018  3127 I libsensor-displayalgo: the value of  RESULT3116.697536,1231.266004,1510.266625,565.233393
+06-19 16:20:03.376  2018  3127 I libsensor-displayalgo: the value of  getChannelDataCalibrated3267.687221,1140.389644,1755.389210,616.914213
+06-19 16:20:03.376  2018  3127 I libsensor-displayalgo: the value of  REAL LUX181.383392
+06-19 16:20:03.376  2018  3127 I libsensor-displayalgo: the value of  CAL REAL LUX181.383392
+06-19 16:20:03.413   899   899 I HandWritingStubImpl: isKeyboardTypeChanged: false
+06-19 16:20:03.414   899   899 I HandWritingStubImpl: isKeyboardTypeChanged: false
+06-19 16:20:03.429  1265  2358 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+06-19 16:20:03.431  2018  2108 I libcitsensorservice@2.0-impl: msg_transfer
+06-19 16:20:03.431  2018  3098 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:9 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+06-19 16:20:03.431  1265  1889 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+06-19 16:20:03.432  1265  5957 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+06-19 16:20:03.438  1265  5957 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+06-19 16:20:03.438  1265  5957 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+06-19 16:20:03.438  1265  5957 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+06-19 16:20:03.438  1265  5957 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+06-19 16:20:03.444  1265  1584 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+06-19 16:20:03.452  1265  5958 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+06-19 16:20:03.452  1265  5958 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+06-19 16:20:03.452  1265  5958 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+06-19 16:20:03.674  2018  3127 D libsensor-displayalgo: the value of  brightness:438.000000,R:77296384.557271,G:77297133.237939,B:77313059.061408,EVENT_C:6326.500000,EVENT_R:2404.500000,EVENT_G:3234.000000,EVENT_B:1276.500000
+06-19 16:20:03.675  2018  3127 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-19 16:20:03.675  2018  3127 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-19 16:20:03.675  2018  3127 I libsensor-displayalgo: the value of  RESULT3116.697536,1231.266004,1510.266625,565.233393
+06-19 16:20:03.675  2018  3127 I libsensor-displayalgo: the value of  getChannelDataCalibrated3267.687221,1140.389644,1755.389210,616.914213
+06-19 16:20:03.675  2018  3127 I libsensor-displayalgo: the value of  REAL LUX181.910583
+06-19 16:20:03.675  2018  3127 I libsensor-displayalgo: the value of  CAL REAL LUX181.910583
+06-19 16:20:03.715   663   767 I appium  : channel read: POST /wd/hub/session/692e9e42-c63c-4c22-8e3f-0c2c1818ebcd/element
+06-19 16:20:03.716   663   767 I appium  : FindElement command
+06-19 16:20:03.717   663   767 I appium  : method: 'id', selector: 'cn.missevan:id/rv_live_follow'
+06-19 16:20:03.717   663   767 I appium  : Waiting up to 100ms for the device to idle
+06-19 16:20:03.760   663   767 I appium  : AppiumResponse: {"sessionId":"692e9e42-c63c-4c22-8e3f-0c2c1818ebcd","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:920)\n"}}
+06-19 16:20:03.825  5405  9716 D SLM-SRV-SLAService: checktemp temperature = 39290 temperature_average = 39534 isPerformanceMode = false thermal_enable_slm = true
+06-19 16:20:03.915   899   899 I HandWritingStubImpl: isKeyboardTypeChanged: false
+06-19 16:20:03.916   899   899 I HandWritingStubImpl: isKeyboardTypeChanged: false
+06-19 16:20:03.926  1930  1967 I mstatdaemon: Entering time loop
+06-19 16:20:03.926  1930  1967 I mstatdaemon: t = 1687162803
+06-19 16:20:03.926  1930  1967 I mstatdaemon: translated_t = 1371172803
+06-19 16:20:03.926  1930  1967 I mstat_log: mstatcommitLog log_alloc() failed
+06-19 16:20:03.932  1265  2358 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+06-19 16:20:03.933  2018  2108 I libcitsensorservice@2.0-impl: msg_transfer
+06-19 16:20:03.936  2018  3098 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:9 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+06-19 16:20:03.939  1265  1889 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+06-19 16:20:03.950  1265  5960 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+06-19 16:20:03.956  1265  5960 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+06-19 16:20:03.956  1265  5960 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+06-19 16:20:03.956  1265  5960 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+06-19 16:20:03.956  1265  5960 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+06-19 16:20:03.964  1265  1584 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+06-19 16:20:03.973  1265  5961 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+06-19 16:20:03.973  2018  3127 D libsensor-displayalgo: the value of  brightness:438.000000,R:77296384.557271,G:77297133.237939,B:77313059.061408,EVENT_C:6326.500000,EVENT_R:2404.500000,EVENT_G:3234.000000,EVENT_B:1276.500000
+06-19 16:20:03.973  2018  3127 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-19 16:20:03.973  2018  3127 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-19 16:20:03.973  1265  5961 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+06-19 16:20:03.973  1265  5961 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+06-19 16:20:03.973  2018  3127 I libsensor-displayalgo: the value of  RESULT3116.697536,1231.266004,1510.266625,565.233393
+06-19 16:20:03.973  2018  3127 I libsensor-displayalgo: the value of  getChannelDataCalibrated3267.687221,1140.389644,1755.389210,616.914213
+06-19 16:20:03.973  2018  3127 I libsensor-displayalgo: the value of  REAL LUX181.910583
+06-19 16:20:03.973  2018  3127 I libsensor-displayalgo: the value of  CAL REAL LUX181.910583
+06-19 16:20:04.082  5809  3719 I SafeBinderCall: onPositionChange binder cost:0
+06-19 16:20:04.082  4233  4233 D MiPlayDetailViewModel: onPositionChange(): position = 25275
+06-19 16:20:04.274  2018  3127 D libsensor-displayalgo: the value of  brightness:438.000000,R:77296384.557271,G:77297133.237939,B:77313059.061408,EVENT_C:6318.000000,EVENT_R:2402.500000,EVENT_G:3231.000000,EVENT_B:1276.000000
+06-19 16:20:04.275  2018  3127 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-19 16:20:04.275  2018  3127 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-19 16:20:04.275  2018  3127 I libsensor-displayalgo: the value of  RESULT3116.697536,1231.266004,1510.266625,565.233393
+06-19 16:20:04.275  2018  3127 I libsensor-displayalgo: the value of  getChannelDataCalibrated3267.687221,1140.389644,1755.389210,616.914213
+06-19 16:20:04.276  2018  3127 I libsensor-displayalgo: the value of  REAL LUX181.290237
+06-19 16:20:04.276  2018  3127 I libsensor-displayalgo: the value of  CAL REAL LUX181.290237
+06-19 16:20:04.285   663   767 I appium  : channel read: POST /wd/hub/session/692e9e42-c63c-4c22-8e3f-0c2c1818ebcd/element
+06-19 16:20:04.285   663   767 I appium  : FindElement command
+06-19 16:20:04.288   663   767 I appium  : method: 'id', selector: 'cn.missevan:id/rv_live_follow'
+06-19 16:20:04.288   663   767 I appium  : Waiting up to 100ms for the device to idle
+06-19 16:20:04.334   663   767 I appium  : AppiumResponse: {"sessionId":"692e9e42-c63c-4c22-8e3f-0c2c1818ebcd","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:920)\n"}}
+06-19 16:20:04.417   899   899 I HandWritingStubImpl: isKeyboardTypeChanged: false
+06-19 16:20:04.418   899   899 I HandWritingStubImpl: isKeyboardTypeChanged: false
+06-19 16:20:04.434  1265  2358 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+06-19 16:20:04.434  2018  7182 I libcitsensorservice@2.0-impl: msg_transfer
+06-19 16:20:04.435  2018  3098 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:9 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+06-19 16:20:04.435  1265  1889 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+06-19 16:20:04.436  1265  5964 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+06-19 16:20:04.443  1265  5964 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+06-19 16:20:04.443  1265  5964 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+06-19 16:20:04.444  1265  5964 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+06-19 16:20:04.444  1265  5964 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+06-19 16:20:04.448  1265  1584 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+06-19 16:20:04.456  1265  5965 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+06-19 16:20:04.457  1265  5965 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+06-19 16:20:04.457  1265  5965 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+06-19 16:20:04.575  2018  3127 D libsensor-displayalgo: the value of  brightness:438.000000,R:77296384.557271,G:77297133.237939,B:77313059.061408,EVENT_C:6325.500000,EVENT_R:2401.000000,EVENT_G:3232.500000,EVENT_B:1276.000000
+06-19 16:20:04.575  2018  3127 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-19 16:20:04.575  2018  3127 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-19 16:20:04.576  2018  3127 I libsensor-displayalgo: the value of  RESULT3116.697536,1231.266004,1510.266625,565.233393
+06-19 16:20:04.576  2018  3127 I libsensor-displayalgo: the value of  getChannelDataCalibrated3267.687221,1140.389644,1755.389210,616.914213
+06-19 16:20:04.576  2018  3127 I libsensor-displayalgo: the value of  REAL LUX181.944351
+06-19 16:20:04.576  2018  3127 I libsensor-displayalgo: the value of  CAL REAL LUX181.944351
+06-19 16:20:04.851   663   767 I appium  : channel read: POST /wd/hub/session/692e9e42-c63c-4c22-8e3f-0c2c1818ebcd/element
+06-19 16:20:04.852   663   767 I appium  : FindElement command
+06-19 16:20:04.854   663   767 I appium  : method: 'id', selector: 'cn.missevan:id/rv_live_follow'
+06-19 16:20:04.854   663   767 I appium  : Waiting up to 100ms for the device to idle
+06-19 16:20:04.873  2018  3127 D libsensor-displayalgo: the value of  brightness:438.000000,R:77296384.557271,G:77297133.237939,B:77313059.061408,EVENT_C:6325.500000,EVENT_R:2401.000000,EVENT_G:3232.500000,EVENT_B:1276.000000
+06-19 16:20:04.873  2018  3127 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-19 16:20:04.873  2018  3127 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-19 16:20:04.874  2018  3127 I libsensor-displayalgo: the value of  RESULT3116.697536,1231.266004,1510.266625,565.233393
+06-19 16:20:04.874  2018  3127 I libsensor-displayalgo: the value of  getChannelDataCalibrated3267.687221,1140.389644,1755.389210,616.914213
+06-19 16:20:04.874  2018  3127 I libsensor-displayalgo: the value of  REAL LUX181.944351
+06-19 16:20:04.874  2018  3127 I libsensor-displayalgo: the value of  CAL REAL LUX181.944351
+06-19 16:20:04.900   663   767 I appium  : AppiumResponse: {"sessionId":"692e9e42-c63c-4c22-8e3f-0c2c1818ebcd","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:920)\n"}}
+06-19 16:20:04.918   899   899 I HandWritingStubImpl: isKeyboardTypeChanged: false
+06-19 16:20:04.918   899   899 I HandWritingStubImpl: isKeyboardTypeChanged: false
+06-19 16:20:04.934  1265  2358 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+06-19 16:20:04.934  2018  2108 I libcitsensorservice@2.0-impl: msg_transfer
+06-19 16:20:04.935  2018  3098 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:9 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+06-19 16:20:04.935  1265  1889 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+06-19 16:20:04.936  1265  5967 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+06-19 16:20:04.944  1265  5967 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+06-19 16:20:04.944  1265  5967 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+06-19 16:20:04.944  1265  5967 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+06-19 16:20:04.945  1265  5967 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+06-19 16:20:04.950  1265  1584 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+06-19 16:20:04.957  1265  5968 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+06-19 16:20:04.957  1265  5968 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+06-19 16:20:04.957  1265  5968 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+06-19 16:20:04.963 26505 26929 D awcn.TnetSpdySession: |[seq:umeng:546d7dd7fd98c58fc800082c.AWCN1_1] ping host:https://umengacs.m.taobao.com thread:AWCN Scheduler1
+06-19 16:20:04.964 26505 26929 D awcn.TnetSpdySession: |[seq:umeng:546d7dd7fd98c58fc800082c.AWCN1_1] https://umengacs.m.taobao.com submit ping ms:45044 force:true
+06-19 16:20:04.981  1263  3171 D AudioTrack: [audioTrackData][fine] 45s(f:45000 m:2922 s:1490 k:0) : pid 1263 uid 10494 sessionId 1649 sr 44100 ch 2 fmt 1
+06-19 16:20:05.004 26505 26928 I awcn.TnetSpdySession: |[seq:umeng:546d7dd7fd98c58fc800082c.AWCN1_1] ping receive Host:https://umengacs.m.taobao.com id:29
+06-19 16:20:05.083  5809  3719 I SafeBinderCall: onPositionChange binder cost:1
+06-19 16:20:05.084  4233  4233 D MiPlayDetailViewModel: onPositionChange(): position = 26275
+06-19 16:20:05.175  2018  3127 D libsensor-displayalgo: the value of  brightness:438.000000,R:77296384.557271,G:77297133.237939,B:77313059.061408,EVENT_C:6324.000000,EVENT_R:2402.500000,EVENT_G:3228.000000,EVENT_B:1275.500000
+06-19 16:20:05.175  2018  3127 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-19 16:20:05.175  2018  3127 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-19 16:20:05.176  2018  3127 I libsensor-displayalgo: the value of  RESULT3116.697536,1231.266004,1510.266625,565.233393
+06-19 16:20:05.176  2018  3127 I libsensor-displayalgo: the value of  getChannelDataCalibrated3267.687221,1140.389644,1755.389210,616.914213
+06-19 16:20:05.176  2018  3127 I libsensor-displayalgo: the value of  REAL LUX181.617798
+06-19 16:20:05.176  2018  3127 I libsensor-displayalgo: the value of  CAL REAL LUX181.617798
+06-19 16:20:05.417   663   767 I appium  : channel read: POST /wd/hub/session/692e9e42-c63c-4c22-8e3f-0c2c1818ebcd/element
+06-19 16:20:05.417   663   767 I appium  : FindElement command
+06-19 16:20:05.420   663   767 I appium  : method: 'id', selector: 'cn.missevan:id/rv_live_follow'
+06-19 16:20:05.420   663   767 I appium  : Waiting up to 100ms for the device to idle
+06-19 16:20:05.421   899   899 I HandWritingStubImpl: isKeyboardTypeChanged: false
+06-19 16:20:05.422   899   899 I HandWritingStubImpl: isKeyboardTypeChanged: false
+06-19 16:20:05.435  1265  2358 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+06-19 16:20:05.435  2018  2108 I libcitsensorservice@2.0-impl: msg_transfer
+06-19 16:20:05.437  2018  3098 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:9 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+06-19 16:20:05.438  1265  1889 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+06-19 16:20:05.438  1265  5970 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+06-19 16:20:05.444  1265  5970 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+06-19 16:20:05.452  1265  5970 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+06-19 16:20:05.453  1265  5970 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+06-19 16:20:05.453  1265  5970 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+06-19 16:20:05.459  1265  1584 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+06-19 16:20:05.461  1265  5971 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+06-19 16:20:05.461  1265  5971 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+06-19 16:20:05.461  1265  5971 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+06-19 16:20:05.469   663   767 I appium  : AppiumResponse: {"sessionId":"692e9e42-c63c-4c22-8e3f-0c2c1818ebcd","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:920)\n"}}
+06-19 16:20:05.473  2018  3127 D libsensor-displayalgo: the value of  brightness:438.000000,R:77296384.557271,G:77297133.237939,B:77313059.061408,EVENT_C:6323.000000,EVENT_R:2401.500000,EVENT_G:3231.500000,EVENT_B:1274.500000
+06-19 16:20:05.473  2018  3127 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-19 16:20:05.473  2018  3127 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-19 16:20:05.473  2018  3127 I libsensor-displayalgo: the value of  RESULT3116.697536,1231.266004,1510.266625,565.233393
+06-19 16:20:05.473  2018  3127 I libsensor-displayalgo: the value of  getChannelDataCalibrated3267.687221,1140.389644,1755.389210,616.914213
+06-19 16:20:05.473  2018  3127 I libsensor-displayalgo: the value of  REAL LUX181.825409
+06-19 16:20:05.473  2018  3127 I libsensor-displayalgo: the value of  CAL REAL LUX181.825409
+06-19 16:20:05.775  2018  3127 D libsensor-displayalgo: the value of  brightness:438.000000,R:77296384.557271,G:77297133.237939,B:77313059.061408,EVENT_C:6323.000000,EVENT_R:2401.500000,EVENT_G:3231.500000,EVENT_B:1274.500000
+06-19 16:20:05.775  2018  3127 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-19 16:20:05.775  2018  3127 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-19 16:20:05.776  2018  3127 I libsensor-displayalgo: the value of  RESULT3116.697536,1231.266004,1510.266625,565.233393
+06-19 16:20:05.776  2018  3127 I libsensor-displayalgo: the value of  getChannelDataCalibrated3267.687221,1140.389644,1755.389210,616.914213
+06-19 16:20:05.776  2018  3127 I libsensor-displayalgo: the value of  REAL LUX181.825409
+06-19 16:20:05.776  2018  3127 I libsensor-displayalgo: the value of  CAL REAL LUX181.825409
+06-19 16:20:05.914   899   899 I HandWritingStubImpl: isKeyboardTypeChanged: false
+06-19 16:20:05.914   899   899 I HandWritingStubImpl: isKeyboardTypeChanged: false
+06-19 16:20:05.930  1265  2358 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+06-19 16:20:05.930  2018  7182 I libcitsensorservice@2.0-impl: msg_transfer
+06-19 16:20:05.930  2018  3098 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:9 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+06-19 16:20:05.931  1265  1889 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+06-19 16:20:05.943  1265  5975 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+06-19 16:20:05.947  1265  5975 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+06-19 16:20:05.947  1265  5975 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+06-19 16:20:05.947  1265  5975 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+06-19 16:20:05.947  1265  5975 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+06-19 16:20:05.953  1265  1584 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+06-19 16:20:05.966  1265  5976 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+06-19 16:20:05.966  1265  5976 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+06-19 16:20:05.966  1265  5976 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+06-19 16:20:05.990   663   767 I appium  : channel read: GET /wd/hub/session/692e9e42-c63c-4c22-8e3f-0c2c1818ebcd/screenshot
+06-19 16:20:05.990   663   767 I appium  : CaptureScreenshot command
+06-19 16:20:06.074  2018  3127 D libsensor-displayalgo: the value of  brightness:438.000000,R:77296384.557271,G:77297133.237939,B:77313059.061408,EVENT_C:6326.500000,EVENT_R:2405.500000,EVENT_G:3232.500000,EVENT_B:1277.000000
+06-19 16:20:06.074  2018  3127 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+06-19 16:20:06.074  2018  3127 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+06-19 16:20:06.074  2018  3127 I libsensor-displayalgo: the value of  RESULT3116.697536,1231.266004,1510.266625,565.233393
+06-19 16:20:06.074  2018  3127 I libsensor-displayalgo: the value of  getChannelDataCalibrated3267.687221,1140.389644,1755.389210,616.914213
+06-19 16:20:06.074  2018  3127 I libsensor-displayalgo: the value of  REAL LUX181.764023
+06-19 16:20:06.074  2018  3127 I libsensor-displayalgo: the value of  CAL REAL LUX181.764023
+06-19 16:20:06.083  5809  3719 I SafeBinderCall: onPositionChange binder cost:1
+06-19 16:20:06.083  4233  4233 D MiPlayDetailViewModel: onPositionChange(): position = 27275
+06-19 16:20:06.346   663   767 I appium  : AppiumResponse: {"sessionId":"692e9e42-c63c-4c22-8e3f-0c2c1818ebcd","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAAlgCAYAAABtGofVAAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHic7N15dFvlmT/wr1ZbinfZ8RLLCYmXJDCxDwSoTWlL3LIUm51wSpekTIGG\nZHqmCS09QKfTQ2DaOU1mKWlChw4202UwlDKx4UCLA6XETkNInBCHWE7i2PIW2/JuSdZ2f3/4d28l\nS7IlW…
+06-19 16:20:06.355   663   673 I tomator2.serve: This is non sticky GC, maxfree is 8388608 minfree is 2097152

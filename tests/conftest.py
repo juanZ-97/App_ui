@@ -1,8 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-@ Author：YueC
-@ Description：Pytest hook Appium
-"""
 import datetime
 import os
 import sys

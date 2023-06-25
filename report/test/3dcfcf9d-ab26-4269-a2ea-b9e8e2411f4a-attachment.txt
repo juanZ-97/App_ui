@@ -1,0 +1,956 @@
+12-22 12:25:46.245  2475  3758 I SmartPower: com.android.externalstorage/10058 state=background adj=700 proc size=1 move to inactive adj below visible
+12-22 12:25:46.248  2475  3650 I MiuiNetworkPolicyTrafficLimit: updateWhiteListUidForMobileTraffic uid=10058,add=false
+12-22 12:25:46.249  2475  3650 D MiuiNetworkPolicyTrafficLimit: updateWhiteListUidForMobileTraffic rst=true
+12-22 12:25:46.282  2027  3285 D libsensor-displayalgo: the value of  brightness:377.000000,R:72035033.618040,G:64404733.033646,B:51095925.549162,EVENT_C:3829.500000,EVENT_R:1663.500000,EVENT_G:2020.000000,EVENT_B:841.500000
+12-22 12:25:46.282  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 12:25:46.282  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 12:25:46.283  2027  3285 I libsensor-displayalgo: the value of  RESULT2549.123792,1040.721175,1233.720556,439.695130
+12-22 12:25:46.283  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2661.168158,965.420051,1424.086738,476.124767
+12-22 12:25:46.283  2027  3285 I libsensor-displayalgo: the value of  REAL LUX53.568249
+12-22 12:25:46.283  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX53.568249
+12-22 12:25:46.684  2027  3285 D libsensor-displayalgo: the value of  brightness:377.000000,R:72035033.618040,G:64404733.033646,B:51095925.549162,EVENT_C:3829.500000,EVENT_R:1663.500000,EVENT_G:2020.000000,EVENT_B:841.500000
+12-22 12:25:46.684  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 12:25:46.684  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 12:25:46.684  2027  3285 I libsensor-displayalgo: the value of  RESULT2549.123792,1040.721175,1233.720556,439.695130
+12-22 12:25:46.685  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2661.168158,965.420051,1424.086738,476.124767
+12-22 12:25:46.685  2027  3285 I libsensor-displayalgo: the value of  REAL LUX53.568249
+12-22 12:25:46.685  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX53.568249
+12-22 12:25:46.982  2027  3285 D libsensor-displayalgo: the value of  brightness:377.000000,R:72035033.618040,G:64404733.033646,B:51095925.549162,EVENT_C:3829.500000,EVENT_R:1663.500000,EVENT_G:2020.000000,EVENT_B:841.500000
+12-22 12:25:46.983  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 12:25:46.983  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 12:25:46.983  2027  3285 I libsensor-displayalgo: the value of  RESULT2549.123792,1040.721175,1233.720556,439.695130
+12-22 12:25:46.983  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2661.168158,965.420051,1424.086738,476.124767
+12-22 12:25:46.983  2027  3285 I libsensor-displayalgo: the value of  REAL LUX53.568249
+12-22 12:25:46.983  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX53.568249
+12-22 12:25:47.140  4409  9697 I QImsService: ImsRadioIndicationAidl : onServiceDomainChanged()[SUB0]
+12-22 12:25:47.140  4409  9697 I QImsService: ImsSenderRxr : [UNSL]< UNSOL_SERVICE_DOMAIN_CHANGED 2[SUB0]
+12-22 12:25:47.148  4409  4409 I QImsService: ImsRegistrationController : Message received: what = 5
+12-22 12:25:47.148  4409  4409 I QImsService: ImsRegistrationController : handleSrvDomainChanged
+12-22 12:25:47.155  4371  5435 W IWlanNetworkService: 1825 > Response Processed
+12-22 12:25:47.165  2475  3040 I BatteryService: current mPlugType2current mHealthInfo.batteryLevel26current mHealthInfo.batteryTemperature355
+12-22 12:25:47.167  6206  7182 D ThermalIECHandler: storeDataStyle: thermal_iec_monitor_persistence_data_style_iec_state; startIECTime: -1; IECScreenOffOverPeriodTime: 1410825231
+12-22 12:25:47.174  4409  4409 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 1
+12-22 12:25:47.174  6206  6950 D PowerKeeper.FrozenApp: onBatteryChanged plug=true mBatteryPlugged=2
+12-22 12:25:47.174  6206  7099 D PowerCheckerService: onBatteryChanged, mBatteryLevel = 26, status = 2, level = 26, plug = 2, scale = 100
+12-22 12:25:47.174  6171  6171 I BatteryInfoReceiver: ACTION_BATTERY_CHANGED
+12-22 12:25:47.174  6206  7192 D PowerKeeper.Thermal: mBatteryTemperature: 35
+12-22 12:25:47.176  4453  4453 V DeviceStatisticsService: chargerType=2 batteryLevel=26 totalBatteryCapacity=4223000
+12-22 12:25:47.177  2475  2688 I android_os_HwBinder: HwBinder: Starting thread pool for getting: vendor.xiaomi.hardware.micharge@1.0::IMiCharge/default
+12-22 12:25:47.177  1344  1360 E vendor.xiaomi.hardware.micharge@1.0-service: Failed to open node /sys/class/qcom-battery/reverse_chg_mode
+12-22 12:25:47.177  1344  1360 I vendor.xiaomi.hardware.micharge@1.0-service: ReadFilePathValue path = /sys/class/qcom-battery/reverse_chg_mode value =
+12-22 12:25:47.177  6171  6171 I PowerNoticeUI: handleBatteryChanged oldPlugType 2 mPlugType 2 oldBatteryLevel 26 mBatteryLevel 26 temperature 355
+12-22 12:25:47.191  6171  7418 I android_os_HwBinder: HwBinder: Starting thread pool for getting: vendor.xiaomi.hardware.micharge@1.0::IMiCharge/default
+12-22 12:25:47.192  1344  1360 I vendor.xiaomi.hardware.micharge@1.0-service: ReadFilePathValue path = /sys/class/qcom-battery/night_charging value = 0
+12-22 12:25:47.192  6171  7418 I ChargeProtectionUtils: getNightChargingState: 0
+12-22 12:25:47.193  2475  2688 I android_os_HwBinder: HwBinder: Starting thread pool for getting: vendor.xiaomi.hardware.micharge@1.0::IMiCharge/default
+12-22 12:25:47.194  1344  1360 I vendor.xiaomi.hardware.micharge@1.0-service: ReadFilePathValue path = /sys/class/qcom-battery/fastchg_mode value = 0
+12-22 12:25:47.201  4496  4660 D NetworkController.MobileSignalController(1): update5GConnectState: true
+12-22 12:25:47.201  4496  4660 D NetworkController.MobileSignalController(1): NotQcom5G, signal level = 5
+12-22 12:25:47.201  4496  4660 D NetworkController.MobileSignalController(1): Show 5G icon
+12-22 12:25:47.204  2475  4898 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcastMultiplePermissions:1216 com.android.server.TelephonyRegistry.broadcastServiceStateChanged:2897 com.android.server.TelephonyRegistry.notifyServiceStateForPhoneId:1619 com.android.internal.telephony.ITelephonyRegistry$Stub.onTransact:455 android.os.Binder.execTransactInternal:1190
+12-22 12:25:47.204  2475  4898 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcastMultiplePermissions:1266 android.content.Context.sendBroadcastMultiplePermissions:2225 com.android.server.TelephonyRegistry.broadcastServiceStateChanged:2901 com.android.server.TelephonyRegistry.notifyServiceStateForPhoneId:1619 com.android.internal.telephony.ITelephonyRegistry$Stub.onTransact:455
+12-22 12:25:47.207  4496  4496 D KeyguardUpdateMonitor: received broadcast android.intent.action.SERVICE_STATE
+12-22 12:25:47.209  4496  4496 V KeyguardUpdateMonitor: action android.intent.action.SERVICE_STATE serviceState={mVoiceRegState=0(IN_SERVICE), mDataRegState=0(IN_SERVICE), mChannelNumber=504990, duplexMode()=0, mCellBandwidths=[], mOperatorAlphaLong=CMCC, mOperatorAlphaShort=CMCC, isManualNetworkSelection=false(automatic), getRilVoiceRadioTechnology=20(NR_SA), getRilDataRadioTechnology=20(NR_SA), mCssIndicator=unsupported, mNetworkId=-1, mSystemId=-1, mCdmaRoamingIndicator=-1, mCdmaDefaultRoamingIndicator=-1, mIsEmergencyOnly=false, isUsingCarrierAggregation=false, mArfcnRsrpBoost=0, mNetworkRegistrationInfos=[NetworkRegistrationInfo{ domain=PS transportType=WLAN registrationState=NOT_REG_OR_SEARCHING roamingType=NOT_ROAMING accessNetworkTechnology=IWLAN rejectCause=0 emergencyEnabled=false availableServices=[] cellIdentity=null voiceSpecificInfo=null dataSpecificInfo=null nrState=**** rRplmn= isUsingCarrierAggregation=false}, NetworkRegistrationInfo{ domain=CS transportType=WWAN registrationState=HOME roamingType=NOT_ROAMING accessNetworkTechnology=NR rejectCause=0 emergencyEnabled=false availableServices=[VOICE,SMS,VIDEO] cellIdentity=CellIdentityNr:{ mPci = 438 mTac = 1448183 mNrArfcn = 504990 mBands = [28] mMcc = 460 mMnc = 00 mNci = 13258067969 mAlphaLong = CMCC mAlphaShort = CMCC mAdditionalPlmns = {} } voiceSpecificInfo=VoiceSpecificRegistrationInfo { mCssSupported=false mRoamingIndicator=0 mSystemIsInPrl=0 mDefaultRoamingIndicator=0} dataSpecificInfo=null nrState=**** rRplmn=46000 isUsingCarrierAggregation=false}, NetworkRegistrationInfo{ domain=PS transportType=WWAN registrationState=HOME roamingType=NOT_ROAMING accessNetworkTechnology=NR rejectCause=0 emergencyEnabled=false availableServices=[DATA] cellIdentity=CellIdentityNr:{ mPci = 438 mTac = 1448183 mNrArfcn = 504990 mBands = [28] mMcc = 460 mMnc = 00 mNci = 13258067969 mAlphaLong = CMCC mAlphaShort = CMCC mAdditionalPlmns = {} } voiceSpecificInfo=null dataSpecificInfo=android.telephony.DataSpecificRegistrationInfo :{ maxDataCalls = 16 isDcNrRestricted = false isNrAvailable = false isEnDcAvailable = false NrVopsSupportInfo :  mVopsSupport = 1 mEmcSupport = 0 mEmfSupport = 0 } nrState=**** rRplmn=46000 isUsingCarrierAggregation=false}], mNrFrequencyRange=0, mOperatorAlphaLongRaw=CMCC, mOperatorAlphaShortRaw=CMCC, mIsDataRoamingFromRegistration=false, mIsIwlanPreferred=false} subId=1
+12-22 12:25:47.209  2475  2691 W BroadcastQueue: Appop Denial: receiving Intent { act=android.intent.action.SERVICE_STATE flg=0x1000010 (has extras) } to ProcessRecord{554f1fd 4425:com.xiaomi.finddevice/6110} (pid=4425, uid=6110) excludes appop android:read_phone_state due to sender android (uid 1001)
+12-22 12:25:47.210  2475  2691 W BroadcastQueue: Appop Denial: receiving Intent { act=android.intent.action.SERVICE_STATE flg=0x1000010 (has extras) } to ProcessRecord{703b0f9 4496:com.android.systemui/1000} (pid=4496, uid=1000) excludes appop android:read_phone_state due to sender android (uid 1001)
+12-22 12:25:47.210  2475  2691 W BroadcastQueue: Appop Denial: receiving Intent { act=android.intent.action.SERVICE_STATE flg=0x1000010 (has extras) } to ProcessRecord{a5b8e01 9660:com.android.phone/1001} (pid=9660, uid=1001) excludes appop android:read_phone_state due to sender android (uid 1001)
+12-22 12:25:47.210  2475  2691 W BroadcastQueue: Appop Denial: receiving Intent { act=android.intent.action.SERVICE_STATE flg=0x1000010 (has extras) } to ProcessRecord{a5b8e01 9660:com.android.phone/1001} (pid=9660, uid=1001) excludes appop android:read_phone_state due to sender android (uid 1001)
+12-22 12:25:47.210  2475  2691 W BroadcastQueue: Appop Denial: receiving Intent { act=android.intent.action.SERVICE_STATE flg=0x1000010 (has extras) } to ProcessRecord{a5b8e01 9660:com.android.phone/1001} (pid=9660, uid=1001) excludes appop android:read_phone_state due to sender android (uid 1001)
+12-22 12:25:47.210  2475  2691 W BroadcastQueue: Appop Denial: receiving Intent { act=android.intent.action.SERVICE_STATE flg=0x1000010 (has extras) } to ProcessRecord{a5b8e01 9660:com.android.phone/1001} (pid=9660, uid=1001) excludes appop android:read_phone_state due to sender android (uid 1001)
+12-22 12:25:47.210  2475  2691 W BroadcastQueue: Appop Denial: receiving Intent { act=android.intent.action.SERVICE_STATE flg=0x1000010 (has extras) } to ProcessRecord{14042b3 28862:com.qualcomm.qti.autoregistration/1001} (pid=28862, uid=1001) excludes appop android:read_phone_state due to sender android (uid 1001)
+12-22 12:25:47.211  4496  4496 D KeyguardUpdateMonitor: handleServiceStateChange(subId=1, serviceState={mVoiceRegState=0(IN_SERVICE), mDataRegState=0(IN_SERVICE), mChannelNumber=504990, duplexMode()=0, mCellBandwidths=[], mOperatorAlphaLong=CMCC, mOperatorAlphaShort=CMCC, isManualNetworkSelection=false(automatic), getRilVoiceRadioTechnology=20(NR_SA), getRilDataRadioTechnology=20(NR_SA), mCssIndicator=unsupported, mNetworkId=-1, mSystemId=-1, mCdmaRoamingIndicator=-1, mCdmaDefaultRoamingIndicator=-1, mIsEmergencyOnly=false, isUsingCarrierAggregation=false, mArfcnRsrpBoost=0, mNetworkRegistrationInfos=[NetworkRegistrationInfo{ domain=PS transportType=WLAN registrationState=NOT_REG_OR_SEARCHING roamingType=NOT_ROAMING accessNetworkTechnology=IWLAN rejectCause=0 emergencyEnabled=false availableServices=[] cellIdentity=null voiceSpecificInfo=null dataSpecificInfo=null nrState=**** rRplmn= isUsingCarrierAggregation=false}, NetworkRegistrationInfo{ domain=CS transportType=WWAN registrationState=HOME roamingType=NOT_ROAMING accessNetworkTechnology=NR rejectCause=0 emergencyEnabled=false availableServices=[VOICE,SMS,VIDEO] cellIdentity=CellIdentityNr:{ mPci = 438 mTac = 1448183 mNrArfcn = 504990 mBands = [28] mMcc = 460 mMnc = 00 mNci = 13258067969 mAlphaLong = CMCC mAlphaShort = CMCC mAdditionalPlmns = {} } voiceSpecificInfo=VoiceSpecificRegistrationInfo { mCssSupported=false mRoamingIndicator=0 mSystemIsInPrl=0 mDefaultRoamingIndicator=0} dataSpecificInfo=null nrState=**** rRplmn=46000 isUsingCarrierAggregation=false}, NetworkRegistrationInfo{ domain=PS transportType=WWAN registrationState=HOME roamingType=NOT_ROAMING accessNetworkTechnology=NR rejectCause=0 emergencyEnabled=false availableServices=[DATA] cellIdentity=CellIdentityNr:{ mPci = 438 mTac = 1448183 mNrArfcn = 504990 mBands = [28] mMcc = 460 mMnc = 00 mNci = 13258067969 mAlphaLong = CMCC mAlphaShort = CMCC mAdditionalPlmns = {} } voiceSpecificInfo=null dataSpecificInfo=android.telephony.DataSpecificRegistrationInfo :{ maxDataCalls = 16 isDcNrRestricted = false isNrAvailable = false isEnDcAvailable = false NrVopsSupportInfo :  mVopsSupport = 1 mEmcSupport = 0 mEmfSupport = 0 } nrState=**** rRplmn=46000 isUsingCarrierAggregation=false}], mNrFrequencyRange=0, mOperatorAlphaLongRaw=CMCC, mOperatorAlphaShortRaw=CMCC, mIsDataRoamingFromRegistration=false, mIsIwlanPreferred=false}
+12-22 12:25:47.211  2475  4898 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcastMultiplePermissions:1266 android.content.Context.sendBroadcastMultiplePermissions:2225 com.android.server.TelephonyRegistry.broadcastServiceStateChanged:2908 com.android.server.TelephonyRegistry.notifyServiceStateForPhoneId:1619 com.android.internal.telephony.ITelephonyRegistry$Stub.onTransact:455
+12-22 12:25:47.211  4496  4496 D MiuiCarrierTextController: updateCarrierText: 中国移动
+12-22 12:25:47.212  2475  4898 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcastMultiplePermissions:1266 android.content.Context.sendBroadcastMultiplePermissions:2225 com.android.server.TelephonyRegistry.broadcastServiceStateChanged:2912 com.android.server.TelephonyRegistry.notifyServiceStateForPhoneId:1619 com.android.internal.telephony.ITelephonyRegistry$Stub.onTransact:455
+12-22 12:25:47.212  2475  2691 W BroadcastQueue: Appop Denial: receiving Intent { act=android.intent.action.SERVICE_STATE flg=0x1000010 (has extras) } to ProcessRecord{554f1fd 4425:com.xiaomi.finddevice/6110} (pid=4425, uid=6110) excludes appop android:fine_location due to sender android (uid 1001)
+12-22 12:25:47.212  2475  2691 W BroadcastQueue: Appop Denial: receiving Intent { act=android.intent.action.SERVICE_STATE flg=0x1000010 (has extras) } to ProcessRecord{703b0f9 4496:com.android.systemui/1000} (pid=4496, uid=1000) excludes appop android:fine_location due to sender android (uid 1001)
+12-22 12:25:47.212  2475  2691 W BroadcastQueue: Appop Denial: receiving Intent { act=android.intent.action.SERVICE_STATE flg=0x1000010 (has extras) } to ProcessRecord{a5b8e01 9660:com.android.phone/1001} (pid=9660, uid=1001) excludes appop android:fine_location due to sender android (uid 1001)
+12-22 12:25:47.212  2475  2691 W BroadcastQueue: Appop Denial: receiving Intent { act=android.intent.action.SERVICE_STATE flg=0x1000010 (has extras) } to ProcessRecord{a5b8e01 9660:com.android.phone/1001} (pid=9660, uid=1001) excludes appop android:fine_location due to sender android (uid 1001)
+12-22 12:25:47.212  2475  2691 W BroadcastQueue: Appop Denial: receiving Intent { act=android.intent.action.SERVICE_STATE flg=0x1000010 (has extras) } to ProcessRecord{a5b8e01 9660:com.android.phone/1001} (pid=9660, uid=1001) excludes appop android:fine_location due to sender android (uid 1001)
+12-22 12:25:47.212  2475  2691 W BroadcastQueue: Appop Denial: receiving Intent { act=android.intent.action.SERVICE_STATE flg=0x1000010 (has extras) } to ProcessRecord{a5b8e01 9660:com.android.phone/1001} (pid=9660, uid=1001) excludes appop android:fine_location due to sender android (uid 1001)
+12-22 12:25:47.212  2475  2691 W BroadcastQueue: Appop Denial: receiving Intent { act=android.intent.action.SERVICE_STATE flg=0x1000010 (has extras) } to ProcessRecord{14042b3 28862:com.qualcomm.qti.autoregistration/1001} (pid=28862, uid=1001) excludes appop android:fine_location due to sender android (uid 1001)
+12-22 12:25:47.213  2475  2691 W BroadcastQueue: Appop Denial: receiving Intent { act=android.intent.action.SERVICE_STATE flg=0x1000010 (has extras) } to ProcessRecord{554f1fd 4425:com.xiaomi.finddevice/6110} (pid=4425, uid=6110) excludes appop android:read_phone_state due to sender android (uid 1001)
+12-22 12:25:47.213  2475  2691 W BroadcastQueue: Appop Denial: receiving Intent { act=android.intent.action.SERVICE_STATE flg=0x1000010 (has extras) } to ProcessRecord{703b0f9 4496:com.android.systemui/1000} (pid=4496, uid=1000) excludes appop android:read_phone_state due to sender android (uid 1001)
+12-22 12:25:47.213  2475  2691 W BroadcastQueue: Appop Denial: receiving Intent { act=android.intent.action.SERVICE_STATE flg=0x1000010 (has extras) } to ProcessRecord{a5b8e01 9660:com.android.phone/1001} (pid=9660, uid=1001) excludes appop android:read_phone_state due to sender android (uid 1001)
+12-22 12:25:47.213  2475  2691 W BroadcastQueue: Appop Denial: receiving Intent { act=android.intent.action.SERVICE_STATE flg=0x1000010 (has extras) } to ProcessRecord{a5b8e01 9660:com.android.phone/1001} (pid=9660, uid=1001) excludes appop android:read_phone_state due to sender android (uid 1001)
+12-22 12:25:47.213  2475  2691 W BroadcastQueue: Appop Denial: receiving Intent { act=android.intent.action.SERVICE_STATE flg=0x1000010 (has extras) } to ProcessRecord{a5b8e01 9660:com.android.phone/1001} (pid=9660, uid=1001) excludes appop android:read_phone_state due to sender android (uid 1001)
+12-22 12:25:47.213  2475  2691 W BroadcastQueue: Appop Denial: receiving Intent { act=android.intent.action.SERVICE_STATE flg=0x1000010 (has extras) } to ProcessRecord{a5b8e01 9660:com.android.phone/1001} (pid=9660, uid=1001) excludes appop android:read_phone_state due to sender android (uid 1001)
+12-22 12:25:47.213  2475  2691 W BroadcastQueue: Appop Denial: receiving Intent { act=android.intent.action.SERVICE_STATE flg=0x1000010 (has extras) } to ProcessRecord{14042b3 28862:com.qualcomm.qti.autoregistration/1001} (pid=28862, uid=1001) excludes appop android:read_phone_state due to sender android (uid 1001)
+12-22 12:25:47.214  9660 10477 D NetworkMetricsController: processServiceStateChangeEvent phoneId=0
+12-22 12:25:47.214  9660  9660 D ServiceStateProvider: subId=1
+12-22 12:25:47.215  9660 10477 D NetworkMetricsController: newRat:20,oldRat:20,mIsFeatureEnable:true,isDds:true,mIsHighSpeedTrain:false
+12-22 12:25:47.221  9660 10477 D NetworkMetricsController: getTopAppName packageName =com.google.android.documentsui
+12-22 12:25:47.221  9660 10477 D NetworkMetricsController: topAppName:com.google.android.documentsui
+12-22 12:25:47.221  9660 10477 D NetworkMetricsController: Will reset LTE-NR PingPong info due to: no white list
+12-22 12:25:47.222  2475  2475 D MiuiWifiService: onCellLocationChanged
+12-22 12:25:47.224  2475  2475 D MiuiWifiService: updateCurrentLocMatched mIsCurrentLocMatched true
+12-22 12:25:47.224  2475  2475 D MiuiWifiService: cancelPeriodWifiScan trigger
+12-22 12:25:47.225  4425  4425 I ##XLogger##: #&^ADQXhKX36D6Vge5h7DNZquf9kjVL8Dr83BKJwZNu3gIBtsc2WBQErZd2jsfBdcw11DReQ2MKjtJxVPkzrP9htv2RlL9wHfIbw/W6yPVQH/EvsosHB5fV4YDhwNvdNzPGZPc+7XZf6FuuacT2vQhrdl1eWGTAmFdVhzR1uWY5xs4=!!lUmu3cVN2137Ok8uIJHgCtBNWAHEiSm1V0X/ImkrbuWaCDqCh5DIdtrHuQFnlAPrGDErK+DM0+IOHGxihI7WU0ICn/hQippDXUyfx+KRnr4q9Zo3XAPzkUhOJpNmlvK61lbATS26u8g+ulo6YJcoy0r9s6o/IsUWec6BUyG9afXTgk4IIxolO9qHmLq+jgvHQ5D4Sjp7FJ/4PfLDJgwy1Q==^&#
+12-22 12:25:47.232  9660  9660 D DynamicService:  ACTION_BATTERY_CHANGED change,USB plug = 2
+12-22 12:25:47.237  9660 10477 D NetworkMetricsController: processCellLocationChangeEvent phoneId=0
+12-22 12:25:47.238  9660 10477 D NetworkMetricsController: isDataRegistered:true,isLteNrRegistered newRat:20,mIsFeatureEnable:true,isDds:0
+12-22 12:25:47.241  9660  9660 I Telephony: isRttCurrentlySupported -- regular acct, hasVoiceAvailability: true
+12-22 12:25:47.241  9660  9660 I Telephony:  isRttSupported: false
+12-22 12:25:47.241  9660  9660 I Telephony:  alwaysAllowWhileRoaming: false
+12-22 12:25:47.241  9660  9660 I Telephony:  isRoaming: false
+12-22 12:25:47.241  9660  9660 I Telephony:  isOnWfc: false
+12-22 12:25:47.242 28862 28862 D AutoReg_RegistrationTracker: Try to register since ACTION_SERVICE_STATE_CHANGED
+12-22 12:25:47.243  9660  9660 D Telephony: Ss changed, mIsEmergencyOnly=false,slotId=0
+12-22 12:25:47.243  9660  9660 D FiveGPowerController: android.intent.action.SERVICE_STATE
+12-22 12:25:47.281  2027  3285 D libsensor-displayalgo: the value of  brightness:377.000000,R:72035033.618040,G:64404733.033646,B:51095925.549162,EVENT_C:3791.000000,EVENT_R:1645.500000,EVENT_G:2000.000000,EVENT_B:831.000000
+12-22 12:25:47.281  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 12:25:47.281  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 12:25:47.282  2027  3285 I libsensor-displayalgo: the value of  RESULT2549.123792,1040.721175,1233.720556,439.695130
+12-22 12:25:47.282  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2661.168158,965.420051,1424.086738,476.124767
+12-22 12:25:47.282  2027  3285 I libsensor-displayalgo: the value of  REAL LUX51.472729
+12-22 12:25:47.282  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX51.472729
+12-22 12:25:47.358 13055 13455 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+12-22 12:25:47.497  3388  3419 I appium  : channel read: POST /wd/hub/session/89bbb39e-2991-4438-a56d-ac6045d9691b/element
+12-22 12:25:47.498  3388  3419 I appium  : FindElement command
+12-22 12:25:47.499  3388  3419 I appium  : method: 'id', selector: 'cn.missevan:id/drama_cover'
+12-22 12:25:47.500  3388  3419 I appium  : Waiting up to 100ms for the device to idle
+12-22 12:25:47.583  2027  3285 D libsensor-displayalgo: the value of  brightness:377.000000,R:72035033.618040,G:64404733.033646,B:51095925.549162,EVENT_C:3756.000000,EVENT_R:1619.500000,EVENT_G:1982.000000,EVENT_B:821.000000
+12-22 12:25:47.583  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 12:25:47.583  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 12:25:47.584  2027  3285 I libsensor-displayalgo: the value of  RESULT2549.123792,1040.721175,1233.720556,439.695130
+12-22 12:25:47.584  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2661.168158,965.420051,1424.086738,476.124767
+12-22 12:25:47.584  2027  3285 I libsensor-displayalgo: the value of  REAL LUX49.976219
+12-22 12:25:47.584  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX49.976219
+12-22 12:25:47.652  3388  3419 I appium  : AppiumResponse: {"sessionId":"89bbb39e-2991-4438-a56d-ac6045d9691b","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:920)\n"}}
+12-22 12:25:47.664  4409  9697 I QImsService: ImsRadioIndicationAidl : onServiceDomainChanged()[SUB0]
+12-22 12:25:47.664  4409  9697 I QImsService: ImsSenderRxr : [UNSL]< UNSOL_SERVICE_DOMAIN_CHANGED 2[SUB0]
+12-22 12:25:47.666  4409  4409 I QImsService: ImsRegistrationController : Message received: what = 5
+12-22 12:25:47.666  4409  4409 I QImsService: ImsRegistrationController : handleSrvDomainChanged
+12-22 12:25:47.673  4371  5435 W IWlanNetworkService: 1826 > Response Processed
+12-22 12:25:47.707  2475  3037 D MIUIInput: [MotionEvent] publisher action=0x4, 586652074, channel 'a6e61f2 NavigationBar0 (server)'
+12-22 12:25:47.708  2475  3037 D MIUIInput: [MotionEvent] publisher action=0x0, 586652074, channel 'cd096e4 com.google.android.documentsui/com.android.documentsui.files.FilesActivity (server)'
+12-22 12:25:47.709  1431  2431 D RefreshRateConfigs: TouchBoost - choose 120.00fps
+12-22 12:25:47.713  1251  2216 I SDM     : HWCDisplay::SetActiveConfigWithConstraints: config: 1, WxH 1080x2400, fps 120
+12-22 12:25:47.714  1251  2216 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 831000000
+12-22 12:25:47.714  1251  2216 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2400-0 for Peripheral
+12-22 12:25:47.715  1251  2216 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 0 to 1
+12-22 12:25:47.715  1251  2216 I SDM     : HWCDisplay::SubmitDisplayConfig: Active WxH 1080x2400 fps 120
+12-22 12:25:47.716  1251  2448 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+12-22 12:25:47.717  1251  1467 I SDM     : HWDeviceDRM::SetupAtomic: Setting mode: WxH: 1080x2400, vrefresh: 120, hskew: 0
+12-22 12:25:47.717  2027  4130 I libcitsensorservice@2.0-impl: msg_transfer
+12-22 12:25:47.717  2027  3266 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:10 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+12-22 12:25:47.718  1251  2216 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+12-22 12:25:47.720  1251  5305 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+12-22 12:25:47.721  2027  3267 I libsensor-displayalgo: displayInfoCallback::display info won't handle!!!
+12-22 12:25:47.721  1328  2240 D FPSMonitor: threadFuncFpsMonitor display 0, fps 120
+12-22 12:25:47.760  1251  5305 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+12-22 12:25:47.760  1251  5305 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+12-22 12:25:47.761  1251  5305 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+12-22 12:25:47.761  1251  5305 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+12-22 12:25:47.767  1251  1467 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+12-22 12:25:47.774  1251  5306 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+12-22 12:25:47.774  1251  5306 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+12-22 12:25:47.774  1251  5306 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+12-22 12:25:47.786  2475  3037 D MIUIInput: [MotionEvent] publisher action=0x1, 586652153, channel 'cd096e4 com.google.android.documentsui/com.android.documentsui.files.FilesActivity (server)'
+12-22 12:25:47.797 32407 32407 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 12:25:47.797 32407 32407 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 12:25:47.799 32407 32407 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 12:25:47.799 32407 32407 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 12:25:47.802 32407 32407 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 12:25:47.809  2475  4680 I WindowManagerService: Physical orientation applied, rotation=0 sfOrientation=ORIENTATION_0
+12-22 12:25:47.817 32407 32407 D DefaultSelectionTracker: Ignoring onDataSetChange. No active selection.
+12-22 12:25:47.819 32407 32407 W SelectionTracker: Setting gestureTooltypes is likely to result in unexpected behavior.
+12-22 12:25:47.827  2475  3650 I MiuiNetworkPolicyTrafficLimit: updateWhiteListUidForMobileTraffic uid=10058,add=true
+12-22 12:25:47.828  2475  3650 D MiuiNetworkPolicyTrafficLimit: updateWhiteListUidForMobileTraffic rst=true
+12-22 12:25:47.833 32407 32407 D DefaultSelectionTracker: Ignoring onDataSetChange. No active selection.
+12-22 12:25:47.835 32407 32407 D DefaultSelectionTracker: Ignoring onDataSetChange. No active selection.
+12-22 12:25:47.853 32407 32407 D DefaultSelectionTracker: Ignoring onDataSetChange. No active selection.
+12-22 12:25:47.854 32407 32407 D DefaultSelectionTracker: Ignoring onDataSetChange. No active selection.
+12-22 12:25:47.883  2027  3285 D libsensor-displayalgo: the value of  brightness:377.000000,R:72035033.618040,G:64404733.033646,B:51095925.549162,EVENT_C:3746.000000,EVENT_R:1614.500000,EVENT_G:1977.000000,EVENT_B:816.000000
+12-22 12:25:47.883  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 12:25:47.883  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 12:25:47.884  2027  3285 I libsensor-displayalgo: the value of  RESULT2549.123792,1040.721175,1233.720556,439.695130
+12-22 12:25:47.884  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2661.168158,965.420051,1424.086738,476.124767
+12-22 12:25:47.884  2027  3285 I libsensor-displayalgo: the value of  REAL LUX49.637661
+12-22 12:25:47.884  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX49.637661
+12-22 12:25:48.021  1251  2448 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+12-22 12:25:48.022  2027  4130 I libcitsensorservice@2.0-impl: msg_transfer
+12-22 12:25:48.022  2027  3266 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:10 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+12-22 12:25:48.023  1251  2216 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+12-22 12:25:48.024  1251  5308 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+12-22 12:25:48.032  1251  5308 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+12-22 12:25:48.032  1251  5308 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+12-22 12:25:48.032  1251  5308 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+12-22 12:25:48.034  1251  5308 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+12-22 12:25:48.037  1251  1467 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+12-22 12:25:48.051  1251  5309 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+12-22 12:25:48.056  1251  5309 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+12-22 12:25:48.056  1251  5309 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+12-22 12:25:48.179  3388  3419 I appium  : channel read: POST /wd/hub/session/89bbb39e-2991-4438-a56d-ac6045d9691b/element
+12-22 12:25:48.180  3388  3419 I appium  : FindElement command
+12-22 12:25:48.184  3388  3419 I appium  : method: 'id', selector: 'cn.missevan:id/drama_cover'
+12-22 12:25:48.184  3388  3419 I appium  : Waiting up to 100ms for the device to idle
+12-22 12:25:48.283  2027  3285 D libsensor-displayalgo: the value of  brightness:377.000000,R:72035033.618040,G:64404733.033646,B:51095925.549162,EVENT_C:3752.500000,EVENT_R:1630.000000,EVENT_G:1981.500000,EVENT_B:824.500000
+12-22 12:25:48.283  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 12:25:48.283  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 12:25:48.284  2027  3285 I libsensor-displayalgo: the value of  RESULT2549.123792,1040.721175,1233.720556,439.695130
+12-22 12:25:48.284  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2661.168158,965.420051,1424.086738,476.124767
+12-22 12:25:48.284  2027  3285 I libsensor-displayalgo: the value of  REAL LUX49.026257
+12-22 12:25:48.284  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX49.026257
+12-22 12:25:48.385  1251  2448 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+12-22 12:25:48.386  2027  4130 I libcitsensorservice@2.0-impl: msg_transfer
+12-22 12:25:48.386  2027  3266 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:10 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+12-22 12:25:48.386  1251  2216 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+12-22 12:25:48.387  1251  5310 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+12-22 12:25:48.393  1251  5310 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+12-22 12:25:48.393  1251  5310 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+12-22 12:25:48.394  1251  5310 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+12-22 12:25:48.394  1251  5310 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+12-22 12:25:48.395  1251  2448 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+12-22 12:25:48.395  2027  4130 I libcitsensorservice@2.0-impl: msg_transfer
+12-22 12:25:48.399  1251  1467 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+12-22 12:25:48.407  1251  5313 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+12-22 12:25:48.407  1251  5313 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+12-22 12:25:48.407  1251  5313 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+12-22 12:25:48.583  2027  3285 D libsensor-displayalgo: the value of  brightness:377.000000,R:72035033.618040,G:64404733.033646,B:51095925.549162,EVENT_C:3790.000000,EVENT_R:1652.000000,EVENT_G:1998.000000,EVENT_B:833.000000
+12-22 12:25:48.583  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 12:25:48.583  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 12:25:48.584  2027  3285 I libsensor-displayalgo: the value of  RESULT2549.123792,1040.721175,1233.720556,439.695130
+12-22 12:25:48.584  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2661.168158,965.420051,1424.086738,476.124767
+12-22 12:25:48.584  2027  3285 I libsensor-displayalgo: the value of  REAL LUX50.903614
+12-22 12:25:48.584  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX50.903614
+12-22 12:25:48.744  3388  3419 W QueryController: Could not detect idle state.
+12-22 12:25:48.744 13055 13339 D MemoryCeilingMonitor: [handleMemoryCalculate]
+12-22 12:25:48.745 13055 13339 D MemoryCeilingMonitor: [calculate] tot: 6051664, max: 268435456, free: 884736, heap: 5166928, per: 0.01924830675125122
+12-22 12:25:48.831  3388  3419 I appium  : AppiumResponse: {"sessionId":"89bbb39e-2991-4438-a56d-ac6045d9691b","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:920)\n"}}
+12-22 12:25:48.883  2027  3285 D libsensor-displayalgo: the value of  brightness:377.000000,R:72035033.618040,G:64404733.033646,B:51095925.549162,EVENT_C:3790.000000,EVENT_R:1652.000000,EVENT_G:1998.000000,EVENT_B:833.000000
+12-22 12:25:48.883  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 12:25:48.883  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 12:25:48.884  2027  3285 I libsensor-displayalgo: the value of  RESULT2549.123792,1040.721175,1233.720556,439.695130
+12-22 12:25:48.884  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2661.168158,965.420051,1424.086738,476.124767
+12-22 12:25:48.884  2027  3285 I libsensor-displayalgo: the value of  REAL LUX50.903614
+12-22 12:25:48.884  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX50.903614
+12-22 12:25:49.059  1251  2448 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+12-22 12:25:49.059  2027  4130 I libcitsensorservice@2.0-impl: msg_transfer
+12-22 12:25:49.060  2027  3266 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:10 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+12-22 12:25:49.061  1251  2216 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+12-22 12:25:49.062  1251  5316 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+12-22 12:25:49.068  1251  5316 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+12-22 12:25:49.069  1251  5316 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+12-22 12:25:49.069  1251  5316 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+12-22 12:25:49.069  1251  5316 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+12-22 12:25:49.074  1251  1467 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+12-22 12:25:49.087  1251  5317 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+12-22 12:25:49.088  1251  5317 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+12-22 12:25:49.088  1251  5317 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+12-22 12:25:49.182  2027  3285 D libsensor-displayalgo: the value of  brightness:377.000000,R:72036278.010570,G:64405846.195409,B:51096803.996525,EVENT_C:3808.500000,EVENT_R:1665.500000,EVENT_G:2006.500000,EVENT_B:838.000000
+12-22 12:25:49.183  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 12:25:49.183  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 12:25:49.183  2027  3285 I libsensor-displayalgo: the value of  RESULT2549.151079,1040.733032,1233.732613,439.700117
+12-22 12:25:49.183  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2661.196644,965.431049,1424.100655,476.130167
+12-22 12:25:49.183  2027  3285 I libsensor-displayalgo: the value of  REAL LUX51.679047
+12-22 12:25:49.183  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX51.679047
+12-22 12:25:49.328  2475  3650 D MiuiNetworkPolicy: updateLimit mLimitEnabled=false,enabled=true,mNetworkPriorityMode=1
+12-22 12:25:49.334  1251  2216 I SDM     : HWCDisplay::SetActiveConfigWithConstraints: config: 0, WxH 1080x2400, fps 60
+12-22 12:25:49.335  1251  2216 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 831000000
+12-22 12:25:49.335  1251  2216 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2400-0 for Peripheral
+12-22 12:25:49.335  1251  2216 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 1 to 0
+12-22 12:25:49.335  1251  2216 I SDM     : HWCDisplay::SubmitDisplayConfig: Active WxH 1080x2400 fps 60
+12-22 12:25:49.337  1251  1467 I SDM     : HWDeviceDRM::SetupAtomic: Setting mode: WxH: 1080x2400, vrefresh: 60, hskew: 0
+12-22 12:25:49.341  1328  2240 D FPSMonitor: threadFuncFpsMonitor display 0, fps 60
+12-22 12:25:49.341  2027  3267 I libsensor-displayalgo: displayInfoCallback::display info won't handle!!!
+12-22 12:25:49.363  3388  3419 I appium  : channel read: POST /wd/hub/session/89bbb39e-2991-4438-a56d-ac6045d9691b/element
+12-22 12:25:49.364  3388  3419 I appium  : FindElement command
+12-22 12:25:49.365  3388  3419 I appium  : method: 'id', selector: 'cn.missevan:id/drama_cover'
+12-22 12:25:49.365  3388  3419 I appium  : Waiting up to 100ms for the device to idle
+12-22 12:25:49.482  2027  3285 D libsensor-displayalgo: the value of  brightness:377.000000,R:72036278.010570,G:64405846.195409,B:51096803.996525,EVENT_C:3808.500000,EVENT_R:1665.500000,EVENT_G:2006.500000,EVENT_B:838.000000
+12-22 12:25:49.483  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 12:25:49.483  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 12:25:49.483  2027  3285 I libsensor-displayalgo: the value of  RESULT2549.151079,1040.733032,1233.732613,439.700117
+12-22 12:25:49.483  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2661.196644,965.431049,1424.100655,476.130167
+12-22 12:25:49.483  2027  3285 I libsensor-displayalgo: the value of  REAL LUX51.679047
+12-22 12:25:49.483  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX51.679047
+12-22 12:25:49.548  3388  3419 W QueryController: Could not detect idle state.
+12-22 12:25:49.618  3388  3419 I appium  : AppiumResponse: {"sessionId":"89bbb39e-2991-4438-a56d-ac6045d9691b","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:920)\n"}}
+12-22 12:25:49.708  2475  3037 D MIUIInput: [MotionEvent] publisher action=0x4, 586654075, channel 'a6e61f2 NavigationBar0 (server)'
+12-22 12:25:49.708  2475  3037 D MIUIInput: [MotionEvent] publisher action=0x0, 586654075, channel 'cd096e4 com.google.android.documentsui/com.android.documentsui.files.FilesActivity (server)'
+12-22 12:25:49.709  1431  2431 D RefreshRateConfigs: TouchBoost - choose 120.00fps
+12-22 12:25:49.716  1251  2216 I SDM     : HWCDisplay::SetActiveConfigWithConstraints: config: 1, WxH 1080x2400, fps 120
+12-22 12:25:49.717  1251  2216 W SDM     : HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 831000000
+12-22 12:25:49.717  1251  2216 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2400-0 for Peripheral
+12-22 12:25:49.718  1251  2216 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 0 to 1
+12-22 12:25:49.718  1251  2216 I SDM     : HWCDisplay::SubmitDisplayConfig: Active WxH 1080x2400 fps 120
+12-22 12:25:49.720  1251  1467 I SDM     : HWDeviceDRM::SetupAtomic: Setting mode: WxH: 1080x2400, vrefresh: 120, hskew: 0
+12-22 12:25:49.720  1251  2448 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+12-22 12:25:49.720  2027  2096 I libcitsensorservice@2.0-impl: msg_transfer
+12-22 12:25:49.720  2027  3266 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:10 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+12-22 12:25:49.720  1251  2216 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+12-22 12:25:49.723  1328  2240 D FPSMonitor: threadFuncFpsMonitor display 0, fps 120
+12-22 12:25:49.724  2027  3267 I libsensor-displayalgo: displayInfoCallback::display info won't handle!!!
+12-22 12:25:49.731  1251  5324 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+12-22 12:25:49.758  1251  5324 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+12-22 12:25:49.758  1251  5324 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+12-22 12:25:49.758  1251  5324 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+12-22 12:25:49.758  1251  5324 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+12-22 12:25:49.765  1251  1467 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+12-22 12:25:49.772  1251  5325 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+12-22 12:25:49.772  1251  5325 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+12-22 12:25:49.772  1251  5325 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+12-22 12:25:49.790  2475  3037 D MIUIInput: [MotionEvent] publisher action=0x1, 586654157, channel 'cd096e4 com.google.android.documentsui/com.android.documentsui.files.FilesActivity (server)'
+12-22 12:25:49.800 32407 32407 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 12:25:49.801 32407 32407 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 12:25:49.801 32407 32407 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 12:25:49.802 32407 32407 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 12:25:49.804 32407 32407 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 12:25:49.812  2475  4680 I WindowManagerService: Physical orientation applied, rotation=0 sfOrientation=ORIENTATION_0
+12-22 12:25:49.819 32407 32407 D DefaultSelectionTracker: Ignoring onDataSetChange. No active selection.
+12-22 12:25:49.822 32407 32407 W SelectionTracker: Setting gestureTooltypes is likely to result in unexpected behavior.
+12-22 12:25:49.836 32407 32407 D DefaultSelectionTracker: Ignoring onDataSetChange. No active selection.
+12-22 12:25:49.838 32407 32407 D DefaultSelectionTracker: Ignoring onDataSetChange. No active selection.
+12-22 12:25:49.848 32407 32407 D DefaultSelectionTracker: Ignoring onDataSetChange. No active selection.
+12-22 12:25:49.849 32407 32407 D DefaultSelectionTracker: Ignoring onDataSetChange. No active selection.
+12-22 12:25:49.883  2027  3285 D libsensor-displayalgo: the value of  brightness:377.000000,R:72036278.010570,G:64405846.195409,B:51096803.996525,EVENT_C:3835.000000,EVENT_R:1666.500000,EVENT_G:2026.000000,EVENT_B:841.000000
+12-22 12:25:49.883  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 12:25:49.883  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 12:25:49.883  2027  3285 I libsensor-displayalgo: the value of  RESULT2549.151079,1040.733032,1233.732613,439.700117
+12-22 12:25:49.883  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2661.196644,965.431049,1424.100655,476.130167
+12-22 12:25:49.883  2027  3285 I libsensor-displayalgo: the value of  REAL LUX54.155128
+12-22 12:25:49.883  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX54.155128
+12-22 12:25:49.994  1953  2016 I mstatdaemon: Entering time loop
+12-22 12:25:49.994  1953  2016 I mstatdaemon: t = 1671683149
+12-22 12:25:49.994  1953  2016 I mstatdaemon: translated_t = 1355693149
+12-22 12:25:49.994  1953  2016 I mstat_log: mstatcommitLog log_alloc() failed
+12-22 12:25:50.027  1251  2448 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+12-22 12:25:50.028  2027  2096 I libcitsensorservice@2.0-impl: msg_transfer
+12-22 12:25:50.028  2027  3266 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:10 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+12-22 12:25:50.029  1251  2216 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+12-22 12:25:50.029  1251  5335 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+12-22 12:25:50.039  1251  5335 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+12-22 12:25:50.039  1251  5335 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+12-22 12:25:50.039  1251  5335 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+12-22 12:25:50.039  1251  5335 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+12-22 12:25:50.044  1251  1467 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+12-22 12:25:50.051  1251  5336 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+12-22 12:25:50.052  1251  5336 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+12-22 12:25:50.052  1251  5336 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+12-22 12:25:50.109  9843  9870 I com.milink.runtime:new_milink:DataContentProvider: Call content://provider.milink.mi.com/messenger#poll from com.xiaomi.market, content://provider.milink.mi.com/messenger#poll
+12-22 12:25:50.112   453   533 I com.xiaomi.market:new_milink:MessengerClient: empty packet, skip it.
+12-22 12:25:50.142  3388  3419 I appium  : channel read: POST /wd/hub/session/89bbb39e-2991-4438-a56d-ac6045d9691b/element
+12-22 12:25:50.143  3388  3419 I appium  : FindElement command
+12-22 12:25:50.148  3388  3419 I appium  : method: 'id', selector: 'cn.missevan:id/drama_cover'
+12-22 12:25:50.148  3388  3419 I appium  : Waiting up to 100ms for the device to idle
+12-22 12:25:50.182  2027  3285 D libsensor-displayalgo: the value of  brightness:377.000000,R:72036278.010570,G:64405846.195409,B:51096803.996525,EVENT_C:3777.000000,EVENT_R:1647.500000,EVENT_G:1993.500000,EVENT_B:832.000000
+12-22 12:25:50.182  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 12:25:50.182  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 12:25:50.182  2027  3285 I libsensor-displayalgo: the value of  RESULT2549.151079,1040.733032,1233.732613,439.700117
+12-22 12:25:50.182  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2661.196644,965.431049,1424.100655,476.130167
+12-22 12:25:50.182  2027  3285 I libsensor-displayalgo: the value of  REAL LUX50.030495
+12-22 12:25:50.182  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX50.030495
+12-22 12:25:50.192  2475  4387 W MiuiMemoryService: com.miui.securitycenter is system app!
+12-22 12:25:50.249  3388  3419 W QueryController: Could not detect idle state.
+12-22 12:25:50.338  3388  3419 I appium  : AppiumResponse: {"sessionId":"89bbb39e-2991-4438-a56d-ac6045d9691b","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:920)\n"}}
+12-22 12:25:50.392  1251  2448 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+12-22 12:25:50.392  2027  2096 I libcitsensorservice@2.0-impl: msg_transfer
+12-22 12:25:50.392  2027  3266 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:10 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+12-22 12:25:50.393  1251  2216 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+12-22 12:25:50.394  1251  5338 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+12-22 12:25:50.401  1251  2448 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+12-22 12:25:50.401  2027  2096 I libcitsensorservice@2.0-impl: msg_transfer
+12-22 12:25:50.402  1251  5338 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+12-22 12:25:50.402  1251  5338 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+12-22 12:25:50.403  1251  5338 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+12-22 12:25:50.403  1251  5338 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+12-22 12:25:50.407  1251  1467 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+12-22 12:25:50.418  1251  5340 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+12-22 12:25:50.419  1251  5340 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+12-22 12:25:50.419  1251  5340 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+12-22 12:25:50.483  2027  3285 D libsensor-displayalgo: the value of  brightness:377.000000,R:72036278.010570,G:64405846.195409,B:51096803.996525,EVENT_C:3797.000000,EVENT_R:1654.000000,EVENT_G:2004.000000,EVENT_B:837.000000
+12-22 12:25:50.483  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 12:25:50.483  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 12:25:50.484  2027  3285 I libsensor-displayalgo: the value of  RESULT2549.151079,1040.733032,1233.732613,439.700117
+12-22 12:25:50.484  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2661.196644,965.431049,1424.100655,476.130167
+12-22 12:25:50.484  2027  3285 I libsensor-displayalgo: the value of  REAL LUX51.268501
+12-22 12:25:50.484  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX51.268501
+12-22 12:25:50.527  2475  3040 I BatteryService: current mPlugType2current mHealthInfo.batteryLevel26current mHealthInfo.batteryTemperature355
+12-22 12:25:50.530  6206  7182 D ThermalIECHandler: storeDataStyle: thermal_iec_monitor_persistence_data_style_iec_state; startIECTime: -1; IECScreenOffOverPeriodTime: 1410825231
+12-22 12:25:50.533  6171  6171 I BatteryInfoReceiver: ACTION_BATTERY_CHANGED
+12-22 12:25:50.533  6206  6950 D PowerKeeper.FrozenApp: onBatteryChanged plug=true mBatteryPlugged=2
+12-22 12:25:50.534  6206  7099 D PowerCheckerService: onBatteryChanged, mBatteryLevel = 26, status = 2, level = 26, plug = 2, scale = 100
+12-22 12:25:50.537  6171  7765 I android_os_HwBinder: HwBinder: Starting thread pool for getting: vendor.xiaomi.hardware.micharge@1.0::IMiCharge/default
+12-22 12:25:50.537  4409  4409 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 1
+12-22 12:25:50.538  1344  1360 I vendor.xiaomi.hardware.micharge@1.0-service: ReadFilePathValue path = /sys/class/qcom-battery/night_charging value = 0
+12-22 12:25:50.538  9660  9660 D DynamicService:  ACTION_BATTERY_CHANGED change,USB plug = 2
+12-22 12:25:50.538  6171  7765 I ChargeProtectionUtils: getNightChargingState: 0
+12-22 12:25:50.541  6171  6171 I PowerNoticeUI: handleBatteryChanged oldPlugType 2 mPlugType 2 oldBatteryLevel 26 mBatteryLevel 26 temperature 355
+12-22 12:25:50.541  4453  4453 V DeviceStatisticsService: chargerType=2 batteryLevel=26 totalBatteryCapacity=4223000
+12-22 12:25:50.542  6206  7192 D PowerKeeper.Thermal: mBatteryTemperature: 35
+12-22 12:25:50.782  2027  3285 D libsensor-displayalgo: the value of  brightness:377.000000,R:72036278.010570,G:64405846.195409,B:51096803.996525,EVENT_C:3797.000000,EVENT_R:1654.000000,EVENT_G:2004.000000,EVENT_B:837.000000
+12-22 12:25:50.783  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 12:25:50.783  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 12:25:50.783  2027  3285 I libsensor-displayalgo: the value of  RESULT2549.151079,1040.733032,1233.732613,439.700117
+12-22 12:25:50.783  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2661.196644,965.431049,1424.100655,476.130167
+12-22 12:25:50.783  2027  3285 I libsensor-displayalgo: the value of  REAL LUX51.268501
+12-22 12:25:50.783  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX51.268501
+12-22 12:25:50.864  3388  3419 I appium  : channel read: POST /wd/hub/session/89bbb39e-2991-4438-a56d-ac6045d9691b/element
+12-22 12:25:50.867  3388  3419 I appium  : FindElement command
+12-22 12:25:50.871  2475  3037 D MIUIInput: [MotionEvent] publisher action=0x4, 586655239, channel 'a6e61f2 NavigationBar0 (server)'
+12-22 12:25:50.872  3388  3419 I appium  : method: 'id', selector: 'cn.missevan:id/drama_cover'
+12-22 12:25:50.872  2475  3037 D MIUIInput: [MotionEvent] publisher action=0x0, 586655239, channel 'cd096e4 com.google.android.documentsui/com.android.documentsui.files.FilesActivity (server)'
+12-22 12:25:50.874  3388  3419 I appium  : Waiting up to 100ms for the device to idle
+12-22 12:25:50.930  3388  3419 I appium  : AppiumResponse: {"sessionId":"89bbb39e-2991-4438-a56d-ac6045d9691b","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:920)\n"}}
+12-22 12:25:50.975  2475  3037 D MIUIInput: [MotionEvent] publisher action=0x1, 586655343, channel 'cd096e4 com.google.android.documentsui/com.android.documentsui.files.FilesActivity (server)'
+12-22 12:25:50.984 32407 32407 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 12:25:50.985 32407 32407 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 12:25:50.987 32407 32407 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 12:25:50.987 32407 32407 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 12:25:50.993 32407 32407 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 12:25:51.002  2475  4898 I WindowManagerService: Physical orientation applied, rotation=0 sfOrientation=ORIENTATION_0
+12-22 12:25:51.010 32407 32407 D DefaultSelectionTracker: Ignoring onDataSetChange. No active selection.
+12-22 12:25:51.013 32407 32407 W SelectionTracker: Setting gestureTooltypes is likely to result in unexpected behavior.
+12-22 12:25:51.014  1251  2448 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+12-22 12:25:51.015  2027  2096 I libcitsensorservice@2.0-impl: msg_transfer
+12-22 12:25:51.015  2027  3266 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:10 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+12-22 12:25:51.016  1251  2216 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+12-22 12:25:51.017  1251  5343 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+12-22 12:25:51.025  1251  5343 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+12-22 12:25:51.025  1251  5343 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+12-22 12:25:51.025  1251  5343 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+12-22 12:25:51.025  1251  5343 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+12-22 12:25:51.027 32407 32407 D DefaultSelectionTracker: Ignoring onDataSetChange. No active selection.
+12-22 12:25:51.030 32407 32407 D DefaultSelectionTracker: Ignoring onDataSetChange. No active selection.
+12-22 12:25:51.031  1251  1467 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+12-22 12:25:51.038  1251  5348 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+12-22 12:25:51.039  1251  5348 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+12-22 12:25:51.039  1251  5348 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+12-22 12:25:51.042 32407 32407 D DefaultSelectionTracker: Ignoring onDataSetChange. No active selection.
+12-22 12:25:51.044 32407 32407 D DefaultSelectionTracker: Ignoring onDataSetChange. No active selection.
+12-22 12:25:51.084  2027  3285 D libsensor-displayalgo: the value of  brightness:377.000000,R:72036278.010570,G:64405846.195409,B:51096803.996525,EVENT_C:3751.500000,EVENT_R:1616.000000,EVENT_G:1978.500000,EVENT_B:819.500000
+12-22 12:25:51.084  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 12:25:51.084  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 12:25:51.084  2027  3285 I libsensor-displayalgo: the value of  RESULT2549.151079,1040.733032,1233.732613,439.700117
+12-22 12:25:51.085  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2661.196644,965.431049,1424.100655,476.130167
+12-22 12:25:51.085  2027  3285 I libsensor-displayalgo: the value of  REAL LUX49.751408
+12-22 12:25:51.085  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX49.751408
+12-22 12:25:51.264  6171  6171 D SuperPowerSaveManager: onTileStartListening
+12-22 12:25:51.319  1251  2448 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+12-22 12:25:51.319  2027  2096 I libcitsensorservice@2.0-impl: msg_transfer
+12-22 12:25:51.320  2027  3266 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:10 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+12-22 12:25:51.320  1251  2216 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+12-22 12:25:51.322  1251  5350 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+12-22 12:25:51.334  1251  5350 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+12-22 12:25:51.334  1251  5350 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+12-22 12:25:51.334  1251  5350 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+12-22 12:25:51.334  1251  5350 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+12-22 12:25:51.336  1251  1467 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+12-22 12:25:51.343  1251  5351 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+12-22 12:25:51.344  1251  5351 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+12-22 12:25:51.344  1251  5351 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+12-22 12:25:51.472  3388  3419 I appium  : channel read: POST /wd/hub/session/89bbb39e-2991-4438-a56d-ac6045d9691b/element
+12-22 12:25:51.472  3388  3419 I appium  : FindElement command
+12-22 12:25:51.474  3388  3419 I appium  : method: 'id', selector: 'cn.missevan:id/drama_cover'
+12-22 12:25:51.475  3388  3419 I appium  : Waiting up to 100ms for the device to idle
+12-22 12:25:51.481  2027  3285 D libsensor-displayalgo: the value of  brightness:377.000000,R:72036278.010570,G:64405846.195409,B:51096803.996525,EVENT_C:3765.000000,EVENT_R:1635.500000,EVENT_G:1988.000000,EVENT_B:828.500000
+12-22 12:25:51.481  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 12:25:51.482  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 12:25:51.482  2027  3285 I libsensor-displayalgo: the value of  RESULT2549.151079,1040.733032,1233.732613,439.700117
+12-22 12:25:51.482  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2661.196644,965.431049,1424.100655,476.130167
+12-22 12:25:51.482  2027  3285 I libsensor-displayalgo: the value of  REAL LUX49.670094
+12-22 12:25:51.482  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX49.670094
+12-22 12:25:51.683  1251  2448 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+12-22 12:25:51.684  2027  2097 I libcitsensorservice@2.0-impl: msg_transfer
+12-22 12:25:51.684  2027  3266 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:10 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+12-22 12:25:51.685  1251  2216 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+12-22 12:25:51.685  1251  5352 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+12-22 12:25:51.692  1251  2448 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+12-22 12:25:51.692  2027  2097 I libcitsensorservice@2.0-impl: msg_transfer
+12-22 12:25:51.693  1251  5352 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+12-22 12:25:51.693  1251  5352 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+12-22 12:25:51.694  1251  5352 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+12-22 12:25:51.694  1251  5352 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+12-22 12:25:51.698  1251  1467 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+12-22 12:25:51.705  1251  5354 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+12-22 12:25:51.706  1251  5354 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+12-22 12:25:51.706  1251  5354 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+12-22 12:25:51.783  2027  3285 D libsensor-displayalgo: the value of  brightness:377.000000,R:72036278.010570,G:64405846.195409,B:51096803.996525,EVENT_C:3796.500000,EVENT_R:1658.000000,EVENT_G:1999.000000,EVENT_B:837.000000
+12-22 12:25:51.783  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 12:25:51.783  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 12:25:51.784  2027  3285 I libsensor-displayalgo: the value of  RESULT2549.151079,1040.733032,1233.732613,439.700117
+12-22 12:25:51.784  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2661.196644,965.431049,1424.100655,476.130167
+12-22 12:25:51.784  2027  3285 I libsensor-displayalgo: the value of  REAL LUX50.854897
+12-22 12:25:51.784  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX50.854897
+12-22 12:25:51.888  2475  3037 D MIUIInput: [MotionEvent] publisher action=0x0, 586656256, channel '9a62d61 GestureStubBottom (server)'
+12-22 12:25:51.889  9868 10133 D GestureStubView: onTouch ACTION_DOWN sendMessageDelayed MSG_CHECK_GESTURE_STUB_TOUCHABLE
+12-22 12:25:51.889  9868 10133 D GesturesBackController: onPointerEvent swipeStatus:16
+12-22 12:25:51.889  9868 10133 D GesturesBackController: mSwipeStatus == SWIPE_STATUS_ANIMATING, processPointerEvent
+12-22 12:25:51.902  2475  2677 D PerfImpl: perfGetWorkLoadType
+12-22 12:25:51.903  2475  2677 D PerfImpl: perfScrollBoost: com.google.android.documentsui, -1, 4
+12-22 12:25:51.904  2475  2677 D PerfImpl: perfGetWorkLoadType
+12-22 12:25:51.905  2475  2677 D PerfImpl: perfDragBoost: com.google.android.documentsui, -1, 1
+12-22 12:25:51.907  9868 10133 D GesturesBackController: onPointerEvent swipeStatus:8
+12-22 12:25:51.907  9868 10133 D GestureStubView: onSwipeStart: needAnimation: true
+12-22 12:25:51.909  9868 10133 D GestureStubView: renderView
+12-22 12:25:51.909  9868 10133 D GesturesBackController: onPointerEvent MotionEvent.ACTION_MOVE processMiuiGestures
+12-22 12:25:51.909  9868 10133 D GesturesBackController: mSwipeStatus != SWIPE_STATUS_ANIMATING, processPointerEvent
+12-22 12:25:51.921  2475  6308 I WindowManagerService: Physical orientation applied, rotation=0 sfOrientation=ORIENTATION_0
+12-22 12:25:51.928  9868 10133 D GesturesBackController: onPointerEvent swipeStatus:2
+12-22 12:25:51.928  9868 10133 D GesturesBackController: onPointerEvent MotionEvent.ACTION_MOVE processMiuiGestures
+12-22 12:25:51.928  9868 10133 D GesturesBackController: mSwipeStatus != SWIPE_STATUS_ANIMATING, processPointerEvent
+12-22 12:25:51.934  9868 10133 D GesturesBackController: onPointerEvent swipeStatus:2
+12-22 12:25:51.934  9868 10133 D GesturesBackController: onPointerEvent MotionEvent.ACTION_MOVE processMiuiGestures
+12-22 12:25:51.934  9868 10133 D GesturesBackController: mSwipeStatus != SWIPE_STATUS_ANIMATING, processPointerEvent
+12-22 12:25:51.939  9868 10133 D GesturesBackController: onPointerEvent swipeStatus:2
+12-22 12:25:51.939  9868 10133 D GesturesBackController: onPointerEvent MotionEvent.ACTION_MOVE processMiuiGestures
+12-22 12:25:51.939  9868 10133 D GesturesBackController: mSwipeStatus != SWIPE_STATUS_ANIMATING, processPointerEvent
+12-22 12:25:51.941  3388  3419 W QueryController: Could not detect idle state.
+12-22 12:25:51.946  9868 10133 D GesturesBackController: onPointerEvent swipeStatus:2
+12-22 12:25:51.946  9868 10133 D GesturesBackController: onPointerEvent MotionEvent.ACTION_MOVE processMiuiGestures
+12-22 12:25:51.947  9868 10133 D GesturesBackController: mSwipeStatus != SWIPE_STATUS_ANIMATING, processPointerEvent
+12-22 12:25:51.954  9868 10133 D GesturesBackController: onPointerEvent swipeStatus:2
+12-22 12:25:51.954  9868 10133 D GesturesBackController: onPointerEvent MotionEvent.ACTION_MOVE processMiuiGestures
+12-22 12:25:51.955  9868 10133 D GesturesBackController: mSwipeStatus != SWIPE_STATUS_ANIMATING, processPointerEvent
+12-22 12:25:51.964  9868 10133 D GesturesBackController: onPointerEvent swipeStatus:2
+12-22 12:25:51.964  9868 10133 D GesturesBackController: onPointerEvent MotionEvent.ACTION_MOVE processMiuiGestures
+12-22 12:25:51.964  9868 10133 D GesturesBackController: mSwipeStatus != SWIPE_STATUS_ANIMATING, processPointerEvent
+12-22 12:25:51.972  9868 10133 D GesturesBackController: onPointerEvent swipeStatus:2
+12-22 12:25:51.972  9868 10133 D GesturesBackController: onPointerEvent MotionEvent.ACTION_MOVE processMiuiGestures
+12-22 12:25:51.972  9868 10133 D GesturesBackController: mSwipeStatus != SWIPE_STATUS_ANIMATING, processPointerEvent
+12-22 12:25:51.975  2475  3037 D MIUIInput: [MotionEvent] publisher action=0x1, 586656343, channel '9a62d61 GestureStubBottom (server)'
+12-22 12:25:51.976  9868 10133 D GesturesBackController: onPointerEvent swipeStatus:2
+12-22 12:25:51.976  9868 10133 D GesturesBackController: onPointerEvent MotionEvent.ACTION_MOVE processMiuiGestures
+12-22 12:25:51.976  2475  2677 D PerfImpl: perfGetWorkLoadType
+12-22 12:25:51.976  9868 10133 D GesturesBackController: mSwipeStatus != SWIPE_STATUS_ANIMATING, processPointerEvent
+12-22 12:25:51.976  9868 10133 D GestureStubView: ACTION_UP: mIsGestureStarted: true mIsGestureAnimationEnabled: true
+12-22 12:25:51.976  9868 10133 D GesturesBackController: onPointerEvent swipeStatus:2
+12-22 12:25:51.976  9868 10133 D GestureStubView: onSwipeStop
+12-22 12:25:51.976  9868 10133 D GestureStubView: injectKeyEvent keyCode:4
+12-22 12:25:51.977  2475  2677 D PerfImpl: perfScrollBoost: com.google.android.documentsui, 772, 2
+12-22 12:25:51.977  9868 10058 I HapticFeedbackUtil: rtp:163
+12-22 12:25:51.978  2475  2677 D PerfImpl: perfGetWorkLoadType
+12-22 12:25:51.979  2475  2677 D PerfImpl: perfScrollBoost: com.google.android.documentsui, -1, 4
+12-22 12:25:51.979  2475  4898 W MiuiInputKeyEventLog: keyCode:4 down:true eventTime:586656345 downTime:586656345 policyFlags:2b000000 flags:8 metaState:0 deviceId:-1 isScreenOn:true keyguardActive:false repeatCount:0
+12-22 12:25:51.979  2475  2677 D PerfImpl: perfGetWorkLoadType
+12-22 12:25:51.980  2475  4898 D MIUIInput: Input event injection from pid 9868, KeyEvent:DOWN, keycode:4
+12-22 12:25:51.980  2475  2677 D PerfImpl: perfLockRelease
+12-22 12:25:51.981  1367  1367 D vendor.hardware.vibratorfeature: Vibrator perform effect 163
+12-22 12:25:51.981  1367  1367 D vendor.hardware.vibratorfeature: uses mCurrMagnitudeExt 1.000000
+12-22 12:25:51.981  1367  1367 D vendor.hardware.vibratorfeature: getAmplitudeFromEffectStrength 1.000000
+12-22 12:25:51.981  1367  1367 D vendor.hardware.vibratorfeature: return from driver is 200
+12-22 12:25:51.981  1367  1367 D vendor.hardware.vibratorfeature: playLengthMs is 250
+12-22 12:25:51.981  2475  2677 W ActivityManager: Sending non-protected broadcast miui.intent.KEYCODE_BACK from system 2475:system/1000 pkg android. Callers=com.android.server.am.ActivityManagerService.broadcastIntentLocked:13794 com.android.server.am.ActivityManagerService.broadcastIntentLocked:13204 com.android.server.am.ActivityManagerService.broadcastIntentWithFeature:14053 android.app.ContextImpl.sendBroadcastAsUser:1400 com.android.server.policy.BaseMiuiPhoneWindowManager$16.run:2837
+12-22 12:25:51.981  1367  5360 D vendor.hardware.vibratorfeature: Starting perform on another thread
+12-22 12:25:51.981  2475  2677 W ActivityManager: Sending non-protected broadcast miui.intent.KEYCODE_BACK from system 2475:system/1000 pkg android. Callers=com.android.server.am.ActivityManagerService.broadcastIntentLocked:13893 com.android.server.am.ActivityManagerService.broadcastIntentLocked:13204 com.android.server.am.ActivityManagerService.broadcastIntentWithFeature:14053 android.app.ContextImpl.sendBroadcastAsUser:1400 com.android.server.policy.BaseMiuiPhoneWindowManager$16.run:2837
+12-22 12:25:51.981  2475  6308 W MiuiInputKeyEventLog: keyCode:4 down:false eventTime:586656345 downTime:586656345 policyFlags:2b000000 flags:8 metaState:0 deviceId:-1 isScreenOn:true keyguardActive:false repeatCount:0
+12-22 12:25:51.982  2475  2677 W ActivityManager: Sending non-protected broadcast miui.intent.KEYCODE_BACK from system 2475:system/1000 pkg android. Callers=com.android.server.am.ActivityManagerService.broadcastIntentLocked:13794 com.android.server.am.ActivityManagerService.broadcastIntentLocked:13204 com.android.server.am.ActivityManagerService.broadcastIntentWithFeature:14053 android.app.ContextImpl.sendBroadcastAsUser:1400 com.android.server.policy.BaseMiuiPhoneWindowManager$16.run:2837
+12-22 12:25:51.982  2475  2677 W ActivityManager: Sending non-protected broadcast miui.intent.KEYCODE_BACK from system 2475:system/1000 pkg android. Callers=com.android.server.am.ActivityManagerService.broadcastIntentLocked:13893 com.android.server.am.ActivityManagerService.broadcastIntentLocked:13204 com.android.server.am.ActivityManagerService.broadcastIntentWithFeature:14053 android.app.ContextImpl.sendBroadcastAsUser:1400 com.android.server.policy.BaseMiuiPhoneWindowManager$16.run:2837
+12-22 12:25:51.982  2475  6308 D MIUIInput: Input event injection from pid 9868, KeyEvent:UP, keycode:4
+12-22 12:25:51.983  9868 10133 D GesturesBackController: onPointerEvent MotionEvent.ACTION_UP stopGestures isFinish:true speed:3
+12-22 12:25:51.983  9868 10133 D GesturesBackController: mSwipeStatus != SWIPE_STATUS_ANIMATING, processPointerEvent
+12-22 12:25:51.983  2475  3037 D MIUIInput: [KeyEvent] publisher action:0x0,  keyCode:4 , 586656345,channel 'cd096e4 com.google.android.documentsui/com.android.documentsui.files.FilesActivity (server)'
+12-22 12:25:51.985 32407 32407 D MIUIInput: [KeyEvent] ViewRootImpl windowName 'com.google.android.documentsui/com.android.documentsui.files.FilesActivity', KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=586656345, downTime=586656345, deviceId=-1, source=0x101, displayId=0 }, phoneEventTime=12:25:51.977
+12-22 12:25:51.988  2475  3037 D MIUIInput: [KeyEvent] publisher action:0x1,  keyCode:4 , 586656345,channel 'cd096e4 com.google.android.documentsui/com.android.documentsui.files.FilesActivity (server)'
+12-22 12:25:51.989 32407 32407 D MIUIInput: [KeyEvent] ViewRootImpl windowName 'com.google.android.documentsui/com.android.documentsui.files.FilesActivity', KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=586656345, downTime=586656345, deviceId=-1, source=0x101, displayId=0 }, phoneEventTime=12:25:51.976
+12-22 12:25:51.993  1251  2448 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+12-22 12:25:51.993  2027  2097 I libcitsensorservice@2.0-impl: msg_transfer
+12-22 12:25:51.994  2027  3266 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:10 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+12-22 12:25:51.994  1251  2216 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+12-22 12:25:51.996  1251  5362 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+12-22 12:25:51.997 32407 32407 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 12:25:51.997 32407 32407 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 12:25:51.998 32407 32407 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 12:25:51.998 32407 32407 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 12:25:52.003  1251  5362 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+12-22 12:25:52.003  1251  5362 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+12-22 12:25:52.003  1251  5362 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+12-22 12:25:52.003  1251  5362 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+12-22 12:25:52.010  2475  6308 I WindowManagerService: Physical orientation applied, rotation=0 sfOrientation=ORIENTATION_0
+12-22 12:25:52.010  1251  1467 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+12-22 12:25:52.018 32407 32407 D DefaultSelectionTracker: Ignoring onDataSetChange. No active selection.
+12-22 12:25:52.022  1251  5363 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+12-22 12:25:52.022 32407 32407 W SelectionTracker: Setting gestureTooltypes is likely to result in unexpected behavior.
+12-22 12:25:52.022  1251  5363 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+12-22 12:25:52.022  1251  5363 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+12-22 12:25:52.031 32407 32407 D DefaultSelectionTracker: Ignoring onDataSetChange. No active selection.
+12-22 12:25:52.033 32407 32407 D DefaultSelectionTracker: Ignoring onDataSetChange. No active selection.
+12-22 12:25:52.054 32407 32407 D DefaultSelectionTracker: Ignoring onDataSetChange. No active selection.
+12-22 12:25:52.055 32407 32407 D DefaultSelectionTracker: Ignoring onDataSetChange. No active selection.
+12-22 12:25:52.081  2027  3285 D libsensor-displayalgo: the value of  brightness:377.000000,R:72036278.010570,G:64405846.195409,B:51096803.996525,EVENT_C:3854.000000,EVENT_R:1683.000000,EVENT_G:2030.500000,EVENT_B:848.500000
+12-22 12:25:52.081  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 12:25:52.081  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 12:25:52.082  2027  3285 I libsensor-displayalgo: the value of  RESULT2549.151079,1040.733032,1233.732613,439.700117
+12-22 12:25:52.082  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2661.196644,965.431049,1424.100655,476.130167
+12-22 12:25:52.082  2027  3285 I libsensor-displayalgo: the value of  REAL LUX54.469437
+12-22 12:25:52.082  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX54.469437
+12-22 12:25:52.088  9868 10133 W GestureStubView: adaptRotation   currentRotation=0   mRotation=0
+12-22 12:25:52.088  9868 10133 D GestureStubView: resetRenderProperty: MSG_RESET_ANIMATING_STATUS   isLayoutParamChanged=true
+12-22 12:25:52.088  9868 10133 D GestureStubView: reset animating status
+12-22 12:25:52.104  2475  6308 I WindowManagerService: Physical orientation applied, rotation=0 sfOrientation=ORIENTATION_0
+12-22 12:25:52.107  9868 10133 D GestureStubView: gatherTransparentRegion: need render w:54  h:1440
+12-22 12:25:52.111  9868 10133 D GestureStubView: gatherTransparentRegion: need render w:54  h:1440
+12-22 12:25:52.126  9868 28640 D BLASTBufferQueue: releaseBufferCallback ReleaseCallbackId: bufferId:42382737285194 framenumber:23739
+12-22 12:25:52.160  3388  3419 I appium  : AppiumResponse: {"sessionId":"89bbb39e-2991-4438-a56d-ac6045d9691b","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:920)\n"}}
+12-22 12:25:52.231  1367  5360 D vendor.hardware.vibratorfeature: Notifying perform complete
+12-22 12:25:52.232  1367  1367 D vendor.hardware.vibratorfeature: QTI Vibrator off
+12-22 12:25:52.233  1367  1367 D DynamicEffectThread: pause
+12-22 12:25:52.233  1367  1367 D DynamicEffectDevice: FFDevice pause
+12-22 12:25:52.298  1251  2448 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+12-22 12:25:52.298  2027  4130 I libcitsensorservice@2.0-impl: msg_transfer
+12-22 12:25:52.298  2027  3266 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:10 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+12-22 12:25:52.299  1251  2216 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+12-22 12:25:52.299  1251  5365 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+12-22 12:25:52.309  1251  5365 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+12-22 12:25:52.309  1251  5365 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+12-22 12:25:52.310  1251  5365 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+12-22 12:25:52.310  1251  5365 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+12-22 12:25:52.315  1251  1467 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+12-22 12:25:52.323  1251  5367 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+12-22 12:25:52.323  1251  5367 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+12-22 12:25:52.323  1251  5367 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+12-22 12:25:52.382  2027  3285 D libsensor-displayalgo: the value of  brightness:377.000000,R:72036278.010570,G:64405846.195409,B:51096803.996525,EVENT_C:3803.000000,EVENT_R:1661.500000,EVENT_G:2005.000000,EVENT_B:837.000000
+12-22 12:25:52.382  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 12:25:52.382  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 12:25:52.382  2027  3285 I libsensor-displayalgo: the value of  RESULT2549.151079,1040.733032,1233.732613,439.700117
+12-22 12:25:52.382  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2661.196644,965.431049,1424.100655,476.130167
+12-22 12:25:52.382  2027  3285 I libsensor-displayalgo: the value of  REAL LUX51.454681
+12-22 12:25:52.382  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX51.454681
+12-22 12:25:52.518  2475  3037 D MIUIInput: [MotionEvent] publisher action=0x0, 586656886, channel '9a62d61 GestureStubBottom (server)'
+12-22 12:25:52.519  9868 10133 D GestureStubView: onTouch ACTION_DOWN sendMessageDelayed MSG_CHECK_GESTURE_STUB_TOUCHABLE
+12-22 12:25:52.519  9868 10133 D GesturesBackController: onPointerEvent swipeStatus:16
+12-22 12:25:52.519  9868 10133 D GesturesBackController: mSwipeStatus == SWIPE_STATUS_ANIMATING, processPointerEvent
+12-22 12:25:52.579  9868 10133 D GesturesBackController: onPointerEvent swipeStatus:8
+12-22 12:25:52.580  9868 10133 D GesturesBackController: mSwipeStatus != SWIPE_STATUS_ANIMATING, processPointerEvent
+12-22 12:25:52.587  2475  2677 D PerfImpl: perfGetWorkLoadType
+12-22 12:25:52.588  2475  2677 D PerfImpl: perfScrollBoost: com.google.android.documentsui, -1, 4
+12-22 12:25:52.588  9868 10133 D GesturesBackController: onPointerEvent swipeStatus:8
+12-22 12:25:52.588  9868 10133 D GestureStubView: onSwipeStart: needAnimation: true
+12-22 12:25:52.588  2475  2677 D PerfImpl: perfGetWorkLoadType
+12-22 12:25:52.588  9868 10133 D GestureStubView: renderView
+12-22 12:25:52.588  9868 10133 D GesturesBackController: onPointerEvent MotionEvent.ACTION_MOVE processMiuiGestures
+12-22 12:25:52.589  9868 10133 D GesturesBackController: mSwipeStatus != SWIPE_STATUS_ANIMATING, processPointerEvent
+12-22 12:25:52.589  2475  2677 D PerfImpl: perfDragBoost: com.google.android.documentsui, -1, 1
+12-22 12:25:52.598  2475  4898 I WindowManagerService: Physical orientation applied, rotation=0 sfOrientation=ORIENTATION_0
+12-22 12:25:52.600  9868 10133 D GesturesBackController: onPointerEvent swipeStatus:2
+12-22 12:25:52.600  9868 10133 D GesturesBackController: onPointerEvent MotionEvent.ACTION_MOVE processMiuiGestures
+12-22 12:25:52.600  9868 10133 D GesturesBackController: mSwipeStatus != SWIPE_STATUS_ANIMATING, processPointerEvent
+12-22 12:25:52.604  9868 10133 D GesturesBackController: onPointerEvent swipeStatus:2
+12-22 12:25:52.604  9868 10133 D GesturesBackController: onPointerEvent MotionEvent.ACTION_MOVE processMiuiGestures
+12-22 12:25:52.605  1251  2448 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+12-22 12:25:52.605  2027  4130 I libcitsensorservice@2.0-impl: msg_transfer
+12-22 12:25:52.605  9868 10133 D GesturesBackController: mSwipeStatus != SWIPE_STATUS_ANIMATING, processPointerEvent
+12-22 12:25:52.606  2027  3266 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:10 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+12-22 12:25:52.606  1251  2216 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+12-22 12:25:52.608  1251  5370 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+12-22 12:25:52.613  9868 10133 D GesturesBackController: onPointerEvent swipeStatus:2
+12-22 12:25:52.613  9868 10133 D GesturesBackController: onPointerEvent MotionEvent.ACTION_MOVE processMiuiGestures
+12-22 12:25:52.614  9868 10133 D GesturesBackController: mSwipeStatus != SWIPE_STATUS_ANIMATING, processPointerEvent
+12-22 12:25:52.620  1251  5370 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+12-22 12:25:52.620  1251  5370 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+12-22 12:25:52.620  9868 10133 D GesturesBackController: onPointerEvent swipeStatus:2
+12-22 12:25:52.621  9868 10133 D GesturesBackController: onPointerEvent MotionEvent.ACTION_MOVE processMiuiGestures
+12-22 12:25:52.621  1251  5370 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+12-22 12:25:52.621  1251  5370 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+12-22 12:25:52.621  9868 10133 D GesturesBackController: mSwipeStatus != SWIPE_STATUS_ANIMATING, processPointerEvent
+12-22 12:25:52.622  1251  1467 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+12-22 12:25:52.629  9868 10133 D GesturesBackController: onPointerEvent swipeStatus:2
+12-22 12:25:52.629  9868 10133 D GesturesBackController: onPointerEvent MotionEvent.ACTION_MOVE processMiuiGestures
+12-22 12:25:52.629  9868 10133 D GesturesBackController: mSwipeStatus != SWIPE_STATUS_ANIMATING, processPointerEvent
+12-22 12:25:52.635  1251  5371 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+12-22 12:25:52.636  1251  5371 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+12-22 12:25:52.636  1251  5371 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+12-22 12:25:52.637  9868 10133 D GesturesBackController: onPointerEvent swipeStatus:2
+12-22 12:25:52.637  9868 10133 D GesturesBackController: onPointerEvent MotionEvent.ACTION_MOVE processMiuiGestures
+12-22 12:25:52.637  9868 10133 D GesturesBackController: mSwipeStatus != SWIPE_STATUS_ANIMATING, processPointerEvent
+12-22 12:25:52.645  9868 10133 D GesturesBackController: onPointerEvent swipeStatus:2
+12-22 12:25:52.645  9868 10133 D GesturesBackController: onPointerEvent MotionEvent.ACTION_MOVE processMiuiGestures
+12-22 12:25:52.645  9868 10133 D GesturesBackController: mSwipeStatus != SWIPE_STATUS_ANIMATING, processPointerEvent
+12-22 12:25:52.654  9868 10133 D GesturesBackController: onPointerEvent swipeStatus:2
+12-22 12:25:52.654  9868 10133 D GesturesBackController: onPointerEvent MotionEvent.ACTION_MOVE processMiuiGestures
+12-22 12:25:52.654  9868 10133 D GesturesBackController: mSwipeStatus != SWIPE_STATUS_ANIMATING, processPointerEvent
+12-22 12:25:52.662  9868 10133 D GesturesBackController: onPointerEvent swipeStatus:2
+12-22 12:25:52.662  9868 10133 D GesturesBackController: onPointerEvent MotionEvent.ACTION_MOVE processMiuiGestures
+12-22 12:25:52.662  9868 10133 D GesturesBackController: mSwipeStatus != SWIPE_STATUS_ANIMATING, processPointerEvent
+12-22 12:25:52.670  9868 10133 D GesturesBackController: onPointerEvent swipeStatus:2
+12-22 12:25:52.670  9868 10133 D GesturesBackController: onPointerEvent MotionEvent.ACTION_MOVE processMiuiGestures
+12-22 12:25:52.670  9868 10133 D GesturesBackController: mSwipeStatus != SWIPE_STATUS_ANIMATING, processPointerEvent
+12-22 12:25:52.674  3388  3419 I appium  : channel read: GET /wd/hub/session/89bbb39e-2991-4438-a56d-ac6045d9691b/screenshot
+12-22 12:25:52.674  3388  3419 I appium  : CaptureScreenshot command
+12-22 12:25:52.679  9868 10133 D GesturesBackController: onPointerEvent swipeStatus:2
+12-22 12:25:52.679  9868 10133 D GesturesBackController: onPointerEvent MotionEvent.ACTION_MOVE processMiuiGestures
+12-22 12:25:52.679  9868 10133 D GesturesBackController: mSwipeStatus != SWIPE_STATUS_ANIMATING, processPointerEvent
+12-22 12:25:52.681  2475  3037 D MIUIInput: [MotionEvent] publisher action=0x1, 586657049, channel '9a62d61 GestureStubBottom (server)'
+12-22 12:25:52.682  2027  3285 D libsensor-displayalgo: the value of  brightness:377.000000,R:72036278.010570,G:64405846.195409,B:51096803.996525,EVENT_C:3825.500000,EVENT_R:1670.000000,EVENT_G:2014.000000,EVENT_B:841.000000
+12-22 12:25:52.682  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 12:25:52.682  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 12:25:52.682  2027  3285 I libsensor-displayalgo: the value of  RESULT2549.151079,1040.733032,1233.732613,439.700117
+12-22 12:25:52.682  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2661.196644,965.431049,1424.100655,476.130167
+12-22 12:25:52.682  2027  3285 I libsensor-displayalgo: the value of  REAL LUX52.806698
+12-22 12:25:52.682  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX52.806698
+12-22 12:25:52.682  2475  2677 D PerfImpl: perfGetWorkLoadType
+12-22 12:25:52.682  9868 10133 D GesturesBackController: onPointerEvent swipeStatus:2
+12-22 12:25:52.683  9868 10133 D GesturesBackController: onPointerEvent MotionEvent.ACTION_MOVE processMiuiGestures
+12-22 12:25:52.683  9868 10133 D GesturesBackController: mSwipeStatus != SWIPE_STATUS_ANIMATING, processPointerEvent
+12-22 12:25:52.683  2475  2677 D PerfImpl: perfScrollBoost: com.google.android.documentsui, 779, 2
+12-22 12:25:52.683  9868 10133 D GestureStubView: ACTION_UP: mIsGestureStarted: true mIsGestureAnimationEnabled: true
+12-22 12:25:52.683  9868 10133 D GesturesBackController: onPointerEvent swipeStatus:2
+12-22 12:25:52.683  9868 10133 D GestureStubView: onSwipeStop
+12-22 12:25:52.683  9868 10133 D GestureStubView: injectKeyEvent keyCode:4
+12-22 12:25:52.684  2475  2677 D PerfImpl: perfGetWorkLoadType
+12-22 12:25:52.685  2475  2677 D PerfImpl: perfScrollBoost: com.google.android.documentsui, -1, 4
+12-22 12:25:52.686  2475  2677 D PerfImpl: perfGetWorkLoadType
+12-22 12:25:52.686  2475  2677 D PerfImpl: perfLockRelease
+12-22 12:25:52.687  2475  4898 W MiuiInputKeyEventLog: keyCode:4 down:true eventTime:586657051 downTime:586657051 policyFlags:2b000000 flags:8 metaState:0 deviceId:-1 isScreenOn:true keyguardActive:false repeatCount:0
+12-22 12:25:52.688  9868 10058 I HapticFeedbackUtil: rtp:163
+12-22 12:25:52.688  2475  2677 W ActivityManager: Sending non-protected broadcast miui.intent.KEYCODE_BACK from system 2475:system/1000 pkg android. Callers=com.android.server.am.ActivityManagerService.broadcastIntentLocked:13794 com.android.server.am.ActivityManagerService.broadcastIntentLocked:13204 com.android.server.am.ActivityManagerService.broadcastIntentWithFeature:14053 android.app.ContextImpl.sendBroadcastAsUser:1400 com.android.server.policy.BaseMiuiPhoneWindowManager$16.run:2837
+12-22 12:25:52.688  2475  2677 W ActivityManager: Sending non-protected broadcast miui.intent.KEYCODE_BACK from system 2475:system/1000 pkg android. Callers=com.android.server.am.ActivityManagerService.broadcastIntentLocked:13893 com.android.server.am.ActivityManagerService.broadcastIntentLocked:13204 com.android.server.am.ActivityManagerService.broadcastIntentWithFeature:14053 android.app.ContextImpl.sendBroadcastAsUser:1400 com.android.server.policy.BaseMiuiPhoneWindowManager$16.run:2837
+12-22 12:25:52.689  2475  4898 D MIUIInput: Input event injection from pid 9868, KeyEvent:DOWN, keycode:4
+12-22 12:25:52.690  2475  6308 W MiuiInputKeyEventLog: keyCode:4 down:false eventTime:586657051 downTime:586657051 policyFlags:2b000000 flags:8 metaState:0 deviceId:-1 isScreenOn:true keyguardActive:false repeatCount:0
+12-22 12:25:52.690  2475  6308 D MIUIInput: Input event injection from pid 9868, KeyEvent:UP, keycode:4
+12-22 12:25:52.690  2475  2677 W ActivityManager: Sending non-protected broadcast miui.intent.KEYCODE_BACK from system 2475:system/1000 pkg android. Callers=com.android.server.am.ActivityManagerService.broadcastIntentLocked:13794 com.android.server.am.ActivityManagerService.broadcastIntentLocked:13204 com.android.server.am.ActivityManagerService.broadcastIntentWithFeature:14053 android.app.ContextImpl.sendBroadcastAsUser:1400 com.android.server.policy.BaseMiuiPhoneWindowManager$16.run:2837
+12-22 12:25:52.690  2475  2677 W ActivityManager: Sending non-protected broadcast miui.intent.KEYCODE_BACK from system 2475:system/1000 pkg android. Callers=com.android.server.am.ActivityManagerService.broadcastIntentLocked:13893 com.android.server.am.ActivityManagerService.broadcastIntentLocked:13204 com.android.server.am.ActivityManagerService.broadcastIntentWithFeature:14053 android.app.ContextImpl.sendBroadcastAsUser:1400 com.android.server.policy.BaseMiuiPhoneWindowManager$16.run:2837
+12-22 12:25:52.691  9868 10133 D GesturesBackController: onPointerEvent MotionEvent.ACTION_UP stopGestures isFinish:true speed:2
+12-22 12:25:52.691  9868 10133 D GesturesBackController: mSwipeStatus != SWIPE_STATUS_ANIMATING, processPointerEvent
+12-22 12:25:52.691  2475  3037 D MIUIInput: [KeyEvent] publisher action:0x0,  keyCode:4 , 586657051,channel 'cd096e4 com.google.android.documentsui/com.android.documentsui.files.FilesActivity (server)'
+12-22 12:25:52.692 32407 32407 D MIUIInput: [KeyEvent] ViewRootImpl windowName 'com.google.android.documentsui/com.android.documentsui.files.FilesActivity', KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=586657051, downTime=586657051, deviceId=-1, source=0x101, displayId=0 }, phoneEventTime=12:25:52.682
+12-22 12:25:52.694  2475  3037 D MIUIInput: [KeyEvent] publisher action:0x1,  keyCode:4 , 586657051,channel 'cd096e4 com.google.android.documentsui/com.android.documentsui.files.FilesActivity (server)'
+12-22 12:25:52.694 32407 32407 D MIUIInput: [KeyEvent] ViewRootImpl windowName 'com.google.android.documentsui/com.android.documentsui.files.FilesActivity', KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=586657051, downTime=586657051, deviceId=-1, source=0x101, displayId=0 }, phoneEventTime=12:25:52.683
+12-22 12:25:52.698  1367  1367 D vendor.hardware.vibratorfeature: Vibrator perform effect 163
+12-22 12:25:52.698  1367  1367 D vendor.hardware.vibratorfeature: uses mCurrMagnitudeExt 1.000000
+12-22 12:25:52.698  1367  1367 D vendor.hardware.vibratorfeature: getAmplitudeFromEffectStrength 1.000000
+12-22 12:25:52.698 32407 32407 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 12:25:52.698  1367  1367 D vendor.hardware.vibratorfeature: return from driver is 200
+12-22 12:25:52.698  1367  1367 D vendor.hardware.vibratorfeature: playLengthMs is 250
+12-22 12:25:52.698 32407 32407 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 12:25:52.699 32407 32407 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 12:25:52.699 32407 32407 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 12:25:52.701  1367  5380 D vendor.hardware.vibratorfeature: Starting perform on another thread
+12-22 12:25:52.702 32407 32407 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 12:25:52.716  2475  6308 I WindowManagerService: Physical orientation applied, rotation=0 sfOrientation=ORIENTATION_0
+12-22 12:25:52.724 32407 32407 D DefaultSelectionTracker: Ignoring onDataSetChange. No active selection.
+12-22 12:25:52.728 32407 32407 W SelectionTracker: Setting gestureTooltypes is likely to result in unexpected behavior.
+12-22 12:25:52.739 32407 32407 D DefaultSelectionTracker: Ignoring onDataSetChange. No active selection.
+12-22 12:25:52.741 32407 32407 D DefaultSelectionTracker: Ignoring onDataSetChange. No active selection.
+12-22 12:25:52.756 32407 32407 D DefaultSelectionTracker: Ignoring onDataSetChange. No active selection.
+12-22 12:25:52.757 32407 32407 D DefaultSelectionTracker: Ignoring onDataSetChange. No active selection.
+12-22 12:25:52.783  9868 10146 W RenderInspector: QueueBuffer time out on GestureStubBottom, count=3, avg=20 ms, max=34 ms.
+12-22 12:25:52.795  9868 10133 W GestureStubView: adaptRotation   currentRotation=0   mRotation=0
+12-22 12:25:52.795  9868 10133 D GestureStubView: resetRenderProperty: MSG_RESET_ANIMATING_STATUS   isLayoutParamChanged=true
+12-22 12:25:52.795  9868 10133 D GestureStubView: reset animating status
+12-22 12:25:52.810  2475  6308 I WindowManagerService: Physical orientation applied, rotation=0 sfOrientation=ORIENTATION_0
+12-22 12:25:52.812  9868 10133 D GestureStubView: gatherTransparentRegion: need render w:54  h:1440
+12-22 12:25:52.820  9868 10133 D GestureStubView: gatherTransparentRegion: need render w:54  h:1440
+12-22 12:25:52.835  9868 28640 D BLASTBufferQueue: releaseBufferCallback ReleaseCallbackId: bufferId:42382737285200 framenumber:23762
+12-22 12:25:52.907  1251  2448 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+12-22 12:25:52.907  2027  2096 I libcitsensorservice@2.0-impl: msg_transfer
+12-22 12:25:52.907  2027  3266 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:10 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+12-22 12:25:52.908  1251  2216 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+12-22 12:25:52.908  1251  5384 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+12-22 12:25:52.918  1251  5384 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+12-22 12:25:52.918  1251  5384 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+12-22 12:25:52.919  1251  5384 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+12-22 12:25:52.919  1251  5384 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+12-22 12:25:52.924  1251  1467 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+12-22 12:25:52.932  1251  5385 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+12-22 12:25:52.932  1251  5385 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+12-22 12:25:52.932  1251  5385 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+12-22 12:25:52.951  1367  5380 D vendor.hardware.vibratorfeature: Notifying perform complete
+12-22 12:25:52.952  1367  1367 D vendor.hardware.vibratorfeature: QTI Vibrator off
+12-22 12:25:52.952  1367  1367 D DynamicEffectThread: pause
+12-22 12:25:52.952  1367  1367 D DynamicEffectDevice: FFDevice pause
+12-22 12:25:53.082  2027  3285 D libsensor-displayalgo: the value of  brightness:377.000000,R:72036278.010570,G:64405846.195409,B:51096803.996525,EVENT_C:3814.500000,EVENT_R:1669.000000,EVENT_G:2010.000000,EVENT_B:841.000000
+12-22 12:25:53.082  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 12:25:53.082  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 12:25:53.082  2027  3285 I libsensor-displayalgo: the value of  RESULT2549.151079,1040.733032,1233.732613,439.700117
+12-22 12:25:53.082  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2661.196644,965.431049,1424.100655,476.130167
+12-22 12:25:53.082  2027  3285 I libsensor-displayalgo: the value of  REAL LUX51.886074
+12-22 12:25:53.082  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX51.886074
+12-22 12:25:53.211  2475  3037 D MIUIInput: [MotionEvent] publisher action=0x0, 586657579, channel '9a62d61 GestureStubBottom (server)'
+12-22 12:25:53.212  9868 10133 D GestureStubView: onTouch ACTION_DOWN sendMessageDelayed MSG_CHECK_GESTURE_STUB_TOUCHABLE
+12-22 12:25:53.212  9868 10133 D GesturesBackController: onPointerEvent swipeStatus:16
+12-22 12:25:53.212  9868 10133 D GesturesBackController: mSwipeStatus == SWIPE_STATUS_ANIMATING, processPointerEvent
+12-22 12:25:53.254  9868 10133 D GesturesBackController: onPointerEvent swipeStatus:8
+12-22 12:25:53.254  9868 10133 D GesturesBackController: mSwipeStatus != SWIPE_STATUS_ANIMATING, processPointerEvent
+12-22 12:25:53.258  2475  2677 D PerfImpl: perfGetWorkLoadType
+12-22 12:25:53.258  2475  2677 D PerfImpl: perfScrollBoost: com.google.android.documentsui, -1, 4
+12-22 12:25:53.259  2475  2677 D PerfImpl: perfGetWorkLoadType
+12-22 12:25:53.259  2475  2677 D PerfImpl: perfDragBoost: com.google.android.documentsui, -1, 1
+12-22 12:25:53.262  9868 10133 D GesturesBackController: onPointerEvent swipeStatus:8
+12-22 12:25:53.262  9868 10133 D GestureStubView: onSwipeStart: needAnimation: true
+12-22 12:25:53.263  9868 10133 D GestureStubView: renderView
+12-22 12:25:53.263  9868 10133 D GesturesBackController: onPointerEvent MotionEvent.ACTION_MOVE processMiuiGestures
+12-22 12:25:53.263  9868 10133 D GesturesBackController: mSwipeStatus != SWIPE_STATUS_ANIMATING, processPointerEvent
+12-22 12:25:53.270  2475  4898 I WindowManagerService: Physical orientation applied, rotation=0 sfOrientation=ORIENTATION_0
+12-22 12:25:53.272  1251  2448 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+12-22 12:25:53.272  2027  2097 I libcitsensorservice@2.0-impl: msg_transfer
+12-22 12:25:53.273  2027  3266 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:10 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+12-22 12:25:53.273  1251  2216 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+12-22 12:25:53.275  9868 10133 D GesturesBackController: onPointerEvent swipeStatus:2
+12-22 12:25:53.275  9868 10133 D GesturesBackController: onPointerEvent MotionEvent.ACTION_MOVE processMiuiGestures
+12-22 12:25:53.275  9868 10133 D GesturesBackController: mSwipeStatus != SWIPE_STATUS_ANIMATING, processPointerEvent
+12-22 12:25:53.275  1267  5427 E ANDR-PERF-LM: SilkyScrolls: emptyContentDetection() 636: empty Content found
+12-22 12:25:53.281  9868 10133 D GesturesBackController: onPointerEvent swipeStatus:2
+12-22 12:25:53.281  9868 10133 D GesturesBackController: onPointerEvent MotionEvent.ACTION_MOVE processMiuiGestures
+12-22 12:25:53.282  9868 10133 D GesturesBackController: mSwipeStatus != SWIPE_STATUS_ANIMATING, processPointerEvent
+12-22 12:25:53.287  9868 10133 D GesturesBackController: onPointerEvent swipeStatus:2
+12-22 12:25:53.287  9868 10133 D GesturesBackController: onPointerEvent MotionEvent.ACTION_MOVE processMiuiGestures
+12-22 12:25:53.287  9868 10133 D GesturesBackController: mSwipeStatus != SWIPE_STATUS_ANIMATING, processPointerEvent
+12-22 12:25:53.288  5652 28739 W MiuiPerfServiceClient: interceptAndQueuing:9868|com.miui.home|81|50|586657136686049|Slow swap buffers|4
+12-22 12:25:53.288  1251  5388 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+12-22 12:25:53.296  9868 10133 D GesturesBackController: onPointerEvent swipeStatus:2
+12-22 12:25:53.296  9868 10133 D GesturesBackController: onPointerEvent MotionEvent.ACTION_MOVE processMiuiGestures
+12-22 12:25:53.296  9868 10133 D GesturesBackController: mSwipeStatus != SWIPE_STATUS_ANIMATING, processPointerEvent
+12-22 12:25:53.297  1251  5388 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+12-22 12:25:53.297  1251  5388 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+12-22 12:25:53.297  1251  5388 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+12-22 12:25:53.297  1251  5388 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+12-22 12:25:53.303  1251  1467 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+12-22 12:25:53.304  9868 10133 D GesturesBackController: onPointerEvent swipeStatus:2
+12-22 12:25:53.304  9868 10133 D GesturesBackController: onPointerEvent MotionEvent.ACTION_MOVE processMiuiGestures
+12-22 12:25:53.304  9868 10133 D GesturesBackController: mSwipeStatus != SWIPE_STATUS_ANIMATING, processPointerEvent
+12-22 12:25:53.313  9868 10133 D GesturesBackController: onPointerEvent swipeStatus:2
+12-22 12:25:53.313  9868 10133 D GesturesBackController: onPointerEvent MotionEvent.ACTION_MOVE processMiuiGestures
+12-22 12:25:53.313  9868 10133 D GesturesBackController: mSwipeStatus != SWIPE_STATUS_ANIMATING, processPointerEvent
+12-22 12:25:53.321  9868 10133 D GesturesBackController: onPointerEvent swipeStatus:2
+12-22 12:25:53.321  9868 10133 D GesturesBackController: onPointerEvent MotionEvent.ACTION_MOVE processMiuiGestures
+12-22 12:25:53.321  9868 10133 D GesturesBackController: mSwipeStatus != SWIPE_STATUS_ANIMATING, processPointerEvent
+12-22 12:25:53.329  9868 10133 D GesturesBackController: onPointerEvent swipeStatus:2
+12-22 12:25:53.329  9868 10133 D GesturesBackController: onPointerEvent MotionEvent.ACTION_MOVE processMiuiGestures
+12-22 12:25:53.330  9868 10133 D GesturesBackController: mSwipeStatus != SWIPE_STATUS_ANIMATING, processPointerEvent
+12-22 12:25:53.334  1251  5389 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+12-22 12:25:53.334  1251  5389 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+12-22 12:25:53.334  1251  5389 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+12-22 12:25:53.337  9868 10133 D GesturesBackController: onPointerEvent swipeStatus:2
+12-22 12:25:53.337  9868 10133 D GesturesBackController: onPointerEvent MotionEvent.ACTION_MOVE processMiuiGestures
+12-22 12:25:53.337  9868 10133 D GesturesBackController: mSwipeStatus != SWIPE_STATUS_ANIMATING, processPointerEvent
+12-22 12:25:53.345  9868 10133 D GesturesBackController: onPointerEvent swipeStatus:2
+12-22 12:25:53.345  9868 10133 D GesturesBackController: onPointerEvent MotionEvent.ACTION_MOVE processMiuiGestures
+12-22 12:25:53.346  9868 10133 D GesturesBackController: mSwipeStatus != SWIPE_STATUS_ANIMATING, processPointerEvent
+12-22 12:25:53.353  9868 10133 D GesturesBackController: onPointerEvent swipeStatus:2
+12-22 12:25:53.353  9868 10133 D GesturesBackController: onPointerEvent MotionEvent.ACTION_MOVE processMiuiGestures
+12-22 12:25:53.354  9868 10133 D GesturesBackController: mSwipeStatus != SWIPE_STATUS_ANIMATING, processPointerEvent
+12-22 12:25:53.361  9868 10133 D GesturesBackController: onPointerEvent swipeStatus:2
+12-22 12:25:53.361  9868 10133 D GesturesBackController: onPointerEvent MotionEvent.ACTION_MOVE processMiuiGestures
+12-22 12:25:53.362  9868 10133 D GesturesBackController: mSwipeStatus != SWIPE_STATUS_ANIMATING, processPointerEvent
+12-22 12:25:53.362  2475  3037 D MIUIInput: [MotionEvent] publisher action=0x1, 586657730, channel '9a62d61 GestureStubBottom (server)'
+12-22 12:25:53.362  9868 10133 D GesturesBackController: onPointerEvent swipeStatus:2
+12-22 12:25:53.362  9868 10133 D GesturesBackController: onPointerEvent MotionEvent.ACTION_MOVE processMiuiGestures
+12-22 12:25:53.362  9868 10133 D GesturesBackController: mSwipeStatus != SWIPE_STATUS_ANIMATING, processPointerEvent
+12-22 12:25:53.362  9868 10133 D GestureStubView: ACTION_UP: mIsGestureStarted: true mIsGestureAnimationEnabled: true
+12-22 12:25:53.362  9868 10133 D GesturesBackController: onPointerEvent swipeStatus:2
+12-22 12:25:53.362  9868 10133 D GestureStubView: onSwipeStop
+12-22 12:25:53.362  9868 10133 D GestureStubView: injectKeyEvent keyCode:4
+12-22 12:25:53.363  2475  6308 W MiuiInputKeyEventLog: keyCode:4 down:true eventTime:586657731 downTime:586657731 policyFlags:2b000000 flags:8 metaState:0 deviceId:-1 isScreenOn:true keyguardActive:false repeatCount:0
+12-22 12:25:53.363  9868 10058 I HapticFeedbackUtil: rtp:163
+12-22 12:25:53.363  2475  6308 D MIUIInput: Input event injection from pid 9868, KeyEvent:DOWN, keycode:4
+12-22 12:25:53.363  2475  2981 W MiuiInputKeyEventLog: keyCode:4 down:false eventTime:586657731 downTime:586657731 policyFlags:2b000000 flags:8 metaState:0 deviceId:-1 isScreenOn:true keyguardActive:false repeatCount:0
+12-22 12:25:53.364  2475  2981 D MIUIInput: Input event injection from pid 9868, KeyEvent:UP, keycode:4
+12-22 12:25:53.364  9868 10133 D GesturesBackController: onPointerEvent MotionEvent.ACTION_UP stopGestures isFinish:true speed:2
+12-22 12:25:53.364  9868 10133 D GesturesBackController: mSwipeStatus != SWIPE_STATUS_ANIMATING, processPointerEvent
+12-22 12:25:53.365  2475  2677 D PerfImpl: perfGetWorkLoadType
+12-22 12:25:53.365  2475  2677 D PerfImpl: perfScrollBoost: com.google.android.documentsui, 619, 1
+12-22 12:25:53.366  1367  1367 D vendor.hardware.vibratorfeature: Vibrator perform effect 163
+12-22 12:25:53.366  1367  1367 D vendor.hardware.vibratorfeature: uses mCurrMagnitudeExt 1.000000
+12-22 12:25:53.366  1367  1367 D vendor.hardware.vibratorfeature: getAmplitudeFromEffectStrength 1.000000
+12-22 12:25:53.366  1367  1367 D vendor.hardware.vibratorfeature: return from driver is 200
+12-22 12:25:53.366  1367  1367 D vendor.hardware.vibratorfeature: playLengthMs is 250
+12-22 12:25:53.366  2475  2677 D PerfImpl: perfGetWorkLoadType
+12-22 12:25:53.367  2475  2677 D PerfImpl: perfScrollBoost: com.google.android.documentsui, -1, 4
+12-22 12:25:53.368  2475  2677 D PerfImpl: perfGetWorkLoadType
+12-22 12:25:53.368  2475  2677 D PerfImpl: perfLockRelease
+12-22 12:25:53.369  2475  3037 D MIUIInput: [KeyEvent] publisher action:0x0,  keyCode:4 , 586657731,channel 'cd096e4 com.google.android.documentsui/com.android.documentsui.files.FilesActivity (server)'
+12-22 12:25:53.369  2475  2677 W ActivityManager: Sending non-protected broadcast miui.intent.KEYCODE_BACK from system 2475:system/1000 pkg android. Callers=com.android.server.am.ActivityManagerService.broadcastIntentLocked:13794 com.android.server.am.ActivityManagerService.broadcastIntentLocked:13204 com.android.server.am.ActivityManagerService.broadcastIntentWithFeature:14053 android.app.ContextImpl.sendBroadcastAsUser:1400 com.android.server.policy.BaseMiuiPhoneWindowManager$16.run:2837
+12-22 12:25:53.369  2475  2677 W ActivityManager: Sending non-protected broadcast miui.intent.KEYCODE_BACK from system 2475:system/1000 pkg android. Callers=com.android.server.am.ActivityManagerService.broadcastIntentLocked:13893 com.android.server.am.ActivityManagerService.broadcastIntentLocked:13204 com.android.server.am.ActivityManagerService.broadcastIntentWithFeature:14053 android.app.ContextImpl.sendBroadcastAsUser:1400 com.android.server.policy.BaseMiuiPhoneWindowManager$16.run:2837
+12-22 12:25:53.370 32407 32407 D MIUIInput: [KeyEvent] ViewRootImpl windowName 'com.google.android.documentsui/com.android.documentsui.files.FilesActivity', KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=586657731, downTime=586657731, deviceId=-1, source=0x101, displayId=0 }, phoneEventTime=12:25:53.363
+12-22 12:25:53.370  2475  2677 W ActivityManager: Sending non-protected broadcast miui.intent.KEYCODE_BACK from system 2475:system/1000 pkg android. Callers=com.android.server.am.ActivityManagerService.broadcastIntentLocked:13794 com.android.server.am.ActivityManagerService.broadcastIntentLocked:13204 com.android.server.am.ActivityManagerService.broadcastIntentWithFeature:14053 android.app.ContextImpl.sendBroadcastAsUser:1400 com.android.server.policy.BaseMiuiPhoneWindowManager$16.run:2837
+12-22 12:25:53.370  2475  2677 W ActivityManager: Sending non-protected broadcast miui.intent.KEYCODE_BACK from system 2475:system/1000 pkg android. Callers=com.android.server.am.ActivityManagerService.broadcastIntentLocked:13893 com.android.server.am.ActivityManagerService.broadcastIntentLocked:13204 com.android.server.am.ActivityManagerService.broadcastIntentWithFeature:14053 android.app.ContextImpl.sendBroadcastAsUser:1400 com.android.server.policy.BaseMiuiPhoneWindowManager$16.run:2837
+12-22 12:25:53.371  1367  5393 D vendor.hardware.vibratorfeature: Starting perform on another thread
+12-22 12:25:53.373  2475  3037 D MIUIInput: [KeyEvent] publisher action:0x1,  keyCode:4 , 586657731,channel 'cd096e4 com.google.android.documentsui/com.android.documentsui.files.FilesActivity (server)'
+12-22 12:25:53.373 32407 32407 D MIUIInput: [KeyEvent] ViewRootImpl windowName 'com.google.android.documentsui/com.android.documentsui.files.FilesActivity', KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=586657731, downTime=586657731, deviceId=-1, source=0x101, displayId=0 }, phoneEventTime=12:25:53.363
+12-22 12:25:53.380 32407 32407 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 12:25:53.380 32407 32407 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 12:25:53.381  2027  3285 D libsensor-displayalgo: the value of  brightness:377.000000,R:72036278.010570,G:64405846.195409,B:51096803.996525,EVENT_C:3811.500000,EVENT_R:1663.500000,EVENT_G:2007.000000,EVENT_B:840.000000
+12-22 12:25:53.381  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 12:25:53.381  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 12:25:53.381  2027  3285 I libsensor-displayalgo: the value of  RESULT2549.151079,1040.733032,1233.732613,439.700117
+12-22 12:25:53.381  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2661.196644,965.431049,1424.100655,476.130167
+12-22 12:25:53.381  2027  3285 I libsensor-displayalgo: the value of  REAL LUX51.826450
+12-22 12:25:53.381  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX51.826450
+12-22 12:25:53.382 32407 32407 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 12:25:53.382 32407 32407 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 12:25:53.385 32407 32407 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 12:25:53.397  2475  6308 I WindowManagerService: Physical orientation applied, rotation=0 sfOrientation=ORIENTATION_0
+12-22 12:25:53.403 32407 32407 D DefaultSelectionTracker: Ignoring onDataSetChange. No active selection.
+12-22 12:25:53.406 32407 32407 W SelectionTracker: Setting gestureTooltypes is likely to result in unexpected behavior.
+12-22 12:25:53.459 32407 32407 D DefaultSelectionTracker: Ignoring onDataSetChange. No active selection.
+12-22 12:25:53.462 32407 32407 D DefaultSelectionTracker: Ignoring onDataSetChange. No active selection.
+12-22 12:25:53.471  9868 10133 W GestureStubView: adaptRotation   currentRotation=0   mRotation=0
+12-22 12:25:53.471  9868 10133 D GestureStubView: resetRenderProperty: MSG_RESET_ANIMATING_STATUS   isLayoutParamChanged=true
+12-22 12:25:53.471  9868 10133 D GestureStubView: reset animating status
+12-22 12:25:53.494  2475  4898 I WindowManagerService: Physical orientation applied, rotation=0 sfOrientation=ORIENTATION_0
+12-22 12:25:53.495  9868 10133 D GestureStubView: gatherTransparentRegion: need render w:54  h:1440
+12-22 12:25:53.504  9868 10133 D GestureStubView: gatherTransparentRegion: need render w:54  h:1440
+12-22 12:25:53.517  9868 28640 D BLASTBufferQueue: releaseBufferCallback ReleaseCallbackId: bufferId:42382737285206 framenumber:23790
+12-22 12:25:53.621  1367  5393 D vendor.hardware.vibratorfeature: Notifying perform complete
+12-22 12:25:53.622  1367  1367 D vendor.hardware.vibratorfeature: QTI Vibrator off
+12-22 12:25:53.622  1367  1367 D DynamicEffectThread: pause
+12-22 12:25:53.622  1367  1367 D DynamicEffectDevice: FFDevice pause
+12-22 12:25:53.632  1251  2448 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+12-22 12:25:53.632  2027  2096 I libcitsensorservice@2.0-impl: msg_transfer
+12-22 12:25:53.633  2027  3266 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:10 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+12-22 12:25:53.633  1251  2216 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+12-22 12:25:53.633  1251  5399 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+12-22 12:25:53.644  1251  5399 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+12-22 12:25:53.646  1251  5399 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+12-22 12:25:53.648  1251  5399 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+12-22 12:25:53.649  1251  1467 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+12-22 12:25:53.652  1251  5399 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+12-22 12:25:53.656  1251  5401 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+12-22 12:25:53.656  1251  5401 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+12-22 12:25:53.656  1251  5401 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+12-22 12:25:53.670 32407 32407 D DefaultSelectionTracker: Ignoring onDataSetChange. No active selection.
+12-22 12:25:53.680 32407 32415 I oid.documentsu: This is sticky GC, maxfree is 8388608 minfree is 2097152
+12-22 12:25:53.682  2027  3285 D libsensor-displayalgo: the value of  brightness:377.000000,R:72036278.010570,G:64405846.195409,B:51096803.996525,EVENT_C:3827.000000,EVENT_R:1669.500000,EVENT_G:2017.500000,EVENT_B:841.500000
+12-22 12:25:53.682  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 12:25:53.682  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 12:25:53.682  2027  3285 I libsensor-displayalgo: the value of  RESULT2549.151079,1040.733032,1233.732613,439.700117
+12-22 12:25:53.682  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2661.196644,965.431049,1424.100655,476.130167
+12-22 12:25:53.682  2027  3285 I libsensor-displayalgo: the value of  REAL LUX53.050049
+12-22 12:25:53.682  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX53.050049
+12-22 12:25:53.798  2475  3040 I BatteryService: current mPlugType2current mHealthInfo.batteryLevel26current mHealthInfo.batteryTemperature355
+12-22 12:25:53.800  6171  6171 I BatteryInfoReceiver: ACTION_BATTERY_CHANGED
+12-22 12:25:53.802  9660  9660 D DynamicService:  ACTION_BATTERY_CHANGED change,USB plug = 2
+12-22 12:25:53.802  4409  4409 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 1
+12-22 12:25:53.803  6206  7182 D ThermalIECHandler: storeDataStyle: thermal_iec_monitor_persistence_data_style_iec_state; startIECTime: -1; IECScreenOffOverPeriodTime: 1410825231
+12-22 12:25:53.804  6206  6950 D PowerKeeper.FrozenApp: onBatteryChanged plug=true mBatteryPlugged=2
+12-22 12:25:53.805  6206  7099 D PowerCheckerService: onBatteryChanged, mBatteryLevel = 26, status = 2, level = 26, plug = 2, scale = 100
+12-22 12:25:53.805  6171  6171 I PowerNoticeUI: handleBatteryChanged oldPlugType 2 mPlugType 2 oldBatteryLevel 26 mBatteryLevel 26 temperature 355
+12-22 12:25:53.806  6206  7192 D PowerKeeper.Thermal: mBatteryTemperature: 35
+12-22 12:25:53.807  4453  4453 V DeviceStatisticsService: chargerType=2 batteryLevel=26 totalBatteryCapacity=4223000
+12-22 12:25:53.807  6171  8631 I android_os_HwBinder: HwBinder: Starting thread pool for getting: vendor.xiaomi.hardware.micharge@1.0::IMiCharge/default
+12-22 12:25:53.807  1344  1360 I vendor.xiaomi.hardware.micharge@1.0-service: ReadFilePathValue path = /sys/class/qcom-battery/night_charging value = 0
+12-22 12:25:53.807  6171  8631 I ChargeProtectionUtils: getNightChargingState: 0
+12-22 12:25:53.982  2027  3285 D libsensor-displayalgo: the value of  brightness:377.000000,R:72036278.010570,G:64405846.195409,B:51096803.996525,EVENT_C:3827.000000,EVENT_R:1669.500000,EVENT_G:2017.500000,EVENT_B:841.500000
+12-22 12:25:53.982  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 12:25:53.982  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 12:25:53.982  2027  3285 I libsensor-displayalgo: the value of  RESULT2549.151079,1040.733032,1233.732613,439.700117
+12-22 12:25:53.982  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2661.196644,965.431049,1424.100655,476.130167
+12-22 12:25:53.982  2027  3285 I libsensor-displayalgo: the value of  REAL LUX53.050049
+12-22 12:25:53.982  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX53.050049
+12-22 12:25:54.013  3388  3397 I tomator2.serve: This is sticky GC, maxfree is 8388608 minfree is 2097152
+12-22 12:25:54.048  3388  3419 I appium  : AppiumResponse: {"sessionId":"89bbb39e-2991-4438-a56d-ac6045d9691b","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAAlgCAYAAABtGofVAAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHicbJ3pjiRJcqTV7/AjjqwnJXYIDDDkLJvYJfdtuzLjco/wa3+ofWIWDRbQ\n6O6qrAg/zFRFRUTVsu/v731dV2vbzpZltnVdrWkONo5Py/Pcuq63dV3t9ZqsKArj17Isdj5/2Ty/\nbV1XW…
+12-22 12:25:54.053  1251  2448 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+12-22 12:25:54.053  2027  4130 I libcitsensorservice@2.0-impl: msg_transfer
+12-22 12:25:54.054  2027  3266 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:10 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+12-22 12:25:54.054  1251  2216 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+12-22 12:25:54.059  1251  5402 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+12-22 12:25:54.059  3388  3397 I tomator2.serve: This is non sticky GC, maxfree is 8388608 minfree is 2097152
+12-22 12:25:54.068  1251  2448 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+12-22 12:25:54.069  2027  4130 I libcitsensorservice@2.0-impl: msg_transfer
+12-22 12:25:54.069  1251  5402 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+12-22 12:25:54.070  1251  5402 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+12-22 12:25:54.070  1251  5402 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+12-22 12:25:54.070  1251  5402 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+12-22 12:25:54.077  1251  1467 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+12-22 12:25:54.084  1251  5405 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+12-22 12:25:54.084  1251  5405 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+12-22 12:25:54.084  1251  5405 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+12-22 12:25:54.283  2027  3285 D libsensor-displayalgo: the value of  brightness:377.000000,R:72036278.010570,G:64405846.195409,B:51096803.996525,EVENT_C:3807.500000,EVENT_R:1662.000000,EVENT_G:2008.000000,EVENT_B:838.000000
+12-22 12:25:54.283  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 12:25:54.283  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 12:25:54.284  2027  3285 I libsensor-displayalgo: the value of  RESULT2549.151079,1040.733032,1233.732613,439.700117
+12-22 12:25:54.284  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2661.196644,965.431049,1424.100655,476.130167
+12-22 12:25:54.284  2027  3285 I libsensor-displayalgo: the value of  REAL LUX51.808681
+12-22 12:25:54.284  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX51.808681

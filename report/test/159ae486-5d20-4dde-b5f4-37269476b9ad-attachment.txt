@@ -1,0 +1,676 @@
+12-22 11:50:36.516 27901 27909 I rityinputmetho: This is non sticky GC, maxfree is 8388608 minfree is 2097152
+12-22 11:50:36.682  2027  3285 D libsensor-displayalgo: the value of  brightness:369.000000,R:70890239.206027,G:63382457.368488,B:50291292.731193,EVENT_C:3498.500000,EVENT_R:1459.000000,EVENT_G:1856.500000,EVENT_B:766.500000
+12-22 11:50:36.682  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 11:50:36.682  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 11:50:36.683  2027  3285 I libsensor-displayalgo: the value of  RESULT2482.127801,1013.814098,1202.772282,428.047677
+12-22 11:50:36.683  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2590.311385,940.824383,1387.144857,463.350886
+12-22 11:50:36.683  2027  3285 I libsensor-displayalgo: the value of  REAL LUX41.288074
+12-22 11:50:36.683  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX41.288074
+12-22 11:50:36.776 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:36.776 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:36.776 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:36.776 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:36.777 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:36.791  1251  2448 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+12-22 11:50:36.791  2027  2097 I libcitsensorservice@2.0-impl: msg_transfer
+12-22 11:50:36.792  2027  3266 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:10 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+12-22 11:50:36.792  1251  2215 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+12-22 11:50:36.800  1251 32074 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+12-22 11:50:36.809  1251 32074 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+12-22 11:50:36.809  1251 32074 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+12-22 11:50:36.809  1251 32074 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+12-22 11:50:36.810  1251 32074 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+12-22 11:50:36.816  1251  1467 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+12-22 11:50:36.823  1251 32075 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+12-22 11:50:36.823  1251 32075 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+12-22 11:50:36.823  1251 32075 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+12-22 11:50:36.983  2027  3285 D libsensor-displayalgo: the value of  brightness:369.000000,R:70890239.206027,G:63382457.368488,B:50291292.731193,EVENT_C:3486.500000,EVENT_R:1455.500000,EVENT_G:1848.500000,EVENT_B:763.500000
+12-22 11:50:36.983  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 11:50:36.983  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 11:50:36.984  2027  3285 I libsensor-displayalgo: the value of  RESULT2482.127801,1013.814098,1202.772282,428.047677
+12-22 11:50:36.984  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2590.311385,940.824383,1387.144857,463.350886
+12-22 11:50:36.984  2027  3285 I libsensor-displayalgo: the value of  REAL LUX40.452835
+12-22 11:50:36.984  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX40.452835
+12-22 11:50:37.279 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:37.280 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:37.280 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:37.280 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:37.281 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:37.293 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:37.294 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:37.294 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:37.294 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:37.296  1251  2448 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+12-22 11:50:37.296  2027  4130 I libcitsensorservice@2.0-impl: msg_transfer
+12-22 11:50:37.298  2027  3266 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:10 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+12-22 11:50:37.298  1251  2215 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+12-22 11:50:37.307  1251 32082 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+12-22 11:50:37.323  1251 32082 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+12-22 11:50:37.323  1251 32082 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+12-22 11:50:37.323  1251 32082 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+12-22 11:50:37.323  1251 32082 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+12-22 11:50:37.326  1251  1467 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+12-22 11:50:37.332  1251 32090 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+12-22 11:50:37.333  1251 32090 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+12-22 11:50:37.333  1251 32090 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+12-22 11:50:37.384  2027  3285 D libsensor-displayalgo: the value of  brightness:369.000000,R:70890239.206027,G:63382457.368488,B:50291292.731193,EVENT_C:3493.500000,EVENT_R:1456.000000,EVENT_G:1850.000000,EVENT_B:763.500000
+12-22 11:50:37.384  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 11:50:37.384  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 11:50:37.384  2027  3285 I libsensor-displayalgo: the value of  RESULT2482.127801,1013.814098,1202.772282,428.047677
+12-22 11:50:37.384  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2590.311385,940.824383,1387.144857,463.350886
+12-22 11:50:37.384  2027  3285 I libsensor-displayalgo: the value of  REAL LUX40.996265
+12-22 11:50:37.384  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX40.996265
+12-22 11:50:37.683  2027  3285 D libsensor-displayalgo: the value of  brightness:369.000000,R:70890239.206027,G:63382457.368488,B:50291292.731193,EVENT_C:3493.500000,EVENT_R:1456.000000,EVENT_G:1850.000000,EVENT_B:763.500000
+12-22 11:50:37.683  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 11:50:37.683  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 11:50:37.684  2027  3285 I libsensor-displayalgo: the value of  RESULT2482.127801,1013.814098,1202.772282,428.047677
+12-22 11:50:37.684  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2590.311385,940.824383,1387.144857,463.350886
+12-22 11:50:37.684  2027  3285 I libsensor-displayalgo: the value of  REAL LUX40.996265
+12-22 11:50:37.684  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX40.996265
+12-22 11:50:37.707 30932 30962 I appium  : channel read: POST /wd/hub/session/d04556ec-3a9e-4037-bf27-d12cab210bb7/element
+12-22 11:50:37.707 30932 30962 I appium  : FindElement command
+12-22 11:50:37.709 30932 30962 I appium  : method: 'id', selector: 'cn.missevan:id/next'
+12-22 11:50:37.709 30932 30962 I appium  : Waiting up to 100ms for the device to idle
+12-22 11:50:37.781 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:37.782 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:37.782 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:37.782 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:37.782 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:37.796  1251  2448 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+12-22 11:50:37.796  2027  4130 I libcitsensorservice@2.0-impl: msg_transfer
+12-22 11:50:37.797  2027  3266 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:10 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+12-22 11:50:37.797  1251  2215 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+12-22 11:50:37.803  1251 32092 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+12-22 11:50:37.816 30932 30962 I appium  : AppiumResponse: {"sessionId":"d04556ec-3a9e-4037-bf27-d12cab210bb7","value":{"ELEMENT":"00000000-0000-0cd0-ffff-ffff000003cf","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0cd0-ffff-ffff000003cf"}}
+12-22 11:50:37.830  1251 32092 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+12-22 11:50:37.830  1251 32092 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+12-22 11:50:37.830  1251 32092 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+12-22 11:50:37.830  1251 32092 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+12-22 11:50:37.837  1251  1467 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+12-22 11:50:37.839 30932 30962 I appium  : channel read: POST /wd/hub/session/d04556ec-3a9e-4037-bf27-d12cab210bb7/element/00000000-0000-0cd0-ffff-ffff000003cf/click
+12-22 11:50:37.839 30932 30962 I appium  : Click command
+12-22 11:50:37.852  2475  5746 D MIUIInput: Input event injection from pid 30913, MotionEvent: DOWN
+12-22 11:50:37.853  2475  3037 D MIUIInput: [MotionEvent] publisher action=0x4, 584542213, channel 'a6e61f2 NavigationBar0 (server)'
+12-22 11:50:37.853  2475  3037 D MIUIInput: [MotionEvent] publisher action=0x0, 584542213, channel 'cdbb553 cn.missevan/cn.missevan.activity.MainActivity (server)'
+12-22 11:50:37.854  1251 32093 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+12-22 11:50:37.854  1251 32093 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+12-22 11:50:37.854  1251 32093 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+12-22 11:50:37.854  1431  2432 D RefreshRateConfigs: TouchBoost - choose 120.00fps
+12-22 11:50:37.856  2475  5746 D MIUIInput: Input event injection from pid 30913, MotionEvent: UP
+12-22 11:50:37.856  2475  3037 D MIUIInput: [MotionEvent] publisher action=0x1, 584542213, channel 'cdbb553 cn.missevan/cn.missevan.activity.MainActivity (server)'
+12-22 11:50:37.861 30932 30962 I appium  : Waiting up to 100ms for the device to idle
+12-22 11:50:37.862 30932 30962 I appium  : AppiumResponse: {"sessionId":"d04556ec-3a9e-4037-bf27-d12cab210bb7","value":null}
+12-22 11:50:37.965 10365 10374 I gle.android.gm: This is non sticky GC, maxfree is 8388608 minfree is 2097152
+12-22 11:50:37.982  2027  3285 D libsensor-displayalgo: the value of  brightness:369.000000,R:70890239.206027,G:63382457.368488,B:50291292.731193,EVENT_C:3478.500000,EVENT_R:1450.500000,EVENT_G:1844.500000,EVENT_B:760.000000
+12-22 11:50:37.982  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 11:50:37.982  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 11:50:37.982  2027  3285 I libsensor-displayalgo: the value of  RESULT2482.127801,1013.814098,1202.772282,428.047677
+12-22 11:50:37.982  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2590.311385,940.824383,1387.144857,463.350886
+12-22 11:50:37.982  2027  3285 I libsensor-displayalgo: the value of  REAL LUX40.179073
+12-22 11:50:37.982  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX40.179073
+12-22 11:50:38.002  8535  8543 I .gms.persisten: This is non sticky GC, maxfree is 8388608 minfree is 2097152
+12-22 11:50:38.275 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:38.276 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:38.276 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:38.276 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:38.276 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:38.283  2027  3285 D libsensor-displayalgo: the value of  brightness:369.000000,R:70890239.206027,G:63382457.368488,B:50291292.731193,EVENT_C:3478.500000,EVENT_R:1450.500000,EVENT_G:1844.500000,EVENT_B:760.000000
+12-22 11:50:38.283  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 11:50:38.283  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 11:50:38.284  2027  3285 I libsensor-displayalgo: the value of  RESULT2482.127801,1013.814098,1202.772282,428.047677
+12-22 11:50:38.284  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2590.311385,940.824383,1387.144857,463.350886
+12-22 11:50:38.284  2027  3285 I libsensor-displayalgo: the value of  REAL LUX40.179073
+12-22 11:50:38.284  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX40.179073
+12-22 11:50:38.290 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:38.290 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:38.290 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:38.290 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:38.293  1251  2448 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+12-22 11:50:38.294  2027  4130 I libcitsensorservice@2.0-impl: msg_transfer
+12-22 11:50:38.294  2027  3266 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:10 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+12-22 11:50:38.295  1251  2215 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+12-22 11:50:38.304  1251 32097 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+12-22 11:50:38.312  1251 32097 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+12-22 11:50:38.313  1251 32097 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+12-22 11:50:38.313  1251 32097 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+12-22 11:50:38.313  1251 32097 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+12-22 11:50:38.321  1251  1467 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+12-22 11:50:38.326  1251 32098 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+12-22 11:50:38.326  1251 32098 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+12-22 11:50:38.326  1251 32098 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+12-22 11:50:38.373 28881 11959 D MiuiFastConnectService: stopBleScan: scanning: true
+12-22 11:50:38.373 28881 11959 D BluetoothAdapter: isLeEnabled(): ON
+12-22 11:50:38.378  8079 11197 D BtGatt.GattService: stopScan() - queue size =1
+12-22 11:50:38.381  8079 11126 I BtGatt.ScanManager: msg.what = 1, msg.arg1 = 0(mMiuiControllingType)
+12-22 11:50:38.381  8079 11126 D BtGatt.ScanManager: track LE scan event: callerPackage = [com.xiaomi.bluetooth], scanMode = [0], reportDelayMillis = [0], behavior = [2], scannerId = [7], duration = [59931]
+12-22 11:50:38.383  8079  8094 D BtGatt.GattService: unregisterScanner() - scannerId=7
+12-22 11:50:38.384  8079 11126 D BtGatt.ScanManager: stop scan
+12-22 11:50:38.384  1192  1192 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+12-22 11:50:38.385  1192  1192 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired
+12-22 11:50:38.385  1192  1192 I vendor.qti.bluetooth@1.0-ibs_handler: DeviceWakeUp: Writing IBS_WAKE_IND
+12-22 11:50:38.392 20304 20444 D IdProviderImpl: getOAID from com.miui.analytics
+12-22 11:50:38.395  1192 11175 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_ACK: 0xFC
+12-22 11:50:38.395  1192 11175 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Signal wack_cond_
+12-22 11:50:38.395  1192  1192 D vendor.qti.bluetooth@1.0-ibs_handler: DeviceWakeUp: Unblocked from waiting for FC, pthread_cond_timedwait ret = 0
+12-22 11:50:38.396  1192 11175 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+12-22 11:50:38.396  1192 11175 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+12-22 11:50:38.399  8079 11099 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=7, status=0, action=1, availableSpace=59
+12-22 11:50:38.399  8079 11099 D BtGatt.ScanManager: callback done for scannerId - 7 status - 0
+12-22 11:50:38.400 20304 20444 D IdProviderImpl: getOAID from com.miui.analytics
+12-22 11:50:38.400  8079 11099 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=7, status=0, action=1, availableSpace=60
+12-22 11:50:38.400  8079 11099 D BtGatt.ScanManager: callback done for scannerId - 7 status - 0
+12-22 11:50:38.402  8079 11099 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=7, status=0, action=1, availableSpace=61
+12-22 11:50:38.402  8079 11099 D BtGatt.ScanManager: callback done for scannerId - 7 status - 0
+12-22 11:50:38.403  8079 11099 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=7, status=0, action=1, availableSpace=62
+12-22 11:50:38.403  8079 11099 D BtGatt.ScanManager: callback done for scannerId - 7 status - 0
+12-22 11:50:38.404  8079 11099 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=7, status=0, action=1, availableSpace=63
+12-22 11:50:38.404  8079 11099 D BtGatt.ScanManager: callback done for scannerId - 7 status - 0
+12-22 11:50:38.405  8079 11099 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=7, status=0, action=1, availableSpace=64
+12-22 11:50:38.405  8079 11099 D BtGatt.ScanManager: callback done for scannerId - 7 status - 0
+12-22 11:50:38.406  8079 11126 D BtGatt.ScanManager: configureRegularScanParams() - queue=0
+12-22 11:50:38.406  8079 11126 D BtGatt.ScanManager: configureRegularScanParams() - ScanSetting LE 1M Scan mode=-2147483648 ScanSetting LE Coded Scan mode=-2147483648 mLastConfiguredScanSettingLE1M=0 mLastConfiguredScanSettingLECoded=0 scanPhy=1
+12-22 11:50:38.406  8079 11126 D BtGatt.ScanManager: configureRegularScanParams() - queue emtpy, scan stopped
+12-22 11:50:38.406  8079 11126 D BtGatt.ScanManager: configureRegularScanParams() - queue emtpy, scan stopped
+12-22 11:50:38.445  1192 11175 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+12-22 11:50:38.448 28881 11959 D MiuiFastConnectService: handleMessage: MSG_START_BLE_SCAN mode: 0
+12-22 11:50:38.448 28881 11959 D BluetoothAdapter: isLeEnabled(): ON
+12-22 11:50:38.449 28881 11959 D BluetoothLeImp: isRoutingAllowedForScanStub
+12-22 11:50:38.450  8079  8094 D BtGatt.GattService: registerScanner() - UUID=af70033b-838a-41be-a968-77acafce4177
+12-22 11:50:38.451  8079 11099 D BtGatt.GattService: onScannerRegistered() - UUID=af70033b-838a-41be-a968-77acafce4177, scannerId=7, status=0
+12-22 11:50:38.451 28881 10826 D BluetoothLeScanner: onScannerRegistered() - status=0 scannerId=7 mScannerId=0
+12-22 11:50:38.453  8079  8094 D BtGatt.GattService: start scan with filters. callingPackage: com.xiaomi.bluetooth
+12-22 11:50:38.454  8079  8094 D BtGatt.GattService: enforcePrivilegedPermissionIfNeeded([BluetoothLeScanFilter [mDeviceName=null, mDeviceAddress=null, mUuid=null, mUuidMask=null, mServiceSolicitationUuid=null, mServiceSolicitationUuidMask=null, mServiceDataUuid=null, mServiceData=null, mServiceDataMask=null, mManufacturerId=911, mManufacturerData=[], mManufacturerDataMask=null, mOrganizationId=-1, mTDSFlags=-1, mTDSFlagsMask=-1, mWifiNANHash=null], mGroupBasedFiltering=false, BluetoothLeScanFilter [mDeviceName=null, mDeviceAddress=null, mUuid=null, mUuidMask=null, mServiceSolicitationUuid=null, mServiceSolicitationUuidMask=null, mServiceDataUuid=null, mServiceData=null, mServiceDataMask=null, mManufacturerId=65535, mManufacturerData=[77], mManufacturerDataMask=null, mOrganizationId=-1, mTDSFlags=-1, mTDSFlagsMask=-1, mWifiNANHash=null], mGroupBasedFiltering=false, BluetoothLeScanFilter [mDeviceName=null, mDeviceAddress=null, mUuid=null, mUuidMask=null, mServiceSolicitationUuid=null, mServiceSolicitationUuidMask=null, mServiceDataUuid=0000fe95-0000-1000-8000-00805f9b34fb, mServiceData=[], mServiceDataMask=null, mManufacturerId=-1, mManufacturerData=null, mManufacturerDataMask=null, mOrganizationId=-1, mTDSFlags=-1, mTDSFlagsMask=-1, mWifiNANHash=null], mGroupBasedFiltering=false, BluetoothLeScanFilter [mDeviceName=null, mDeviceAddress=null, mUuid=null, mUuidMask=null, mServiceSolicitationUuid=null, mServiceSolicitationUuidMask=null, mServiceDataUuid=0000fdaa-0000-1000-8000-00805f9b34fb, mServiceData=[], mServiceDataMask=null, mManufacturerId=-1, mManufacturerData=null, mManufacturerDataMask=null, mOrganizationId=-1, mTDSFlags=-1, mTDSFlagsMask=-1, mWifiNANHash=null], mGroupBasedFiltering=false, BluetoothLeScanFilter [mDeviceName=null, mDeviceAddress=null, mUuid=null, mUuidMask=null, mServiceSolicitationUuid=null, mServiceSolicitationUuidMask=null, mServiceDataUuid=0000fdee-0000-1000-8000-00805f9b34fb, mServiceData=[1, 1, 1], mServiceDataMask=null, mManufacturerId=-1, mManufacturerData=null, mManufacturerDataMask=null, mOrganizationId=-1, mTDSFlags=-1, mTDSFlagsMask=-1, mWifiNANHash=null], mGroupBasedFiltering=false, BluetoothLeScanFilter [mDeviceName=null, mDeviceAddress=null, mUuid=null, mUuidMask=null, mServiceSolicitationUuid=null, mServiceSolicitationUuidMask=null, mServiceDataUuid=0000fd2d-0000-1000-8000-00805f9b34fb, mServiceData=[], mServiceDataMask=null, mManufacturerId=-1, mManufacturerData=null, mManufacturerDataMask=null, mOrganizationId=-1, mTDSFlags=-1, mTDSFlagsMask=-1, mWifiNANHash=null], mGroupBasedFiltering=false])
+12-22 11:50:38.456  8079  8094 W BluetoothUtils: callingUid is Process.BLUETOOTH_UID
+12-22 11:50:38.457  8079 11126 I BtGatt.ScanManager: msg.what = 9, msg.arg1 = 0(mMiuiControllingType)
+12-22 11:50:38.457  8079 11126 I BtGatt.ScanManager: msg.what = 0, msg.arg1 = 0(mMiuiControllingType)
+12-22 11:50:38.457  8079 11126 D BtGatt.ScanManager: handling starting scan
+12-22 11:50:38.458  8079 11126 D BtGatt.ScanManager: isAptXLowLatencyModeEnabled: false
+12-22 11:50:38.458  8079 11126 D BtGatt.ScanManager: track LE scan event: callerPackage = [com.xiaomi.bluetooth], scanMode = [0], reportDelayMillis = [0], behavior = [1], scannerId = [7], duration = [0]
+12-22 11:50:38.459  1192 11175 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+12-22 11:50:38.459  1192 11175 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+12-22 11:50:38.459  8079 11099 D BtGatt.GattService: onScanFilterEnableDisabled() - clientIf=7, status=0, action=1
+12-22 11:50:38.459  8079 11099 D BtGatt.ScanManager: callback done for scannerId - 7 status - 0
+12-22 11:50:38.460  8079 11126 D BtGatt.ScanManager: configureScanFilters rssiThreshold: -60, 15
+12-22 11:50:38.460  8079 11126 D BtGatt.ScanManager: Available Filter size: 61
+12-22 11:50:38.460  8079 11099 D BtGatt.GattService: onScanFilterConfig() - clientIf=7, action = 0 status = 0, filterType=0, availableSpace=0
+12-22 11:50:38.460  8079 11099 D BtGatt.ScanManager: callback done for scannerId - 7 status - 0
+12-22 11:50:38.460  8079 11126 D BtGatt.ScanManager: configureFilterParamter 500 10000 1 0, deliveryMode=0
+12-22 11:50:38.462 20304 20444 D IdProviderImpl: getOAID from com.miui.analytics
+12-22 11:50:38.462  8079 11099 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=7, status=0, action=0, availableSpace=63
+12-22 11:50:38.462  8079 11099 D BtGatt.ScanManager: callback done for scannerId - 7 status - 0
+12-22 11:50:38.462  8079 11099 D BtGatt.GattService: onScanFilterConfig() - clientIf=7, action = 0 status = 0, filterType=0, availableSpace=0
+12-22 11:50:38.462  8079 11099 D BtGatt.ScanManager: callback done for scannerId - 7 status - 0
+12-22 11:50:38.463  8079 11126 D BtGatt.ScanManager: configureFilterParamter 500 10000 1 0, deliveryMode=0
+12-22 11:50:38.465  8079 11099 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=7, status=0, action=0, availableSpace=62
+12-22 11:50:38.465  8079 11099 D BtGatt.ScanManager: callback done for scannerId - 7 status - 0
+12-22 11:50:38.465  8079 11099 D BtGatt.GattService: onScanFilterConfig() - clientIf=7, action = 0 status = 0, filterType=0, availableSpace=0
+12-22 11:50:38.465  8079 11099 D BtGatt.ScanManager: callback done for scannerId - 7 status - 0
+12-22 11:50:38.465  8079 11126 D BtGatt.ScanManager: configureFilterParamter 500 10000 1 0, deliveryMode=0
+12-22 11:50:38.467  8079 11099 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=7, status=0, action=0, availableSpace=61
+12-22 11:50:38.467  8079 11099 D BtGatt.ScanManager: callback done for scannerId - 7 status - 0
+12-22 11:50:38.467  8079 11099 D BtGatt.GattService: onScanFilterConfig() - clientIf=7, action = 0 status = 0, filterType=0, availableSpace=0
+12-22 11:50:38.467  8079 11099 D BtGatt.ScanManager: callback done for scannerId - 7 status - 0
+12-22 11:50:38.467  8079 11126 D BtGatt.ScanManager: configureFilterParamter 500 10000 1 0, deliveryMode=0
+12-22 11:50:38.469  8079 11099 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=7, status=0, action=0, availableSpace=60
+12-22 11:50:38.469  8079 11099 D BtGatt.ScanManager: callback done for scannerId - 7 status - 0
+12-22 11:50:38.469  8079 11099 D BtGatt.GattService: onScanFilterConfig() - clientIf=7, action = 0 status = 0, filterType=0, availableSpace=0
+12-22 11:50:38.469  8079 11099 D BtGatt.ScanManager: callback done for scannerId - 7 status - 0
+12-22 11:50:38.469  8079 11126 D BtGatt.ScanManager: configureFilterParamter 500 10000 1 0, deliveryMode=0
+12-22 11:50:38.471  8079 11099 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=7, status=0, action=0, availableSpace=59
+12-22 11:50:38.471  8079 11099 D BtGatt.ScanManager: callback done for scannerId - 7 status - 0
+12-22 11:50:38.471  8079 11099 D BtGatt.GattService: onScanFilterConfig() - clientIf=7, action = 0 status = 0, filterType=0, availableSpace=0
+12-22 11:50:38.471  8079 11099 D BtGatt.ScanManager: callback done for scannerId - 7 status - 0
+12-22 11:50:38.471  8079 11126 D BtGatt.ScanManager: configureFilterParamter 500 10000 1 0, deliveryMode=0
+12-22 11:50:38.473  8079 11099 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=7, status=0, action=0, availableSpace=58
+12-22 11:50:38.473  8079 11099 D BtGatt.ScanManager: callback done for scannerId - 7 status - 0
+12-22 11:50:38.473  8079 11126 D BtGatt.ScanManager: configureRegularScanParams() - queue=1
+12-22 11:50:38.473  8079 11126 D BtGatt.ScanManager: configureRegularScanParams() - ScanSetting LE 1M Scan mode=0 ScanSetting LE Coded Scan mode=0 mLastConfiguredScanSettingLE1M=-2147483648 mLastConfiguredScanSettingLECoded=-2147483648 scanPhy=255
+12-22 11:50:38.474  8079 11126 W BtGatt.ScanManager: trackLeScan() - mLastStartTime = 0
+12-22 11:50:38.474  8079 11126 D BtGatt.ScanManager: configureRegularScanParams - scanInterval LE 1M = 660 configureRegularScanParams - scanWindow LE 1M= 66 configureRegularScanParams - scanInterval LE Coded= 660 configureRegularScanParams - scanWindow LE Coded= 66
+12-22 11:50:38.474  8079 11099 D BtGatt.GattService: onScanParamSetupCompleted : 0
+12-22 11:50:38.519  1192 11175 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+12-22 11:50:38.581  2027  3285 D libsensor-displayalgo: the value of  brightness:369.000000,R:70890239.206027,G:63382457.368488,B:50291292.731193,EVENT_C:3457.500000,EVENT_R:1443.000000,EVENT_G:1835.000000,EVENT_B:757.000000
+12-22 11:50:38.581  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 11:50:38.581  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 11:50:38.582  2027  3285 I libsensor-displayalgo: the value of  RESULT2482.127801,1013.814098,1202.772282,428.047677
+12-22 11:50:38.582  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2590.311385,940.824383,1387.144857,463.350886
+12-22 11:50:38.582  2027  3285 I libsensor-displayalgo: the value of  REAL LUX38.791229
+12-22 11:50:38.582  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX38.791229
+12-22 11:50:38.778 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:38.778 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:38.778 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:38.778 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:38.779 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:38.794  1251  2448 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+12-22 11:50:38.795  2027  4130 I libcitsensorservice@2.0-impl: msg_transfer
+12-22 11:50:38.796  2027  3266 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:10 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+12-22 11:50:38.796  1251  2215 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+12-22 11:50:38.797  1251 32115 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+12-22 11:50:38.802  1251 32115 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+12-22 11:50:38.802  1251 32115 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+12-22 11:50:38.803  1251 32115 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+12-22 11:50:38.803  1251 32115 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+12-22 11:50:38.810  1251  1467 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+12-22 11:50:38.816  1251 32121 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+12-22 11:50:38.816  1251 32121 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+12-22 11:50:38.816  1251 32121 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+12-22 11:50:38.913 30932 30962 I appium  : channel read: POST /wd/hub/session/d04556ec-3a9e-4037-bf27-d12cab210bb7/actions
+12-22 11:50:38.915 30932 30962 I appium  : W3CActions command
+12-22 11:50:38.983  2027  3285 D libsensor-displayalgo: the value of  brightness:369.000000,R:70890239.206027,G:63382457.368488,B:50291292.731193,EVENT_C:3432.000000,EVENT_R:1429.500000,EVENT_G:1821.000000,EVENT_B:748.500000
+12-22 11:50:38.983  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 11:50:38.983  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 11:50:38.984  2027  3285 I libsensor-displayalgo: the value of  RESULT2482.127801,1013.814098,1202.772282,428.047677
+12-22 11:50:38.984  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2590.311385,940.824383,1387.144857,463.350886
+12-22 11:50:38.984  2027  3285 I libsensor-displayalgo: the value of  REAL LUX37.554047
+12-22 11:50:38.984  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX37.554047
+12-22 11:50:39.203  2475  4363 D MIUIInput: Input event injection from pid 30913, MotionEvent: DOWN
+12-22 11:50:39.204  2475  3037 D MIUIInput: [MotionEvent] publisher action=0x4, 584543553, channel 'a6e61f2 NavigationBar0 (server)'
+12-22 11:50:39.205  2475  3037 D MIUIInput: [MotionEvent] publisher action=0x0, 584543553, channel '6f2991c InputMethod (server)'
+12-22 11:50:39.206  1251  2448 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+12-22 11:50:39.207  2027  4130 I libcitsensorservice@2.0-impl: msg_transfer
+12-22 11:50:39.207  2027  3266 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:10 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+12-22 11:50:39.208  1251  2215 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+12-22 11:50:39.210  1251 32128 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+12-22 11:50:39.210  2475  5746 I HapticFeedbackUtil: 3,2,true
+12-22 11:50:39.211  1367  1367 D vendor.hardware.vibratorfeature: configStrengthForEffect id : 3 , strength: 1.000000
+12-22 11:50:39.214 21839 21839 E BaseInputMethodService: onComputeInsets
+12-22 11:50:39.216  1251 32128 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+12-22 11:50:39.216  1251 32128 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+12-22 11:50:39.217  1251 32128 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+12-22 11:50:39.217  1251 32128 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+12-22 11:50:39.218  1367  1367 D vendor.hardware.vibratorfeature: Vibrator perform effect 3
+12-22 11:50:39.218  1367  1367 D vendor.hardware.vibratorfeature: uses mCurrMagnitudeExt 1.000000
+12-22 11:50:39.218  1367  1367 D vendor.hardware.vibratorfeature: getAmplitudeFromEffectStrength 1.000000
+12-22 11:50:39.218  1367  1367 D vendor.hardware.vibratorfeature: return from driver is 20
+12-22 11:50:39.218  1367  1367 D vendor.hardware.vibratorfeature: playLengthMs is 70
+12-22 11:50:39.219 30932 30962 I appium  : [584543553 (success)] Synthesized: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=540.0, y[0]=1692.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=584543553, downTime=584543551, deviceId=0, source=0x1002, displayId=0, eventId=-67036764 }
+12-22 11:50:39.220  1367 32131 D vendor.hardware.vibratorfeature: Starting perform on another thread
+12-22 11:50:39.221  1251  1467 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+12-22 11:50:39.222 30932 30962 I appium  : The event has been delayed for 34ms
+12-22 11:50:39.222 21839 21839 E BaseInputMethodService: onComputeInsets
+12-22 11:50:39.228  1251 32130 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+12-22 11:50:39.228  1251 32130 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+12-22 11:50:39.229  1251 32130 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+12-22 11:50:39.231 21839 21839 E BaseInputMethodService: onComputeInsets
+12-22 11:50:39.239 21839 21839 E BaseInputMethodService: onComputeInsets
+12-22 11:50:39.247 21839 21839 E BaseInputMethodService: onComputeInsets
+12-22 11:50:39.256 21839 21839 E BaseInputMethodService: onComputeInsets
+12-22 11:50:39.264 21839 21839 E BaseInputMethodService: onComputeInsets
+12-22 11:50:39.271 21839 21839 E BaseInputMethodService: onComputeInsets
+12-22 11:50:39.280 21839 21839 E BaseInputMethodService: onComputeInsets
+12-22 11:50:39.280 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:39.280 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:39.280 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:39.280 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:39.280 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:39.282  2027  3285 D libsensor-displayalgo: the value of  brightness:369.000000,R:70890239.206027,G:63382457.368488,B:50291292.731193,EVENT_C:3418.000000,EVENT_R:1421.500000,EVENT_G:1816.500000,EVENT_B:744.000000
+12-22 11:50:39.282  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 11:50:39.282  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 11:50:39.282  2027  3285 I libsensor-displayalgo: the value of  RESULT2482.127801,1013.814098,1202.772282,428.047677
+12-22 11:50:39.282  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2590.311385,940.824383,1387.144857,463.350886
+12-22 11:50:39.282  2027  3285 I libsensor-displayalgo: the value of  REAL LUX37.028427
+12-22 11:50:39.282  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX37.028427
+12-22 11:50:39.288 21839 21839 E BaseInputMethodService: onComputeInsets
+12-22 11:50:39.289 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:39.289 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:39.289 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:39.289 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:39.291  1367 32131 D vendor.hardware.vibratorfeature: Notifying perform complete
+12-22 11:50:39.292  1367  1367 D vendor.hardware.vibratorfeature: QTI Vibrator off
+12-22 11:50:39.292  1367  1367 D DynamicEffectThread: pause
+12-22 11:50:39.292  1367  1367 D DynamicEffectDevice: FFDevice pause
+12-22 11:50:39.296 21839 21839 E BaseInputMethodService: onComputeInsets
+12-22 11:50:39.304 21839 21839 E BaseInputMethodService: onComputeInsets
+12-22 11:50:39.313 21839 21839 E BaseInputMethodService: onComputeInsets
+12-22 11:50:39.321 21839 21839 E BaseInputMethodService: onComputeInsets
+12-22 11:50:39.329 21839 21839 E BaseInputMethodService: onComputeInsets
+12-22 11:50:39.452 19413 19872 I SmartThreadExecutor: handleMessage: start check 0
+12-22 11:50:39.453 19413 19872 I SmartThreadExecutor: handleMessage: check end 0 -27 false
+12-22 11:50:39.478  1192 11182 I vendor.qti.bluetooth@1.0-ibs_handler: DeviceSleep: TX Awake, Sending SLEEP_IND
+12-22 11:50:39.478  1192 11182 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+12-22 11:50:39.494  1251  2448 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+12-22 11:50:39.494  2027  4130 I libcitsensorservice@2.0-impl: msg_transfer
+12-22 11:50:39.494  2027  3266 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:10 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+12-22 11:50:39.495  1251  2215 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+12-22 11:50:39.496  1251 32137 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+12-22 11:50:39.507  1251 32137 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+12-22 11:50:39.507  1251 32137 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+12-22 11:50:39.507  1251 32137 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+12-22 11:50:39.508  1251 32137 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+12-22 11:50:39.510  1251  1467 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+12-22 11:50:39.511  1251  2448 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+12-22 11:50:39.512  2027  4130 I libcitsensorservice@2.0-impl: msg_transfer
+12-22 11:50:39.525  1251 32141 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+12-22 11:50:39.526  1251 32141 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+12-22 11:50:39.526  1251 32141 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+12-22 11:50:39.583  2027  3285 D libsensor-displayalgo: the value of  brightness:369.000000,R:70890239.206027,G:63382457.368488,B:50291292.731193,EVENT_C:3290.500000,EVENT_R:1362.000000,EVENT_G:1748.500000,EVENT_B:708.000000
+12-22 11:50:39.583  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 11:50:39.583  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 11:50:39.584  2027  3285 I libsensor-displayalgo: the value of  RESULT2482.127801,1013.814098,1202.772282,428.047677
+12-22 11:50:39.584  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2590.311385,940.824383,1387.144857,463.350886
+12-22 11:50:39.584  2027  3285 I libsensor-displayalgo: the value of  REAL LUX30.103888
+12-22 11:50:39.584  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX30.103888
+12-22 11:50:39.628  1192 11131 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released
+12-22 11:50:39.716 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:39.717 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:39.717 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:39.717 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:39.782 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:39.783 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:39.783 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:39.783 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:39.784 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:39.869  1953  2016 I mstatdaemon: Entering time loop
+12-22 11:50:39.869  1953  2016 I mstatdaemon: t = 1671681039
+12-22 11:50:39.869  1953  2016 I mstatdaemon: translated_t = 1355691039
+12-22 11:50:39.869  1953  2016 I mstat_log: mstatcommitLog log_alloc() failed
+12-22 11:50:39.882  2027  3285 D libsensor-displayalgo: the value of  brightness:369.000000,R:70890239.206027,G:63382457.368488,B:50291292.731193,EVENT_C:3290.500000,EVENT_R:1362.000000,EVENT_G:1748.500000,EVENT_B:708.000000
+12-22 11:50:39.882  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 11:50:39.882  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 11:50:39.883  2027  3285 I libsensor-displayalgo: the value of  RESULT2482.127801,1013.814098,1202.772282,428.047677
+12-22 11:50:39.883  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2590.311385,940.824383,1387.144857,463.350886
+12-22 11:50:39.883  2027  3285 I libsensor-displayalgo: the value of  REAL LUX30.103888
+12-22 11:50:39.883  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX30.103888
+12-22 11:50:39.961  2475  3037 D MIUIInput: [MotionEvent] publisher action=0x3, 584544329, channel '6f2991c InputMethod (server)'
+12-22 11:50:39.962  2475  3037 D MIUIInput: [MotionEvent] publisher action=0x4, 584544329, channel 'a6e61f2 NavigationBar0 (server)'
+12-22 11:50:39.962  2475  3037 D MIUIInput: [MotionEvent] publisher action=0x0, 584544329, channel '6f2991c InputMethod (server)'
+12-22 11:50:39.965  2475  5746 I HapticFeedbackUtil: 3,2,true
+12-22 11:50:39.966  1367  1367 D vendor.hardware.vibratorfeature: configStrengthForEffect id : 3 , strength: 1.000000
+12-22 11:50:39.969  1367  1367 D vendor.hardware.vibratorfeature: Vibrator perform effect 3
+12-22 11:50:39.969  1367  1367 D vendor.hardware.vibratorfeature: uses mCurrMagnitudeExt 1.000000
+12-22 11:50:39.970  1367  1367 D vendor.hardware.vibratorfeature: getAmplitudeFromEffectStrength 1.000000
+12-22 11:50:39.970  1367  1367 D vendor.hardware.vibratorfeature: return from driver is 20
+12-22 11:50:39.970  1367  1367 D vendor.hardware.vibratorfeature: playLengthMs is 70
+12-22 11:50:39.970  1367 32144 D vendor.hardware.vibratorfeature: Starting perform on another thread
+12-22 11:50:39.971 21839 21839 E BaseInputMethodService: onComputeInsets
+12-22 11:50:39.991  1251  2448 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+12-22 11:50:39.992  2027  4130 I libcitsensorservice@2.0-impl: msg_transfer
+12-22 11:50:39.992  2027  3266 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:10 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+12-22 11:50:39.992  1251  2215 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+12-22 11:50:39.993  1251 32149 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+12-22 11:50:40.007  1251 32149 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+12-22 11:50:40.007  1251 32149 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+12-22 11:50:40.008  1251 32149 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+12-22 11:50:40.008  1251 32149 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+12-22 11:50:40.018  1251  1467 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+12-22 11:50:40.020  1251 32151 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+12-22 11:50:40.021  1251 32151 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+12-22 11:50:40.021  1251 32151 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+12-22 11:50:40.022  2475  3037 D MIUIInput: [MotionEvent] publisher action=0x1, 584544390, channel '6f2991c InputMethod (server)'
+12-22 11:50:40.029 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:40.029 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:40.029 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:40.032 21839 21839 E BaseInputMethodService: onComputeInsets
+12-22 11:50:40.040  1367 32144 D vendor.hardware.vibratorfeature: Notifying perform complete
+12-22 11:50:40.041  1367  1367 D vendor.hardware.vibratorfeature: QTI Vibrator off
+12-22 11:50:40.041  1367  1367 D DynamicEffectThread: pause
+12-22 11:50:40.041  1367  1367 D DynamicEffectDevice: FFDevice pause
+12-22 11:50:40.150  2475  3037 D MIUIInput: [MotionEvent] publisher action=0x4, 584544517, channel 'a6e61f2 NavigationBar0 (server)'
+12-22 11:50:40.150  2475  3037 D MIUIInput: [MotionEvent] publisher action=0x0, 584544517, channel '6f2991c InputMethod (server)'
+12-22 11:50:40.153  2475  4363 I HapticFeedbackUtil: 3,2,true
+12-22 11:50:40.154  1367  1367 D vendor.hardware.vibratorfeature: configStrengthForEffect id : 3 , strength: 1.000000
+12-22 11:50:40.157  1367  1367 D vendor.hardware.vibratorfeature: Vibrator perform effect 3
+12-22 11:50:40.157  1367  1367 D vendor.hardware.vibratorfeature: uses mCurrMagnitudeExt 1.000000
+12-22 11:50:40.157  1367  1367 D vendor.hardware.vibratorfeature: getAmplitudeFromEffectStrength 1.000000
+12-22 11:50:40.157  1367  1367 D vendor.hardware.vibratorfeature: return from driver is 20
+12-22 11:50:40.157  1367  1367 D vendor.hardware.vibratorfeature: playLengthMs is 70
+12-22 11:50:40.158  1367 32153 D vendor.hardware.vibratorfeature: Starting perform on another thread
+12-22 11:50:40.161 21839 21839 E BaseInputMethodService: onComputeInsets
+12-22 11:50:40.182  2027  3285 D libsensor-displayalgo: the value of  brightness:369.000000,R:70890239.206027,G:63382457.368488,B:50291292.731193,EVENT_C:3306.000000,EVENT_R:1364.500000,EVENT_G:1757.000000,EVENT_B:710.500000
+12-22 11:50:40.182  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 11:50:40.182  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 11:50:40.182  2027  3285 I libsensor-displayalgo: the value of  RESULT2482.127801,1013.814098,1202.772282,428.047677
+12-22 11:50:40.182  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2590.311385,940.824383,1387.144857,463.350886
+12-22 11:50:40.182  2027  3285 I libsensor-displayalgo: the value of  REAL LUX31.287214
+12-22 11:50:40.182  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX31.287214
+12-22 11:50:40.182  2027  3285 I libsensor-ssccalapi: value of set_lux: 31.287214
+12-22 11:50:40.186  2475  3037 I InputDispatcher: Dropping move event because a pointer for a different device is already active in display 0 deviceId before=8 now=-1, source before=4098 now=4098,display id before=0
+12-22 11:50:40.186  2475  3037 W InputDispatcher: Permission denied, dropping the motion (isPointer=true)
+12-22 11:50:40.186  2475  4363 W InputManager: Input event injection from pid 30913 permission denied.
+12-22 11:50:40.191 30932 30962 I appium  : AppiumResponse: {"sessionId":"d04556ec-3a9e-4037-bf27-d12cab210bb7","value":{"error":"unknown error","message":"Cannot invoke method private boolean androidx.test.uiautomator.InteractionController.injectEventSync(android.view.InputEvent) on object androidx.test.uiautomator.InteractionController@150d02f with parameters [MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=540.0, y[0]=1692.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=584544553, downTime=584543551, deviceId=0, source=0x1002, displayId=0, eventId=-563636676 }]","stacktrace":"io.appium.uiautomator2.common.exceptions.UiAutomator2Exception: Cannot invoke method private boolean androidx.test.uiautomator.InteractionController.injectEventSync(android.view.InputEvent) on object androidx.test.uiautomator.InteractionController@150d02f with parameters [MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=540.0, y[0]=1692.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=584544553, downTime=584543551, deviceId=0, source=0x1002, displayId=0, eventId=-563636676 }]\n\tat io.appium.uiautomator2.utils.ReflectionUtils.invoke(ReflectionUtils.java:85)\n\tat io.appium.uiautomator2.core.InteractionController.injectEventSync(InteractionController.java:52)\n\tat io.appium.uiautomator2.utils.w3c.ActionsExecutor.executeMotionEvents(ActionsExecutor.java:253)\n\tat io.appium.uiautomator2.utils.w3c.ActionsExecutor.execute(ActionsExecutor.java:298)\n\tat io.appium.uiautomator2.handler.W3CActions.safeHandle(W3CActions.java:84)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline
+12-22 11:50:40.212 30932 30962 I appium  : channel read: GET /wd/hub/session/d04556ec-3a9e-4037-bf27-d12cab210bb7/screenshot
+12-22 11:50:40.213 30932 30962 I appium  : CaptureScreenshot command
+12-22 11:50:40.224  2475  3037 D MIUIInput: [MotionEvent] publisher action=0x1, 584544592, channel '6f2991c InputMethod (server)'
+12-22 11:50:40.227 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:40.227 21839 21839 E BaseInputMethodService: onComputeInsets
+12-22 11:50:40.227 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:40.227 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:40.228  1367 32153 D vendor.hardware.vibratorfeature: Notifying perform complete
+12-22 11:50:40.230  1367  1367 D vendor.hardware.vibratorfeature: QTI Vibrator off
+12-22 11:50:40.230  1367  1367 D DynamicEffectThread: pause
+12-22 11:50:40.230  1367  1367 D DynamicEffectDevice: FFDevice pause
+12-22 11:50:40.276 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:40.277 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:40.277 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:40.277 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:40.277 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:40.286 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:40.286 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:40.287 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:40.287 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:40.291  1251  2448 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+12-22 11:50:40.292  2027  2097 I libcitsensorservice@2.0-impl: msg_transfer
+12-22 11:50:40.292  2027  3266 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:10 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+12-22 11:50:40.292  1251  2215 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+12-22 11:50:40.293  1251 32166 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+12-22 11:50:40.300  1251 32166 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+12-22 11:50:40.300  1251 32166 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+12-22 11:50:40.301  1251 32166 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+12-22 11:50:40.301  1251 32166 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+12-22 11:50:40.307  1251  1467 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+12-22 11:50:40.315  1251 32167 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+12-22 11:50:40.315  1251 32167 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+12-22 11:50:40.315  1251 32167 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+12-22 11:50:40.382  1328  1328 D SRE     : sensorCallback mDisplayId = 0 dataCallback value=<  31.2875, 199.9794, 369.0000>,time=1413890847050494, sensor=5, temperature(K)= 199.9794
+12-22 11:50:40.382  1328  1328 D SRE     : setSREStrength mDisplayId = 0, mLastLux = 40, lux = 31, mSREEnabled = 1, mLastFreezeStatus = 0, freeze = 0
+12-22 11:50:40.461  1251  2448 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+12-22 11:50:40.462  2027  2097 I libcitsensorservice@2.0-impl: msg_transfer
+12-22 11:50:40.462  2027  3266 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:10 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+12-22 11:50:40.462  1251  2215 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+12-22 11:50:40.463  1251 32168 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+12-22 11:50:40.476  1251 32168 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+12-22 11:50:40.476  1251 32168 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+12-22 11:50:40.476  1251 32168 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+12-22 11:50:40.476  1251 32168 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+12-22 11:50:40.480  1251  1467 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+12-22 11:50:40.488  1251 32173 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+12-22 11:50:40.488  1251 32173 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+12-22 11:50:40.489  1251 32173 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+12-22 11:50:40.514  2475  3037 D MIUIInput: [MotionEvent] publisher action=0x4, 584544882, channel 'a6e61f2 NavigationBar0 (server)'
+12-22 11:50:40.515  2475  3037 D MIUIInput: [MotionEvent] publisher action=0x0, 584544882, channel '6f2991c InputMethod (server)'
+12-22 11:50:40.516  2475  5746 I HapticFeedbackUtil: 3,2,true
+12-22 11:50:40.516  1367  1367 D vendor.hardware.vibratorfeature: configStrengthForEffect id : 3 , strength: 1.000000
+12-22 11:50:40.517  1367  1367 D vendor.hardware.vibratorfeature: Vibrator perform effect 3
+12-22 11:50:40.517  1367  1367 D vendor.hardware.vibratorfeature: uses mCurrMagnitudeExt 1.000000
+12-22 11:50:40.517  1367  1367 D vendor.hardware.vibratorfeature: getAmplitudeFromEffectStrength 1.000000
+12-22 11:50:40.517  1367  1367 D vendor.hardware.vibratorfeature: return from driver is 20
+12-22 11:50:40.518  1367  1367 D vendor.hardware.vibratorfeature: playLengthMs is 70
+12-22 11:50:40.518  1367 32175 D vendor.hardware.vibratorfeature: Starting perform on another thread
+12-22 11:50:40.523 21839 21839 E BaseInputMethodService: onComputeInsets
+12-22 11:50:40.531 21839 21839 E BaseInputMethodService: onComputeInsets
+12-22 11:50:40.540 21839 21839 E BaseInputMethodService: onComputeInsets
+12-22 11:50:40.548 21839 21839 E BaseInputMethodService: onComputeInsets
+12-22 11:50:40.557 21839 21839 E BaseInputMethodService: onComputeInsets
+12-22 11:50:40.564 21839 21839 E BaseInputMethodService: onComputeInsets
+12-22 11:50:40.573 21839 21839 E BaseInputMethodService: onComputeInsets
+12-22 11:50:40.581 21839 21839 E BaseInputMethodService: onComputeInsets
+12-22 11:50:40.582  2027  3285 D libsensor-displayalgo: the value of  brightness:369.000000,R:70890239.206027,G:63382457.368488,B:50291292.731193,EVENT_C:3307.000000,EVENT_R:1367.000000,EVENT_G:1755.500000,EVENT_B:712.000000
+12-22 11:50:40.582  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 11:50:40.582  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 11:50:40.582  2027  3285 I libsensor-displayalgo: the value of  RESULT2482.127801,1013.814098,1202.772282,428.047677
+12-22 11:50:40.582  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2590.311385,940.824383,1387.144857,463.350886
+12-22 11:50:40.582  2027  3285 I libsensor-displayalgo: the value of  REAL LUX31.073423
+12-22 11:50:40.582  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX31.073423
+12-22 11:50:40.588  1367 32175 D vendor.hardware.vibratorfeature: Notifying perform complete
+12-22 11:50:40.590  1367  1367 D vendor.hardware.vibratorfeature: QTI Vibrator off
+12-22 11:50:40.590  1367  1367 D DynamicEffectThread: pause
+12-22 11:50:40.590  1367  1367 D DynamicEffectDevice: FFDevice pause
+12-22 11:50:40.590 21839 21839 E BaseInputMethodService: onComputeInsets
+12-22 11:50:40.594  2475  3037 D MIUIInput: [MotionEvent] publisher action=0x1, 584544962, channel '6f2991c InputMethod (server)'
+12-22 11:50:40.596  1251  2448 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+12-22 11:50:40.596  2027  4130 I libcitsensorservice@2.0-impl: msg_transfer
+12-22 11:50:40.596  2027  3266 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:10 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+12-22 11:50:40.596  1251  2215 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+12-22 11:50:40.597 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:40.598 21839 21839 E BaseInputMethodService: onComputeInsets
+12-22 11:50:40.599 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:40.601 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:40.601 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:40.601 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:40.601 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:40.601 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:40.602 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:40.605  5128  2161 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-22 11:50:40.605  5128  2161 W Binder  : java.lang.SecurityException: Permission denial
+12-22 11:50:40.605  5128  2161 W Binder  : 	at com.xiaomi.mirror.MirrorAppService.enforceSignature(MirrorAppService.java:30)
+12-22 11:50:40.605  5128  2161 W Binder  : 	at com.xiaomi.mirror.MirrorAppService.isWorking(MirrorAppService.java:35)
+12-22 11:50:40.605  5128  2161 W Binder  : 	at com.xiaomi.mirror.MirrorAppService.notifyInputTypeAndPos(MirrorAppService.java:88)
+12-22 11:50:40.605  5128  2161 W Binder  : 	at com.xiaomi.mirror.IMirrorAppService$Stub.onTransact(IMirrorAppService.java:135)
+12-22 11:50:40.605  5128  2161 W Binder  : 	at android.os.Binder.execTransactInternal(Binder.java:1190)
+12-22 11:50:40.605  5128  2161 W Binder  : 	at android.os.Binder.execTransact(Binder.java:1149)
+12-22 11:50:40.606  1251 32176 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+12-22 11:50:40.607 21839 21839 E BaseInputMethodService: onComputeInsets
+12-22 11:50:40.614 21839 21839 E BaseInputMethodService: onComputeInsets
+12-22 11:50:40.615  1251 32176 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+12-22 11:50:40.615  1251 32176 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+12-22 11:50:40.615  1251 32176 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+12-22 11:50:40.615  1251 32176 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+12-22 11:50:40.620  1251  1467 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+12-22 11:50:40.622 21839 21839 E BaseInputMethodService: onComputeInsets
+12-22 11:50:40.631  1251 32177 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+12-22 11:50:40.632  1251 32177 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+12-22 11:50:40.632  1251 32177 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+12-22 11:50:40.721  2475  3037 D MIUIInput: [MotionEvent] publisher action=0x4, 584545088, channel 'a6e61f2 NavigationBar0 (server)'
+12-22 11:50:40.721  2475  3037 D MIUIInput: [MotionEvent] publisher action=0x0, 584545088, channel '6f2991c InputMethod (server)'
+12-22 11:50:40.723  2475  5746 I HapticFeedbackUtil: 3,2,true
+12-22 11:50:40.723  1367  1367 D vendor.hardware.vibratorfeature: configStrengthForEffect id : 3 , strength: 1.000000
+12-22 11:50:40.724  1367  1367 D vendor.hardware.vibratorfeature: Vibrator perform effect 3
+12-22 11:50:40.724  1367  1367 D vendor.hardware.vibratorfeature: uses mCurrMagnitudeExt 1.000000
+12-22 11:50:40.724  1367  1367 D vendor.hardware.vibratorfeature: getAmplitudeFromEffectStrength 1.000000
+12-22 11:50:40.725  1367  1367 D vendor.hardware.vibratorfeature: return from driver is 20
+12-22 11:50:40.725  1367  1367 D vendor.hardware.vibratorfeature: playLengthMs is 70
+12-22 11:50:40.725  1367 32179 D vendor.hardware.vibratorfeature: Starting perform on another thread
+12-22 11:50:40.729 21839 21839 E BaseInputMethodService: onComputeInsets
+12-22 11:50:40.737 21839 21839 E BaseInputMethodService: onComputeInsets
+12-22 11:50:40.746 21839 21839 E BaseInputMethodService: onComputeInsets
+12-22 11:50:40.754 21839 21839 E BaseInputMethodService: onComputeInsets
+12-22 11:50:40.762 21839 21839 E BaseInputMethodService: onComputeInsets
+12-22 11:50:40.770 21839 21839 E BaseInputMethodService: onComputeInsets
+12-22 11:50:40.778 21839 21839 E BaseInputMethodService: onComputeInsets
+12-22 11:50:40.786 21839 21839 E BaseInputMethodService: onComputeInsets
+12-22 11:50:40.787  2475  3037 D MIUIInput: [MotionEvent] publisher action=0x1, 584545155, channel '6f2991c InputMethod (server)'
+12-22 11:50:40.790 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:40.792 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:40.794 21839 21839 E BaseInputMethodService: onComputeInsets
+12-22 11:50:40.794 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:40.794 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:40.795 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:40.795 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:40.795 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:40.795  1367 32179 D vendor.hardware.vibratorfeature: Notifying perform complete
+12-22 11:50:40.798  5128  2161 W Binder  : Caught a RuntimeException from the binder stub implementation.
+12-22 11:50:40.798  5128  2161 W Binder  : java.lang.SecurityException: Permission denial
+12-22 11:50:40.798  5128  2161 W Binder  : 	at com.xiaomi.mirror.MirrorAppService.enforceSignature(MirrorAppService.java:30)
+12-22 11:50:40.798  5128  2161 W Binder  : 	at com.xiaomi.mirror.MirrorAppService.isWorking(MirrorAppService.java:35)
+12-22 11:50:40.798  5128  2161 W Binder  : 	at com.xiaomi.mirror.MirrorAppService.notifyInputTypeAndPos(MirrorAppService.java:88)
+12-22 11:50:40.798  5128  2161 W Binder  : 	at com.xiaomi.mirror.IMirrorAppService$Stub.onTransact(IMirrorAppService.java:135)
+12-22 11:50:40.798  5128  2161 W Binder  : 	at android.os.Binder.execTransactInternal(Binder.java:1190)
+12-22 11:50:40.798  5128  2161 W Binder  : 	at android.os.Binder.execTransact(Binder.java:1149)
+12-22 11:50:40.798  1367  1367 D vendor.hardware.vibratorfeature: QTI Vibrator off
+12-22 11:50:40.798  1367  1367 D DynamicEffectThread: pause
+12-22 11:50:40.798  1367  1367 D DynamicEffectDevice: FFDevice pause
+12-22 11:50:40.803 21839 21839 E BaseInputMethodService: onComputeInsets
+12-22 11:50:40.811 21839 21839 E BaseInputMethodService: onComputeInsets
+12-22 11:50:40.819 21839 21839 E BaseInputMethodService: onComputeInsets
+12-22 11:50:40.882  2027  3285 D libsensor-displayalgo: the value of  brightness:369.000000,R:70890239.206027,G:63382457.368488,B:50291292.731193,EVENT_C:3326.500000,EVENT_R:1377.000000,EVENT_G:1769.500000,EVENT_B:717.000000
+12-22 11:50:40.882  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 11:50:40.883  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 11:50:40.883  2027  3285 I libsensor-displayalgo: the value of  RESULT2482.127801,1013.814098,1202.772282,428.047677
+12-22 11:50:40.883  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2590.311385,940.824383,1387.144857,463.350886
+12-22 11:50:40.883  2027  3285 I libsensor-displayalgo: the value of  REAL LUX32.303432
+12-22 11:50:40.883  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX32.303432
+12-22 11:50:40.984  1251  2448 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+12-22 11:50:40.984  2027  2097 I libcitsensorservice@2.0-impl: msg_transfer
+12-22 11:50:40.984  2027  3266 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:10 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+12-22 11:50:40.984  1251  2215 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+12-22 11:50:40.985  1251 32181 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+12-22 11:50:40.991  1251  2448 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+12-22 11:50:40.991  2027  2097 I libcitsensorservice@2.0-impl: msg_transfer
+12-22 11:50:40.994  1251 32181 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+12-22 11:50:40.994  1251 32181 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+12-22 11:50:40.994  1251 32181 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+12-22 11:50:40.994  1251 32181 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+12-22 11:50:40.999  1251  1467 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+12-22 11:50:41.006  1251 32183 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+12-22 11:50:41.007  1251 32183 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+12-22 11:50:41.007  1251 32183 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+12-22 11:50:41.029 23436 23436 W esthd-24809: type=1400 audit(0.0:120306): avc: granted { nlmsg_readpriv } for scontext=u:r:untrusted_app_27:s0:c512,c768 tcontext=u:r:untrusted_app_27:s0:c512,c768 tclass=netlink_route_socket app=com.xunmeng.pinduoduo
+12-22 11:50:41.041 23436 23436 W esthd-24809: type=1400 audit(0.0:120307): avc: denied { read } for name="drivers" dev="proc" ino=4026531852 scontext=u:r:untrusted_app_27:s0:c512,c768 tcontext=u:object_r:proc_tty_drivers:s0 tclass=file permissive=0 app=com.xunmeng.pinduoduo
+12-22 11:50:41.041 23436 23436 W esthd-24809: type=1400 audit(0.0:120308): avc: denied { read } for name="tcp" dev="proc" ino=4026532037 scontext=u:r:untrusted_app_27:s0:c512,c768 tcontext=u:object_r:proc_net_tcp_udp:s0 tclass=file permissive=0 app=com.xunmeng.pinduoduo
+12-22 11:50:41.041 23436 23436 W esthd-24810: type=1400 audit(0.0:120309): avc: granted { nlmsg_readpriv } for scontext=u:r:untrusted_app_27:s0:c512,c768 tcontext=u:r:untrusted_app_27:s0:c512,c768 tclass=netlink_route_socket app=com.xunmeng.pinduoduo
+12-22 11:50:41.183  2027  3285 D libsensor-displayalgo: the value of  brightness:369.000000,R:70890239.206027,G:63382457.368488,B:50291292.731193,EVENT_C:3322.500000,EVENT_R:1375.500000,EVENT_G:1766.000000,EVENT_B:715.000000
+12-22 11:50:41.183  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 11:50:41.183  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 11:50:41.184  2027  3285 I libsensor-displayalgo: the value of  RESULT2482.127801,1013.814098,1202.772282,428.047677
+12-22 11:50:41.184  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2590.311385,940.824383,1387.144857,463.350886
+12-22 11:50:41.184  2027  3285 I libsensor-displayalgo: the value of  REAL LUX32.080914
+12-22 11:50:41.184  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX32.080914
+12-22 11:50:41.295 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:41.296 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:41.296 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:41.296 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:41.298 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:41.299 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:41.299 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:41.299 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:41.299 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:41.304  1251  2448 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+12-22 11:50:41.305  2027  2027 I libcitsensorservice@2.0-impl: msg_transfer
+12-22 11:50:41.306  2027  3266 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:10 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+12-22 11:50:41.306  1251  2215 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+12-22 11:50:41.308  1251 32185 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+12-22 11:50:41.316  1251 32185 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+12-22 11:50:41.316  1251 32185 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+12-22 11:50:41.317  1251 32185 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+12-22 11:50:41.317  1251 32185 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+12-22 11:50:41.320  1251  1467 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+12-22 11:50:41.328  1251 32186 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+12-22 11:50:41.328  1251 32186 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+12-22 11:50:41.328  1251 32186 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.
+12-22 11:50:41.482  2027  3285 D libsensor-displayalgo: the value of  brightness:369.000000,R:70890239.206027,G:63382457.368488,B:50291292.731193,EVENT_C:3326.000000,EVENT_R:1378.000000,EVENT_G:1768.000000,EVENT_B:717.000000
+12-22 11:50:41.482  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 11:50:41.482  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 11:50:41.483  2027  3285 I libsensor-displayalgo: the value of  RESULT2482.127801,1013.814098,1202.772282,428.047677
+12-22 11:50:41.483  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2590.311385,940.824383,1387.144857,463.350886
+12-22 11:50:41.483  2027  3285 I libsensor-displayalgo: the value of  REAL LUX32.162193
+12-22 11:50:41.483  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX32.162193
+12-22 11:50:41.630 30932 30941 I tomator2.serve: This is sticky GC, maxfree is 8388608 minfree is 2097152
+12-22 11:50:41.646 30932 30941 I tomator2.serve: This is non sticky GC, maxfree is 8388608 minfree is 2097152
+12-22 11:50:41.671 30932 30962 I appium  : AppiumResponse: {"sessionId":"d04556ec-3a9e-4037-bf27-d12cab210bb7","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAAlgCAYAAABtGofVAAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHicbJ3pjiRJcqTV7/AjjqwnJXYIDDDkLJvYJfdtuzLjco/wa3+ofWIWDRbQ\n6O6qrAg/zFRFRUTVsu/v731dV2vbzpZltnVdrWkONo5Py/Pcuq63dV3t9ZqsKArj17Isdj5/2Ty/\nbV1XW…
+12-22 11:50:41.680 30932 30941 I tomator2.serve: This is sticky GC, maxfree is 8388608 minfree is 2097152
+12-22 11:50:41.696 30932 30941 I tomator2.serve: This is non sticky GC, maxfree is 8388608 minfree is 2097152
+12-22 11:50:41.782  2027  3285 D libsensor-displayalgo: the value of  brightness:369.000000,R:70890239.206027,G:63382457.368488,B:50291292.731193,EVENT_C:3326.000000,EVENT_R:1378.000000,EVENT_G:1768.000000,EVENT_B:717.000000
+12-22 11:50:41.782  2027  3285 I libsensor-displayalgo: the value of  Coef1:1107.681000,Coef4:2.383000, scale1:0.935522, scale4:0.923264
+12-22 11:50:41.782  2027  3285 E libsensor-displayalgo: RGB_test_0407_400_oldzy!
+12-22 11:50:41.782  2027  3285 I libsensor-displayalgo: the value of  RESULT2482.127801,1013.814098,1202.772282,428.047677
+12-22 11:50:41.782  2027  3285 I libsensor-displayalgo: the value of  getChannelDataCalibrated2590.311385,940.824383,1387.144857,463.350886
+12-22 11:50:41.782  2027  3285 I libsensor-displayalgo: the value of  REAL LUX32.162193
+12-22 11:50:41.782  2027  3285 I libsensor-displayalgo: the value of  CAL REAL LUX32.162193
+12-22 11:50:41.801 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:41.801 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:41.801 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:41.801 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:41.802 30996 30996 I HandWritingStubImpl: isKeyboardTypeChanged: false
+12-22 11:50:41.814  1251  2448 I vendor.qti.hardware.display.composer-service: FrameNotifyProcess Sensor: notify citsensorservice to trigger cwb
+12-22 11:50:41.815  2027  4130 I libcitsensorservice@2.0-impl: msg_transfer
+12-22 11:50:41.815  2027  3266 D vendor.xiaomi.sensor.citsensorservice@2.0-service: handle id:10 wxh:1280x2400 uwxuh:1080x2400 size: 9216000 fd:15 fd_meta:16 flags:0x4000228 usage:0x33  format:0x3 layer_count: 1
+12-22 11:50:41.815  1251  2215 I SDM     : HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (829.000000 4.000000 915.000000 90.000000)
+12-22 11:50:41.830  1251 32190 I SDM     : HWCSession::ProcessRequests: Successfully configured CWB buffer.
+12-22 11:50:41.840  1251 32190 I SDM     : HWCSession::ProcessRequests: Pushing release fence in fenece wait queue.
+12-22 11:50:41.840  1251 32190 I SDM     : HWCSession::ProcessRequests: Creating AsyncFenceWaits async thread.
+12-22 11:50:41.841  1251 32190 I SDM     : HWCSession::ProcessRequests: Remove current CWB request from the pending request queue.
+12-22 11:50:41.841  1251 32190 I SDM     : HWCSession::ProcessRequests: No pending cwb requests found in the queue.
+12-22 11:50:41.848  1251  1467 I SDM     : HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+12-22 11:50:41.854  1251 32191 I SDM     : HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+12-22 11:50:41.855  1251 32191 I SDM     : HWCSession::PerformFenceWaits: Remove current release fence from the pending fence wait queue.
+12-22 11:50:41.855  1251 32191 I SDM     : HWCSession::PerformFenceWaits: CWB fence queue is empty. No pending release fence to wait on.

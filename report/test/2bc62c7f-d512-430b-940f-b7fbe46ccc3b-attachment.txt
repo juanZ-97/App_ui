@@ -1,0 +1,31 @@
+2023-06-20 18:54:00 [Info]:[获取]元素 判断标题是否启动音 
+2023-06-20 18:54:03 [Info]:系统按键返回上一页
+2023-06-20 18:54:05 [Info]:[获取]元素 判断标题是否为铃声推荐 
+2023-06-20 18:54:06 [Info]:系统按键返回上一页
+2023-06-20 18:54:11 [Info]:[获取]元素 判断我的 - 闹钟是否有「播完后关闭」字样 
+2023-06-20 18:54:18 [Info]:[滑动]向上刷新 
+2023-06-20 18:54:25 [Info]:系统按键返回上一页
+2023-06-20 18:54:29 [Info]:[获取]元素 判断标题是否有「客服娘」字样 
+2023-06-20 18:54:29 [Info]:系统按键返回上一页
+2023-06-20 18:54:30 [Info]:系统按键返回上一页
+2023-06-20 18:54:36 [Info]:系统按键返回上一页
+2023-06-20 18:54:39 [Info]:[获取]元素 判断标题是否包含追剧 
+2023-06-20 18:54:41 [Info]:系统按键返回上一页
+2023-06-20 18:54:42 [Info]:系统按键返回上一页
+2023-06-20 18:54:46 [Info]:[获取]元素 判断标题是否包含我的评论 
+2023-06-20 18:54:47 [Info]:系统按键返回上一页
+2023-06-20 18:54:49 [Info]:[获取]元素 判断标题是否包含艾特我的 
+2023-06-20 18:54:50 [Info]:系统按键返回上一页
+2023-06-20 18:54:52 [Info]:[获取]元素 判断标题是否包含收到的赞 
+2023-06-20 18:54:52 [Info]:系统按键返回上一页
+2023-06-20 18:54:54 [Info]:[获取]元素 判断标题是否包含系统通知 
+2023-06-20 18:54:55 [Info]:系统按键返回上一页
+Message: 查找元素
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:33:12)
+    at AndroidUiautomator2Driver.findElement (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:53:10)
+2023-06-20 18:55:04 [Error]:页面中未能找到 {'method': 'set_text', 'element': 'cn.missevan:id/editor', 'text': '今天天气怎么样？', 'name': '输入发送的私信消息', 'time': 5, 'type': 'id'} 元素
