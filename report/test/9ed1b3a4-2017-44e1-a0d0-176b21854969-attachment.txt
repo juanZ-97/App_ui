@@ -1,1 +1,0 @@
-2022-11-22 13:23:03 [Warn]:页面中未找到 {'method': 'is_element_displayed', 'element': 'cn.missevan:id/room_metal', 'name': '验证是否存在粉丝勋章（即是否进入直播间）', 'is_displayed': True, 'time': 5, 'type': 'id'} 

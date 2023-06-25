@@ -1,9 +1,0 @@
-2023-06-20 18:34:30 [Info]:[输入]元素 偷偷藏不住 
-Message: 查找元素
-Stacktrace:
-NoSuchElementError: An element could not be located on the page using the given search parameters.
-    at AndroidUiautomator2Driver.findElOrEls (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)
-    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:33:12)
-    at AndroidUiautomator2Driver.findElement (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:53:10)
-2023-06-20 18:34:36 [Error]:页面中未能找到 {'method': 'click', 'element': 'set_keycode_enter', 'name': '回车搜索', 'time': 5, 'type': 'accessibility id'} 元素

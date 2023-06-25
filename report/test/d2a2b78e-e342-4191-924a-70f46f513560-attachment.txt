@@ -1,1 +1,0 @@
-Unknown input method com.sohu.inputmethod.sogou/.SogouIME cannot be selected for user #0

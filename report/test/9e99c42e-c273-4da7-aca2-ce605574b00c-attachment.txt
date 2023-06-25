@@ -1,1 +1,0 @@
-2023-06-19 15:15:11 [Warn]:页面中未找到 {'method': 'is_element_displayed', 'element': 'cn.missevan:id/play', 'name': '验证页面是否存在暂停键', 'time': 5, 'type': 'id'} 

@@ -1,3 +1,0 @@
-2023-06-19 14:56:19 [Info]:[滑动]向左滑动
-2023-06-19 14:56:20 [Info]:系统按键返回上一页
-2023-06-19 14:56:27 [Warn]:页面中未找到 {'method': 'is_element_displayed', 'element': 'cn.missevan:id/header_download', 'name': '验证当前页面是否为剧集页', 'time': 5, 'type': 'id'} 
