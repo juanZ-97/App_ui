@@ -1,0 +1,194 @@
+home_03:
+# 声音恋人 - 女性向
+  -
+    method: click
+    element: cn.missevan:id/tv_tab_title
+    index: 3
+    name: 点击声音恋人
+  -
+    method: click
+    element: cn.missevan:id/iv_menu_icon
+    index: 0
+    name: 点击女性向
+  -
+    method: get_text
+    element: cn.missevan:id/tv_independent_header_title
+    name: 判断标题是否「女性向」
+    assert_text: 女性向
+  -
+    method: click
+    element: cn.missevan:id/iv_cover
+    index: 0
+    name: 点击第一个音单封面
+  -
+    method: is_element_displayed
+    element: cn.missevan:id/tv_play_all
+    name: 验证当前页面是否为音单详情页
+  -
+    method: back_press
+    name: 返回到上一页
+  -
+    method: back_press
+    name: 返回到上一页
+# 声音恋人 - 男性向
+  -
+    method: click
+    element: cn.missevan:id/iv_menu_icon
+    index: 1
+    name: 点击男性向
+  -
+    method: get_text
+    element: cn.missevan:id/tv_independent_header_title
+    name: 判断标题是否「男性向」
+    assert_text: 男性向
+  -
+    method: click
+    element: cn.missevan:id/iv_cover
+    index: 0
+    name: 点击第一个音单封面
+  -
+    method: is_element_displayed
+    element: cn.missevan:id/tv_play_all
+    name: 验证当前页面是否为音单详情页
+  -
+    method: back_press
+    name: 返回到上一页
+  -
+    method: back_press
+    name: 返回到上一页
+# 声音恋人 - 热门排行
+  -
+    method: click
+    element: cn.missevan:id/iv_menu_icon
+    index: 2
+    name: 点击男性向
+  -
+    method: get_text
+    element: cn.missevan:id/tv_independent_header_title
+    name: 判断标题是否「免费周榜」
+    assert_text: 免费周榜
+  -
+    method: click
+    element: (10, 400)
+    name: 点击全部播放
+  -
+    method: is_element_displayed
+    element: cn.missevan:id/playViewsContainer
+    name: 验证页面是否存在播放视图容器
+  -
+    method: back_press
+    name: 返回到上一页
+  -
+    method: click
+    element: cn.missevan:id/sound_cover
+    index: 0
+    name: 点击第一个音频封面
+  -
+    method: is_element_displayed
+    element: cn.missevan:id/playViewsContainer
+    name: 验证页面是否存在播放视图容器
+  -
+    method: back_press
+    name: 返回到上一页
+  -
+    method: click
+    element: cn.missevan:id/tv_tab_title
+    index: 1
+    name: 切换到男性向
+  -
+    method: click
+    element: cn.missevan:id/sound_cover
+    index: 0
+    name: 点击第一个音频封面
+  -
+    method: is_element_displayed
+    element: cn.missevan:id/playViewsContainer
+    name: 验证页面是否存在播放视图容器
+  -
+    method: back_press
+    name: 返回到上一页
+  -
+    method: back_press
+    name: 返回到上一页
+# 声音恋人 - 手机恋人
+  -
+    method: click
+    element: cn.missevan:id/iv_menu_icon
+    index: 3
+    name: 点击声音恋人
+  -
+    method: sleep
+    element: 1
+    name: 等待 1s
+  -
+    method: get_text
+    element: cn.missevan:id/toolbarTitle
+    name: 判断标题是否「手机恋人」
+    assert_text: 手机恋人
+  -
+    method: click
+    element: //android.view.View[@content-desc="zxbf"]
+    name: 点击掌心恋人
+  -
+    method: click
+    element: android.widget.Image
+    index: 0
+    name: 点击第一行聊天记录
+  -
+    method: click
+    element: (500, 2252)
+    name: 点击输入聊天记录
+  -
+    method: click
+    element: (500, 2000)
+    name: 点击选择回复的信息
+  -
+    method: back_press
+    name: 返回到上一页
+  -
+    method: back_press
+    name: 返回到上一页
+# 声音恋人 - 大家都在听
+  -
+    method: click
+    element: cn.missevan:id/tag
+    name: 点击大家都在听 - 第一个 tag
+# 此处可能配置播放页链接，故删去音单的验证
+#  -
+#    method: is_element_displayed
+#    element: cn.missevan:id/tv_play_all
+#    name: 验证当前页面是否为音单详情页
+  -
+    method: back_press
+    name: 返回到上一页
+  -
+    method: get_text
+    element: cn.missevan:id/tv_menu_title
+    index: 0
+    name: 判断标题是否为女性向
+    assert_text: 女性向
+# 声音恋人 - 精选音单
+  -
+    method: click
+    element: cn.missevan:id/tv_head_more
+    name: 点击精选音单 - 更多
+  -
+    method: get_text
+    element: cn.missevan:id/tv_independent_header_title
+    name: 判断标题是否「精选音单」
+    assert_text: 精选音单
+  -
+    method: click
+    element: cn.missevan:id/iv_cover
+    index: 0
+    name: 点击精选音单下第一个音单封面
+  -
+    method: is_element_displayed
+    element: cn.missevan:id/tv_play_all
+    name: 验证当前页面是否为音单详情页
+  -
+    method: back_press
+    name: 返回到上一页
+  -
+    method: back_press
+    name: 返回到上一页

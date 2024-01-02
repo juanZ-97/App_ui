@@ -1,0 +1,385 @@
+home_02:
+# 广播剧 - 时间表
+  -
+    method: click
+    element: cn.missevan:id/tv_tab_title
+    index: 2
+    name: 点击广播剧
+  -
+    method: get_text
+    element: cn.missevan:id/tv_head_title
+    name: 判断标题是否我的追剧
+    assert_text: 我的追剧
+  -
+    method: click
+    element: cn.missevan:id/iv_menu_icon
+    index: 0
+    name: 点击时间表
+  -
+    method: get_text
+    element: cn.missevan:id/tv_independent_header_title
+    name: 判断标题是否「剧集更新表」
+    assert_text: 剧集更新表
+  -
+    method: click
+    element: cn.missevan:id/tvDayOfMonth
+    index: 5
+    name: 点击前一天的更新表
+  -
+    method: click
+    element: cn.missevan:id/drama_cover
+    index: 0
+    name: 点击第一个剧集封面
+  -
+    method: is_element_displayed
+    element: cn.missevan:id/header_download
+    name: 验证当前页面是否为剧集页
+  -
+    method: back_press
+    name: 返回到上一页
+  -
+    method: back_press
+    name: 返回到上一页
+# 广播剧 - 索引
+  -
+    method: click
+    element: cn.missevan:id/iv_menu_icon
+    index: 1
+    name: 点击索引
+  -
+    method: get_text
+    element: cn.missevan:id/tv_independent_header_title
+    name: 判断标题是否「剧集索引」
+    assert_text: 剧集索引
+  -
+    method: click
+    element: android.widget.TextView
+    index: 5
+    name: 点击全一期
+  -
+    method: click
+    element: android.widget.TextView
+    index: 9
+    name: 点击言情
+  -
+    method: click
+    element: android.widget.TextView
+    index: 16
+    name: 点击付费
+  -
+    method: get_text
+    element: cn.missevan:id/item_drama_result_title
+    name: 判断第一个剧集标题是否是「二哈和他的白猫师尊」
+    assert_text: 二哈和他的白猫师尊
+    is_not_exist: True
+  -
+    method: back_press
+    name: 返回
+# 广播剧 - 完结
+  -
+    method: click
+    element: cn.missevan:id/iv_menu_icon
+    index: 2
+    name: 点击完结
+  -
+    method: get_text
+    element: cn.missevan:id/tv_independent_header_title
+    name: 判断标题是否「完结」
+    assert_text: 完结
+  -
+    method: click
+    element: cn.missevan:id/cover_mask
+    index: 0
+    name: 点击第一个剧集封面
+  -
+    method: is_element_displayed
+    element: cn.missevan:id/header_download
+    name: 验证当前页面是否为剧集页
+  -
+    method: back_press
+    name: 返回到上一页
+  -
+    method: click
+    element: cn.missevan:id/tab
+    index: 1
+    name: 点击「最多播放」
+  -
+    method: get_text
+    element: cn.missevan:id/title
+    name: 判断第一个剧集标题是否是「我在无限游戏里封神 第一季」
+    assert_text: 我在无限游戏里封神 第一季
+    is_not_exist: True
+  -
+    method: click
+    element: cn.missevan:id/tab
+    index: 2
+    name: 点击「最多评论」
+  -
+    method: get_text
+    element: cn.missevan:id/title
+    name: 判断第一个剧集标题是否是「我在无限游戏里封神 第一季」
+    assert_text: 我在无限游戏里封神 第一季
+    is_not_exist: True
+  -
+    method: click
+    element: cn.missevan:id/tab
+    index: 3
+    name: 点击「最新更新」
+  -
+    method: get_text
+    element: cn.missevan:id/title
+    name: 判断第一个剧集标题是否是「我在无限游戏里封神 第一季」
+    assert_text: 我在无限游戏里封神 第一季
+    is_not_exist: True
+  -
+    method: back_press
+    name: 返回
+# 广播剧 - 未完结
+  -
+    method: click
+    element: cn.missevan:id/iv_menu_icon
+    index: 3
+    name: 点击未完结
+  -
+    method: get_text
+    element: cn.missevan:id/tv_independent_header_title
+    name: 判断标题是否「未完结」
+    assert_text: 未完结
+  -
+    method: click
+    element: cn.missevan:id/cover_mask
+    index: 0
+    name: 点击第一个剧集封面
+  -
+    method: is_element_displayed
+    element: cn.missevan:id/header_download
+    name: 验证当前页面是否为剧集页
+  -
+    method: back_press
+    name: 返回到上一页
+  -
+    method: click
+    element: cn.missevan:id/tab
+    index: 1
+    name: 点击「最多播放」
+  -
+    method: get_text
+    element: cn.missevan:id/title
+    name: 判断第一个剧集标题是否是「天官赐福 第一季」
+    assert_text: 天官赐福 第一季
+    is_not_exist: True
+  -
+    method: click
+    element: cn.missevan:id/tab
+    index: 2
+    name: 点击「最多评论」
+  -
+    method: get_text
+    element: cn.missevan:id/title
+    name: 判断第一个剧集标题是否是「天官赐福 第一季」
+    assert_text: 天官赐福 第一季
+    is_not_exist: True
+  -
+    method: click
+    element: cn.missevan:id/tab
+    index: 3
+    name: 点击「最新更新」
+  -
+    method: get_text
+    element: cn.missevan:id/title
+    name: 判断第一个剧集标题是否是「天官赐福 第一季」
+    assert_text: 天官赐福 第一季
+    is_not_exist: True
+  -
+    method: back_press
+    name: 返回
+# 广播剧 - 全一期
+  -
+    method: click
+    element: cn.missevan:id/iv_menu_icon
+    index: 4
+    name: 点击全一期
+  -
+    method: get_text
+    element: cn.missevan:id/tv_independent_header_title
+    name: 判断标题是否「全一期」
+    assert_text: 全一期
+  -
+    method: click
+    element: cn.missevan:id/cover_mask
+    index: 0
+    name: 点击第一个剧集封面
+  -
+    method: is_element_displayed
+    element: cn.missevan:id/header_download
+    name: 验证当前页面是否为剧集页
+  -
+    method: back_press
+    name: 返回到上一页
+  -
+    method: click
+    element: cn.missevan:id/tab
+    index: 1
+    name: 点击「最多播放」
+  -
+    method: get_text
+    element: cn.missevan:id/title
+    name: 判断第一个剧集标题是否是「如何拱到一个白菜」
+    assert_text: 如何拱到一个白菜
+    is_not_exist: True
+  -
+    method: click
+    element: cn.missevan:id/tab
+    index: 2
+    name: 点击「最多评论」
+  -
+    method: get_text
+    element: cn.missevan:id/title
+    name: 判断第一个剧集标题是否是「如何拱到一个白菜」
+    assert_text: 如何拱到一个白菜
+    is_not_exist: True
+  -
+    method: click
+    element: cn.missevan:id/tab
+    index: 3
+    name: 点击「最新更新」
+  -
+    method: get_text
+    element: cn.missevan:id/title
+    name: 判断第一个剧集标题是否是「如何拱到一个白菜」
+    assert_text: 如何拱到一个白菜
+    is_not_exist: True
+  -
+    method: back_press
+    name: 返回
+# 广播剧 - 我的追剧
+  -
+    method: click
+    element: cn.missevan:id/cover
+    index: 0
+    name: 点击我的追剧 - 第一个剧集
+  -
+    method: is_element_displayed
+    element: cn.missevan:id/header_download
+    name: 验证当前页面是否为剧集页
+  -
+    method: back_press
+    name: 返回到上一页
+  -
+    method: click
+    element: cn.missevan:id/tv_head_more
+    name: 点击我的追剧 - 查看全部
+  -
+    method: get_text
+    element: cn.missevan:id/tv_independent_header_title
+    name: 判断标题是否「追剧」
+    assert_text: 追剧
+  -
+    method: click
+    element: cn.missevan:id/cover_mask
+    index: 0
+    name: 点击第一个剧集封面
+  -
+    method: is_element_displayed
+    element: cn.missevan:id/header_download
+    name: 验证当前页面是否为剧集页
+  -
+    method: back_press
+    name: 返回到上一页
+  -
+    method: click
+    element: cn.missevan:id/tv_tab
+    index: 1
+    name: 点击「最新追剧」
+  -
+    method: is_element_displayed
+    element: cn.missevan:id/cover
+    name: 验证当前页面是否有剧集
+  -
+    method: click
+    element: cn.missevan:id/tv_tab
+    index: 2
+    name: 点击「最近收听」
+  -
+    method: is_element_displayed
+    element: cn.missevan:id/cover
+    name: 验证当前页面是否有剧集
+  -
+    method: back_press
+    name: 返回到上一页
+# 广播剧 - 免费周榜
+  -
+    method: swip_up
+    name: 上滑
+  -
+    method: click
+    element: cn.missevan:id/header_more
+    name: 点击免费周榜 - 查看榜单
+  -
+    method: get_text
+    element: cn.missevan:id/tv_independent_header_title
+    name: 判断标题是否「免费周榜」
+    assert_text: 免费周榜
+  -
+    method: click
+    element: cn.missevan:id/drama_cover
+    index: 0
+    name: 点击第一个剧集封面
+  -
+    method: is_element_displayed
+    element: cn.missevan:id/header_download
+    name: 验证当前页面是否为剧集页
+  -
+    method: back_press
+    name: 返回到上一页
+  -
+    method: click
+    element: cn.missevan:id/tv_tab_title
+    index: 1
+    name: 点击「未完结」
+  -
+    method: get_text
+    element: cn.missevan:id/title
+    name: 判断第一个剧集标题是否是「虚拟偶像综艺丨《险象环声》」
+    assert_text: 虚拟偶像综艺丨《险象环声》
+    is_not_exist: True
+  -
+    method: click
+    element: cn.missevan:id/tv_tab_title
+    index: 2
+    name: 点击「全一期」
+  -
+    method: get_text
+    element: cn.missevan:id/title
+    name: 判断第一个剧集标题是否是「虚拟偶像综艺丨《险象环声》」
+    assert_text: 虚拟偶像综艺丨《险象环声》
+    is_not_exist: True
+  -
+    method: back_press
+    name: 返回到上一页
+# 广播剧 - 大家都在听
+  -
+    method: click
+    element: cn.missevan:id/tag
+    name: 点击大家都在听 - 第一个 tag
+  -
+    method: click
+    element: cn.missevan:id/cover
+    index: 0
+    name: 点击第一个剧集封面
+  -
+    method: is_element_displayed
+    element: cn.missevan:id/header_download
+    name: 验证当前页面是否为剧集页
+  -
+    method: back_press
+    name: 返回到上一页
+  -
+    method: back_press
+    name: 返回到上一页
+  -
+    method: back_press
+    name: 返回到上一页
+  -
+    method: back_press
+    name: 返回到上一页

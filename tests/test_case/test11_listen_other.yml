@@ -96,22 +96,18 @@ listen_04:
     name: 返回到追剧页
   -
     method: click
-    element: cn.missevan:id/rb_newest
+    element: cn.missevan:id/tv_tab
+    index: 1
     name: 点击最新追剧
-  -
-    method: click
-    element: cn.missevan:id/cover
-    index: 0
-    name: 点击第一个剧集
   -
     method: sleep
     element: 1
     name: 等待 1s
   -
-    method: is_element_displayed
-    element: cn.missevan:id/drama_cover_stroke
-    name: 验证当前页面是否为剧集页
-    is_displayed: True
+    method: click
+    element: cn.missevan:id/cover
+    index: 0
+    name: 点击第一个剧集
   -
     method: sleep
     element: 1

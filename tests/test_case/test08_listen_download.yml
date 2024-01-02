@@ -48,6 +48,10 @@ listen_01:
     element: cn.missevan:id/nav_icon_listen
     name: 点击我听 tab
   -
+    method: sleep
+    element: 1
+    name: 等待 1s
+  -
     method: click
     element: cn.missevan:id/tv_menu_title
     index: 0
@@ -112,15 +116,14 @@ listen_01:
   -
     method: click
     element: cn.missevan:id/cover_img
-    index: 0
     name: 进入普通音频播放页
   -
     method: swip_up
     name: 向上滑
   -
     method: sleep
-    element: 1
-    name: 等待 1s
+    element: 5
+    name: 等待 5s
   -
     method: get_text
     element: cn.missevan:id/sound_title

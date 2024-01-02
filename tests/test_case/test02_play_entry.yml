@@ -1,8 +1,10 @@
 play_01:
   # 首页 - 广播剧 tab 进入剧集页
   -
-    method: swip_left
-    name: 右滑至首页 - 广播剧 tab
+    method: click
+    element: cn.missevan:id/tv_tab_title
+    index: 2
+    name: 点击广播剧
   -
     method: click
     element: cn.missevan:id/title
@@ -101,6 +103,10 @@ play_01:
     method: click
     element: (534, 2229)
     name: 点击播放喵回到播放页
+  -
+    method: click
+    element: cn.missevan:id/tvCancel
+    name: 点击悬浮窗权限提示弹窗的我知道了
   -
     method: is_element_displayed
     element: cn.missevan:id/playViewsContainer

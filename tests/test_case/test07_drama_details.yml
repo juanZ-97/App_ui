@@ -65,6 +65,10 @@ play_06:
     element: cn.missevan:id/show_all_episodes
     name: 点击剧集选集半窗
   -
+    method: sleep
+    element: 1
+    name: 等待 1s
+  -
     method: click
     element: cn.missevan:id/layout
     index: 1
@@ -83,12 +87,12 @@ play_06:
     name: 点击播放页剧集头像
   -
     method: click
-    element: cn.missevan:id/character
+    element: cn.missevan:id/avatar
     name: 点击声优头像进入声优百科页
   -
     method: sleep
-    element: 1
-    name: 等待 1s
+    element: 15
+    name: 等待 15s
   -
     method: get_text
     element: cn.missevan:id/toolbarTitle
@@ -107,6 +111,13 @@ play_06:
     method: sleep
     element: 1
     name: 等待 1s
+#  -
+#    method: is_element_displayed
+#    element: cn.missevan:id/header_download
+#    name: 验证当前页面是否为剧集页
+  -
+    method: back_press
+    name: 返回到上一页
   -
     method: is_element_displayed
     element: cn.missevan:id/header_download
@@ -117,9 +128,12 @@ play_06:
   -
     method: back_press
     name: 返回到上一页
+# 暂时先加 20s 等待，最近网络很慢，给 20 秒下载时间
   -
-    method: back_press
-    name: 返回到上一页
+    method: sleep
+    element: 20
+    name: 等待 1s
+
 #  -
 #    method: back_press
 #    name: 返回到上一页

@@ -73,16 +73,18 @@ listen_02:
   # 收藏 / 取消收藏音单
   -
     method: click
-    element: cn.missevan:id/tvTitle
-    index: 1
-    name: 点击收藏音单
+    element: cn.missevan:id/tv_tag
+    name: 打开收藏音单
+#  -
+#    method: sleep
+#    element: 2
+#    name: 等待 2s
   -
-    method: sleep
-    element: 2
-    name: 等待 2s
+    method: swip_up
+    name: 向上滑
   -
     method: click
-    element: cn.missevan:id/tv_title
+    element: cn.missevan:id/iv_cover
     name: 点击第一个收藏音单的封面
   -
     method: click
@@ -113,6 +115,19 @@ listen_02:
     method: click
     element: cn.missevan:id/tv_comment
     name: 点击音单内的评论按钮
+  -
+    method: click
+    element: cn.missevan:id/danmu_edit
+    name: 发送评论
+  -
+    method: set_text
+    element: cn.missevan:id/edit_view
+    text: 感觉不错
+    name: 输入评论
+  -
+    method: click
+    element: cn.missevan:id/send
+    name: 发送消息
   -
     method: click
     element: cn.missevan:id/danmu_edit
@@ -155,7 +170,6 @@ listen_02:
     element: cn.missevan:id/comment_content
     name: 判断当前第一条评论的内容是否为刚才评论的
     assert_text: 好听[收听]
-
   -
     method: click
     element: cn.missevan:id/comment_expand_operator
@@ -191,6 +205,10 @@ listen_02:
   -
     method: back_press
     name: 返回
+  -
+    method: back_press
+    name: 返回
+# 偶现无法退出我的收藏页，故此多加一个返回以防万一
   -
     method: back_press
     name: 返回

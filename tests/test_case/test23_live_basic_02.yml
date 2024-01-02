@@ -1,0 +1,180 @@
+live_02:
+# 以下内容在关播直播间操作
+# 打开主播个人主页
+  -
+    method: click
+    element: cn.missevan:id/avatar
+    name: 点击直播间左上角主播头像
+  -
+    method: click
+    element: cn.missevan:id/home
+    name: 进入主播主页
+  -
+    method: sleep
+    element: 1
+    name: 等待 1s
+  -
+    method: is_element_displayed
+    element: cn.missevan:id/real_header_bg
+    name: 验证是否存在个人主页
+    is_displayed: True
+# 点击主播个人主页右上角的直播间按钮去往直播间
+  -
+    method: click
+    element: cn.missevan:id/iv_live
+    name: 返回直播间
+  -
+    method: click
+    element: (900, 500)
+    name: 点击空白处关闭关播直播间的推荐半窗
+  -
+    method: click
+    element: cn.missevan:id/avatar
+    name: 点击直播间左上角主播头像
+# 个人名片 - 举报
+  -
+    method: click
+    element: cn.missevan:id/avatar
+    name: 点击直播间左上角主播头像
+  -
+    method: click
+    element: cn.missevan:id/report_user
+    name: 举报
+  -
+    method: click
+    element: cn.missevan:id/confirm
+    name: 点击举报 - 确认
+  -
+    method: get_toast
+    assert_text: 举报成功
+    name: 判断 toast 是否包含举报成功字样
+
+# 个人名片 - 粉丝半窗
+  -
+    method: click
+    element: cn.missevan:id/ll_fans
+    name: 点击粉丝勋章
+  -
+    method: get_text
+    element: cn.missevan:id/tvAnchorName
+    name: 判断当前是否已处于粉丝勋章半窗
+    assert_text: 可以的原谅你了啦的粉丝
+  -
+    method: click
+    element: (900, 500)
+    name: 点击空白处关闭半窗
+# 个人名片 - 超粉半窗
+  -
+    method: click
+    element: cn.missevan:id/ll_super_fans
+    name: 点击超级粉丝
+  -
+    method: get_text
+    element: cn.missevan:id/tvAnchorName
+    name: 判断当前是否已处于超级粉丝半窗
+    assert_text: 可以的原谅你了啦的超级粉丝
+  -
+    method: click
+    element: (900, 500)
+    name: 点击空白处关闭半窗
+# 个人名片 - 礼物墙
+  -
+    method: click
+    element: cn.missevan:id/ll_gift_wall
+    name: 点击礼物墙
+  -
+    method: get_text
+    element: cn.missevan:id/lookup_reward
+    name: 判断当前是否已处于礼物墙半窗
+    assert_text: 查看奖励
+  -
+    method: click
+    element: (900, 500)
+    name: 点击空白处关闭半窗
+
+# 个人名片 - 关注 / 取消关注
+  -
+    method: click
+    element: cn.missevan:id/concern
+    name: 点击主播名片 - 关注
+  -
+    method: click
+    element: cn.missevan:id/concern
+    name: 点击主播名片 - 关注
+  -
+    method: click
+    element: cn.missevan:id/tv_sure
+    name: 点击确认取消关注按钮
+  -
+    method: click
+    element: (900, 500)
+    name: 点击空白处关闭半窗
+
+# 关注直播间按钮
+  -
+    method: click
+    element: cn.missevan:id/concern
+    name: 点击关注
+  -
+    method: get_toast
+    assert_text: 关注成功
+    name: 判断 toast 是否包含举报成功字样
+  -
+    method: click
+    element: cn.missevan:id/avatar
+    name: 点击直播间左上角主播头像
+  -
+    method: click
+    element: cn.missevan:id/concern
+    name: 点击主播名片 - 关注
+  -
+    method: click
+    element: cn.missevan:id/tv_sure
+    name: 点击确认取消关注按钮
+  -
+    method: click
+    element: (900, 500)
+    name: 点击空白处关闭半窗
+# 贵宾榜
+  -
+    method: click
+    element: cn.missevan:id/nobleLayout
+    name: 点击贵宾榜按钮
+  -
+    method: get_text
+    element: cn.missevan:id/bottomsheet_header_title
+    name: 判断当前是否已处于贵宾榜
+    assert_text: 贵宾
+  -
+    method: click
+    element: cn.missevan:id/noble_myinfo_action
+    name: 点击贵宾榜底部 - 开通贵族
+  -
+    method: sleep
+    element: 3
+    name: 等待 3s
+  -
+    method: get_text
+    element: cn.missevan:id/tv_independent_header_title
+    name: 判断当前是否已处于直播贵族详情页
+    assert_text: 直播贵族
+  -
+    method: click
+    element: cn.missevan:id/back_left
+    name: 返回直播间
+  -
+    method: click
+    element: (900, 500)
+    name: 点击空白处关闭半窗
+# 用户贡献榜
+# 粉丝勋章半窗
+# 小时榜
+# 公告
+# 礼物半窗
+# 更多 - 分享
+# 更多 - 连麦
+# 更多 - 提问
+# 更多 - 礼物墙
+# 更多 - 红包
+# 更多 - 万事屋
+# 更多 - 举报

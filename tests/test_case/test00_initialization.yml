@@ -1,0 +1,104 @@
+test_initialization:
+  -
+    method: click
+    element: cn.missevan:id/agree
+  -
+    method: click
+    element: cn.missevan:id/ll_girl
+# 关闭首次登录弹出的登录弹窗
+  -
+    method: click
+    element: cn.missevan:id/nav_icon_mine
+    name: 点击我的图标
+  -
+    method: click
+    element: cn.missevan:id/nav_icon_mine
+    name: 点击我的图标
+  -
+    method: click
+    element: cn.missevan:id/close_button
+    name: 关闭自动弹出的登录弹窗
+# 首次进入启动音页
+  -
+    method: click
+    element: cn.missevan:id/new_function_layout
+    index: 0
+    name: 点击启动音
+  -
+    method: click
+    element: cn.missevan:id/tv_i_know
+    name: 点击启动音首次的提示确认弹窗
+  -
+    method: back_press
+    name: 返回
+# 打开访问系统文件设置
+#  -
+#    method: click
+#    element: cn.missevan:id/iv_settings
+#    name: 点击我的 - 设置
+#  -
+#    method: swip_up
+#    name: 向上滑动
+#  -
+#    method: click
+#    element: cn.missevan:id/privacy_permissions
+#    name: 点击隐私权限设置
+#  -
+#    method: click
+#    element: cn.missevan:id/title
+#    index: 3
+#    name: 点击允许猫耳FM使用文件存储和访问功能
+#  -
+#    method: click
+#    element: android.widget.LinearLayout
+#    index: 3
+#    name: 开启「读写手机存储」功能
+#  -
+#    method: click
+#    element: com.miui.securitycenter:id/item_group
+#    index: 3
+#    name: 点击始终允许
+#  -
+#    method: back_press
+#    name: 返回
+#  -
+#    method: click
+#    element: cn.missevan:id/iKnowTextView
+#    name: 点击未成年弹窗的「我知道了」
+#  -
+#    method: back_press
+#    name: 返回
+#  -
+#    method: back_press
+#    name: 返回
+  -
+    method: click
+    element: cn.missevan:id/nav_icon_home
+    name: 回到首页
+# 进入直播间
+  -
+    method: click
+    element: cn.missevan:id/iv_menu_icon
+    index: 0
+    name: 点击直播
+  -
+    method: click
+    element: cn.missevan:id/live_cover
+    index: 0
+    name: 进入热门第一个直播间
+  -
+    method: click
+    element: cn.missevan:id/iv_known
+    name: 关闭首次进入直播间的提示
+  -
+    method: click
+    element: cn.missevan:id/close_icon
+    name: 退出直播间
+  -
+    method: click
+    element: cn.missevan:id/confirm
+    name: 确认退出直播间
+
+
+
+

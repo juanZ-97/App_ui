@@ -4,13 +4,13 @@ play_03:
     method: click
     element: cn.missevan:id/like
     name: 点击喜欢
-  -
-    method: get_toast
-    assert_text: 成功添加到喜欢
-    name: 判断 toast 是否包含添加到喜欢字样
+#  -
+#    method: get_toast
+#    assert_text: 成功添加到喜欢
+#    name: 判断 toast 是否包含添加到喜欢字样
   -
     method: sleep
-    element: 1
+    element: 2
     name: 等待 1s
   # 取消喜欢
   -

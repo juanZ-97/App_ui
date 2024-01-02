@@ -144,15 +144,15 @@ mine_02:
     element: cn.missevan:id/new_function_layout
     index: 4
     name: 点击日常任务
-  -
-    method: click
-    element: cn.missevan:id/task_num_txt
-    index: 0
-    name: 点击摸鱼
-  -
-    method: click
-    element: cn.missevan:id/done
-    name: 点击摸鱼完成弹窗的完成按钮
+#  -
+#    method: click
+#    element: cn.missevan:id/task_num_txt
+#    index: 0
+#    name: 点击摸鱼
+#  -
+#    method: click
+#    element: cn.missevan:id/done
+#    name: 点击摸鱼完成弹窗的完成按钮
   -
     method: back_press
     name: 返回

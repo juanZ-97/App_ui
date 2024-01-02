@@ -1,0 +1,211 @@
+home_01:
+  # 推荐 - 直播
+  -
+    method: click
+    element: cn.missevan:id/nav_icon_home
+    name: 点击首页
+  -
+    method: click
+    element: cn.missevan:id/tv_tab_title
+    index: 0
+    name: 点击直播
+  -
+    method: is_element_displayed
+    element: cn.missevan:id/live_rank
+    name: 验证首页是否有主播榜
+  -
+    method: click
+    element: cn.missevan:id/tv_tab_title
+    index: 1
+    name: 点击推荐 tab
+# 推荐 - 广播剧
+  -
+    method: click
+    element: cn.missevan:id/iv_menu_icon
+    index: 1
+    name: 点击广播剧
+  -
+    method: get_text
+    element: cn.missevan:id/tv_head_title
+    name: 判断标题是否我的追剧
+    assert_text: 我的追剧
+  -
+    method: click
+    element: cn.missevan:id/tv_tab_title
+    index: 1
+    name: 点击推荐 tab
+# 推荐 - 排行榜
+  -
+    method: click
+    element: cn.missevan:id/iv_menu_icon
+    index: 2
+    name: 点击排行榜
+  -
+    method: sleep
+    element: 5
+  -
+    method: is_element_displayed
+    element: cn.missevan:id/action_bar_root
+    name: 判断是否进入猫耳排行榜页面
+  -
+    method: back_press
+    name: 返回
+# 推荐 - 小梦乡
+  -
+    method: click
+    element: cn.missevan:id/iv_menu_icon
+    index: 3
+    name: 点击小梦乡
+  -
+    method: is_element_displayed
+    element: cn.missevan:id/video_view
+    name: 验证当前页面是否存在播放页
+  -
+    method: click
+    element: cn.missevan:id/button_shadow
+    name: 点击最小化按钮
+  -
+    method: click
+    element: cn.missevan:id/minimize
+    name: 点击最小化
+  -
+    method: click
+    element: (534, 2229)
+    name: 点击播放喵回到小梦乡
+  -
+    method: click
+    element: cn.missevan:id/button_shadow
+    name: 点击最小化按钮
+  -
+    method: click
+    element: cn.missevan:id/quit
+    name: 点击退出小梦乡按钮
+# 推荐 - 猫耳商城
+  -
+    method: click
+    element: cn.missevan:id/iv_menu_icon
+    index: 4
+    name: 点击猫耳商城
+  -
+    method: get_text
+    element: cn.missevan:id/toolbarTitle
+    name: 判断标题是否为：猫耳商城
+    assert_text: 猫耳商城
+  -
+    method: back_press
+    name: 返回
+# 推荐 - 盲盒剧场
+  -
+    method: click
+    element: cn.missevan:id/iv_menu_icon
+    index: 5
+    name: 点击排行榜
+  -
+    method: is_element_displayed
+    element: cn.missevan:id/blind_box_background
+    name: 验证当前页面是否存在盲盒背景
+  -
+    method: click
+    element: cn.missevan:id/open
+    name: 开启盲盒
+  -
+    method: sleep
+    element: 5
+    name: 等待 5s 播放开启盲盒动画
+  -
+    method: is_element_displayed
+    element: cn.missevan:id/cat
+    name: 验证当前是否已出现开启盲盒成功弹窗上的猫
+  -
+    method: back_press
+    name: 返回
+  -
+    method: sleep
+    element: 1
+  -
+    method: back_press
+    name: 返回
+  -
+    method: back_press
+    name: 返回
+# 推荐 - 直播推荐
+  -
+    method: click
+    element: cn.missevan:id/room_cover
+    index: 0
+    name: 点击直播推荐第一个直播间
+  -
+    method: sleep
+    element: 1
+    name: 等待 1s
+  -
+    method: is_element_displayed
+    element: cn.missevan:id/room_metal
+    name: 验证是否存在粉丝勋章（即是否进入直播间）
+    is_displayed: True
+  -
+    method: click
+    element: cn.missevan:id/close_icon
+    name: 直播间 - 退出按钮
+  -
+    method: click
+    element: cn.missevan:id/confirm
+    name: 退出直播间弹窗 - 退出
+# 推荐 - 切换性别
+  -
+    method: click
+    element: cn.missevan:id/switch_gender
+    name: 切换到男性
+  -
+    method: sleep
+    element: 1
+    name: 等待 1s
+  -
+    method: swip_up
+    name: 上滑
+  -
+    method: swip_up
+    name: 上滑
+  -
+    method: swip_up
+    name: 上滑
+  -
+    method: is_element_displayed
+    element: cn.missevan:id/live_state
+    name: 验证是否存在正在直播标识
+    is_displayed: True
+  -
+    method: swip_down
+    name: 下滑
+  -
+    method: click
+    element: cn.missevan:id/switch_gender
+    name: 切换到女性
+  -
+    method: sleep
+    element: 1
+    name: 等待 1s
+  -
+    method: swip_up
+    name: 上滑
+  -
+    method: is_element_displayed
+    element: cn.missevan:id/live_state
+    name: 验证是否存在正在直播标识
+    is_displayed: False
+  -
+    method: swip_down
+    name: 下滑
+# 右上角历史记录
+  -
+    method: click
+    element: cn.missevan:id/home_history
+    name: 进入历史播放记录页面
+  -
+    method: get_text
+    element: cn.missevan:id/tv_independent_header_title
+    name: 判断当前页标题是否为「历史记录」
+    assert_text: 历史记录
+  -
+    method: back_press
+    name: 返回

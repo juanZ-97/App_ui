@@ -14,11 +14,12 @@ class Singleton(object):
     def __new__(cls, *args, **kw):
         if not hasattr(cls, '_instance'):
             udid = Device.get_android_devices()[0]
-            host = "http://localhost:4723/wd/hub"
+            host = "http://localhost:4722/wd/hub"
             desired_caps = {'appActivity': '.activity.MainActivity',
                             'appPackage': 'cn.missevan',
                             'autoGrantPermissions': True,
                             'autoLaunch': False,
+                            # 'autoLaunch': True,
                             'automationName': 'UiAutomator2',
                             'deviceName': udid,
                             'noReset': True,

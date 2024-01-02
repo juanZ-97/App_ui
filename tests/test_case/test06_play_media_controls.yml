@@ -28,7 +28,7 @@ play_05:
     name: 点击下一首
   -
     method: sleep
-    element: 1
+    element: 2
   -
     method: get_text
     element: com.android.systemui:id/header_title
@@ -41,7 +41,7 @@ play_05:
     name: 点击上一首
   -
     method: sleep
-    element: 1
+    element: 2
   -
     method: get_text
     element: com.android.systemui:id/header_title

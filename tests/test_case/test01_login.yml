@@ -1,4 +1,4 @@
-test_login:
+login:
   -
     method: launchApp # 重启 APP
 #  -
@@ -9,6 +9,10 @@ test_login:
   -
     method: sleep
     element: 1
+  -
+    method: click
+    element: cn.missevan:id/iKnowTextView
+    name: 点击未成年弹窗的「我知道了」
   -
     method: click
     element: cn.missevan:id/nav_icon_mine

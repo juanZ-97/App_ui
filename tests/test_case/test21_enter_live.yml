@@ -1,0 +1,87 @@
+live_01:
+# 以首页 - 推荐页为起点
+# 从直播 tab 下进入直播间
+  -
+    method: click
+    element: cn.missevan:id/iv_menu_icon
+    index: 0
+    name: 点击直播
+  -
+    method: click
+    element: cn.missevan:id/live_cover
+    index: 0
+    name: 进入热门第一个直播间
+  -
+    method: sleep
+    element: 1
+    name: 等待 1s
+  -
+    method: is_element_displayed
+    element: cn.missevan:id/room_metal
+    name: 验证是否存在粉丝勋章（即是否进入直播间）
+    is_displayed: True
+# 左右滑动切换直播间
+  -
+    method: swip_right
+    name: 右滑切换直播间
+  -
+    method: is_element_displayed
+    element: cn.missevan:id/room_metal
+    name: 验证是否存在粉丝勋章（即是否进入直播间）
+    is_displayed: True
+# 最小化直播间
+  -
+    method: click
+    element: cn.missevan:id/close_icon
+    name: 直播间 - 退出按钮
+  -
+    method: click
+    element: cn.missevan:id/minimize
+    name: 直播间 - 最小化按钮
+  -
+    method: click
+    element: (534, 2229)
+    name: 点击播放喵回到直播间
+  -
+    method: is_element_displayed
+    element: cn.missevan:id/room_metal
+    name: 验证是否存在粉丝勋章（即是否进入直播间）
+    is_displayed: True
+  -
+    method: click
+    element: cn.missevan:id/close_icon
+    name: 直播间 - 退出按钮
+  -
+    method: click
+    element: cn.missevan:id/confirm
+    name: 退出直播间弹窗 - 退出
+# 从搜索结果进入直播间
+  -
+    method: click
+    element: cn.missevan:id/fl_search
+    name: 点击搜索栏
+  -
+    method: set_text
+    element: cn.missevan:id/et_search
+    text: 可以的原谅你了啦
+    name: 输入搜索文案
+  -
+    method: set_keycode_enter
+    name: 点击回车键进行搜索
+  -
+    method: click
+    element: //android.widget.LinearLayout[@content-desc="直播 (1)"]
+    name: 点击搜索结果下的直播
+  -
+    method: click
+    element: cn.missevan:id/live_cover
+    index: 0
+    name: 点击直播 tab 下的第一个直播间
+  -
+    method: sleep
+    element: 1
+    name: 等待 1s
+  -
+    method: click
+    element: (900, 500)
+    name: 点击空白处关闭关播直播间的推荐半窗
